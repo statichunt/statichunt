@@ -1,0 +1,17 @@
+---
+title: Newsroom
+github: https://github.com/onweru/newsroom
+demo: https://rooms.netlify.com
+author: Weru
+ssg:
+  - Hugo
+cms:
+  - Markdown
+date: 2019-08-15T20:25:37.000Z
+description: A simple, minimalistic Hugo theme. View Demo here
+draft: false
+publish_date: '2019-08-15T20:25:37Z'
+update_date: '2022-01-14T00:00:31Z'
+github_star: 190
+github_fork: 83
+---

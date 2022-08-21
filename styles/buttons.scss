@@ -1,0 +1,31 @@
+.btn {
+  @apply inline-block rounded border-primary px-5 py-2 text-center text-[.9rem];
+}
+
+.btn-sm {
+  @apply px-3 py-2 text-sm;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-primary to-secondary text-white;
+}
+
+.btn-outline-primary {
+  @apply border-primary bg-transparent from-primary to-secondary hover:bg-gradient-to-r hover:text-white;
+}
+
+.btn-follow {
+  @apply ml-3 mr-2 rounded-full bg-[#2aa1f2] px-3 py-1 text-center text-xs text-white transition hover:bg-[#248fdb] sm:ml-5;
+}
+
+.btn-demo {
+  @apply border border-primary/25 from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white;
+}
+
+.btn-download {
+  @apply border border-primary/25 bg-primary/[.15] from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white;
+}
+
+.btn-fill {
+  @apply bg-gradient-to-r from-primary to-secondary text-white;
+}

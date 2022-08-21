@@ -1,0 +1,19 @@
+---
+title: Gatsby Simple Blog
+github: https://github.com/thundermiracle/gatsby-simple-blog
+demo: https://gatsby-simple-blog.thundermiracle.com/
+author: ThunderMiracle
+ssg:
+  - Gatsby
+cms:
+  - Markdown
+date: 2019-05-14T11:18:12.000Z
+description: >-
+  an easily configurable gatsby-starter-blog with overreacted looking and tags,
+  breadcrumbs, disqus, i18n, eslint supported
+draft: false
+publish_date: '2019-05-14T11:18:12Z'
+update_date: '2022-08-03T07:02:18Z'
+github_star: 49
+github_fork: 23
+---

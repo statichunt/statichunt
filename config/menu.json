@@ -1,0 +1,117 @@
+{
+  "main": [
+    {
+      "name": "Themes",
+      "url": "/"
+    },
+    {
+      "name": "Resources",
+      "url": "/resources"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ],
+  "footer": [
+    {
+      "name": "statichunt",
+      "pages": [
+        {
+          "page": "themes",
+          "url": "/"
+        },
+        {
+          "page": "resources",
+          "url": "/resources"
+        },
+        {
+          "page": "about",
+          "url": "/about"
+        },
+        {
+          "page": "disclaimer",
+          "url": "/disclaimer"
+        }
+      ]
+    },
+    {
+      "name": "Themes",
+      "pages": [
+        {
+          "page": "hugo themes",
+          "url": "/hugo-themes"
+        },
+        {
+          "page": "next themes",
+          "url": "/next-themes"
+        },
+        {
+          "page": "gatsby themes",
+          "url": "/gatsby-themes"
+        },
+        {
+          "page": "jekyll themes",
+          "url": "/jekyll-themes"
+        },
+        {
+          "page": "eleventy themes",
+          "url": "/eleventy-themes"
+        },
+        {
+          "page": "gridsome themes",
+          "url": "/gridsome-themes"
+        },
+        {
+          "page": "hexo themes",
+          "url": "/hexo-themes"
+        },
+        {
+          "page": "mkdocs themes",
+          "url": "/mkdocs-themes"
+        },
+        {
+          "page": "nuxt themes",
+          "url": "/nuxt-themes"
+        },
+        {
+          "page": "vuepress themes",
+          "url": "/vuepress-themes"
+        }
+      ]
+    },
+    {
+      "name": "Resources",
+      "pages": [
+        {
+          "page": "chat",
+          "url": "/chat"
+        },
+        {
+          "page": "ecommerce",
+          "url": "/ecommerce"
+        },
+        {
+          "page": "feedback",
+          "url": "/feedback"
+        },
+        {
+          "page": "form",
+          "url": "/form"
+        },
+        {
+          "page": "helper",
+          "url": "/helper"
+        },
+        {
+          "page": "hosting",
+          "url": "/hosting"
+        },
+        {
+          "page": "search",
+          "url": "/search"
+        }
+      ]
+    }
+  ]
+}

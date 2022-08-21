@@ -1,0 +1,12 @@
+b,
+strong {
+  @apply font-semibold;
+}
+
+.shadow {
+  box-shadow: 0 2px 15px -4px #e9e9e9;
+}
+
+.shadow-lg {
+  box-shadow: 4px 4px 20px 6px rgb(0 0 0 / 10%);
+}

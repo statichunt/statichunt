@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Statichunt | A Curated Directory Of Jamstack Resources",
+    "base_url": "https://statichunt.com",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.svg",
+    "logo_width": "164",
+    "logo_height": "32",
+    "logo_text": "Statichunt",
+    "footer_logo": "/images/logo-white.svg"
+  },
+
+  "settings": {
+    "pagination": 2,
+    "summary_length": 200
+  },
+
+  "params": {
+    "mailchimp_url": "https://statichunt.us20.list-manage.com/subscribe/post?u=dee5423f5cc21fc892eced0e9&amp;id=af2dc095be",
+    "copyright": "Copyright © 2022 Statichunt"
+  },
+
+  "metadata": {
+    "meta_author": "Statichunt",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Statichunt is a free open-source Jamstack directory that lists hundreds of themes, starters, and resources for Jamstack sites."
+  },
+
+  "sidebar": [
+    { "type": "ssg", "title": "Static Site Generator" },
+    { "type": "cms", "title": "Jamstack CMS" },
+    { "type": "css", "title": "CSS Framework" },
+    { "type": "archetype", "title": "Archetype" },
+    { "type": "tool", "title": "Tool" }
+  ]
+}
