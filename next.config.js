@@ -4,7 +4,7 @@
 
 const nextConfig = {
   images: {
-    domains: ["github.com"],
+    domains: ["www.github.com"],
   },
   reactStrictMode: true,
   experimental: { images: { allowFutureImage: true } },
