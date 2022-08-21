@@ -14,7 +14,6 @@ archetype:
   - Portfolio
 date: 2018-01-09T22:28:21.000Z
 description: Airspace Hugo theme for multipurpose use, like Portfolio, Blog, Business.
-weight: 3
 publish_date: '2018-01-09T22:28:21Z'
 update_date: '2022-06-01T05:35:01Z'
 github_star: 289

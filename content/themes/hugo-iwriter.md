@@ -23,7 +23,6 @@ description: >-
   This personal blog template features a clean design pattern that beautifully
   presents your posts. Moreover, the neatly designed spacing,  carefully
   selected font, and quick loading speed make it a perfectly expandable theme.
-weight: 1
 publish_date: '2021-11-07T03:46:32Z'
 update_date: '2022-02-22T18:58:23Z'
 github_star: 0

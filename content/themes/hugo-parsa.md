@@ -16,8 +16,7 @@ archetype:
 date: 2019-05-15T08:33:57.000Z
 description: >-
   Parsa is a personal blog theme powered by Hugo. It has two homepages. Also can
-  be used for portfolio template
-weight: 11
+  be used for portfolio template1
 publish_date: '2019-05-15T08:33:57Z'
 update_date: '2022-06-01T05:27:10Z'
 github_star: 143

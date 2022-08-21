@@ -1,5 +1,6 @@
 import Image from "next/future/image";
 import Link from "next/link";
+import { TbExternalLink } from "react-icons/tb";
 import ToolsIcon from "./ToolsIcon";
 
 const Themes = ({ themes, tools }) => {
@@ -11,22 +12,31 @@ const Themes = ({ themes, tools }) => {
           key={`theme-${i}`}
         >
           <div className="theme-card">
-            <Link href={`/themes/${theme.slug}`}>
-              <a className="img-cover">
-                <Image
-                  src={`/themes/${theme.slug}.png`}
-                  height={250}
-                  width={300}
-                  alt={theme.frontmatter.title}
-                  className="rounded-t"
-                />
-              </a>
-            </Link>
+            <div className="img-cover relative">
+              <Image
+                src={`/themes/${theme.slug}.png`}
+                height={250}
+                width={300}
+                alt={theme.frontmatter?.title}
+                className="rounded-t"
+              />
+              <Link href={`/demo/${theme.slug}`}>
+                <a
+                  target="_blank"
+                  className="theme-card-preview"
+                  rel="noopener nofollow"
+                >
+                  <TbExternalLink />
+                </a>
+              </Link>
+            </div>
             <div className="theme-card-body">
               <div className="flex justify-between">
                 <h2 className="h6 mb-0 text-lg font-medium">
                   <Link href={`/themes/${theme.slug}`}>
-                    <a className="hover:underline">{theme.frontmatter.title}</a>
+                    <a className="hover:underline">
+                      {theme.frontmatter?.title}
+                    </a>
                   </Link>
                 </h2>
                 <span
@@ -40,50 +50,35 @@ const Themes = ({ themes, tools }) => {
                     height="16"
                     width="16"
                   />
-                  {theme.frontmatter.github_star < 1000
-                    ? theme.frontmatter.github_star
-                    : parseFloat(theme.frontmatter.github_star / 1000).toFixed(
+                  {theme.frontmatter?.github_star < 1000
+                    ? theme.frontmatter?.github_star
+                    : parseFloat(theme.frontmatter?.github_star / 1000).toFixed(
                         1
                       ) + "k"}
                 </span>
               </div>
               <span className="text-xs text-text-dark">
                 by{" "}
-                {theme.frontmatter.author
-                  ? theme.frontmatter.author
-                  : theme.frontmatter.github.match(
+                {theme.frontmatter?.author
+                  ? theme.frontmatter?.author
+                  : theme.frontmatter?.github.match(
                       /github\.com\/([^\/]+)/,
                       ""
                     )[0]}
               </span>
               <div className="mt-5 flex items-center">
-                <ToolsIcon tools={tools} type={theme.frontmatter.ssg} />
-                <ToolsIcon tools={tools} type={theme.frontmatter.cms} />
-                <ToolsIcon tools={tools} type={theme.frontmatter.css} />
-                <ToolsIcon tools={tools} type={theme.frontmatter.archetype} />
-              </div>
-            </div>
-            <div className="theme-card-footer">
-              <strong className="text-text-dark">Free</strong>
-              <div className="ml-auto space-x-2">
-                <Link href={`/demo/${theme.slug}`}>
+                <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
+                <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
+                <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
+                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.archetype} /> */}
+                <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
                   <a
-                    target="_blank"
-                    className="btn btn-sm btn-demo"
-                    rel="noopener nofollow"
-                    title={`Preview ${theme.frontmatter.title}`}
-                  >
-                    Preview
-                  </a>
-                </Link>
-                <Link href={`${theme.frontmatter.github}?ref=statichunt.com`}>
-                  <a
-                    className="btn btn-sm btn-download"
+                    className="btn btn-sm btn-download ml-auto"
                     target="_blank"
                     rel="noopener nofollow"
-                    title={`Download ${theme.frontmatter.title}`}
+                    title={`Download ${theme.frontmatter?.title}`}
                   >
-                    Get
+                    Download
                   </a>
                 </Link>
               </div>

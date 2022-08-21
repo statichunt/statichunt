@@ -1,11 +1,13 @@
+import HomeArchetype from "@components/HomeArchetype";
+import Intro from "@components/Intro";
+import Sidebar from "@components/Sidebar";
+import SortThemes from "@components/SortThemes";
+import Themes from "@components/Themes";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import Intro from "@layouts/components/Intro";
-import Sidebar from "@layouts/components/Sidebar";
-import Themes from "@layouts/components/Themes";
 import { getListPage, getSinglePages } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
-import { useEffect, useState } from "react";
+import { useReducer, useState } from "react";
 
 const Home = ({
   frontmatter: { intro },
@@ -23,37 +25,67 @@ const Home = ({
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
   const [arrayArchetype, setArrayArchetype] = useState([]);
+  const [isShow, setIsShow] = useState(false);
+  const [isValue, setIsValue] = useState("default");
 
-  // sorting
-  const [theme, setTheme] = useState([]);
-  const [sortTheme, setSortTheme] = useState([]);
+  // theme sorting
+  const defaultSort = themes.sort(
+    (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
+  );
 
-  const handleSort = (e) => {
-    const post = sortTheme.length
-      ? sortTheme.sort(
-          (a, b) =>
-            b.frontmatter[e.target.value] - a.frontmatter[e.target.value]
-        )
-      : themes.sort(
-          (a, b) =>
-            b.frontmatter[e.target.value] - a.frontmatter[e.target.value]
-        );
+  const reducer = (state, action) => {
+    switch (action.type) {
+      case "STAR":
+        const sortByStar = [
+          ...state.sort(
+            (a, b) => b.frontmatter?.github_star - a.frontmatter?.github_star
+          ),
+        ];
+        return sortByStar;
+      case "FORK":
+        const sortByFork = [
+          ...state.sort(
+            (a, b) => b.frontmatter?.github_fork - a.frontmatter?.github_fork
+          ),
+        ];
+        return sortByFork;
+      case "UPDATE":
+        const sortByUpdate = [
+          ...state.sort(
+            (a, b) =>
+              new Date(b.frontmatter?.update_date) -
+              new Date(a.frontmatter?.update_date)
+          ),
+        ];
+        return sortByUpdate;
+      case "DEFAULT":
+        const sortByDate = [
+          ...state.sort(
+            (a, b) =>
+              new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
+          ),
+        ];
+        return sortByDate;
 
-    if (e.target.value === "default") {
-      setSortTheme((prev) => [...themes]);
-    } else {
-      setSortTheme((prev) => [...post]);
+      default:
+        return state;
     }
   };
-  useEffect(() => {
-    if (!sortTheme.length) {
-      setTheme(themes);
-    } else {
-      setTheme(sortTheme);
-    }
-  }, [sortTheme, themes]);
+  const [currentTheme, dispatch] = useReducer(reducer, defaultSort);
 
-  const filterSSG = theme.filter((theme) =>
+  // show value
+  const handleClick = () => {
+    setIsShow(!isShow);
+  };
+  // sort buttons
+  const handleSortTheme = (e, type) => {
+    dispatch({ type: type });
+    setIsValue(e.target.value);
+    setIsShow(!isShow);
+  };
+
+  // theme filtering
+  const filterSSG = currentTheme?.filter((theme) =>
     arraySSG.length
       ? arraySSG.find((type) =>
           theme.frontmatter.ssg
@@ -90,14 +122,11 @@ const Home = ({
       : themes
   );
 
-  // console.log(themes);
-
   return (
     <Base>
       <div className="flex">
         <Sidebar
           sidebar={sidebar}
-          archetype={archetype}
           ssg={ssg}
           cms={cms}
           css={css}
@@ -108,29 +137,24 @@ const Home = ({
           arrayCMS={arrayCMS}
           setArrayCSS={setArrayCSS}
           arrayCSS={arrayCSS}
-          setArrayArchetype={setArrayArchetype}
-          arrayArchetype={arrayArchetype}
         />
         <main className="main">
           <div className="container">
             <Intro data={intro} />
-            <button
-              className="mr-3"
-              value="default"
-              onClick={(e) => handleSort(e)}
-            >
-              default
-            </button>
-            <button value="github_star" onClick={(e) => handleSort(e)}>
-              star
-            </button>
-            <button
-              className="ml-3"
-              value="github_fork"
-              onClick={(e) => handleSort(e)}
-            >
-              fork
-            </button>
+            <div className="mb-8 flex justify-between">
+              <HomeArchetype
+                themes={themes}
+                archetype={archetype}
+                arrayArchetype={arrayArchetype}
+                setArrayArchetype={setArrayArchetype}
+              />
+              <SortThemes
+                isShow={isShow}
+                isValue={isValue}
+                handleSortTheme={handleSortTheme}
+                handleClick={handleClick}
+              />
+            </div>
 
             <Themes themes={filterArchetype} tools={tools} />
           </div>

@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Logo = ({ src, height, width, className }) => {
   // destructuring items from config object
-  const { base_url, title, logo_height, logo_width } = config.site;
+  const { title, logo_height, logo_width } = config.site;
   return (
-    <Link href={base_url} passHref>
+    <Link href="/" passHref>
       <a
         className={`navbar-brand ${className} w-auto md:w-[${
           logo_width.replace("px", "") + "px"

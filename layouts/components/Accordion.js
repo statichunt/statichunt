@@ -1,6 +1,5 @@
 import { slugify } from "@lib/utils/textConverter";
 import Image from "next/future/image";
-import { useRouter } from "next/router";
 import { useState } from "react";
 
 const Accordion = ({
@@ -20,8 +19,6 @@ const Accordion = ({
   setArrayTool,
 }) => {
   const [taxomomy, setTaxonomy] = useState(type);
-  const router = useRouter();
-  const parseSSG = router.query.ssg && router.query.ssg.split("~");
 
   const handleOnClick = (label, type) => {
     const temp = [...taxomomy];
@@ -99,10 +96,7 @@ const Accordion = ({
                   handleOnClick(slugify(item.frontmatter.title), data.type)
                 }
                 key={`item-${i}`}
-                className={`filter-list ${item.selected && "active"} ${
-                  parseSSG?.includes(slugify(item.frontmatter.title)) &&
-                  "active"
-                }`}
+                className={`filter-list ${item.selected && "active"}`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
                 <Image

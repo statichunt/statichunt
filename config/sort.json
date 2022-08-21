@@ -1,0 +1,20 @@
+{
+  "button": [
+    {
+      "type": "DEFAULT",
+      "value": "default"
+    },
+    {
+      "type": "STAR",
+      "value": "star"
+    },
+    {
+      "type": "FORK",
+      "value": "fork"
+    },
+    {
+      "type": "UPDATE",
+      "value": "update"
+    }
+  ]
+}

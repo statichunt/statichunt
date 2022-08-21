@@ -24,7 +24,6 @@ description: >-
   The template is wrapped up with features to create your next adventure or
   travel blog. Entice your visitors to read every single content via Milingo
   Hugo by putting your focus on consistent blogging.
-weight: 1
 publish_date: '2021-11-06T05:57:35Z'
 update_date: '2022-02-22T18:57:34Z'
 github_star: 4
