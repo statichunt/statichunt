@@ -475,7 +475,7 @@
     @apply ml-2 cursor-pointer rounded border border-border py-[.3rem] px-3;
   }
   &-buttons {
-    @apply absolute top-8 right-0 hidden w-full rounded bg-white p-3 shadow;
+    @apply absolute top-8 right-0 z-50 hidden w-full rounded bg-white p-3 shadow;
     button {
       @apply block w-full rounded py-1 px-2 text-left;
       &:hover {

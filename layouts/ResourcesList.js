@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import { humanize } from "@lib/utils/textConverter";
 import Image from "next/future/image";
-import Link from "next/link";
 
 const ResourcesList = ({ title, resources }) => {
   return (
@@ -14,26 +13,18 @@ const ResourcesList = ({ title, resources }) => {
         {resources.map((resource, i) => (
           <div id="commento" className="mb-10 xl:col-10" key={`resource-${i}`}>
             <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] sm:flex">
-              <Link href={`/resources/${resource.slug}`}>
-                <a>
-                  <Image
-                    loading="lazy"
-                    src={`/resources/${resource.slug}.png`}
-                    alt="{resources.frontmatter.title}"
-                    width={160}
-                    height={100}
-                    className="mr-8 max-w-[160px] rounded-[4px]"
-                  />
-                </a>
-              </Link>
+              <Image
+                loading="lazy"
+                src={`/resources/${resource.slug}.png`}
+                alt="{resources.frontmatter.title}"
+                width={160}
+                height={100}
+                className="mr-8 max-w-[160px] rounded-[4px]"
+              />
 
               <div className="mt-4 bg-transparent sm:mt-0">
                 <h3 className="h5 mb-[4px] flex items-center pt-2 font-medium">
-                  <Link href={`/resources/${resource.slug}`}>
-                    <a className="hover:underline">
-                      {resource.frontmatter.title}
-                    </a>
-                  </Link>
+                  {resource.frontmatter.title}
                   <a
                     href={`${resource.frontmatter.website}?ref=statichunt.com`}
                     rel="noopener noreferrer"

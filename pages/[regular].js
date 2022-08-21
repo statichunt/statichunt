@@ -100,7 +100,6 @@ export const getStaticProps = async ({ params }) => {
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
   const tool = getSinglePages("content/tool");
-
   const toolPage = tool.filter((data) => data.slug == regular);
 
   // taxonomy slug
