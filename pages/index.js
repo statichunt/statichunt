@@ -87,17 +87,15 @@ const Home = ({
   };
 
   // theme filtering
-  const filterSSG =
-    currentTheme.length &&
-    currentTheme?.filter((theme) =>
-      arraySSG.length
-        ? arraySSG.find((type) =>
-            theme.frontmatter.ssg
-              ?.map((ssg) => slugify(ssg))
-              .includes(slugify(type))
-          )
-        : theme
-    );
+  const filterSSG = currentTheme?.filter((theme) =>
+    arraySSG.length
+      ? arraySSG.find((type) =>
+          theme.frontmatter.ssg
+            ?.map((ssg) => slugify(ssg))
+            .includes(slugify(type))
+        )
+      : theme
+  );
   const filterCMS = filterSSG?.filter((theme) =>
     arrayCMS.length
       ? arrayCMS.find((type) =>
@@ -147,7 +145,7 @@ const Home = ({
             <Intro data={intro} />
             <div className="mb-8 flex justify-between">
               <HomeArchetype
-                themes={filterArchetype}
+                themes={filterSSG}
                 archetype={archetype}
                 arrayArchetype={arrayArchetype}
                 setArrayArchetype={setArrayArchetype}

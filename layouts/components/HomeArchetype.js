@@ -6,6 +6,7 @@ const HomeArchetype = ({
   archetype,
   arrayArchetype,
   setArrayArchetype,
+  defaultThemes,
 }) => {
   const [taxomomy, setTaxonomy] = useState(archetype);
 
@@ -55,6 +56,8 @@ const HomeArchetype = ({
             >
               {item.frontmatter.title}
               <span className="ml-auto">{countItems(item)}</span>
+
+              {/*  */}
             </li>
           )
       )}
