@@ -14,7 +14,7 @@ const ToolsIcon = ({ tools, type, size }) => {
           .map((icon, i) => (
             <span
               className="has-tooltip mr-3 mb-2"
-              title={icon.frontmatter.title}
+              data-tooltip={icon.frontmatter.title}
               key={`icon-${i}`}
             >
               <Image

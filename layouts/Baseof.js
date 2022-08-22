@@ -30,7 +30,7 @@ const Base = ({
       });
       var length = tooltipEl.length;
       for (var i = 0; i < length; i++) {
-        var attr = tooltipEl[i].getAttribute("title");
+        var attr = tooltipEl[i].getAttribute("data-tooltip");
         var x = document.createElement("SPAN");
         var t = document.createTextNode(attr);
         x.appendChild(t);
