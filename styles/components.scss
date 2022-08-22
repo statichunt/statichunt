@@ -536,3 +536,95 @@
     @apply mt-[-10px] h-[740px] max-h-[calc(100vh-120px)] w-[375px] rounded-lg border-[10px] border-white shadow;
   }
 }
+
+// cookie bar
+.cookieBar {
+  padding: 15px 20px;
+  background: #fff;
+  justify-content: space-between;
+  left: 20px;
+  bottom: 20px;
+  position: fixed;
+  z-index: 9999999;
+  border-radius: 0.25rem;
+  margin-right: 20px;
+  box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
+    rgb(12 20 66 / 4%) 0px 16px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.cookieBarContent {
+  display: flex;
+  align-items: center;
+}
+
+.cookieBarBtn {
+  background: rgb(237, 240, 243);
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+// bookmark bar
+.bookmarkBar {
+  padding: 5px 20px 5px 7px;
+  background: #fff;
+  justify-content: space-between;
+  left: 20px;
+  bottom: 20px;
+  position: fixed;
+  z-index: 9999999;
+  border-radius: 0.25rem;
+  margin-right: 20px;
+  box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
+    rgb(12 20 66 / 4%) 0px 16px 40px;
+  display: flex;
+  align-items: center;
+  display: none;
+  cursor: pointer;
+  transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.27);
+  transform-origin: bottom left;
+  &:hover {
+    .bookmarkText {
+      visibility: hidden;
+      opacity: 0;
+    }
+    .bookmarkTextHover {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .bookmarkClose {
+      transform: scale(1);
+    }
+  }
+}
+
+.bookmarkIcon {
+  background-color: #f4f7f7;
+  border-radius: 0.25rem;
+  padding: 9px 5px 7px 5px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmarkClose {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  box-shadow: 0 5px 16px #eee;
+  line-height: 15px !important;
+  transform: scale(0);
+  transition: 0.2s ease;
+}

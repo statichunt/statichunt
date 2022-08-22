@@ -5,6 +5,7 @@ import { plainify } from "@lib/utils/textConverter";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import CookieConsent from "./components/CookieConsent";
 
 const Base = ({
   title,
@@ -130,6 +131,7 @@ const Base = ({
       <Header />
       {children}
       <Footer />
+      <CookieConsent />
 
       <div className="scroll-to-position">
         <button
