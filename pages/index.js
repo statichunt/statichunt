@@ -7,6 +7,7 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePages } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
+import { fi } from "date-fns/locale";
 import { addArctype } from "hooks/addArctype";
 import { useReducer, useState } from "react";
 
@@ -145,7 +146,7 @@ const Home = ({
             <Intro data={intro} />
             <div className="mb-8 flex justify-between">
               <HomeArchetype
-                themes={filterSSG}
+                themes={filterCSS}
                 archetype={archetype}
                 arrayArchetype={arrayArchetype}
                 setArrayArchetype={setArrayArchetype}

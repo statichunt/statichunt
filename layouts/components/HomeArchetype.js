@@ -46,16 +46,19 @@ const HomeArchetype = ({
 
   return (
     <ul className="archetype-list">
-      {taxomomy.map((item, i) => (
-        <li
-          onClick={() => handleOnClick(slugify(item.frontmatter.title))}
-          key={`item-${i}`}
-          className={item.selected ? "active" : undefined}
-        >
-          {item.frontmatter.title}
-          <span className="ml-auto">{countItems(item)}</span>
-        </li>
-      ))}
+      {taxomomy.map(
+        (item, i) =>
+          countItems(item) > 0 && (
+            <li
+              onClick={() => handleOnClick(slugify(item.frontmatter.title))}
+              key={`item-${i}`}
+              className={item.selected ? "active" : undefined}
+            >
+              {item.frontmatter.title}
+              <span className="ml-auto">{countItems(item)}</span>
+            </li>
+          )
+      )}
     </ul>
   );
 };
