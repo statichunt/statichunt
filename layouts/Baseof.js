@@ -5,6 +5,7 @@ import { plainify } from "@lib/utils/textConverter";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import CookieConsent from "./components/CookieConsent";
 
 const Base = ({
   title,
@@ -30,7 +31,7 @@ const Base = ({
       });
       var length = tooltipEl.length;
       for (var i = 0; i < length; i++) {
-        var attr = tooltipEl[i].getAttribute("title");
+        var attr = tooltipEl[i].getAttribute("data-tooltip");
         var x = document.createElement("SPAN");
         var t = document.createTextNode(attr);
         x.appendChild(t);
@@ -130,6 +131,7 @@ const Base = ({
       <Header />
       {children}
       <Footer />
+      <CookieConsent />
 
       <div className="scroll-to-position">
         <button

@@ -25,6 +25,7 @@
     "react-icons": "^4.4.0",
     "react-mailchimp-subscribe": "^2.1.3",
     "react-tooltip": "^4.2.21",
+    "react-use-cookie": "^1.4.0",
     "rehype-slug": "^5.0.1",
     "remark-gfm": "^3.0.1",
     "typewriter-effect": "^2.19.0"

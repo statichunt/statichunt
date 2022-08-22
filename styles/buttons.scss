@@ -11,7 +11,7 @@
 }
 
 .btn-outline-primary {
-  @apply border-primary bg-transparent from-primary to-secondary hover:bg-gradient-to-r hover:text-white;
+  @apply btn-sm border border-primary/25 bg-transparent from-primary to-secondary hover:bg-gradient-to-r hover:text-white;
 }
 
 .btn-follow {

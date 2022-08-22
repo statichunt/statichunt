@@ -55,7 +55,11 @@ const ThemePreview = ({ theme, slug }) => {
               We are Pulling down the Live Site here...
             </span>
             <div className={`bwsActions text-right`}>
-              <a className={`bwsActionLink`} target="blank" href={demo}>
+              <a
+                className={`bwsActionLink`}
+                target="blank"
+                href={`${demo}?ref=statichunt.com`}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="12"
@@ -111,7 +115,7 @@ const ThemePreview = ({ theme, slug }) => {
             type="button"
             className="deviceToggleDesktop has-tooltip"
             aria-label="Toggle Desktop"
-            title="Desktop Mode"
+            data-tooltip="Desktop"
             onClick={() => setMobilePreview(false)}
           >
             <svg
@@ -137,7 +141,7 @@ const ThemePreview = ({ theme, slug }) => {
             type="button"
             className="deviceToggleMobile has-tooltip"
             aria-label="Toggle Mobile"
-            title="Mobile Mode"
+            data-tooltip="Mobile"
             onClick={() => setMobilePreview(true)}
           >
             <svg

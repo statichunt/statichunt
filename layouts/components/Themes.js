@@ -34,7 +34,7 @@ const Themes = ({ themes, tools }) => {
                 </h2>
                 <span
                   className="has-tooltip mt-1 whitespace-nowrap text-sm text-text-dark"
-                  title="Github Stars"
+                  data-tooltip="Github Stars"
                 >
                   <Image
                     className="mr-1 inline align-text-bottom"
@@ -71,7 +71,7 @@ const Themes = ({ themes, tools }) => {
                     className="btn btn-sm btn-demo has-tooltip mb-2 mr-1 leading-none"
                     target="_blank"
                     rel="noopener nofollow"
-                    title="Preview"
+                    data-tooltip="Preview"
                   >
                     <TbEye />
                   </a>
@@ -81,7 +81,7 @@ const Themes = ({ themes, tools }) => {
                     className="btn btn-sm btn-download has-tooltip mb-2 leading-none"
                     target="_blank"
                     rel="noopener nofollow"
-                    title="Download"
+                    data-tooltip="Download"
                   >
                     <TbDownload />
                   </a>
