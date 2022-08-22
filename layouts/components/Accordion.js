@@ -31,6 +31,10 @@ const Accordion = ({
   }, [slug]);
 
   const handleOnClick = (label, type) => {
+    // scroll to top
+    window.scrollTo({ top: 0 });
+
+    // set active state
     const temp = [...taxomomy];
     for (let i in temp) {
       const item = temp[i];

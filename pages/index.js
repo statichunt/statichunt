@@ -34,7 +34,6 @@ const Home = ({
   );
 
   // theme sorting
-
   const reducer = (state, action) => {
     switch (action.type) {
       case "STAR":
