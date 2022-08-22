@@ -11,6 +11,7 @@ import {
 } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
 import config from "config/config.json";
+import { addArctype } from "hooks/addArctype";
 import { useEffect, useState } from "react";
 
 // for all regular pages
@@ -33,8 +34,8 @@ const RegularPages = ({
   useEffect(() => {
     setArrayArchetype([]);
   }, [slug]);
-
-  const filterArchetype = data.filter((theme) =>
+  const addarchetypes = addArctype(data);
+  const filterArchetype = addarchetypes.filter((theme) =>
     arrayArchetype.length
       ? arrayArchetype.find((type) =>
           theme.frontmatter.archetype
@@ -57,7 +58,7 @@ const RegularPages = ({
         <div className="flex">
           <Sidebar
             sidebar={sidebar}
-            themes={data}
+            themes={addarchetypes}
             slug={slug}
             archetype={archetype}
             setArrayArchetype={setArrayArchetype}
