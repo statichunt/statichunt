@@ -8,7 +8,6 @@ import Base from "@layouts/Baseof";
 import { getListPage, getSinglePages } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
 import { useEffect, useReducer, useState } from "react";
-import { IoTerminal } from "react-icons/io5";
 
 const Home = ({
   frontmatter: { intro },
@@ -28,21 +27,21 @@ const Home = ({
   const [arrayArchetype, setArrayArchetype] = useState([]);
   const [isShow, setIsShow] = useState(false);
   const [isValue, setIsValue] = useState("default");
-  const [theme, setTheme] = useState(themes);
 
-  // useEffect(() => {
-  //   const addarchetypye = theme.map((theme) => ({
-  //     ...theme.frontmatter,
-  //     archetype: !theme.frontmatter.archetype && ["others"],
-  //   }));
-  //   setTheme(addarchetypye);
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, []);
-
-  // theme sorting
-  const defaultSort = themes.sort(
+  const addarchetypye = themes.map((theme) => ({
+    ...theme,
+    frontmatter: {
+      ...theme.frontmatter,
+      archetype: !theme.frontmatter.archetype
+        ? ["Others"]
+        : theme.frontmatter.archetype,
+    },
+  }));
+  const defaultSort = addarchetypye.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
+
+  // theme sorting
 
   const reducer = (state, action) => {
     switch (action.type) {
@@ -79,7 +78,7 @@ const Home = ({
         return sortByDate;
 
       default:
-        return state;
+        return { ...state };
     }
   };
   const [currentTheme, dispatch] = useReducer(reducer, defaultSort);
@@ -96,41 +95,43 @@ const Home = ({
   };
 
   // theme filtering
-  const filterSSG = currentTheme?.filter((theme) =>
-    arraySSG.length
-      ? arraySSG.find((type) =>
-          theme.frontmatter.ssg
-            ?.map((ssg) => slugify(ssg))
-            .includes(slugify(type))
-        )
-      : themes
-  );
-  const filterCMS = filterSSG.filter((theme) =>
+  const filterSSG =
+    currentTheme.length &&
+    currentTheme?.filter((theme) =>
+      arraySSG.length
+        ? arraySSG.find((type) =>
+            theme.frontmatter.ssg
+              ?.map((ssg) => slugify(ssg))
+              .includes(slugify(type))
+          )
+        : theme
+    );
+  const filterCMS = filterSSG?.filter((theme) =>
     arrayCMS.length
       ? arrayCMS.find((type) =>
           theme.frontmatter.cms
             ?.map((cms) => slugify(cms))
             .includes(slugify(type))
         )
-      : themes
+      : theme
   );
-  const filterCSS = filterCMS.filter((theme) =>
+  const filterCSS = filterCMS?.filter((theme) =>
     arrayCSS.length
       ? arrayCSS.find((type) =>
           theme.frontmatter.css
             ?.map((css) => slugify(css))
             .includes(slugify(type))
         )
-      : themes
+      : theme
   );
-  const filterArchetype = filterCSS.filter((theme) =>
+  const filterArchetype = filterCSS?.filter((theme) =>
     arrayArchetype.length
       ? arrayArchetype.find((type) =>
           theme.frontmatter.archetype
             ?.map((archetype) => slugify(archetype))
             .includes(slugify(type))
         )
-      : themes
+      : theme
   );
 
   return (
