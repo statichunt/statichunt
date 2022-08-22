@@ -7,7 +7,8 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePages } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
-import { useEffect, useReducer, useState } from "react";
+import { addArctype } from "hooks/addArctype";
+import { useReducer, useState } from "react";
 
 const Home = ({
   frontmatter: { intro },
@@ -27,17 +28,8 @@ const Home = ({
   const [arrayArchetype, setArrayArchetype] = useState([]);
   const [isShow, setIsShow] = useState(false);
   const [isValue, setIsValue] = useState("default");
-
-  const addarchetypye = themes.map((theme) => ({
-    ...theme,
-    frontmatter: {
-      ...theme.frontmatter,
-      archetype: !theme.frontmatter.archetype
-        ? ["Others"]
-        : theme.frontmatter.archetype,
-    },
-  }));
-  const defaultSort = addarchetypye.sort(
+  const addarchetypes = addArctype(themes);
+  const defaultSort = addarchetypes.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
 
