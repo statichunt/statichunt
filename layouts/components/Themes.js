@@ -3,12 +3,16 @@ import Link from "next/link";
 import { TbDownload, TbEye } from "react-icons/tb";
 import ToolsIcon from "./ToolsIcon";
 
-const Themes = ({ themes, tools }) => {
+const Themes = ({ themes, tools, customRowClass, customColClass }) => {
   return (
-    <div className="row">
+    <div className={customRowClass ? customRowClass : "row"}>
       {themes.map((theme, i) => (
         <div
-          className="col-12 mb-8 sm:col-6 md:col-4 lg:col-6 xl:col-4 2xl:col-3"
+          className={
+            customColClass
+              ? customColClass
+              : "col-12 mb-8 sm:col-6 md:col-4 lg:col-6 xl:col-4 2xl:col-3"
+          }
           key={`theme-${i}`}
         >
           <div className="theme-card">

@@ -70,7 +70,7 @@ const CookieConsent = () => {
   // detect OS
   const [os, setOs] = useState(false);
   const [key, setKey] = useState("");
-  console.log(key);
+
   useEffect(() => {
     setOs(navigator.platform.indexOf("Mac") > -1);
     document.addEventListener("keydown", (e) => {

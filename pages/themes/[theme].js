@@ -2,14 +2,16 @@ import Share from "@components/Share";
 import ThemeInfo from "@components/ThemeInfo";
 import ThemePreview from "@components/ThemePreview";
 import Base from "@layouts/Baseof";
+import Themes from "@layouts/components/Themes";
 import { getSinglePages, getSinglePagesSlug } from "@lib/contents";
+import { similerItems } from "@lib/utils/similarItems";
 import { markdownify, plainify } from "@lib/utils/textConverter";
 
-const SingleTheme = ({ slug, theme, tools }) => {
-  // end test
+const SingleTheme = ({ slug, theme, allTheme, tools }) => {
   const { frontmatter, content } = theme[0];
   const { title, description, meta_title, image, noindex, canonical } =
     frontmatter;
+  const similarThemes = similerItems(theme, allTheme, slug);
   return (
     <Base
       title={plainify(title)}
@@ -39,6 +41,17 @@ const SingleTheme = ({ slug, theme, tools }) => {
               <ThemeInfo theme={theme} slug={slug} tools={tools} />
             </div>
           </div>
+          {similarThemes.length > 0 && (
+            <div className="mt-20">
+              <h2 className="mb-8 text-center">Similar Themes</h2>
+              <Themes
+                customRowClass="row justify-center"
+                customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"
+                themes={similarThemes.slice(0, 4)}
+                tools={tools}
+              />
+            </div>
+          )}
         </div>
       </section>
     </Base>
@@ -75,6 +88,7 @@ export const getStaticProps = ({ params }) => {
   return {
     props: {
       theme: singleTheme,
+      allTheme: allTheme,
       slug: theme,
       tools: tools,
     },
