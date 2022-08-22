@@ -136,6 +136,9 @@
       @apply h-12 w-12 scale-0 rounded-full bg-white p-3 text-primary transition-all delay-75;
     }
   }
+  &-footer {
+    @apply mt-auto flex items-center px-4 pt-4 pb-2;
+  }
 }
 
 // intro text slider

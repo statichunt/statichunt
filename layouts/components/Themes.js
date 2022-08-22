@@ -1,6 +1,6 @@
 import Image from "next/future/image";
 import Link from "next/link";
-import { TbExternalLink } from "react-icons/tb";
+import { TbDownload, TbEye } from "react-icons/tb";
 import ToolsIcon from "./ToolsIcon";
 
 const Themes = ({ themes, tools }) => {
@@ -12,28 +12,21 @@ const Themes = ({ themes, tools }) => {
           key={`theme-${i}`}
         >
           <div className="theme-card">
-            <div className="img-cover relative">
-              <Image
-                src={`/themes/${theme.slug}.png`}
-                height={250}
-                width={300}
-                alt={theme.frontmatter?.title}
-                className="rounded-t"
-              />
-              <Link href={`/demo/${theme.slug}`}>
-                <a
-                  target="_blank"
-                  className="theme-card-preview"
-                  rel="noopener nofollow"
-                >
-                  <TbExternalLink />
-                </a>
-              </Link>
-            </div>
+            <Link href={`/themes/${theme.slug}`} passHref>
+              <a className="img-cover">
+                <Image
+                  src={`/themes/${theme.slug}.png`}
+                  height={250}
+                  width={300}
+                  alt={theme.frontmatter?.title}
+                  className="rounded-t"
+                />
+              </a>
+            </Link>
             <div className="theme-card-body">
               <div className="flex justify-between">
                 <h2 className="h6 mb-0 text-lg font-medium">
-                  <Link href={`/themes/${theme.slug}`}>
+                  <Link href={`/themes/${theme.slug}`} passHref>
                     <a className="hover:underline">
                       {theme.frontmatter?.title}
                     </a>
@@ -66,19 +59,31 @@ const Themes = ({ themes, tools }) => {
                       ""
                     )[0]}
               </span>
-              <div className="mt-5 flex items-center">
-                <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
-                <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
-                <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
-                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.archetype} /> */}
-                <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
+            </div>
+            <div className="theme-card-footer">
+              <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
+              <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
+              <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
+              {/* <ToolsIcon tools={tools} type={theme.frontmatter?.archetype} /> */}
+              <div className="ml-auto">
+                <Link href={`/demo/${theme.slug}`}>
                   <a
-                    className="btn btn-sm btn-download ml-auto"
+                    className="btn btn-sm btn-demo has-tooltip mb-2 mr-1 leading-none"
                     target="_blank"
                     rel="noopener nofollow"
-                    title={`Download ${theme.frontmatter?.title}`}
+                    title="Preview"
                   >
-                    Download
+                    <TbEye />
+                  </a>
+                </Link>
+                <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
+                  <a
+                    className="btn btn-sm btn-download has-tooltip mb-2 leading-none"
+                    target="_blank"
+                    rel="noopener nofollow"
+                    title="Download"
+                  >
+                    <TbDownload />
                   </a>
                 </Link>
               </div>

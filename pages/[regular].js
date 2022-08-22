@@ -11,7 +11,7 @@ import {
 } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
 import config from "config/config.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // for all regular pages
 const RegularPages = ({
@@ -29,6 +29,10 @@ const RegularPages = ({
   const { sidebar } = config;
   const { content } = taxonomies[0];
   const [arrayArchetype, setArrayArchetype] = useState([]);
+
+  useEffect(() => {
+    setArrayArchetype([]);
+  }, [slug]);
 
   const filterArchetype = data.filter((theme) =>
     arrayArchetype.length
@@ -54,6 +58,7 @@ const RegularPages = ({
           <Sidebar
             sidebar={sidebar}
             themes={data}
+            slug={slug}
             archetype={archetype}
             setArrayArchetype={setArrayArchetype}
             arrayArchetype={arrayArchetype}

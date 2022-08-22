@@ -7,6 +7,7 @@ import Accordion from "./Accordion";
 
 const Sidebar = ({
   sidebar,
+  slug,
   ssg,
   cms,
   css,
@@ -121,6 +122,7 @@ const Sidebar = ({
                         setArraySSG={setArraySSG}
                         arraySSG={arraySSG}
                         data={data}
+                        slug={slug}
                         type={data.taxonomy}
                         params={slugify(data.type)}
                         themes={themes}

@@ -1,9 +1,10 @@
 import { slugify } from "@lib/utils/textConverter";
 import Image from "next/future/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Accordion = ({
   data,
+  slug,
   type,
   params,
   themes,
@@ -19,6 +20,15 @@ const Accordion = ({
   setArrayTool,
 }) => {
   const [taxomomy, setTaxonomy] = useState(type);
+
+  useEffect(() => {
+    const filterAddition = taxomomy.map((item, id) => ({
+      ...item,
+      selected: false,
+    }));
+    setTaxonomy(filterAddition);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug]);
 
   const handleOnClick = (label, type) => {
     const temp = [...taxomomy];
