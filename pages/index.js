@@ -7,7 +7,8 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePages } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
-import { useReducer, useState } from "react";
+import { useEffect, useReducer, useState } from "react";
+import { IoTerminal } from "react-icons/io5";
 
 const Home = ({
   frontmatter: { intro },
@@ -27,6 +28,16 @@ const Home = ({
   const [arrayArchetype, setArrayArchetype] = useState([]);
   const [isShow, setIsShow] = useState(false);
   const [isValue, setIsValue] = useState("default");
+  const [theme, setTheme] = useState(themes);
+
+  // useEffect(() => {
+  //   const addarchetypye = theme.map((theme) => ({
+  //     ...theme.frontmatter,
+  //     archetype: !theme.frontmatter.archetype && ["others"],
+  //   }));
+  //   setTheme(addarchetypye);
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   // theme sorting
   const defaultSort = themes.sort(
@@ -143,7 +154,7 @@ const Home = ({
             <Intro data={intro} />
             <div className="mb-8 flex justify-between">
               <HomeArchetype
-                themes={themes}
+                themes={filterArchetype}
                 archetype={archetype}
                 arrayArchetype={arrayArchetype}
                 setArrayArchetype={setArrayArchetype}
