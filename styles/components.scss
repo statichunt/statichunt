@@ -3,6 +3,10 @@
   @apply py-16;
 }
 
+.svg-block svg {
+  @apply block;
+}
+
 // form style
 .form-inputs * {
   @apply mb-5 leading-10;
@@ -192,6 +196,17 @@
     visibility: visible;
     opacity: 1;
     transition: 0.3s;
+  }
+  &.tooltip-bottom {
+    .tooltip-label {
+      bottom: unset;
+      top: calc(100% + 5px);
+      &::after {
+        top: unset;
+        bottom: 100%;
+        border-color: transparent transparent black transparent;
+      }
+    }
   }
 }
 
@@ -491,5 +506,33 @@
     &.show {
       @apply block;
     }
+  }
+}
+
+// demo previewer
+.demo-switcher {
+  @apply inline-block space-x-1 rounded border border-primary/50 bg-light text-[1.45rem] leading-none;
+  button {
+    @apply rounded px-2 py-[.3rem];
+    &.active {
+      @apply bg-primary text-white;
+    }
+  }
+}
+
+.demo-wrapper {
+  @apply flex items-center justify-center bg-light transition-all;
+  iframe {
+    @apply my-0 mx-auto h-full w-full rounded-[inherit] border-0 shadow-none;
+  }
+}
+
+.demo-content {
+  @apply relative mx-auto h-full w-full overflow-hidden border-white bg-white transition-all duration-500;
+  &.tablet {
+    @apply mt-[-15px] h-[1024px] max-h-[calc(100vh-130px)] w-[768px] rounded-lg border-[15px] border-white shadow;
+  }
+  &.mobile {
+    @apply mt-[-10px] h-[740px] max-h-[calc(100vh-120px)] w-[375px] rounded-lg border-[10px] border-white shadow;
   }
 }
