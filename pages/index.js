@@ -95,7 +95,7 @@ const Home = ({
             ?.map((ssg) => slugify(ssg))
             .includes(slugify(type))
         )
-      : theme
+      : defaultSort
   );
   const filterCMS = filterSSG?.filter((theme) =>
     arrayCMS.length
@@ -104,7 +104,7 @@ const Home = ({
             ?.map((cms) => slugify(cms))
             .includes(slugify(type))
         )
-      : theme
+      : defaultSort
   );
   const filterCSS = filterCMS?.filter((theme) =>
     arrayCSS.length
@@ -113,7 +113,7 @@ const Home = ({
             ?.map((css) => slugify(css))
             .includes(slugify(type))
         )
-      : theme
+      : defaultSort
   );
   const filterArchetype = filterCSS?.filter((theme) =>
     arrayArchetype.length
@@ -122,7 +122,7 @@ const Home = ({
             ?.map((archetype) => slugify(archetype))
             .includes(slugify(type))
         )
-      : theme
+      : defaultSort
   );
 
   return (

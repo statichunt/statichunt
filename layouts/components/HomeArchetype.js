@@ -6,9 +6,12 @@ const HomeArchetype = ({
   archetype,
   arrayArchetype,
   setArrayArchetype,
-  defaultThemes,
 }) => {
   const [taxomomy, setTaxonomy] = useState(archetype);
+  // change others position
+  const indexOfOthers = archetype.map((data) => data.slug).indexOf("others");
+  const element = archetype.splice(indexOfOthers, 1)[0];
+  archetype.splice(archetype.length, 0, element);
 
   useEffect(() => {
     const filterAddition = taxomomy.map((item) => ({
