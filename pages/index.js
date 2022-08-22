@@ -143,7 +143,7 @@ const Home = ({
             <Intro data={intro} />
             <div className="mb-8 flex justify-between">
               <HomeArchetype
-                themes={themes}
+                themes={filterArchetype}
                 archetype={archetype}
                 arrayArchetype={arrayArchetype}
                 setArrayArchetype={setArrayArchetype}
