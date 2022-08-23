@@ -1,83 +1,83 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path:
-webhook_url:
+admin_path: ''
+webhook_url: 
 sections:
-  - type: heading
-    label: Themes
-  - type: directory
-    path: content/themes
-    label: Themes
-    create: documents
-    match: "*"
-    exclude: _index.md
-    templates:
-      - new-theme
-  - type: directory
-    path: content/ssg
-    label: SSG
-    create: documents
-    match: "*"
-    exclude: _index.md
-    templates:
-      - taxonomy
-  - type: directory
-    path: content/cms
-    label: CMS
-    create: documents
-    match: "*"
-    exclude: _index.md
-    templates:
-      - taxonomy
-  - type: directory
-    path: content/css
-    label: CSS
-    create: documents
-    match: "*"
-    exclude: _index.md
-    templates:
-      - taxonomy
-  - type: directory
-    path: content/category
-    label: Category
-    create: documents
-    match: "*"
-    exclude: _index.md
-    templates:
-      - taxonomy
-  - type: heading
-    label: Resources
-  - type: directory
-    path: content/resources
-    label: Resources
-    create: documents
-    match: "*"
-    exclude: _index.md
-    templates:
-      - new-resource
-  - type: directory
-    path: content/tool
-    label: Tool
-    create: documents
-    match: "*"
-    exclude: _index.md
-    templates:
-      - taxonomy
-  - type: heading
-    label: Configuration
-  - type: document
-    path: config/config.json
-    label: Config
-  - type: document
-    path: config/menu.json
-    label: Menu
-  - type: document
-    path: config/social.json
-    label: Social
+- type: heading
+  label: Themes
+- type: directory
+  path: content/themes
+  label: Themes
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - new-theme
+- type: directory
+  path: content/ssg
+  label: SSG
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - taxonomy
+- type: directory
+  path: content/cms
+  label: CMS
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - taxonomy
+- type: directory
+  path: content/css
+  label: CSS
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - taxonomy
+- type: directory
+  path: content/category
+  label: Category
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - taxonomy
+- type: heading
+  label: Resources
+- type: directory
+  path: content/resources
+  label: Resources
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - new-resource
+- type: directory
+  path: content/tool
+  label: Tool
+  create: documents
+  match: "*"
+  exclude: _index.md
+  templates:
+  - taxonomy
+- type: heading
+  label: Configuration
+- type: document
+  path: config/config.json
+  label: Config
+- type: document
+  path: config/menu.json
+  label: Menu
+- type: document
+  path: config/social.json
+  label: Social
 upload_dir: public/blog
 public_path: "/blog"
-front_matter_path: ""
+front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
