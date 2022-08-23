@@ -1,5 +1,5 @@
 ---
-title: Eleventy + Stylus Blog Theme - Purple
+title: Eleventy Stylus Blog Theme
 github: https://github.com/ar363/eleventy-stylus-blog-theme
 demo: https://eleventy-stylus-blog-theme-ar363.vercel.app/
 author: ar363

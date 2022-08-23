@@ -87,7 +87,8 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                     rel="noopener nofollow"
                     data-tooltip="Download"
                   >
-                    Get &nbsp; <TbDownload />
+                    <span className="mr-1 hidden lg:inline">Get</span>
+                    <TbDownload />
                   </a>
                 </Link>
               </div>
