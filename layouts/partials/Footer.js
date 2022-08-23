@@ -23,9 +23,9 @@ const Footer = () => {
                   : "col-12 sm:col-9 md:col-8 lg:col-4"
               } mb-5 pb-4 lg:mb-0 lg:pb-0`}
             >
-              <h4 className="h5 mb-4 font-medium capitalize text-white">
+              <h3 className="h5 mb-4 font-medium capitalize text-white">
                 {item.name}
-              </h4>
+              </h3>
               <ul className={i != 0 ? "mr-4 columns-2" : undefined}>
                 {item.pages.map((page, i) => (
                   <li key={`page-${i}`} className="mb-2">
