@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Ecommerce
 description: ChopChop is an eCommerce starter kit powered by Commerce.js.
 draft: false

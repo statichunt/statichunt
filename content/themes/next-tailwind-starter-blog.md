@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Blog
   - Portfolio
 description: >-

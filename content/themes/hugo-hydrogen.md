@@ -9,7 +9,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
 date: 2022-01-09T16:13:50.000Z
 description: >-

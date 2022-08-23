@@ -18,7 +18,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
     ssg,
     cms,
     css,
-    archetype,
+    category,
   } = theme[0].frontmatter;
 
   return (
@@ -94,7 +94,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
             <ToolsIcon tools={tools} type={ssg} size={20} />
             <ToolsIcon tools={tools} type={cms} size={20} />
             <ToolsIcon tools={tools} type={css} size={20} />
-            <ToolsIcon tools={tools} type={archetype} size={20} />
+            <ToolsIcon tools={tools} type={category} size={20} />
           </div>
         </span>
       </div>

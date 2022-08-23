@@ -11,7 +11,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype:
+category:
   - Boilerplate
 description: A Gatsby theme for publishing code-related notes to your website.
 draft: false

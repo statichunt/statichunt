@@ -11,7 +11,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: Nehalem is a Gatsby theme for blogging.
 draft: false

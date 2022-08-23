@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - Contentful
-archetype:
+category:
   - Blog
   - Portfolio
 description: >-

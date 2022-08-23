@@ -8,7 +8,7 @@ ssg:
   - Eleventy
 cms:
   - Forestry
-archetype:
+category:
   - Blog
 description: Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
 draft: false

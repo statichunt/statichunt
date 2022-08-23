@@ -12,7 +12,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype:
+category:
   - Boilerplate
 description: >-
   Notus NextJS: Free Tailwind CSS UI Kit and Admin.Start your development with a

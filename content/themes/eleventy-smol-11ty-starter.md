@@ -12,7 +12,7 @@ ssg:
 cms:
   - NetlifyCMS
 css: null
-archetype:
+category:
   - Boilerplate
 description: >-
   Extremely minimal Eleventy starter to kickstart a simple multi-page site / a

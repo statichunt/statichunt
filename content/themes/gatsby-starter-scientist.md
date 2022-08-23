@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - Markdown
-archetype:
+category:
   - Portfolio
 description: A portfolio or lab website for Scientists built with Gatsby
 draft: false

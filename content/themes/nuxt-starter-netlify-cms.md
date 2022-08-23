@@ -8,7 +8,7 @@ ssg:
   - Nuxt
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: A super unopinionated starter project.
 draft: false

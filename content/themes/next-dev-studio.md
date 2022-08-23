@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - PostCSS
-archetype:
+category:
   - Business
 description: >-
   A small business website template based on Nextjs and the original idea of

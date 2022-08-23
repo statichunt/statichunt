@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: A minimal, type-focused Jekyll theme.
 draft: false

@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Blog
 description: >-
   A responsive sidebar Jekyll theme using the Pure.css framework, designed for

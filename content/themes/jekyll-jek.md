@@ -7,7 +7,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Blog
   - Portfolio
 date: 2021-06-26T15:29:54.000Z

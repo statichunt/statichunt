@@ -7,7 +7,7 @@ ssg:
   - Gatsby
 cms:
   - Markdown
-archetype: null
+category: null
 date: 2019-04-21T11:32:28.000Z
 description: An absurd Gatsby starter
 draft: false

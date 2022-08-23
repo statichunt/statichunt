@@ -11,7 +11,7 @@ ssg:
   - Vuepress
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: VuePress blog theme plugin.
 draft: false

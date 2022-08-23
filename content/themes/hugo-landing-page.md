@@ -11,7 +11,7 @@ cms:
 css:
   - PostCSS
   - Tailwind
-archetype:
+category:
   - Business
 description: A simple landing page built with Hugo and Tailwind CSS.
 draft: false

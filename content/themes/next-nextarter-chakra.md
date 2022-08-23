@@ -11,7 +11,7 @@ ssg:
   - Next
 cms: null
 css: null
-archetype:
+category:
   - Boilerplate
 description: >-
   Battery packed template / Boilerplate to initialize PWA ready Next.js app with

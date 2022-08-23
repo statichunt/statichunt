@@ -8,7 +8,7 @@ ssg:
   - Hugo
 cms:
   - Markdown
-archetype:
+category:
   - Blog
   - Portfolio
 description: A fast, clean, responsive Hugo theme based on Paper

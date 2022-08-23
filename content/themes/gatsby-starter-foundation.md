@@ -10,7 +10,7 @@ cms:
   - NetlifyCMS
 css:
   - scss
-archetype:
+category:
   - blog
 description: >-
   A starter to launch your blazing fast personal website and a blog, Built with

@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - Kontent
-archetype:
+category:
   - Portfolio
 description: Kentico Kontent web template using Gatsby and Kentico Kontent.
 draft: false

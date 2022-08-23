@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: A simple, lightweight theme for Hugo built with Tailwind CSS.
 draft: false

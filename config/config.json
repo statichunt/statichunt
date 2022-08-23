@@ -30,7 +30,7 @@
     { "type": "ssg", "title": "Static Site Generator" },
     { "type": "cms", "title": "Jamstack CMS" },
     { "type": "css", "title": "CSS Framework" },
-    { "type": "archetype", "title": "Archetype" },
+    { "type": "category", "title": "Category" },
     { "type": "tool", "title": "Tool" }
   ]
 }

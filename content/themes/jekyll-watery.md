@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Blog
 description: >-
   A minimalist, bare-bones theme for Jekyll only using the Water.css framework

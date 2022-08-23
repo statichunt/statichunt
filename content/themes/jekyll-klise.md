@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - SCSS
-archetype:
+category:
   - Blog
 description: >-
   Klisé is a minimalist Jekyll theme for running a personal site or blog, light

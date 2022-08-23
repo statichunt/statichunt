@@ -10,7 +10,7 @@ cms:
   - NetlifyCMS
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
   - Portfolio
 description: The fastest Hugo theme for personal portfolio and blog.

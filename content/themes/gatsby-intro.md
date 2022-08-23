@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Portfolio
 description: Personal branding theme for developers
 draft: false

@@ -11,7 +11,7 @@ ssg:
   - Vuepress
 cms: null
 css: null
-archetype: null
+category: null
 description: A api-friendly theme for VuePress.
 draft: false
 publish_date: '2018-05-17T15:06:25Z'

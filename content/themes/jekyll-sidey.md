@@ -6,7 +6,7 @@ author: Ronalds Vilcins
 date: 2020-02-03T00:00:00.000Z
 ssg:
   - Jekyll
-archetype:
+category:
   - Blog
 description: Simple and minimalistic jekyll blogging theme
 draft: false

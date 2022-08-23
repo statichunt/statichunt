@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: An elegant, powerful, easy-to-read Hexo theme.
 draft: false
 publish_date: '2019-06-12T06:13:00Z'

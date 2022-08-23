@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: A gorgeous responsive theme for Hexo blog framework.
 draft: false

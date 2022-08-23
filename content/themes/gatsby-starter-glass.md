@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: >-
   A Minimal & Beautiful GatsbyJS Personal Blog Starter With Nice Glassmorphism

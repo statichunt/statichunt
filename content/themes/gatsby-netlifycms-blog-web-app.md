@@ -10,7 +10,7 @@ cms:
   - NetlifyCMS
 css:
   - Bulma
-archetype:
+category:
   - Blog
 description: >-
   This public repo is an example blog web-app that is built with Gatsby using

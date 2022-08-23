@@ -1,12 +1,12 @@
 export const addArctype = (themes) => {
-  const addarchetypes = themes.map((theme) => ({
+  const addcategorys = themes.map((theme) => ({
     ...theme,
     frontmatter: {
       ...theme.frontmatter,
-      archetype: !theme.frontmatter.archetype
+      category: !theme.frontmatter.category
         ? ["Others"]
-        : theme.frontmatter.archetype,
+        : theme.frontmatter.category,
     },
   }));
-  return addarchetypes;
+  return addcategorys;
 };

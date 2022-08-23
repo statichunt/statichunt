@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype:
+category:
   - Portfolio
 description: A modern static resume template and theme. Powered by Jekyll and GitHub pages.
 draft: false

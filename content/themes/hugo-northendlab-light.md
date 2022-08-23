@@ -9,7 +9,7 @@ cms:
   - Forestry
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
 date: 2021-08-29T16:05:35.000Z
 description: >-

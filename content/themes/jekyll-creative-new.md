@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
   - Portfolio
 description: A Jekyll theme based on Creative Theme v5.1.8 and Bootstrap v4.3.1

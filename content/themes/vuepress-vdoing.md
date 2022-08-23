@@ -12,7 +12,7 @@ ssg:
 cms:
   - Markdown
 css: null
-archetype:
+category:
   - Blog
 description: A simple and efficient VuePress knowledge management & blog theme.
 draft: false

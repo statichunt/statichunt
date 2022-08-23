@@ -14,8 +14,8 @@ const Accordion = ({
   setArrayCMS,
   arrayCSS,
   setArrayCSS,
-  arrayArchetype,
-  setArrayArchetype,
+  arrayCategory,
+  setArrayCategory,
   arrayTool,
   setArrayTool,
 }) => {
@@ -71,12 +71,12 @@ const Accordion = ({
       }
     }
 
-    // set archetype array
-    if (type === "archetype") {
-      if (arrayArchetype.includes(label)) {
-        setArrayArchetype(arrayArchetype.filter((x) => x !== label));
+    // set category array
+    if (type === "category") {
+      if (arrayCategory.includes(label)) {
+        setArrayCategory(arrayCategory.filter((x) => x !== label));
       } else {
-        setArrayArchetype((prevValue) => [...prevValue, label]);
+        setArrayCategory((prevValue) => [...prevValue, label]);
       }
     }
 

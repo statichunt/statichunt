@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Blog
   - Portfolio
 description: Modern portfolio theme for your Hugo site

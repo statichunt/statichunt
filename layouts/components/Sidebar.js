@@ -11,7 +11,7 @@ const Sidebar = ({
   ssg,
   cms,
   css,
-  archetype,
+  category,
   tool,
   themes,
   arraySSG,
@@ -20,8 +20,8 @@ const Sidebar = ({
   setArrayCMS,
   arrayCSS,
   setArrayCSS,
-  arrayArchetype,
-  setArrayArchetype,
+  arrayCategory,
+  setArrayCategory,
   arrayTool,
   setArrayTool,
 }) => {
@@ -54,8 +54,8 @@ const Sidebar = ({
           ? cms
           : item.type == "css"
           ? css
-          : item.type == "archetype"
-          ? archetype
+          : item.type == "category"
+          ? category
           : tool,
     }));
     setSidebarData(filterAddition);
@@ -130,8 +130,8 @@ const Sidebar = ({
                         arrayCMS={arrayCMS}
                         setArrayCSS={setArrayCSS}
                         arrayCSS={arrayCSS}
-                        setArrayArchetype={setArrayArchetype}
-                        arrayArchetype={arrayArchetype}
+                        setArrayCategory={setArrayCategory}
+                        arrayCategory={arrayCategory}
                         setArrayTool={setArrayTool}
                         arrayTool={arrayTool}
                       />

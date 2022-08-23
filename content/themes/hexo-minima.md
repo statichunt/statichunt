@@ -8,7 +8,7 @@ ssg:
   - Hexo
 cms:
   - Markdown
-archetype:
+category:
   - Blog
 description: An undoubtedly simple and lightweight dark/light mode theme for Hexo
 draft: false

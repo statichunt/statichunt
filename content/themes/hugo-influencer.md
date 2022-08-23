@@ -7,7 +7,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
-archetype:
+category:
   - Ecommerce
 date: 2021-08-29T16:14:21.000Z
 description: >-

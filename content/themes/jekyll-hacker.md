@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype: null
+category: null
 description: Hacker is a Jekyll theme for GitHub Pages
 draft: false
 publish_date: '2016-10-06T23:02:10Z'

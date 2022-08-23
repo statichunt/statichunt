@@ -12,7 +12,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype: null
+category: null
 description: >-
   Nine4.app is a free template website for developers, businesses and hobbyists
   providing free templates built with Next.js and styled with Tailwind CSS.

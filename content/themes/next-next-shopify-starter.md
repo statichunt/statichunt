@@ -12,7 +12,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype:
+category:
   - Ecommerce
 description: >-
   This is a fully functional eCommerce store that uses Next.js + Tailwind CSS in

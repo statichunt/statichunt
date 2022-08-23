@@ -10,7 +10,7 @@ cms:
   - NetlifyCMS
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: Starter Template for Netlify CMS, Eleventy, Alpine JS & Tailwind CSS
 draft: false

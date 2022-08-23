@@ -12,7 +12,7 @@ ssg:
 cms:
   - NetlifyCMS
 css: null
-archetype:
+category:
   - Blog
 description: Modern blog theme for VuePress.
 draft: false

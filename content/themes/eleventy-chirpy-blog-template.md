@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: 11ty version of the popular Chirpy Jekyll blog theme
 draft: false

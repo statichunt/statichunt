@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Blog
 description: A simple, beautiful, and powerful Jekyll theme for blogs
 draft: false

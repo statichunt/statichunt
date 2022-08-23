@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype:
+category:
   - Portfolio
 description: A free online portfolio website to showcase your photos.
 draft: false

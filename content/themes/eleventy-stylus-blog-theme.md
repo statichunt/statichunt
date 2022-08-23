@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Stylus
-archetype:
+category:
   - Blog
 description: >-
   A nice-looking, mobile-first and dark theme friendly blog theme built with

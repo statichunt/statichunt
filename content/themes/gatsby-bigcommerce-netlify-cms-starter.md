@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Ecommerce
 description: >-
   Example Gatsby, BigCommerce and Netlify CMS project meant to jump start

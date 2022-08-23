@@ -12,7 +12,7 @@ cms:
 css:
   - Tailwind
   - PostCSS
-archetype:
+category:
   - Business
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
 draft: false

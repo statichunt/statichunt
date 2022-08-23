@@ -11,7 +11,7 @@ ssg:
   - Next
 cms: null
 css: null
-archetype:
+category:
   - Portfolio
 description: Next.js & Chakra-UI portfolio template.
 draft: false

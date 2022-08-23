@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Blog
   - Portfolio
 description: A (nearly) no-CSS, fast, minimalist Jekyll theme.

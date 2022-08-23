@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bulma
-archetype:
+category:
   - Blog
 description: >-
   Mere is a minimal and simple blog theme, and nothing more, for use with Jekyll

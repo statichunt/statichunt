@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: A template repository for Jekyll based blog
 draft: false

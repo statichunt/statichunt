@@ -12,7 +12,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A simple responsive, support qiniu image cdn theme for hexo.
 draft: false
 publish_date: '2016-05-27T09:57:08Z'

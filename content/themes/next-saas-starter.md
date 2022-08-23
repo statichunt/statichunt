@@ -11,7 +11,7 @@ ssg:
   - Next
 cms: null
 css: null
-archetype: null
+category: null
 description: >-
   Free Next.js responsive landing page template for SaaS products made using
   JAMStack architecture.Everything you need to build a great landing page /

@@ -13,7 +13,7 @@ cms:
   - NetlifyCMS
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: >-
   Deeply customizable, full-featured, ready to publish blog template built with

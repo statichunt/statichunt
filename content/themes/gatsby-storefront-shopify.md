@@ -11,7 +11,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype:
+category:
   - Ecommerce
 description: Create a Shopify store with Gatsby JS
 draft: false

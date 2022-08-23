@@ -12,7 +12,7 @@ ssg:
 cms:
   - NetlifyCMS
 css: null
-archetype: null
+category: null
 description: >-
   Quickly launch an 11ty-generated static site. Includes a minimal Sass
   framework, and generated sitemap, RSS feed, and social share preview images.

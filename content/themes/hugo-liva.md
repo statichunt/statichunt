@@ -8,7 +8,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
 date: 2021-08-29T16:18:21.000Z
 description: Liva is a personal blog template powered by Hugo.

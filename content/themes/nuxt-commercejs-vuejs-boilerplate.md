@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - SCSS
-archetype:
+category:
   - Ecommerce
 description: >-
   Commerce.js boilerplate built with Vue.js, for fast eCommerce development and

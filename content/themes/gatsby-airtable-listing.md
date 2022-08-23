@@ -10,7 +10,7 @@ cms:
   - Airtable
 css:
   - Tailwind
-archetype: null
+category: null
 description: Gatsby starter theme integrated with Airtable
 draft: false
 publish_date: '2020-03-13T11:06:07Z'

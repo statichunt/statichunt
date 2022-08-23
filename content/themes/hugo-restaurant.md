@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Business
   - Blog
 date: 2019-03-17T09:52:58.000Z2

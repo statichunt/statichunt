@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: An elegant Material-Design theme for Hexo.
 draft: false
 publish_date: '2018-10-14T15:26:24Z'

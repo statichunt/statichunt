@@ -10,7 +10,7 @@ cms:
   - Prismic
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
   - Portfolio
 description: >-

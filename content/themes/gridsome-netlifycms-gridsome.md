@@ -8,7 +8,7 @@ ssg:
   - Gridsome
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: A simple, hackable & minimalistic template for Gridsome
 draft: false

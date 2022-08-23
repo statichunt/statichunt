@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - SCSS
-archetype:
+category:
   - Portfolio
 description: >-
   Neumorphism designed Jekyll theme for personal websites, portfolios and

@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A simple, delicate, and modern theme for the static site generator Hexo.
 draft: false
 publish_date: '2015-03-19T14:24:24Z'

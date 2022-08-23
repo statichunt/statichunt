@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A simple and retro styled Hexo theme, concentrated more on your ideas.
 draft: false
 publish_date: '2015-05-17T07:46:09Z'

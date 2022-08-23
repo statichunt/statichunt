@@ -12,7 +12,7 @@ ssg:
 cms:
   - Ghost
 css: null
-archetype:
+category:
   - Blog
 description: >-
   A Gatsby theme plugin for creating blogs from headless Ghost CMS.Turn your

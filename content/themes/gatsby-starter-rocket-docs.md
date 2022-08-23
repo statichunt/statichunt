@@ -11,7 +11,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype:
+category:
   - Documentation
 description: >-
   The documentation starter you were looking for.Out of the box Gatsby Starter

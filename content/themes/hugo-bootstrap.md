@@ -11,7 +11,7 @@ css:
   - Bootstrap
 cms:
   - Markdown
-archetype:
+category:
   - Blog
 description: An extreme fast, responsive and feature-rich blog theme for Hugo.
 draft: false

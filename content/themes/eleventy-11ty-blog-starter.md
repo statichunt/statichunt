@@ -13,7 +13,7 @@ cms:
   - NetlifyCMS
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: 11ty, Tailwind. Works when JS is disabled.
 draft: false

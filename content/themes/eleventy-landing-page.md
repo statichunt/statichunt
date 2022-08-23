@@ -11,7 +11,7 @@ cms:
 css:
   - PostCSS
   - Tailwind
-archetype:
+category:
   - Business
 description: A simple landing page built with 11ty and Tailwind CSS.
 draft: false

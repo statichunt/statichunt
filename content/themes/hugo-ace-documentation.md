@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Documentation
 description: >-
   Create amazing projec documentation with Ace, featuring code highlighting,

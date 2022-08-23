@@ -12,7 +12,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype:
+category:
   - Boilerplate
 description: >-
   Starter template for NextJs with TypeScript. Supports Tailwind with

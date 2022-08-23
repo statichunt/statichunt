@@ -12,7 +12,7 @@ css:
   - Bootstrap
   - PostCSS
   - SCSS
-archetype:
+category:
   - Blog
   - Portfolio
   - Business

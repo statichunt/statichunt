@@ -10,7 +10,7 @@ cms:
   - Contentful
 css:
   - Tailwind
-archetype:
+category:
   - Portfolio
 description: Gatsby portfolio theme integrated with Contentful
 draft: false

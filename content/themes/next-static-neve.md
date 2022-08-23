@@ -8,7 +8,7 @@ ssg:
   - Next
 cms:
   - Wordpress
-archetype:
+category:
   - Blog
   - Portfolio
   - Business

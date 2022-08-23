@@ -7,7 +7,7 @@ ssg:
   - Hexo
 cms:
   - Markdown
-archetype:
+category:
   - Blog
 date: 2019-11-02T09:48:38.000Z
 description: A simple & clear & elegant hexo theme

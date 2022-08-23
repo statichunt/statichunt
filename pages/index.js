@@ -1,4 +1,4 @@
-import HomeArchetype from "@components/HomeArchetype";
+import HomeCategory from "@components/HomeCategory";
 import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
 import SortThemes from "@components/SortThemes";
@@ -7,7 +7,6 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePages } from "@lib/contents";
 import { slugify } from "@lib/utils/textConverter";
-import { fi } from "date-fns/locale";
 import { addArctype } from "hooks/addArctype";
 import { useReducer, useState } from "react";
 
@@ -16,7 +15,7 @@ const Home = ({
   cms,
   css,
   ssg,
-  archetype,
+  category,
   themes,
   tools,
 }) => {
@@ -26,11 +25,11 @@ const Home = ({
   const [arraySSG, setArraySSG] = useState([]);
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
-  const [arrayArchetype, setArrayArchetype] = useState([]);
+  const [arrayCategory, setArrayCategory] = useState([]);
   const [isShow, setIsShow] = useState(false);
   const [isValue, setIsValue] = useState("default");
-  const addarchetypes = addArctype(themes);
-  const defaultSort = addarchetypes.sort(
+  const addcategorys = addArctype(themes);
+  const defaultSort = addcategorys.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
 
@@ -115,11 +114,11 @@ const Home = ({
         )
       : defaultSort
   );
-  const filterArchetype = filterCSS?.filter((theme) =>
-    arrayArchetype.length
-      ? arrayArchetype.find((type) =>
-          theme.frontmatter.archetype
-            ?.map((archetype) => slugify(archetype))
+  const filterCategory = filterCSS?.filter((theme) =>
+    arrayCategory.length
+      ? arrayCategory.find((type) =>
+          theme.frontmatter.category
+            ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
       : defaultSort
@@ -145,11 +144,11 @@ const Home = ({
           <div className="container">
             <Intro data={intro} />
             <div className="mb-8 flex justify-between">
-              <HomeArchetype
+              <HomeCategory
                 themes={filterCSS}
-                archetype={archetype}
-                arrayArchetype={arrayArchetype}
-                setArrayArchetype={setArrayArchetype}
+                category={category}
+                arrayCategory={arrayCategory}
+                setArrayCategory={setArrayCategory}
               />
               <SortThemes
                 isShow={isShow}
@@ -159,7 +158,7 @@ const Home = ({
               />
             </div>
 
-            <Themes themes={filterArchetype} tools={tools} />
+            <Themes themes={filterCategory} tools={tools} />
           </div>
         </main>
       </div>
@@ -176,8 +175,8 @@ export const getStaticProps = async () => {
   const ssg = getSinglePages("content/ssg");
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
-  const archetype = getSinglePages("content/archetype");
-  const tools = [...ssg, ...cms, ...css, ...archetype];
+  const category = getSinglePages("content/category");
+  const tools = [...ssg, ...cms, ...css, ...category];
   const themes = getSinglePages("content/themes");
 
   return {
@@ -186,7 +185,7 @@ export const getStaticProps = async () => {
       ssg: ssg,
       cms: cms,
       css: css,
-      archetype: archetype,
+      category: category,
       themes: themes,
       tools: tools,
     },

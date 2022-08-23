@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Blog
   - Business
 description: 🎨 Yet another theme for elegant writers with modern flat style.

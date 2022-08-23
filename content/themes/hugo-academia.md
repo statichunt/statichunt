@@ -10,7 +10,7 @@ cms:
   - Forestry
 css:
   - Bootstrap
-archetype:
+category:
   - Portfolio
 date: 2021-09-29T15:28:21.000Z
 description: Academia Hugo is a resume template for Hugo theme.

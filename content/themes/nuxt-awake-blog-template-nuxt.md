@@ -8,7 +8,7 @@ ssg:
   - Nuxt
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: >-
   Awake is a Nuxt.js template for generating a beautifully robust static site

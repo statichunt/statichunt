@@ -8,7 +8,7 @@ ssg:
   - Hugo
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: A Hugo boilerplate for creating a blog site
 draft: false

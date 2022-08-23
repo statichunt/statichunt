@@ -11,7 +11,7 @@ cms:
 css:
   - Bootstrap
   - SCSS
-archetype:
+category:
   - Blog
   - Documentation
 description: >-

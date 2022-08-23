@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: >-
   A fully customizable blog template designed for developers (or anyone else)

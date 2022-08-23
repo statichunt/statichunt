@@ -11,7 +11,7 @@ cms:
   - NetlifyCMS
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
   - Portfolio
   - Ecommerce

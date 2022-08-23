@@ -9,7 +9,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Portfolio
 date: 2018-07-08T10:28:35.000Z
 description: Navigator Template Hugo Version by themefisher0

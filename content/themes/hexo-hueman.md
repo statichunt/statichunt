@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A redesign of Alx's wordpress theme Hueman, ported to Hexo.
 draft: false
 publish_date: '2015-02-01T13:46:06Z'

@@ -10,7 +10,7 @@ cms:
   - Cosmic
 css:
   - Tailwind
-archetype:
+category:
   - Blog
   - Portfolio
   - Business

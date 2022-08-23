@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Portfolio
   - Blog
 description: Bay is a simple theme for Jekyll.

@@ -8,7 +8,7 @@ ssg:
   - Nuxt
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: >-
   Start with Typescript, TailwindCSS, Nuxt, Netlify Forms & Netlify CMS,

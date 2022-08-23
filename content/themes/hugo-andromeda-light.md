@@ -11,7 +11,7 @@ css:
   - Bootstrap
 cms:
   - Forestry
-archetype:
+category:
   - Business
 date: 2021-08-29T16:13:50.000Z
 description: >-

@@ -9,9 +9,10 @@
     "build": "next build",
     "lint": "next lint",
     "start": "next start",
-    "ss-themes": "node lib/jsonGenerator.js && node lib/screenshotThemes.js",
-    "ss-resources": "node lib/jsonGenerator.js && node lib/screenshotResources.js",
-    "update-themes": "node lib/jsonGenerator.js && node lib/updateThemes.js && node lib/jsonGenerator.js"
+    "json": "node lib/jsonGenerator.js",
+    "ss-themes": "yarn json && node lib/screenshotThemes.js",
+    "ss-resources": "yarn json && node lib/screenshotResources.js",
+    "update-themes": "yarn json && node lib/updateThemes.js && yarn json"
   },
   "dependencies": {
     "dotenv": "^16.0.1",

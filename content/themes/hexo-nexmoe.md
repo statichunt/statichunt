@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A special Hexo theme.
 draft: false
 publish_date: '2019-07-21T05:43:13Z'

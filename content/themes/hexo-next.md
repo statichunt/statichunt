@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: >-
   NexT is a high quality elegant Hexo theme. It is crafted from scratch with
   love. Elegant and powerful theme for Hexo.

@@ -12,7 +12,7 @@ ssg:
 cms:
   - NetlifyCMS
 css: null
-archetype:
+category:
   - Blog
 description: >-
   A high performance blog template for the 11ty static site generator.A starter

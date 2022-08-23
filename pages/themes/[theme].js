@@ -82,8 +82,8 @@ export const getStaticProps = ({ params }) => {
   const ssg = getSinglePages("content/ssg");
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
-  const archetype = getSinglePages("content/archetype");
-  const tools = [...ssg, ...cms, ...css, ...archetype];
+  const category = getSinglePages("content/category");
+  const tools = [...ssg, ...cms, ...css, ...category];
 
   return {
     props: {

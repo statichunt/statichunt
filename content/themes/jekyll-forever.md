@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - SCSS
-archetype:
+category:
   - Blog
 description: Forever Jekyll is a simple, elegant & full featured Jekyll theme.
 draft: false

@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
-archetype:
+category:
   - Blog
 description: >-
   Delog is developed for professional bloggers and web designers to build a

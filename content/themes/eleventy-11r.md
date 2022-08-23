@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: >-
   A blog template and theme using 11ty, TailwindCSS, Rollup, Prism syntax

@@ -11,7 +11,7 @@ cms:
   - Forestry
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
   - Portfolio
 date: 2021-08-29T16:16:35.000Z

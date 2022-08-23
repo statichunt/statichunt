@@ -10,7 +10,7 @@ cms:
   - Forestry
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
 date: 2018-07-15T10:07:51.000Z
 description: Bigspring is a Hugo startup theme. It has a clean, minimal, fresh UI.

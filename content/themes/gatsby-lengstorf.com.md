@@ -11,7 +11,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: Source for lengstorf.com, Jason Lengstorf's personal site.
 draft: false

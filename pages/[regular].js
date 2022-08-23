@@ -21,7 +21,7 @@ const RegularPages = ({
   ssgSlug,
   taxonomies,
   tools,
-  archetype,
+  category,
   toolSlug,
   resources,
 }) => {
@@ -29,26 +29,26 @@ const RegularPages = ({
     taxonomies[0].frontmatter;
   const { sidebar } = config;
   const { content } = taxonomies[0];
-  const [arrayArchetype, setArrayArchetype] = useState([]);
+  const [arrayCategory, setArrayCategory] = useState([]);
 
   useEffect(() => {
-    setArrayArchetype([]);
+    setArrayCategory([]);
   }, [slug]);
-  const addarchetypes = addArctype(data);
-  const filterArchetype = addarchetypes.filter((theme) =>
-    arrayArchetype.length
-      ? arrayArchetype.find((type) =>
-          theme.frontmatter.archetype
-            ?.map((archetype) => slugify(archetype))
+  const addcategorys = addArctype(data);
+  const filterCategory = addcategorys.filter((theme) =>
+    arrayCategory.length
+      ? arrayCategory.find((type) =>
+          theme.frontmatter.category
+            ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
       : data
   );
   // change others position
 
-  const indexOfOthers = archetype.map((data) => data.slug).indexOf("others");
-  const element = archetype.splice(indexOfOthers, 1)[0];
-  archetype.splice(archetype.length, 0, element);
+  const indexOfOthers = category.map((data) => data.slug).indexOf("others");
+  const element = category.splice(indexOfOthers, 1)[0];
+  category.splice(category.length, 0, element);
 
   return (
     <Base
@@ -63,15 +63,15 @@ const RegularPages = ({
         <div className="flex">
           <Sidebar
             sidebar={sidebar}
-            themes={addarchetypes}
+            themes={addcategorys}
             slug={slug}
-            archetype={archetype}
-            setArrayArchetype={setArrayArchetype}
-            arrayArchetype={arrayArchetype}
+            category={category}
+            setArrayCategory={setArrayCategory}
+            arrayCategory={arrayCategory}
           />
           <Taxonomy
             taxonomies={taxonomies}
-            data={filterArchetype}
+            data={filterCategory}
             tools={tools}
           />
         </div>
@@ -151,8 +151,8 @@ export const getStaticProps = async ({ params }) => {
     : defaultPage;
 
   // all taxonomies
-  const archetype = getSinglePages("content/archetype");
-  const tools = [...ssg, ...cms, ...css, ...archetype];
+  const category = getSinglePages("content/category");
+  const tools = [...ssg, ...cms, ...css, ...category];
 
   // all themes
   const themes = getSinglePages("content/themes");
@@ -164,7 +164,7 @@ export const getStaticProps = async ({ params }) => {
       taxonomies: taxonomies,
       tools: tools,
       resources: singleResources,
-      archetype: archetype,
+      category: category,
       themes: themes,
       toolSlug: toolSlug,
       allResources: allResources,

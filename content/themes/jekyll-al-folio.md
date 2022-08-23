@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype:
+category:
   - Portfolio
 description: A beautiful, simple, clean, and responsive Jekyll theme for academics
 draft: false

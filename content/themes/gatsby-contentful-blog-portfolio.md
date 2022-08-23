@@ -9,7 +9,7 @@ cms:
   - Contentful
 css:
   - Scss
-archetype:
+category:
   - Blog
   - Portfolio
 date: 2020-02-19T12:10:46.000Z

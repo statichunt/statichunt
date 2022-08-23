@@ -12,7 +12,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype:
+category:
   - Boilerplate
 description: >-
   An opinionated set of integrated themes and starters as a boilerplate to

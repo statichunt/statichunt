@@ -11,7 +11,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype:
+category:
   - Documentation
 description: Ready to use documentation theme for Gatsby.
 draft: false

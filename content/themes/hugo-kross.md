@@ -10,7 +10,7 @@ cms:
   - Forestry
 css:
   - Bootstrap
-archetype:
+category:
   - Portfolio
 date: 2019-05-13T08:18:18.000Z
 description: Kross Creative Portfolio Template

@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A beautiful hexo blog theme with material design and responsive design.
 draft: false
 publish_date: '2018-08-27T16:38:12Z'

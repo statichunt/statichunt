@@ -18,8 +18,8 @@ const ToolsIcon = ({ tools, type, size }) => {
               key={`icon-${i}`}
             >
               <Image
-                width={size ? size : 15}
-                height={size ? size : 15}
+                width={size ? size : 18}
+                height={size ? size : 18}
                 alt={icon.frontmatter.title}
                 src={icon.frontmatter.icon}
               />

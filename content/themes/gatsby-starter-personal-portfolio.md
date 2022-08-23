@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
   - Portfolio
 description: This theme is a minimalistic resume style Gatsby portfolio

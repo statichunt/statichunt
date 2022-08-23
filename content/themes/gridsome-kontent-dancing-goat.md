@@ -8,7 +8,7 @@ ssg:
 cms:
   - Kontent
 date: 2020-12-01T00:00:00.000Z
-archetype:
+category:
   - Business
 description: Gridsome implementation of the Dancing Goat Starter site.
 draft: false

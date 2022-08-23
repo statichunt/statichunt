@@ -11,7 +11,7 @@ cms:
 css:
   - Mui
   - Scss
-archetype:
+category:
   - Portfolio
   - Blog
 description: >-

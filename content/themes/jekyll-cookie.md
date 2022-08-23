@@ -7,7 +7,7 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-archetype:
+category:
   - Ecommerce
   - Business
   - Blog

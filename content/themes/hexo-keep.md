@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A simple and elegant theme for Hexo. It makes you more focused on writing.
 draft: false
 publish_date: '2020-03-12T07:34:20Z'

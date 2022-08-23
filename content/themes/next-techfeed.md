@@ -11,7 +11,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: >-
   Techfeed Nextjs theme comes with a clean design that draws viewers’ attention

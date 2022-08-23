@@ -11,7 +11,7 @@ ssg:
   - Next
 cms: null
 css: null
-archetype:
+category:
   - Boilerplate
 description: >-
   NextJS Material Kit is a Free Material-UI Kit with a fresh, new design

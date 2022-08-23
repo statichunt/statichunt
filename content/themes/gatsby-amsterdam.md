@@ -12,7 +12,7 @@ ssg:
 cms:
   - NetlifyCMS
 css: null
-archetype: null
+category: null
 description: A Gatsby theme for artists, photographers and other creative folks.
 draft: false
 publish_date: '2019-07-24T06:20:23Z'

@@ -9,7 +9,7 @@ ssg:
 cms:
   - NetlifyCMS
 css: null
-archetype:
+category:
   - Blog
   - Portfolio
 description: The super simple portfolio template built with Eleventy and NetlifyCMS

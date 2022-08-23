@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bulma
-archetype:
+category:
   - Blog
   - Portfolio
   - Documentation

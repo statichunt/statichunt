@@ -12,7 +12,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype:
+category:
   - Boilerplate
 description: >-
   A well-structured production ready Next.js boilerplate with Typescript, Redux,

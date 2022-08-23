@@ -12,7 +12,7 @@ ssg:
 cms:
   - NetlifyCMS
 css: null
-archetype:
+category:
   - Ecommerce
 description: A Gatsby Theme for WooCommerce E-commerce site Gatsby WooCommerce WordPress.
 draft: false

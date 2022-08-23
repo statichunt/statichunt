@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Documentation
 date: 2019-01-05T09:42:06.000Z
 description: Dot - Hugo Documentation Theme

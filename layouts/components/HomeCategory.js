@@ -1,17 +1,17 @@
 import { slugify } from "@lib/utils/textConverter";
 import { useEffect, useState } from "react";
 
-const HomeArchetype = ({
+const HomeCategory = ({
   themes,
-  archetype,
-  arrayArchetype,
-  setArrayArchetype,
+  category,
+  arrayCategory,
+  setArrayCategory,
 }) => {
-  const [taxomomy, setTaxonomy] = useState(archetype);
+  const [taxomomy, setTaxonomy] = useState(category);
   // change others position
-  const indexOfOthers = archetype.map((data) => data.slug).indexOf("others");
-  const element = archetype.splice(indexOfOthers, 1)[0];
-  archetype.splice(archetype.length, 0, element);
+  const indexOfOthers = category.map((data) => data.slug).indexOf("others");
+  const element = category.splice(indexOfOthers, 1)[0];
+  category.splice(category.length, 0, element);
 
   useEffect(() => {
     const filterAddition = taxomomy.map((item) => ({
@@ -32,23 +32,23 @@ const HomeArchetype = ({
     }
     setTaxonomy(temp);
 
-    if (arrayArchetype.includes(label)) {
-      setArrayArchetype(arrayArchetype.filter((x) => x !== label));
+    if (arrayCategory.includes(label)) {
+      setArrayCategory(arrayCategory.filter((x) => x !== label));
     } else {
-      setArrayArchetype((prevValue) => [...prevValue, label]);
+      setArrayCategory((prevValue) => [...prevValue, label]);
     }
   };
 
   // category items count
   const countItems = (item) =>
     themes.filter((theme) =>
-      theme.frontmatter.archetype
+      theme.frontmatter.category
         ?.map((theme) => slugify(theme))
         .includes(slugify(item.frontmatter.title))
     ).length;
 
   return (
-    <ul className="archetype-list">
+    <ul className="category-list">
       {taxomomy.map(
         (item, i) =>
           countItems(item) > 0 && (
@@ -66,4 +66,4 @@ const HomeArchetype = ({
   );
 };
 
-export default HomeArchetype;
+export default HomeCategory;

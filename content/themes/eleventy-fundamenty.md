@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - tailwind
-archetype:
+category:
   - Blog
   - Business
 description: >-

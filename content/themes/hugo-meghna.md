@@ -11,7 +11,7 @@ cms:
   - Forestry
 css:
   - Bootstrap
-archetype:
+category:
   - Portfolio
   - Blog
   - Business

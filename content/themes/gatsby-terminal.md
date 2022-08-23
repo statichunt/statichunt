@@ -11,7 +11,7 @@ ssg:
   - Gatsby
 cms: null
 css: null
-archetype: null
+category: null
 description: >-
   Gatsby Theme Terminal aims to be a zero component theme. It provides data
   components to aid in the abstraction of presentational and data layers which

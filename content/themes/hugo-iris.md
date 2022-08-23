@@ -10,7 +10,7 @@ cms:
   - NetlifyCMS
 css:
   - Bulma
-archetype:
+category:
   - Blog
   - Portfolio
 description: This theme is a lightweight and dark theme for a blog or a portfolio

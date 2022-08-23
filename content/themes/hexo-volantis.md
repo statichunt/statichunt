@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: A Wonderful Theme for Hexo.
 draft: false
 publish_date: '2017-10-24T03:46:42Z'

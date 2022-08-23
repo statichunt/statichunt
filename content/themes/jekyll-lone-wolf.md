@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Blog
   - Portfolio
 description: A simple bootstrap based jekyll theme.

@@ -68,11 +68,11 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
               <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
               <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
               <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
-              {/* <ToolsIcon tools={tools} type={theme.frontmatter?.archetype} /> */}
-              <div className="ml-auto">
+              {/* <ToolsIcon tools={tools} type={theme.frontmatter?.category} /> */}
+              <div className="ml-auto flex items-center">
                 <Link href={`/demo/${theme.slug}`}>
                   <a
-                    className="btn btn-sm btn-demo has-tooltip mb-2 mr-1 leading-none"
+                    className="btn btn-sm btn-demo svg-block mb-2 mr-1 leading-none"
                     target="_blank"
                     rel="noopener nofollow"
                     data-tooltip="Preview"
@@ -82,12 +82,12 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 </Link>
                 <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
                   <a
-                    className="btn btn-sm btn-download has-tooltip mb-2 leading-none"
+                    className="btn btn-sm btn-download svg-align-bottom mb-2 leading-none"
                     target="_blank"
                     rel="noopener nofollow"
                     data-tooltip="Download"
                   >
-                    <TbDownload />
+                    Get &nbsp; <TbDownload />
                   </a>
                 </Link>
               </div>

@@ -13,7 +13,7 @@ cms:
   - Markdown
 css:
   - Tailwind
-archetype:
+category:
   - Blog
 description: >-
   Fornax Nextjs theme is a very featureful blog theme that is designed to be

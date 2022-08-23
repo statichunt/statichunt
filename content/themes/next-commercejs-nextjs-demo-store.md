@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - SCSS
-archetype:
+category:
   - Ecommerce
 description: >-
   A commerce storefront example built using Next.js and Commerce.js with

@@ -10,7 +10,7 @@ css:
   - Bootstrap
 cms:
   - Markdown
-archetype:
+category:
   - Blog
 description:" A Digital Garden: >-
   Capturing my daily thoughts and progress, as well as curated ideas with unique

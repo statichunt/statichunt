@@ -12,7 +12,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype:
+category:
   - Boilerplate
 description: >-
   An opinionated starter skeleton with advanced features for Next.js.Use

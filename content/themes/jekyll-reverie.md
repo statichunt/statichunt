@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: >-
   Reverie is a Jekyll-powered theme that is simple and opinionated. It's

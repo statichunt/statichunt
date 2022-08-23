@@ -8,7 +8,7 @@ ssg:
   - Next
 cms:
   - Markdown
-archetype:
+category:
   - Documentation
 description: smooth-doc in Nextjs implementation
 draft: false

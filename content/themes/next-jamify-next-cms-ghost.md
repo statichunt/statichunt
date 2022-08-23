@@ -7,7 +7,7 @@ ssg:
   - Next
 cms:
   - Ghost
-archetype:
+category:
   - Blog
   - Portfolio
 date: 2020-12-04T00:00:00.000Z

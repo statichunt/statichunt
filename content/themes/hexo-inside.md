@@ -11,7 +11,7 @@ ssg:
   - Hexo
 cms: null
 css: null
-archetype: null
+category: null
 description: null
 draft: false
 publish_date: '2017-11-09T03:34:33Z'

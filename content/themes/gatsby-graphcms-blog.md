@@ -11,7 +11,7 @@ css:
   - Tailwind
 date: 2021-07-18T19:00:00.000Z
 description: Gatsby starter for creating a basic blog with GraphCMS
-archetype:
+category:
   - Blog
 draft: false
 publish_date: '2020-07-28T09:54:17Z'

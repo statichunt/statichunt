@@ -11,7 +11,7 @@ cms:
   - NetlifyCMS
 css:
   - SCSS
-archetype:
+category:
   - Blog
   - Portfolio
 description: >-

@@ -10,7 +10,7 @@ cms:
   - Forestry
 css:
   - Bootstrap
-archetype:
+category:
   - Portfolio
   - Blog
 date: 2019-05-15T08:33:57.000Z

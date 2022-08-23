@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 cms: null
 css: null
-archetype:
+category:
   - Blog
 description: Full-featured Jekyll port of Ghost's default theme Casper
 draft: false

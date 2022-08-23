@@ -12,7 +12,7 @@ ssg:
 cms:
   - Markdown
 css: null
-archetype:
+category:
   - Blog
   - Documentation
 description: >-

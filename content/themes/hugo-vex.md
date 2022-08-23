@@ -10,7 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
-archetype:
+category:
   - Ecommerce
   - Business
 date: 2018-01-09T21:59:07.000Z
