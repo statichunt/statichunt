@@ -55,15 +55,12 @@ sections:
 - type: document
   path: config/config.json
   label: config
-  match: "**/*"
 - type: document
   path: config/menu.json
   label: Menu
-  match: "**/*"
 - type: document
   path: config/social.json
   label: Social
-  match: "**/*"
 upload_dir: public/blog
 public_path: "/blog"
 front_matter_path: ''
