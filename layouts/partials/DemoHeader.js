@@ -108,12 +108,13 @@ const DemoHeader = ({
               <TbExternalLink />
             </a>
             <a
-              className="btn btn-outline-primary svg-block has-tooltip tooltip-bottom text-lg !leading-none"
+              className="btn btn-outline-primary svg-align-bottom has-tooltip tooltip-bottom text-lg !leading-none"
               href={`${github}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
               data-tooltip="Download"
             >
+              Get &nbsp;
               <TbDownload />
             </a>
           </div>
