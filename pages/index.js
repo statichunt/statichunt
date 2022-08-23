@@ -85,7 +85,11 @@ const Home = ({
     setIsValue(e.target.value);
     setIsShow(!isShow);
   };
-
+  const mouseHndler = () => {
+    if (isShow) {
+      setIsShow(!isShow);
+    }
+  };
   // theme filtering
   const filterSSG = currentTheme?.filter((theme) =>
     arraySSG.length
@@ -126,7 +130,7 @@ const Home = ({
 
   return (
     <Base>
-      <div className="flex">
+      <div className="flex" onClick={mouseHndler}>
         <Sidebar
           sidebar={sidebar}
           ssg={ssg}
