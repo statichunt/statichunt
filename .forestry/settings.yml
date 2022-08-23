@@ -36,6 +36,34 @@ sections:
   create: documents
   match: "*"
   exclude: _index.md
+- type: heading
+  label: Resources
+- type: directory
+  path: content/resources
+  label: Resources
+  create: documents
+  match: "*"
+  exclude: _index.md
+- type: directory
+  path: content/tool
+  label: Tool
+  create: documents
+  match: "*"
+  exclude: _index.md
+- type: heading
+  label: Configuration
+- type: document
+  path: config/config.json
+  label: config
+  match: "**/*"
+- type: document
+  path: config/menu.json
+  label: Menu
+  match: "**/*"
+- type: document
+  path: config/social.json
+  label: Social
+  match: "**/*"
 upload_dir: public/blog
 public_path: "/blog"
 front_matter_path: ''
