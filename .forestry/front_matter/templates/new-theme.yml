@@ -5,6 +5,9 @@ fields:
 - type: text
   name: title
   label: title
+- type: datetime
+  name: date
+  label: date
 - type: text
   name: github
   label: github
@@ -32,24 +35,9 @@ fields:
 - type: list
   name: category
   label: category
-- type: datetime
-  name: date
-  label: date
 - type: textarea
   name: description
   label: description
 - type: boolean
   name: draft
   label: draft
-- type: datetime
-  name: publish_date
-  label: publish_date
-- type: datetime
-  name: update_date
-  label: update_date
-- type: number
-  name: github_star
-  label: github_star
-- type: number
-  name: github_fork
-  label: github_fork
