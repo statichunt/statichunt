@@ -54,7 +54,7 @@ sections:
   label: Configuration
 - type: document
   path: config/config.json
-  label: config
+  label: Config
 - type: document
   path: config/menu.json
   label: Menu
