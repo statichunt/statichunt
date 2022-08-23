@@ -1,8 +1,9 @@
 ---
 title: Hugo Massively
-github: https://github.com/curtistimson/hugo-theme-massively
+github: https://github.com/curtiscde/hugo-theme-massively
 demo: https://hugo-theme-massively.netlify.com/
 author: Curtis Timson
+author_link: ""
 thumbnail: themes/curtistimson-hugo-theme-massively.jpg
 ssg:
   - Hugo

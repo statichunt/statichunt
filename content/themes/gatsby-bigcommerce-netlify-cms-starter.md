@@ -1,5 +1,5 @@
 ---
-title: BigCommerce Gatsby Starter Netlify CMS
+title: BigCommerce Gatsby Starter
 github: https://github.com/bigcommerce/gatsby-bigcommerce-netlify-cms-starter
 author: bigcommerce
 demo: https://affectionate-goldwasser-30230c.netlify.app/
@@ -10,6 +10,7 @@ cms:
   - NetlifyCMS
 category:
   - Ecommerce
+  - Boilerplate
 description: >-
   Example Gatsby, BigCommerce and Netlify CMS project meant to jump start
   Jamstack ecommerce sites.

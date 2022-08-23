@@ -1,11 +1,12 @@
 ---
-title: Gatsby Markdown Material TSX Responsive Blog Starter
+title: Gatsby Markdown Material TSX Blog Starter
 github: https://github.com/stephen-cloud/gatsby-markdown-material-typescript-starter
 demo: https://gatsby-markdown-material-typescript-starter.stephen.cloud/
 author: Stephen Harrison and Alejandro Roman
 category:
   - Blog
   - Portfolio
+  - Boilerplate
 ssg:
   - Gatsby
 cms:
