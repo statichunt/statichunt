@@ -14,7 +14,7 @@ category:
   - Portfolio
 date: 2020-10-30T00:00:00.000Z
 description: A Jekyll theme designed for academics, powered by Bootstrap
-draft: false
+draft: true
 publish_date: '2020-10-30T02:48:49Z'
 update_date: '2021-03-02T00:19:24Z'
 github_star: 36

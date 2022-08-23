@@ -16,7 +16,7 @@ category:
 description: >-
   11ty Starter with Multi-language support, SEO-friendly, GitHub/GitLab
   Pages-ready
-draft: false
+draft: true
 publish_date: '2020-07-19T14:35:02Z'
 update_date: '2022-02-11T11:23:09Z'
 github_star: 55

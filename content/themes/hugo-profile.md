@@ -14,7 +14,7 @@ category:
   - Blog
   - Portfolio
 description: The fastest Hugo theme for personal portfolio and blog.
-draft: false
+draft: true
 publish_date: '2020-08-16T07:19:04Z'
 update_date: '2022-07-24T14:17:48Z'
 github_star: 196

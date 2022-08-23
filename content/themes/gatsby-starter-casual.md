@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2019-06-27T11:35:02.000Z
 description: Gatsby.js V2 starter template based on Casual by startbootstrap
-draft: false
+draft: true
 publish_date: '2019-06-27T11:35:02Z'
 update_date: '2022-01-13T09:44:33Z'
 github_star: 12

@@ -14,7 +14,7 @@ css: null
 category:
   - Blog
 description: A template repository for Jekyll based blog
-draft: false
+draft: true
 publish_date: '2013-11-11T15:22:57Z'
 update_date: '2022-08-16T02:03:23Z'
 github_star: 1284

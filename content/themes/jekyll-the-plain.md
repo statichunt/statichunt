@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2015-09-08T16:09:41.000Z
 description: A minimalist Jekyll theme, ideally designed for your personal blog use.
-draft: false
+draft: true
 publish_date: '2015-09-08T16:09:41Z'
 update_date: '2021-10-18T07:09:19Z'
 github_star: 496

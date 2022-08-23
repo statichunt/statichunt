@@ -14,7 +14,7 @@ css: null
 category:
   - Blog
 description: Full-featured Jekyll port of Ghost's default theme Casper v2
-draft: false
+draft: true
 publish_date: '2017-11-17T15:53:38Z'
 update_date: '2021-05-26T22:33:45Z'
 github_star: 691

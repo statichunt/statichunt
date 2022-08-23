@@ -14,7 +14,7 @@ category:
   - Ecommerce
 date: 2020-07-03T18:24:48.000Z
 description: This Gridsome Shopify starter app is built with Tailwind CSS.
-draft: false
+draft: true
 publish_date: '2020-06-16T19:25:47Z'
 update_date: '2020-07-24T13:52:23Z'
 github_star: 39

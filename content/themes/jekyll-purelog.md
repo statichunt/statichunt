@@ -13,7 +13,7 @@ category:
 description: >-
   A responsive sidebar Jekyll theme using the Pure.css framework, designed for
   writers and bloggers of all kinds.
-draft: false
+draft: true
 publish_date: '2020-11-08T04:33:19Z'
 update_date: '2022-02-04T05:25:56Z'
 github_star: 19

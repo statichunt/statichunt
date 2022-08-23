@@ -14,7 +14,7 @@ cms:
 category:
   - Blog
 description: An extreme fast, responsive and feature-rich blog theme for Hugo.
-draft: false
+draft: true
 publish_date: '2020-10-15T13:20:45Z'
 update_date: '2022-08-19T14:55:15Z'
 github_star: 283

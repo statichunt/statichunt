@@ -16,7 +16,7 @@ category:
 description: >-
   Reverie is a Jekyll-powered theme that is simple and opinionated. It's
   actually a fork of Jekyll-now with some additional features.
-draft: false
+draft: true
 publish_date: '2019-02-12T19:00:55Z'
 update_date: '2022-02-21T10:25:57Z'
 github_star: 616

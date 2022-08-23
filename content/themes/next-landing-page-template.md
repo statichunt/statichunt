@@ -15,7 +15,7 @@ github_branch: master
 description: >-
   Next JS Landing Page Template Free styled with Tailwind CSS and React
   TypeScript. An NextJS layout to create a landing page.
-draft: false
+draft: true
 publish_date: '2021-03-30T17:30:06Z'
 update_date: '2022-02-07T14:36:26Z'
 github_star: 808

@@ -11,7 +11,7 @@ date: 2015-01-13T15:49:27.000Z
 description: >-
   A minimal, single-column Jekyll theme that provides an immersive read
   experience for your readers.
-draft: false
+draft: true
 publish_date: '2015-01-13T15:49:27Z'
 update_date: '2021-07-14T07:40:33Z'
 github_star: 155

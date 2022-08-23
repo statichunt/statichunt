@@ -9,7 +9,7 @@ cms:
   - Forestry
 date: 2019-01-03T21:54:32.000Z
 description: Gridsome starter kit with Forestry (CMS)
-draft: false
+draft: true
 publish_date: '2019-01-03T21:54:32Z'
 update_date: '2022-02-19T13:04:10Z'
 github_star: 136

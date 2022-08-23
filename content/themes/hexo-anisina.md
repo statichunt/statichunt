@@ -14,7 +14,7 @@ cms: null
 css: null
 category: null
 description: A simple responsive, support qiniu image cdn theme for hexo.
-draft: false
+draft: true
 publish_date: '2016-05-27T09:57:08Z'
 update_date: '2021-03-17T12:22:57Z'
 github_star: 765

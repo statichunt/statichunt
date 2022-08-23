@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2017-03-07T21:08:01.000Z
 description: Your new Jekyll default theme
-draft: false
+draft: true
 publish_date: '2017-03-07T21:08:01Z'
 update_date: '2021-09-22T02:47:20Z'
 github_star: 706

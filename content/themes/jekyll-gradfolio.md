@@ -14,7 +14,7 @@ category:
 description: >-
   responsive, dark-mode ready Jekyll theme designed for use as a personal
   website and portfolio
-draft: false
+draft: true
 publish_date: '2020-03-18T21:33:43Z'
 update_date: '2021-10-18T10:09:03Z'
 github_star: 94

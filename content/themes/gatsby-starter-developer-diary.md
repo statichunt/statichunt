@@ -11,7 +11,7 @@ date: 2019-05-27T14:26:21.000Z
 description: >-
   An official Gatsby blog template designed for web developers. Blazing fast, it
   includes beautful web developer topic tags and social-media links
-draft: false
+draft: true
 publish_date: '2019-05-27T14:26:21Z'
 update_date: '2020-11-23T02:00:30Z'
 github_star: 77

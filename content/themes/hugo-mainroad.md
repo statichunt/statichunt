@@ -11,7 +11,7 @@ date: 2016-12-15T13:21:09.000Z
 description: >-
   Responsive, simple, clean and content-focused Hugo theme based on the MH
   Magazine lite WordPress theme
-draft: false
+draft: true
 publish_date: '2016-12-15T13:21:09Z'
 update_date: '2022-08-18T16:33:28Z'
 github_star: 685

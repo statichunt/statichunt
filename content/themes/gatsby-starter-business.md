@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2018-03-31T13:20:45.000Z
 description: Gatsby Business Website Starter
-draft: false
+draft: true
 publish_date: '2018-03-31T13:20:45Z'
 update_date: '2020-12-18T07:43:00Z'
 github_star: 243

@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2018-05-19T17:36:39.000Z
 description: An easy on the eyes Hugo blog theme with dark mode.
-draft: false
+draft: true
 publish_date: '2018-05-19T17:36:39Z'
 update_date: '2020-12-07T21:26:18Z'
 github_star: 20

@@ -16,7 +16,7 @@ category: null
 description: >-
   Quickly launch an 11ty-generated static site. Includes a minimal Sass
   framework, and generated sitemap, RSS feed, and social share preview images.
-draft: false
+draft: true
 publish_date: '2020-05-23T22:10:23Z'
 update_date: '2022-01-16T20:21:46Z'
 github_star: 204

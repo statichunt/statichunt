@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2018-09-16T20:53:24.000Z
 description: ':rocket: A Gatsby theme/starter to build lightning-fast blog/websites'
-draft: false
+draft: true
 publish_date: '2018-09-16T20:53:24Z'
 update_date: '2021-04-04T09:03:51Z'
 github_star: 200

@@ -14,7 +14,7 @@ css: null
 category:
   - Documentation
 description: Ready to use documentation theme for Gatsby.
-draft: false
+draft: true
 publish_date: '2018-11-30T09:20:27Z'
 update_date: '2022-01-30T18:28:43Z'
 github_star: 233

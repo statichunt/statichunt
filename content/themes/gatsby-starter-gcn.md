@@ -11,7 +11,7 @@ date: 2018-02-23T00:09:29.000Z
 description: >-
   A starter template to build amazing static websites with Gatsby, Contentful
   and Netlify
-draft: false
+draft: true
 publish_date: '2018-02-23T00:09:29Z'
 update_date: '2021-11-19T05:17:33Z'
 github_star: 510

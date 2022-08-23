@@ -17,7 +17,7 @@ category:
 description: >-
   Extremely minimal Eleventy starter to kickstart a simple multi-page site / a
   nearly opinionless foundation to continue building on.
-draft: false
+draft: true
 publish_date: '2021-03-10T04:44:59Z'
 update_date: '2021-06-12T01:52:04Z'
 github_star: 63

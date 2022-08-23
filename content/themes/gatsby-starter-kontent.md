@@ -9,7 +9,7 @@ cms:
   - Kontent
 date: 2018-08-17T10:25:38.000Z
 description: Gatsby starter site with Kentico Kontent.
-draft: false
+draft: true
 publish_date: '2018-08-17T10:25:38Z'
 update_date: '2022-03-09T15:47:46Z'
 github_star: 15

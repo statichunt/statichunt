@@ -13,7 +13,7 @@ css:
 category:
   - Blog
 description: Starter Template for Netlify CMS, Eleventy, Alpine JS & Tailwind CSS
-draft: false
+draft: true
 publish_date: '2020-09-21T06:18:37Z'
 update_date: '2022-06-20T16:35:53Z'
 github_star: 244

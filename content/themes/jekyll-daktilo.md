@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2015-09-08T04:32:39.000Z
 description: A Jekyll theme with a minimal design inspired by typewriters.
-draft: false
+draft: true
 publish_date: '2015-09-08T04:32:39Z'
 update_date: '2018-12-03T18:13:42Z'
 github_star: 276

@@ -14,7 +14,7 @@ category:
   - Portfolio
 date: 2020-02-19T12:10:46.000Z
 description: A Gatsby starter for a portfolio with a blog, using Contentful as the CMS
-draft: false
+draft: true
 publish_date: '2020-02-14T08:53:47Z'
 update_date: '2020-08-06T12:39:49Z'
 github_star: 25

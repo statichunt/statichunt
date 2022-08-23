@@ -11,7 +11,7 @@ cms:
 category:
   - Portfolio
 description: Kentico Kontent web template using Gatsby and Kentico Kontent.
-draft: false
+draft: true
 publish_date: '2019-05-03T10:39:07Z'
 update_date: '2020-06-29T13:59:24Z'
 github_star: 12

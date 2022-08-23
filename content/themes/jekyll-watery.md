@@ -14,7 +14,7 @@ description: >-
   A minimalist, bare-bones theme for Jekyll only using the Water.css framework
   while still following the best practices for accessibility and search-engine
   optimization.
-draft: false
+draft: true
 publish_date: '2020-11-01T21:58:01Z'
 update_date: '2022-07-24T02:39:49Z'
 github_star: 8

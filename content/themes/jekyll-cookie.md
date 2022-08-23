@@ -19,7 +19,7 @@ description: >-
   Cookie is a fast and one-click deployable landing website that comes with a
   blog, additional pages and Soopr integration - makes creating and launching
   websites a cakewalk.
-draft: false
+draft: true
 publish_date: '2021-01-12T20:33:49Z'
 update_date: '2022-06-02T04:03:57Z'
 github_star: 60

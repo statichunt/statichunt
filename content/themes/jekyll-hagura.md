@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2016-11-02T14:30:30.000Z
 description: A light weight, minimal Jekyll theme.
-draft: false
+draft: true
 publish_date: '2016-11-02T14:30:30Z'
 update_date: '2022-06-23T04:37:23Z'
 github_star: 247

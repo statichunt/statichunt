@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2016-07-25T08:45:30.000Z
 description: Hugo theme used for our blog
-draft: false
+draft: true
 publish_date: '2016-07-25T08:45:30Z'
 update_date: '2020-10-08T12:15:55Z'
 github_star: 20

@@ -15,7 +15,7 @@ category:
 description: >-
   Create amazing projec documentation with Ace, featuring code highlighting,
   full search, Bootstrap components, and more.
-draft: false
+draft: true
 publish_date: '2020-01-23T22:48:08Z'
 update_date: '2021-09-28T09:41:37Z'
 github_star: 87

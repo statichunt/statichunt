@@ -18,7 +18,7 @@ description: >-
   Chakra UI & Typescript setup.This is a Next.js project bootstrapped with
   create-next-app, added with Chakra UI and TypeScript setup. Start developing
   right away!
-draft: false
+draft: true
 publish_date: '2020-08-13T04:09:44Z'
 update_date: '2022-08-15T13:38:04Z'
 github_star: 475

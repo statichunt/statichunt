@@ -13,7 +13,7 @@ category:
 description: >-
   Start with Typescript, TailwindCSS, Nuxt, Netlify Forms & Netlify CMS,
   includes pagination, seo & pwa ready.
-draft: false
+draft: true
 publish_date: '2019-12-10T03:21:44Z'
 update_date: '2022-02-25T02:03:17Z'
 github_star: 120

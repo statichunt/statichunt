@@ -11,7 +11,7 @@ date: 2018-07-24T07:16:25.000Z
 description: >-
   A boilerplate for building a simple website with the Eleventy static site
   generator
-draft: false
+draft: true
 publish_date: '2018-07-24T07:16:25Z'
 update_date: '2022-07-01T10:09:19Z'
 github_star: 459

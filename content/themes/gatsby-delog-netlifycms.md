@@ -13,7 +13,7 @@ category:
 description: >-
   Delog is developed for professional bloggers and web designers to build a
   website that has a lightning-fast navigation speed
-draft: false
+draft: true
 publish_date: '2020-03-02T13:01:51Z'
 update_date: '2020-05-18T11:47:47Z'
 github_star: 184

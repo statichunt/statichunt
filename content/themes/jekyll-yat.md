@@ -12,7 +12,7 @@ category:
   - Blog
   - Business
 description: 🎨 Yet another theme for elegant writers with modern flat style.
-draft: false
+draft: true
 publish_date: '2019-12-12T04:16:29Z'
 update_date: '2022-07-27T15:26:48Z'
 github_star: 506

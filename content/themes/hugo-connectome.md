@@ -13,7 +13,7 @@ css:
 description: >-
   A Hugo theme for online community notes with backlinks and graph of connected
   notes.
-draft: false
+draft: true
 publish_date: '2020-09-27T16:55:53Z'
 update_date: '2022-08-18T09:18:25Z'
 github_star: 20

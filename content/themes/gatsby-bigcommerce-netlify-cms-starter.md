@@ -14,7 +14,7 @@ category:
 description: >-
   Example Gatsby, BigCommerce and Netlify CMS project meant to jump start
   Jamstack ecommerce sites.
-draft: false
+draft: true
 publish_date: '2019-07-05T21:23:03Z'
 update_date: '2020-09-03T06:42:27Z'
 github_star: 119

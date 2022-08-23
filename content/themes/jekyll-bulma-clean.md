@@ -17,7 +17,7 @@ category:
 description: >-
   A clean and simple Jekyll theme built with the Bulma CSS framework providing a
   variety of page layouts anb blog pages.
-draft: false
+draft: true
 publish_date: '2018-10-13T20:07:28Z'
 update_date: '2022-03-05T19:41:40Z'
 github_star: 294

@@ -18,7 +18,7 @@ description: >-
   inspired by Google's material design and is was developed using NextJS,
   starting from this starter project by Material-UI and Material Kit React by
   Creative Tim.
-draft: false
+draft: true
 publish_date: '2019-08-29T08:48:02Z'
 update_date: '2022-08-15T06:44:58Z'
 github_star: 216

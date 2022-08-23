@@ -15,7 +15,7 @@ category:
 description: >-
   Mere is a minimal and simple blog theme, and nothing more, for use with Jekyll
   and GitHub Pages.
-draft: false
+draft: true
 publish_date: '2019-09-08T20:03:13Z'
 update_date: '2021-02-27T08:50:32Z'
 github_star: 25

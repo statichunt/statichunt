@@ -9,7 +9,7 @@ cms:
   - Prismic
 date: 2020-03-18T00:00:00.000Z
 description: Gatsby starter for portfolios and blogs using Prismic CMS
-draft: false
+draft: true
 publish_date: '2019-07-01T16:19:33Z'
 update_date: '2020-07-06T15:37:53Z'
 github_star: 338

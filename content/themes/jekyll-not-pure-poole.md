@@ -11,7 +11,7 @@ cms:
 category:
   - Blog
 description: A simple, beautiful, and powerful Jekyll theme for blogs
-draft: false
+draft: true
 publish_date: '2020-09-27T09:52:35Z'
 update_date: '2020-10-08T12:10:04Z'
 github_star: 65

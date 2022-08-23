@@ -13,7 +13,7 @@ cms: null
 css: null
 category: null
 description: 🚀 A super concise theme for Hexo
-draft: false
+draft: true
 publish_date: '2016-02-24T07:45:32Z'
 update_date: '2021-12-07T08:10:49Z'
 github_star: 1302

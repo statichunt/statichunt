@@ -14,7 +14,7 @@ category:
   - Blog
   - Portfolio
 description: This theme is a minimalistic resume style Gatsby portfolio
-draft: false
+draft: true
 publish_date: '2020-10-27T20:46:18Z'
 update_date: '2020-11-04T12:49:03Z'
 github_star: 33

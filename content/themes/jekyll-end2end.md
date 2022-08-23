@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2015-11-26T15:45:00.000Z
 description: 💎 Clean Jekyll theme
-draft: false
+draft: true
 publish_date: '2015-11-26T15:45:00Z'
 update_date: '2019-03-25T12:39:20Z'
 github_star: 273

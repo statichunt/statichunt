@@ -18,7 +18,7 @@ description: >-
   This is a fully functional eCommerce store that uses Next.js + Tailwind CSS in
   the front end and leverages the Shopify Storefront API to interact with your
   Shopify backend.
-draft: false
+draft: true
 publish_date: '2021-04-02T00:21:21Z'
 update_date: '2022-04-08T16:58:12Z'
 github_star: 301

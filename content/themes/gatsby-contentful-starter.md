@@ -9,7 +9,7 @@ cms:
   - Contentful
 date: 2018-01-29T21:29:51.000Z
 description: Gatsby starter for a Contentful project.
-draft: false
+draft: true
 publish_date: '2018-01-29T21:29:51Z'
 update_date: '2021-02-16T11:09:26Z'
 github_star: 280

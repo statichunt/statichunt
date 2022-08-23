@@ -18,7 +18,7 @@ description: >-
   An opinionated starter skeleton with advanced features for Next.js.Use
   Tailwind CSS, ESLint, Prettier & absolute imports instantly. Easily extendable
   zero-config template for pros and beginners.
-draft: false
+draft: true
 publish_date: '2020-10-04T20:00:48Z'
 update_date: '2022-03-30T13:10:41Z'
 github_star: 164

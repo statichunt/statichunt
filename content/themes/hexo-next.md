@@ -15,7 +15,7 @@ category: null
 description: >-
   NexT is a high quality elegant Hexo theme. It is crafted from scratch with
   love. Elegant and powerful theme for Hexo.
-draft: false
+draft: true
 publish_date: '2020-04-05T03:43:31Z'
 update_date: '2022-08-20T17:26:20Z'
 github_star: 1607

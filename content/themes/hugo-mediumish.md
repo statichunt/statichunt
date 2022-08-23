@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2018-10-07T08:26:20.000Z
 description: A mediumish gohugo theme, ported from jekyll
-draft: false
+draft: true
 publish_date: '2018-10-07T08:26:20Z'
 update_date: '2021-08-12T15:12:43Z'
 github_star: 108

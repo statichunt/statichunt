@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2017-07-16T15:34:56.000Z
 description: Bef is a responsive jekyll theme https://artemsheludko.github.io/bef/
-draft: false
+draft: true
 publish_date: '2017-07-16T15:34:56Z'
 update_date: '2019-08-14T13:29:01Z'
 github_star: 155

@@ -15,7 +15,7 @@ category:
 description: >-
   A small business website template based on Nextjs and the original idea of
   one-click-hugo-cms from netlify.
-draft: false
+draft: true
 publish_date: '2021-05-28T21:02:11Z'
 update_date: '2022-08-17T01:26:16Z'
 github_star: 8

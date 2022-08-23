@@ -19,7 +19,7 @@ description: >-
   A simple and beautiful vuepress Blog & Doc theme.This is a Vuepress theme,
   which is designed to add blog categories, tag walls, pagination, comments and
   other functions required.
-draft: false
+draft: true
 publish_date: '2021-03-20T16:34:25Z'
 update_date: '2022-08-18T16:02:36Z'
 github_star: 212

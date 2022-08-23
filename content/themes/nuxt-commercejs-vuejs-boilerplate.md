@@ -15,7 +15,7 @@ category:
 description: >-
   Commerce.js boilerplate built with Vue.js, for fast eCommerce development and
   design.
-draft: false
+draft: true
 publish_date: '2020-07-10T16:25:24Z'
 update_date: '2021-11-24T19:58:17Z'
 github_star: 43

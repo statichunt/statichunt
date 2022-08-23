@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2017-11-19T09:46:18.000Z
 description: ' :chart_with_upwards_trend: Sleek is a modern Jekyll theme focused on speed performance & SEO best practices'
-draft: false
+draft: true
 publish_date: '2017-11-19T09:46:18Z'
 update_date: '2020-05-11T17:47:32Z'
 github_star: 376

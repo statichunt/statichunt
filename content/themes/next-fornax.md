@@ -18,7 +18,7 @@ category:
 description: >-
   Fornax Nextjs theme is a very featureful blog theme that is designed to be
   easy to use and easy to maintain. It supports multiple authors.
-draft: false
+draft: true
 publish_date: '2021-10-28T12:08:18Z'
 update_date: '2022-02-15T12:05:25Z'
 github_star: 2

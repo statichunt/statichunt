@@ -11,7 +11,7 @@ date: 2017-10-07T10:04:39.000Z
 description: >-
   💎 🐳 A super customizable Jekyll theme for personal site, team site, blog,
   project, documentation, etc.
-draft: false
+draft: true
 publish_date: '2017-10-07T10:04:39Z'
 update_date: '2022-02-20T14:37:00Z'
 github_star: 2498

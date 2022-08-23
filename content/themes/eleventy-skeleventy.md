@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2019-02-11T15:07:16.000Z
 description: A skeleton boilerplate built with Eleventy.
-draft: false
+draft: true
 publish_date: '2019-02-11T15:07:16Z'
 update_date: '2021-02-19T20:13:46Z'
 github_star: 364

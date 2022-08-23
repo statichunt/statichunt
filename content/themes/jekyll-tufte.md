@@ -11,7 +11,7 @@ date: 2015-02-20T21:51:52.000Z
 description: >-
   Minimal Jekyll blog styled to resemble the look and layout of Edward Tufte's
   books
-draft: false
+draft: true
 publish_date: '2015-02-20T21:51:52Z'
 update_date: '2022-04-12T23:10:42Z'
 github_star: 551

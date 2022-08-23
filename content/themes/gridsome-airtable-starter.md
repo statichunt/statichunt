@@ -10,7 +10,7 @@ ssg:
 cms:
   - Airtable
 description: 'A Gridsome starter leveraging Airtable with a minimalist design. '
-draft: false
+draft: true
 publish_date: '2019-08-06T11:03:14Z'
 update_date: '2022-07-21T17:37:34Z'
 github_star: 29

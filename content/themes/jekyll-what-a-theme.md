@@ -17,7 +17,7 @@ description: >-
   WhatATheme is a customizable Jekyll Portfolio theme which supports blogging.
   You can use this theme in order to create an elegant, fully responsive
   portfolio.
-draft: false
+draft: true
 publish_date: '2020-05-14T20:06:26Z'
 update_date: '2022-01-06T12:40:06Z'
 github_star: 137

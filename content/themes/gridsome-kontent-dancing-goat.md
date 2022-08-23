@@ -11,7 +11,7 @@ date: 2020-12-01T00:00:00.000Z
 category:
   - Business
 description: Gridsome implementation of the Dancing Goat Starter site.
-draft: false
+draft: true
 publish_date: '2019-11-01T22:12:22Z'
 update_date: '2020-04-01T19:46:29Z'
 github_star: 3

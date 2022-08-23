@@ -30,6 +30,7 @@ const Accordion = ({
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
+
   //  sorting texonomy
   // const sortedTaxonomy = taxonomySorted(taxonomy);
 

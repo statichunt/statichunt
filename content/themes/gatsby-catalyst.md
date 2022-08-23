@@ -17,7 +17,7 @@ category:
 description: >-
   An opinionated set of integrated themes and starters as a boilerplate to
   accelerate development with GatsbyJS.
-draft: false
+draft: true
 publish_date: '2019-06-13T03:47:28Z'
 update_date: '2021-11-07T04:08:46Z'
 github_star: 164

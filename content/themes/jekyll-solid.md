@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2014-08-15T13:40:18.000Z
 description: 'A Jekyll port of the Solid theme (by blacktie.co). '
-draft: false
+draft: true
 publish_date: '2014-08-15T13:40:18Z'
 update_date: '2019-05-07T08:43:03Z'
 github_star: 335

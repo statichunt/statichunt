@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2017-02-04T15:40:03.000Z
 description: Beautiful minimal portfolio theme for Hexo.
-draft: false
+draft: true
 publish_date: '2017-02-04T15:40:03Z'
 update_date: '2017-08-03T01:16:41Z'
 github_star: 325

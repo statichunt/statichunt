@@ -14,7 +14,7 @@ css: null
 category:
   - Blog
 description: A minimal, type-focused Jekyll theme.
-draft: false
+draft: true
 publish_date: '2014-12-14T08:41:52Z'
 update_date: '2021-12-01T03:19:37Z'
 github_star: 582

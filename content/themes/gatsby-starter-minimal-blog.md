@@ -12,7 +12,7 @@ description: >-
   Typography driven, feature-rich blogging theme with minimal aesthetics.
   Includes tags/categories support and extensive features for code blocks such
   as live preview, line numbers, and line highlighting.
-draft: false
+draft: true
 publish_date: '2018-02-02T18:52:29Z'
 update_date: '2022-08-04T10:19:06Z'
 github_star: 1004

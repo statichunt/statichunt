@@ -9,7 +9,7 @@ ssg:
 cms:
   - Markdown
 description: An inarguably well-designed Jekyll theme by Pat Dryburgh.
-draft: false
+draft: true
 publish_date: '2018-07-31T01:12:09Z'
 update_date: '2020-10-01T20:42:29Z'
 github_star: 213

@@ -11,7 +11,7 @@ date: 2019-05-06T15:26:58.000Z
 description: >-
   A Gatsby starter featuring GitHub Primer Design System and React components
   🐙⚪️
-draft: false
+draft: true
 publish_date: '2019-05-06T15:26:58Z'
 update_date: '2021-02-17T04:35:02Z'
 github_star: 12

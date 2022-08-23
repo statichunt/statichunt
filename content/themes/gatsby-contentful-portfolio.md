@@ -13,7 +13,7 @@ css:
 category:
   - Portfolio
 description: Gatsby portfolio theme integrated with Contentful
-draft: false
+draft: true
 publish_date: '2020-03-11T20:50:55Z'
 update_date: '2021-02-22T08:37:41Z'
 github_star: 107

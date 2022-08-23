@@ -11,7 +11,7 @@ date: 2019-02-26T13:28:03.000Z
 description: >-
   A simple, hackable & minimalistic starter for Gridsome that uses Markdown for
   content.
-draft: false
+draft: true
 publish_date: '2019-02-26T13:28:03Z'
 update_date: '2019-09-30T19:23:45Z'
 github_star: 379

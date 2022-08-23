@@ -18,7 +18,7 @@ date: 2020-10-28T17:02:32.000Z
 description: >-
   A statically generated blog built on the React framework Next.js. Uses
   Tailwind CSS on the frontend, powered by the Cosmic headless CMS.
-draft: false
+draft: true
 publish_date: '2016-10-05T23:32:51Z'
 update_date: '2022-08-20T13:46:59Z'
 github_star: 91360

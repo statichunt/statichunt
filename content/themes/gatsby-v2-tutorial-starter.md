@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2018-10-28T04:45:46.000Z
 description: Gatsby V2 Starter - product of step by step tutorial
-draft: false
+draft: true
 publish_date: '2018-10-28T04:45:46Z'
 update_date: '2019-09-07T18:07:09Z'
 github_star: 139

@@ -15,7 +15,7 @@ description: >-
   https://jekyllrb.com/docs/home/. If you intend to use this theme as a blog
   site with more than a few pages, have a look at my fork at
   https://github.com/arkadianriver/arkadianriver.com
-draft: false
+draft: true
 publish_date: '2016-02-20T06:39:31Z'
 update_date: '2017-06-26T23:35:35Z'
 github_star: 379

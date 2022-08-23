@@ -17,7 +17,7 @@ description: >-
   JAMStack architecture.Everything you need to build a great landing page /
   marketing website for your startup. Great SEO metrics, Green WebVitals,
   Performance, Clean & Pragmatic Codebase out of the box.
-draft: false
+draft: true
 publish_date: '2021-09-03T20:00:32Z'
 update_date: '2022-08-16T17:08:35Z'
 github_star: 356

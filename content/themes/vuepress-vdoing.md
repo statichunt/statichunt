@@ -15,7 +15,7 @@ css: null
 category:
   - Blog
 description: A simple and efficient VuePress knowledge management & blog theme.
-draft: false
+draft: true
 publish_date: '2019-11-30T07:17:46Z'
 update_date: '2022-08-19T09:05:35Z'
 github_star: 2474

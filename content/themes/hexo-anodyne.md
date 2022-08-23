@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2017-01-27T03:59:03.000Z
 description: 🌋 Original Bright Theme for Hexo
-draft: false
+draft: true
 publish_date: '2017-01-27T03:59:03Z'
 update_date: '2019-07-06T05:14:22Z'
 github_star: 147

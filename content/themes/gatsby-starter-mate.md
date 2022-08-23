@@ -9,7 +9,7 @@ cms:
   - Contentful
 date: 2018-08-31T12:10:46.000Z
 description: A portfolio starter for Gatsby integrated with Contentful CMS.
-draft: false
+draft: true
 publish_date: '2018-08-31T12:10:46Z'
 update_date: '2022-08-01T02:33:47Z'
 github_star: 529

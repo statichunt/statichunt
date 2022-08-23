@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2016-01-28T22:09:23.000Z
 description: A Material Design theme for MkDocs
-draft: false
+draft: true
 publish_date: '2016-01-28T22:09:23Z'
 update_date: '2022-08-15T14:25:37Z'
 github_star: 10766

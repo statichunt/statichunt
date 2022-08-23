@@ -14,7 +14,7 @@ category:
 description: >-
   Yetty is yet another [Eleventy](https://11ty.io) starter kit for my (& your)
   new projects. Built with accessibility and performance in mind.
-draft: false
+draft: true
 publish_date: '2021-03-13T14:07:34Z'
 update_date: '2021-11-01T10:59:11Z'
 github_star: 32

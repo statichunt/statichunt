@@ -9,7 +9,7 @@ ssg:
 cms:
   - Markdown
 description: Lightweight jekyll theme for your CV with dark mode support
-draft: false
+draft: true
 publish_date: '2021-02-26T16:11:24Z'
 update_date: '2021-08-05T18:41:20Z'
 github_star: 99

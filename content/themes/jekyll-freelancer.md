@@ -11,7 +11,7 @@ css:
   - Bootstrap
 date: 2014-07-19T15:13:08.000Z
 description: Jekyll theme based on Freelancer Start Bootstrap theme
-draft: false
+draft: true
 publish_date: '2014-07-19T15:13:08Z'
 update_date: '2022-04-21T14:36:10Z'
 github_star: 1264

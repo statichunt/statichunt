@@ -12,7 +12,7 @@ description: >-
   Minimalistic portfolio with full-width grid, page transitions, support for
   additional MDX pages, and a focus on large images. Especially designers and/or
   photographers will love this theme! Built with MDX and Theme UI.
-draft: false
+draft: true
 publish_date: '2017-10-18T19:20:05Z'
 update_date: '2022-08-04T10:18:58Z'
 github_star: 267

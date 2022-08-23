@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2019-05-12T09:28:43.000Z
 description: Gatsby.js V2 starter template based on Identity by HTML5 UP
-draft: false
+draft: true
 publish_date: '2019-05-12T09:28:43Z'
 update_date: '2022-01-13T09:40:40Z'
 github_star: 16

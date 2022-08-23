@@ -9,7 +9,7 @@ cms:
   - NetlifyCMS
 date: 2018-11-19T00:43:34.000Z
 description: Example website built with Gatsby V2 and Netlify CMS
-draft: false
+draft: true
 publish_date: '2018-11-19T00:43:34Z'
 update_date: '2019-09-08T00:35:35Z'
 github_star: 168

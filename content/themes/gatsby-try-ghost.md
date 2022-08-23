@@ -19,7 +19,7 @@ description: >-
   Ghost blog into a flaring fast static website. This Gatsby theme is a frontend
   replacement of the Ghost handlebars engine featuring the standard Ghost Casper
   skin and functionality. All content is sourced from a headless Ghost CMS.
-draft: false
+draft: true
 publish_date: '2020-02-24T00:09:10Z'
 update_date: '2022-03-14T14:30:46Z'
 github_star: 138

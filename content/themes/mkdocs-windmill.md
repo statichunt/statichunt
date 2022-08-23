@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2017-05-15T03:51:22.000Z
 description: Outstanding mkdocs theme with a focus on navigation and usability
-draft: false
+draft: true
 publish_date: '2017-05-15T03:51:22Z'
 update_date: '2022-03-11T19:50:40Z'
 github_star: 84

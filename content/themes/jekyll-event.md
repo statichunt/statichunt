@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2017-08-09T05:56:36.000Z
 description: Jekyll Theme package for your event
-draft: false
+draft: true
 publish_date: '2017-08-09T05:56:36Z'
 update_date: '2018-05-29T02:43:16Z'
 github_star: 122

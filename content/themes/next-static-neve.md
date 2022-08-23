@@ -15,7 +15,7 @@ category:
 description: >-
   The fastest way to export your Wordpress(v5.7& Neve theme v2.10.2) site as a
   static site.
-draft: false
+draft: true
 publish_date: '2021-03-21T02:36:46Z'
 update_date: '2021-03-29T23:27:35Z'
 github_star: 16

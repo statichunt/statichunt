@@ -13,7 +13,7 @@ css:
 category:
   - Ecommerce
 description: ChopChop is an eCommerce starter kit powered by Commerce.js.
-draft: false
+draft: true
 publish_date: '2020-11-22T21:10:48Z'
 update_date: '2021-11-24T21:06:24Z'
 github_star: 122

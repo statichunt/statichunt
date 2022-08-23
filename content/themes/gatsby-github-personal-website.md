@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2019-03-01T20:56:53.000Z
 description: Repo for github portfolio using gatsby
-draft: false
+draft: true
 publish_date: '2019-03-01T20:56:53Z'
 update_date: '2020-06-03T07:34:27Z'
 github_star: 30
