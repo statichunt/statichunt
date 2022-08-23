@@ -6,11 +6,16 @@ fields:
   name: title
   label: title
 - type: text
-  name: weight
-  label: weight
-- type: text
   name: meta_title
   label: meta_title
+- name: page_title
+  type: text
+  config:
+    required: false
+  label: page_title
+- type: text
+  name: weight
+  label: weight
 - type: textarea
   name: description
   label: description
