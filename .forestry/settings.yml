@@ -9,15 +9,12 @@ sections:
 - type: document
   path: content/_index.md
   label: Homepage
-  match: "**/*"
 - type: document
   path: content/about.md
   label: About
-  match: "**/*"
 - type: document
-  path: content/disclaimer
+  path: content/disclaimer.md
   label: Disclaimer
-  match: "**/*"
 - type: heading
   label: Themes
 - type: directory
