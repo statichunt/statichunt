@@ -1,8 +1,8 @@
 ---
 title: Just The Docs
-github: https://github.com/pmarsceill/just-the-docs
-demo: https://pmarsceill.github.io/just-the-docs/
-author: Patrick Marsceill
+github: https://github.com/just-the-docs/just-the-docs
+demo: https://just-the-docs.github.io/just-the-docs/
+author: Just The Docs
 ssg:
   - Jekyll
 cms:
