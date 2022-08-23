@@ -8,7 +8,7 @@ import {
   getRegularPageSlug,
   getSinglePages,
   getSinglePagesSlug,
-} from "@lib/contents";
+} from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import config from "config/config.json";
 import { addArctype } from "hooks/addArctype";

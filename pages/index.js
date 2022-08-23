@@ -5,7 +5,7 @@ import SortThemes from "@components/SortThemes";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import { getListPage, getSinglePages } from "@lib/contents";
+import { getListPage, getSinglePages } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { addArctype } from "hooks/addArctype";
 import { useReducer, useState } from "react";

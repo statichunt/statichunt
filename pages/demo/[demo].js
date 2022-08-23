@@ -1,6 +1,6 @@
 import config from "@config/config.json";
 import DemoHeader from "@layouts/partials/DemoHeader";
-import { getSinglePages, getSinglePagesSlug } from "@lib/contents";
+import { getSinglePages, getSinglePagesSlug } from "@lib/contentParser";
 import { plainify } from "@lib/utils/textConverter";
 import Head from "next/head";
 import { useEffect, useState } from "react";

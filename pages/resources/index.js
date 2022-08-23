@@ -2,7 +2,7 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import Sidebar from "@layouts/components/Sidebar";
 import ResourcesList from "@layouts/ResourcesList";
-import { getListPage, getSinglePages } from "@lib/contents";
+import { getListPage, getSinglePages } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { useState } from "react";
 

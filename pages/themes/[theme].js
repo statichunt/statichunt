@@ -3,7 +3,7 @@ import ThemeInfo from "@components/ThemeInfo";
 import ThemePreview from "@components/ThemePreview";
 import Base from "@layouts/Baseof";
 import Themes from "@layouts/components/Themes";
-import { getSinglePages, getSinglePagesSlug } from "@lib/contents";
+import { getSinglePages, getSinglePagesSlug } from "@lib/contentParser";
 import { similerItems } from "@lib/utils/similarItems";
 import { markdownify, plainify } from "@lib/utils/textConverter";
 
