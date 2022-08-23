@@ -12,30 +12,40 @@ sections:
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - new-theme
 - type: directory
   path: content/ssg
   label: SSG
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - taxonomy
 - type: directory
   path: content/cms
   label: CMS
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - taxonomy
 - type: directory
   path: content/css
   label: CSS
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - taxonomy
 - type: directory
   path: content/category
   label: Category
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - taxonomy
 - type: heading
   label: Resources
 - type: directory
@@ -44,12 +54,16 @@ sections:
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - new-resource
 - type: directory
   path: content/tool
   label: Tool
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - taxonomy
 - type: heading
   label: Configuration
 - type: document
