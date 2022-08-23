@@ -73,6 +73,7 @@ const RegularPages = ({
             taxonomies={taxonomies}
             data={filterCategory}
             tools={tools}
+            arrayCategory={arrayCategory}
           />
         </div>
       ) : toolSlug.includes(slug) ? (
