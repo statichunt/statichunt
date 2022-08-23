@@ -9,7 +9,7 @@ import {
   TbLicense,
 } from "react-icons/tb";
 
-const Taxonomy = ({ data, taxonomies, tools, arrayCategory }) => {
+const Taxonomy = ({ data, taxonomies, tools, isIntro }) => {
   const { frontmatter, content } = taxonomies[0];
   const {
     title,
@@ -27,7 +27,7 @@ const Taxonomy = ({ data, taxonomies, tools, arrayCategory }) => {
     <main className="main">
       <section>
         <div className="container">
-          {!arrayCategory.length && (
+          {isIntro && (
             <div className="mb-16 p-6 shadow">
               <div className="mb-5 flex">
                 <Image

@@ -27,6 +27,7 @@ const Home = ({
   const [arrayCSS, setArrayCSS] = useState([]);
   const [arrayCategory, setArrayCategory] = useState([]);
   const [isShow, setIsShow] = useState(false);
+  const [isIntro, setIsIntro] = useState(true);
   const [isValue, setIsValue] = useState("default");
   const addcategorys = addArctype(themes);
   const defaultSort = addcategorys.sort(
@@ -143,10 +144,11 @@ const Home = ({
           arrayCMS={arrayCMS}
           setArrayCSS={setArrayCSS}
           arrayCSS={arrayCSS}
+          setIsIntro={setIsIntro}
         />
         <main className="main">
           <div className="container">
-            <Intro data={intro} />
+            {isIntro && <Intro data={intro} />}
             <div className="mb-8 flex justify-between">
               <HomeCategory
                 themes={filterCSS}

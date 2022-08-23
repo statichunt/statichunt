@@ -1,0 +1,43 @@
+---
+label: New Theme
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: github
+  label: github
+- type: text
+  name: demo
+  label: demo
+- type: text
+  name: author
+  label: author
+- type: text
+  name: author_link
+  label: author_link
+- type: text
+  name: author_twitter
+  label: author_twitter
+- type: list
+  name: ssg
+  label: ssg
+- type: list
+  name: css
+  label: css
+- type: list
+  name: cms
+  label: cms
+- type: list
+  name: category
+  label: category
+- type: textarea
+  name: description
+  label: description
+- type: boolean
+  name: draft
+  label: draft

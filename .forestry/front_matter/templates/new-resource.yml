@@ -1,0 +1,16 @@
+---
+label: New Resource
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: website
+  label: website
+- type: textarea
+  name: description
+  label: description
+- type: list
+  name: tool
+  label: tool

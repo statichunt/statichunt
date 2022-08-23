@@ -24,6 +24,7 @@ const Sidebar = ({
   setArrayCategory,
   arrayTool,
   setArrayTool,
+  setIsIntro,
 }) => {
   const { main } = menu;
   const [sidebarData, setSidebarData] = useState(sidebar);
@@ -134,6 +135,7 @@ const Sidebar = ({
                         arrayCategory={arrayCategory}
                         setArrayTool={setArrayTool}
                         arrayTool={arrayTool}
+                        setIsIntro={setIsIntro}
                       />
                     )}
                   </div>

@@ -259,25 +259,25 @@
 }
 
 .bwsBlock iframe {
-  @apply h-[885px] w-[1302px] border-none;
+  @apply h-[885px] w-[1270px] border-none;
   transform: scale(0.677);
   transform-origin: 0 0;
 
   // xxl
   @media (max-width: 1535px) {
-    @apply h-[908px] w-[1249px];
+    @apply h-[908px] w-[1214px];
     transform: scale(0.66);
   }
 
   // lg
   @media (max-width: 1279px) {
-    @apply h-[999px] w-[1306px];
+    @apply h-[999px] w-[1265px];
     transform: scale(0.5);
   }
 
   // desktop
   @media (max-width: 1023px) {
-    @apply h-[908px] w-[1338px];
+    @apply h-[908px] w-[1280px];
     transform: scale(0.55);
   }
 }
@@ -305,8 +305,9 @@
 }
 
 .bwsThumbnail img {
-  -webkit-box-reflect: below 0px;
+  @apply h-full w-full object-cover;
 }
+
 .bwsThumbnailStyle {
   position: absolute;
   height: 100%;
