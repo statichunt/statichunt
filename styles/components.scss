@@ -130,14 +130,8 @@
   &-body {
     @apply bg-white p-4;
   }
-  &-preview {
-    @apply invisible absolute left-0 top-0 flex h-full w-full items-center justify-center rounded-t bg-black/25 opacity-0 backdrop-blur-sm transition-all;
-    svg {
-      @apply h-12 w-12 scale-0 rounded-full bg-white p-3 text-primary transition-all delay-75;
-    }
-  }
   &-footer {
-    @apply mt-auto flex items-center px-4 pt-4 pb-2;
+    @apply mt-auto flex items-center px-4 pb-2;
   }
 }
 
