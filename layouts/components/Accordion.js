@@ -20,23 +20,34 @@ const Accordion = ({
   setArrayTool,
   setIsIntro,
 }) => {
-  const [taxomomy, setTaxonomy] = useState(type);
+  const [taxonomy, setTaxonomy] = useState(type);
 
   useEffect(() => {
-    const filterAddition = taxomomy.map((item, id) => ({
+    const filterAddition = taxonomy.map((item, id) => ({
       ...item,
       selected: false,
     }));
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
+  //  sorting texonomy
+  // const sortedTaxonomy = taxonomySorted(taxonomy);
+
+  // const loadMore = () => {
+  //   setnoOfElements(sortedTaxonomy.length);
+  //   setReadMore(true);
+  // };
+  // const loadLess = () => {
+  //   setnoOfElements(4);
+  //   setReadMore(false);
+  // };
 
   const handleOnClick = (label, type) => {
     // scroll to top
     window.scrollTo({ top: 0 });
 
     // set active state
-    const temp = [...taxomomy];
+    const temp = [...taxonomy];
     for (let i in temp) {
       const item = temp[i];
       if (slugify(item.frontmatter.title) === label) {
@@ -89,7 +100,6 @@ const Accordion = ({
         setArrayTool((prevValue) => [...prevValue, label]);
       }
     }
-    console.log(arraySSG);
   };
   // hide intro function
   if (
@@ -98,9 +108,11 @@ const Accordion = ({
     arrayCMS?.length ||
     arrayCSS?.length
   ) {
-    setIsIntro(false);
-  } else {
-    setIsIntro(true);
+    if (setIsIntro) {
+      setIsIntro(false);
+    } else {
+      setIsIntro(true);
+    }
   }
   // category items count
   const countItems = (params, item) =>
@@ -114,7 +126,7 @@ const Accordion = ({
     <>
       {data.selected &&
         data.type === params &&
-        taxomomy.map(
+        taxonomy.map(
           (item, i) =>
             countItems(params, item) > 0 && (
               <a

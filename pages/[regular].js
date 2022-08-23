@@ -120,7 +120,7 @@ export const getStaticProps = async ({ params }) => {
   const ssgSlug = getSinglePagesSlug("content/ssg");
   const toolSlug = getSinglePagesSlug("content/tool");
 
-  // taxomomy page data
+  // taxonomy page data
 
   const singleListPage =
     ssg.length &&

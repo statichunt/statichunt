@@ -117,7 +117,7 @@ const Sidebar = ({
                       )}
                     </span>
                   </h3>
-                  <div className="mb-8 flex flex-col">
+                  <div className="relative mb-8 flex flex-col">
                     {data.taxonomy && (
                       <Accordion
                         setArraySSG={setArraySSG}

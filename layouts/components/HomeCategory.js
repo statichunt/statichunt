@@ -7,14 +7,14 @@ const HomeCategory = ({
   arrayCategory,
   setArrayCategory,
 }) => {
-  const [taxomomy, setTaxonomy] = useState(category);
+  const [taxonomy, setTaxonomy] = useState(category);
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
   category.splice(category.length, 0, element);
 
   useEffect(() => {
-    const filterAddition = taxomomy.map((item) => ({
+    const filterAddition = taxonomy.map((item) => ({
       ...item,
       selected: false,
     }));
@@ -23,7 +23,7 @@ const HomeCategory = ({
   }, []);
 
   const handleOnClick = (label) => {
-    const temp = [...taxomomy];
+    const temp = [...taxonomy];
     for (let i in temp) {
       const item = temp[i];
       if (slugify(item.frontmatter.title) === label) {
@@ -49,7 +49,7 @@ const HomeCategory = ({
 
   return (
     <ul className="category-list">
-      {taxomomy.map(
+      {taxonomy.map(
         (item, i) =>
           countItems(item) > 0 && (
             <li
