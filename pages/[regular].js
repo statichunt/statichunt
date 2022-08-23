@@ -30,6 +30,7 @@ const RegularPages = ({
   const { sidebar } = config;
   const { content } = taxonomies[0];
   const [arrayCategory, setArrayCategory] = useState([]);
+  const [isIntro, setIsIntro] = useState(true);
 
   useEffect(() => {
     setArrayCategory([]);
@@ -68,12 +69,13 @@ const RegularPages = ({
             category={category}
             setArrayCategory={setArrayCategory}
             arrayCategory={arrayCategory}
+            setIsIntro={setIsIntro}
           />
           <Taxonomy
             taxonomies={taxonomies}
             data={filterCategory}
             tools={tools}
-            arrayCategory={arrayCategory}
+            isIntro={isIntro}
           />
         </div>
       ) : toolSlug.includes(slug) ? (

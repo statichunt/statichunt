@@ -18,6 +18,7 @@ const Accordion = ({
   setArrayCategory,
   arrayTool,
   setArrayTool,
+  setIsIntro,
 }) => {
   const [taxomomy, setTaxonomy] = useState(type);
 
@@ -88,8 +89,19 @@ const Accordion = ({
         setArrayTool((prevValue) => [...prevValue, label]);
       }
     }
+    console.log(arraySSG);
   };
-
+  // hide intro function
+  if (
+    arraySSG?.length ||
+    arrayCategory?.length ||
+    arrayCMS?.length ||
+    arrayCSS?.length
+  ) {
+    setIsIntro(false);
+  } else {
+    setIsIntro(true);
+  }
   // category items count
   const countItems = (params, item) =>
     themes.filter((theme) =>
