@@ -3,7 +3,39 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: heading
+  label: Themes
+- type: directory
+  path: content/themes
+  label: Themes
+  create: documents
+  match: "*"
+  exclude: _index.md
+- type: directory
+  path: content/ssg
+  label: SSG
+  create: documents
+  match: "*"
+  exclude: _index.md
+- type: directory
+  path: content/cms
+  label: CMS
+  create: documents
+  match: "*"
+  exclude: _index.md
+- type: directory
+  path: content/css
+  label: CSS
+  create: documents
+  match: "*"
+  exclude: _index.md
+- type: directory
+  path: content/category
+  label: Category
+  create: documents
+  match: "*"
+  exclude: _index.md
 upload_dir: public/blog
 public_path: "/blog"
 front_matter_path: ''
