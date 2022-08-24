@@ -1,0 +1,13 @@
+{
+  "builds": [
+    {
+      "require": "@vercel/next",
+      "src": "vercel-build.sh",
+      "use": "@vercel/next",
+      "config": {
+        "zeroConfig": true,
+        "framework": "nextjs"
+      }
+    }
+  ]
+}
