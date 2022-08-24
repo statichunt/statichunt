@@ -6,7 +6,7 @@ import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 const SortSidebar = ({ isShow, isValue, handleSortTheme, handleClick }) => {
   const { button } = sortButton;
   return (
-    <div className="sort-dropdown">
+    <div className="mb-8">
       <h3
         onClick={handleClick}
         className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-3 font-primary text-h6 font-medium"
