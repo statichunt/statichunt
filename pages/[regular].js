@@ -12,7 +12,7 @@ import {
 } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import config from "config/config.json";
-import { addArctype } from "hooks/addArctype";
+import { setOthersCategory } from "hooks/setOthersCategory";
 import { useEffect, useState } from "react";
 
 // for all regular pages
@@ -36,8 +36,8 @@ const RegularPages = ({
   useEffect(() => {
     setArrayCategory([]);
   }, [slug]);
-  const addcategorys = addArctype(data);
-  const filterCategory = addcategorys.filter((theme) =>
+  const getCategories = setOthersCategory(data);
+  const filterCategory = getCategories.filter((theme) =>
     arrayCategory.length
       ? arrayCategory.find((type) =>
           theme.frontmatter.category
@@ -65,7 +65,7 @@ const RegularPages = ({
         <div className="flex">
           <Sidebar
             sidebar={sidebar}
-            themes={addcategorys}
+            themes={getCategories}
             slug={slug}
             category={category}
             setArrayCategory={setArrayCategory}

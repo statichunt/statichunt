@@ -1,5 +1,5 @@
-export const addArctype = (themes) => {
-  const addcategorys = themes.map((theme) => ({
+export const setOthersCategory = (themes) => {
+  return themes.map((theme) => ({
     ...theme,
     frontmatter: {
       ...theme.frontmatter,
@@ -8,5 +8,4 @@ export const addArctype = (themes) => {
         : theme.frontmatter.category,
     },
   }));
-  return addcategorys;
 };

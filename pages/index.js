@@ -7,7 +7,7 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePages } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
-import { addArctype } from "hooks/addArctype";
+import { setOthersCategory } from "hooks/setOthersCategory";
 import { useReducer, useState } from "react";
 
 const Home = ({
@@ -29,8 +29,8 @@ const Home = ({
   const [isShow, setIsShow] = useState(false);
   const [isIntro, setIsIntro] = useState(true);
   const [isValue, setIsValue] = useState("default");
-  const addcategorys = addArctype(themes);
-  const defaultSort = addcategorys.sort(
+  const getCategories = setOthersCategory(themes);
+  const defaultSort = getCategories.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
 
