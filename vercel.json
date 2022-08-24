@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "vercel-build.sh",
-      "use": "package.json"
+      "use": "next.config.js"
     }
   ]
 }
