@@ -1,0 +1,7 @@
+{
+  "builds": [
+    {
+      "src": "vercel-build.sh"
+    }
+  ]
+}
