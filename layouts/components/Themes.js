@@ -65,11 +65,13 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
               </span>
             </div>
             <div className="theme-card-footer">
-              <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
-              <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
-              <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
-              {/* <ToolsIcon tools={tools} type={theme.frontmatter?.category} /> */}
-              <div className="ml-auto flex items-center">
+              <div className="flex-wrap">
+                <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
+                <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
+                <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
+                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.category} /> */}
+              </div>
+              <div className="ml-auto flex items-center whitespace-nowrap">
                 <Link href={`/demo/${theme.slug}`}>
                   <a
                     className="btn btn-sm btn-demo svg-block mb-2 mr-1 leading-none"

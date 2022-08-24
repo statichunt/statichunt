@@ -619,3 +619,22 @@
   transform: scale(0);
   transition: 0.2s ease;
 }
+
+.sort-sidebar-buttons {
+  @apply hidden;
+  &.show {
+    @apply block;
+  }
+  button {
+    @apply relative mb-1 flex w-full cursor-pointer rounded py-2 pl-2 pr-3 text-sm text-text-dark hover:bg-white;
+    &::before {
+      @apply absolute right-3 top-3 h-3 w-3 rounded-full;
+      box-shadow: 0 0 0 2px #059668a8;
+      content: "";
+    }
+    &.active::before {
+      @apply border-2 border-white bg-primary;
+      box-shadow: 0 0 0 2px #059668;
+    }
+  }
+}

@@ -2,19 +2,23 @@
   "button": [
     {
       "type": "DEFAULT",
-      "value": "default"
+      "value": "default",
+      "icon": "/images/icons/sort.svg"
     },
     {
       "type": "STAR",
-      "value": "star"
+      "value": "star",
+      "icon": "/images/icons/star.svg"
     },
     {
       "type": "FORK",
-      "value": "fork"
+      "value": "fork",
+      "icon": "/images/icons/fork.svg"
     },
     {
       "type": "UPDATE",
-      "value": "update"
+      "value": "update",
+      "icon": "/images/icons/update.svg"
     }
   ]
 }
