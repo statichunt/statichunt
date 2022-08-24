@@ -1,4 +1,5 @@
 import Base from "@layouts/Baseof";
+import MobileSidebar from "@layouts/components/MobileSidebar";
 import Sidebar from "@layouts/components/Sidebar";
 import Default from "@layouts/Default";
 import ResourcesList from "@layouts/ResourcesList";
@@ -80,6 +81,7 @@ const RegularPages = ({
         </div>
       ) : toolSlug.includes(slug) ? (
         <section className="section">
+          <MobileSidebar />
           <ResourcesList title={slug} resources={resources} />
         </section>
       ) : (

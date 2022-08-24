@@ -2,6 +2,7 @@ import Share from "@components/Share";
 import ThemeInfo from "@components/ThemeInfo";
 import ThemePreview from "@components/ThemePreview";
 import Base from "@layouts/Baseof";
+import MobileSidebar from "@layouts/components/MobileSidebar";
 import Themes from "@layouts/components/Themes";
 import { getSinglePages, getSinglePagesSlug } from "@lib/contentParser";
 import { similerItems } from "@lib/utils/similarItems";
@@ -23,6 +24,7 @@ const SingleTheme = ({ slug, theme, allTheme, tools }) => {
       noindex={noindex}
       canonical={canonical}
     >
+      <MobileSidebar />
       <section className="section mx-auto max-w-[1366px]">
         <div className="container">
           <div className="row justify-center">
