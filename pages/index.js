@@ -6,9 +6,11 @@ import Themes from "@components/Themes";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePages } from "@lib/contentParser";
+import { reducer } from "@lib/utils/filterReducer";
 import { slugify } from "@lib/utils/textConverter";
 import { addArctype } from "hooks/addArctype";
-import { useReducer, useState } from "react";
+import SortReducer from "hooks/sortReducer";
+import { useState } from "react";
 
 const Home = ({
   frontmatter: { intro },
@@ -26,64 +28,19 @@ const Home = ({
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
   const [arrayCategory, setArrayCategory] = useState([]);
-  const [isShow, setIsShow] = useState(false);
   const [isIntro, setIsIntro] = useState(true);
-  const [isValue, setIsValue] = useState("default");
   const addcategorys = addArctype(themes);
-  const defaultSort = addcategorys.sort(
-    (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
-  );
 
-  // theme sorting
+  const {
+    currentTheme,
+    handleSortTheme,
+    isShow,
+    setIsShow,
+    isValue,
+    defaultSort,
+  } = SortReducer(addcategorys);
 
-  const reducer = (state, action) => {
-    switch (action.type) {
-      case "STAR":
-        const sortByStar = [
-          ...state.sort(
-            (a, b) => b.frontmatter?.github_star - a.frontmatter?.github_star
-          ),
-        ];
-        return sortByStar;
-      case "FORK":
-        const sortByFork = [
-          ...state.sort(
-            (a, b) => b.frontmatter?.github_fork - a.frontmatter?.github_fork
-          ),
-        ];
-        return sortByFork;
-      case "UPDATE":
-        const sortByUpdate = [
-          ...state.sort(
-            (a, b) =>
-              new Date(b.frontmatter?.update_date) -
-              new Date(a.frontmatter?.update_date)
-          ),
-        ];
-        return sortByUpdate;
-      case "DEFAULT":
-        const sortByDate = [
-          ...state.sort(
-            (a, b) =>
-              new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
-          ),
-        ];
-        return sortByDate;
-
-      default:
-        return { ...state };
-    }
-  };
-  const [currentTheme, dispatch] = useReducer(reducer, defaultSort);
-
-  // show value
   const handleClick = () => {
-    setIsShow(!isShow);
-  };
-  // sort buttons
-  const handleSortTheme = (e, type) => {
-    dispatch({ type: type });
-    setIsValue(e.target.value);
     setIsShow(!isShow);
   };
   const mouseHndler = () => {
