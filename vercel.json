@@ -1,7 +1,8 @@
 {
   "builds": [
     {
-      "src": "vercel-build.sh"
+      "src": "vercel-build.sh",
+      "use": "@vercel/next"
     }
   ]
 }
