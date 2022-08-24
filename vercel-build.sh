@@ -11,3 +11,7 @@ node lib/screenshotThemes.js
 # generating resource screenshots
 echo "Generation Resource Screenshots..."
 node lib/screenshotResources.js
+
+# building site
+echo "Building Site..."
+yarn build

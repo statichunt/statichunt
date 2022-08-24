@@ -2,7 +2,10 @@
   "builds": [
     {
       "src": "vercel-build.sh",
-      "use": "next.config.js"
+      "use": "package.json",
+      "config": {
+        "distDir": ".next"
+      }
     }
   ]
 }
