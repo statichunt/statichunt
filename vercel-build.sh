@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Installing dependencies
+echo "Installing dependencies..."
+npm install
+
 # generating json file
 echo "Generation Json..."
 node lib/jsonGenerator.js
