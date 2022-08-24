@@ -14,6 +14,10 @@ import { slugify } from "@lib/utils/textConverter";
 import config from "config/config.json";
 import { setOthersCategory } from "hooks/setOthersCategory";
 import { useEffect, useState } from "react";
+import sortButton from "config/sort.json";
+import SortThemes from "@layouts/components/SortThemes";
+import SortReducer from "hooks/sortReducer";
+import SortSidebar from "@layouts/components/SortSidebar";
 
 // for all regular pages
 const RegularPages = ({
@@ -29,6 +33,7 @@ const RegularPages = ({
   const { title, meta_title, description, image, noindex, canonical } =
     taxonomies[0].frontmatter;
   const { sidebar } = config;
+  const { button } = sortButton;
   const { content } = taxonomies[0];
   const [arrayCategory, setArrayCategory] = useState([]);
   const [isIntro, setIsIntro] = useState(true);
@@ -36,15 +41,26 @@ const RegularPages = ({
   useEffect(() => {
     setArrayCategory([]);
   }, [slug]);
+
   const getCategories = setOthersCategory(data);
-  const filterCategory = getCategories.filter((theme) =>
+  const {
+    currentTheme,
+    handleSortTheme,
+    isShow,
+
+    isValue,
+    defaultSort,
+    handleClick,
+  } = SortReducer(getCategories, true);
+
+  const filterCategory = currentTheme.filter((theme) =>
     arrayCategory.length
       ? arrayCategory.find((type) =>
           theme.frontmatter.category
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : data
+      : defaultSort
   );
   // change others position
 
@@ -71,7 +87,20 @@ const RegularPages = ({
             setArrayCategory={setArrayCategory}
             arrayCategory={arrayCategory}
             setIsIntro={setIsIntro}
-          />
+            sort="true"
+          >
+            {/* <SortThemes
+              handleSortTheme={handleSortTheme}
+              sort="true"
+              isValue={isValue}
+            /> */}
+            <SortSidebar
+              isShow={isShow}
+              isValue={isValue}
+              handleSortTheme={handleSortTheme}
+              handleClick={handleClick}
+            />
+          </Sidebar>
           <Taxonomy
             taxonomies={taxonomies}
             data={filterCategory}

@@ -1,7 +1,7 @@
 import { reducer } from "@lib/utils/filterReducer";
 import { useReducer, useState } from "react";
 
-const SortReducer = (getCategories) => {
+const SortReducer = (getCategories, show) => {
   const defaultSort = getCategories.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
@@ -11,6 +11,12 @@ const SortReducer = (getCategories) => {
   const handleSortTheme = (e, type) => {
     dispatch({ type: type });
     setIsValue(e.target.value);
+    if (!show) {
+      setIsShow(!isShow);
+    }
+  };
+
+  const handleClick = () => {
     setIsShow(!isShow);
   };
   return {
@@ -21,6 +27,7 @@ const SortReducer = (getCategories) => {
     isValue,
     setIsValue,
     defaultSort,
+    handleClick,
   };
 };
 

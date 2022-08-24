@@ -36,11 +36,9 @@ const Home = ({
     setIsShow,
     isValue,
     defaultSort,
+    handleClick,
   } = SortReducer(getCategories);
 
-  const handleClick = () => {
-    setIsShow(!isShow);
-  };
   const mouseHndler = () => {
     if (isShow) {
       setIsShow(!isShow);

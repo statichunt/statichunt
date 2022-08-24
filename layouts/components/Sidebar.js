@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 import Accordion from "./Accordion";
+import SortThemes from "./SortThemes";
 
 const Sidebar = ({
   sidebar,
@@ -25,6 +26,7 @@ const Sidebar = ({
   arrayTool,
   setArrayTool,
   setIsIntro,
+  children,
 }) => {
   const { main } = menu;
   const [sidebarData, setSidebarData] = useState(sidebar);
@@ -143,6 +145,8 @@ const Sidebar = ({
               )
           )}
         </div>
+
+        {children && children}
 
         <ul className="sidebar-main-menu block border-t-2 py-4 lg:hidden">
           {main.map((menu, i) => (

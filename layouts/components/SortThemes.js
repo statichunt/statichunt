@@ -1,16 +1,16 @@
 import { humanize } from "@lib/utils/textConverter";
-import sort from "config/sort.json";
+import sortButton from "config/sort.json";
 import { TbChevronDown } from "react-icons/tb";
 
 const SortThemes = ({ isShow, isValue, handleSortTheme, handleClick }) => {
-  const { button } = sort;
+  const { button } = sortButton;
   return (
     <div className="sort-dropdown ml-4">
       Sort by:
       <span onClick={handleClick} className="sort-dropdown-input">
         {humanize(isValue)} <TbChevronDown />
       </span>
-      <div className={`sort-dropdown-buttons ${isShow && "show"}`}>
+      <div className={`sort-dropdown-buttons ${isShow && "show"} `}>
         {button.map((button, i) => (
           <button
             key={`button-${i}`}
