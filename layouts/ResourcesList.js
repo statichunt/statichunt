@@ -1,17 +1,17 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import { humanize } from "@lib/utils/textConverter";
+import { humanize, markdownify } from "@lib/utils/textConverter";
 import Image from "next/future/image";
 
-const ResourcesList = ({ title, resources }) => {
+const ResourcesList = ({ title, page_title, resources }) => {
   return (
     <div className="container">
       <div className="row mt-3 justify-center">
         <div className="mb-8 xl:col-10">
-          <h1>{humanize(title)}</h1>
+          {markdownify(page_title || title, "h1")}
         </div>
 
         {resources.map((resource, i) => (
-          <div id="commento" className="mb-10 xl:col-10" key={`resource-${i}`}>
+          <div className="mb-10 xl:col-10" key={`resource-${i}`}>
             <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] sm:flex">
               <Image
                 loading="lazy"

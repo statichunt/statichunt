@@ -45,6 +45,9 @@ const Demo = ({ theme, slug }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
+
+        {/* noindex */}
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <DemoHeader
         themeTitle={title}

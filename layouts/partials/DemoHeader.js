@@ -1,7 +1,5 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
-/* eslint-disable react/jsx-no-comment-textnodes */
+import Logo from "@components/Logo";
 import config from "@config/config.json";
-import Logo from "@layouts/components/Logo";
 import Link from "next/link";
 import {
   TbDeviceDesktop,

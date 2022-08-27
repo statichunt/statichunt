@@ -1,4 +1,4 @@
-import Themes from "@layouts/components/Themes";
+import Themes from "@components/Themes";
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/future/image";
 import {
