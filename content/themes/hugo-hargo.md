@@ -18,7 +18,7 @@ date: 2018-07-15T10:07:51.000Z
 description: >-
   Hargo is an E-commerce theme powered by Hugo and Snipcart. It's fully
   functional, users can order items and also payments throw this theme.
-draft: true
+draft: false
 publish_date: '2019-10-20T04:33:46Z'
 update_date: '2022-08-11T03:07:28Z'
 github_star: 88
