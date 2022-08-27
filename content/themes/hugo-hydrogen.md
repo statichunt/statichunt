@@ -16,7 +16,7 @@ description: >-
   Hydrogen Hugo is an excellent theme for creating a personal blog, particularly
   for developers. It inherited the latest structure and excluded all jquery
   dependencies. A vast amount of shortcodes are available on the element page.
-draft: true
+draft: false
 publish_date: '2022-01-10T07:20:44Z'
 update_date: '2022-06-04T07:59:27Z'
 github_star: 3
