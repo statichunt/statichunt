@@ -1,9 +1,9 @@
+import MobileSidebar from "@components/MobileSidebar";
 import Share from "@components/Share";
 import ThemeInfo from "@components/ThemeInfo";
 import ThemePreview from "@components/ThemePreview";
+import Themes from "@components/Themes";
 import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/components/MobileSidebar";
-import Themes from "@layouts/components/Themes";
 import { getSinglePages, getSinglePagesSlug } from "@lib/contentParser";
 import { similerItems } from "@lib/utils/similarItems";
 import { markdownify, plainify } from "@lib/utils/textConverter";

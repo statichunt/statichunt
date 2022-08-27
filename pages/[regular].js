@@ -1,9 +1,10 @@
+import MobileSidebar from "@components/MobileSidebar";
+import Sidebar from "@components/Sidebar";
+import SortSidebar from "@components/SortSidebar";
 import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/components/MobileSidebar";
-import Sidebar from "@layouts/components/Sidebar";
 import Default from "@layouts/Default";
-import ResourcesList from "@layouts/ResourcesList";
-import Taxonomy from "@layouts/Taxonomy";
+import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
+import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
   getRegularPage,
   getRegularPageSlug,
@@ -13,11 +14,8 @@ import {
 import { slugify } from "@lib/utils/textConverter";
 import config from "config/config.json";
 import { setOthersCategory } from "hooks/setOthersCategory";
-import { useEffect, useState } from "react";
-import sortButton from "config/sort.json";
-import SortThemes from "@layouts/components/SortThemes";
 import SortReducer from "hooks/sortReducer";
-import SortSidebar from "@layouts/components/SortSidebar";
+import { useEffect, useState } from "react";
 
 // for all regular pages
 const RegularPages = ({
@@ -33,7 +31,6 @@ const RegularPages = ({
   const { title, meta_title, description, image, noindex, canonical } =
     taxonomies[0].frontmatter;
   const { sidebar } = config;
-  const { button } = sortButton;
   const { content } = taxonomies[0];
   const [arrayCategory, setArrayCategory] = useState([]);
   const [isIntro, setIsIntro] = useState(true);
@@ -47,7 +44,6 @@ const RegularPages = ({
     currentTheme,
     handleSortTheme,
     isShow,
-
     isValue,
     defaultSort,
     handleClick,
@@ -62,8 +58,8 @@ const RegularPages = ({
         )
       : defaultSort
   );
-  // change others position
 
+  // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
   category.splice(category.length, 0, element);
@@ -87,13 +83,7 @@ const RegularPages = ({
             setArrayCategory={setArrayCategory}
             arrayCategory={arrayCategory}
             setIsIntro={setIsIntro}
-            sort="true"
           >
-            {/* <SortThemes
-              handleSortTheme={handleSortTheme}
-              sort="true"
-              isValue={isValue}
-            /> */}
             <SortSidebar
               isShow={isShow}
               isValue={isValue}
@@ -101,7 +91,7 @@ const RegularPages = ({
               handleClick={handleClick}
             />
           </Sidebar>
-          <Taxonomy
+          <ThemeTaxonomy
             taxonomies={taxonomies}
             data={filterCategory}
             tools={tools}
@@ -109,10 +99,10 @@ const RegularPages = ({
           />
         </div>
       ) : toolSlug.includes(slug) ? (
-        <section className="section">
+        <>
           <MobileSidebar />
-          <ResourcesList title={slug} resources={resources} />
-        </section>
+          <ResourceTaxonomy data={resources} taxonomies={taxonomies} />
+        </>
       ) : (
         <Default data={data} />
       )}
@@ -139,20 +129,18 @@ export const getStaticPaths = async () => {
 // for regular page data
 export const getStaticProps = async ({ params }) => {
   const { regular } = params;
-  const allPages = await getRegularPage(regular.replace("-themes", ""));
-
+  const allThemes = await getRegularPage(regular.replace("-themes", ""));
   const ssg = getSinglePages("content/ssg");
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
   const tool = getSinglePages("content/tool");
-  const toolPage = tool.filter((data) => data.slug == regular);
+  const toolPage = tool.filter((data) => data.slug === regular);
 
   // taxonomy slug
   const ssgSlug = getSinglePagesSlug("content/ssg");
   const toolSlug = getSinglePagesSlug("content/tool");
 
   // taxonomy page data
-
   const singleListPage =
     ssg.length &&
     ssg.filter((page) =>
@@ -168,8 +156,8 @@ export const getStaticProps = async ({ params }) => {
 
   // layout filtering
   const filterByLayout = (layout) => {
-    const layoutFilter = allPages.filter(
-      (data) => data.frontmatter.layout == layout
+    const layoutFilter = allThemes.filter(
+      (data) => data.frontmatter.layout === layout
     );
     return layoutFilter;
   };
@@ -193,7 +181,7 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       slug: regular,
-      data: allPages,
+      data: allThemes,
       ssgSlug: ssgSlug,
       taxonomies: taxonomies,
       tools: tools,
