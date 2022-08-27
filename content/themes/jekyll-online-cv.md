@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2016-07-29T04:35:27.000Z
 description: A minimal Jekyll Theme to host your resume (CV)
-draft: true
+draft: false
 publish_date: '2016-07-29T04:35:27Z'
 update_date: '2022-08-10T03:31:47Z'
 github_star: 2148

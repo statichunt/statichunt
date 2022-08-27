@@ -17,7 +17,7 @@ category:
 description: >-
   Doks is a Hugo theme helping you build modern documentation websites that are
   secure, fast, and SEO-ready — by default.
-draft: true
+draft: false
 publish_date: '2020-04-15T13:37:31Z'
 update_date: '2022-07-13T16:29:58Z'
 github_star: 1186

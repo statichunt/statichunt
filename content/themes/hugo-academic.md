@@ -12,7 +12,7 @@ date: 2016-04-26T22:09:15.000Z
 description: >-
   📝 The website builder for Hugo. Build and deploy a beautiful website in
   minutes!
-draft: true
+draft: false
 publish_date: '2016-04-26T22:09:15Z'
 update_date: '2022-08-20T18:39:27Z'
 github_star: 6633

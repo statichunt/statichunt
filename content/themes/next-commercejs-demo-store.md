@@ -15,7 +15,7 @@ category:
 description: >-
   A commerce storefront example built using Next.js and Commerce.js with
   production-ready deployment to Netlify.
-draft: true
+draft: false
 publish_date: '2020-03-23T18:51:15Z'
 update_date: '2022-02-14T17:27:02Z'
 github_star: 973
