@@ -41,7 +41,7 @@ const Base = ({
     }
   });
 
-  // show hide scroll direction button
+  // scroll to top
   useEffect(() => {
     window.addEventListener(
       "scroll",

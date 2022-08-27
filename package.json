@@ -21,6 +21,7 @@
     "marked": "^4.0.19",
     "next": "12.2.5",
     "next-mdx-remote": "^4.1.0",
+    "next-themes": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-gtm-module": "^2.0.11",

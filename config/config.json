@@ -11,6 +11,8 @@
   },
 
   "settings": {
+    "theme_switcher": false,
+    "default_theme": "light",
     "pagination": 2,
     "summary_length": 200
   },

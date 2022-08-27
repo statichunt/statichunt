@@ -1,8 +1,7 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
-/* eslint-disable react/jsx-no-comment-textnodes */
+import Logo from "@components/Logo";
+import ThemeSwitcher from "@components/ThemeSwitcher";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
-import Logo from "@layouts/components/Logo";
 import Link from "next/link";
 
 const Header = () => {
@@ -65,6 +64,7 @@ const Header = () => {
           ))}
         </ul>
 
+        <ThemeSwitcher />
         <a
           className="btn btn-primary ml-auto origin-right scale-90 md:scale-100 lg:ml-0"
           href="https://github.com/statichunt/statichunt"

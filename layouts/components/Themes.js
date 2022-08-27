@@ -37,7 +37,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   </Link>
                 </h2>
                 <span
-                  className="has-tooltip mt-1 whitespace-nowrap text-sm text-text-dark"
+                  className="has-tooltip mt-1 whitespace-nowrap text-sm text-dark"
                   data-tooltip="Github Stars"
                 >
                   <Image
@@ -54,7 +54,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                       ) + "k"}
                 </span>
               </div>
-              <span className="text-xs text-text-dark">
+              <span className="text-xs text-dark">
                 by{" "}
                 {theme.frontmatter?.author
                   ? theme.frontmatter?.author
