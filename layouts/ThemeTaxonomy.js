@@ -9,7 +9,7 @@ import {
   TbLicense,
 } from "react-icons/tb";
 
-const Taxonomy = ({ data, taxonomies, tools, isIntro }) => {
+const ThemeTaxonomy = ({ data, taxonomies, tools, isIntro }) => {
   const { frontmatter, content } = taxonomies[0];
   const {
     title,
@@ -109,4 +109,4 @@ const Taxonomy = ({ data, taxonomies, tools, isIntro }) => {
   );
 };
 
-export default Taxonomy;
+export default ThemeTaxonomy;

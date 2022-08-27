@@ -3,8 +3,8 @@ import Sidebar from "@components/Sidebar";
 import SortSidebar from "@components/SortSidebar";
 import Base from "@layouts/Baseof";
 import Default from "@layouts/Default";
-import ResourcesList from "@layouts/ResourcesList";
-import Taxonomy from "@layouts/Taxonomy";
+import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
+import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
   getRegularPage,
   getRegularPageSlug,
@@ -91,7 +91,7 @@ const RegularPages = ({
               handleClick={handleClick}
             />
           </Sidebar>
-          <Taxonomy
+          <ThemeTaxonomy
             taxonomies={taxonomies}
             data={filterCategory}
             tools={tools}
@@ -99,10 +99,10 @@ const RegularPages = ({
           />
         </div>
       ) : toolSlug.includes(slug) ? (
-        <section className="section">
+        <>
           <MobileSidebar />
-          <ResourcesList title={slug} resources={resources} />
-        </section>
+          <ResourceTaxonomy data={resources} taxonomies={taxonomies} />
+        </>
       ) : (
         <Default data={data} />
       )}

@@ -1,13 +1,13 @@
+import Resources from "@components/Resources";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import ResourcesList from "@layouts/ResourcesList";
 import { getListPage, getSinglePages } from "@lib/contentParser";
-import { slugify } from "@lib/utils/textConverter";
+import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useState } from "react";
 
-const Resources = ({ tool, resources, indexPage }) => {
-  const { title, image, description } = indexPage;
+const ResourceList = ({ tool, resources, indexPage }) => {
+  const { title, page_title, image, description } = indexPage;
   const { sidebar } = config;
   const [arrayTool, setArrayTool] = useState([]);
   const filterTool = resources.filter((theme) =>
@@ -31,14 +31,21 @@ const Resources = ({ tool, resources, indexPage }) => {
           arrayTool={arrayTool}
         />
         <main className="main">
-          <ResourcesList resources={filterTool} title={title} />
+          <div className="container">
+            <div className="row mb-8 justify-center">
+              <div className="xl:col-10">
+                {markdownify(page_title || title, "h1")}
+              </div>
+            </div>
+            <Resources resources={filterTool} />
+          </div>
         </main>
       </div>
     </Base>
   );
 };
 
-export default Resources;
+export default ResourceList;
 
 export const getStaticProps = async () => {
   const ResourcesList = await getListPage("content/resources");
