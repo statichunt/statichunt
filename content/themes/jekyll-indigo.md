@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2016-01-23T22:26:04.000Z
 description: ':ramen: Minimalist Jekyll Template'
-draft: true
+draft: false
 publish_date: '2016-01-23T22:26:04Z'
 update_date: '2022-05-06T11:39:53Z'
 github_star: 2324

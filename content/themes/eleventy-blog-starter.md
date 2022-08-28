@@ -16,7 +16,7 @@ css:
 category:
   - Blog
 description: 11ty, Tailwind. Works when JS is disabled.
-draft: false
+draft: true
 publish_date: "2020-07-18T09:49:11Z"
 update_date: "2022-06-25T16:10:22Z"
 github_star: 55

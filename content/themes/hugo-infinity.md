@@ -15,7 +15,7 @@ category:
   - Portfolio
 date: 2018-07-04T11:01:47.000Z
 description: Infinity Coming Soon Template Hugo Version by themefisher
-draft: true
+draft: false
 publish_date: '2018-07-04T11:01:47Z'
 update_date: '2022-06-01T05:17:26Z'
 github_star: 38

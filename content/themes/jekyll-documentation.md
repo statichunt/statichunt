@@ -11,7 +11,7 @@ date: 2015-02-13T22:56:26.000Z
 description: >-
   A Jekyll-based theme designed for documentation and help systems. See the link
   for detailed instructions on setting up and configuring everything.
-draft: true
+draft: false
 publish_date: '2015-02-13T22:56:26Z'
 update_date: '2022-05-21T23:28:50Z'
 github_star: 1058

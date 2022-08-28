@@ -12,7 +12,7 @@ css:
 date: 2017-08-15T23:15:14.000Z
 featured: true
 description: Example gatsby + netlify cms project
-draft: true
+draft: false
 publish_date: '2017-08-15T23:15:14Z'
 update_date: '2022-08-15T01:09:24Z'
 github_star: 2001

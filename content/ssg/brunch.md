@@ -9,7 +9,7 @@ twitter_username: brunch
 license: MIT
 license_url: "https://github.com/brunch/brunch/blob/master/LICENSE"
 language: JavaScript
-url: /brunch-templetes
+url: /brunch-themes
 draft: true
 ---
 

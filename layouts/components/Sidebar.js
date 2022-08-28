@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 import Accordion from "./Accordion";
-import SortThemes from "./SortThemes";
 
 const Sidebar = ({
   sidebar,

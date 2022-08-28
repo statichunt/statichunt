@@ -29,6 +29,7 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
     "./content/**/*.{md,mdx}",
   ],
+  darkMode: "class",
   theme: {
     screens: {
       sm: "540px",
@@ -43,16 +44,25 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: theme.colors.theme_color.primary,
-        secondary: theme.colors.theme_color.secondary,
-        body: theme.colors.theme_color.body,
-        border: theme.colors.theme_color.border,
-        light: theme.colors.theme_color.light,
-        dark: theme.colors.theme_color.dark,
-        text: {
-          DEFAULT: theme.colors.text_color.default,
-          light: theme.colors.text_color.light,
-          dark: theme.colors.text_color.dark,
+        text: theme.colors.default.text_color.default,
+        light: theme.colors.default.text_color.light,
+        dark: theme.colors.default.text_color.dark,
+        primary: theme.colors.default.theme_color.primary,
+        secondary: theme.colors.default.theme_color.secondary,
+        body: theme.colors.default.theme_color.body,
+        border: theme.colors.default.theme_color.border,
+        "theme-light": theme.colors.default.theme_color.theme_light,
+        "theme-dark": theme.colors.default.theme_color.theme_dark,
+        darkmode: {
+          text: theme.colors.darkmode.text_color.default,
+          light: theme.colors.darkmode.text_color.light,
+          dark: theme.colors.darkmode.text_color.dark,
+          primary: theme.colors.darkmode.theme_color.primary,
+          secondary: theme.colors.darkmode.theme_color.secondary,
+          body: theme.colors.darkmode.theme_color.body,
+          border: theme.colors.darkmode.theme_color.border,
+          "theme-light": theme.colors.darkmode.theme_color.theme_light,
+          "theme-dark": theme.colors.darkmode.theme_color.theme_dark,
         },
       },
       fontSize: {

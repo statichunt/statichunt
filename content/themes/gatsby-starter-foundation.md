@@ -15,7 +15,7 @@ category:
 description: >-
   A starter to launch your blazing fast personal website and a blog, Built with
   Gatsby and Netlify CMS.
-draft: true
+draft: false
 publish_date: '2020-05-23T10:03:41Z'
 update_date: '2022-04-24T03:49:13Z'
 github_star: 244

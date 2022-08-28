@@ -2,6 +2,6 @@
 title: "FuseJs"
 website: "http://fusejs.io/"
 description: "Lightweight fuzzy-search, in JavaScript"
-draft: true
+draft: false
 tool: ["Search"]
 ---
