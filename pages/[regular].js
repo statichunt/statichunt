@@ -16,7 +16,6 @@ import {
 } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { useEffect, useState } from "react";
-import { TbCellSignal1 } from "react-icons/tb";
 
 // for all regular pages
 const RegularPages = ({
@@ -49,7 +48,7 @@ const RegularPages = ({
     setArrayCategory([]);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [slug]);
 
   const filterCategory = currentTheme.filter((theme) =>
     arrayCategory.length
