@@ -26,6 +26,7 @@ const Sidebar = ({
   setArrayTool,
   setIsIntro,
   children,
+  isIntro,
 }) => {
   const { main } = menu;
   const [sidebarData, setSidebarData] = useState(sidebar);
@@ -137,6 +138,7 @@ const Sidebar = ({
                         setArrayTool={setArrayTool}
                         arrayTool={arrayTool}
                         setIsIntro={setIsIntro}
+                        isIntro={isIntro}
                       />
                     )}
                   </div>

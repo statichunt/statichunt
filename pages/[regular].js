@@ -48,7 +48,7 @@ const RegularPages = ({
     setArrayCategory([]);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+  }, []);
 
   const filterCategory = currentTheme.filter((theme) =>
     arrayCategory.length
@@ -84,6 +84,7 @@ const RegularPages = ({
             setArrayCategory={setArrayCategory}
             arrayCategory={arrayCategory}
             setIsIntro={setIsIntro}
+            isIntro={isIntro}
           >
             <SortSidebar
               isShow={isShow}
