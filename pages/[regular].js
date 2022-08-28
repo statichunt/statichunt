@@ -34,7 +34,6 @@ const RegularPages = ({
   const { content } = taxonomies[0];
   const [arrayCategory, setArrayCategory] = useState([]);
   const [isIntro, setIsIntro] = useState(true);
-  const [theme, setTheme] = useState([]);
 
   const getCategories = setOthersCategory(data);
   const {

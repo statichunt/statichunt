@@ -23,6 +23,7 @@ const SortReducer = (getCategories, show, slug) => {
     if (slug) {
       dispatch({ type: "SLUG", payload: defaultSort });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
 
   const handleClick = () => {
