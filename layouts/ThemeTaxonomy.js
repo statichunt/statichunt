@@ -27,7 +27,7 @@ const ThemeTaxonomy = ({ data, taxonomies, tools, isIntro }) => {
     <main className="main">
       <section>
         <div className="container">
-          <div className={isIntro ? "mb-16 block p-6 shadow" : "hidden "}>
+          <div className={`mb-16 p-6 shadow ${!isIntro && "hidden"}`}>
             <div className="mb-5 flex">
               <Image
                 className="mr-3"

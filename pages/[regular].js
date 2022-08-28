@@ -1,6 +1,9 @@
 import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
 import SortSidebar from "@components/SortSidebar";
+import config from "@config/config.json";
+import { setOthersCategory } from "@hooks/setOthersCategory";
+import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
 import Default from "@layouts/Default";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
@@ -12,9 +15,6 @@ import {
   getSinglePagesSlug,
 } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
-import config from "config/config.json";
-import { setOthersCategory } from "hooks/setOthersCategory";
-import SortReducer from "hooks/sortReducer";
 import { useEffect, useState } from "react";
 import { TbCellSignal1 } from "react-icons/tb";
 
