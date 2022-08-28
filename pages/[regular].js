@@ -142,33 +142,44 @@ export const getStaticProps = async ({ params }) => {
   const ssgSlug = getSinglePagesSlug("content/ssg");
   const toolSlug = getSinglePagesSlug("content/tool");
 
-  // taxonomy page data
-  const singleListPage =
-    ssg.length &&
-    ssg.filter((page) =>
-      page.frontmatter.url
-        ? page.frontmatter.url == `/${regular}`
-        : page.slug == regular
-    );
+  const singlePageTitle = (type) => {
+    const singleToolPage =
+      type.length &&
+      type.filter((page) =>
+        page.frontmatter.url
+          ? page.frontmatter?.url == `/${regular}`
+          : page.slug == regular
+      );
+    const title = singleToolPage[0]?.frontmatter.title;
+    return title;
+  };
 
-  const allThemes = await getRegularPage(
-    slugify(singleListPage[0]?.frontmatter.title)
-  );
+  // taxonomy page data
+  // const singleListPage =
+  //   ssg.length &&
+  //   ssg.filter((page) =>
+  //     page.frontmatter.url
+  //       ? page.frontmatter?.url == `/${regular}`
+  //       : page.slug == regular
+  //   );
+
+  const allThemes = await getRegularPage(slugify(singlePageTitle(ssg)));
 
   // tool page
   const allResources = getSinglePages("content/resources");
-  const singleToolPage =
-    tool.length &&
-    tool.filter((page) =>
-      page.frontmatter.url
-        ? page.frontmatter.url == `/${regular}`
-        : page.slug == regular
-    );
+
+  // const singleToolPage =
+  //   tool.length &&
+  //   tool.filter((page) =>
+  //     page.frontmatter.url
+  //       ? page.frontmatter?.url == `/${regular}`
+  //       : page.slug == regular
+  //   );
 
   const singleResources = allResources.filter((data) =>
     data.frontmatter.tool
       .map((tool) => slugify(tool))
-      .includes(slugify(singleToolPage[0]?.frontmatter.title))
+      .includes(slugify(singlePageTitle(tool)))
   );
 
   // layout filtering
@@ -183,8 +194,8 @@ export const getStaticProps = async ({ params }) => {
   // taxonomies data
   const taxonomies = aboutPage.length
     ? aboutPage
-    : singleListPage.length
-    ? singleListPage
+    : allThemes.length
+    ? allThemes
     : toolPage.length
     ? toolPage
     : defaultPage;
