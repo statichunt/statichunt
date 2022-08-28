@@ -7,6 +7,7 @@ import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
 import Default from "@layouts/Default";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
+import Statichunt from "@layouts/Statichunt";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
   getRegularPage,
@@ -106,12 +107,14 @@ const RegularPages = ({
           <MobileSidebar />
           <ResourceTaxonomy data={resources} taxonomies={taxonomies} />
         </>
-      ) : (
-        <Default
-          data={data}
+      ) : slug === "theme-by-us" ? (
+        <Statichunt
           statichuntThemes={statichuntThemes}
           tools={tools}
+          data={data}
         />
+      ) : (
+        <Default data={data} />
       )}
     </Base>
   );
