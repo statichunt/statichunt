@@ -1,9 +1,9 @@
 ---
-title: Forms
-meta_title: "JAMStack Forms" # this is for SEO title
+title: Form
+meta_title: "JAMStack Form" # this is for SEO title
 description:  "" # this is for SEO description
-page_title: "JAMStack Forms"  # this is for h1 tag
+page_title: "JAMStack Form"  # this is for h1 tag
 icon: /images/icons/form.svg
-url: "/jamstack-forms"
+url: "/jamstack-form"
 ---
 Resources are a great way to share your knowledge and experience with others
