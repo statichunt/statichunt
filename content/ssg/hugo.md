@@ -1,6 +1,6 @@
 ---
 title: Hugo
-weight: "1"
+weight: "4"
 meta_title: Hugo Themes | A Curated Directory Of Free Hugo Themes
 description: "A curated directory of best free Hugo themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: /images/icons/hugo.svg

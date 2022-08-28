@@ -1,6 +1,6 @@
 ---
 title: Next
-weight: "2"
+weight: "3"
 meta_title: Next Themes | A Curated Directory Of Free Next Themes
 description: "A curated directory of best free Next themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: /images/icons/next.svg

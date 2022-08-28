@@ -56,12 +56,20 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
               </div>
               <span className="text-xs text-dark">
                 by{" "}
-                {theme.frontmatter?.author
-                  ? theme.frontmatter?.author
-                  : theme.frontmatter?.github.match(
-                      /github\.com\/([^\/]+)/,
-                      ""
-                    )[0]}
+                {theme.frontmatter?.author === "Statichunt" ? (
+                  <Link href="/theme-by-us" passHref>
+                    <a className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent">
+                      Statichunt
+                    </a>
+                  </Link>
+                ) : theme.frontmatter?.author ? (
+                  theme.frontmatter?.author
+                ) : (
+                  theme.frontmatter?.github.match(
+                    /github\.com\/([^\/]+)/,
+                    ""
+                  )[0]
+                )}
               </span>
             </div>
             <div className="theme-card-footer">

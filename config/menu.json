@@ -110,6 +110,10 @@
         {
           "page": "search",
           "url": "/jamstack-search"
+        },
+        {
+          "page": "others",
+          "url": "/jamstack-others"
         }
       ]
     }
