@@ -101,7 +101,7 @@ const Home = ({
         />
         <main className="main">
           <div className="container">
-            {isIntro && <Intro data={intro} />}
+            <Intro data={intro} toggleClass={isIntro ? "block" : "hidden"} />
             <div className="mb-8 flex justify-between">
               <HomeCategory
                 themes={filterCSS}
