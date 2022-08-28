@@ -10,6 +10,7 @@ const SortReducer = (getCategories, show) => {
   const [currentTheme, dispatch] = useReducer(reducer, defaultSort);
   const handleSortTheme = (e, type) => {
     dispatch({ type: type });
+
     setIsValue(e.target.value);
     if (!show) {
       setIsShow(!isShow);
