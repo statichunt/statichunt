@@ -27,9 +27,10 @@ const RegularPages = ({
   category,
   toolSlug,
   resources,
+  statichuntThemes,
 }) => {
   const { title, meta_title, description, image, noindex, canonical } =
-    taxonomies[0].frontmatter;
+    taxonomies[0]?.frontmatter;
   const { sidebar } = config;
   const { content } = taxonomies[0];
   const [arrayCategory, setArrayCategory] = useState([]);
@@ -106,7 +107,11 @@ const RegularPages = ({
           <ResourceTaxonomy data={resources} taxonomies={taxonomies} />
         </>
       ) : (
-        <Default data={data} />
+        <Default
+          data={data}
+          statichuntThemes={statichuntThemes}
+          tools={tools}
+        />
       )}
     </Base>
   );
@@ -135,6 +140,7 @@ export const getStaticProps = async ({ params }) => {
   const ssg = getSinglePages("content/ssg");
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
+
   const tool = getSinglePages("content/tool");
   const toolPage = tool.filter((data) => data.slug === regular);
 
@@ -183,22 +189,31 @@ export const getStaticProps = async ({ params }) => {
   };
   const aboutPage = filterByLayout("about");
   const defaultPage = filterByLayout("default");
+  const statichunt = filterByLayout("statichunt");
 
   // taxonomies data
-  const taxonomies = aboutPage.length
+  const taxonomies = statichunt.length
+    ? statichunt
+    : aboutPage.length
     ? aboutPage
     : singleListPage.length
     ? singleListPage
     : toolPage.length
     ? toolPage
     : defaultPage;
-  // console.log(taxonomies);
+
   // all taxonomies
   const category = getSinglePages("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
 
   // all themes
   const themes = getSinglePages("content/themes");
+
+  // statichunt themes
+  const statichuntThemes = themes.filter(
+    (theme) => theme.frontmatter.author === "Statichunt"
+  );
+
   return {
     props: {
       slug: regular,
@@ -211,6 +226,7 @@ export const getStaticProps = async ({ params }) => {
       themes: themes,
       toolSlug: toolSlug,
       allResources: allResources,
+      statichuntThemes: statichuntThemes,
     },
   };
 };

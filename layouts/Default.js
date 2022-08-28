@@ -1,9 +1,12 @@
 import { markdownify } from "@lib/utils/textConverter";
 import MobileSidebar from "./components/MobileSidebar";
+import Themes from "./components/Themes";
 
-const Default = ({ data }) => {
+const Default = ({ data, statichuntThemes, tools }) => {
+  // console.log(statichuntThemes);
   const { frontmatter, content } = data[0];
-  const { title } = frontmatter;
+  const { title, layout } = frontmatter;
+
   return (
     <>
       <MobileSidebar />
@@ -15,6 +18,9 @@ const Default = ({ data }) => {
               {markdownify(content, "div", "content")}
             </div>
           </div>
+          {layout === "statichunt" && (
+            <Themes themes={statichuntThemes} tools={tools} />
+          )}
         </div>
       </section>
     </>
