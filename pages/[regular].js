@@ -34,7 +34,6 @@ const RegularPages = ({
   const { content } = taxonomies[0];
   const [arrayCategory, setArrayCategory] = useState([]);
   const [isIntro, setIsIntro] = useState(true);
-  const [theme, setTheme] = useState([]);
 
   const getCategories = setOthersCategory(data);
   const {
@@ -49,7 +48,7 @@ const RegularPages = ({
     setArrayCategory([]);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+  }, []);
 
   const filterCategory = currentTheme.filter((theme) =>
     arrayCategory.length
@@ -85,6 +84,7 @@ const RegularPages = ({
             setArrayCategory={setArrayCategory}
             arrayCategory={arrayCategory}
             setIsIntro={setIsIntro}
+            isIntro={isIntro}
           >
             <SortSidebar
               isShow={isShow}

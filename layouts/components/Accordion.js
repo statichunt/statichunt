@@ -1,4 +1,5 @@
 import { slugify } from "@lib/utils/textConverter";
+
 import Image from "next/future/image";
 import { useEffect, useState } from "react";
 
@@ -103,18 +104,24 @@ const Accordion = ({
     }
   };
   // hide intro function
-  if (
-    arraySSG?.length ||
-    arrayCategory?.length ||
-    arrayCMS?.length ||
-    arrayCSS?.length
-  ) {
-    if (setIsIntro) {
+  useEffect(() => {
+    if (
+      arraySSG?.length > 0 ||
+      arrayCategory?.length > 0 ||
+      arrayCMS?.length > 0 ||
+      arrayCSS?.length > 0
+    ) {
       setIsIntro(false);
     } else {
       setIsIntro(true);
     }
-  }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [
+    arraySSG?.length,
+    arrayCategory?.length,
+    arrayCMS?.length,
+    arrayCSS?.length,
+  ]);
   // category items count
   const countItems = (params, item) =>
     themes.filter((theme) =>
