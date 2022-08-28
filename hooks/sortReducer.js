@@ -1,13 +1,15 @@
 import { reducer } from "@lib/utils/filterReducer";
-import { useReducer, useState } from "react";
+import { useEffect, useReducer, useState } from "react";
 
-const SortReducer = (getCategories, show) => {
+const SortReducer = (getCategories, show, slug) => {
   const defaultSort = getCategories.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
+
   const [isShow, setIsShow] = useState(false);
   const [isValue, setIsValue] = useState("default");
   const [currentTheme, dispatch] = useReducer(reducer, defaultSort);
+
   const handleSortTheme = (e, type) => {
     dispatch({ type: type });
 
@@ -16,6 +18,12 @@ const SortReducer = (getCategories, show) => {
       setIsShow(!isShow);
     }
   };
+
+  useEffect(() => {
+    if (slug) {
+      dispatch({ type: "SLUG", payload: defaultSort });
+    }
+  }, [slug]);
 
   const handleClick = () => {
     setIsShow(!isShow);

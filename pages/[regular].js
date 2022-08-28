@@ -34,10 +34,7 @@ const RegularPages = ({
   const { content } = taxonomies[0];
   const [arrayCategory, setArrayCategory] = useState([]);
   const [isIntro, setIsIntro] = useState(true);
-
-  useEffect(() => {
-    setArrayCategory([]);
-  }, [slug]);
+  const [theme, setTheme] = useState([]);
 
   const getCategories = setOthersCategory(data);
   const {
@@ -47,7 +44,12 @@ const RegularPages = ({
     isValue,
     defaultSort,
     handleClick,
-  } = SortReducer(getCategories, true);
+  } = SortReducer(getCategories, true, slug);
+  useEffect(() => {
+    setArrayCategory([]);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug]);
 
   const filterCategory = currentTheme.filter((theme) =>
     arrayCategory.length
