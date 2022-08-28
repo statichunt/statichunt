@@ -152,7 +152,9 @@ export const getStaticProps = async ({ params }) => {
     );
 
   const allThemes = await getRegularPage(
-    slugify(singleListPage[0]?.frontmatter.title)
+    singleListPage.length
+      ? slugify(singleListPage[0]?.frontmatter.title)
+      : regular
   );
 
   // tool page
@@ -181,6 +183,7 @@ export const getStaticProps = async ({ params }) => {
   };
   const aboutPage = filterByLayout("about");
   const defaultPage = filterByLayout("default");
+
   // taxonomies data
   const taxonomies = aboutPage.length
     ? aboutPage
@@ -189,7 +192,7 @@ export const getStaticProps = async ({ params }) => {
     : toolPage.length
     ? toolPage
     : defaultPage;
-
+  // console.log(taxonomies);
   // all taxonomies
   const category = getSinglePages("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
