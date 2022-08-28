@@ -105,15 +105,17 @@ const Accordion = ({
   };
   // hide intro function
   useEffect(() => {
-    if (
-      arraySSG?.length > 0 ||
-      arrayCategory?.length > 0 ||
-      arrayCMS?.length > 0 ||
-      arrayCSS?.length > 0
-    ) {
-      setIsIntro(false);
-    } else {
-      setIsIntro(true);
+    if (setIsIntro) {
+      if (
+        arraySSG?.length > 0 ||
+        arrayCategory?.length > 0 ||
+        arrayCMS?.length > 0 ||
+        arrayCSS?.length > 0
+      ) {
+        setIsIntro(false);
+      } else {
+        setIsIntro(true);
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [

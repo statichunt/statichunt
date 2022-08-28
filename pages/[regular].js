@@ -16,6 +16,7 @@ import config from "config/config.json";
 import { setOthersCategory } from "hooks/setOthersCategory";
 import SortReducer from "hooks/sortReducer";
 import { useEffect, useState } from "react";
+import { TbCellSignal1 } from "react-icons/tb";
 
 // for all regular pages
 const RegularPages = ({
@@ -131,7 +132,7 @@ export const getStaticPaths = async () => {
 // for regular page data
 export const getStaticProps = async ({ params }) => {
   const { regular } = params;
-  const allThemes = await getRegularPage(regular.replace("-themes", ""));
+
   const ssg = getSinglePages("content/ssg");
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
@@ -151,9 +152,24 @@ export const getStaticProps = async ({ params }) => {
         : page.slug == regular
     );
 
+  const allThemes = await getRegularPage(
+    slugify(singleListPage[0]?.frontmatter.title)
+  );
+
+  // tool page
   const allResources = getSinglePages("content/resources");
+  const singleToolPage =
+    tool.length &&
+    tool.filter((page) =>
+      page.frontmatter.url
+        ? page.frontmatter.url == `/${regular}`
+        : page.slug == regular
+    );
+
   const singleResources = allResources.filter((data) =>
-    data.frontmatter.tool.map((tool) => slugify(tool)).includes(regular)
+    data.frontmatter.tool
+      .map((tool) => slugify(tool))
+      .includes(slugify(singleToolPage[0]?.frontmatter.title))
   );
 
   // layout filtering
