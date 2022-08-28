@@ -22,6 +22,7 @@ const ToolsIcon = ({ tools, type, size }) => {
                 height={size ? size : 18}
                 alt={icon.frontmatter.title}
                 src={icon.frontmatter.icon}
+                style={{ maxHeight: size ? size : "18px" }}
               />
             </span>
           ))}
