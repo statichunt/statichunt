@@ -13,7 +13,7 @@ description: >-
   Gatsby.
 draft: false
 publish_date: '2016-03-11T21:02:37Z'
-update_date: '2022-08-21T02:59:25Z'
-github_star: 1866
-github_fork: 636
+update_date: '2022-08-27T12:55:13Z'
+github_star: 1871
+github_fork: 635
 ---

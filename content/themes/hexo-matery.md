@@ -15,7 +15,7 @@ category: null
 description: A beautiful hexo blog theme with material design and responsive design.
 draft: true
 publish_date: '2018-08-27T16:38:12Z'
-update_date: '2022-08-09T15:49:17Z'
-github_star: 4506
-github_fork: 1162
+update_date: '2022-08-25T08:59:06Z'
+github_star: 4524
+github_fork: 1165
 ---

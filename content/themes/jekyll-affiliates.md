@@ -12,6 +12,6 @@ description: Affiliates - Jekyll Blogging Theme for Affiliate Marketers
 draft: true
 publish_date: '2018-02-01T16:37:57Z'
 update_date: '2021-10-31T15:32:41Z'
-github_star: 225
+github_star: 227
 github_fork: 288
 ---

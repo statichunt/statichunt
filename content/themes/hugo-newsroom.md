@@ -12,6 +12,6 @@ description: A simple, minimalistic Hugo theme. View Demo here
 draft: true
 publish_date: '2019-08-15T20:25:37Z'
 update_date: '2022-01-14T00:00:31Z'
-github_star: 190
-github_fork: 83
+github_star: 193
+github_fork: 84
 ---

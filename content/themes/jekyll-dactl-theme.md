@@ -12,6 +12,6 @@ description: Modern, fast and configurable Jekyll theme with some tricks up it's
 draft: true
 publish_date: '2017-04-30T17:52:23Z'
 update_date: '2021-08-13T15:12:58Z'
-github_star: 203
-github_fork: 165
+github_star: 205
+github_fork: 164
 ---

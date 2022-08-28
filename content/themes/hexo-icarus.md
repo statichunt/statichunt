@@ -16,6 +16,6 @@ description: A simple, delicate, and modern theme for the static site generator 
 draft: true
 publish_date: '2015-03-19T14:24:24Z'
 update_date: '2022-08-20T20:13:31Z'
-github_star: 5471
+github_star: 5489
 github_fork: 1456
 ---
