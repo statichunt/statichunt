@@ -12,6 +12,6 @@ description: blog & blog theme🤘
 draft: true
 publish_date: '2015-02-10T06:24:40Z'
 update_date: '2022-08-09T15:12:36Z'
-github_star: 1743
+github_star: 1745
 github_fork: 2018
 ---

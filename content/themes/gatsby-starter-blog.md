@@ -12,6 +12,6 @@ description: Gatsby starter for creating a blog
 draft: true
 publish_date: '2015-07-22T00:07:37Z'
 update_date: '2022-08-19T09:37:55Z'
-github_star: 3323
-github_fork: 2375
+github_star: 3324
+github_fork: 2418
 ---

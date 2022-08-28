@@ -17,6 +17,6 @@ description: A Gatsby starter for a portfolio with a blog, using Contentful as t
 draft: true
 publish_date: '2020-02-14T08:53:47Z'
 update_date: '2020-08-06T12:39:49Z'
-github_star: 25
+github_star: 24
 github_fork: 17
 ---

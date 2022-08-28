@@ -15,7 +15,7 @@ date: 2018-03-06T11:48:50.000Z
 description: A readable & concise theme for Hugo
 draft: false
 publish_date: '2018-03-06T11:48:50Z'
-update_date: '2022-07-24T07:34:34Z'
+update_date: '2022-08-25T01:52:40Z'
 github_star: 774
 github_fork: 266
 ---

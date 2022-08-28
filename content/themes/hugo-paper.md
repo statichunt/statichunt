@@ -11,7 +11,7 @@ date: 2018-01-08T16:26:30.000Z
 description: 🌩 A simple, clean, flexible Hugo theme
 draft: true
 publish_date: '2018-01-08T16:26:30Z'
-update_date: '2022-08-15T18:22:55Z'
-github_star: 1109
-github_fork: 229
+update_date: '2022-08-21T05:58:21Z'
+github_star: 1124
+github_fork: 233
 ---

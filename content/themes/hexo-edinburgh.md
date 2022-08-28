@@ -12,6 +12,6 @@ description: Beautiful minimal portfolio theme for Hexo.
 draft: true
 publish_date: '2017-02-04T15:40:03Z'
 update_date: '2017-08-03T01:16:41Z'
-github_star: 325
+github_star: 326
 github_fork: 72
 ---

@@ -12,6 +12,6 @@ description: A journal theme
 draft: true
 publish_date: '2016-12-08T18:01:48Z'
 update_date: '2021-09-03T16:06:25Z'
-github_star: 13
+github_star: 14
 github_fork: 43
 ---

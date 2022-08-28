@@ -14,6 +14,6 @@ description: An undoubtedly simple and lightweight dark/light mode theme for Hex
 draft: true
 publish_date: '2020-10-10T06:00:05Z'
 update_date: '2022-04-02T13:44:18Z'
-github_star: 148
-github_fork: 40
+github_star: 149
+github_fork: 39
 ---

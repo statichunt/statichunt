@@ -15,6 +15,6 @@ description: Publish flaring fast blogs with Next.js and Ghost CMS
 draft: true
 publish_date: '2020-11-11T15:39:01Z'
 update_date: '2022-03-25T14:13:34Z'
-github_star: 523
+github_star: 526
 github_fork: 164
 ---

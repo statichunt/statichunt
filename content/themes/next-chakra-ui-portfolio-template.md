@@ -17,6 +17,6 @@ description: Next.js & Chakra-UI portfolio template.
 draft: true
 publish_date: '2021-02-19T14:51:39Z'
 update_date: '2022-02-10T11:29:02Z'
-github_star: 83
-github_fork: 16
+github_star: 84
+github_fork: 17
 ---

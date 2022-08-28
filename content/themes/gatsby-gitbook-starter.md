@@ -12,6 +12,6 @@ description: Generate GitBook style modern docs/tutorial websites using Gatsby +
 draft: false
 publish_date: '2019-05-04T14:09:01Z'
 update_date: '2022-06-09T11:34:37Z'
-github_star: 919
-github_fork: 341
+github_star: 925
+github_fork: 343
 ---

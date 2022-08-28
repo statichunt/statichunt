@@ -23,7 +23,7 @@ description: >-
   posts in categories such as AI, Drone, Github, Programming, and many others.
 publish_date: '2021-08-18T06:46:42Z'
 update_date: '2022-07-21T16:57:32Z'
-github_star: 48
-github_fork: 33
+github_star: 49
+github_fork: 35
 draft: false
 ---

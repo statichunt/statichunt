@@ -12,6 +12,6 @@ description: A minimalist Jekyll theme for running an online publication
 draft: true
 publish_date: '2016-08-21T21:53:24Z'
 update_date: '2022-06-02T14:28:42Z'
-github_star: 324
-github_fork: 627
+github_star: 325
+github_fork: 628
 ---
