@@ -147,8 +147,8 @@ export const getStaticProps = async ({ params }) => {
     ssg.length &&
     ssg.filter((page) =>
       page.frontmatter.url
-        ? page.frontmatter?.url == `/${regular}`
-        : page.slug == regular
+        ? page.frontmatter?.url === `/${regular}`
+        : page.slug === regular
     );
 
   const allThemes = await getRegularPage(
@@ -164,8 +164,8 @@ export const getStaticProps = async ({ params }) => {
     tool.length &&
     tool.filter((page) =>
       page.frontmatter.url
-        ? page.frontmatter?.url == `/${regular}`
-        : page.slug == regular
+        ? page.frontmatter?.url === `/${regular}`
+        : page.slug === regular
     );
 
   const singleResources = allResources.filter((data) =>
