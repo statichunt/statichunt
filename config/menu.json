@@ -85,31 +85,31 @@
       "pages": [
         {
           "page": "chat",
-          "url": "/chat"
+          "url": "/jamstack-chat"
         },
         {
           "page": "ecommerce",
-          "url": "/ecommerce"
+          "url": "/jamstack-ecommerce"
         },
         {
           "page": "feedback",
-          "url": "/feedback"
+          "url": "/jamstack-feedback"
         },
         {
           "page": "form",
-          "url": "/form"
+          "url": "/jamstack-form"
         },
         {
           "page": "helper",
-          "url": "/helper"
+          "url": "/jamstack-helper"
         },
         {
           "page": "hosting",
-          "url": "/hosting"
+          "url": "/jamstack-hosting"
         },
         {
           "page": "search",
-          "url": "/search"
+          "url": "/jamstack-search"
         }
       ]
     }

@@ -153,6 +153,7 @@ const Accordion = ({
                   height={18}
                   width={18}
                   alt={item.frontmatter.title}
+                  style={{ maxHeight: "18px" }}
                 />
 
                 <span className="ml-2 block"> {item.frontmatter.title}</span>

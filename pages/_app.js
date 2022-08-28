@@ -29,7 +29,9 @@ const App = ({ Component, pageProps }) => {
   };
   useEffect(() => {
     setTimeout(() => {
-      TagManager.initialize(tagManagerArgs);
+      process.env.NODE_ENV === "production" &&
+        config.params.tag_manager_id &&
+        TagManager.initialize(tagManagerArgs);
     }, 5000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
