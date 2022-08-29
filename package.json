@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
-    "build": "node lib/jsonGenerator.js && node lib/screenshotThemes.js && node lib/screenshotResources.js && next build",
+    "build": "node lib/jsonGenerator.js && node lib/parseNewThemesData.js && node lib/screenshotThemes.js && node lib/screenshotResources.js && next build",
     "lint": "next lint",
     "start": "next start",
     "json": "node lib/jsonGenerator.js",
