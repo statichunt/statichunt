@@ -2,7 +2,6 @@ import { markdownify } from "@lib/utils/textConverter";
 import MobileSidebar from "./components/MobileSidebar";
 
 const Default = ({ data }) => {
-  // console.log(statichuntThemes);
   const { frontmatter, content } = data[0];
   const { title } = frontmatter;
 

@@ -7,7 +7,7 @@ import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
 import Default from "@layouts/Default";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
-import Statichunt from "@layouts/Statichunt";
+import ThemeByUs from "@layouts/ThemeByUs";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
   getRegularPage,
@@ -108,7 +108,7 @@ const RegularPages = ({
           <ResourceTaxonomy data={resources} taxonomies={taxonomies} />
         </>
       ) : slug === "theme-by-us" ? (
-        <Statichunt
+        <ThemeByUs
           statichuntThemes={statichuntThemes}
           tools={tools}
           data={data}
@@ -143,7 +143,6 @@ export const getStaticProps = async ({ params }) => {
   const ssg = getSinglePages("content/ssg");
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
-
   const tool = getSinglePages("content/tool");
   const toolPage = tool.filter((data) => data.slug === regular);
 
@@ -192,7 +191,7 @@ export const getStaticProps = async ({ params }) => {
   };
   const aboutPage = filterByLayout("about");
   const defaultPage = filterByLayout("default");
-  const statichunt = filterByLayout("statichunt");
+  const statichunt = filterByLayout("theme-by-us");
 
   // taxonomies data
   const taxonomies = statichunt.length

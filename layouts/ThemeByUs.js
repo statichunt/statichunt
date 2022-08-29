@@ -1,14 +1,14 @@
 import { markdownify } from "@lib/utils/textConverter";
 import Themes from "./components/Themes";
 
-const Statichunt = ({ statichuntThemes, tools, data }) => {
+const ThemeByUs = ({ statichuntThemes, tools, data }) => {
   const { frontmatter, content } = data[0];
   const { title } = frontmatter;
   return (
     <section className="section">
       <div className="container">
-        <div className="row justify-center">
-          <div className="sm:col-10 md:col-9 lg:col-7">
+        <div className="row mb-8 justify-center">
+          <div className="col-10 text-center">
             {markdownify(title, "h1", "mb-8")}
             {markdownify(content, "div", "content")}
           </div>
@@ -19,4 +19,4 @@ const Statichunt = ({ statichuntThemes, tools, data }) => {
   );
 };
 
-export default Statichunt;
+export default ThemeByUs;

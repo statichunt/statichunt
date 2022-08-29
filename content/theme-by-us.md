@@ -1,4 +1,4 @@
 ---
-title: theme by us
-layout: statichunt
+title: Theme By Us
+layout: theme-by-us
 ---
