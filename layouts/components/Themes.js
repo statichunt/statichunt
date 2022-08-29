@@ -37,15 +37,15 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   </Link>
                 </h2>
                 <span
-                  className="has-tooltip mt-1 whitespace-nowrap text-sm text-dark"
+                  className="has-tooltip mt-1 flex items-center whitespace-nowrap text-sm text-dark dark:invert"
                   data-tooltip="Github Stars"
                 >
                   <Image
                     className="mr-1 inline align-text-bottom"
                     src="/images/icons/star.svg"
                     alt="github star"
-                    height="16"
-                    width="16"
+                    height="14"
+                    width="14"
                   />
                   {theme.frontmatter?.github_star < 1000
                     ? theme.frontmatter?.github_star
@@ -54,7 +54,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                       ) + "k"}
                 </span>
               </div>
-              <span className="text-xs text-dark">
+              <span className="text-xs text-dark dark:text-light">
                 by{" "}
                 {theme.frontmatter?.author === "Statichunt" ? (
                   <Link href="/theme-by-us" passHref>

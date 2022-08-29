@@ -2,12 +2,18 @@ import Logo from "@components/Logo";
 import ThemeSwitcher from "@components/ThemeSwitcher";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
+import { useTheme } from "next-themes";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   // distructuring the main menu from menu object
   const { main } = menu;
-  const { logo, title, favicon } = config.site;
+  const { logo, logo_light, title, favicon } = config.site;
+
+  const [mounted, setMounted] = useState(false);
+  const { theme } = useTheme();
+  useEffect(() => setMounted(true), []);
 
   return (
     <header className="header">
@@ -27,14 +33,14 @@ const Header = () => {
         </div>
         <div className="flex items-center">
           <Logo
-            className="hidden h-8 sm:inline-block"
-            src={logo}
+            className="hidden h-8 md:inline-block"
+            src={mounted && theme === "dark" ? logo_light : logo}
             alt={title}
             height={32}
             width={164}
           />
           <Logo
-            className="inline-block h-8 sm:hidden"
+            className="inline-block h-8 md:hidden"
             src={favicon}
             alt={title}
             height={32}
@@ -64,16 +70,18 @@ const Header = () => {
           ))}
         </ul>
 
-        <ThemeSwitcher />
-        <a
-          className="btn btn-primary ml-auto origin-right scale-90 md:scale-100 lg:ml-0"
-          href="https://github.com/statichunt/statichunt"
-          target="_blank"
-          rel="nofollow noreferrer"
-        >
-          Submit{" "}
-          <span className="hidden md:inline-block">Theme / Resource</span>
-        </a>
+        <div className="ml-auto">
+          <ThemeSwitcher />
+          <a
+            className="btn btn-primary origin-right scale-90 md:scale-100 lg:ml-0"
+            href="https://github.com/statichunt/statichunt"
+            target="_blank"
+            rel="nofollow noreferrer"
+          >
+            Submit{" "}
+            <span className="hidden md:inline-block">Theme / Resource</span>
+          </a>
+        </div>
       </nav>
     </header>
   );
