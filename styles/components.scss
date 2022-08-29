@@ -413,12 +413,14 @@
 // scroll-to-position
 .scroll-to-position {
   @apply fixed;
-  bottom: -40px;
-  right: 30px;
+  bottom: 40px;
+  right: 38px;
   z-index: 9999;
   transition: 0.2s;
+  opacity: 0;
   &.visible {
-    bottom: 40px;
+    bottom: 100px;
+    opacity: 1;
   }
   button {
     height: 40px;
