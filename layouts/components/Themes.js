@@ -1,12 +1,35 @@
+import { data } from "autoprefixer";
 import Image from "next/future/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
+import InfiniteScroll from "react-infinite-scroll-component";
 import ToolsIcon from "./ToolsIcon";
 
 const Themes = ({ themes, tools, customRowClass, customColClass }) => {
+  const [item, setItem] = useState(20);
+  const [page, setPage] = useState(themes.slice(0, item));
+
+  const fetchData = () => {
+    setItem(item + 20);
+  };
+  useEffect(() => {
+    setPage(themes.slice(0, item));
+  }, [item, themes]);
   return (
-    <div className={customRowClass ? customRowClass : "row"}>
-      {themes.map((theme, i) => (
+    <InfiniteScroll
+      dataLength={page.length}
+      next={fetchData}
+      hasMore={true}
+      className={customRowClass ? customRowClass : "row !overflow-hidden"}
+      endMessage={
+        <p style={{ textAlign: "center" }}>
+          <b>Yay! You have seen it all</b>
+        </p>
+      }
+    >
+      {/* <div > */}
+      {page.map((theme, i) => (
         <div
           className={
             customColClass
@@ -106,7 +129,8 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
           </div>
         </div>
       ))}
-    </div>
+      {/* </div> */}
+    </InfiniteScroll>
   );
 };
 
