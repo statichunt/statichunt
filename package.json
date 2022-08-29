@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
-    "build": "node lib/jsonGenerator.js && node lib/screenshotThemes.js && node lib/screenshotResources.js && next build",
+    "build": "node lib/jsonGenerator.js && node lib/parseNewThemesData.js && node lib/screenshotThemes.js && node lib/screenshotResources.js && next build",
     "lint": "next lint",
     "start": "next start",
     "json": "node lib/jsonGenerator.js",
@@ -15,7 +15,9 @@
     "update-themes": "yarn json && node lib/updateThemes.js && yarn json"
   },
   "dependencies": {
+    "@loadable/component": "^5.15.2",
     "dotenv": "^16.0.1",
+    "feeder-react-feedback": "^0.0.6",
     "github-slugger": "^1.4.0",
     "gray-matter": "^4.0.3",
     "marked": "^4.0.19",
@@ -26,6 +28,7 @@
     "react-dom": "18.2.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.4.0",
+    "react-infinite-scroll-component": "^6.1.0",
     "react-tooltip": "^4.2.21",
     "react-use-cookie": "^1.4.0",
     "rehype-slug": "^5.0.1",

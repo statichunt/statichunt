@@ -1,7 +1,10 @@
+import config from "@config/config.json";
 import { slugify } from "@lib/utils/textConverter";
 import Image from "next/future/image";
 
 const ToolsIcon = ({ tools, type, size }) => {
+  const { darkIconList } = config;
+
   return (
     <>
       {type &&
@@ -23,6 +26,11 @@ const ToolsIcon = ({ tools, type, size }) => {
                 alt={icon.frontmatter.title}
                 src={icon.frontmatter.icon}
                 style={{ maxHeight: size ? size : "18px" }}
+                className={
+                  darkIconList.includes(slugify(icon.frontmatter.title))
+                    ? "dark:invert"
+                    : ""
+                }
               />
             </span>
           ))}

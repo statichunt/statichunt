@@ -2,10 +2,13 @@ import config from "@config/config.json";
 import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
 import { plainify } from "@lib/utils/textConverter";
+import loadable from "@loadable/component"; // npm install @loadable/component
+import "feeder-react-feedback/dist/feeder-react-feedback.css"; // import stylesheet
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import CookieConsent from "./components/CookieConsent";
+const Feedback = loadable(() => import("feeder-react-feedback/dist/Feedback")); // dynamically load Feedback component
 
 const Base = ({
   title,
@@ -19,6 +22,7 @@ const Base = ({
   // meta data
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
+  const { feeder_id } = config.params;
   const router = useRouter();
 
   // tooltip
@@ -132,6 +136,16 @@ const Base = ({
       {children}
       <Footer />
       <CookieConsent />
+      {feeder_id && (
+        <Feedback
+          projectId={feeder_id}
+          feedbackTypes={["bug", "idea"]}
+          email={true}
+          emailRequired={true}
+          primaryColor="#059669"
+          hoverBorderColor="#059669"
+        />
+      )}
 
       <div className="scroll-to-position">
         <button

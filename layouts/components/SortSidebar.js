@@ -29,9 +29,9 @@ const SortSidebar = ({ isShow, isValue, handleSortTheme, handleClick }) => {
               alt={button.value}
               height="17"
               width="17"
-              className="mx-2"
+              className="mx-2 dark:invert"
             />
-            {humanize(button.value)}
+            <span className="dark:invert">{humanize(button.value)}</span>
           </button>
         ))}
       </div>

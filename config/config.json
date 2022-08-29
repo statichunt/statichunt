@@ -4,21 +4,23 @@
     "base_url": "https://statichunt.com",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
+    "logo_light": "/images/logo-light.svg",
     "logo_width": "164",
     "logo_height": "32",
     "logo_text": "Statichunt",
-    "footer_logo": "/images/logo-white.svg"
+    "footer_logo": "/images/logo-light.svg"
   },
 
   "settings": {
-    "theme_switcher": false,
-    "default_theme": "light",
+    "theme_switcher": true,
+    "default_theme": "system",
     "pagination": 2,
     "summary_length": 200
   },
 
   "params": {
     "tag_manager_id": "GTM-PWJBVR2",
+    "feeder_id": "630c6ff0a9516800044828a8",
     "copyright": "Copyright © 2022 Statichunt"
   },
 
@@ -34,5 +36,7 @@
     { "type": "css", "title": "CSS Framework" },
     { "type": "category", "title": "Category" },
     { "type": "tool", "title": "Tool" }
-  ]
+  ],
+
+  "darkIconList": ["next", "markdown", "forestry", "eleventy"]
 }
