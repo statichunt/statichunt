@@ -78,11 +78,11 @@ const Sidebar = ({
 
   return (
     <>
-      <div className="sidebar-toggler mr-lg-0 d-block fixed !top-[0.75rem] left-[0.75rem] mr-3 sm:left-[2rem] lg:hidden">
+      <div className="sidebar-toggler mr-lg-0 d-block fixed !top-[1rem] left-[0.75rem] mr-3 sm:left-[2rem] lg:hidden">
         <svg
           className={`sidebar-toggle-icon ${isSidebarOpen ? "active" : ""}`}
           viewBox="0 0 100 100"
-          width="40"
+          width="35"
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
         >
           <path
@@ -149,11 +149,11 @@ const Sidebar = ({
 
         {children && children}
 
-        <ul className="sidebar-main-menu block border-t-2 py-4 lg:hidden">
+        <ul className="sidebar-main-menu block border-t-2 py-4 dark:border-t-darkmode-theme-light lg:hidden">
           {main.map((menu, i) => (
             <li key={`menu-${i}`}>
               <Link href={menu.url} passHref>
-                <a className="inline-block py-2 text-black transition-all duration-150 hover:text-primary">
+                <a className="inline-block py-2 text-black transition-all duration-150 hover:text-primary dark:text-white dark:hover:text-darkmode-primary">
                   {menu.name}
                 </a>
               </Link>

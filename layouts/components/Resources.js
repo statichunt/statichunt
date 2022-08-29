@@ -6,7 +6,7 @@ const Resources = ({ resources }) => {
     <div className="row justify-center">
       {resources.map((resource, i) => (
         <div className="mb-10 xl:col-10" key={`resource-${i}`}>
-          <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] sm:flex">
+          <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
             <Image
               loading="lazy"
               src={`/resources/${resource.slug}.png`}
@@ -43,7 +43,7 @@ const Resources = ({ resources }) => {
                   </svg>
                 </a>
               </h3>
-              <p className="mb-3 text-sm text-text">
+              <p className="mb-3 text-sm text-text dark:text-light">
                 {resource.frontmatter.description}
               </p>
               <div className="flex space-x-2">

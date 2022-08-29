@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import Image from "next/future/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -60,21 +59,23 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   </Link>
                 </h2>
                 <span
-                  className="has-tooltip mt-1 flex items-center whitespace-nowrap text-sm text-dark dark:invert"
+                  className="has-tooltip mt-1 flex items-center whitespace-nowrap text-sm text-dark"
                   data-tooltip="Github Stars"
                 >
                   <Image
-                    className="mr-1 inline align-text-bottom"
+                    className="mr-1 inline align-text-bottom dark:invert"
                     src="/images/icons/star.svg"
                     alt="github star"
                     height="14"
                     width="14"
                   />
-                  {theme.frontmatter?.github_star < 1000
-                    ? theme.frontmatter?.github_star
-                    : parseFloat(theme.frontmatter?.github_star / 1000).toFixed(
-                        1
-                      ) + "k"}
+                  <span className="dark:invert">
+                    {theme.frontmatter?.github_star < 1000
+                      ? theme.frontmatter?.github_star
+                      : parseFloat(
+                          theme.frontmatter?.github_star / 1000
+                        ).toFixed(1) + "k"}
+                  </span>
                 </span>
               </div>
               <span className="text-xs text-dark dark:text-light">

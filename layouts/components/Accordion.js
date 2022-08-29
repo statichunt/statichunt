@@ -1,3 +1,4 @@
+import config from "@config/config.json";
 import { slugify } from "@lib/utils/textConverter";
 
 import Image from "next/future/image";
@@ -22,6 +23,7 @@ const Accordion = ({
   setIsIntro,
 }) => {
   const [taxonomy, setTaxonomy] = useState(type);
+  const { darkIconList } = config;
 
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
@@ -148,7 +150,11 @@ const Accordion = ({
                 style={{ order: item.frontmatter.weight || "100" }}
               >
                 <Image
-                  className="ml-2"
+                  className={`${
+                    darkIconList.includes(slugify(item.frontmatter.title))
+                      ? "dark:invert"
+                      : ""
+                  } ml-2`}
                   src={item.frontmatter.icon}
                   height={18}
                   width={18}

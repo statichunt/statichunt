@@ -47,7 +47,7 @@ const SingleTheme = ({ slug, theme, allTheme, tools }) => {
             <div className="mt-20">
               <h2 className="mb-8 text-center">Similar Themes</h2>
               <Themes
-                customRowClass="row justify-center"
+                customRowClass="row justify-center !overflow-hidden"
                 customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"
                 themes={similarThemes.slice(0, 4)}
                 tools={tools}

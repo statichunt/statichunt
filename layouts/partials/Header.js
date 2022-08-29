@@ -70,7 +70,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <div className="ml-auto">
+        <div className="ml-auto lg:ml-0">
           <ThemeSwitcher />
           <a
             className="btn btn-primary origin-right scale-90 md:scale-100 lg:ml-0"
