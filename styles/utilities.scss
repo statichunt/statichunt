@@ -22,6 +22,15 @@ object {
   box-shadow: 4px 4px 20px 6px rgb(0 0 0 / 10%);
 }
 
+.dark {
+  .shadow {
+    box-shadow: 0 2px 15px -4px #222;
+  }
+  .shadow-lg {
+    box-shadow: 4px 4px 20px 6px rgb(0 0 0 / 90%);
+  }
+}
+
 .svg-align-bottom svg {
   @apply align-bottom;
 }

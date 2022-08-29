@@ -47,14 +47,14 @@
 
   &:hover {
     &::-webkit-scrollbar-track {
-      background: #f1f1f1;
+      @apply bg-[#f1f1f1] dark:bg-[#2a353f];
     }
     &::-webkit-scrollbar-thumb {
-      background: #bbb;
+      @apply bg-[#bbb] dark:bg-[#032020];
     }
   }
 
-  @apply fixed top-[64px] z-50 flex h-[calc(100vh-64px)] w-[300px] max-w-[98%] -translate-x-full select-none flex-col overflow-y-auto bg-theme-light p-6 transition-all duration-300 lg:sticky lg:translate-x-0 xl:w-[330px];
+  @apply fixed top-[64px] z-50 flex h-[calc(100vh-64px)] w-[300px] max-w-[98%] -translate-x-full select-none flex-col overflow-y-auto bg-theme-light p-6 transition-all duration-300 dark:bg-[#2a353f] lg:sticky lg:translate-x-0 xl:w-[330px];
   &.show {
     @apply translate-x-0;
   }
@@ -63,6 +63,7 @@
 // sidebar-toggler
 .sidebar-toggler {
   border: 1px solid #f6f6f6;
+  @apply dark:border-darkmode-theme-light;
   border-radius: 8px;
   &.fixed {
     @apply top-0 z-[101];
@@ -82,6 +83,7 @@
       fill: none;
       transition: stroke-dasharray 0.4s, stroke-dashoffset 0.4s;
       stroke: #333333;
+      @apply dark:stroke-white;
       stroke-width: 5.5;
       stroke-linecap: round;
     }
@@ -120,7 +122,7 @@
 
 // theme card
 .theme-card {
-  @apply flex h-full flex-col rounded shadow;
+  @apply flex h-full flex-col rounded bg-white shadow dark:bg-[#2a353f];
   &:hover .theme-card-preview {
     @apply visible opacity-100;
     svg {
@@ -128,7 +130,7 @@
     }
   }
   &-body {
-    @apply bg-white p-4;
+    @apply p-4;
   }
   &-footer {
     @apply mt-auto flex items-center px-4 pb-2;
@@ -170,6 +172,7 @@
     width: max-content;
     max-width: 160px;
     z-index: 9999999;
+    @apply dark:invert;
     &::after {
       content: "";
       position: absolute;
@@ -410,12 +413,14 @@
 // scroll-to-position
 .scroll-to-position {
   @apply fixed;
-  bottom: -40px;
-  right: 30px;
+  bottom: 40px;
+  right: 38px;
   z-index: 9999;
   transition: 0.2s;
+  opacity: 0;
   &.visible {
-    bottom: 40px;
+    bottom: 100px;
+    opacity: 1;
   }
   button {
     height: 40px;
@@ -434,7 +439,7 @@
 
 // sidebar accordion item
 .filter-list {
-  @apply relative mb-1 flex cursor-pointer rounded py-2 pl-2 pr-3 text-sm text-dark hover:bg-white;
+  @apply relative mb-1 flex cursor-pointer rounded py-2 pl-2 pr-3 text-sm text-dark hover:bg-white dark:text-white dark:hover:bg-[#3a4751];
   &::before {
     position: absolute;
     left: -8px;
@@ -447,16 +452,23 @@
     border-radius: 4px;
   }
   &:hover::before {
-    @apply border-dark;
+    @apply border-dark dark:border-light;
   }
   &.active {
-    @apply bg-white;
+    @apply bg-white dark:bg-[#3a4751];
     &::before {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%231c9669' d='M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z' class=''%3E%3C/path%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%23059669' d='M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z' class=''%3E%3C/path%3E%3C/svg%3E");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 50%;
-      @apply border-primary;
+      @apply border-primary dark:border-darkmode-primary;
+    }
+  }
+}
+.dark {
+  .filter-list {
+    &.active::before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%2345D19E' d='M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z' class=''%3E%3C/path%3E%3C/svg%3E");
     }
   }
 }
@@ -464,9 +476,9 @@
 // category list
 .category-list {
   li {
-    @apply mr-3 mb-3 inline-block cursor-pointer rounded border border-border py-[.3rem] px-3 text-[.8rem] text-dark last:mr-0;
+    @apply mr-3 mb-3 inline-block cursor-pointer rounded border border-border py-[.3rem] px-3 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-theme-light dark:text-darkmode-text;
     span {
-      @apply ml-2 rounded bg-[#dce9e9] px-[.3rem] py-[.15rem] text-xs;
+      @apply ml-2 rounded bg-[#dce9e9] px-[.3rem] py-[.15rem] text-xs dark:bg-darkmode-theme-light;
     }
     &.active {
       @apply border-primary bg-primary text-white;
@@ -476,22 +488,28 @@
     }
   }
 }
+.infinite-scroll-component {
+  @apply overflow-hidden;
+}
 
 // sort dropdown
 .sort-dropdown {
   @apply relative mt-1 inline-block whitespace-nowrap text-[.8rem];
   &-input {
-    @apply ml-2 cursor-pointer rounded border border-border py-[.3rem] px-3;
+    @apply ml-2 cursor-pointer rounded border border-border py-[.3rem] px-3 dark:border-darkmode-theme-light;
   }
   &-buttons {
-    @apply absolute top-8 right-0 z-50 hidden w-full rounded bg-white p-3 shadow;
+    @apply absolute top-8 right-0 z-50 hidden w-full rounded bg-white p-3 shadow dark:bg-darkmode-theme-dark;
     button {
       @apply block w-full rounded py-1 px-2 text-left;
       &:hover {
-        @apply bg-theme-light;
+        @apply bg-theme-light dark:hover:bg-white/[.1];
       }
       &.active {
-        @apply bg-primary/[.1] text-primary;
+        @apply bg-primary/[.1] text-primary dark:bg-darkmode-theme-light dark:text-darkmode-primary;
+        &:hover {
+          @apply dark:bg-darkmode-theme-light;
+        }
       }
     }
     &.show {

@@ -19,7 +19,7 @@
 }
 
 .btn-demo {
-  @apply border border-primary/25 from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white;
+  @apply border border-primary/25 from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white dark:border-white/25;
 }
 
 .btn-download {
