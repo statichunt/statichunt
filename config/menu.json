@@ -77,7 +77,7 @@
         },
         {
           "page": "form",
-          "url": "/jamstack-form"
+          "url": "/jamstack-forms"
         },
         {
           "page": "helper",
@@ -90,10 +90,6 @@
         {
           "page": "search",
           "url": "/jamstack-search"
-        },
-        {
-          "page": "others",
-          "url": "/jamstack-others"
         }
       ]
     }
