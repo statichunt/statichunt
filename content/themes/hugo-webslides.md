@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2019-08-09T08:35:08.000Z
 description: This is a Hugo template to create WebSlides presentation using markdown.
-draft: true
+draft: false
 publish_date: '2019-08-09T08:35:08Z'
 update_date: '2022-02-23T15:47:33Z'
 github_star: 107
