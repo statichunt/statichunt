@@ -15,7 +15,9 @@
     "update-themes": "yarn json && node lib/updateThemes.js && yarn json"
   },
   "dependencies": {
+    "@loadable/component": "^5.15.2",
     "dotenv": "^16.0.1",
+    "feeder-react-feedback": "^0.0.6",
     "github-slugger": "^1.4.0",
     "gray-matter": "^4.0.3",
     "marked": "^4.0.19",
