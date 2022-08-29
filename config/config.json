@@ -38,5 +38,5 @@
     { "type": "tool", "title": "Tool" }
   ],
 
-  "darkIconList": ["next", "markdown", "forestry"]
+  "darkIconList": ["next", "markdown", "forestry", "eleventy"]
 }
