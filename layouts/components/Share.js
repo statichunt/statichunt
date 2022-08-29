@@ -19,7 +19,7 @@ const Share = ({ title, description, slug, className }) => {
           target="_blank"
           rel="noreferrer noopener"
           button="true"
-          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white"
+          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white dark:bg-white/5 dark:text-white dark:hover:bg-primary"
         >
           <IoLogoFacebook />
         </a>
@@ -31,7 +31,7 @@ const Share = ({ title, description, slug, className }) => {
           target="_blank"
           rel="noreferrer noopener"
           button="true"
-          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white"
+          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white dark:bg-white/5 dark:text-white dark:hover:bg-primary"
         >
           <IoLogoTwitter />
         </a>
@@ -42,7 +42,7 @@ const Share = ({ title, description, slug, className }) => {
           href={`https://www.linkedin.com/shareArticle?mini=true&url=${base_url}/${slug}&title=${title}&summary=${description}&source=${base_url}`}
           target="_blank"
           rel="noreferrer noopener"
-          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white"
+          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white dark:bg-white/5 dark:text-white dark:hover:bg-primary"
         >
           <IoLogoLinkedin />
         </a>
@@ -54,7 +54,7 @@ const Share = ({ title, description, slug, className }) => {
           target="_blank"
           rel="noreferrer noopener"
           button="true"
-          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white"
+          className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white dark:bg-white/5 dark:text-white dark:hover:bg-primary"
         >
           <IoLogoPinterest />
         </a>

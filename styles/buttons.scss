@@ -19,11 +19,13 @@
 }
 
 .btn-demo {
-  @apply border border-primary/25 from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white dark:border-white/25;
+  @apply border border-primary/25 from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white;
+  @apply dark:text-white;
 }
 
 .btn-download {
   @apply border border-primary/25 bg-primary/[.1] from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white;
+  @apply dark:bg-dark/[.1] dark:text-white;
 }
 
 .btn-fill {

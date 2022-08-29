@@ -55,11 +55,11 @@ const ThemeInfo = ({ theme, slug, tools }) => {
           <span className="min-w-[120px]">Stars : </span>
           <span className="flex items-center">
             <Image
-              className="mr-2"
+              className="mr-2 dark:invert"
               src="/images/icons/star.svg"
               alt="github star"
-              height="16"
-              width="16"
+              height="15"
+              width="15"
             />
             {github_star}
           </span>
@@ -69,11 +69,11 @@ const ThemeInfo = ({ theme, slug, tools }) => {
           <span className="min-w-[120px]">Forks : </span>
           <span className="flex items-center">
             <Image
-              className="mr-2"
+              className="mr-2 dark:invert"
               src="/images/icons/fork.svg"
               alt="github fork"
-              height="16"
-              width="16"
+              height="14"
+              width="14"
             />
             {github_fork}
           </span>
@@ -81,11 +81,15 @@ const ThemeInfo = ({ theme, slug, tools }) => {
 
         <div className="flex items-center py-[6px]">
           <span className="min-w-[120px]">Updated : </span>
-          <span className="text-dark">{dateFormat(update_date)}</span>
+          <span className="text-dark dark:text-white">
+            {dateFormat(update_date)}
+          </span>
         </div>
         <div className="flex items-center py-[6px]">
           <span className="min-w-[120px]">Published : </span>
-          <span className="text-dark">{dateFormat(publish_date)}</span>
+          <span className="text-dark dark:text-white">
+            {dateFormat(publish_date)}
+          </span>
         </div>
 
         <span className="flex py-[6px]">
@@ -108,7 +112,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
             height={50}
             width={50}
             alt={author}
-            className="mr-5 rounded border border-gray-100"
+            className="mr-5 rounded border border-gray-100 dark:border-darkmode-border"
           />
 
           <div>
@@ -123,7 +127,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
               <a
                 target="_blank"
                 rel="nofollow noopener noreferrer"
-                className="text-dark hover:underline"
+                className="text-dark hover:underline dark:text-white"
               >
                 {author ? author : github.match(/github\.com\/([^\/]+)/, "")[0]}
               </a>

@@ -37,7 +37,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .nav-link {
-  @apply px-3 py-1 text-dark transition hover:text-primary dark:text-white dark:hover:opacity-70;
+  @apply px-3 py-1 text-dark transition hover:text-primary dark:text-white dark:hover:text-darkmode-primary;
 }
 
 .nav-dropdown {
