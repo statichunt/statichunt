@@ -38,5 +38,16 @@
     { "type": "tool", "title": "Tool" }
   ],
 
-  "darkIconList": ["next", "markdown", "forestry", "eleventy"]
+  "darkIconList": [
+    "next",
+    "markdown",
+    "forestry",
+    "eleventy",
+    "graphcms",
+    "notion",
+    "prismic",
+    "wordpress",
+    "stylus",
+    "ghost"
+  ]
 }
