@@ -137,7 +137,7 @@ const Base = ({
       <Footer />
       <CookieConsent />
       {feeder_id && (
-        <div className="feedback-block">
+        <div style={{ zoom: ".85" }}>
           <Feedback
             classList="hidden"
             projectId={feeder_id}

@@ -35,12 +35,13 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
   useEffect(() => {
     setPage(themes.slice(0, item));
   }, [item, themes]);
+
   return (
     <InfiniteScroll
       dataLength={page.length}
       next={fetchData}
       hasMore={true}
-      className={customRowClass ? customRowClass : "row !overflow-hidden p-4"}
+      className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
     >
       {/* <div > */}
       {page.map((theme, i) => (
@@ -108,7 +109,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
               </span>
             </div>
             <div className="theme-card-footer">
-              <div className="flex-wrap">
+              <div className="flex">
                 <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
                 <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
                 <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
@@ -127,7 +128,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 </Link>
                 <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
                   <a
-                    className="btn btn-sm btn-download svg-align-bottom mb-2 leading-none"
+                    className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
                     target="_blank"
                     rel="noopener nofollow"
                     data-tooltip="Download"

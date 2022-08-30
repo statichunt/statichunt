@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         <div className="col-12 mb-4 md:col-7 lg:col-4 lg:mb-0">
           <div className="flex items-center">
-            <span className="mr-3 inline-block pb-2 text-sm text-white">
+            <span className="mr-3 inline-block text-sm text-white">
               Connect with us :
             </span>
             <Social source={social} className="social-icons inline-block" />
