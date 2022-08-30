@@ -78,11 +78,11 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   data-tooltip="Github Stars"
                 >
                   <Image
-                    className="mr-1 inline align-text-bottom dark:invert"
+                    className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                     src={`/images/icons/${
                       theme.type ? theme.type : "star"
                     }.svg`}
-                    alt="github star"
+                    alt="github data"
                     height="14"
                     width="14"
                   />
