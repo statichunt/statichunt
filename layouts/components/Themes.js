@@ -1,9 +1,29 @@
+import { dateFormat } from "@lib/utils/dateFormat";
 import Image from "next/future/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ToolsIcon from "./ToolsIcon";
+// change github data by sort fuctionality
+const githubDataChange = (theme) => {
+  if (theme.type === "fork") {
+    const fork =
+      theme.frontmatter?.github_fork < 1000
+        ? theme.frontmatter?.github_fork
+        : parseFloat(theme.frontmatter?.github_fork / 1000).toFixed(1) + "k";
+    return fork;
+  } else if (theme.type === "update") {
+    const updateDate = dateFormat(theme.frontmatter.update_date);
+    return updateDate;
+  } else {
+    const star =
+      theme.frontmatter?.github_star < 1000
+        ? theme.frontmatter?.github_star
+        : parseFloat(theme.frontmatter?.github_star / 1000).toFixed(1) + "k";
+    return star;
+  }
+};
 
 const Themes = ({ themes, tools, customRowClass, customColClass }) => {
   const [item, setItem] = useState(20);
@@ -64,18 +84,14 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 >
                   <Image
                     className="mr-1 inline align-text-bottom dark:invert"
-                    src="/images/icons/star.svg"
+                    src={`/images/icons/${
+                      theme.type ? theme.type : "star"
+                    }.svg`}
                     alt="github star"
                     height="14"
                     width="14"
                   />
-                  <span className="dark:invert">
-                    {theme.frontmatter?.github_star < 1000
-                      ? theme.frontmatter?.github_star
-                      : parseFloat(
-                          theme.frontmatter?.github_star / 1000
-                        ).toFixed(1) + "k"}
-                  </span>
+                  <span className="dark:invert">{githubDataChange(theme)}</span>
                 </span>
               </div>
               <span className="text-xs text-dark dark:text-light">
