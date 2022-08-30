@@ -522,6 +522,9 @@
     }
   }
 }
+.infinite-scroll-component {
+  @apply overflow-hidden;
+}
 
 // sort dropdown
 .sort-dropdown {
