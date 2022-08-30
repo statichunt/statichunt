@@ -14,7 +14,7 @@ css: null
 category:
   - Portfolio
 description: A beautiful, simple, clean, and responsive Jekyll theme for academics
-draft: true
+draft: false
 publish_date: '2016-05-30T16:32:46Z'
 update_date: '2022-08-28T02:37:32Z'
 github_star: 3749
