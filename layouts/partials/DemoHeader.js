@@ -1,6 +1,8 @@
 import Logo from "@components/Logo";
 import config from "@config/config.json";
+import { useTheme } from "next-themes";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import {
   TbDeviceDesktop,
   TbDeviceMobile,
@@ -21,7 +23,11 @@ const DemoHeader = ({
   setDevice,
 }) => {
   // distructuring the main menu from menu object
-  const { logo, title, favicon } = config.site;
+  const { logo, logo_light, title, favicon } = config.site;
+
+  const [mounted, setMounted] = useState(false);
+  const { theme } = useTheme();
+  useEffect(() => setMounted(true), []);
 
   return (
     <header
@@ -35,7 +41,7 @@ const DemoHeader = ({
           <div className="flex items-center">
             <Logo
               className="hidden h-8 sm:inline-block"
-              src={logo}
+              src={mounted && theme === "dark" ? logo_light : logo}
               alt={title}
               height={32}
               width={164}

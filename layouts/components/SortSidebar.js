@@ -9,7 +9,7 @@ const SortSidebar = ({ isShow, isValue, handleSortTheme, handleClick }) => {
     <div className="mb-8">
       <h3
         onClick={handleClick}
-        className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-3 font-primary text-h6 font-medium"
+        className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
       >
         Sort by
         <span className="mr-2 inline-block align-middle">
@@ -29,7 +29,7 @@ const SortSidebar = ({ isShow, isValue, handleSortTheme, handleClick }) => {
               alt={button.value}
               height="17"
               width="17"
-              className="mx-2 dark:invert"
+              className="mx-2 max-h-[17px] dark:invert "
             />
             <span className="dark:invert">{humanize(button.value)}</span>
           </button>

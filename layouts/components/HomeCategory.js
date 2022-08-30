@@ -58,7 +58,7 @@ const HomeCategory = ({
               className={item.selected ? "active" : undefined}
             >
               {item.frontmatter.title}
-              <span className="ml-auto">{countItems(item)}</span>
+              <span>{countItems(item)}</span>
             </li>
           )
       )}

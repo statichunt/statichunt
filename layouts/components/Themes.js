@@ -36,12 +36,13 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
   useEffect(() => {
     setPage(themes.slice(0, item));
   }, [item, themes]);
+
   return (
     <InfiniteScroll
       dataLength={page.length}
       next={fetchData}
       hasMore={true}
-      className={customRowClass ? customRowClass : "row !overflow-hidden p-4"}
+      className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
     >
       {/* <div > */}
       {page.map((theme, i) => (
@@ -79,11 +80,11 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   data-tooltip="Github Stars"
                 >
                   <Image
-                    className="mr-1 inline align-text-bottom dark:invert"
+                    className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                     src={`/images/icons/${
                       theme.type ? theme.type : "star"
                     }.svg`}
-                    alt="github star"
+                    alt="github data"
                     height="14"
                     width="14"
                   />
@@ -113,6 +114,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 <ToolsIcon tools={tools} type={toolsArray(theme)} />
                 {/* <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
                 <ToolsIcon tools={tools} type={theme.frontmatter?.css} /> */}
+
                 {/* <ToolsIcon tools={tools} type={theme.frontmatter?.category} /> */}
               </div>
               <div className="ml-auto flex items-center whitespace-nowrap">
@@ -128,7 +130,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 </Link>
                 <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
                   <a
-                    className="btn btn-sm btn-download svg-align-bottom mb-2 leading-none"
+                    className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
                     target="_blank"
                     rel="noopener nofollow"
                     data-tooltip="Download"

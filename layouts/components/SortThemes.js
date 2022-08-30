@@ -5,7 +5,7 @@ import { TbChevronDown } from "react-icons/tb";
 const SortThemes = ({ isShow, isValue, handleSortTheme, handleClick }) => {
   const { button } = sortButton;
   return (
-    <div className="sort-dropdown ml-4">
+    <div className="sort-dropdown ml-0 mt-4 md:ml-2 md:mt-[6px]">
       Sort by:
       <span onClick={handleClick} className="sort-dropdown-input">
         {humanize(isValue)} <TbChevronDown />

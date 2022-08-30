@@ -1,6 +1,33 @@
+// theme switcher
+.theme-switcher {
+  @apply relative inline-flex cursor-pointer items-center justify-center rounded-full bg-darkmode-body text-[#a3a3a3] dark:bg-white;
+  height: 28px;
+  width: 52px;
+  &::after {
+    @apply absolute z-10 h-[18px] w-[18px] rounded-full bg-white content-[''] dark:bg-darkmode-body;
+    transition: 50ms cubic-bezier(0.77, 0, 0.18, 1);
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' fill='%23848484' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 6 6' style='enable-background:new 0 0 6 6;' xml:space='preserve'%3E%3Cpath d='M5.5,6C5.2,6,5,5.8,5,5.5v-5C5,0.2,5.2,0,5.5,0S6,0.2,6,0.5v5C6,5.8,5.8,6,5.5,6z M0.5,6C0.2,6,0,5.8,0,5.5v-5 C0,0.2,0.2,0,0.5,0S1,0.2,1,0.5v5C1,5.8,0.8,6,0.5,6z'/%3E%3C/svg%3E");
+    background-size: 6px 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .sun {
+    @apply mr-[4px];
+  }
+  .moon {
+    @apply -translate-y-[0.03rem];
+  }
+}
+.dark .theme-switcher::after {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' fill='%23a3a3a3' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 6 6' style='enable-background:new 0 0 6 6;' xml:space='preserve'%3E%3Cpath d='M5.5,6C5.2,6,5,5.8,5,5.5v-5C5,0.2,5.2,0,5.5,0S6,0.2,6,0.5v5C6,5.8,5.8,6,5.5,6z M0.5,6C0.2,6,0,5.8,0,5.5v-5 C0,0.2,0.2,0,0.5,0S1,0.2,1,0.5v5C1,5.8,0.8,6,0.5,6z'/%3E%3C/svg%3E");
+}
+
 // section style
 .section {
   @apply py-16;
+}
+.container {
+  @apply px-4 md:px-8;
 }
 
 // form style
@@ -55,6 +82,7 @@
   }
 
   @apply fixed top-[64px] z-50 flex h-[calc(100vh-64px)] w-[300px] max-w-[98%] -translate-x-full select-none flex-col overflow-y-auto bg-theme-light p-6 dark:bg-[#2a353f] lg:sticky lg:translate-x-0 xl:w-[330px];
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   &.show {
     @apply translate-x-0;
   }
@@ -172,6 +200,7 @@
     width: max-content;
     max-width: 160px;
     z-index: 9999999;
+    @apply dark:bg-primary;
     &::after {
       content: "";
       position: absolute;
@@ -182,6 +211,7 @@
       border-style: solid;
       border-color: black transparent transparent transparent;
       z-index: 9999999;
+      @apply dark:border-t-primary;
     }
   }
   &:hover .tooltip-label {
@@ -197,6 +227,7 @@
         top: unset;
         bottom: 100%;
         border-color: transparent transparent black transparent;
+        @apply dark:border-b-primary;
       }
     }
   }
@@ -415,14 +446,13 @@
 // scroll-to-position
 .scroll-to-position {
   @apply fixed;
-  bottom: 40px;
-  right: 38px;
+  bottom: 20px;
+  right: 0;
   z-index: 9999;
   transition: 0.2s;
   opacity: 0;
   &.visible {
-    bottom: 100px;
-    opacity: 1;
+    @apply right-[10px] opacity-100 sm:right-[32px];
   }
   button {
     height: 40px;
@@ -436,6 +466,19 @@
     svg {
       @apply inline;
     }
+  }
+}
+// feedback-block
+.feedback-block {
+  zoom: 0.85;
+  .frf-trigger-button {
+    transition: 0.2s;
+  }
+  &.visible .frf-trigger-button {
+    @apply mr-[25px] sm:mr-[55px];
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-right: 24px;
   }
 }
 
@@ -478,14 +521,15 @@
 // category list
 .category-list {
   li {
-    @apply mr-3 mb-3 inline-block cursor-pointer rounded border border-border py-[.3rem] px-3 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-theme-light dark:text-darkmode-text;
+    @apply mr-3 mb-3 inline-block cursor-pointer select-none rounded border border-border py-[.3rem] pl-3 pr-2 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-theme-light dark:text-darkmode-text;
     span {
       @apply ml-2 rounded bg-[#dce9e9] px-[.3rem] py-[.15rem] text-xs dark:bg-darkmode-theme-light;
     }
     &.active {
+      // @apply border-transparent bg-gradient-to-r from-primary to-secondary text-white;
       @apply border-primary bg-primary text-white;
       span {
-        @apply bg-white text-primary;
+        @apply bg-dark/[.15] text-white;
       }
     }
   }
@@ -522,7 +566,7 @@
 
 // demo previewer
 .demo-switcher {
-  @apply inline-block space-x-1 rounded border border-primary/50 bg-theme-light text-[1.45rem] leading-none;
+  @apply inline-block space-x-1 rounded border border-primary/50 bg-theme-light text-[1.45rem] leading-none dark:bg-theme-dark;
   button {
     @apply rounded px-2 py-[.3rem];
     &.active {
@@ -532,62 +576,44 @@
 }
 
 .demo-wrapper {
-  @apply flex items-center justify-center bg-theme-light transition-all;
+  @apply flex items-center justify-center bg-theme-light transition-all dark:bg-theme-dark;
   iframe {
     @apply my-0 mx-auto h-full w-full rounded-[inherit] border-0 shadow-none;
   }
 }
 
 .demo-content {
-  @apply relative mx-auto h-full w-full overflow-hidden border-white bg-white transition-all duration-500;
+  @apply relative mx-auto h-full w-full overflow-hidden border-white bg-white transition-all duration-500 dark:border-dark dark:bg-darkmode-theme-light;
   &.tablet {
-    @apply mt-[-15px] h-[1024px] max-h-[calc(100vh-130px)] w-[768px] rounded-lg border-[15px] border-white shadow;
+    @apply mt-[-15px] h-[1024px] max-h-[calc(100vh-130px)] w-[768px] rounded-lg border-[15px] border-white shadow dark:border-darkmode-theme-light;
   }
   &.mobile {
-    @apply mt-[-10px] h-[740px] max-h-[calc(100vh-120px)] w-[375px] rounded-lg border-[10px] border-white shadow;
+    @apply mt-[-10px] h-[740px] max-h-[calc(100vh-120px)] w-[375px] rounded-lg border-[10px] border-white shadow dark:border-darkmode-theme-light;
   }
 }
 
 // cookie bar
 .cookieBar {
-  padding: 15px 20px;
-  background: #fff;
-  justify-content: space-between;
-  left: 20px;
-  bottom: 20px;
-  position: fixed;
-  z-index: 9999999;
-  border-radius: 0.25rem;
-  margin-right: 20px;
+  @apply fixed left-[20px] bottom-[20px] z-[9999999] mt-[20px] flex content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
   box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
     rgb(12 20 66 / 4%) 0px 16px 40px;
-  display: flex;
-  align-items: center;
 }
 
 .cookieBarContent {
-  display: flex;
-  align-items: center;
+  @apply flex items-center;
 }
 
 .cookieBarBtn {
-  background: rgb(237, 240, 243);
-  border: 0px;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 5px 10px;
-  margin-left: 15px;
+  @apply ml-[15px] cursor-pointer rounded-[5px] border-none bg-[#edf0f3] py-[5px] px-[10px] dark:bg-theme-dark;
   font-size: 13px;
 }
 
 // bookmark bar
 .bookmarkBar {
+  @apply fixed content-between bg-white dark:bg-darkmode-theme-light dark:text-white;
   padding: 5px 20px 5px 7px;
-  background: #fff;
-  justify-content: space-between;
   left: 20px;
   bottom: 20px;
-  position: fixed;
   z-index: 9999999;
   border-radius: 0.25rem;
   margin-right: 20px;
@@ -608,7 +634,6 @@
       visibility: visible;
       opacity: 1;
     }
-
     .bookmarkClose {
       transform: scale(1);
     }
@@ -617,6 +642,7 @@
 
 .bookmarkIcon {
   background-color: #f4f7f7;
+  @apply dark:bg-darkmode-border;
   border-radius: 0.25rem;
   padding: 9px 5px 7px 5px;
   margin-right: 10px;
@@ -630,14 +656,18 @@
   right: -10px;
   top: -10px;
   background-color: #fff;
+  box-shadow: 0 5px 16px #eee;
+  @apply dark:bg-darkmode-border;
   border-radius: 50%;
   height: 20px;
   text-align: center;
   width: 20px;
-  box-shadow: 0 5px 16px #eee;
   line-height: 15px !important;
   transform: scale(0);
   transition: 0.2s ease;
+}
+.dark .bookmarkClose {
+  box-shadow: 0 5px 16px #333;
 }
 
 .sort-sidebar-buttons {

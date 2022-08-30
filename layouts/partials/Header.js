@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <div className="sidebar-toggler mr-lg-0 d-block invisible mr-3 opacity-0 lg:hidden">
+        <div className="sidebar-toggler mr-lg-0 d-block invisible mr-2 opacity-0 lg:hidden">
           <svg className="sidebar-toggle-icon" viewBox="0 0 100 100" width="40">
             <path
               className="line top"
@@ -33,21 +33,14 @@ const Header = () => {
         </div>
         <div className="flex items-center">
           <Logo
-            className="hidden h-8 md:inline-block"
+            className="h-8"
             src={mounted && theme === "dark" ? logo_light : logo}
             alt={title}
             height={32}
             width={164}
           />
-          <Logo
-            className="inline-block h-8 md:hidden"
-            src={favicon}
-            alt={title}
-            height={32}
-            width={32}
-          />
           <a
-            className="btn-follow"
+            className="btn-follow hidden sm:inline"
             href="https://twitter.com/heyStatichunt"
             target="_blank"
             rel="nofollow noreferrer"
@@ -70,7 +63,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <div className="ml-auto lg:ml-0">
+        <div className="ml-auto flex items-center lg:ml-0">
           <ThemeSwitcher />
           <a
             className="btn btn-primary origin-right scale-90 md:scale-100 lg:ml-0"
