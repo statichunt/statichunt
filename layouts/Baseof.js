@@ -137,14 +137,17 @@ const Base = ({
       <Footer />
       <CookieConsent />
       {feeder_id && (
-        <Feedback
-          projectId={feeder_id}
-          feedbackTypes={["bug", "idea"]}
-          email={true}
-          emailRequired={true}
-          primaryColor="#059669"
-          hoverBorderColor="#059669"
-        />
+        <div className="feedback-block">
+          <Feedback
+            classList="hidden"
+            projectId={feeder_id}
+            feedbackTypes={["bug", "idea"]}
+            email={true}
+            emailRequired={true}
+            primaryColor="#059669"
+            hoverBorderColor="#059669"
+          />
+        </div>
       )}
 
       <div className="scroll-to-position">

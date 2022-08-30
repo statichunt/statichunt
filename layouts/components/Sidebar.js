@@ -105,9 +105,9 @@ const Sidebar = ({
           {sidebarData.map(
             (data, i) =>
               data.taxonomy && (
-                <div key={`accordion-${i}`} className="mb-5">
+                <div key={`accordion-${i}`} className="mb-3 lg:mb-5">
                   <h3
-                    className={`mb-2 flex cursor-pointer items-center justify-between py-1 pl-3 font-primary text-h6 font-medium`}
+                    className={`mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3`}
                     onClick={() => handleOnClick(data.title)}
                   >
                     {data.title}
@@ -119,8 +119,8 @@ const Sidebar = ({
                       )}
                     </span>
                   </h3>
-                  <div className="relative mb-8 flex flex-col">
-                    {data.taxonomy && (
+                  {data.taxonomy && (
+                    <div className="lh:mb-8 relative mb-3 flex flex-col">
                       <Accordion
                         setArraySSG={setArraySSG}
                         arraySSG={arraySSG}
@@ -140,8 +140,8 @@ const Sidebar = ({
                         setIsIntro={setIsIntro}
                         isIntro={isIntro}
                       />
-                    )}
-                  </div>
+                    </div>
+                  )}
                 </div>
               )
           )}

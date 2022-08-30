@@ -8,7 +8,7 @@ const MobileSidebar = () => {
 
   return (
     <>
-      <div className="sidebar-toggler mr-lg-0 d-block fixed !top-[1rem] left-[0.75rem] mr-3 sm:left-[2rem] lg:hidden">
+      <div className="sidebar-toggler mr-lg-0 d-block fixed !top-[1rem] left-[0.75rem] mr-3 sm:left-[1.5rem] lg:hidden">
         <svg
           className={`sidebar-toggle-icon ${isSidebarOpen ? "active" : ""}`}
           viewBox="0 0 100 100"

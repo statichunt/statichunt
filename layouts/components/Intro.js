@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Intro = ({ data, toggleClass }) => {
   return (
-    <div className={`mb-16 ${toggleClass}`}>
+    <div className={`mb-10 md:mb-16 ${toggleClass}`}>
       <h1 className="mb-3">
         {data.title_start}{" "}
         <Typewriter
