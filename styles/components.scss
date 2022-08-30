@@ -232,6 +232,55 @@
     }
   }
 }
+.has-tooltip-static {
+  position: relative;
+  display: inline-block;
+  .tooltip-label-static {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.15s;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: calc(100% + 5px);
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 1;
+    pointer-events: none;
+    width: max-content;
+    max-width: 160px;
+    z-index: 9999999;
+    @apply dark:bg-primary;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+      z-index: 9999999;
+      @apply dark:border-t-primary;
+    }
+    p {
+      font-size: 90%;
+      &:not(:last-child) {
+        margin-bottom: 6px;
+      }
+    }
+  }
+  &:hover .tooltip-label-static {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s;
+  }
+}
 
 .meta-list {
   li {

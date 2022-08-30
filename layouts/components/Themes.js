@@ -111,7 +111,11 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
             </div>
             <div className="theme-card-footer">
               <div className="flex-wrap">
-                <ToolsIcon tools={tools} type={toolsArray(theme)} />
+                <ToolsIcon
+                  tools={tools}
+                  type={toolsArray(theme)}
+                  themeCard={true}
+                />
                 {/* <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
                 <ToolsIcon tools={tools} type={theme.frontmatter?.css} /> */}
 
@@ -124,6 +128,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                     target="_blank"
                     rel="noopener nofollow"
                     data-tooltip="Preview"
+                    aria-label="Preview Theme"
                   >
                     <TbEye />
                   </a>
@@ -134,6 +139,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                     target="_blank"
                     rel="noopener nofollow"
                     data-tooltip="Download"
+                    aria-label="Download Theme"
                   >
                     <span className="mr-1 hidden lg:inline">Get</span>
                     <TbDownload />
