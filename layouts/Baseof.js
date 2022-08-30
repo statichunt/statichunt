@@ -50,11 +50,14 @@ const Base = ({
     window.addEventListener(
       "scroll",
       function () {
-        var target = document.querySelector(".scroll-to-position");
+        var scrollArrow = document.querySelector(".scroll-to-position");
+        var feedbackBlock = document.querySelector(".feedback-block");
         if (window.pageYOffset > 150) {
-          target.classList.add("visible");
+          scrollArrow.classList.add("visible");
+          feedbackBlock.classList.add("visible");
         } else if (window.pageYOffset < 150) {
-          target.classList.remove("visible");
+          scrollArrow.classList.remove("visible");
+          feedbackBlock.classList.remove("visible");
         }
       },
       false
@@ -137,7 +140,7 @@ const Base = ({
       <Footer />
       <CookieConsent />
       {feeder_id && (
-        <div style={{ zoom: ".85" }}>
+        <div className="feedback-block">
           <Feedback
             classList="hidden"
             projectId={feeder_id}

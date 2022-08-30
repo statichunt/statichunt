@@ -446,14 +446,13 @@
 // scroll-to-position
 .scroll-to-position {
   @apply fixed;
-  bottom: 40px;
-  right: 32px;
+  bottom: 20px;
+  right: 0;
   z-index: 9999;
   transition: 0.2s;
   opacity: 0;
   &.visible {
-    bottom: 80px;
-    opacity: 1;
+    @apply right-[10px] opacity-100 sm:right-[32px];
   }
   button {
     height: 40px;
@@ -467,6 +466,19 @@
     svg {
       @apply inline;
     }
+  }
+}
+// feedback-block
+.feedback-block {
+  zoom: 0.85;
+  .frf-trigger-button {
+    transition: 0.2s;
+  }
+  &.visible .frf-trigger-button {
+    @apply mr-[25px] sm:mr-[55px];
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-right: 24px;
   }
 }
 
