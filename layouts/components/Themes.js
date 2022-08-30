@@ -1,4 +1,5 @@
 import { dateFormat } from "@lib/utils/dateFormat";
+import { toolsArray } from "@lib/utils/toolsArray";
 import Image from "next/future/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -109,9 +110,9 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
             </div>
             <div className="theme-card-footer">
               <div className="flex-wrap">
-                <ToolsIcon tools={tools} type={theme.frontmatter?.ssg} />
-                <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
-                <ToolsIcon tools={tools} type={theme.frontmatter?.css} />
+                <ToolsIcon tools={tools} type={toolsArray(theme)} />
+                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
+                <ToolsIcon tools={tools} type={theme.frontmatter?.css} /> */}
                 {/* <ToolsIcon tools={tools} type={theme.frontmatter?.category} /> */}
               </div>
               <div className="ml-auto flex items-center whitespace-nowrap">
