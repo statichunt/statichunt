@@ -2,7 +2,7 @@ import Resources from "@components/Resources";
 import { markdownify } from "@lib/utils/textConverter";
 
 const ResourceTaxonomy = ({ data, taxonomies }) => {
-  const { frontmatter, content } = taxonomies[0];
+  const { frontmatter } = taxonomies[0];
   const { title, page_title } = frontmatter;
 
   return (

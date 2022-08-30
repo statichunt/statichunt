@@ -1,5 +1,6 @@
 import Themes from "@components/Themes";
-import { markdownify } from "@lib/utils/textConverter";
+import config from "@config/config.json";
+import { markdownify, slugify } from "@lib/utils/textConverter";
 import Image from "next/future/image";
 import {
   TbBrandGithub,
@@ -8,6 +9,8 @@ import {
   TbHome,
   TbLicense,
 } from "react-icons/tb";
+
+const { darkIconList } = config;
 
 const ThemeTaxonomy = ({ data, taxonomies, tools, isIntro }) => {
   const { frontmatter, content } = taxonomies[0];
@@ -30,7 +33,9 @@ const ThemeTaxonomy = ({ data, taxonomies, tools, isIntro }) => {
           <div className={`mb-16 p-6 shadow ${!isIntro && "hidden"}`}>
             <div className="mb-5 flex">
               <Image
-                className="mr-3"
+                className={`${
+                  darkIconList.includes(slugify(title)) ? "dark:invert" : ""
+                } mr-3`}
                 src={icon}
                 alt={`${title} icon`}
                 height="40"
