@@ -14,7 +14,7 @@ const githubDataChange = (theme) => {
         : parseFloat(theme.frontmatter?.github_fork / 1000).toFixed(1) + "k";
     return fork;
   } else if (theme.type === "update") {
-    const updateDate = dateFormat(theme.frontmatter.update_date);
+    const updateDate = dateFormat(theme.frontmatter.update_date, "dd/MM/yy");
     return updateDate;
   } else {
     const star =
@@ -41,11 +41,6 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
       next={fetchData}
       hasMore={true}
       className={customRowClass ? customRowClass : "row !overflow-hidden p-4"}
-      endMessage={
-        <p style={{ textAlign: "center" }}>
-          <b>Yay! You have seen it all</b>
-        </p>
-      }
     >
       {/* <div > */}
       {page.map((theme, i) => (
