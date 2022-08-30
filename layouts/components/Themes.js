@@ -53,7 +53,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
               <div className="flex justify-between">
                 <h2 className="h6 mb-0 text-lg font-medium">
                   <Link href={`/themes/${theme.slug}`} passHref>
-                    <a className="hover:underline">
+                    <a className="line-clamp-1 hover:underline">
                       {theme.frontmatter?.title}
                     </a>
                   </Link>
