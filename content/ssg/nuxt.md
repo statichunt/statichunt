@@ -10,6 +10,6 @@ license: MIT
 license_url: https://github.com/nuxt/nuxt.js/blob/dev/LICENSE
 language: JavaScript
 url: "/nuxt-themes"
-draft: false
+draft: true
 ---
 Nuxt is a static site generator built on top of Vue.js that allows you to create static websites and applications using Vue.js. Static sites are faster and more secure than dynamic websites, and with Nuxt, you can create them without anyomplicated setup process.

@@ -10,6 +10,6 @@ license: MIT
 license_url: https://github.com/hexojs/hexo/blob/master/LICENSE
 language: JavaScript
 url: "/hexo-themes"
-draft: false
+draft: true
 ---
 Hexo is the fastest, simplest, and most powerful blog framework. You can write posts in Markdown or any other markup language that gets compiled into static files with a beautiful theme instantly- no need to waste time on designing from scratch!

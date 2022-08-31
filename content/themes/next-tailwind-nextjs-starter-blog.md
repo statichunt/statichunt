@@ -35,4 +35,3 @@ github_fork: 797
 - Excellent lighthouse score
 - MDX support
 - Math display support
-

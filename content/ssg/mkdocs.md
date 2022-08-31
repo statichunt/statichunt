@@ -10,6 +10,6 @@ license: BSD-3-Clause
 license_url: https://github.com/mkdocs/mkdocs/blob/master/LICENSE
 language: Python
 url: "/mkdocs-themes"
-draft: false
+draft: true
 ---
 MkDocs is an easy-to use, fast and lightweight static site generator that helps you build project documentation. Documentation source files are written in Markdown with the help of a single YAML configuration file

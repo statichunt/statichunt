@@ -11,6 +11,6 @@ license_url: https://github.com/vuejs/vuepress/blob/master/LICENSE
 language: JavaScript
 url: "/vuepress-themes"
 short_description: ""
-draft: false
+draft: true
 ---
 Vuepress is a Minimalistic and SEO-friendly static site generator that produces high quality pages. Each page generated has its own prerendered HTML, which makes for fast loading speeds as well as better search engine rankings
