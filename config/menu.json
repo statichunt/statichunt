@@ -53,10 +53,6 @@
         {
           "page": "jekyll themes",
           "url": "/jekyll-themes"
-        },
-        {
-          "page": "eleventy themes",
-          "url": "/eleventy-themes"
         }
       ]
     },

@@ -13,7 +13,7 @@ description: >-
   alaGeek is an enhanced version of the Cocoa theme featuring a customizable
   homepage with different sections including the latest posts, syntax
   highlighting and MathJax support and much more.
-draft: false
+draft: true
 publish_date: '2018-09-08T19:32:11Z'
 update_date: '2022-07-17T23:51:42Z'
 github_star: 54

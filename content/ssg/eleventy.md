@@ -11,6 +11,6 @@ license: MIT
 license_url: https://github.com/11ty/eleventy/blob/master/LICENSE
 language: JavaScript
 url: "/eleventy-themes"
-draft: false
+draft: true
 ---
 Eleventy static site generator is a simpler, more lightweight alternative to Jekyll. This JavaScript-based program transform directories of templates (of varying types) into HTML for you with just one command!
