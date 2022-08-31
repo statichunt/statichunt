@@ -25,8 +25,7 @@ description: >-
   selected font, and quick loading speed make it a perfectly expandable theme.
 publish_date: '2021-11-07T03:46:32Z'
 update_date: '2022-08-29T03:39:25Z'
-github_star: 0
+github_star: 1
 github_fork: 0
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---
