@@ -39,6 +39,10 @@
       "name": "Themes",
       "pages": [
         {
+          "page": "astro themes",
+          "url": "/astro-themes"
+        },
+        {
           "page": "hugo themes",
           "url": "/hugo-themes"
         },
