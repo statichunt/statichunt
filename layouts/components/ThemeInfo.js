@@ -51,46 +51,54 @@ const ThemeInfo = ({ theme, slug, tools }) => {
       <div className="widget widget-info mb-3 mt-12">
         <h3 className="h4 mb-3 font-light">Theme Information:</h3>
 
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Stars : </span>
-          <span className="flex items-center">
-            <Image
-              className="mr-2 dark:invert"
-              src="/images/icons/star.svg"
-              alt="github star"
-              height="15"
-              width="15"
-            />
-            {github_star}
-          </span>
-        </div>
+        {github_star && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Stars : </span>
+            <span className="flex items-center">
+              <Image
+                className="mr-2 dark:invert"
+                src="/images/icons/star.svg"
+                alt="github star"
+                height="15"
+                width="15"
+              />
+              {github_star}
+            </span>
+          </div>
+        )}
 
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Forks : </span>
-          <span className="flex items-center">
-            <Image
-              className="mr-2 dark:invert"
-              src="/images/icons/fork.svg"
-              alt="github fork"
-              height="14"
-              width="14"
-            />
-            {github_fork}
-          </span>
-        </div>
+        {github_fork && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Forks : </span>
+            <span className="flex items-center">
+              <Image
+                className="mr-2 dark:invert"
+                src="/images/icons/fork.svg"
+                alt="github fork"
+                height="14"
+                width="14"
+              />
+              {github_fork}
+            </span>
+          </div>
+        )}
 
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Updated : </span>
-          <span className="text-dark dark:text-white">
-            {dateFormat(update_date)}
-          </span>
-        </div>
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Published : </span>
-          <span className="text-dark dark:text-white">
-            {dateFormat(publish_date)}
-          </span>
-        </div>
+        {update_date && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Updated : </span>
+            <span className="text-dark dark:text-white">
+              {dateFormat(update_date)}
+            </span>
+          </div>
+        )}
+        {publish_date && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Published : </span>
+            <span className="text-dark dark:text-white">
+              {dateFormat(publish_date)}
+            </span>
+          </div>
+        )}
 
         <span className="flex py-[6px]">
           <span className="mb-2 min-w-[120px]">Types : </span>
