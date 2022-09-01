@@ -4,18 +4,22 @@ github: https://github.com/mhyfritz/astro-landing-page
 demo: https://astro-moon-landing.netlify.app/
 author: Markus Hsi-Yang Fritz
 author_link: https://github.com/mhyfritz
-author_twitter:
-date: 2022-09-1T10:56:50.000Z
+author_twitter: null
+date: 2022-08-31T11:44:50.000Z
 description: An Astro + Tailwind CSS Example/Template for Landing Pages.
 ssg:
   - Astro
 css:
   - Tailwind
 cms:
-  -
+  - null
 category:
   - Landing
 draft: false
+publish_date: '2022-05-03T04:02:56Z'
+update_date: '2022-08-15T03:33:15Z'
+github_star: 56
+github_fork: 19
 ---
 
 ## Theme features

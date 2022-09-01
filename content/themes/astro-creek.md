@@ -1,21 +1,25 @@
 ---
-title: Astro Creek 
+title: Astro Creek
 github: https://github.com/robertguss/Astro-Theme-Creek
 demo: https://astro-theme-creek.netlify.app/
 author: Robert Guss
 author_link: https://github.com/robertguss
 author_twitter: howtocode_io
-date: 2022-09-1T11:55:50.000Z
+date: 2022-08-31T11:44:50.000Z
 description: Creek is a theme for Astro static site generator.
 ssg:
   - Astro
 css:
   - SCSS
 cms:
-  - 
+  - null
 category:
   - Blog
 draft: false
+publish_date: '2021-10-11T13:34:25Z'
+update_date: '2022-08-26T17:34:25Z'
+github_star: 46
+github_fork: 23
 ---
 
 ## Theme features
