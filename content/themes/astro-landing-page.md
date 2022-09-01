@@ -12,7 +12,7 @@ ssg:
 css:
   - Tailwind
 cms:
-  - Markdown
+  -
 category:
   - Landing
 draft: false
