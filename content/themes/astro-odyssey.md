@@ -4,18 +4,25 @@ github: https://github.com/littlesticksdev/odyssey-theme
 demo: https://odyssey-theme.littlesticks.dev/
 author: Little Sticks
 author_link: https://github.com/littlesticksdev
-author_twitter:
-date: 2022-09-1T10:31:50.000Z
-description: This is the repo for the Odyssey Theme, a modern theme/starter for a business or startup's marketing website. It provides landing page examples, a full-featured blog, contact forms, and more.
+author_twitter: null
+date: 2022-08-31T00:31:50.000Z
+description: >-
+  This is the repo for the Odyssey Theme, a modern theme/starter for a business
+  or startup's marketing website. It provides landing page examples, a
+  full-featured blog, contact forms, and more.
 ssg:
   - Astro
 css:
-  - 
+  - null
 cms:
-  - 
+  - null
 category:
   - Business
 draft: false
+publish_date: '2022-05-15T03:10:17Z'
+update_date: '2022-08-11T05:11:35Z'
+github_star: 57
+github_fork: 10
 ---
 
 ## Theme features

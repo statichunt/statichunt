@@ -5,8 +5,11 @@ demo: https://creativedesignsguru.com/demo/astro-boilerplate/
 author: Remi W.
 author_link: https://github.com/ixartz
 author_twitter: ixartz
-date: 2022-09-1T11:13:50.000Z
-description: Astro Boilerplate is starter code for your blog or portfolio based on Astro with Tailwind CSS 3.0. Made with Astro, TypeScript, ESLint, Prettier, Tailwind CSS.
+date: 2022-08-31T11:44:50.000Z
+description: >-
+  Astro Boilerplate is starter code for your blog or portfolio based on Astro
+  with Tailwind CSS 3.0. Made with Astro, TypeScript, ESLint, Prettier, Tailwind
+  CSS.
 ssg:
   - Astro
 css:
@@ -17,6 +20,10 @@ category:
   - Blog
   - Portfolio
 draft: false
+publish_date: '2022-05-03T15:17:26Z'
+update_date: '2022-08-10T18:31:45Z'
+github_star: 150
+github_fork: 39
 ---
 
 ## Theme features
