@@ -6,7 +6,10 @@ author: Hello Tham
 author_link: https://github.com/hellotham
 author_twitter: HelloThamCom
 date: 2022-08-31T16:21:50.000Z
-description: Hello Astro is a full featured Astro corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.
+description: >-
+  Hello Astro is a full featured Astro corporate/marketing/blog starter theme
+  written in Typescript and TailwindCSS. It supports Markdown and MDX based
+  pages and blog posts.
 ssg:
   - Astro
 css:
@@ -16,6 +19,10 @@ cms:
 category:
   - Blog
 draft: false
+publish_date: '2022-08-12T02:13:10Z'
+update_date: '2022-09-01T04:38:18Z'
+github_star: 3
+github_fork: 4
 ---
 
 ## Theme features
