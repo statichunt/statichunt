@@ -643,7 +643,7 @@
 
 // cookie bar
 .cookieBar {
-  @apply fixed left-[20px] bottom-[20px] z-[9999999] mt-[20px] flex content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
+  @apply fixed left-[20px] bottom-[20px] z-[999999999] mt-[20px] flex content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
   box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
     rgb(12 20 66 / 4%) 0px 16px 40px;
 }
@@ -659,7 +659,7 @@
 
 // bookmark bar
 .bookmarkBar {
-  @apply fixed content-between bg-white dark:bg-darkmode-theme-light dark:text-white;
+  @apply invisible fixed content-between bg-white dark:bg-darkmode-theme-light dark:text-white md:visible;
   padding: 5px 20px 5px 7px;
   left: 20px;
   bottom: 20px;
