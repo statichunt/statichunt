@@ -1,6 +1,6 @@
 // theme switcher
 .theme-switcher {
-  @apply relative inline-flex cursor-pointer items-center justify-center rounded-full bg-darkmode-body text-[#a3a3a3] dark:bg-white;
+  @apply relative inline-flex cursor-pointer items-center justify-center rounded-full bg-gray-100 text-dark dark:bg-[#18232c] dark:text-white;
   height: 28px;
   width: 52px;
   &::after {

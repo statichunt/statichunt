@@ -1,4 +1,5 @@
 import { dateFormat } from "@lib/utils/dateFormat";
+import { humanize } from "@lib/utils/textConverter";
 import { toolsArray } from "@lib/utils/toolsArray";
 import Image from "next/future/image";
 import Link from "next/link";
@@ -27,8 +28,26 @@ const githubDataChange = (theme) => {
 };
 
 const Themes = ({ themes, tools, customRowClass, customColClass }) => {
-  const [item, setItem] = useState(20);
+  const [item, setItem] = useState(4);
   const [page, setPage] = useState(themes.slice(0, item));
+
+  // getWindowDimensions
+  const [windowSize, setWindowSize] = useState(768);
+  useEffect(() => {
+    function showViewport() {
+      var width = Math.max(
+        document.documentElement.clientWidth,
+        window.innerWidth || 0
+      );
+      setWindowSize(width);
+    }
+    showViewport();
+    window.onresize = showViewport;
+  }, []);
+
+  useEffect(() => {
+    setItem(windowSize < 768 ? 4 : 20);
+  }, [windowSize]);
 
   const fetchData = () => {
     setItem(item + 20);
@@ -36,6 +55,26 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
   useEffect(() => {
     setPage(themes.slice(0, item));
   }, [item, themes]);
+
+  // tooltip
+  useEffect(() => {
+    var tooltipEl = document.querySelectorAll(".has-tooltip");
+    if (tooltipEl) {
+      var tooltipItems = document.querySelectorAll(".tooltip-label");
+      tooltipItems.forEach((item) => {
+        item.remove();
+      });
+      var length = tooltipEl.length;
+      for (var i = 0; i < length; i++) {
+        var attr = tooltipEl[i].getAttribute("data-tooltip");
+        var x = document.createElement("SPAN");
+        var t = document.createTextNode(attr);
+        x.appendChild(t);
+        x.className = "tooltip-label";
+        tooltipEl[i].appendChild(x);
+      }
+    }
+  });
 
   return (
     <InfiniteScroll
@@ -76,15 +115,15 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   </Link>
                 </h2>
                 <span
-                  className="has-tooltip mt-1 flex items-center whitespace-nowrap text-sm text-dark"
-                  data-tooltip="Github Stars"
+                  className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark"
+                  data-tooltip={theme.type ? humanize(theme.type) : "Star"}
                 >
                   <Image
                     className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                     src={`/images/icons/${
                       theme.type ? theme.type : "star"
                     }.svg`}
-                    alt="github data"
+                    alt="github icon"
                     height="14"
                     width="14"
                   />
