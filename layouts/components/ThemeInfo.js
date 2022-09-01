@@ -15,6 +15,8 @@ const ThemeInfo = ({ theme, slug, tools }) => {
     github_fork,
     publish_date,
     update_date,
+    download,
+    price,
     ssg,
     cms,
     css,
@@ -39,7 +41,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
 
             <a
               className="btn btn-fill sm:px-10 lg:px-7 xl:px-10"
-              href={`${github}?ref=statichunt.com`}
+              href={`${github ? github : download}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
@@ -82,7 +84,12 @@ const ThemeInfo = ({ theme, slug, tools }) => {
             </span>
           </div>
         )}
-
+        {price && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Price : </span>
+            <span className="text-dark dark:text-white">${price}</span>
+          </div>
+        )}
         {update_date && (
           <div className="flex items-center py-[6px]">
             <span className="min-w-[120px]">Updated : </span>
@@ -119,9 +126,13 @@ const ThemeInfo = ({ theme, slug, tools }) => {
       <div className="widget mt-10">
         <div className="flex items-center">
           <Image
-            src={`https://www.github.com/${
-              github.match(/github\.com\/([^\/]+)/, "")[1]
-            }.png`}
+            src={
+              github
+                ? `https://www.github.com/${
+                    github.match(/github\.com\/([^\/]+)/, "")[1]
+                  }.png`
+                : "/images/author-placeholder.png"
+            }
             height={50}
             width={50}
             alt={author}
@@ -134,7 +145,9 @@ const ThemeInfo = ({ theme, slug, tools }) => {
               href={
                 author_link
                   ? author_link
-                  : `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
+                  : github
+                  ? `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
+                  : ""
               }
             >
               <a
@@ -142,7 +155,11 @@ const ThemeInfo = ({ theme, slug, tools }) => {
                 rel="nofollow noopener noreferrer"
                 className="text-dark hover:underline dark:text-white"
               >
-                {author ? author : github.match(/github\.com\/([^\/]+)/, "")[0]}
+                {author
+                  ? author
+                  : github
+                  ? github.match(/github\.com\/([^\/]+)/, "")[0]
+                  : ""}
               </a>
             </Link>
           </div>

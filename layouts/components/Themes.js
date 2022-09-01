@@ -115,19 +115,35 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   </Link>
                 </h2>
                 <span
-                  className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark"
-                  data-tooltip={theme.type ? humanize(theme.type) : "Star"}
+                  className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
+                  data-tooltip={
+                    theme.frontmatter.price >= 0
+                      ? "Price"
+                      : theme.type
+                      ? humanize(theme.type)
+                      : "Star"
+                  }
                 >
-                  <Image
-                    className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
-                    src={`/images/icons/${
-                      theme.type ? theme.type : "star"
-                    }.svg`}
-                    alt="github icon"
-                    height="14"
-                    width="14"
-                  />
-                  <span className="dark:invert">{githubDataChange(theme)}</span>
+                  {theme.frontmatter.github ? (
+                    <>
+                      <Image
+                        className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
+                        src={`/images/icons/${
+                          theme.type ? theme.type : "star"
+                        }.svg`}
+                        alt="github icon"
+                        height="14"
+                        width="14"
+                      />
+                      {githubDataChange(theme)}
+                    </>
+                  ) : (
+                    <>
+                      {theme.frontmatter.price
+                        ? "$" + theme.frontmatter.price
+                        : "Free"}
+                    </>
+                  )}
                 </span>
               </div>
               <span className="text-xs text-dark dark:text-light">
@@ -155,10 +171,6 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   type={toolsArray(theme)}
                   themeCard={true}
                 />
-                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
-                <ToolsIcon tools={tools} type={theme.frontmatter?.css} /> */}
-
-                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.category} /> */}
               </div>
               <div className="ml-auto flex items-center whitespace-nowrap">
                 <Link href={`/demo/${theme.slug}`}>
@@ -172,7 +184,13 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                     <TbEye />
                   </a>
                 </Link>
-                <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
+                <Link
+                  href={`${
+                    theme.frontmatter.github
+                      ? theme.frontmatter.github
+                      : theme.frontmatter.download
+                  }?ref=statichunt.com`}
+                >
                   <a
                     className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
                     target="_blank"
