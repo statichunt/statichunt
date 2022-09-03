@@ -12,7 +12,6 @@ const SortReducer = (getCategories, show, slug) => {
 
   const handleSortTheme = (e, type) => {
     dispatch({ type: type });
-
     setIsValue(e.target.value);
     if (!show) {
       setIsShow(!isShow);

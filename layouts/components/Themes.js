@@ -7,23 +7,34 @@ import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ToolsIcon from "./ToolsIcon";
+
 // change github data by sort fuctionality
 const githubDataChange = (theme) => {
+  const getStar = theme.frontmatter.github_star
+    ? theme.frontmatter.github_star
+    : 0;
+  const star =
+    getStar < 1000 ? getStar : parseFloat(getStar / 1000).toFixed(1) + "k";
+  const fork =
+    theme.frontmatter.github_fork < 1000
+      ? theme.frontmatter.github_fork
+      : parseFloat(theme.frontmatter.github_fork / 1000).toFixed(1) + "k";
+  const updateDate = dateFormat(
+    theme.frontmatter.update_date
+      ? theme.frontmatter.update_date
+      : theme.frontmatter.date,
+    "dd/MM/yy"
+  );
+  const price = theme.frontmatter.price ? theme.frontmatter.price : 0;
+
   if (theme.type === "fork") {
-    const fork =
-      theme.frontmatter?.github_fork < 1000
-        ? theme.frontmatter?.github_fork
-        : parseFloat(theme.frontmatter?.github_fork / 1000).toFixed(1) + "k";
-    return fork;
+    return price ? price : fork;
   } else if (theme.type === "update") {
-    const updateDate = dateFormat(theme.frontmatter.update_date, "dd/MM/yy");
     return updateDate;
+  } else if (theme.type === "price") {
+    return price;
   } else {
-    const star =
-      theme.frontmatter?.github_star < 1000
-        ? theme.frontmatter?.github_star
-        : parseFloat(theme.frontmatter?.github_star / 1000).toFixed(1) + "k";
-    return star;
+    return price ? price : star;
   }
 };
 
@@ -83,7 +94,6 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
       hasMore={true}
       className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
     >
-      {/* <div > */}
       {page.map((theme, i) => (
         <div
           className={
@@ -116,34 +126,50 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 </h2>
                 <span
                   className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
-                  data-tooltip={
-                    theme.frontmatter.price >= 0
+                  data-tooltip={humanize(
+                    theme.frontmatter.price > 0 && theme.type != "update"
                       ? "Price"
                       : theme.type
-                      ? humanize(theme.type)
+                      ? theme.type
                       : "Star"
-                  }
+                  )}
                 >
-                  {theme.frontmatter.github ? (
-                    <>
+                  {theme.type === "price" ? (
+                    githubDataChange(theme) !== 0 && (
                       <Image
                         className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                         src={`/images/icons/${
-                          theme.type ? theme.type : "star"
+                          theme.frontmatter.price > 0 && theme.type != "update"
+                            ? "price"
+                            : theme.type
+                            ? theme.type
+                            : "star"
                         }.svg`}
                         alt="github icon"
                         height="14"
                         width="14"
                       />
-                      {githubDataChange(theme)}
-                    </>
+                    )
                   ) : (
-                    <>
-                      {theme.frontmatter.price
-                        ? "$" + theme.frontmatter.price
-                        : "Free"}
-                    </>
+                    <Image
+                      className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
+                      src={`/images/icons/${
+                        theme.frontmatter.price > 0 && theme.type != "update"
+                          ? "price"
+                          : theme.type
+                          ? theme.type
+                          : "star"
+                      }.svg`}
+                      alt="github icon"
+                      height="14"
+                      width="14"
+                    />
                   )}
+                  {theme.type === "price"
+                    ? githubDataChange(theme) !== 0
+                      ? githubDataChange(theme)
+                      : "Free"
+                    : githubDataChange(theme)}
                 </span>
               </div>
               <span className="text-xs text-dark dark:text-light">
@@ -207,7 +233,6 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
           </div>
         </div>
       ))}
-      {/* </div> */}
     </InfiniteScroll>
   );
 };

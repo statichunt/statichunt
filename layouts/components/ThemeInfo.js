@@ -53,7 +53,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
       <div className="widget widget-info mb-3 mt-12">
         <h3 className="h4 mb-3 font-light">Theme Information:</h3>
 
-        {github_star && (
+        {github_star > 0 && (
           <div className="flex items-center py-[6px]">
             <span className="min-w-[120px]">Stars : </span>
             <span className="flex items-center">
@@ -68,8 +68,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
             </span>
           </div>
         )}
-
-        {github_fork && (
+        {github_fork > 0 && (
           <div className="flex items-center py-[6px]">
             <span className="min-w-[120px]">Forks : </span>
             <span className="flex items-center">

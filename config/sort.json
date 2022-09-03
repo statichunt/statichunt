@@ -19,6 +19,11 @@
       "type": "UPDATE",
       "value": "update",
       "icon": "/images/icons/update.svg"
+    },
+    {
+      "type": "PRICE",
+      "value": "price",
+      "icon": "/images/icons/price.svg"
     }
   ]
 }
