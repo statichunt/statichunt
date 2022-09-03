@@ -30,7 +30,7 @@ github_fork: 36
 - Integration with Tailwind CSS.
 - Supports Dark mode.
 - Fast and SEO friendly blog with automatic RSS feed.
-- Image optimization 
+- Image optimization
 - Generation of project sitemap based on your routes.
 - Open Graph tags for social media sharing
 - Fonts optimization at build time.
