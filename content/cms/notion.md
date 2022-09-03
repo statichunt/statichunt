@@ -1,7 +1,7 @@
 ---
 title: "Notion"
 icon: /images/icons/notion.svg
-official_url: https://notion.so/
+website: https://notion.so/
 noindex: true
 draft: false
 ---

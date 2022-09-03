@@ -4,7 +4,7 @@ weight: "5"
 meta_title: Astro Themes | A Curated Directory Of Free Astro Themes
 description: "A curated directory of best free Astro themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: /images/icons/astro.svg
-official_url: https://astro.build/
+website: https://astro.build/
 github_path: withastro/astro
 twitter_username: astrodotbuild
 license: MIT

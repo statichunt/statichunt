@@ -3,7 +3,7 @@ title: Nuxt
 meta_title: Nuxt Themes | A Curated Directory Of Free Nuxt Themes
 description: "A curated directory of best free Nuxt themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: /images/icons/nuxt.svg
-official_url: https://nuxtjs.org
+website: https://nuxtjs.org
 github_path: nuxt/nuxt.js
 twitter_username: nuxt_js
 license: MIT
