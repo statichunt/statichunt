@@ -97,9 +97,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
       {page.map((theme, i) => (
         <div
           className={
-            customColClass
-              ? customColClass
-              : "col-12 mb-8 sm:col-6 md:col-4 lg:col-6 xl:col-4 2xl:col-3"
+            customColClass ? customColClass : "mb-8 sm:col-6 xl:col-4 2xl:col-3"
           }
           key={`theme-${i}`}
         >
