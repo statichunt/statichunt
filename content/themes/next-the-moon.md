@@ -17,7 +17,7 @@ cms:
   - Markdown
 category:
   - Ecommerce
-draft: false
+draft: true
 publish_date: '2022-02-25T16:17:23Z'
 update_date: '2022-06-25T10:35:27Z'
 github_star: 1

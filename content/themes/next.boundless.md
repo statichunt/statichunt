@@ -14,7 +14,7 @@ css:
 cms: null
 category:
   - Ecommerce
-draft: false
+draft: true
 publish_date: '2021-12-10T14:01:43Z'
 update_date: '2022-06-24T06:43:51Z'
 github_star: 3
