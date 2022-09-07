@@ -26,7 +26,7 @@ const DemoHeader = ({
   const { logo, logo_light, title, favicon } = config.site;
 
   const [mounted, setMounted] = useState(false);
-  const { theme } = useTheme();
+  const { theme, resolvedTheme } = useTheme();
   useEffect(() => setMounted(true), []);
 
   return (
@@ -41,7 +41,11 @@ const DemoHeader = ({
           <div className="flex items-center">
             <Logo
               className="hidden h-8 sm:inline-block"
-              src={mounted && theme === "dark" ? logo_light : logo}
+              src={
+                mounted && (theme === "dark" || resolvedTheme === "dark")
+                  ? logo_light
+                  : logo
+              }
               alt={title}
               height={32}
               width={164}

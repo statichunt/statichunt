@@ -1,7 +1,7 @@
 import config from "@config/config.json";
 import DemoHeader from "@layouts/partials/DemoHeader";
 import { getSinglePages, getSinglePagesSlug } from "@lib/contentParser";
-import { plainify } from "@lib/utils/textConverter";
+import { plainify, slugify } from "@lib/utils/textConverter";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
@@ -67,7 +67,7 @@ const Demo = ({ theme, slug }) => {
         <div className={`demo-content ${device}`}>
           <iframe
             src={demo}
-            key={demo}
+            key={slugify(title)}
             id="theme-preview"
             title="theme preview"
             sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation"

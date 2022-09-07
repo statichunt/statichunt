@@ -1,5 +1,5 @@
 ---
 title: "GraphCMS"
 icon: /images/icons/graphcms.svg
-official_url: https://www.graphcms.com/
+website: https://www.graphcms.com/
 ---

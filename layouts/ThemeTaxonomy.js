@@ -18,7 +18,7 @@ const ThemeTaxonomy = ({ data, taxonomies, tools, isIntro }) => {
     title,
     page_title,
     icon,
-    official_url,
+    website,
     github_path,
     twitter_username,
     license,
@@ -45,15 +45,11 @@ const ThemeTaxonomy = ({ data, taxonomies, tools, isIntro }) => {
             </div>
             {markdownify(content, "p", "mb-5")}
             <ul className="meta-list">
-              {official_url && (
+              {website && (
                 <li title="Official Website">
                   <TbHome />
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={official_url}
-                  >
-                    {official_url}
+                  <a target="_blank" rel="noopener noreferrer" href={website}>
+                    {website}
                   </a>
                 </li>
               )}

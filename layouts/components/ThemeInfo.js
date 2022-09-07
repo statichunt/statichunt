@@ -15,6 +15,8 @@ const ThemeInfo = ({ theme, slug, tools }) => {
     github_fork,
     publish_date,
     update_date,
+    download,
+    price,
     ssg,
     cms,
     css,
@@ -39,7 +41,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
 
             <a
               className="btn btn-fill sm:px-10 lg:px-7 xl:px-10"
-              href={`${github}?ref=statichunt.com`}
+              href={`${github ? github : download}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
@@ -51,46 +53,58 @@ const ThemeInfo = ({ theme, slug, tools }) => {
       <div className="widget widget-info mb-3 mt-12">
         <h3 className="h4 mb-3 font-light">Theme Information:</h3>
 
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Stars : </span>
-          <span className="flex items-center">
-            <Image
-              className="mr-2 dark:invert"
-              src="/images/icons/star.svg"
-              alt="github star"
-              height="15"
-              width="15"
-            />
-            {github_star}
-          </span>
-        </div>
-
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Forks : </span>
-          <span className="flex items-center">
-            <Image
-              className="mr-2 dark:invert"
-              src="/images/icons/fork.svg"
-              alt="github fork"
-              height="14"
-              width="14"
-            />
-            {github_fork}
-          </span>
-        </div>
-
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Updated : </span>
-          <span className="text-dark dark:text-white">
-            {dateFormat(update_date)}
-          </span>
-        </div>
-        <div className="flex items-center py-[6px]">
-          <span className="min-w-[120px]">Published : </span>
-          <span className="text-dark dark:text-white">
-            {dateFormat(publish_date)}
-          </span>
-        </div>
+        {github_star > 0 && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Stars : </span>
+            <span className="flex items-center">
+              <Image
+                className="mr-2 dark:invert"
+                src="/images/icons/star.svg"
+                alt="github star"
+                height="15"
+                width="15"
+              />
+              {github_star}
+            </span>
+          </div>
+        )}
+        {github_fork > 0 && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Forks : </span>
+            <span className="flex items-center">
+              <Image
+                className="mr-2 dark:invert"
+                src="/images/icons/fork.svg"
+                alt="github fork"
+                height="14"
+                width="14"
+              />
+              {github_fork}
+            </span>
+          </div>
+        )}
+        {price && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Price : </span>
+            <span className="text-dark dark:text-white">${price}</span>
+          </div>
+        )}
+        {update_date && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Updated : </span>
+            <span className="text-dark dark:text-white">
+              {dateFormat(update_date)}
+            </span>
+          </div>
+        )}
+        {publish_date && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Published : </span>
+            <span className="text-dark dark:text-white">
+              {dateFormat(publish_date)}
+            </span>
+          </div>
+        )}
 
         <span className="flex py-[6px]">
           <span className="mb-2 min-w-[120px]">Types : </span>
@@ -111,9 +125,13 @@ const ThemeInfo = ({ theme, slug, tools }) => {
       <div className="widget mt-10">
         <div className="flex items-center">
           <Image
-            src={`https://www.github.com/${
-              github.match(/github\.com\/([^\/]+)/, "")[1]
-            }.png`}
+            src={
+              github
+                ? `https://www.github.com/${
+                    github.match(/github\.com\/([^\/]+)/, "")[1]
+                  }.png`
+                : "/images/author-placeholder.png"
+            }
             height={50}
             width={50}
             alt={author}
@@ -126,7 +144,9 @@ const ThemeInfo = ({ theme, slug, tools }) => {
               href={
                 author_link
                   ? author_link
-                  : `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
+                  : github
+                  ? `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
+                  : ""
               }
             >
               <a
@@ -134,7 +154,11 @@ const ThemeInfo = ({ theme, slug, tools }) => {
                 rel="nofollow noopener noreferrer"
                 className="text-dark hover:underline dark:text-white"
               >
-                {author ? author : github.match(/github\.com\/([^\/]+)/, "")[0]}
+                {author
+                  ? author
+                  : github
+                  ? github.match(/github\.com\/([^\/]+)/, "")[0]
+                  : ""}
               </a>
             </Link>
           </div>

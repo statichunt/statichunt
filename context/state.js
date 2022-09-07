@@ -1,6 +1,6 @@
 import { createContext, useContext } from "react";
-import resources from "../json/resources.json";
-import themes from "../json/themes.json";
+import resources from "../.json/resources.json";
+import themes from "../.json/themes.json";
 
 const FilterContext = createContext();
 

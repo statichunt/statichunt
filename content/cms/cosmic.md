@@ -1,5 +1,5 @@
 ---
 title: "Cosmic"
 icon: /images/icons/cosmic.svg
-official_url: https://www.cosmicjs.com/
+website: https://www.cosmicjs.com/
 ---

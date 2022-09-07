@@ -1,6 +1,6 @@
 // theme switcher
 .theme-switcher {
-  @apply relative inline-flex cursor-pointer items-center justify-center rounded-full bg-darkmode-body text-[#a3a3a3] dark:bg-white;
+  @apply relative inline-flex cursor-pointer items-center justify-center rounded-full bg-gray-100 text-dark dark:bg-[#18232c] dark:text-white;
   height: 28px;
   width: 52px;
   &::after {
@@ -643,7 +643,7 @@
 
 // cookie bar
 .cookieBar {
-  @apply fixed left-[20px] bottom-[20px] z-[9999999] mt-[20px] flex content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
+  @apply fixed left-[20px] bottom-[20px] z-[999999999] mt-[20px] flex content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
   box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
     rgb(12 20 66 / 4%) 0px 16px 40px;
 }
@@ -659,7 +659,7 @@
 
 // bookmark bar
 .bookmarkBar {
-  @apply fixed content-between bg-white dark:bg-darkmode-theme-light dark:text-white;
+  @apply invisible fixed content-between bg-white dark:bg-darkmode-theme-light dark:text-white md:visible;
   padding: 5px 20px 5px 7px;
   left: 20px;
   bottom: 20px;

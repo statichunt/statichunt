@@ -20,7 +20,7 @@
 
   "params": {
     "tag_manager_id": "GTM-PWJBVR2",
-    "feeder_id": "630c6ff0a9516800044828a8",
+    "feeder_id": "6314275d56249000047ecbfa",
     "copyright": "Copyright © 2022 Statichunt"
   },
 
@@ -39,6 +39,7 @@
   ],
 
   "darkIconList": [
+    "astro",
     "next",
     "markdown",
     "forestry",

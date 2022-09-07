@@ -16,7 +16,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
       {type &&
         (themeCard ? (
           <>
-            {toolsLength == 4
+            {toolsLength === 4
               ? filteredTools.map(
                   (icon, i) =>
                     i < 4 && (

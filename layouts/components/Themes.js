@@ -1,4 +1,5 @@
 import { dateFormat } from "@lib/utils/dateFormat";
+import { humanize } from "@lib/utils/textConverter";
 import { toolsArray } from "@lib/utils/toolsArray";
 import Image from "next/future/image";
 import Link from "next/link";
@@ -6,29 +7,58 @@ import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ToolsIcon from "./ToolsIcon";
+
 // change github data by sort fuctionality
 const githubDataChange = (theme) => {
+  const getStar = theme.frontmatter.github_star
+    ? theme.frontmatter.github_star
+    : 0;
+  const star =
+    getStar < 1000 ? getStar : parseFloat(getStar / 1000).toFixed(1) + "k";
+  const fork =
+    theme.frontmatter.github_fork < 1000
+      ? theme.frontmatter.github_fork
+      : parseFloat(theme.frontmatter.github_fork / 1000).toFixed(1) + "k";
+  const updateDate = dateFormat(
+    theme.frontmatter.update_date
+      ? theme.frontmatter.update_date
+      : theme.frontmatter.date,
+    "dd/MM/yy"
+  );
+  const price = theme.frontmatter.price ? theme.frontmatter.price : 0;
+
   if (theme.type === "fork") {
-    const fork =
-      theme.frontmatter?.github_fork < 1000
-        ? theme.frontmatter?.github_fork
-        : parseFloat(theme.frontmatter?.github_fork / 1000).toFixed(1) + "k";
-    return fork;
+    return price ? price : fork;
   } else if (theme.type === "update") {
-    const updateDate = dateFormat(theme.frontmatter.update_date, "dd/MM/yy");
     return updateDate;
+  } else if (theme.type === "price") {
+    return price;
   } else {
-    const star =
-      theme.frontmatter?.github_star < 1000
-        ? theme.frontmatter?.github_star
-        : parseFloat(theme.frontmatter?.github_star / 1000).toFixed(1) + "k";
-    return star;
+    return price ? price : star;
   }
 };
 
 const Themes = ({ themes, tools, customRowClass, customColClass }) => {
-  const [item, setItem] = useState(20);
+  const [item, setItem] = useState(4);
   const [page, setPage] = useState(themes.slice(0, item));
+
+  // getWindowDimensions
+  const [windowSize, setWindowSize] = useState(768);
+  useEffect(() => {
+    function showViewport() {
+      var width = Math.max(
+        document.documentElement.clientWidth,
+        window.innerWidth || 0
+      );
+      setWindowSize(width);
+    }
+    showViewport();
+    window.onresize = showViewport;
+  }, []);
+
+  useEffect(() => {
+    setItem(windowSize < 768 ? 4 : 20);
+  }, [windowSize]);
 
   const fetchData = () => {
     setItem(item + 20);
@@ -37,6 +67,26 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
     setPage(themes.slice(0, item));
   }, [item, themes]);
 
+  // tooltip
+  useEffect(() => {
+    var tooltipEl = document.querySelectorAll(".has-tooltip");
+    if (tooltipEl) {
+      var tooltipItems = document.querySelectorAll(".tooltip-label");
+      tooltipItems.forEach((item) => {
+        item.remove();
+      });
+      var length = tooltipEl.length;
+      for (var i = 0; i < length; i++) {
+        var attr = tooltipEl[i].getAttribute("data-tooltip");
+        var x = document.createElement("SPAN");
+        var t = document.createTextNode(attr);
+        x.appendChild(t);
+        x.className = "tooltip-label";
+        tooltipEl[i].appendChild(x);
+      }
+    }
+  });
+
   return (
     <InfiniteScroll
       dataLength={page.length}
@@ -44,13 +94,10 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
       hasMore={true}
       className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
     >
-      {/* <div > */}
       {page.map((theme, i) => (
         <div
           className={
-            customColClass
-              ? customColClass
-              : "col-12 mb-8 sm:col-6 md:col-4 lg:col-6 xl:col-4 2xl:col-3"
+            customColClass ? customColClass : "mb-8 sm:col-6 xl:col-4 2xl:col-3"
           }
           key={`theme-${i}`}
         >
@@ -76,19 +123,51 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   </Link>
                 </h2>
                 <span
-                  className="has-tooltip mt-1 flex items-center whitespace-nowrap text-sm text-dark"
-                  data-tooltip="Github Stars"
+                  className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
+                  data-tooltip={humanize(
+                    theme.frontmatter.price > 0 && theme.type != "update"
+                      ? "Price"
+                      : theme.type
+                      ? theme.type
+                      : "Star"
+                  )}
                 >
-                  <Image
-                    className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
-                    src={`/images/icons/${
-                      theme.type ? theme.type : "star"
-                    }.svg`}
-                    alt="github data"
-                    height="14"
-                    width="14"
-                  />
-                  <span className="dark:invert">{githubDataChange(theme)}</span>
+                  {theme.type === "price" ? (
+                    githubDataChange(theme) !== 0 && (
+                      <Image
+                        className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
+                        src={`/images/icons/${
+                          theme.frontmatter.price > 0 && theme.type != "update"
+                            ? "price"
+                            : theme.type
+                            ? theme.type
+                            : "star"
+                        }.svg`}
+                        alt="github icon"
+                        height="14"
+                        width="14"
+                      />
+                    )
+                  ) : (
+                    <Image
+                      className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
+                      src={`/images/icons/${
+                        theme.frontmatter.price > 0 && theme.type != "update"
+                          ? "price"
+                          : theme.type
+                          ? theme.type
+                          : "star"
+                      }.svg`}
+                      alt="github icon"
+                      height="14"
+                      width="14"
+                    />
+                  )}
+                  {theme.type === "price"
+                    ? githubDataChange(theme) !== 0
+                      ? githubDataChange(theme)
+                      : "Free"
+                    : githubDataChange(theme)}
                 </span>
               </div>
               <span className="text-xs text-dark dark:text-light">
@@ -116,10 +195,6 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   type={toolsArray(theme)}
                   themeCard={true}
                 />
-                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.cms} />
-                <ToolsIcon tools={tools} type={theme.frontmatter?.css} /> */}
-
-                {/* <ToolsIcon tools={tools} type={theme.frontmatter?.category} /> */}
               </div>
               <div className="ml-auto flex items-center whitespace-nowrap">
                 <Link href={`/demo/${theme.slug}`}>
@@ -133,7 +208,13 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                     <TbEye />
                   </a>
                 </Link>
-                <Link href={`${theme.frontmatter?.github}?ref=statichunt.com`}>
+                <Link
+                  href={`${
+                    theme.frontmatter.github
+                      ? theme.frontmatter.github
+                      : theme.frontmatter.download
+                  }?ref=statichunt.com`}
+                >
                   <a
                     className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
                     target="_blank"
@@ -150,7 +231,6 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
           </div>
         </div>
       ))}
-      {/* </div> */}
     </InfiniteScroll>
   );
 };
