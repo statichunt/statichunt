@@ -22,6 +22,8 @@ const Document = () => {
           media="(prefers-color-scheme: dark)"
           content="#252f37"
         />
+        <meta name="yandex-verification" content="776294feb841e08c" />
+
       </Head>
       <body>
         <Main />
