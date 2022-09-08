@@ -12,6 +12,6 @@ description: YAMT is a minimal Jekyll theme focused on simplicity and ease-of-us
 draft: true
 publish_date: '2020-05-12T19:18:18Z'
 update_date: '2021-02-27T12:36:58Z'
-github_star: 69
+github_star: 70
 github_fork: 78
 ---

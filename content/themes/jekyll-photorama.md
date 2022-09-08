@@ -12,6 +12,6 @@ description: '''PHOTORAMA'' template for Jekyll'
 draft: true
 publish_date: '2016-03-27T21:21:59Z'
 update_date: '2022-06-08T23:37:39Z'
-github_star: 204
-github_fork: 342
+github_star: 205
+github_fork: 343
 ---

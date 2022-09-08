@@ -17,7 +17,7 @@ description: >-
   mobile responsive.
 draft: false
 publish_date: '2021-01-06T10:05:54Z'
-update_date: '2022-06-01T05:31:16Z'
+update_date: '2022-08-28T10:00:46Z'
 github_star: 3
 github_fork: 8
 ---

@@ -12,6 +12,6 @@ description: ':office: Law firm themed business template for Jekyll'
 draft: true
 publish_date: '2016-11-10T00:56:02Z'
 update_date: '2021-11-24T22:55:13Z'
-github_star: 54
+github_star: 56
 github_fork: 75
 ---

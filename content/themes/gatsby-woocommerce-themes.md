@@ -18,6 +18,6 @@ description: A Gatsby Theme for WooCommerce E-commerce site Gatsby WooCommerce W
 draft: true
 publish_date: '2020-07-10T12:48:04Z'
 update_date: '2022-05-31T07:05:36Z'
-github_star: 549
-github_fork: 295
+github_star: 548
+github_fork: 294
 ---

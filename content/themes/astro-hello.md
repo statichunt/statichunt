@@ -20,9 +20,9 @@ category:
   - Blog
 draft: false
 publish_date: '2022-08-12T02:13:10Z'
-update_date: '2022-09-01T04:38:18Z'
-github_star: 3
-github_fork: 4
+update_date: '2022-09-06T05:30:59Z'
+github_star: 7
+github_fork: 5
 ---
 
 ## Theme features

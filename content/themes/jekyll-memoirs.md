@@ -12,6 +12,6 @@ description: Memoirs - beautiful free Jekyll theme
 draft: true
 publish_date: '2020-04-04T17:09:06Z'
 update_date: '2021-10-31T15:32:15Z'
-github_star: 285
-github_fork: 300
+github_star: 287
+github_fork: 303
 ---

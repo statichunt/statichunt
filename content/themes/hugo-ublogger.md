@@ -12,6 +12,6 @@ description: Content readability and seo optimization, that's what the topic pri
 draft: true
 publish_date: '2020-11-23T09:02:15Z'
 update_date: '2021-09-14T04:20:02Z'
-github_star: 240
-github_fork: 111
+github_star: 242
+github_fork: 113
 ---

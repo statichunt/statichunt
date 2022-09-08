@@ -11,7 +11,7 @@ cms:
 description: A Jekyll theme with responsive web design that focuses on text presentation.
 draft: false
 publish_date: '2019-01-12T07:37:30Z'
-update_date: '2022-08-13T03:31:41Z'
-github_star: 2732
-github_fork: 2788
+update_date: '2022-09-07T15:28:05Z'
+github_star: 2784
+github_fork: 2811
 ---

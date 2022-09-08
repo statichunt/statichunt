@@ -20,7 +20,7 @@ description: >-
   Tailwind CSS on the frontend, powered by the Cosmic headless CMS.
 draft: true
 publish_date: '2016-10-05T23:32:51Z'
-update_date: '2022-08-28T08:47:55Z'
-github_star: 91709
-github_fork: 19954
+update_date: '2022-09-08T00:42:19Z'
+github_star: 92234
+github_fork: 20099
 ---

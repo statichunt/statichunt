@@ -15,6 +15,6 @@ description: Gatsby starter theme integrated with Airtable
 draft: true
 publish_date: '2020-03-13T11:06:07Z'
 update_date: '2020-12-16T10:33:17Z'
-github_star: 77
-github_fork: 38
+github_star: 78
+github_fork: 39
 ---

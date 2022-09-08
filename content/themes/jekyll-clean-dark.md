@@ -12,6 +12,6 @@ description: Dark clean theme for jekyll
 draft: true
 publish_date: '2015-06-29T22:56:56Z'
 update_date: '2020-05-27T00:31:17Z'
-github_star: 204
-github_fork: 137
+github_star: 205
+github_fork: 136
 ---

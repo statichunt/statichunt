@@ -17,6 +17,6 @@ description: Full-featured Jekyll port of Ghost's default theme Casper
 draft: true
 publish_date: '2014-12-14T08:41:52Z'
 update_date: '2021-12-01T03:19:37Z'
-github_star: 583
-github_fork: 672
+github_star: 586
+github_fork: 674
 ---

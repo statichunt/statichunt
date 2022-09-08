@@ -12,6 +12,6 @@ description: A simple Jekyll Template Card Based.
 draft: true
 publish_date: '2016-05-09T00:02:43Z'
 update_date: '2020-09-30T16:30:55Z'
-github_star: 312
-github_fork: 284
+github_star: 313
+github_fork: 285
 ---

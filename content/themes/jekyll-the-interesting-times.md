@@ -12,6 +12,6 @@ description: The Interesting Times Theme for Jekyll
 draft: true
 publish_date: '2019-10-06T21:10:52Z'
 update_date: '2021-07-15T19:15:46Z'
-github_star: 40
+github_star: 42
 github_fork: 34
 ---

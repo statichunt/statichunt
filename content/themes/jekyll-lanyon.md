@@ -12,6 +12,6 @@ description: A content-first, sliding sidebar theme for Jekyll.
 draft: true
 publish_date: '2013-12-28T07:53:04Z'
 update_date: '2020-04-03T18:14:48Z'
-github_star: 3023
-github_fork: 2835
+github_star: 3027
+github_fork: 2838
 ---

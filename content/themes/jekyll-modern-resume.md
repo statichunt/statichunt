@@ -17,6 +17,6 @@ description: A modern static resume template and theme. Powered by Jekyll and Gi
 draft: true
 publish_date: '2018-06-04T23:09:47Z'
 update_date: '2022-01-17T12:34:30Z'
-github_star: 1412
-github_fork: 901
+github_star: 1418
+github_fork: 908
 ---

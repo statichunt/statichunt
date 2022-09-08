@@ -1,5 +1,5 @@
 ---
-title: hello-friend
+title: Hello Friend
 github: https://github.com/panr/hugo-theme-hello-friend
 demo: https://hugo-hello-friend.now.sh/
 author: Radek Kozieł
@@ -14,6 +14,6 @@ description: >-
 draft: false
 publish_date: '2018-07-20T17:13:14Z'
 update_date: '2022-07-20T06:01:01Z'
-github_star: 889
-github_fork: 1003
+github_star: 896
+github_fork: 1007
 ---

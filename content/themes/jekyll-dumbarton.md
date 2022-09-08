@@ -17,6 +17,6 @@ description: A Jekyll theme designed for academics, powered by Bootstrap
 draft: true
 publish_date: '2020-10-30T02:48:49Z'
 update_date: '2021-03-02T00:19:24Z'
-github_star: 36
-github_fork: 38
+github_star: 39
+github_fork: 41
 ---

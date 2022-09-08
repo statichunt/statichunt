@@ -8,7 +8,7 @@ date: 2022-09-06T00:00:00.000Z
 description: A Jekyll documentation theme with built-in search and playground.
 ssg:
   - Jekyll
-css:
+css: null
 cms:
   - Markdown
 category:
@@ -16,7 +16,7 @@ category:
 draft: false
 publish_date: '2021-03-02T21:15:03Z'
 update_date: '2022-09-01T15:43:00Z'
-github_star: 3
+github_star: 4
 github_fork: 2
 ---
 

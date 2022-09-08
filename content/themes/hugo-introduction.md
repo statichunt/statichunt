@@ -11,7 +11,7 @@ date: 2017-03-13T06:50:23.000Z
 description: Minimal, single page, smooth-scrolling theme for Hugo.
 draft: true
 publish_date: '2017-03-13T06:50:23Z'
-update_date: '2022-02-22T14:13:56Z'
-github_star: 569
-github_fork: 252
+update_date: '2022-09-06T00:17:17Z'
+github_star: 572
+github_fork: 255
 ---

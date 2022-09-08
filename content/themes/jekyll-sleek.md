@@ -12,6 +12,6 @@ description: ' :chart_with_upwards_trend: Sleek is a modern Jekyll theme focused
 draft: true
 publish_date: '2017-11-19T09:46:18Z'
 update_date: '2020-05-11T17:47:32Z'
-github_star: 379
-github_fork: 578
+github_star: 381
+github_fork: 579
 ---

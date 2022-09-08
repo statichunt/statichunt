@@ -12,6 +12,6 @@ description: A brazen two-column theme for Jekyll.
 draft: true
 publish_date: '2013-02-07T07:01:38Z'
 update_date: '2015-05-11T20:21:43Z'
-github_star: 3374
-github_fork: 3673
+github_star: 3380
+github_fork: 3674
 ---

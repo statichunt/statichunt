@@ -12,6 +12,6 @@ description: This is a Hugo template to create WebSlides presentation using mark
 draft: true
 publish_date: '2019-08-09T08:35:08Z'
 update_date: '2022-02-23T15:47:33Z'
-github_star: 107
+github_star: 109
 github_fork: 35
 ---

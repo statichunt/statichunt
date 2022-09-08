@@ -13,7 +13,7 @@ description: >-
   breadcrumbs, disqus, i18n, eslint supported
 draft: true
 publish_date: '2019-05-14T11:18:12Z'
-update_date: '2022-08-03T07:02:18Z'
+update_date: '2022-09-01T18:01:15Z'
 github_star: 49
 github_fork: 23
 ---

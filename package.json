@@ -12,7 +12,7 @@
     "json": "node lib/jsonGenerator.mjs",
     "ss-themes": "yarn json && node lib/screenshotThemes.mjs",
     "ss-resources": "yarn json && node lib/screenshotResources.mjs",
-    "update-themes": "yarn json && node lib/updateThemes.mjs && yarn json"
+    "update-themes": "yarn json && node lib/updateThemes.js && yarn json"
   },
   "dependencies": {
     "@loadable/component": "^5.15.2",
