@@ -2,47 +2,47 @@
 label: Taxonomy
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: meta_title
-    label: meta_title
-  - name: page_title
-    type: text
-    config:
-      required: false
-    label: page_title
-  - type: text
-    name: weight
-    label: weight
-  - type: textarea
-    name: description
-    label: description
-  - type: file
-    name: icon
-    label: icon
-  - type: text
-    name: website
-    label: website
-  - type: text
-    name: github_path
-    label: github_path
-  - type: text
-    name: twitter_username
-    label: twitter_username
-  - type: text
-    name: license
-    label: license
-  - type: text
-    name: license_url
-    label: license_url
-  - type: text
-    name: language
-    label: language
-  - type: text
-    name: url
-    label: url
-  - type: boolean
-    name: draft
-    label: draft
+- type: text
+  name: title
+  label: title
+- type: text
+  name: meta_title
+  label: meta_title
+- name: page_title
+  type: text
+  config:
+    required: false
+  label: page_title
+- type: text
+  name: weight
+  label: weight
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: icon
+  label: icon
+- type: text
+  name: website
+  label: website
+- type: text
+  name: github_path
+  label: github_path
+- type: text
+  name: twitter_username
+  label: twitter_username
+- type: text
+  name: license
+  label: license
+- type: text
+  name: license_url
+  label: license_url
+- type: text
+  name: language
+  label: language
+- type: text
+  name: url
+  label: url
+- type: boolean
+  name: draft
+  label: draft
