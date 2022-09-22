@@ -17,7 +17,7 @@ Anyone can submit an open-source theme by adding a markdown file to the `content
 Anyone can submit a resource by adding a markdown file to the `content/resources` folder.
 
 1. Fork this repo and copy the `_template.md` file in `content/resources` folder. Another option is to add a new file using the [Github UI](https://github.com/statichunt/statichunt/tree/main/content/resources) _(click the "add file" button)_
-2. Rename it to the resource name (ex: `newsletter.md`) and fulfill the file with resources info.
+2. Rename it to the resource name with the `ssg` prefix (ex: `newsletter.md`) and fulfill the file with resources info.
 3. Submit a pull request
 
 > **Tip:** Do not generate the screenshots. Please just submit the markdown file in your pull request.
