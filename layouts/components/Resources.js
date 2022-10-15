@@ -4,8 +4,8 @@ import ImageFallback from "./ImageFallback";
 const Resources = ({ resources }) => {
   return (
     <div className="row justify-center">
-      {resources.map((resource, i) => (
-        <div className="mb-10 xl:col-10" key={`resource-${i}`}>
+      {resources.map((resource) => (
+        <div className="mb-10 xl:col-10" key={resource.slug}>
           <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
             <ImageFallback
               loading="lazy"

@@ -95,12 +95,12 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
       hasMore={true}
       className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
     >
-      {page.map((theme, i) => (
+      {page.map((theme) => (
         <div
           className={
             customColClass ? customColClass : "mb-8 sm:col-6 xl:col-4 2xl:col-3"
           }
-          key={`theme-${i}`}
+          key={theme.slug}
         >
           <div className="theme-card">
             <Link href={`/themes/${theme.slug}`} passHref>
