@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import Image from "next/future/image";
 import { useEffect, useState } from "react";
+import ImageFallback from "./ImageFallback";
 
 const ThemePreview = ({ theme, slug }) => {
   const { demo } = theme[0].frontmatter;
@@ -88,8 +88,9 @@ const ThemePreview = ({ theme, slug }) => {
               key={demo}
             ></iframe>
             <span className={`bwsThumbnailStyle bwsThumbnail`}>
-              <Image
+              <ImageFallback
                 src={`/themes/${slug}.png`}
+                fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
                 height={250}
                 width={750}
                 alt={theme[0].frontmatter.title}
@@ -99,8 +100,9 @@ const ThemePreview = ({ theme, slug }) => {
           </div>
         </div>
         <div className={`rounded-3 lh-0 shadowLg overflow-hidden md:hidden`}>
-          <Image
+          <ImageFallback
             src={`/themes/${slug}.png`}
+            fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
             height="100"
             width="500"
             alt={theme[0].frontmatter.title}

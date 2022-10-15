@@ -1,6 +1,5 @@
 import config from "@config/config.json";
 import { slugify } from "@lib/utils/textConverter";
-
 import Image from "next/future/image";
 import { useEffect, useState } from "react";
 

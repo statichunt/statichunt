@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
 import InfiniteScroll from "react-infinite-scroll-component";
+import ImageFallback from "./ImageFallback";
 import ToolsIcon from "./ToolsIcon";
 
 // change github data by sort fuctionality
@@ -104,8 +105,9 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
           <div className="theme-card">
             <Link href={`/themes/${theme.slug}`} passHref>
               <a className="img-cover">
-                <Image
+                <ImageFallback
                   src={`/themes/${theme.slug}.png`}
+                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
                   height={250}
                   width={300}
                   alt={theme.frontmatter?.title}

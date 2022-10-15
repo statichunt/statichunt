@@ -1,5 +1,5 @@
 import { humanize } from "@lib/utils/textConverter";
-import Image from "next/future/image";
+import ImageFallback from "./ImageFallback";
 
 const Resources = ({ resources }) => {
   return (
@@ -7,9 +7,10 @@ const Resources = ({ resources }) => {
       {resources.map((resource, i) => (
         <div className="mb-10 xl:col-10" key={`resource-${i}`}>
           <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
-            <Image
+            <ImageFallback
               loading="lazy"
               src={`/resources/${resource.slug}.png`}
+              fallback={`https://teamosis-sg.vercel.app/api/img?url=${resource.frontmatter.website}`}
               alt="{resources.frontmatter.title}"
               width={160}
               height={100}

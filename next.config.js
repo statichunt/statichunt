@@ -4,7 +4,7 @@
 
 const nextConfig = {
   images: {
-    domains: ["www.github.com"],
+    domains: ["www.github.com", "teamosis-sg.vercel.app"],
   },
   reactStrictMode: true,
 };
