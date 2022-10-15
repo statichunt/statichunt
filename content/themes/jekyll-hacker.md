@@ -16,6 +16,6 @@ description: Hacker is a Jekyll theme for GitHub Pages
 draft: true
 publish_date: '2016-10-06T23:02:10Z'
 update_date: '2021-07-29T17:56:34Z'
-github_star: 656
-github_fork: 935
+github_star: 667
+github_fork: 956
 ---

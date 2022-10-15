@@ -12,6 +12,6 @@ description: Jekyll theme for creating project documentation websites
 draft: true
 publish_date: '2017-05-03T17:48:59Z'
 update_date: '2022-06-22T22:24:01Z'
-github_star: 241
-github_fork: 234
+github_star: 249
+github_fork: 237
 ---

@@ -12,6 +12,6 @@ description: 📽️ Create rich HTML-based presentations with Hugo and Reveal.j
 draft: true
 publish_date: '2018-04-26T22:21:56Z'
 update_date: '2022-07-10T13:47:48Z'
-github_star: 518
-github_fork: 133
+github_star: 524
+github_fork: 135
 ---

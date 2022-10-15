@@ -12,6 +12,6 @@ description: A jekyll theme for minimal editions
 draft: true
 publish_date: '2016-01-18T02:09:56Z'
 update_date: '2021-08-31T19:57:21Z'
-github_star: 129
-github_fork: 141
+github_star: 128
+github_fork: 143
 ---

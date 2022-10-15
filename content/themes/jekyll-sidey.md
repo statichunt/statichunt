@@ -12,6 +12,6 @@ description: Simple and minimalistic jekyll blogging theme
 draft: true
 publish_date: '2020-01-30T18:13:54Z'
 update_date: '2022-07-31T17:46:16Z'
-github_star: 409
+github_star: 422
 github_fork: 186
 ---

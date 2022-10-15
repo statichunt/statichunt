@@ -12,6 +12,6 @@ description: A simple and clean two columns Jekyll theme.
 draft: true
 publish_date: '2015-08-22T20:45:38Z'
 update_date: '2021-02-09T02:19:07Z'
-github_star: 858
-github_fork: 366
+github_star: 860
+github_fork: 364
 ---

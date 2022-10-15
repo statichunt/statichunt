@@ -12,6 +12,6 @@ description: Stylish, minimalistic theme for jekyll.
 draft: true
 publish_date: '2013-11-14T15:01:59Z'
 update_date: '2021-08-11T15:24:34Z'
-github_star: 552
-github_fork: 434
+github_star: 553
+github_fork: 433
 ---

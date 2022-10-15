@@ -15,7 +15,7 @@ category:
 description: Blist is a clean and fast blog theme for your Hugo site.
 draft: true
 publish_date: '2021-07-15T11:59:59Z'
-update_date: '2022-09-01T03:12:06Z'
-github_star: 165
-github_fork: 66
+update_date: '2022-09-30T05:26:46Z'
+github_star: 180
+github_fork: 69
 ---

@@ -18,7 +18,7 @@ description: >-
   dependencies. A vast amount of shortcodes are available on the element page.
 draft: false
 publish_date: '2022-01-10T07:20:44Z'
-update_date: '2022-06-04T07:59:27Z'
-github_star: 3
+update_date: '2022-10-04T04:41:12Z'
+github_star: 5
 github_fork: 0
 ---

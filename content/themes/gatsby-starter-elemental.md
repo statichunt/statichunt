@@ -12,6 +12,6 @@ description: Gatsby starter for portfolio sites
 draft: true
 publish_date: '2019-07-25T09:28:07Z'
 update_date: '2020-10-10T06:03:26Z'
-github_star: 131
+github_star: 133
 github_fork: 58
 ---

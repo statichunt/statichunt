@@ -16,6 +16,6 @@ description: A redesign of Alx's wordpress theme Hueman, ported to Hexo.
 draft: true
 publish_date: '2015-02-01T13:46:06Z'
 update_date: '2021-10-27T23:20:50Z'
-github_star: 1151
-github_fork: 340
+github_star: 1152
+github_fork: 342
 ---

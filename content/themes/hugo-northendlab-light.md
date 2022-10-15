@@ -17,7 +17,7 @@ description: >-
   version on our gethugothemes site.
 draft: false
 publish_date: '2019-11-14T10:30:50Z'
-update_date: '2022-02-15T04:23:33Z'
-github_star: 93
-github_fork: 155
+update_date: '2022-09-19T10:43:32Z'
+github_star: 94
+github_fork: 156
 ---

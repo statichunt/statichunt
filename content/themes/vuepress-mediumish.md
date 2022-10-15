@@ -12,6 +12,6 @@ description: ':mediumish: A blog theme for Vuepress'
 draft: true
 publish_date: '2020-03-01T19:54:03Z'
 update_date: '2021-10-31T15:27:04Z'
-github_star: 97
+github_star: 96
 github_fork: 53
 ---

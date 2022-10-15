@@ -12,6 +12,6 @@ description: A Modern, Clean, Jekyll Blog Layout based from codedrops
 draft: true
 publish_date: '2015-07-11T17:47:40Z'
 update_date: '2017-06-26T18:07:42Z'
-github_star: 247
-github_fork: 311
+github_star: 249
+github_fork: 313
 ---

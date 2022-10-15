@@ -21,8 +21,8 @@ category:
 draft: false
 publish_date: '2022-08-12T02:13:10Z'
 update_date: '2022-09-06T05:30:59Z'
-github_star: 7
-github_fork: 5
+github_star: 10
+github_fork: 7
 ---
 
 ## Theme features

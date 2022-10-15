@@ -12,6 +12,6 @@ description: A mediumish gohugo theme, ported from jekyll
 draft: true
 publish_date: '2018-10-07T08:26:20Z'
 update_date: '2021-08-12T15:12:43Z'
-github_star: 109
-github_fork: 84
+github_star: 112
+github_fork: 87
 ---

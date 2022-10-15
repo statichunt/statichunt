@@ -12,6 +12,6 @@ description: ':rocket: A Gatsby theme/starter to build lightning-fast blog/websi
 draft: true
 publish_date: '2018-09-16T20:53:24Z'
 update_date: '2021-04-04T09:03:51Z'
-github_star: 200
+github_star: 201
 github_fork: 41
 ---

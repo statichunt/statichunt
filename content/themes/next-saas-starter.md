@@ -21,9 +21,9 @@ description: >-
   Performance, Clean & Pragmatic Codebase out of the box.
 draft: false
 publish_date: '2021-09-03T20:00:32Z'
-update_date: '2022-08-16T17:08:35Z'
-github_star: 372
-github_fork: 94
+update_date: '2022-09-13T21:09:54Z'
+github_star: 407
+github_fork: 102
 ---
 
 ## Theme features

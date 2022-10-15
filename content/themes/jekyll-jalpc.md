@@ -12,6 +12,6 @@ description: '🍎Jalpc -- A flexible Jekyll theme, 3 steps to build your websit
 draft: true
 publish_date: '2016-05-29T08:02:13Z'
 update_date: '2021-10-11T14:05:02Z'
-github_star: 948
-github_fork: 1100
+github_star: 952
+github_fork: 1095
 ---

@@ -12,6 +12,6 @@ description: Start Boostrap New Age Theme for Jekyll
 draft: true
 publish_date: '2016-10-25T05:15:39Z'
 update_date: '2021-07-17T21:09:25Z'
-github_star: 108
+github_star: 107
 github_fork: 112
 ---

@@ -12,6 +12,6 @@ description: Simple, clean, and fast one-page Hugo portfolio theme accompanied b
 draft: true
 publish_date: '2017-05-15T05:32:08Z'
 update_date: '2019-12-09T04:30:31Z'
-github_star: 173
-github_fork: 81
+github_star: 174
+github_fork: 82
 ---

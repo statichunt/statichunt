@@ -17,6 +17,6 @@ description: A simple landing page built with Hugo and Tailwind CSS.
 draft: true
 publish_date: '2020-07-15T14:14:40Z'
 update_date: '2021-11-28T18:03:01Z'
-github_star: 63
+github_star: 64
 github_fork: 24
 ---

@@ -12,6 +12,6 @@ description: A clean, responsive MkDocs theme
 draft: true
 publish_date: '2015-08-28T03:45:23Z'
 update_date: '2021-01-05T20:29:39Z'
-github_star: 162
+github_star: 163
 github_fork: 109
 ---

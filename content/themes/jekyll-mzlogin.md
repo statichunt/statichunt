@@ -16,7 +16,7 @@ category:
 description: A template repository for Jekyll based blog
 draft: true
 publish_date: '2013-11-11T15:22:57Z'
-update_date: '2022-09-04T03:40:15Z'
-github_star: 1294
-github_fork: 1099
+update_date: '2022-10-14T22:40:12Z'
+github_star: 1312
+github_fork: 1111
 ---

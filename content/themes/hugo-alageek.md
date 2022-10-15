@@ -15,7 +15,7 @@ description: >-
   highlighting and MathJax support and much more.
 draft: true
 publish_date: '2018-09-08T19:32:11Z'
-update_date: '2022-07-17T23:51:42Z'
-github_star: 54
-github_fork: 18
+update_date: '2022-10-02T16:22:48Z'
+github_star: 58
+github_fork: 19
 ---

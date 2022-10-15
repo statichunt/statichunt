@@ -15,9 +15,9 @@ category:
   - Documentation
 draft: false
 publish_date: '2021-03-02T21:15:03Z'
-update_date: '2022-09-01T15:43:00Z'
-github_star: 4
-github_fork: 2
+update_date: '2022-10-10T12:03:58Z'
+github_star: 8
+github_fork: 5
 ---
 
 ## Theme features

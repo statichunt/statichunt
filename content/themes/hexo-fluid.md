@@ -15,7 +15,7 @@ category: null
 description: An elegant Material-Design theme for Hexo.
 draft: true
 publish_date: '2018-10-14T15:26:24Z'
-update_date: '2022-08-15T02:36:52Z'
-github_star: 4926
-github_fork: 941
+update_date: '2022-09-13T05:53:40Z'
+github_star: 5074
+github_fork: 969
 ---

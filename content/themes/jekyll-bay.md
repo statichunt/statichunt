@@ -15,6 +15,6 @@ description: Bay is a simple theme for Jekyll.
 draft: true
 publish_date: '2019-10-24T08:21:45Z'
 update_date: '2022-07-30T15:09:16Z'
-github_star: 84
-github_fork: 237
+github_star: 87
+github_fork: 246
 ---

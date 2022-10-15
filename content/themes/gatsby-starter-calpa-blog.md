@@ -12,6 +12,6 @@ description: Calpa's Blog (GatsbyJS Starter X Netlify CMS)
 draft: true
 publish_date: '2017-10-15T13:40:48Z'
 update_date: '2021-11-01T16:19:37Z'
-github_star: 334
+github_star: 333
 github_fork: 69
 ---

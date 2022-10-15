@@ -12,6 +12,6 @@ description: ' a black-white theme for Hugo.'
 draft: true
 publish_date: '2018-11-08T15:41:32Z'
 update_date: '2022-04-28T05:51:19Z'
-github_star: 366
-github_fork: 123
+github_star: 372
+github_fork: 125
 ---

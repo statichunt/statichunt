@@ -17,6 +17,6 @@ description: Kross Creative Portfolio Template
 draft: false
 publish_date: '2019-05-13T08:18:18Z'
 update_date: '2022-06-01T05:19:29Z'
-github_star: 252
-github_fork: 380
+github_star: 253
+github_fork: 382
 ---

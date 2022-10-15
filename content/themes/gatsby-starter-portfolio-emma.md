@@ -14,7 +14,7 @@ description: >-
   photographers will love this theme! Built with MDX and Theme UI.
 draft: true
 publish_date: '2017-10-18T19:20:05Z'
-update_date: '2022-08-04T10:18:58Z'
+update_date: '2022-10-02T14:11:57Z'
 github_star: 267
 github_fork: 77
 ---

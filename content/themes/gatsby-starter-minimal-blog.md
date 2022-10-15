@@ -14,7 +14,7 @@ description: >-
   as live preview, line numbers, and line highlighting.
 draft: true
 publish_date: '2018-02-02T18:52:29Z'
-update_date: '2022-08-04T10:19:06Z'
-github_star: 1009
-github_fork: 297
+update_date: '2022-10-02T14:12:00Z'
+github_star: 1021
+github_fork: 300
 ---
