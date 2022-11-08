@@ -17,6 +17,6 @@ description: A Jekyll theme based on Creative Theme v5.1.8 and Bootstrap v4.3.1
 draft: true
 publish_date: '2020-03-03T00:48:35Z'
 update_date: '2020-12-04T16:04:56Z'
-github_star: 49
-github_fork: 54
+github_star: 50
+github_fork: 56
 ---

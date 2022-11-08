@@ -18,7 +18,7 @@ description: >-
   functional like the WordPress theme.
 draft: false
 publish_date: '2020-04-26T09:24:13Z'
-update_date: '2022-06-01T05:32:28Z'
-github_star: 47
+update_date: '2022-10-22T03:42:01Z'
+github_star: 49
 github_fork: 84
 ---

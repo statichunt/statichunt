@@ -16,8 +16,7 @@ description: >-
 category:
   - Ecommerce
 publish_date: '2021-01-28T15:24:09Z'
-update_date: '2022-09-20T11:01:26Z'
-github_star: 130
-github_fork: 55
+github_star: 132
+github_fork: 54
 draft: true
 ---

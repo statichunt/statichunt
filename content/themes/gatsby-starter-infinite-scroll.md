@@ -12,6 +12,6 @@ description: A Gatsby starter with infinite scroll and pagination.
 draft: true
 publish_date: '2019-03-01T16:48:18Z'
 update_date: '2022-07-18T20:20:06Z'
-github_star: 159
+github_star: 158
 github_fork: 28
 ---

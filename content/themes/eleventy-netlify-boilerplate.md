@@ -13,7 +13,7 @@ description: >-
   generator
 draft: true
 publish_date: '2018-07-24T07:16:25Z'
-update_date: '2022-09-06T11:09:17Z'
-github_star: 465
+update_date: '2022-10-25T13:01:19Z'
+github_star: 470
 github_fork: 184
 ---

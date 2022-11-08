@@ -18,7 +18,7 @@ description: >-
   mode; perfect for a portfolio and blog
 draft: true
 publish_date: '2020-10-29T02:55:26Z'
-update_date: '2022-09-21T04:44:13Z'
-github_star: 191
-github_fork: 242
+update_date: '2022-11-01T12:55:23Z'
+github_star: 193
+github_fork: 256
 ---

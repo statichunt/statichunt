@@ -16,6 +16,6 @@ description: An elegant Material-Design theme for Hexo.
 draft: true
 publish_date: '2018-10-14T15:26:24Z'
 update_date: '2022-09-13T05:53:40Z'
-github_star: 5074
-github_fork: 969
+github_star: 5169
+github_fork: 990
 ---

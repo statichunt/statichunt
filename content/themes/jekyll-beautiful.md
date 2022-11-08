@@ -13,7 +13,7 @@ description: >-
   https://deanattali.com/beautiful-jekyll
 draft: false
 publish_date: '2015-03-02T20:04:26Z'
-update_date: '2022-07-21T02:53:17Z'
-github_star: 4327
-github_fork: 13439
+update_date: '2022-10-16T06:37:33Z'
+github_star: 4367
+github_fork: 13530
 ---

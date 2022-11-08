@@ -12,6 +12,6 @@ description: Porting Grav Learn theme to Hugo
 draft: false
 publish_date: '2016-03-17T10:58:41Z'
 update_date: '2021-10-28T19:04:10Z'
-github_star: 1452
-github_fork: 1265
+github_star: 1465
+github_fork: 1270
 ---

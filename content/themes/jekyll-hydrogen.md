@@ -12,7 +12,7 @@ date: 2018-11-18T07:09:14.000Z
 description: ':+1:轻盈、简洁的Jekyll主题，A Lightweight and Concise Jekyll theme For You.'
 draft: true
 publish_date: '2018-11-18T07:09:14Z'
-update_date: '2022-02-08T06:03:15Z'
-github_star: 63
-github_fork: 80
+update_date: '2022-10-25T17:00:30Z'
+github_star: 64
+github_fork: 79
 ---

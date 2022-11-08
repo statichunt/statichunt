@@ -22,8 +22,8 @@ description: >-
   orientation of this theme will give you a techy feel. You will enjoy making
   posts in categories such as AI, Drone, Github, Programming, and many others.
 publish_date: '2021-08-18T06:46:42Z'
-update_date: '2022-09-03T07:47:11Z'
-github_star: 50
-github_fork: 34
+update_date: '2022-10-20T09:30:16Z'
+github_star: 56
+github_fork: 38
 draft: false
 ---

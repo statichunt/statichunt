@@ -12,6 +12,6 @@ description: A minimal magazine theme for Hugo
 draft: true
 publish_date: '2017-07-10T05:09:20Z'
 update_date: '2022-08-08T14:46:43Z'
-github_star: 74
+github_star: 76
 github_fork: 46
 ---

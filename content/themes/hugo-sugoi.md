@@ -12,6 +12,6 @@ description: An Ultra Minimal Hugo Theme based on Skeleton
 draft: true
 publish_date: '2020-03-21T07:46:30Z'
 update_date: '2020-10-19T18:15:08Z'
-github_star: 29
+github_star: 27
 github_fork: 16
 ---

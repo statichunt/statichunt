@@ -12,6 +12,6 @@ description: Cayman Blog is a Jekyll theme for GitHub Pages, based on Cayman the
 draft: true
 publish_date: '2017-04-28T21:55:31Z'
 update_date: '2021-07-15T10:18:46Z'
-github_star: 95
+github_star: 97
 github_fork: 270
 ---

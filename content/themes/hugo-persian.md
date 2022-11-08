@@ -18,7 +18,7 @@ description: >-
   by Hugo. It is very responsive and perfectly fits on any sized screen device.
 draft: false
 publish_date: '2020-06-15T05:14:11Z'
-update_date: '2022-08-29T03:05:06Z'
+update_date: '2022-10-22T03:45:30Z'
 github_star: 32
-github_fork: 109
+github_fork: 111
 ---

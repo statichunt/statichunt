@@ -17,6 +17,6 @@ description: A simple bootstrap based jekyll theme.
 draft: true
 publish_date: '2019-02-17T10:19:22Z'
 update_date: '2021-07-01T19:24:41Z'
-github_star: 13
-github_fork: 58
+github_star: 14
+github_fork: 59
 ---

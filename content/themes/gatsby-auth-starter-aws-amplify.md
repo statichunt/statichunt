@@ -12,6 +12,6 @@ description: Starter Project with Authentication with Gatsby & AWS Amplify
 draft: true
 publish_date: '2018-08-24T22:49:54Z'
 update_date: '2021-07-04T12:29:50Z'
-github_star: 320
-github_fork: 419
+github_star: 321
+github_fork: 418
 ---

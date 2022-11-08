@@ -12,6 +12,6 @@ description: Repo for github portfolio using gatsby
 draft: true
 publish_date: '2019-03-01T20:56:53Z'
 update_date: '2020-06-03T07:34:27Z'
-github_star: 30
+github_star: 29
 github_fork: 19
 ---

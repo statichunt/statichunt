@@ -13,7 +13,7 @@ date: 2020-01-04T00:00:00.000Z
 description: A Minimal Light theme for Jekyll with minimal CSS by Sharad Raj Singh Maurya
 draft: true
 publish_date: '2020-01-04T14:00:28Z'
-update_date: '2022-07-22T04:57:52Z'
+update_date: '2022-10-21T04:02:35Z'
 github_star: 2
 github_fork: 2
 ---

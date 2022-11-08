@@ -20,7 +20,7 @@ description: >-
   implementing a wide range of performance best practices.
 draft: true
 publish_date: '2020-09-04T08:16:00Z'
-update_date: '2022-07-28T06:58:21Z'
-github_star: 3722
-github_fork: 252
+update_date: '2022-10-29T20:59:41Z'
+github_star: 3734
+github_fork: 257
 ---

@@ -14,6 +14,6 @@ description: A simple, hackable & minimalistic template for Gridsome
 draft: true
 publish_date: '2019-04-14T11:51:06Z'
 update_date: '2021-05-14T13:57:55Z'
-github_star: 53
+github_star: 52
 github_fork: 35
 ---

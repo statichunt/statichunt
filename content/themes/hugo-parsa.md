@@ -18,8 +18,8 @@ description: >-
   Parsa is a personal blog theme powered by Hugo. It has two homepages. Also can
   be used for portfolio template1
 publish_date: '2019-05-15T08:33:57Z'
-update_date: '2022-06-01T05:27:10Z'
-github_star: 143
-github_fork: 326
+update_date: '2022-10-22T03:11:24Z'
+github_star: 144
+github_fork: 327
 draft: false
 ---

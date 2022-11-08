@@ -24,8 +24,8 @@ description: >-
   presents your posts. Moreover, the neatly designed spacing,  carefully
   selected font, and quick loading speed make it a perfectly expandable theme.
 publish_date: '2021-11-07T03:46:32Z'
-update_date: '2022-09-11T06:06:39Z'
-github_star: 0
+update_date: '2022-10-20T09:10:50Z'
+github_star: 2
 github_fork: 2
 draft: false
 ---

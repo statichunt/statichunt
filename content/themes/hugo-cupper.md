@@ -12,6 +12,6 @@ description: An accessibility-friendly Hugo theme, ported from the original Cupp
 draft: true
 publish_date: '2019-01-29T19:16:57Z'
 update_date: '2022-09-20T15:31:19Z'
-github_star: 255
+github_star: 260
 github_fork: 169
 ---

@@ -15,7 +15,7 @@ category: null
 description: A simple and elegant theme for Hexo. It makes you more focused on writing.
 draft: true
 publish_date: '2020-03-12T07:34:20Z'
-update_date: '2022-10-09T07:33:44Z'
-github_star: 971
-github_fork: 152
+update_date: '2022-11-03T12:57:31Z'
+github_star: 983
+github_fork: 153
 ---

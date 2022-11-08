@@ -11,7 +11,7 @@ date: 2015-07-21T00:52:53.000Z
 description: The default Gatsby starter
 draft: true
 publish_date: '2015-07-21T00:52:53Z'
-update_date: '2022-10-10T12:52:02Z'
-github_star: 1357
-github_fork: 958
+update_date: '2022-11-04T07:54:37Z'
+github_star: 1363
+github_fork: 962
 ---

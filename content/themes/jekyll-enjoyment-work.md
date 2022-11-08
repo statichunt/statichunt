@@ -17,7 +17,7 @@ description:" A Digital Garden: >-
   synthesis—a personal zettelkasten. Built on Simply Jekyll by Raghuveer S."
 draft: true
 publish_date: '2020-11-17T06:18:31Z'
-update_date: '2022-07-23T06:15:49Z'
-github_star: 64
+update_date: '2022-10-21T05:21:38Z'
+github_star: 67
 github_fork: 7
 ---

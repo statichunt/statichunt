@@ -15,7 +15,7 @@ category:
 description: The super simple portfolio template built with Eleventy and NetlifyCMS
 draft: true
 publish_date: '2021-02-18T18:21:50Z'
-update_date: '2022-10-14T03:26:53Z'
-github_star: 53
-github_fork: 26
+update_date: '2022-11-03T01:03:53Z'
+github_star: 57
+github_fork: 28
 ---

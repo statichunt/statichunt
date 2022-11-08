@@ -16,6 +16,6 @@ description: An elegant, powerful, easy-to-read Hexo theme.
 draft: true
 publish_date: '2019-06-12T06:13:00Z'
 update_date: '2022-06-13T09:22:45Z'
-github_star: 721
-github_fork: 152
+github_star: 730
+github_fork: 157
 ---

@@ -14,7 +14,7 @@ featured: true
 description: Example gatsby + netlify cms project
 draft: false
 publish_date: '2017-08-15T23:15:14Z'
-update_date: '2022-10-10T02:05:52Z'
-github_star: 2014
-github_fork: 1000
+update_date: '2022-11-07T00:16:57Z'
+github_star: 2016
+github_fork: 1005
 ---
