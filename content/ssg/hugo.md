@@ -1,8 +1,9 @@
 ---
 title: Hugo
+page_title: Hugo Themes
 weight: "4"
-meta_title: Hugo Themes | A Curated Directory Of Free Hugo Themes
-description: "A curated directory of best free Hugo themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
+meta_title: 40+ Free Hugo Themes | A Collection of Hand-Picked Themes
+description: "Are you looking for the best Hugo theme? Check out our broad selection of themes that will give your website a professional and polished appearance."
 icon: /images/icons/hugo.svg
 website: https://gohugo.io
 github_path: gohugoio/hugo

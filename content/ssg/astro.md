@@ -1,8 +1,9 @@
 ---
 title: Astro
+page_title: Astro Themes
 weight: "5"
-meta_title: Astro Themes | A Curated Directory Of Free Astro Themes
-description: "A curated directory of best free Astro themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
+meta_title: Astro Themes | Get The Best Free Astro Themes For Your Website
+description: "Looking for the best Astro themes? These free Astro themes and templates are ideal for any type of website, from businesses to personal blogs."
 icon: /images/icons/astro.svg
 website: https://astro.build/
 github_path: withastro/astro

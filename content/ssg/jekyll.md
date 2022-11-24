@@ -1,8 +1,9 @@
 ---
 title: Jekyll
+page_title: Jekyll Themes
 weight: "1"
-meta_title: Jekyll Themes | A Curated Directory Of Free Jekyll Themes
-description: "A curated directory of best free Jekyll themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
+meta_title: 15+ Best Jekyll Themes | Open-source and Free to Download
+description: "Do you want to find the best Jekyll theme? Jekyll is a straightforward, blog-aware static site generator that is ideal for personal, project, or organization websites."
 icon: /images/icons/jekyll.svg
 website: https://jekyllrb.com
 github_path: jekyll/jekyll

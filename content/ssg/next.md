@@ -1,9 +1,9 @@
 ---
 title: Next
-page_title: Nextjs Website Templates
-meta_title: Nextjs Templates | A Curated Directory Of Free Next Templates
+page_title: Nextjs Templates
+meta_title: 10+ Best Nextjs Templates | Open-source and Free to Download
 weight: "3"
-description: A curated directory of best free Next themes created by independent web designers & developers that are open source, MIT licensed & available for free to download.
+description: Looking for the best free Nextjs templates and themes? Check out our top picks, all of which are sure to help you get the most out of your Nextjs development.
 icon: "/images/icons/next.svg"
 website: https://nextjs.org/
 github_path: vercel/next.js
