@@ -2,7 +2,7 @@
 title: Jekyll
 page_title: Jekyll Themes
 weight: "1"
-meta_title: 15+ Best Jekyll Themes | Open-source and Free to Download
+meta_title: 15+ Best Jekyll Free and Awesome Themes 
 description: "Do you want to find the best Jekyll theme? Jekyll is a straightforward, blog-aware static site generator that is ideal for personal, project, or organization websites."
 icon: /images/icons/jekyll.svg
 website: https://jekyllrb.com
