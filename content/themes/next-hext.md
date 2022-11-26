@@ -6,7 +6,7 @@ author: Ravi
 author_link: https://dewcodes.com/
 author_twitter: DewDots
 date: 2022-09-21T00:00:00.000Z
-description: A web hosting template made using nextjs
+description: Hext is a free web hosting template that is clean, light weight, fast, and completely responsive. It is developed with Nextjs and React. It is a comprehensive web hosting business template.
 ssg:
   - Next
 css:
@@ -24,5 +24,8 @@ github_fork: 2
 
 ## Theme features
 
-- Fast
-- Fully Responsive
+- Scores 100 / 100 in Google page speed test.
+- Built using Nextjs / React
+- Fully responsive
+- Mobile first approach
+- Google Fonts

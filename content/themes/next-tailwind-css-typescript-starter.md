@@ -19,3 +19,26 @@ update_date: '2022-10-26T11:03:45Z'
 github_star: 2694
 github_fork: 612
 ---
+## Theme Features
+
+- Next.js for Static Site Generator
+- Type checking TypeScript
+- Integrate with Tailwind CSS
+- Strict Mode for TypeScript and React 18
+- Linter with ESLint (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
+- Code Formatter with Prettier
+- Husky for Git Hooks
+- Lint-staged for running linters on Git staged files
+- Lint git commit with Commitlint
+- Write standard compliant commit messages with Commitizen
+- Unit Testing with Jest and React Testing Library
+- E2E Testing with Cypress
+- Run tests on pull request with GitHub Actions
+- Absolute Imports using @ prefix
+- VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
+- SEO metadata, JSON-LD and Open Graph tags with Next SEO
+- Sitemap.xml and robots.txt with next-sitemap
+- Bundler Analyzer
+- One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
+- Include a FREE minimalist theme
+- Maximize lighthouse score

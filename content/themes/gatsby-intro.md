@@ -19,3 +19,11 @@ update_date: '2021-05-05T15:50:31Z'
 github_star: 295
 github_fork: 144
 ---
+## Theme Features
+
+- Show your skills, tools, projects & career path
+- 10 predefined color versions
+- YAML files as a data source
+- Contact form integrated with Formspree
+- Uses utility-first TailwindCSS framework
+- Responsive design (desktop / mobile)

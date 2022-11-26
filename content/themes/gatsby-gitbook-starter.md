@@ -15,3 +15,17 @@ update_date: '2022-10-20T07:40:32Z'
 github_star: 935
 github_fork: 361
 ---
+## Theme Features
+
+- Write using Markdown / MDX
+- GitBook style theme
+- Syntax Highlighting using Prism [Bonus: Code diff highlighting]
+- Search Integration with Algolia
+- Progressive Web App, Works Offline
+- Google Analytics Integration
+- Automatically generated sidebar navigation, table of contents, previous/next
+- Dark Mode toggle
+- Edit on Github
+- Fully customisable
+- Rich embeds and live code editor using MDX
+- Easy deployment: Deploy on Netlify / Now.sh / Docker

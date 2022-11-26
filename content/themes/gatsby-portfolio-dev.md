@@ -15,3 +15,19 @@ update_date: '2021-10-14T04:05:40Z'
 github_star: 735
 github_fork: 189
 ---
+## Theme Features
+
+- Eslint/Prettier configured
+- Scores 100% on a11y / Performance / PWA / SEO
+- PWA (desktop & mobile)
+- Easy to customize
+- Nice project structure
+- Amazing illustrations by Undraw.co
+- Tablet & mobile friendly
+- Continuous deployment with Vercel
+- Or with Netlify, check Netlify branch
+- A contact form protected by Google Recaptcha
+- Can be deployed with one click
+- Functional components with Recompose React Hooks! ready to migrate to React hooks!
+- Fetches your Github pinned projects with most stars (You could customize this if you wish)
+- One click deployment to Vercel
