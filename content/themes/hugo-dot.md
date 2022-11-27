@@ -20,3 +20,13 @@ github_star: 230
 github_fork: 149
 draft: false
 ---
+## Key Features
+
+- Multiple language support (Fr, En)
+- Google analytics support
+- CSS and Js bundle with hugo pipe
+- Color and fonts variable in config file
+- Contact form Support
+- Google page speed optimized ( 96% )
+- Open graph meta tag
+- Twitter card meta tag

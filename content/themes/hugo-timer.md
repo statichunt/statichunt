@@ -20,3 +20,11 @@ github_star: 127
 github_fork: 114
 draft: false
 ---
+## Theme Features
+
+- Google analytics support
+- Contact form Support
+- Google map support
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

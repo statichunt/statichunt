@@ -30,3 +30,27 @@ github_star: 4
 github_fork: 0
 draft: false
 ---
+
+## Theme Features
+
+- Image optimize with Hugo pipe
+- Google font loads from Webfont loader
+- CSS and JS bundle with Hugo pipe
+- Color and fonts variable in the config file
+- Netlify settings predefine
+- Contact form Support
+- Multiple language support (Fr, En)
+- Single author available
+- Dark mode and Light mode are available
+- Google page speed optimized
+- Search by fuse.js
+- GDPR consent enabled
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag
+- Forestry cms pre-configured
+- Google analytics support
+- Baidu analytics support
+- Counter analytics support
+- Matomo analytics support
+- Plausible analytics support

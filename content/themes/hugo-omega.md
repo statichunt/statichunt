@@ -19,3 +19,17 @@ update_date: '2022-10-22T03:46:50Z'
 github_star: 28
 github_fork: 59
 ---
+## Theme Features
+
+- Dark mode available
+- Google analytics support
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Caching enable
+- GDPR consent enable
+- Google map support
+- Job post available
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

@@ -20,3 +20,14 @@ github_star: 155
 github_fork: 162
 draft: false
 ---
+## Theme Features
+
+- Google analytics support
+- Multiple author available
+- Contact form Support
+- Post reading time calculator
+- Google map support
+- Post reading time calculator
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

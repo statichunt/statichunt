@@ -23,3 +23,20 @@ github_star: 144
 github_fork: 327
 draft: false
 ---
+
+## Theme Features
+
+- Google analytics ssupport
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Contact form Support
+- Search by fuse.js
+- Instagram feed available
+- GDPR consent enable
+- Post reading time calculator
+- Masonary support
+- Multiple author and single author available
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

@@ -15,3 +15,15 @@ update_date: '2021-10-28T19:04:10Z'
 github_star: 1465
 github_fork: 1270
 ---
+## Key Features
+
+- Automatic Search
+- Multilingual mode
+- Unlimited menu levels
+- Automatic next/prev buttons to navigate through menu entries
+- Image resizing, shadow…
+- Attachments files
+- List child pages
+- Mermaid diagram (flowchart, sequence, gantt)
+- Customizable look and feel and themes variants
+- Buttons, Tip/Note/Info/Warning boxes, Expand

@@ -30,7 +30,6 @@ github_fork: 132
 - gatsby-starter-foundation-dark-mode.jpg
 - Search bar
 - Customize content of Homepage, About and Contact page.
-- Customize content of Homepage, About and Contact page.
 - Add / Modify / Delete blog posts.
 - Edit website settings, Add Google Analytics and make it your own all with in the CMS.
 - SEO Optimized

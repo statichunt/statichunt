@@ -17,3 +17,9 @@ update_date: '2022-11-08T06:18:44Z'
 github_star: 1886
 github_fork: 642
 ---
+## Theme Features
+
+- Beautiful typography.
+- Mobile first approach in development.
+- Syntax highlighting in code blocks using PrismJS.
+- Pagination support.

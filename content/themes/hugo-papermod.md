@@ -22,15 +22,15 @@ github_fork: 1491
 
 - Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
 - 3 Modes:Regular Mode,Home-Info Mode,Profile Mode
-- Table of Content Generation (newer implementation).
+- Table of Content Generation
 - Archive of posts.
 - Social Icons (home-info and profile-mode)
 - Social-Media Share buttons on posts.
 - Menu location indicator.
-- Multilingual support. (with language selector)
+- Multilingual support.
 - Taxonomies
-- Cover image for each post (with Responsive image support).
-- Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
+- Cover image for each post
+- Light/Dark theme
 - SEO Friendly.
 - Multiple Author support.
 - Search Page with Fuse.js

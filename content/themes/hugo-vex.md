@@ -21,3 +21,15 @@ update_date: '2022-10-20T10:40:48Z'
 github_star: 154
 github_fork: 246
 ---
+## Theme Features
+
+- Multiple language support (Fr, En)
+- Google analytics support
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Contact form Support
+- Mailchimp integrate
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

@@ -24,3 +24,22 @@ update_date: '2022-10-22T03:49:54Z'
 github_star: 55
 github_fork: 52
 ---
+## Theme Features
+
+- Google analytics support  
+- image optimize with hugo pipe  
+- CSS and Js bundle with hugo pipe  
+- Netlify settings predefine  
+- Google font loads from webfont loader  
+- Color and fonts variable in config file  
+- Contact form Support (formspree)  
+- GDPR consent enable  
+- Post reading time calculator  
+- Google page speed optimized  
+- Open graph meta tag  
+- Twitter card meta tag  
+- Multiple language support (Fr, En)  
+- Multiple author and single author  
+- Forestry cms pre-configured  
+- Caching enable  
+- 9+ Premium Pages

@@ -21,3 +21,13 @@ update_date: '2022-10-22T03:33:57Z'
 github_star: 38
 github_fork: 51
 ---
+## Key Features
+
+- Onepage template
+- Google analytics support
+- Netlify settings predefine
+- Countdown timer available
+- Contact form Support
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

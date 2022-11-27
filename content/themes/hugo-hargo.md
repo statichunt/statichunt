@@ -24,3 +24,14 @@ update_date: '2022-10-22T03:27:10Z'
 github_star: 94
 github_fork: 150
 ---
+## Theme Features
+
+- Google analytics support
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- Contact form Support
+- Compitable with snipcart
+- Google map support
+- Google page speed optimized ( 80% )
+- Open graph meta tag
+- Twitter card meta tag

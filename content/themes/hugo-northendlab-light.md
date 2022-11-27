@@ -21,3 +21,24 @@ update_date: '2022-10-22T06:01:48Z'
 github_star: 94
 github_fork: 156
 ---
+
+## Key Features
+
+- Google analytics support  
+- CSS and Js bundle with hugo pipe  
+- Netlify settings predefine  
+- Forestry cms pre-configured  
+- Contact form Support (formspree)  
+- Search by fuse.js and mark.js  
+- GDPR consent enable  
+- Google page speed optimized  
+- Open graph meta tag  
+- Twitter card meta tag  
+- Multiple language support (Fr, En)  
+- Multiple author support  
+- Header-search-layout (expanded, popupable)  
+- Menu alignment customized (left, right, or center )  
+- Color and fonts variable in config file  
+- Sidebar option (left, right or false)  
+- Mailchimp integrate  
+- 5+ Premium Pages

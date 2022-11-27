@@ -19,3 +19,23 @@ update_date: '2022-10-22T03:39:31Z'
 github_star: 76
 github_fork: 50
 ---
+
+## Theme Features
+
+- Google analytics support  
+- CSS and Js bundle with hugo pipe  
+- Netlify settings predefine  
+- Contact form Support (formspree)  
+- Search by fuse.js and mark.js  
+- GDPR consent enable  
+- Color and fonts variable in config file  
+- Mailchimp integrate  
+- Instagram feed available  
+- Google page speed optimized  
+- Open graph meta tag  
+- Twitter card meta tag  
+- Multiple language support (Fr, En)  
+- Menu alignment customized (left, right, or center )  
+- Multiple post layout ( grid or list)  
+- Sidebar option (left, right or false)  
+- 4+ Premium Pages

@@ -27,3 +27,20 @@ github_star: 56
 github_fork: 38
 draft: false
 ---
+## Theme Features
+
+- Google analytics support
+- Image optimize with hugo pipe
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Google font loads from webfont loader
+- Caching enable
+- Color and fonts variable in config file
+- Contact form Support
+- Search by fuse.js and mark.js
+- Mailchimp integrate
+- GDPR consent enable
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

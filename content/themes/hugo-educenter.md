@@ -22,3 +22,21 @@ github_star: 153
 github_fork: 291
 draft: false
 ---
+
+## Theme Features
+
+- Multiple language support (Fr, En)
+- Google analytics support
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Multiple author available
+- Contact form Support
+- Mailchimp integrate
+- GDPR consent enable
+- Google map support
+- Top header customization
+- Taxonomy or category
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

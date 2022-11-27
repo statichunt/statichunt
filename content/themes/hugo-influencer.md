@@ -19,3 +19,13 @@ update_date: '2022-10-22T03:30:48Z'
 github_star: 75
 github_fork: 65
 ---
+## Theme Features
+
+- Google analytics support
+- Onepage template
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- GDPR consent enable
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

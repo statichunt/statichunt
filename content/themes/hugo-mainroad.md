@@ -17,3 +17,14 @@ update_date: '2022-08-30T14:50:10Z'
 github_star: 697
 github_fork: 395
 ---
+
+## Theme Features
+
+- Responsive design
+- Main & secondary menus
+- Widgetized sidebar
+- Translations. Over 15 languages and counting
+- Configurable theme settings (sidebar position, author box, post navigation, highlight color) via config.toml
+- Hugo internal templates (Open Graph, Schema, Twitter Cards, Disqus, Google Analytics)
+- Wide cross-browser compatibility
+- Custom Google Fonts support, MathJax, Table of Contents, SVG icons and much more…

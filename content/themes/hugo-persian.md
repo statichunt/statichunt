@@ -22,3 +22,16 @@ update_date: '2022-10-22T03:45:30Z'
 github_star: 32
 github_fork: 111
 ---
+
+## Theme Features
+
+- Google analytics support
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Contact form Support
+- Search by fuse.js
+- GDPR consent enable
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

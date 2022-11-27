@@ -22,3 +22,12 @@ update_date: '2022-10-22T03:42:01Z'
 github_star: 49
 github_fork: 84
 ---
+## Theme Features
+
+- Google analytics support
+- Netlify settings predefine
+- Forestry cms pre-configured
+- GDPR consent enable
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag

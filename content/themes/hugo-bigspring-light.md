@@ -20,3 +20,23 @@ github_star: 157
 github_fork: 273
 draft: false
 ---
+## Theme Features
+
+- Google analytics support  
+- CSS and Js bundle with hugo pipe  
+- Netlify settings predefine  
+- Forestry cms pre-configured  
+- Color and fonts variable in config file  
+- Contact form Support  
+- GDPR consent enable  
+- Google page speed optimized  
+- Open graph meta tag  
+- Twitter card meta tag  
+- Dark and Light mode available  
+- image optimize with hugo pipe  
+- Google font loads from webfont loader  
+- Multiple language support (En, De, Zh-Cn, Hi, Jp, ko, Fr, Es, Id, It, Ru)  
+- Caching enable  
+- Multiple author support  
+- 17+ Premium Pages  
+- Site verification support (google, bing, baidu)

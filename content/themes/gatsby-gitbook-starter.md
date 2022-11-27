@@ -19,7 +19,7 @@ github_fork: 361
 
 - Write using Markdown / MDX
 - GitBook style theme
-- Syntax Highlighting using Prism [Bonus: Code diff highlighting]
+- Syntax Highlighting using Prism
 - Search Integration with Algolia
 - Progressive Web App, Works Offline
 - Google Analytics Integration

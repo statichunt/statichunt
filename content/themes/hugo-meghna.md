@@ -23,3 +23,15 @@ github_star: 365
 github_fork: 1215
 draft: false
 ---
+## Theme Features
+
+- Multilingual support. (with language selector)
+- Taxonomies
+- SEO Friendly
+- Onepage
+- Blog Support
+- Smooth Scroll
+- Contact form Support
+- Google Map Support
+- WebP with fallback image support
+- Uses Hugo's asset generator with pipelining, fingerprinting, bundling, and minification by default.
