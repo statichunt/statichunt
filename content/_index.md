@@ -1,5 +1,5 @@
 ---
-title: Statichunt | A Curated Directory Of Jamstack Resources
+title: Statichunt | A Curated Directory Of Jamstack Themes and Resources
 description:
   Statichunt is a free open source Jamstack directory that lists hundreds
   of themes, starters, and resources for Jamstack sites.
