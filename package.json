@@ -12,7 +12,8 @@
     "json": "node lib/jsonGenerator.mjs",
     "ss-themes": "yarn json && node lib/screenshotThemes.mjs",
     "ss-resources": "yarn json && node lib/screenshotResources.mjs",
-    "update-themes": "yarn json && node lib/updateThemes.js && yarn json"
+    "update-themes": "yarn json && node lib/updateThemes.js && yarn json",
+    "postbuild": "next-sitemap --config next-sitemap.config.mjs"
   },
   "dependencies": {
     "@loadable/component": "^5.15.2",
@@ -25,12 +26,12 @@
     "next": "12.3.1",
     "next-mdx-remote": "^4.1.0",
     "next-themes": "^0.2.1",
+    "next-sitemap": "^3.1.32",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.6.0",
     "react-infinite-scroll-component": "^6.1.0",
-    "react-tooltip": "^4.4.0",
     "react-use-cookie": "^1.4.0",
     "rehype-slug": "^5.0.1",
     "remark-gfm": "^3.0.1",
