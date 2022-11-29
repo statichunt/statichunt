@@ -24,7 +24,7 @@ github_fork: 1491
 - 3 Modes:Regular Mode,Home-Info Mode,Profile Mode
 - Table of Content Generation
 - Archive of posts.
-- Social Icons (home-info and profile-mode)
+- Social Icons
 - Social-Media Share buttons on posts.
 - Menu location indicator.
 - Multilingual support.

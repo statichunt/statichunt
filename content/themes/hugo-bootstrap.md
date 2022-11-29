@@ -40,6 +40,5 @@ github_fork: 126
 - Provides ability to add custom code on page.
 - Resize, align, crop, fill, fit and apply filters on images.
 - Main and footer menus.
-- FAQ page.
 - Generate configuration code in multiple formats, YAML, TOML and JSON are supported.
 -

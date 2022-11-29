@@ -24,7 +24,7 @@ github_fork: 395
 - Main & secondary menus
 - Widgetized sidebar
 - Translations. Over 15 languages and counting
-- Configurable theme settings (sidebar position, author box, post navigation, highlight color) via config.toml
-- Hugo internal templates (Open Graph, Schema, Twitter Cards, Disqus, Google Analytics)
+- Configurable theme settings via config.toml
+- Open Graph, Schema, Twitter Cards, Disqus, Google Analytics
 - Wide cross-browser compatibility
 - Custom Google Fonts support, MathJax, Table of Contents, SVG icons and much more…

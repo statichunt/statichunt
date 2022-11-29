@@ -25,7 +25,5 @@ github_fork: 361
 - Google Analytics Integration
 - Automatically generated sidebar navigation, table of contents, previous/next
 - Dark Mode toggle
-- Edit on Github
 - Fully customisable
-- Rich embeds and live code editor using MDX
 - Easy deployment: Deploy on Netlify / Now.sh / Docker

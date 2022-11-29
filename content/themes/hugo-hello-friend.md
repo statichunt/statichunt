@@ -19,8 +19,8 @@ github_fork: 1023
 ---
 ## Theme Features
 
-- Dark/light mode, depending on your preferences (the theme of your operating system is default, but you can change it)
-- Great reading experience thanks to Inter font, made by Rasmus Andersson
+- Dark/light mode
+- Great reading experience thanks to Inter font
 - Nice code highlighting thanks to PrismJS
 - Fully responsive
 - Built-in shortcodes

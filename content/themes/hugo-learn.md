@@ -24,6 +24,5 @@ github_fork: 1270
 - Image resizing, shadow…
 - Attachments files
 - List child pages
-- Mermaid diagram (flowchart, sequence, gantt)
-- Customizable look and feel and themes variants
+- Mermaid diagram
 - Buttons, Tip/Note/Info/Warning boxes, Expand

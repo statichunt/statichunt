@@ -25,10 +25,10 @@ github_fork: 38
 ## Theme Features
 
 - Minimal, Crisp, Markdown-Blog Ready
-- It uses Astro's latest 1.1.5 release under the hood
-- In its effort to remain light-weight, performant, and more approachable from Astro's POV, Svelte is used for interactive components like the theme switcher
-- The structure is highly modular, with components doing just one job, and one job well.
-- It's ready with Next.js like dynamic pages, to support a tag-based classification system with paginated results, all configurable
+- Astro's latest 1.1.5 release under the hood
+- Light-weight, performant, and approachable
+- Structure is highly modular, with components doing just one job, and one job well.
+- Ready with Next.js like dynamic pages, to support a tag-based classification system with paginated results, all configurable
 - Dark Mode & Color Codes
 - Future Posts Feature
 - Allow your users get to your blog posts quickly with client-side search feat. Lunr.js

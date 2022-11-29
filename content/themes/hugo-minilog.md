@@ -39,9 +39,9 @@ draft: false
 - Color and fonts variable in the config file
 - Netlify settings predefine
 - Contact form Support
-- Multiple language support (Fr, En)
+- Multiple language support
 - Single author available
-- Dark mode and Light mode are available
+- Dark mode and Light mode
 - Google page speed optimized
 - Search by fuse.js
 - GDPR consent enabled
@@ -49,8 +49,4 @@ draft: false
 - Open graph meta tag
 - Twitter card meta tag
 - Forestry cms pre-configured
-- Google analytics support
-- Baidu analytics support
-- Counter analytics support
-- Matomo analytics support
-- Plausible analytics support
+- Google analytics, Baidu analytics, Counter analytics, Matomo analytics, Plausible analytics Support

@@ -17,10 +17,9 @@ github_fork: 557
 ---
 ## Theme Features
 
-- 5 duotone themes, depending on your preferences (orange is default, red, blue, green, pink)
 - Fira Code as default monospaced font. It's gorgeous!
 - Really nice duotone, custom syntax highlighting based on PrismJS
 - Fully responsive
-- Fully based on Hugo ecosystem (Pipes and Modules)
+- Fully based on Hugo ecosystem
 - Built-in shortcodes
 - Code highlighting

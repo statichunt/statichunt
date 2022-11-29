@@ -21,7 +21,6 @@ github_fork: 144
 ---
 ## Theme Features
 
-- Show your skills, tools, projects & career path
 - 10 predefined color versions
 - YAML files as a data source
 - Contact form integrated with Formspree
