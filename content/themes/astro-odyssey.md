@@ -1,7 +1,7 @@
 ---
 title: Odyssey
 github: https://github.com/littlesticksdev/odyssey-theme
-demo: https://odyssey-theme.littlesticks.dev/
+demo: https://odyssey-theme.littlesticks.site/landing-pages/landing-1
 author: Little Sticks
 author_link: https://github.com/littlesticksdev
 author_twitter: null
