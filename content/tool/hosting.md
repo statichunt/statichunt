@@ -1,7 +1,7 @@
 ---
 title: Hosting
-meta_title: 'Jamstack Hosting - Best Platforms To Host Your JAMStack Website'
-description: ''
+meta_title: '25+ Best Hosting For JAMStack Website In 2022 | Statichunt'
+description: 'Jamstack hosting is the perfect solution for your next web project. Learn about the different hosting options available and find the best one.'
 page_title: JAMStack Hosting
 icon: "/images/icons/hosting.svg"
 url: "/jamstack-hosting"

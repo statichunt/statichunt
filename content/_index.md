@@ -1,8 +1,7 @@
 ---
-title: Statichunt | A Curated Directory Of Jamstack Themes and Resources
+title: Best Jamstack Themes,Templates and Resources Directory | Statichunt
 description:
-  Statichunt is a free open source Jamstack directory that lists hundreds
-  of themes, starters, and resources for Jamstack sites.
+  A Directory of themes, templates, and resources for Jamstack sites that uses static site generators such as Hugo, Gatsby, Jekyll, Nextjs, and others.
 intro:
   title_start: Jamstack
   title_loop: ["Themes", "Resources"]
