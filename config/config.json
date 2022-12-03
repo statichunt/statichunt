@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Statichunt | A Curated Directory Of Jamstack Themes and Resources",
+    "title": "Best Jamstack Themes,Templates and Resources Directory | Statichunt",
     "base_url": "https://statichunt.com",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
@@ -27,7 +27,7 @@
   "metadata": {
     "meta_author": "Statichunt",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Statichunt is a free open-source Jamstack directory that lists hundreds of themes, starters, and resources for Jamstack sites."
+    "meta_description": "A Directory of themes, templates, and resources for Jamstack sites that uses static site generators such as Hugo, Gatsby, Jekyll, Nextjs, and others."
   },
 
   "sidebar": [
