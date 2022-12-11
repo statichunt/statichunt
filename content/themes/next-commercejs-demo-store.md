@@ -23,18 +23,18 @@ github_fork: 184
 ---
 ## Theme Features
 
-Carts :
+### Carts
 
 - Uses the Commerce.js cart API. Carts are persisted for up to 30 days, and Commerce.js automatically remembers carts for visitors.
 
-Checkout :
+### Checkout
 
 - Commerce.js's country and region APIs, Shipping methods API, and discounts API
 
-Customers :
+### Customers
 
 - Commerce.js provides inbuilt functionality for supporting customer logins without any server side code.
 
-Payment gateways :
+### Payment gateways
 
 - This demo store is configured with the Chec "test gateway" out of the box, which provides a handy payment option while testing your storefront.
