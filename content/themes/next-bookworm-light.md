@@ -8,7 +8,7 @@ author_twitter: themefisher
 date: 2022-08-28T00:00:00.000Z
 description: Bookworm is a minimal NextJs Tailwind blog starter template. Highly customizable theme is ideal for creating any type of blog website
 ssg:
-  - Next
+  - Nextjs
 css:
   - Tailwind
 cms:
