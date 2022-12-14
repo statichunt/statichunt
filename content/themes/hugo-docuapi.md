@@ -12,6 +12,6 @@ description: Beautiful multilingual API documentation theme for Hugo
 draft: false
 publish_date: '2016-10-17T19:02:31Z'
 update_date: '2022-09-01T10:33:19Z'
-github_star: 632
-github_fork: 189
+github_star: 637
+github_fork: 192
 ---

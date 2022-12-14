@@ -6,9 +6,11 @@ author: Themefisher
 author_link: https://themefisher.com
 author_twitter: themefisher
 date: 2022-12-12T00:00:00.000Z
-description: Bigspring is a web development company Nextjs template with Tailwind CSS. It is a very stylish, responsive, and ready-to-use theme.
+description: >-
+  Bigspring is a web development company Nextjs template with Tailwind CSS. It
+  is a very stylish, responsive, and ready-to-use theme.
 ssg:
-  - Nextjs
+  - Next
 css:
   - Tailwind
 cms:
@@ -16,6 +18,10 @@ cms:
 category:
   - Business
 draft: false
+publish_date: '2022-12-09T10:30:16Z'
+update_date: '2022-12-12T10:36:35Z'
+github_star: 7
+github_fork: 0
 ---
 
 ## Theme features

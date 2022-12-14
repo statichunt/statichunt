@@ -11,7 +11,6 @@ date: 2019-03-19T18:05:37.000Z
 description: 🖱 A simple, minimal Gatsby starter for quick and easy landing pages
 draft: true
 publish_date: '2019-03-19T18:05:37Z'
-update_date: '2020-04-21T19:19:31Z'
 github_star: 133
 github_fork: 43
 ---

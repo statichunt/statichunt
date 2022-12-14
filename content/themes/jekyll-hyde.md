@@ -11,6 +11,7 @@ date: 2013-02-07T07:01:38.000Z
 description: A brazen two-column theme for Jekyll.
 draft: true
 publish_date: '2013-02-07T07:01:38Z'
-github_star: 3404
-github_fork: 3701
+github_star: 3417
+github_fork: 3723
+update_date: '2015-05-11T20:21:43Z'
 ---

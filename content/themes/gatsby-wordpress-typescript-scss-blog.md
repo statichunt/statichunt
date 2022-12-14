@@ -12,6 +12,6 @@ description: Gatsby Wordpress Typescript Blog Boilerplate
 draft: true
 publish_date: '2019-09-03T17:34:27Z'
 update_date: '2022-08-08T14:43:59Z'
-github_star: 52
+github_star: 51
 github_fork: 21
 ---

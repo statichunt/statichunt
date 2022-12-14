@@ -13,7 +13,7 @@ category:
 description: Gridsome implementation of the Dancing Goat Starter site.
 draft: true
 publish_date: '2019-11-01T22:12:22Z'
-update_date: '2020-04-01T19:46:29Z'
+update_date: '2022-12-08T10:04:45Z'
 github_star: 3
-github_fork: 1
+github_fork: 3
 ---

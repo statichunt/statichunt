@@ -11,7 +11,7 @@ date: 2019-10-08T09:53:49.000Z
 description: Flexible-Gatsby is a simple and clean theme for Gatsby
 draft: true
 publish_date: '2019-10-08T09:53:49Z'
-update_date: '2022-09-20T07:14:45Z'
+update_date: '2022-11-23T13:15:54Z'
 github_star: 43
-github_fork: 35
+github_fork: 34
 ---

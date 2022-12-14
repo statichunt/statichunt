@@ -18,7 +18,7 @@ category:
 description: J1 - Create powerful modern static websites.
 draft: true
 publish_date: '2021-04-22T13:59:39Z'
-update_date: '2022-10-22T11:11:18Z'
-github_star: 10
+update_date: '2022-11-23T13:22:05Z'
+github_star: 11
 github_fork: 14
 ---

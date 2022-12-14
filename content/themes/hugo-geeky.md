@@ -23,8 +23,8 @@ description: >-
   posts in categories such as AI, Drone, Github, Programming, and many others.
 publish_date: '2021-08-18T06:46:42Z'
 update_date: '2022-10-20T09:30:16Z'
-github_star: 56
-github_fork: 38
+github_star: 60
+github_fork: 39
 draft: false
 ---
 ## Theme Features

@@ -12,6 +12,6 @@ description: Minimal Jekyll theme for storytellers
 draft: true
 publish_date: '2017-03-10T04:32:23Z'
 update_date: '2021-05-03T08:35:47Z'
-github_star: 899
-github_fork: 849
+github_star: 900
+github_fork: 846
 ---

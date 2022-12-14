@@ -9,12 +9,14 @@ cms:
   - Markdown
 date: 2015-03-02T20:04:26.000Z
 description: >-
- Beautiful Jekyll is a ready-to-use template to help you create a beautiful website quickly. Perfect for personal sites, blogs, or simple project websites.
+  Beautiful Jekyll is a ready-to-use template to help you create a beautiful
+  website quickly. Perfect for personal sites, blogs, or simple project
+  websites.
 draft: false
 publish_date: '2015-03-02T20:04:26Z'
 update_date: '2022-10-16T06:37:33Z'
-github_star: 4367
-github_fork: 13530
+github_star: 4441
+github_fork: 13682
 ---
 ## Theme Features
 

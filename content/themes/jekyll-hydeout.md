@@ -12,7 +12,7 @@ description: A refreshed version of Hyde for Jekyll 3.x
 draft: true
 publish_date: '2017-06-01T00:22:41Z'
 update_date: '2021-02-02T18:44:30Z'
-github_star: 539
-github_fork: 723
+github_star: 545
+github_fork: 719
 disabled_reason: Github repo not found
 ---

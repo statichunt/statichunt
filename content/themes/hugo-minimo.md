@@ -12,6 +12,6 @@ description: Minimo - Minimalist theme for Hugo
 draft: true
 publish_date: '2017-05-18T22:32:21Z'
 update_date: '2022-09-21T05:46:34Z'
-github_star: 524
+github_star: 525
 github_fork: 217
 ---

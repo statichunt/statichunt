@@ -21,9 +21,9 @@ category:
   - Landing
 draft: false
 publish_date: '2021-06-08T10:28:37Z'
-update_date: '2021-09-11T08:24:20Z'
-github_star: 128
-github_fork: 33
+update_date: '2022-11-14T08:50:20Z'
+github_star: 148
+github_fork: 44
 ---
 
 ## Theme features

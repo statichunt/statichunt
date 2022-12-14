@@ -16,9 +16,9 @@ category:
 description: An extreme fast, responsive and feature-rich blog theme for Hugo.
 draft: false
 publish_date: '2020-10-15T13:20:45Z'
-update_date: '2022-11-08T00:25:10Z'
-github_star: 306
-github_fork: 126
+update_date: '2022-12-12T02:27:36Z'
+github_star: 323
+github_fork: 128
 ---
 ## Theme features
 

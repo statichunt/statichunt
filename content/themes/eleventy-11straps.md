@@ -20,6 +20,6 @@ description: A Eleventy + Bootstrap 5 starter kit.
 draft: true
 publish_date: '2020-10-30T08:31:23Z'
 update_date: '2022-08-18T11:56:51Z'
-github_star: 86
-github_fork: 19
+github_star: 90
+github_fork: 18
 --- 

@@ -16,7 +16,7 @@ category:
 description: This theme is a lightweight and dark theme for a blog or a portfolio
 draft: true
 publish_date: '2018-07-28T14:56:18Z'
-update_date: '2022-11-03T03:32:23Z'
-github_star: 51
-github_fork: 18
+update_date: '2022-12-09T02:01:21Z'
+github_star: 54
+github_fork: 19
 ---

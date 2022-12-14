@@ -17,9 +17,8 @@ description: >-
   Gatsby and Netlify CMS.
 draft: false
 publish_date: '2020-05-23T10:03:41Z'
-update_date: '2022-04-24T03:49:13Z'
-github_star: 254
-github_fork: 132
+github_star: 258
+github_fork: 134
 ---
 ## Theme Features
 

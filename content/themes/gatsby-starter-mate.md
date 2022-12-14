@@ -11,7 +11,7 @@ date: 2018-08-31T12:10:46.000Z
 description: A portfolio starter for Gatsby integrated with Contentful CMS.
 draft: true
 publish_date: '2018-08-31T12:10:46Z'
-update_date: '2022-11-01T01:42:55Z'
+update_date: '2022-12-01T01:13:01Z'
 github_star: 529
 github_fork: 163
 ---

@@ -15,8 +15,8 @@ category:
   - Business
 publish_date: '2020-05-26T10:38:33Z'
 update_date: '2022-09-02T17:41:06Z'
-github_star: 90
-github_fork: 38
+github_star: 96
+github_fork: 40
 draft: true
 disabled_reason: Github repo not found
 ---

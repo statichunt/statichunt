@@ -17,7 +17,7 @@ description: >-
   full search, Bootstrap components, and more.
 draft: true
 publish_date: '2020-01-23T22:48:08Z'
-update_date: '2021-09-28T09:41:37Z'
-github_star: 88
-github_fork: 61
+update_date: '2022-11-14T10:01:10Z'
+github_star: 90
+github_fork: 63
 ---

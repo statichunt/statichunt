@@ -12,6 +12,6 @@ description: Agency Theme for Jekyll
 draft: true
 publish_date: '2014-08-20T19:54:22Z'
 update_date: '2017-02-27T18:44:56Z'
-github_star: 789
-github_fork: 1742
+github_star: 794
+github_fork: 1760
 ---

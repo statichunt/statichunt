@@ -12,6 +12,6 @@ description: A simple and text-centric theme for Hugo.io
 draft: true
 publish_date: '2017-07-13T02:02:26Z'
 update_date: '2021-09-15T01:57:58Z'
-github_star: 112
+github_star: 117
 github_fork: 57
 ---

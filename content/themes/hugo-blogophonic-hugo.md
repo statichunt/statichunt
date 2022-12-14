@@ -10,6 +10,6 @@ description: Blogophonic – a Hugo blog theme by Formspree
 draft: true
 publish_date: '2019-04-10T19:54:55Z'
 update_date: '2021-01-11T20:15:20Z'
-github_star: 148
-github_fork: 37
+github_star: 152
+github_fork: 38
 ---

@@ -12,6 +12,6 @@ description: A clean, elegant blog theme for hugo
 draft: true
 publish_date: '2018-06-16T13:57:14Z'
 update_date: '2022-11-07T09:20:37Z'
-github_star: 499
-github_fork: 252
+github_star: 513
+github_fork: 259
 ---

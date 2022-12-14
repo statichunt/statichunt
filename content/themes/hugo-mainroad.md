@@ -13,9 +13,8 @@ description: >-
   Magazine lite WordPress theme
 draft: false
 publish_date: '2016-12-15T13:21:09Z'
-update_date: '2022-08-30T14:50:10Z'
-github_star: 697
-github_fork: 395
+github_star: 702
+github_fork: 403
 ---
 
 ## Theme Features

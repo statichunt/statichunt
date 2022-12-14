@@ -20,8 +20,8 @@ description: >-
   by Bootstrap.
 draft: false
 publish_date: '2021-08-09T10:25:21Z'
-update_date: '2022-10-22T03:49:54Z'
-github_star: 55
+update_date: '2022-12-11T07:06:47Z'
+github_star: 57
 github_fork: 52
 ---
 ## Theme Features

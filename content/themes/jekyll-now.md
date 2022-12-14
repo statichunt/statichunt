@@ -12,8 +12,8 @@ description: Build a Jekyll blog in minutes, without touching the command line.
 draft: false
 publish_date: '2014-02-07T00:14:55Z'
 update_date: '2018-04-12T03:31:03Z'
-github_star: 7877
-github_fork: 34444
+github_star: 7895
+github_fork: 34614
 ---
 ## Theme Features
 

@@ -16,6 +16,6 @@ description: A beautiful hexo blog theme with material design and responsive des
 draft: true
 publish_date: '2018-08-27T16:38:12Z'
 update_date: '2022-08-25T08:59:06Z'
-github_star: 4631
-github_fork: 1190
+github_star: 4682
+github_fork: 1198
 ---

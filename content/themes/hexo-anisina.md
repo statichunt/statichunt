@@ -17,6 +17,6 @@ description: A simple responsive, support qiniu image cdn theme for hexo.
 draft: true
 publish_date: '2016-05-27T09:57:08Z'
 update_date: '2021-03-17T12:22:57Z'
-github_star: 767
-github_fork: 158
+github_star: 769
+github_fork: 159
 ---

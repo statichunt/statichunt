@@ -8,11 +8,10 @@ ssg:
 cms:
   - Markdown
 date: 2017-11-16T01:45:13.000Z
-description: >-
-  Simple Jekyll theme for a minimal resume website
+description: Simple Jekyll theme for a minimal resume website
 draft: false
 publish_date: '2017-11-16T01:45:13Z'
-update_date: '2022-03-01T18:42:47Z'
-github_star: 408
-github_fork: 512
+update_date: '2022-12-03T13:04:40Z'
+github_star: 415
+github_fork: 521
 ---

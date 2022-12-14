@@ -17,9 +17,8 @@ category:
   - Ecommerce
 draft: false
 publish_date: '2022-02-09T09:14:29Z'
-update_date: '2022-11-14T14:23:43Z'
 github_star: 14
-github_fork: 6
+github_fork: 7
 ---
 
 ## Theme features

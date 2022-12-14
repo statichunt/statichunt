@@ -11,7 +11,7 @@ date: 2019-07-24T01:14:27.000Z
 description: Customizable, monochromatic and minimalist hugo theme for personal blogs
 draft: true
 publish_date: '2019-07-24T01:14:27Z'
-update_date: '2022-05-27T23:14:13Z'
-github_star: 16
+update_date: '2022-12-09T13:59:06Z'
+github_star: 17
 github_fork: 6
 ---

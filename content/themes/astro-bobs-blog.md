@@ -4,22 +4,21 @@ github: https://github.com/MoofyWoofy/Bob-blog
 demo: https://moofywoofy.github.io/Bob-blog/
 author: Melvin Sekhon
 author_link: https://github.com/MoofyWoofy
-author_twitter: 
-date: 2022-08-31T17:04:50.000+00:00
+author_twitter: null
+date: 2022-08-31T17:04:50.000Z
 description: A responsive, personal blog template, built with Astro and Tailwind CSS.
 ssg:
-- Astro
+  - Astro
 css:
-- Tailwind
-cms: 
+  - Tailwind
+cms: null
 category:
-- Blog
+  - Blog
 draft: false
 publish_date: '2022-06-26T04:03:44Z'
 update_date: '2022-08-29T04:52:15Z'
-github_star: 3
+github_star: 4
 github_fork: 1
-
 ---
 ## Theme features
 

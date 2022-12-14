@@ -12,6 +12,6 @@ description: Gatsby starter for a Contentful project.
 draft: true
 publish_date: '2018-01-29T21:29:51Z'
 update_date: '2021-02-16T11:09:26Z'
-github_star: 280
-github_fork: 127
+github_star: 279
+github_fork: 126
 ---

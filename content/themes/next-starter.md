@@ -15,7 +15,7 @@ description: >-
   quickly start a blog.
 draft: true
 publish_date: '2020-07-25T13:09:25Z'
-update_date: '2022-02-07T14:38:44Z'
-github_star: 489
-github_fork: 122
+update_date: '2022-11-29T21:27:04Z'
+github_star: 494
+github_fork: 126
 ---

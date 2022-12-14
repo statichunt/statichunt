@@ -16,8 +16,8 @@ date: 2018-07-15T10:07:51.000Z
 description: Bigspring is a Hugo startup theme. It has a clean, minimal, fresh UI.
 publish_date: '2020-09-28T10:58:13Z'
 update_date: '2022-10-22T03:24:40Z'
-github_star: 157
-github_fork: 273
+github_star: 159
+github_fork: 275
 draft: false
 ---
 ## Theme Features
