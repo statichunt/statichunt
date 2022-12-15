@@ -21,12 +21,13 @@ import { useEffect, useState } from "react";
 // for all regular pages
 const RegularPages = ({
   slug,
-  data,
   ssgSlug,
+  cssSlug,
+  toolSlug,
   currentPage,
+  data,
   tools,
   category,
-  toolSlug,
   statichuntThemes,
 }) => {
   const { title, meta_title, description, image, noindex, canonical } =
@@ -101,6 +102,32 @@ const RegularPages = ({
             isIntro={isIntro}
           />
         </div>
+      ) : cssSlug.includes(slug) ? (
+        <div className="flex">
+          <Sidebar
+            sidebar={sidebar}
+            themes={getCategories}
+            slug={slug}
+            category={category}
+            setArrayCategory={setArrayCategory}
+            arrayCategory={arrayCategory}
+            setIsIntro={setIsIntro}
+            isIntro={isIntro}
+          >
+            <SortSidebar
+              isShow={isShow}
+              isValue={isValue}
+              handleSortTheme={handleSortTheme}
+              handleClick={handleClick}
+            />
+          </Sidebar>
+          <ThemeTaxonomy
+            currentPage={currentPage}
+            data={filterCategory}
+            tools={tools}
+            isIntro={isIntro}
+          />
+        </div>
       ) : toolSlug.includes(slug) ? (
         <>
           <MobileSidebar />
@@ -147,12 +174,22 @@ export const getStaticProps = async ({ params }) => {
 
   // get taxonomies slug
   const ssgSlug = getSinglePagesSlug("content/ssg");
+  const cssSlug = getSinglePagesSlug("content/css");
   const toolSlug = getSinglePagesSlug("content/tool");
 
   // ssg page
   const ssgPage =
     ssg.length &&
     ssg.filter((page) =>
+      page.frontmatter.url
+        ? page.frontmatter?.url === `/${regular}`
+        : page.slug === regular
+    );
+
+  // css page
+  const cssPage =
+    css.length &&
+    css.filter((page) =>
       page.frontmatter.url
         ? page.frontmatter?.url === `/${regular}`
         : page.slug === regular
@@ -167,9 +204,11 @@ export const getStaticProps = async ({ params }) => {
         : page.slug === regular
     );
 
-  // current page
+  // current page data
   const getCurrentPage = ssgPage.length
     ? slugify(ssgPage[0]?.frontmatter.title)
+    : cssPage.length
+    ? slugify(cssPage[0]?.frontmatter.title)
     : toolPage.length
     ? slugify(toolPage[0]?.frontmatter.title)
     : regular;
@@ -183,11 +222,13 @@ export const getStaticProps = async ({ params }) => {
   );
   const themeByUs = filterByLayout("theme-by-us");
 
-  // currentPage data
+  // current page
   const currentPage = themeByUs.length
     ? themeByUs
     : ssgPage.length
     ? ssgPage
+    : cssPage.length
+    ? cssPage
     : toolPage.length
     ? toolPage
     : defaultPage;
@@ -208,6 +249,7 @@ export const getStaticProps = async ({ params }) => {
     props: {
       slug: regular,
       ssgSlug: ssgSlug,
+      cssSlug: cssSlug,
       toolSlug: toolSlug,
       currentPage: currentPage,
       data: currentPageData,
