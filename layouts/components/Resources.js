@@ -48,7 +48,7 @@ const Resources = ({ resources }) => {
                 {resource.frontmatter.description}
               </p>
               <div className="flex space-x-2">
-                {resource.frontmatter.tool.map((tool, i) => (
+                {resource.frontmatter.tool?.map((tool, i) => (
                   <span
                     className="rounded border border-border px-2 py-[2px] text-xs"
                     key={`tool-${i}`}
