@@ -12,8 +12,8 @@ import {
 
 const { darkIconList } = config;
 
-const ThemeTaxonomy = ({ data, taxonomies, tools, isIntro }) => {
-  const { frontmatter, content } = taxonomies[0];
+const ThemeTaxonomy = ({ data, currentPage, tools, isIntro }) => {
+  const { frontmatter, content } = currentPage[0];
   const {
     title,
     page_title,

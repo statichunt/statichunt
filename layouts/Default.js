@@ -1,5 +1,5 @@
+import MobileSidebar from "@components/MobileSidebar";
 import { markdownify } from "@lib/utils/textConverter";
-import MobileSidebar from "./components/MobileSidebar";
 
 const Default = ({ data }) => {
   const { frontmatter, content } = data[0];

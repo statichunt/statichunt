@@ -1,8 +1,8 @@
 import Resources from "@components/Resources";
 import { markdownify } from "@lib/utils/textConverter";
 
-const ResourceTaxonomy = ({ data, taxonomies }) => {
-  const { frontmatter } = taxonomies[0];
+const ResourceTaxonomy = ({ data, currentPage }) => {
+  const { frontmatter } = currentPage[0];
   const { title, page_title } = frontmatter;
 
   return (

@@ -1,8 +1,7 @@
 ---
 title: About
 meta_title: About Statichunt
-description: ''
-layout: "default"
+description:
 draft: false
 ---
 Statichunt is an open-source directory that enlists hundreds of themes, starters, and resources for static site generators submitted by the community.

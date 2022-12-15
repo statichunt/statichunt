@@ -2,7 +2,6 @@
 title: Disclaimer
 meta_title: Statichunt Disclaimer
 description:
-layout: default
 noindex: true
 ---
 

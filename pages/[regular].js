@@ -23,17 +23,16 @@ const RegularPages = ({
   slug,
   data,
   ssgSlug,
-  taxonomies,
+  currentPage,
   tools,
   category,
   toolSlug,
-  resources,
   statichuntThemes,
 }) => {
   const { title, meta_title, description, image, noindex, canonical } =
-    taxonomies[0]?.frontmatter;
+    currentPage[0]?.frontmatter;
   const { sidebar } = config;
-  const { content } = taxonomies[0];
+  const { content } = currentPage[0];
   const [arrayCategory, setArrayCategory] = useState([]);
   const [isIntro, setIsIntro] = useState(true);
 
@@ -96,7 +95,7 @@ const RegularPages = ({
             />
           </Sidebar>
           <ThemeTaxonomy
-            taxonomies={taxonomies}
+            currentPage={currentPage}
             data={filterCategory}
             tools={tools}
             isIntro={isIntro}
@@ -105,7 +104,7 @@ const RegularPages = ({
       ) : toolSlug.includes(slug) ? (
         <>
           <MobileSidebar />
-          <ResourceTaxonomy data={resources} taxonomies={taxonomies} />
+          <ResourceTaxonomy data={data} currentPage={currentPage} />
         </>
       ) : slug === "theme-by-us" ? (
         <ThemeByUs
@@ -140,18 +139,18 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   const { regular } = params;
 
+  // get taxonomies
   const ssg = getSinglePages("content/ssg");
   const cms = getSinglePages("content/cms");
   const css = getSinglePages("content/css");
   const tool = getSinglePages("content/tool");
-  const toolPage = tool.filter((data) => data.slug === regular);
 
-  // taxonomy slug
+  // get taxonomies slug
   const ssgSlug = getSinglePagesSlug("content/ssg");
   const toolSlug = getSinglePagesSlug("content/tool");
 
-  // taxonomy page data
-  const singleListPage =
+  // ssg page
+  const ssgPage =
     ssg.length &&
     ssg.filter((page) =>
       page.frontmatter.url
@@ -159,16 +158,8 @@ export const getStaticProps = async ({ params }) => {
         : page.slug === regular
     );
 
-  const allThemes = await getRegularPage(
-    singleListPage.length
-      ? slugify(singleListPage[0]?.frontmatter.title)
-      : regular
-  );
-
   // tool page
-  const allResources = getSinglePages("content/resources");
-
-  const singleToolPage =
+  const toolPage =
     tool.length &&
     tool.filter((page) =>
       page.frontmatter.url
@@ -176,35 +167,32 @@ export const getStaticProps = async ({ params }) => {
         : page.slug === regular
     );
 
-  const singleResources = allResources.filter((data) =>
-    data.frontmatter.tool
-      .map((tool) => slugify(tool))
-      .includes(slugify(singleToolPage[0]?.frontmatter.title))
-  );
+  // current page
+  const getCurrentPage = ssgPage.length
+    ? slugify(ssgPage[0]?.frontmatter.title)
+    : toolPage.length
+    ? slugify(toolPage[0]?.frontmatter.title)
+    : regular;
+  const currentPageData = await getRegularPage(getCurrentPage);
 
   // layout filtering
-  const filterByLayout = (layout) => {
-    const layoutFilter = allThemes.filter(
-      (data) => data.frontmatter.layout === layout
-    );
-    return layoutFilter;
-  };
-  const aboutPage = filterByLayout("about");
-  const defaultPage = filterByLayout("default");
-  const statichunt = filterByLayout("theme-by-us");
+  const filterByLayout = (layout) =>
+    currentPageData.filter((data) => data.frontmatter.layout === layout);
+  const defaultPage = currentPageData.filter(
+    (data) => !data.frontmatter.layout
+  );
+  const themeByUs = filterByLayout("theme-by-us");
 
-  // taxonomies data
-  const taxonomies = statichunt.length
-    ? statichunt
-    : aboutPage.length
-    ? aboutPage
-    : singleListPage.length
-    ? singleListPage
+  // currentPage data
+  const currentPage = themeByUs.length
+    ? themeByUs
+    : ssgPage.length
+    ? ssgPage
     : toolPage.length
     ? toolPage
     : defaultPage;
 
-  // all taxonomies
+  // all tools
   const category = getSinglePages("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
 
@@ -219,15 +207,12 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       slug: regular,
-      data: allThemes,
       ssgSlug: ssgSlug,
-      taxonomies: taxonomies,
-      tools: tools,
-      resources: singleResources,
-      category: category,
-      themes: themes,
       toolSlug: toolSlug,
-      allResources: allResources,
+      currentPage: currentPage,
+      data: currentPageData,
+      tools: tools,
+      category: category,
       statichuntThemes: statichuntThemes,
     },
   };
