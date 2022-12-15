@@ -16,3 +16,7 @@ If you love this project don't forget to click the "Star" button on [Github](htt
 #### Acknowledgments
 
 This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Nextjs</a>, Deployed by <a href="https://vercel.com/" target="_blank" rel="nofollow noopener noreferrer">Vercel</a>, and Managed by <a href="https://forestry.io/" target="_blank" rel="nofollow noopener noreferrer">Forestry</a>
+
+#### Contact Us
+
+hey.statichunt@gmail.com

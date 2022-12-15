@@ -30,7 +30,7 @@ Anyone can submit a resource by adding a markdown file to the `content/resources
 ## Feedback
 
 What would make this project better? We are open to getting your valuable feedback. Also, share your thoughts on this project and help us upgrade.
-<br> hey@statichunt.com
+<br> hey.statichunt@gmail.com
 
 If you love this project don’t forget to click the “Star” button.
 

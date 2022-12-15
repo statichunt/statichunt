@@ -1,8 +1,12 @@
 {
   "main": [
     {
-      "name": "Themes",
+      "name": "All Themes",
       "url": "/"
+    },
+    {
+      "name": "Themes By Us",
+      "url": "/theme-by-us"
     },
     {
       "name": "Resources",
