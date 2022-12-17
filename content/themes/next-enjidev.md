@@ -1,7 +1,7 @@
 ---
 title: Enji Dev
 github: https://github.com/enjidev/enji.dev
-demo: https://www.enji-dev
+demo: https://www.enji.dev/
 author: Enji Kusnadi
 author_link: https://github.com/enjidev
 date: 2022-12-17T00:00:00.000Z

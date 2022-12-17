@@ -4,9 +4,8 @@ download: https://gethugothemes.com/products/bexer
 github: null
 price: 79
 demo: https://demo.gethugothemes.com/bexer/site/
-author: Themefisher
-author_link: https://themefisher.com
-author_twitter: null
+author: Gethugothemes
+author_link: https://gethugothemes.com
 date: 2022-12-17T00:00:00.000Z
 description: Bexer is a sleek and contemporary Hugo business theme to create the perfect website for any service. You will get Home, About, service, blog, and contact pages in this excellent theme. 
 ssg:
