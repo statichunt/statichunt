@@ -26,9 +26,9 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                   ? `${section ? "/" + section : "/"}`
                   : `${section ? "/" + section : ""}/page/${currentPage - 1}`
               }
-              passHref
+              className="border border-primary px-2 py-2 text-text"
             >
-              <a className="border border-primary px-2 py-2 text-text">
+              <>
                 <span className="sr-only">Previous</span>
                 <svg
                   className="mt-1 h-5 w-5"
@@ -43,7 +43,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </>
             </Link>
           ) : (
             <span className="border border-primary px-2 py-2 text-text">
@@ -81,14 +81,10 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                       ? `${section ? "/" + section : "/"}`
                       : `${section ? "/" + section : ""}/page/${pagination}`
                   }
-                  passHref
+                  aria-current="page"
+                  className={`border border-primary px-4 py-2 text-text`}
                 >
-                  <a
-                    aria-current="page"
-                    className={`border border-primary px-4 py-2 text-text`}
-                  >
-                    {pagination}
-                  </a>
+                  {pagination}
                 </Link>
               )}
             </React.Fragment>
@@ -98,9 +94,9 @@ const Pagination = ({ section, currentPage, totalPages }) => {
           {hasNextPage ? (
             <Link
               href={`${section ? "/" + section : ""}/page/${currentPage + 1}`}
-              passHref
+              className="border border-primary px-2 py-2 text-text"
             >
-              <a className="border border-primary px-2 py-2 text-text">
+              <>
                 <span className="sr-only">Next</span>
                 <svg
                   className="mt-1 h-5 w-5"
@@ -115,7 +111,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </>
             </Link>
           ) : (
             <span className="border border-primary px-2 py-2 text-text">

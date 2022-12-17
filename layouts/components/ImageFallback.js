@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import Image from "next/future/image";
+import Image from "next/image";
 import { useState } from "react";
 
 const ImageFallback = (props) => {

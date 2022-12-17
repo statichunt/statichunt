@@ -1,6 +1,6 @@
 import Base from "@layouts/Baseof";
 import { getSinglePages, getSinglePagesSlug } from "@lib/contents";
-import Image from "next/future/image";
+import Image from "next/image";
 
 const Resource = ({ resource, slug }) => {
   const { frontmatter, content } = resource[0];

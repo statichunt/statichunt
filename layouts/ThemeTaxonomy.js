@@ -1,7 +1,7 @@
 import Themes from "@components/Themes";
 import config from "@config/config.json";
 import { markdownify, slugify } from "@lib/utils/textConverter";
-import Image from "next/future/image";
+import Image from "next/image";
 import {
   TbBrandGithub,
   TbBrandTwitter,

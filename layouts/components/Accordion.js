@@ -1,6 +1,6 @@
 import config from "@config/config.json";
 import { slugify } from "@lib/utils/textConverter";
-import Image from "next/future/image";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Accordion = ({

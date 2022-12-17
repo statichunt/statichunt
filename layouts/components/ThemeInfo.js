@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import { dateFormat } from "@lib/utils/dateFormat";
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 import ToolsIcon from "./ToolsIcon";
 
@@ -148,18 +148,15 @@ const ThemeInfo = ({ theme, slug, tools }) => {
                   ? `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
                   : ""
               }
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              className="text-dark hover:underline dark:text-white"
             >
-              <a
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                className="text-dark hover:underline dark:text-white"
-              >
-                {author
-                  ? author
-                  : github
-                  ? github.match(/github\.com\/([^\/]+)/, "")[0]
-                  : ""}
-              </a>
+              {author
+                ? author
+                : github
+                ? github.match(/github\.com\/([^\/]+)/, "")[0]
+                : ""}
             </Link>
           </div>
         </div>

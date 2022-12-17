@@ -64,7 +64,7 @@ const DemoHeader = ({
           </div>
         </div>
         {/* demo switcher */}
-        <div className="hidden text-center lg:col-2 lg:block">
+        <div className="hidden text-center lg:block lg:col-2">
           <div className="demo-switcher">
             <button
               className={`has-tooltip tooltip-bottom svg-block demo-switch-desktop ${
@@ -98,13 +98,12 @@ const DemoHeader = ({
         {/* info buttons */}
         <div className="lg:col-3 xl:col-5">
           <div className="flex flex-wrap items-center justify-end space-x-3 pr-10 md:pr-5">
-            <Link href={`/themes/${slug}/`}>
-              <a
-                data-tooltip="Information"
-                className="btn btn-outline-primary svg-block has-tooltip tooltip-bottom text-lg !leading-none"
-              >
-                <TbInfoCircle />
-              </a>
+            <Link
+              href={`/themes/${slug}/`}
+              data-tooltip="Information"
+              className="btn btn-outline-primary svg-block has-tooltip tooltip-bottom text-lg !leading-none"
+            >
+              <TbInfoCircle />
             </Link>
             <a
               className="btn btn-outline-primary svg-block has-tooltip tooltip-bottom text-lg !leading-none"

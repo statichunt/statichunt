@@ -152,10 +152,11 @@ const Sidebar = ({
         <ul className="sidebar-main-menu block border-t-2 py-4 dark:border-t-darkmode-theme-light lg:hidden">
           {main.map((menu, i) => (
             <li key={`menu-${i}`}>
-              <Link href={menu.url} passHref>
-                <a className="inline-block py-2 text-black transition-all duration-150 hover:text-primary dark:text-white dark:hover:text-darkmode-primary">
-                  {menu.name}
-                </a>
+              <Link
+                href={menu.url}
+                className="inline-block py-2 text-black transition-all duration-150 hover:text-primary dark:text-white dark:hover:text-darkmode-primary"
+              >
+                {menu.name}
               </Link>
             </li>
           ))}

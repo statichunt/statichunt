@@ -3,7 +3,7 @@ import config from "@config/config.json";
 import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -29,13 +29,12 @@ const Footer = () => {
               <ul className={i != 0 ? "mr-4 columns-2" : undefined}>
                 {item.pages.map((page, i) => (
                   <li key={`page-${i}`} className="mb-2">
-                    <Link href={page.url} passHref>
-                      <a
-                        className="text-sm capitalize text-light hover:text-white"
-                        rel={page.rel}
-                      >
-                        {page.page}
-                      </a>
+                    <Link
+                      href={page.url}
+                      className="text-sm capitalize text-light hover:text-white"
+                      rel={page.rel}
+                    >
+                      {page.page}
                     </Link>
                   </li>
                 ))}
@@ -47,20 +46,12 @@ const Footer = () => {
 
       {/* footer bottom */}
       <div className="row items-center lg:justify-center">
-        <div className="col-12 mb-3 md:col-5 lg:col-3 lg:mb-0">
-          <Link href="/" passHref>
-            <a className="inline-block">
-              <Image
-                src={site.footer_logo}
-                width={180}
-                height={35}
-                alt="logo"
-                layout="fixed"
-              />
-            </a>
+        <div className="col-12 mb-3 md:col-5 lg:mb-0 lg:col-3">
+          <Link href="/" className="inline-block">
+            <Image src={site.footer_logo} width={180} height={35} alt="logo" />
           </Link>
         </div>
-        <div className="col-12 mb-4 md:col-7 lg:col-4 lg:mb-0">
+        <div className="col-12 mb-4 md:col-7 lg:mb-0 lg:col-4">
           <div className="flex items-center">
             <span className="mr-3 inline-block text-sm text-white">
               Connect with us :

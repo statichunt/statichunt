@@ -60,8 +60,8 @@ const Header = () => {
         <ul className="navbar-nav hidden lg:flex">
           {main.map((menu, i) => (
             <li className="nav-item" key={`menu-${i}`}>
-              <Link href={menu.url} passHref>
-                <a className="nav-link block">{menu.name}</a>
+              <Link href={menu.url} className="nav-link block">
+                {menu.name}
               </Link>
             </li>
           ))}

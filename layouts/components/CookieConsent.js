@@ -101,7 +101,6 @@ const CookieConsent = () => {
             />
           </span>
           This website uses cookies
-          {/* <Link href="/privacy-policy">Learn more</Link> */}
         </div>
         <button className="cookieBarBtn" onClick={cookieHandler}>
           Accept

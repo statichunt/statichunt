@@ -1,6 +1,6 @@
 import { humanize } from "@lib/utils/textConverter";
 import sortButton from "config/sort.json";
-import Image from "next/future/image";
+import Image from "next/image";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
 const SortSidebar = ({ isShow, isValue, handleSortTheme, handleClick }) => {
