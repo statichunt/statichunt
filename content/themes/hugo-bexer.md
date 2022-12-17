@@ -1,0 +1,40 @@
+---
+title: Bexer
+download: https://gethugothemes.com/products/bexer
+github: null
+price: 79
+demo: https://demo.gethugothemes.com/bexer/site/
+author: Themefisher
+author_link: https://themefisher.com
+author_twitter: null
+date: 2022-12-17T00:00:00.000Z
+description: Bexer is a sleek and contemporary Hugo business theme to create the perfect website for any service. You will get Home, About, service, blog, and contact pages in this excellent theme. 
+ssg:
+  - Hugo
+css:
+  - Bootstrap
+cms:
+  - Markdown
+category:
+  - Business
+draft: false
+---
+
+## Theme features
+
+- Page Speed (90/100)
+- SEO-Ready
+- Netlify-Ready
+- Forestry-Ready(CMS)
+- CSS & JS Bundle With Hugo Pipe
+- Attractive Hero Area
+- Reusable Shortcodes
+- Google Analytics Support
+- i18n support for Multilanguage (Fr, En)
+- Caching Enabled
+- Contact form support
+- Search by fuse.js
+- Mailchimp integrated
+- Google map support
+- Fun fact Counter available
+- Options to customize the top header
