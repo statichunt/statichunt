@@ -7,7 +7,6 @@ import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
 import Default from "@layouts/Default";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
-import ThemeByUs from "@layouts/ThemeByUs";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
   getRegularPage,
@@ -28,7 +27,6 @@ const RegularPages = ({
   data,
   tools,
   category,
-  statichuntThemes,
 }) => {
   const { title, meta_title, description, image, noindex, canonical } =
     currentPage[0]?.frontmatter;
@@ -133,12 +131,6 @@ const RegularPages = ({
           <MobileSidebar />
           <ResourceTaxonomy data={data} currentPage={currentPage} />
         </>
-      ) : slug === "theme-by-us" ? (
-        <ThemeByUs
-          statichuntThemes={statichuntThemes}
-          tools={tools}
-          data={data}
-        />
       ) : (
         <Default data={data} />
       )}
@@ -170,6 +162,7 @@ export const getStaticProps = async ({ params }) => {
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
+  const category = getSinglePage("content/category");
   const tool = getSinglePage("content/tool");
 
   // get taxonomies slug
@@ -215,17 +208,12 @@ export const getStaticProps = async ({ params }) => {
   const currentPageData = await getRegularPage(getCurrentPage);
 
   // layout filtering
-  const filterByLayout = (layout) =>
-    currentPageData.filter((data) => data.frontmatter.layout === layout);
   const defaultPage = currentPageData.filter(
     (data) => !data.frontmatter.layout
   );
-  const themeByUs = filterByLayout("theme-by-us");
 
   // current page
-  const currentPage = themeByUs.length
-    ? themeByUs
-    : ssgPage.length
+  const currentPage = ssgPage.length
     ? ssgPage
     : cssPage.length
     ? cssPage
@@ -234,16 +222,7 @@ export const getStaticProps = async ({ params }) => {
     : defaultPage;
 
   // all tools
-  const category = getSinglePage("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
-
-  // all themes
-  const themes = getSinglePage("content/themes");
-
-  // statichunt themes
-  const statichuntThemes = themes.filter(
-    (theme) => theme.frontmatter.author === "Statichunt"
-  );
 
   return {
     props: {
@@ -255,7 +234,6 @@ export const getStaticProps = async ({ params }) => {
       data: currentPageData,
       tools: tools,
       category: category,
-      statichuntThemes: statichuntThemes,
     },
   };
 };

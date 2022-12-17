@@ -48,9 +48,9 @@ const ResourceList = ({ tool, resources, indexPage }) => {
 export default ResourceList;
 
 export const getStaticProps = async () => {
-  const ResourcesList = await getListPage("content/resources");
+  const ResourcesList = await getListPage("content/resources/_index.md");
   const { frontmatter } = ResourcesList;
-  const toolsIndex = await getListPage("content/tool");
+  const toolsIndex = await getListPage("content/tool/_index.md");
   const tools = getSinglePage("content/tool");
   const resources = getSinglePage("content/resources");
 

@@ -129,7 +129,7 @@ export default Home;
 
 // for homepage data
 export const getStaticProps = async () => {
-  const homepage = await getListPage("content");
+  const homepage = await getListPage("content/_index.md");
   const { frontmatter } = homepage;
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
