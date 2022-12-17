@@ -1,5 +1,5 @@
 import Base from "@layouts/Baseof";
-import { getSinglePages, getSinglePagesSlug } from "@lib/contents";
+import { getSinglePage, getSinglePageSlug } from "@lib/contents";
 import Image from "next/image";
 
 const Resource = ({ resource, slug }) => {
@@ -51,7 +51,7 @@ const Resource = ({ resource, slug }) => {
 export default Resource;
 
 export const getStaticPaths = () => {
-  const slugs = getSinglePagesSlug("content/resources");
+  const slugs = getSinglePageSlug("content/resources");
   const paths = slugs.map((resource) => ({
     params: {
       resource: resource,
@@ -66,8 +66,8 @@ export const getStaticPaths = () => {
 
 export const getStaticProps = ({ params }) => {
   const { resource } = params;
-  const allResources = getSinglePages("content/resources");
-  const tools = getSinglePages("content/tool");
+  const allResources = getSinglePage("content/resources");
+  const tools = getSinglePage("content/tool");
   const singleResources = allResources.filter((data) => data.slug == resource);
 
   return {

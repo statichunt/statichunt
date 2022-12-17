@@ -4,7 +4,7 @@ import ThemeInfo from "@components/ThemeInfo";
 import ThemePreview from "@components/ThemePreview";
 import Themes from "@components/Themes";
 import Base from "@layouts/Baseof";
-import { getSinglePages, getSinglePagesSlug } from "@lib/contentParser";
+import { getSinglePage, getSinglePageSlug } from "@lib/contentParser";
 import { similerItems } from "@lib/utils/similarItems";
 import { markdownify, plainify } from "@lib/utils/textConverter";
 
@@ -39,7 +39,7 @@ const SingleTheme = ({ slug, theme, allTheme, tools }) => {
               </div>
             </div>
 
-            <div className="mt-lg-0 mt-4 lg:col-4 lg:mt-0">
+            <div className="mt-lg-0 mt-4 lg:mt-0 lg:col-4">
               <ThemeInfo theme={theme} slug={slug} tools={tools} />
             </div>
           </div>
@@ -63,7 +63,7 @@ const SingleTheme = ({ slug, theme, allTheme, tools }) => {
 export default SingleTheme;
 
 export const getStaticPaths = () => {
-  const slugs = getSinglePagesSlug("content/themes");
+  const slugs = getSinglePageSlug("content/themes");
 
   const paths = slugs.map((theme) => ({
     params: {
@@ -79,12 +79,12 @@ export const getStaticPaths = () => {
 
 export const getStaticProps = ({ params }) => {
   const { theme } = params;
-  const allTheme = getSinglePages("content/themes");
+  const allTheme = getSinglePage("content/themes");
   const singleTheme = allTheme.filter((data) => data.slug == theme);
-  const ssg = getSinglePages("content/ssg");
-  const cms = getSinglePages("content/cms");
-  const css = getSinglePages("content/css");
-  const category = getSinglePages("content/category");
+  const ssg = getSinglePage("content/ssg");
+  const cms = getSinglePage("content/cms");
+  const css = getSinglePage("content/css");
+  const category = getSinglePage("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
 
   return {

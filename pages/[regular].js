@@ -7,13 +7,12 @@ import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
 import Default from "@layouts/Default";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
-import ThemeByUs from "@layouts/ThemeByUs";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
   getRegularPage,
   getRegularPageSlug,
-  getSinglePages,
-  getSinglePagesSlug,
+  getSinglePage,
+  getSinglePageSlug,
 } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { useEffect, useState } from "react";
@@ -28,7 +27,6 @@ const RegularPages = ({
   data,
   tools,
   category,
-  statichuntThemes,
 }) => {
   const { title, meta_title, description, image, noindex, canonical } =
     currentPage[0]?.frontmatter;
@@ -133,12 +131,6 @@ const RegularPages = ({
           <MobileSidebar />
           <ResourceTaxonomy data={data} currentPage={currentPage} />
         </>
-      ) : slug === "theme-by-us" ? (
-        <ThemeByUs
-          statichuntThemes={statichuntThemes}
-          tools={tools}
-          data={data}
-        />
       ) : (
         <Default data={data} />
       )}
@@ -167,15 +159,16 @@ export const getStaticProps = async ({ params }) => {
   const { regular } = params;
 
   // get taxonomies
-  const ssg = getSinglePages("content/ssg");
-  const cms = getSinglePages("content/cms");
-  const css = getSinglePages("content/css");
-  const tool = getSinglePages("content/tool");
+  const ssg = getSinglePage("content/ssg");
+  const cms = getSinglePage("content/cms");
+  const css = getSinglePage("content/css");
+  const category = getSinglePage("content/category");
+  const tool = getSinglePage("content/tool");
 
   // get taxonomies slug
-  const ssgSlug = getSinglePagesSlug("content/ssg");
-  const cssSlug = getSinglePagesSlug("content/css");
-  const toolSlug = getSinglePagesSlug("content/tool");
+  const ssgSlug = getSinglePageSlug("content/ssg");
+  const cssSlug = getSinglePageSlug("content/css");
+  const toolSlug = getSinglePageSlug("content/tool");
 
   // ssg page
   const ssgPage =
@@ -215,17 +208,12 @@ export const getStaticProps = async ({ params }) => {
   const currentPageData = await getRegularPage(getCurrentPage);
 
   // layout filtering
-  const filterByLayout = (layout) =>
-    currentPageData.filter((data) => data.frontmatter.layout === layout);
   const defaultPage = currentPageData.filter(
     (data) => !data.frontmatter.layout
   );
-  const themeByUs = filterByLayout("theme-by-us");
 
   // current page
-  const currentPage = themeByUs.length
-    ? themeByUs
-    : ssgPage.length
+  const currentPage = ssgPage.length
     ? ssgPage
     : cssPage.length
     ? cssPage
@@ -234,16 +222,7 @@ export const getStaticProps = async ({ params }) => {
     : defaultPage;
 
   // all tools
-  const category = getSinglePages("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
-
-  // all themes
-  const themes = getSinglePages("content/themes");
-
-  // statichunt themes
-  const statichuntThemes = themes.filter(
-    (theme) => theme.frontmatter.author === "Statichunt"
-  );
 
   return {
     props: {
@@ -255,7 +234,6 @@ export const getStaticProps = async ({ params }) => {
       data: currentPageData,
       tools: tools,
       category: category,
-      statichuntThemes: statichuntThemes,
     },
   };
 };
