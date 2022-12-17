@@ -5,7 +5,6 @@ demo: https://www.lengstorf.com/
 license: MIT
 author: Jason Lengstorf
 author_link: ''
-author_twitter: jlengstorf
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

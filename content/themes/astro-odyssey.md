@@ -4,7 +4,6 @@ github: https://github.com/littlesticksdev/odyssey-theme
 demo: https://odyssey-theme.littlesticks.site/landing-pages/landing-1
 author: Little Sticks
 author_link: https://github.com/littlesticksdev
-author_twitter: null
 date: 2022-08-31T00:31:50.000Z
 description: >-
   This is the repo for the Odyssey Theme, a modern theme/starter for a business

@@ -4,7 +4,6 @@ github: https://github.com/kirill-zhirnov/boundless-nextjs-sample
 demo: https://blank.demos.boundless-commerce.com/
 author: Kirill Zhirnov
 author_link: null
-author_twitter: null
 date: 2022-09-02T01:34:00.000Z
 description: Ready to use Next.js starter kit for high-performance e-commerce websites.
 ssg:

@@ -4,7 +4,6 @@ github: https://github.com/onwidget/astrowind
 demo: https://astrowind.vercel.app/
 author: onWidget
 author_link: https://github.com/onwidget
-author_twitter: onwidget
 date: 2022-08-31T11:44:50.000Z
 description: >-
   AstroWind is a free and open-source template to make your website using Astro

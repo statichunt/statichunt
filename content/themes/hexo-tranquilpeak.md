@@ -5,7 +5,6 @@ demo: https://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/
 license: GPL-3.0
 author: Louis Barranqueiro
 author_link: ''
-author_twitter: gorgiasio
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo

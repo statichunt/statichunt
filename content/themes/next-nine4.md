@@ -5,7 +5,6 @@ demo: https://nine4.app/
 license: GPL-3.0
 author: jack latimer
 author_link: ''
-author_twitter: jacklatimer0
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Next

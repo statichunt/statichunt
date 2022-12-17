@@ -4,7 +4,6 @@ github: https://github.com/saleor/react-storefront
 demo: https://demo.saleor.io/default-channel/en-US/
 author: Saleor Commerce
 author_link: null
-author_twitter: getsaleor
 date: 2022-09-02T12:42:00.000Z
 description: >-
   An open-source storefront in React.js with Next.js. Built for Headless

@@ -5,7 +5,6 @@ demo: https://next-saas-starter-ashy.vercel.app/
 license: MIT
 author: blazity
 author_link: https://github.com/Blazity
-author_twitter: null
 date: 2022-08-31T04:00:00.000Z
 ssg:
   - Next
@@ -27,6 +26,7 @@ github_fork: 125
 ---
 
 ## Theme features
+
 - Best SEO setup - Meta Tags, JSON-LD and Open Graph Tags
 - Tina CMS integration - local & (optional) production CMS
 - Optimized for Web Vitals

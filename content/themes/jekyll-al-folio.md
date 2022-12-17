@@ -5,7 +5,6 @@ demo: https://alshedivat.github.io/al-folio/
 license: MIT
 author: alshedivat
 author_link: ''
-author_twitter: alshedivat
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Jekyll

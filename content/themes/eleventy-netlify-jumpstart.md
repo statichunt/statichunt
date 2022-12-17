@@ -5,7 +5,6 @@ demo: https://11ty-netlify-jumpstart.netlify.app/
 license: ISC
 author: Stephanie Eckles
 author_link: ''
-author_twitter: 5t3ph
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Eleventy

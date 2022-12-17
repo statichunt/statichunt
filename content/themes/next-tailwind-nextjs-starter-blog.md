@@ -4,7 +4,6 @@ github: https://github.com/timlrx/tailwind-nextjs-starter-blog
 demo: https://tailwind-nextjs-starter-blog.vercel.app/
 author: Timothy
 author_link: https://github.com/timlrx
-author_twitter: null
 date: 2022-08-30T13:13:50.000Z
 description: >-
   This is a Next.js, Tailwind CSS blogging starter template. Comes out of the

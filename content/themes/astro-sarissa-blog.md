@@ -4,7 +4,6 @@ github: https://github.com/iozcelik/SarissaBlogAstroStarter
 demo: https://sarissa-blog-astro-starter.vercel.app/
 author: İsmail Özçelik
 author_link: https://github.com/iozcelik
-author_twitter: ismailozcelik
 date: 2022-08-31T16:18:50.000Z
 description: >-
   Responsive, functional, personal blog theme for Astro.Sarissa Blog theme

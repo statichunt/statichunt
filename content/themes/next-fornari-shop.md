@@ -4,7 +4,6 @@ github: https://github.com/cdfornari/FornariShop
 demo: https://fornari-shop.herokuapp.com/
 author: Carlos Fornari
 author_link: null
-author_twitter: null
 date: 2022-09-02T01:42:00.000Z
 description: NextJS e-commerce with admin dashboard.
 ssg:

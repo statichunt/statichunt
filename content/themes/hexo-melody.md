@@ -5,7 +5,6 @@ demo: https://molunerfinn.com/
 license: 996ICU
 author: PiEgg
 author_link: ''
-author_twitter: Molunerfinn
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo

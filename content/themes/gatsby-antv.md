@@ -4,7 +4,6 @@ github: https://github.com/antvis/gatsby-theme-antv
 demo: https://gatsby-starter-theme-antv.antv.vision/en
 author: AntV Team
 author_link: https://github.com/antvis
-author_twitter: null
 date: 2022-12-03T00:00:00.000Z
 description: A Beautiful Polished Gatsby theme for documentation site.
 ssg:

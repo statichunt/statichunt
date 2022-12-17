@@ -4,7 +4,6 @@ github: https://github.com/ixartz/Astro-boilerplate
 demo: https://creativedesignsguru.com/demo/astro-boilerplate/
 author: Remi W.
 author_link: https://github.com/ixartz
-author_twitter: ixartz
 date: 2022-08-31T11:44:50.000Z
 description: >-
   Astro Boilerplate is starter code for your blog or portfolio based on Astro

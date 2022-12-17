@@ -4,7 +4,6 @@ github: https://github.com/gethugothemes/andromeda-light
 demo: https://demo.gethugothemes.com/andromeda-light/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com/
-author_twitter: gethugothemes
 ssg:
   - Hugo
 css:

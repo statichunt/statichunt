@@ -5,7 +5,6 @@ demo: https://pankod.github.io/next-boilerplate/
 license: MIT
 author: pankod
 author_link: ''
-author_twitter: pankoddev
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Next

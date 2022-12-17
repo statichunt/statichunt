@@ -4,7 +4,6 @@ github: https://github.com/kirill-zhirnov/boundless-moon-theme
 demo: https://moon.demos.boundless-commerce.com/
 author: Kirill Zhirnov
 author_link: null
-author_twitter: null
 date: 2022-09-02T01:26:00.000Z
 description: >-
   Ready to use Next.js (TypeScript) free template to create high-performance

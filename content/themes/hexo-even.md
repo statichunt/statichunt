@@ -5,7 +5,6 @@ demo: https://ahonn.github.io/hexo-theme-even/
 license: MIT
 author: Yuexun Jiang
 author_link: ''
-author_twitter: ahonnjiang
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo

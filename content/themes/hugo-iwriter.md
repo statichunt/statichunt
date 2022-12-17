@@ -4,7 +4,6 @@ github: https://github.com/statichunt/iwriter-hugo
 demo: https://demo.statichunt.com/iwriter-hugo/
 author: Statichunt
 author_link: https://statichunt.com/
-author_twitter: heyStatichunt
 ssg:
   - Hugo
 cms:

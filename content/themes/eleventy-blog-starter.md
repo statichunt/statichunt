@@ -5,7 +5,6 @@ demo: https://eleventy.rongying.co/
 license: null
 author: Rong Ying
 author_link: ''
-author_twitter: RongRunBuild
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Eleventy

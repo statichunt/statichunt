@@ -5,7 +5,6 @@ demo: https://nextarter-chakra.sznm.dev/
 license: MIT
 author: agustinus nathaniel
 author_link: ''
-author_twitter: sozonome
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Next

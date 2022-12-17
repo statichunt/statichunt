@@ -5,7 +5,6 @@ demo: https://gatsby-woocommerce-theme.netlify.app/
 license: MIT
 author: Imran Sayed
 author_link: ''
-author_twitter: imranhsayed
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

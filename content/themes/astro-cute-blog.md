@@ -4,7 +4,6 @@ github: https://github.com/mesinkasir/cute-blog
 demo: https://cuteblog.web.app/
 author: Mesin Kasir
 author_link: https://github.com/mesinkasir
-author_twitter: null
 date: 2022-08-31T16:36:50.000Z
 description: >-
   Cuteblog blog template for astro modern generator static site - Created with

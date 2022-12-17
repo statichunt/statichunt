@@ -5,7 +5,6 @@ demo: https://demos.creative-tim.com/nextjs-material-kit/components
 license: MIT
 author: creative tim
 author_link: ''
-author_twitter: creativetim
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Next
