@@ -3,7 +3,7 @@ title: LogBook
 download: https://gethugothemes.com/products/logbook
 github: null
 price: 79
-demo: https://demo.gethugothemes.com/logbook/
+demo: https://demo.gethugothemes.com/logbook/site/
 author: Themefisher
 author_link: https://themefisher.com
 author_twitter: null

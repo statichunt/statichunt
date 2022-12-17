@@ -3,7 +3,7 @@ title: Small Apps
 download: https://gethugothemes.com/products/small-apps
 github: null
 price: 79
-demo: https://demo.gethugothemes.com/small-apps/
+demo: https://demo.gethugothemes.com/small-apps/site/
 author: Themefisher
 author_link: https://themefisher.com
 author_twitter: null

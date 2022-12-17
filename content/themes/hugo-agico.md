@@ -3,7 +3,7 @@ title: Agico
 download: https://gethugothemes.com/products/agico
 github: null
 price: 79
-demo: https://demo.gethugothemes.com/agico/
+demo: https://demo.gethugothemes.com/agico/site/
 author: Themefisher
 author_link: https://themefisher.com
 author_twitter: null
