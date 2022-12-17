@@ -2,7 +2,7 @@ import Resources from "@components/Resources";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import { getListPage, getSinglePages } from "@lib/contentParser";
+import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useState } from "react";
 
@@ -51,8 +51,8 @@ export const getStaticProps = async () => {
   const ResourcesList = await getListPage("content/resources");
   const { frontmatter } = ResourcesList;
   const toolsIndex = await getListPage("content/tool");
-  const tools = getSinglePages("content/tool");
-  const resources = getSinglePages("content/resources");
+  const tools = getSinglePage("content/tool");
+  const resources = getSinglePage("content/resources");
 
   return {
     props: {

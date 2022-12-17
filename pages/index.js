@@ -5,7 +5,7 @@ import SortThemes from "@components/SortThemes";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import { getListPage, getSinglePages } from "@lib/contentParser";
+import { getListPage, getSinglePage } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { setOthersCategory } from "hooks/setOthersCategory";
 import SortReducer from "hooks/sortReducer";
@@ -131,12 +131,12 @@ export default Home;
 export const getStaticProps = async () => {
   const homepage = await getListPage("content");
   const { frontmatter } = homepage;
-  const ssg = getSinglePages("content/ssg");
-  const cms = getSinglePages("content/cms");
-  const css = getSinglePages("content/css");
-  const category = getSinglePages("content/category");
+  const ssg = getSinglePage("content/ssg");
+  const cms = getSinglePage("content/cms");
+  const css = getSinglePage("content/css");
+  const category = getSinglePage("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
-  const themes = getSinglePages("content/themes");
+  const themes = getSinglePage("content/themes");
 
   return {
     props: {

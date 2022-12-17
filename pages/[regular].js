@@ -12,8 +12,8 @@ import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
   getRegularPage,
   getRegularPageSlug,
-  getSinglePages,
-  getSinglePagesSlug,
+  getSinglePage,
+  getSinglePageSlug,
 } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { useEffect, useState } from "react";
@@ -167,15 +167,15 @@ export const getStaticProps = async ({ params }) => {
   const { regular } = params;
 
   // get taxonomies
-  const ssg = getSinglePages("content/ssg");
-  const cms = getSinglePages("content/cms");
-  const css = getSinglePages("content/css");
-  const tool = getSinglePages("content/tool");
+  const ssg = getSinglePage("content/ssg");
+  const cms = getSinglePage("content/cms");
+  const css = getSinglePage("content/css");
+  const tool = getSinglePage("content/tool");
 
   // get taxonomies slug
-  const ssgSlug = getSinglePagesSlug("content/ssg");
-  const cssSlug = getSinglePagesSlug("content/css");
-  const toolSlug = getSinglePagesSlug("content/tool");
+  const ssgSlug = getSinglePageSlug("content/ssg");
+  const cssSlug = getSinglePageSlug("content/css");
+  const toolSlug = getSinglePageSlug("content/tool");
 
   // ssg page
   const ssgPage =
@@ -234,11 +234,11 @@ export const getStaticProps = async ({ params }) => {
     : defaultPage;
 
   // all tools
-  const category = getSinglePages("content/category");
+  const category = getSinglePage("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
 
   // all themes
-  const themes = getSinglePages("content/themes");
+  const themes = getSinglePage("content/themes");
 
   // statichunt themes
   const statichuntThemes = themes.filter(

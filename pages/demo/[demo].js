@@ -1,6 +1,6 @@
 import config from "@config/config.json";
 import DemoHeader from "@layouts/partials/DemoHeader";
-import { getSinglePages, getSinglePagesSlug } from "@lib/contentParser";
+import { getSinglePage, getSinglePageSlug } from "@lib/contentParser";
 import { plainify, slugify } from "@lib/utils/textConverter";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -82,7 +82,7 @@ const Demo = ({ theme, slug }) => {
 export default Demo;
 
 export const getStaticPaths = () => {
-  const slugs = getSinglePagesSlug("content/themes");
+  const slugs = getSinglePageSlug("content/themes");
 
   const paths = slugs.map((theme) => ({
     params: {
@@ -98,7 +98,7 @@ export const getStaticPaths = () => {
 
 export const getStaticProps = ({ params }) => {
   const { demo } = params;
-  const allTheme = getSinglePages("content/themes");
+  const allTheme = getSinglePage("content/themes");
   const singleTheme = allTheme.filter((data) => data.slug == demo);
 
   return {
