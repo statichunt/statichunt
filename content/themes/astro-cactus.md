@@ -21,7 +21,7 @@ disabled_reason: Github repo not found
 
 ## Theme features
 
-- Astro Fast 
+- Astro Fast
 - Accessible, semantic HTML markup
 - Responsive & SEO-friendly
 - Astro Image Integration for optimised images
