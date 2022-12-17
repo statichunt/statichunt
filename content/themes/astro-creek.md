@@ -4,7 +4,6 @@ github: https://github.com/robertguss/Astro-Theme-Creek
 demo: https://astro-theme-creek.netlify.app/
 author: Robert Guss
 author_link: https://github.com/robertguss
-author_twitter: howtocode_io
 date: 2022-08-31T11:44:50.000Z
 description: Creek is a theme for Astro static site generator.
 ssg:

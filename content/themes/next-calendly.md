@@ -4,7 +4,6 @@ github: https://github.com/chemiadel/calendly-template-reactjs
 demo: https://calendly-template.vercel.app/
 author: Adel
 author_link: null
-author_twitter: adel_chemi
 date: 2022-09-02T01:55:00.000Z
 description: Calendly like NextJS Tailwindcss template.
 ssg:

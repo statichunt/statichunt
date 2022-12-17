@@ -5,7 +5,6 @@ demo: http://huangxuan.me/
 license: Apache-2.0 License
 author: Huxpro
 author_link: ''
-author_twitter: huxpro
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Jekyll

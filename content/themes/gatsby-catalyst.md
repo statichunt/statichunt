@@ -5,7 +5,6 @@ demo: https://www.gatsbycatalyst.com/
 license: MIT
 author: Eric Howey
 author_link: ''
-author_twitter: erchwy
 author_github: ''
 date: 2021-04-29T00:00:00.000Z
 ssg:

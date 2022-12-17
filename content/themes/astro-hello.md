@@ -4,7 +4,6 @@ github: https://github.com/hellotham/hello-astro
 demo: https://hellotham.github.io/hello-astro/
 author: Hello Tham
 author_link: https://github.com/hellotham
-author_twitter: HelloThamCom
 date: 2022-08-31T16:21:50.000Z
 description: >-
   Hello Astro is a full featured Astro corporate/marketing/blog starter theme
@@ -29,7 +28,7 @@ github_fork: 10
 
 - Full-featured blog with frontmatter
 - High performance low overhead with minimal Javascript (AlpineJS)
-- Full text client based search of blog pages via lunrjs 
+- Full text client based search of blog pages via lunrjs
 - Categories index page and individual category pages
 - Tags index page and individual tag pages
 - Pagination for blog, category and tag pages

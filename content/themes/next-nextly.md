@@ -4,7 +4,6 @@ github: https://github.com/web3templates/nextly-template
 demo: https://nextly.web3templates.com/
 author: Web3templates
 author_link: https://github.com/web3templates/
-author_twitter: null
 date: 2022-08-30T10:13:50.000Z
 description: >-
   Nextly is a free landing page & marketing website template for startups and
@@ -36,4 +35,3 @@ github_fork: 44
 - Well Documented
 - Version Control with Github
 - Support Available
-

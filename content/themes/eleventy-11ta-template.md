@@ -5,7 +5,6 @@ demo: https://11ta.netlify.app/
 license: MIT
 author: 11ta
 author_link: ''
-author_twitter: 11ta_co
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Eleventy

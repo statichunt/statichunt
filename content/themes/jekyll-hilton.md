@@ -6,7 +6,6 @@ price: 79
 demo: https://hilton-jekyll.netlify.app/
 author: Artem Sheludko
 author_link: https://jekyllthemes.io/developers/artem-sheludko
-author_twitter: null
 date: 2022-08-30T10:10:50.000Z
 description: >-
   Hilton was specially created for creative people who appreciate simplicity and

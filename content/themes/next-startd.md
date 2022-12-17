@@ -4,7 +4,6 @@ github: https://github.com/jkytoela/next-startd
 demo: https://next-startd.vercel.app/
 author: Jaakko Kytölä
 author_link: null
-author_twitter: jkytoela
 date: 2022-09-02T12:33:00.000Z
 description: >-
   Free Next.js landing page template for SaaS products, online services and

@@ -4,7 +4,6 @@ github: https://github.com/flotiq/flotiq-gatsby-shop-2
 demo: https://flotiqgatsbyshop2.gatsbyjs.io/
 author: Flotiq
 author_link: https://github.com/flotiq
-author_twitter: null
 date: 2022-12-01T00:00:00.000Z
 description: Gatsby shop starter with Flotiq source
 ssg:

@@ -4,7 +4,6 @@ github: https://github.com/statichunt/hydrogen-hugo
 demo: https://demo.statichunt.com/hydrogen-hugo/
 author: Statichunt
 author_link: https://statichunt.com/
-author_twitter: heyStatichunt
 ssg:
   - Hugo
 css:

@@ -4,7 +4,6 @@ github: https://github.com/markteekman/accessible-astro-starter
 demo: https://starter.accessible-astro.dev/
 author: Mark Teekman
 author_link: https://github.com/markteekman
-author_twitter: MarkTeekman
 date: 2022-08-31T11:44:50.000Z
 description: >-
   This starter project is build upon the (awesome) Astro Static Site Builder. To

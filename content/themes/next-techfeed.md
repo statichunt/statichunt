@@ -5,7 +5,6 @@ demo: https://techfeed-nextjs.netlify.app/
 date: 2022-01-09T00:00:00.000Z
 author: Statichunt
 author_link: https://statichunt.com/
-author_twitter: heyStatichunt
 ssg:
   - Next
 cms: null

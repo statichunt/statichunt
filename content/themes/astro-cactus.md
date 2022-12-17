@@ -4,7 +4,6 @@ github: https://github.com/chrismwilliams/astro-theme-cactusAstroAgnosticUIStart
 demo: https://astro-theme-cactus.netlify.app/
 author: Chris Williams
 author_link: https://github.com/chrismwilliams
-author_twitter: null
 date: 2022-08-31T16:16:50.000Z
 description: A simple opinionated Astro theme. Use it to create your blog or website.
 ssg:

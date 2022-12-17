@@ -5,7 +5,6 @@ demo: https://amsterdam.netlify.app/
 license: MIT
 author: Ryan Wiemer
 author_link: ''
-author_twitter: ryanwiemer
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

@@ -5,7 +5,6 @@ demo: https://portfolio-boilerplate-nextjs.vercel.app/
 license: null
 author: imad atyat alah
 author_link: ''
-author_twitter: ImadAtyat
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Next

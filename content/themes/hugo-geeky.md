@@ -4,7 +4,6 @@ github: https://github.com/statichunt/geeky-hugo
 demo: https://demo.statichunt.com/geeky-hugo/
 author: Statichunt
 author_link: https://statichunt.com/
-author_twitter: heyStatichunt
 ssg:
   - Hugo
 cms:

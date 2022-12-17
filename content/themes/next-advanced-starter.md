@@ -5,7 +5,6 @@ demo: https://nextjs-advanced-starter.vercel.app/
 license: null
 author: alex
 author_link: ''
-author_twitter: agctyz
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Next

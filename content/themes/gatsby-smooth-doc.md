@@ -5,7 +5,6 @@ demo: https://smooth-doc.com/
 license: MIT
 author: Greg Bergé
 author_link: ''
-author_twitter: neoziro
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

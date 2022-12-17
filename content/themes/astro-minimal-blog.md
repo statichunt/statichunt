@@ -4,7 +4,6 @@ github: https://github.com/alexanderhodes/astro-minimal-blog
 demo: https://sunny-arithmetic-1e866e.netlify.app/
 author: Alexander Hodes
 author_link: https://github.com/alexanderhodes
-author_twitter: null
 date: 2022-08-31T16:49:50.000Z
 description: A Simple Astro Awesome Blog with Minimal Styling.
 ssg:

@@ -4,7 +4,6 @@ github: https://github.com/themefisher/bigspring-light-nextjs
 demo: https://bigspring-light-nextjs.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com
-author_twitter: themefisher
 date: 2022-12-12T00:00:00.000Z
 description: >-
   Bigspring is a web development company Nextjs template with Tailwind CSS. It

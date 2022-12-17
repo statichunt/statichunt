@@ -5,7 +5,6 @@ demo: https://rocketdocs.netlify.app/
 license: MIT
 author: João Pedro Schmitz
 author_link: ''
-author_twitter: jpedroschmitz
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

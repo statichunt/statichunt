@@ -5,7 +5,6 @@ demo: https://themes.lekoarts.de/
 license: MIT
 author: Lennart
 author_link: ''
-author_twitter: lekoarts_de
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

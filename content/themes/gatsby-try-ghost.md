@@ -5,7 +5,6 @@ demo: https://demo.jamify.org/
 license: MIT
 author: Joost Jansky
 author_link: ''
-author_twitter: jamifyjs
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

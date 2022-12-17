@@ -4,7 +4,6 @@ github: https://github.com/prixite/prixite.github.io
 demo: https://prixite.com/
 author: Prixite
 author_link: https://github.com/prixite
-author_twitter: null
 date: 2022-09-02T12:54:00.000Z
 description: Next.js corporate website theme.
 ssg:

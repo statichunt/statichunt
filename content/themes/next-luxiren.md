@@ -4,7 +4,6 @@ github: https://github.com/ilhammeidi/luxi-starter
 demo: https://luxiren.indisains.com/
 author: Ilham Meidi
 author_link: https://examplesite.com/
-author_twitter: null
 date: 2022-09-02T01:05:00.000Z
 description: Luxiren Starter - React JS Landing Page Template.
 ssg:

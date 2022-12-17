@@ -5,7 +5,6 @@ demo: https://blog.sqrtthree.com/vuepress-theme-api/
 license: MIT
 author: Sqrthree
 author_link: ''
-author_twitter: sqrtthree
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Vuepress

@@ -1,12 +1,11 @@
 ---
 title: Agico
 download: https://gethugothemes.com/products/agico
-github: null
+github: 
 price: 79
 demo: https://demo.gethugothemes.com/agico/site/
-author: Themefisher
-author_link: https://themefisher.com
-author_twitter: null
+author: Gethugothemes
+author_link: https://gethugothemes.com
 date: 2022-12-17T00:00:00.000Z
 description: Agico is a modern Multipurpose Landing Page Template. This premium Hugo theme is a Bootstrap framework-based landing page with neat and clean coding.
 ssg:

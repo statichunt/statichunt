@@ -5,7 +5,6 @@ demo: https://code-notes-example.netlify.com/
 license: MIT
 author: Zander Martineau
 author_link: ''
-author_twitter: MrMartineau
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby

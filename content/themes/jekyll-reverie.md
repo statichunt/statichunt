@@ -5,7 +5,6 @@ demo: https://reverie.pages.dev/
 license: MIT
 author: amitmerchant1990
 author_link: ''
-author_twitter: amit_merchant
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Jekyll
