@@ -130,6 +130,8 @@ const ThemeInfo = ({ theme, slug, tools }) => {
                 ? `https://www.github.com/${
                     github.match(/github\.com\/([^\/]+)/, "")[1]
                   }.png`
+                : author_link
+                ? `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${author_link}&size=64`
                 : "/images/author-placeholder.png"
             }
             height={50}
