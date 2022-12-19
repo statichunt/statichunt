@@ -5,7 +5,9 @@ demo: https://nextjs-simple-blog-template.web.app/
 author: WebExpe
 author_link: https://github.com/webexpe13
 date: 2022-12-17T00:00:00.000Z
-description: This project is a simple blog template using next js, typescript and tailwind css. blog+nextjs+tailwind+typescript.
+description: >-
+  This project is a simple blog template using next js, typescript and tailwind
+  css. blog+nextjs+tailwind+typescript.
 ssg:
   - Next
 css:
@@ -15,6 +17,10 @@ cms:
 category:
   - Blog
 draft: false
+publish_date: '2022-08-16T13:39:24Z'
+update_date: '2022-10-17T12:57:13Z'
+github_star: 10
+github_fork: 3
 ---
 
 ## Theme features
