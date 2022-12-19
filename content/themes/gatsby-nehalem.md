@@ -4,7 +4,7 @@ github: https://github.com/nehalist/gatsby-theme-nehalem
 demo: https://nehalem.netlify.app/
 license: null
 author: Kevin
-author_link: ''
+author_link:
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby
