@@ -1,5 +1,5 @@
 ---
 title: "SCSS"
 icon: /images/icons/scss.svg
-page_draft: false
+page_draft: true
 ---

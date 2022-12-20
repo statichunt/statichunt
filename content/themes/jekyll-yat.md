@@ -11,11 +11,31 @@ cms:
 category:
   - Blog
   - Business
-description: 🎨 Yet another theme for elegant writers with modern flat style.
-draft: true
+css:
+  - 
+description: This theme for elegant writers with modern flat style and beautiful night/dark mode.
+draft: false
 publish_date: '2019-12-12T04:16:29Z'
 update_date: '2022-08-28T15:01:27Z'
 github_star: 573
 github_fork: 519
 disabled_reason: Github repo not found
 ---
+
+## Theme Features
+
+- Support beautiful Night Mode.
+- Modern responsive web design.
+- Full layouts home, post, tags, archive and about.
+- Uses font awesome 5 for icons.
+- Beautiful page banner with image and video.
+- Beautiful Syntax Highlight using highlight.js.
+- RSS support using Jekyll Feed gem.
+- Optimized for search engines using Jekyll Seo Tag gem.
+- Sitemap support using Jekyll Sitemap gem.
+- Complex and flexible table support using Jekyll Spaceship gem.
+- MathJAX and LaTeX optional support using Jekyll Spaceship gem.
+- Media (Youtube, Spotify, etc.) support using Jekyll Spaceship gem.
+- Diagram (PlantUML, Mermaid) support using Jekyll Spaceship gem.
+- Google Translation support.
+- New post tag support.
