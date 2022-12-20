@@ -13,9 +13,18 @@ category:
 description: >-
   A Minimal & Beautiful GatsbyJS Personal Blog Starter With Nice Glassmorphism
   UI
-draft: true
+draft: false
 publish_date: '2021-03-23T11:47:33Z'
 update_date: '2022-10-07T21:36:33Z'
 github_star: 136
 github_fork: 76
 ---
+## Theme Features
+
+- Fully responsive
+- SEO metadata and Open Graph tags
+- Maximized lighthouse score
+- Contact form with Netlify Form
+- Edit Content with Netlify CMS
+- Easy to deploy
+- Syntax highlighting via PrismJS

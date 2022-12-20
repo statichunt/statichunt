@@ -9,9 +9,31 @@ cms:
   - Markdown
 date: 2017-07-02T14:02:13.000Z
 description: A high performance blog starter with Material design in mind for GatsbyJS.
-draft: true
+draft: false
 publish_date: '2017-07-02T14:02:13Z'
 update_date: '2022-07-06T16:33:19Z'
 github_star: 511
 github_fork: 174
 ---
+## Theme Features
+
+- Gatsby v4 support
+- First-class TypeScript support
+- Material UI V5 components
+- Emotion used for styling
+- Posts in MDX
+- Infinite Scrolling
+- React Query for client-side API calls
+- Tags
+- Categories
+- Social features
+- Author section
+- Related posts computation and display based on category/tag match ranking
+- Disqus support via gatsby-theme-advanced
+- Gatsby-plugin-image for optimized image generation
+- Inline SVG imports
+- High configurability
+- Separate components for everything
+- PWA features
+- SEO Features
+- RSS feeds
