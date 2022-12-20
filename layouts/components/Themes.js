@@ -175,7 +175,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 by{" "}
                 {theme.frontmatter?.author === "Statichunt" ? (
                   <Link
-                    href="/theme-by-us"
+                    href="/themes-by-us"
                     className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent"
                   >
                     Statichunt
