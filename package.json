@@ -52,7 +52,6 @@
     "js-yaml": "^4.1.0",
     "jshint": "^2.13.6",
     "ora": "^6.1.2",
-    "pageres": "^7.1.0",
     "parse-github-url": "^1.0.2",
     "postcss": "^8.4.20",
     "prettier": "^2.8.1",
