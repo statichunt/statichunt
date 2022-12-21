@@ -1,0 +1,39 @@
+---
+title: Samar
+download: https://1.envato.market/dodzzK
+github: null
+price: 25
+demo: https://1.envato.market/NKaqqK
+author: DexignZone
+author_link: http://www.dexignzone.com/
+date: 2022-12-21T00:00:00.000Z
+description:  Creative Agency React NextJs Template 
+ssg:
+  - Next
+css:
+  - Bootstrap
+cms:
+
+category:
+  - Business
+draft: false
+---
+## Theme Features
+
+- 3 Home Page
+- Slider
+- Portfolio
+- Key Feature
+- News Letter
+- Pricing Plan
+- Testimonial
+- Query Form
+- FAQ
+- Contact Form
+- Style Varient
+- Social
+- Blog Style
+- Coming Soon Page
+- Error Page
+- Blog Page
+- Site Down page
