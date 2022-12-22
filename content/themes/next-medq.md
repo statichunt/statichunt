@@ -3,7 +3,7 @@ title: MedQ
 download: https://1.envato.market/zavzAO
 github: null
 price: 49
-demo: https://1.envato.market/n1v4q6
+demo: https://medq-react.envytheme.com/
 author: EnvyTheme 
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z

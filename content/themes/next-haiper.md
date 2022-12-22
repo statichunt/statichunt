@@ -3,7 +3,7 @@ title: Haiper
 download: https://1.envato.market/n1v4a6
 github: null
 price: 35
-demo: https://1.envato.market/KeGBVn
+demo: https://haiper-react.envytheme.com/index4/
 author: Envy Theme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z

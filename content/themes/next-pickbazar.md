@@ -3,7 +3,7 @@ title: Pick Bazar
 download: https://1.envato.market/15kG4x
 github: null
 price: 29
-demo: https://1.envato.market/EaP04Q
+demo: https://pickbazar-react.vercel.app/daily-needs
 author: Redqteam 
 author_link: https://redq.io/
 date: 2022-12-21T00:00:00.000Z

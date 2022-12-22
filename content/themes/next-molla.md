@@ -3,7 +3,7 @@ title: Molla
 download: https://1.envato.market/b3EPbk
 github: null
 price: 24
-demo: https://1.envato.market/ORjOBn
+demo: https://d-themes.com/react/molla/demo-1/
 author: Don Themes
 author_link: https://themeforest.net/user/don-themes
 date: 2022-12-21T00:00:00.000Z

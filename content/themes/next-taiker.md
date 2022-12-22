@@ -3,7 +3,7 @@ title: Taiker
 download: https://1.envato.market/ZdzV2q
 github: null
 price: 29
-demo: https://1.envato.market/BX95j1
+demo: https://taiker-react.envytheme.com/index12/
 author: Envy Theme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z

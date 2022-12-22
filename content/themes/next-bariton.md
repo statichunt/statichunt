@@ -3,7 +3,7 @@ title: Bariton
 download: https://1.envato.market/9WZVNW
 github: null
 price: 35
-demo: https://1.envato.market/jW4RPe
+demo: https://bariton-react.envytheme.com/index-6/
 author: Envy Theme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z

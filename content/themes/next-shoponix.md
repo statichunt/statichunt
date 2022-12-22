@@ -3,7 +3,7 @@ title: Shoponix
 download: https://1.envato.market/rnyE7y
 github: null
 price: 99
-demo: https://1.envato.market/P0gzPN
+demo: https://shoponix.envytheme.com/
 author: EnvyTheme 
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z

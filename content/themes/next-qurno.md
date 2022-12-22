@@ -3,7 +3,7 @@ title: Qurno
 download: https://1.envato.market/5bE5rL
 github: null
 price: 25
-demo: https://1.envato.market/kjEO6N
+demo: https://qurno-nextjs.vercel.app/
 author: Platol
 author_link: https://themeforest.net/user/platol
 date: 2022-12-21T00:00:00.000Z

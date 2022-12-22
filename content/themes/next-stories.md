@@ -3,7 +3,7 @@ title: Stories
 download: https://1.envato.market/jW0eb5
 github: null
 price: 24
-demo: https://1.envato.market/P0EOxY
+demo: https://stories-nextjs-v3.vercel.app/
 author: Alithemes
 author_link: https://alithemes.com/
 date: 2022-12-21T00:00:00.000Z

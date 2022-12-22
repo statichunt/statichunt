@@ -3,7 +3,7 @@ title: Mojosa
 download: https://1.envato.market/Vy1GbJ
 github: null
 price: 25
-demo: https://1.envato.market/JrDxLe
+demo: https://mojosa-react.envytheme.com/agency/
 author: Envy Theme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z

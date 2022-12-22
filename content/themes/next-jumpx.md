@@ -3,7 +3,7 @@ title: Jumpx
 download: https://1.envato.market/kjv4nn
 github: null
 price: 24
-demo: https://1.envato.market/LP10vj
+demo: https://jumpx-react.envytheme.com/
 author: Envy Theme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
