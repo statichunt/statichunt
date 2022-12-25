@@ -1,6 +1,6 @@
 ---
 title: Molla
-download: https://1.envato.market/b3EPbk
+download: https://themeforest.net/item/molla-react-ecommerce-template/27932781
 github: null
 price: 24
 demo: https://d-themes.com/react/molla/demo-1/

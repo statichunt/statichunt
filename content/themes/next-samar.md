@@ -1,6 +1,6 @@
 ---
 title: Samar
-download: https://1.envato.market/dodzzK
+download: https://themeforest.net/item/samar-creative-agency-react-template/32950742
 github: null
 price: 25
 demo: https://samartheme3.vercel.app/

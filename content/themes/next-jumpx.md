@@ -1,6 +1,6 @@
 ---
 title: Jumpx
-download: https://1.envato.market/kjv4nn
+download: https://themeforest.net/item/jumpx-react-next-ai-it-startup-template/26128611
 github: null
 price: 24
 demo: https://jumpx-react.envytheme.com/

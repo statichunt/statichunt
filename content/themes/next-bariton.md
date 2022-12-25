@@ -1,6 +1,6 @@
 ---
 title: Bariton
-download: https://1.envato.market/9WZVNW
+download: https://themeforest.net/item/bariton-react-next-it-machine-learning-template/26044148
 github: null
 price: 35
 demo: https://bariton-react.envytheme.com/index-6/

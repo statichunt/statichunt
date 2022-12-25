@@ -1,6 +1,6 @@
 ---
 title: Mojosa
-download: https://1.envato.market/Vy1GbJ
+download: https://themeforest.net/item/mojosa-react-next-landing-page-templates/24117121?
 github: null
 price: 25
 demo: https://mojosa-react.envytheme.com/agency/
