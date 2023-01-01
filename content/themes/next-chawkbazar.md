@@ -1,6 +1,6 @@
 ---
 title: Chawk Bazar 
-download: https://themeforest.net/item/chawkbazar-react-next-lifestyle-ecommerce-template/31864711?
+download: https://1.envato.market/0JrNRM
 github: null
 price: 29
 demo: https://chawkbazar.vercel.app/

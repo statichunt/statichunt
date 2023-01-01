@@ -1,6 +1,6 @@
 ---
 title: Mibix
-download: https://themeforest.net/item/mibix-gatsby-nextjs-startup-template/30119304
+download: https://1.envato.market/rnvPJQ
 github: null
 price: 35
 demo: https://mibix-react.envytheme.com/index-8/

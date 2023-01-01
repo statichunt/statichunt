@@ -1,6 +1,6 @@
 ---
 title: Givest
-download: https://themeforest.net/item/givest-non-profit-gatsby-template/31787952
+download: https://1.envato.market/x9xGrA
 github: null
 price: 24
 demo: https://reactdemo.hasthemes.com/givest/index.html

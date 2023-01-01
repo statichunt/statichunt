@@ -1,6 +1,6 @@
 ---
 title: Taiker
-download: https://themeforest.net/item/taiker-react-next-it-business-portfolio-template/25631723
+download: https://1.envato.market/KeRNyn
 github: null
 price: 29
 demo: https://taiker-react.envytheme.com/index12/

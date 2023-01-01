@@ -1,6 +1,6 @@
 ---
 title: Bunzo
-download: https://themeforest.net/item/bunzo-react-gatsby-blog-template/33582749
+download: https://1.envato.market/5beNy9
 github: null
 price: 24
 demo: https://spet-gatsby.envytheme.com/it-startup/

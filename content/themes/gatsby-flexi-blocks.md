@@ -1,6 +1,6 @@
 ---
 title: Flexi Blocks Gatsby
-download: https://themeforest.net/item/flexiblocks-react-gatsby-landing-page-site-template/30807682
+download: https://1.envato.market/LPvNOj
 github: null
 price: 19
 demo: https://flexiblocks.netlify.app/homepage/fintech/

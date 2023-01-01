@@ -1,6 +1,6 @@
 ---
 title: Rewy
-download: https://themeforest.net/item/vie-gatsby-creative-portfolio-agency-template/40772252
+download: https://1.envato.market/5beN1j
 github: null
 price: 24
 demo: https://rewy-gatsby.envytheme.com/machine-learning-ai-solutions/

@@ -1,6 +1,6 @@
 ---
 title: Mitech
-download: https://themeforest.net/item/mitech-it-solutions-and-services-company-react-gatsby-template/25766950
+download: https://1.envato.market/P0LDmz
 github: null
 price: 24
 demo: https://mitech.jamstacktemplates.dev/

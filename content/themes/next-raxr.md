@@ -1,6 +1,6 @@
 ---
 title: Raxr
-download: https://themeforest.net/item/raxr-react-next-data-science-analytics-template/25749349?
+download: https://1.envato.market/4ekNg9
 github: null
 price: 25
 demo: https://raxr-react.envytheme.com/

@@ -1,6 +1,6 @@
 ---
 title: Flexi Blog Gatsby
-download: https://themeforest.net/item/flexiblog-react-gatsby-blog-template/27538998
+download: https://1.envato.market/qnRjm5
 github: null
 price: 29
 demo: https://flexiblog-agency.netlify.app/

@@ -1,6 +1,6 @@
 ---
 title: MedQ
-download: https://themeforest.net/item/medq-react-next-ecommerce-store-admin-panel/27733284
+download: https://1.envato.market/ORNxyQ
 github: null
 price: 49
 demo: https://medq-react.envytheme.com/

@@ -1,6 +1,6 @@
 ---
 title: Pick Bazar
-download: https://themeforest.net/item/pickbazar-react-graphql-ecommerce-template/25283305
+download: https://1.envato.market/Ryx929
 github: null
 price: 29
 demo: https://pickbazar-react.vercel.app/daily-needs

@@ -1,6 +1,6 @@
 ---
 title: Spet
-download: https://themeforest.net/item/spet-gatsby-react-it-business-startup-template/33614399
+download: https://1.envato.market/kjnqJz
 github: null
 price: 35
 demo: https://spet-gatsby.envytheme.com/it-startup/

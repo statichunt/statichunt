@@ -1,6 +1,6 @@
 ---
 title: StoryHub Gatsby
-download: https://themeforest.net/item/storyhub-react-gatsby-blog-template/23897134
+download: https://1.envato.market/gbzEar
 github: null
 price: 24
 demo: https://storyhub-modern-agency-redq.vercel.app/

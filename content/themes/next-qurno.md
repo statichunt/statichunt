@@ -1,6 +1,6 @@
 ---
 title: Qurno
-download: https://themeforest.net/item/qurno-minimal-blog-nextjs-template/36625633
+download: https://1.envato.market/vnLaEd
 github: null
 price: 25
 demo: https://qurno-nextjs.vercel.app/

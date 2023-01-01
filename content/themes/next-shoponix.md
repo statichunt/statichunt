@@ -1,6 +1,6 @@
 ---
 title: Shoponix
-download: https://themeforest.net/item/shoponix-mern-next-ecommerce-store-template/26857951?
+download: https://1.envato.market/NKdq27
 github: null
 price: 99
 demo: https://shoponix.envytheme.com/

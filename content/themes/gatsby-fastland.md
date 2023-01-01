@@ -1,6 +1,6 @@
 ---
 title: Fastland
-download: https://themeforest.net/item/fastland-react-gatsby-js-landing-page-template/31811950
+download: https://1.envato.market/e4oWeD
 github: null
 price: 16
 demo: https://fastland-gatsby.netlify.app/

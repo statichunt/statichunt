@@ -1,6 +1,6 @@
 ---
 title: Iteck Gatsby
-download: https://themeforest.net/item/iteck-gatsby-software-technology-template/40410841
+download: https://1.envato.market/QOqQ2P
 github: null
 price: 9
 demo: https://iteck-gatsby.vercel.app/home-app-landing/

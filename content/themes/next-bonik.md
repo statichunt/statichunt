@@ -1,6 +1,6 @@
 ---
 title: Bonik
-download: https://themeforest.net/item/bonik-react-ecommerce-template/32220949
+download: https://1.envato.market/WDjk2P
 github: null
 price: 29
 demo: https://bonik-react.vercel.app/

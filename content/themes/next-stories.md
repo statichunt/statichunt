@@ -1,6 +1,6 @@
 ---
 title: Stories
-download: https://themeforest.net/item/stories-personal-blog-react-nextjs-template/33748201
+download: https://1.envato.market/MX4LRJ
 github: null
 price: 24
 demo: https://stories-nextjs-v3.vercel.app/

@@ -1,6 +1,6 @@
 ---
 title: Super Props Gatsby
-download: https://themeforest.net/item/superprops-gatsby-react-gatsby-js-landing-page-templates/38493506
+download: https://1.envato.market/XxPe2o
 github: null
 price: 17
 demo: https://superprops-gatsby.vercel.app/appmodern/
