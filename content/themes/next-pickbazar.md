@@ -7,7 +7,7 @@ demo: https://pickbazar-react.vercel.app/daily-needs
 author: Redqteam 
 author_link: https://redq.io/
 date: 2022-12-21T00:00:00.000Z
-description:  Super-fast E-commerce template was made to help anyone start their very own online store at ease. Built with React, NextJS, TypeScript, GraphQL, Nest JS & Tailwind Cs.
+description:  Super-fast E-commerce template was made to help anyone start their very own online store at ease. Built with React, NextJS, TypeScript, GraphQL, NeXt JS & Tailwind Cs.
 ssg:
   - Next
 css:
