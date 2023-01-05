@@ -6,6 +6,12 @@ const HomeCategory = ({
   category,
   arrayCategory,
   setArrayCategory,
+  filterFree,
+  arrayFree,
+  setArrayFree,
+  filterPremium,
+  arrayPremium,
+  setArrayPremium,
 }) => {
   const [taxonomy, setTaxonomy] = useState(category);
   // change others position
@@ -22,7 +28,7 @@ const HomeCategory = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const handleOnClick = (label) => {
+  const handleTaxonomy = (label) => {
     const temp = [...taxonomy];
     for (let i in temp) {
       const item = temp[i];
@@ -49,11 +55,32 @@ const HomeCategory = ({
 
   return (
     <ul className="category-list">
+      {/* {filterFree.length > 0 && (
+        <li
+          onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
+          className={arrayFree.length > 0 ? "active" : undefined}
+        >
+          Free
+          <span>{filterFree.length}</span>
+        </li>
+      )}
+      {filterPremium.length > 0 && (
+        <li
+          onClick={() =>
+            setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
+          }
+          className={arrayPremium.length > 0 ? "active" : undefined}
+        >
+          Premium
+          <span>{filterPremium.length}</span>
+        </li>
+      )}
+      <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 border-border !p-0 align-middle" /> */}
       {taxonomy.map(
         (item, i) =>
           countItems(item) > 0 && (
             <li
-              onClick={() => handleOnClick(slugify(item.frontmatter.title))}
+              onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
               key={`item-${i}`}
               className={item.selected ? "active" : undefined}
             >

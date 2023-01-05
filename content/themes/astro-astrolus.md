@@ -5,7 +5,9 @@ demo: https://astrolus.netlify.app/
 author: Tailus
 author_link: https://github.com/Tailus-UI
 date: 2022-12-22T00:00:00.000Z
-description: Modern Sass home page template that supports light and dark theme built with tailwindcss using tailus blocks.
+description: >-
+  Modern Sass home page template that supports light and dark theme built with
+  tailwindcss using tailus blocks.
 ssg:
   - Astro
 css:
@@ -15,4 +17,8 @@ cms:
 category:
   - Saas
 draft: false
+publish_date: '2022-09-04T11:34:15Z'
+update_date: '2022-12-14T06:41:18Z'
+github_star: 22
+github_fork: 1
 ---

@@ -15,4 +15,8 @@ cms:
 category:
   - Saas
 draft: false
+publish_date: '2022-10-21T16:49:07Z'
+update_date: '2022-12-19T14:58:25Z'
+github_star: 22
+github_fork: 1
 ---

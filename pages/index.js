@@ -1,10 +1,10 @@
 import HomeCategory from "@components/HomeCategory";
 import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
-import SortThemes from "@components/SortThemes";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
+import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { setOthersCategory } from "hooks/setOthersCategory";
@@ -27,32 +27,34 @@ const Home = ({
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
   const [arrayCategory, setArrayCategory] = useState([]);
-  const [isIntro, setIsIntro] = useState(true);
-  const getCategories = setOthersCategory(themes);
+  const [arrayFree, setArrayFree] = useState([]);
+  const [arrayPremium, setArrayPremium] = useState([]);
+  const [showIntro, SetShowIntro] = useState(true);
   const {
-    currentTheme,
-    handleSortTheme,
-    isShow,
-    setIsShow,
-    isValue,
-    defaultSort,
-    handleClick,
-  } = SortReducer(getCategories);
+    sortedThemes,
+    handleSortThemes,
+    sortMenuShow,
+    setSortMenuShow,
+    sortValue,
+    defaultSortedThemes,
+    handleSortMenu,
+  } = SortReducer(themes);
 
-  const mouseHndler = () => {
-    if (isShow) {
-      setIsShow(!isShow);
+  const mouseHandler = () => {
+    if (sortMenuShow) {
+      setSortMenuShow(!sortMenuShow);
     }
   };
+
   // theme filtering
-  const filterSSG = currentTheme?.filter((theme) =>
+  const filterSSG = sortedThemes?.filter((theme) =>
     arraySSG.length
       ? arraySSG.find((type) =>
           theme.frontmatter.ssg
             ?.map((ssg) => slugify(ssg))
             .includes(slugify(type))
         )
-      : defaultSort
+      : defaultSortedThemes
   );
   const filterCMS = filterSSG?.filter((theme) =>
     arrayCMS.length
@@ -61,7 +63,7 @@ const Home = ({
             ?.map((cms) => slugify(cms))
             .includes(slugify(type))
         )
-      : defaultSort
+      : defaultSortedThemes
   );
   const filterCSS = filterCMS?.filter((theme) =>
     arrayCSS.length
@@ -70,7 +72,7 @@ const Home = ({
             ?.map((css) => slugify(css))
             .includes(slugify(type))
         )
-      : defaultSort
+      : defaultSortedThemes
   );
   const filterCategory = filterCSS?.filter((theme) =>
     arrayCategory.length
@@ -79,12 +81,29 @@ const Home = ({
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : defaultSort
+      : defaultSortedThemes
   );
+
+  const filterFree = filterCategory?.filter(
+    (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0
+  );
+
+  const filterPremium = filterCategory?.filter(
+    (theme) => theme.frontmatter.price > 0
+  );
+
+  const filteredThemes =
+    arrayFree.length > 0 && arrayPremium.length > 0
+      ? filterCategory
+      : arrayFree.length > 0
+      ? arrayFree
+      : arrayPremium.length > 0
+      ? arrayPremium
+      : filterCategory;
 
   return (
     <Base>
-      <div className="flex" onClick={mouseHndler}>
+      <div className="flex" onClick={mouseHandler}>
         <Sidebar
           sidebar={sidebar}
           ssg={ssg}
@@ -97,27 +116,33 @@ const Home = ({
           arrayCMS={arrayCMS}
           setArrayCSS={setArrayCSS}
           arrayCSS={arrayCSS}
-          setIsIntro={setIsIntro}
+          SetShowIntro={SetShowIntro}
         />
         <main className="main">
           <div className="container">
-            <Intro data={intro} toggleClass={isIntro ? "block" : "hidden"} />
+            <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory
-                themes={filterCSS}
+                themes={filteredThemes}
                 category={category}
                 arrayCategory={arrayCategory}
                 setArrayCategory={setArrayCategory}
+                arrayFree={arrayFree}
+                filterFree={filterFree}
+                setArrayFree={setArrayFree}
+                filterPremium={filterPremium}
+                arrayPremium={arrayPremium}
+                setArrayPremium={setArrayPremium}
               />
-              <SortThemes
-                isShow={isShow}
-                isValue={isValue}
-                handleSortTheme={handleSortTheme}
-                handleClick={handleClick}
+              <HomeSort
+                sortMenuShow={sortMenuShow}
+                sortValue={sortValue}
+                handleSortThemes={handleSortThemes}
+                handleSortMenu={handleSortMenu}
               />
             </div>
 
-            <Themes themes={filterCategory} tools={tools} />
+            <Themes themes={filteredThemes} tools={tools} />
           </div>
         </main>
       </div>
@@ -137,6 +162,7 @@ export const getStaticProps = async () => {
   const category = getSinglePage("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
   const themes = getSinglePage("content/themes");
+  const themesWithOthersCategory = setOthersCategory(themes);
 
   return {
     props: {
@@ -145,7 +171,7 @@ export const getStaticProps = async () => {
       cms: cms,
       css: css,
       category: category,
-      themes: themes,
+      themes: themesWithOthersCategory,
       tools: tools,
     },
   };

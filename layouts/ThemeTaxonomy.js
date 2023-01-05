@@ -12,7 +12,7 @@ import {
 
 const { darkIconList } = config;
 
-const ThemeTaxonomy = ({ data, currentPage, tools, isIntro }) => {
+const ThemeTaxonomy = ({ data, currentPage, tools, showIntro }) => {
   const { frontmatter, content } = currentPage[0];
   const {
     title,
@@ -30,7 +30,7 @@ const ThemeTaxonomy = ({ data, currentPage, tools, isIntro }) => {
     <main className="main">
       <section>
         <div className="container">
-          <div className={`mb-16 p-6 shadow ${!isIntro && "hidden"}`}>
+          <div className={`mb-16 p-6 shadow ${!showIntro && "hidden"}`}>
             <div className="mb-5 flex">
               <Image
                 className={`${

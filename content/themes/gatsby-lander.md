@@ -5,7 +5,9 @@ demo: https://gatsby-lander.surge.sh/
 author: Code Bushi
 author_link: https://github.com/codebushi
 date: 2022-12-22T00:00:00.000Z
-description: Free landing page template to promote your business startup and generate leads for the offered services.
+description: >-
+  Free landing page template to promote your business startup and generate leads
+  for the offered services.
 ssg:
   - Gatsby
 css:
@@ -15,6 +17,10 @@ cms:
 category:
   - Business
 draft: false
+publish_date: '2019-12-07T17:19:17Z'
+update_date: '2021-11-05T02:32:00Z'
+github_star: 129
+github_fork: 67
 ---
 
 ## Theme Features

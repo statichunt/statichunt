@@ -3,26 +3,35 @@ import sortButton from "config/sort.json";
 import Image from "next/image";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
-const SortSidebar = ({ isShow, isValue, handleSortTheme, handleClick }) => {
+const SidebarSort = ({
+  sortMenuShow,
+  sortValue,
+  handleSortThemes,
+  handleSortMenu,
+}) => {
   const { button } = sortButton;
   return (
     <div className="mb-8">
       <h3
-        onClick={handleClick}
+        onClick={handleSortMenu}
         className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
       >
         Sort by
         <span className="mr-2 inline-block align-middle">
-          {!isShow ? <IoChevronDownOutline /> : <IoChevronForwardOutline />}
+          {!sortMenuShow ? (
+            <IoChevronDownOutline />
+          ) : (
+            <IoChevronForwardOutline />
+          )}
         </span>
       </h3>
-      <div className={`sort-sidebar-buttons ${!isShow && "show"}`}>
+      <div className={`sort-sidebar-buttons ${!sortMenuShow && "show"}`}>
         {button.map((button, i) => (
           <button
             key={`button-${i}`}
-            className={isValue === button.value ? "active" : undefined}
+            className={sortValue === button.value ? "active" : undefined}
             value={button.value}
-            onClick={(e) => handleSortTheme(e, button.type)}
+            onClick={(e) => handleSortThemes(e, button.type)}
           >
             <Image
               src={button.icon}
@@ -39,4 +48,4 @@ const SortSidebar = ({ isShow, isValue, handleSortTheme, handleClick }) => {
   );
 };
 
-export default SortSidebar;
+export default SidebarSort;

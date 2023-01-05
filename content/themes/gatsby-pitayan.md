@@ -5,7 +5,9 @@ demo: https://pitayan.github.io/gatsby-theme-pitayan/
 author: Pitayan
 author_link: https://github.com/Pitayan
 date: 2022-12-22T00:00:00.000Z
-description: A theme plugin of Gatsby for those who enjoys building their blog site with minimalist design.
+description: >-
+  A theme plugin of Gatsby for those who enjoys building their blog site with
+  minimalist design.
 ssg:
   - Gatsby
 css:
@@ -15,6 +17,10 @@ cms:
 category:
   - Blog
 draft: false
+publish_date: '2021-06-01T02:51:01Z'
+update_date: '2023-01-04T00:12:41Z'
+github_star: 16
+github_fork: 4
 ---
 
 ## Theme features

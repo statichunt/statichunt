@@ -1,10 +1,10 @@
 import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
-import SortSidebar from "@components/SortSidebar";
 import config from "@config/config.json";
 import { setOthersCategory } from "@hooks/setOthersCategory";
 import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
+import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
@@ -33,31 +33,31 @@ const RegularPages = ({
   const { sidebar } = config;
   const { content } = currentPage[0];
   const [arrayCategory, setArrayCategory] = useState([]);
-  const [isIntro, setIsIntro] = useState(true);
+  const [showIntro, SetShowIntro] = useState(true);
 
-  const getCategories = setOthersCategory(data);
+  const themesWithOthersCategory = setOthersCategory(data);
   const {
-    currentTheme,
-    handleSortTheme,
-    isShow,
-    isValue,
-    defaultSort,
-    handleClick,
-  } = SortReducer(getCategories, true, slug);
+    sortedThemes,
+    handleSortThemes,
+    sortMenuShow,
+    sortValue,
+    defaultSortedThemes,
+    handleSortMenu,
+  } = SortReducer(themesWithOthersCategory, true, slug);
+
   useEffect(() => {
     setArrayCategory([]);
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
 
-  const filterCategory = currentTheme.filter((theme) =>
+  const filterCategory = sortedThemes.filter((theme) =>
     arrayCategory.length
       ? arrayCategory.find((type) =>
           theme.frontmatter.category
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : defaultSort
+      : defaultSortedThemes
   );
 
   // change others position
@@ -78,52 +78,52 @@ const RegularPages = ({
         <div className="flex">
           <Sidebar
             sidebar={sidebar}
-            themes={getCategories}
+            themes={themesWithOthersCategory}
             slug={slug}
             category={category}
             setArrayCategory={setArrayCategory}
             arrayCategory={arrayCategory}
-            setIsIntro={setIsIntro}
-            isIntro={isIntro}
+            SetShowIntro={SetShowIntro}
+            showIntro={showIntro}
           >
-            <SortSidebar
-              isShow={isShow}
-              isValue={isValue}
-              handleSortTheme={handleSortTheme}
-              handleClick={handleClick}
+            <SidebarSort
+              sortMenuShow={sortMenuShow}
+              sortValue={sortValue}
+              handleSortThemes={handleSortThemes}
+              handleSortMenu={handleSortMenu}
             />
           </Sidebar>
           <ThemeTaxonomy
             currentPage={currentPage}
             data={filterCategory}
             tools={tools}
-            isIntro={isIntro}
+            showIntro={showIntro}
           />
         </div>
       ) : cssSlug.includes(slug) ? (
         <div className="flex">
           <Sidebar
             sidebar={sidebar}
-            themes={getCategories}
+            themes={themesWithOthersCategory}
             slug={slug}
             category={category}
             setArrayCategory={setArrayCategory}
             arrayCategory={arrayCategory}
-            setIsIntro={setIsIntro}
-            isIntro={isIntro}
+            SetShowIntro={SetShowIntro}
+            showIntro={showIntro}
           >
-            <SortSidebar
-              isShow={isShow}
-              isValue={isValue}
-              handleSortTheme={handleSortTheme}
-              handleClick={handleClick}
+            <SidebarSort
+              sortMenuShow={sortMenuShow}
+              sortValue={sortValue}
+              handleSortThemes={handleSortThemes}
+              handleSortMenu={handleSortMenu}
             />
           </Sidebar>
           <ThemeTaxonomy
             currentPage={currentPage}
             data={filterCategory}
             tools={tools}
-            isIntro={isIntro}
+            showIntro={showIntro}
           />
         </div>
       ) : toolSlug.includes(slug) ? (

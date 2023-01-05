@@ -95,46 +95,65 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
       hasMore={true}
       className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
     >
-      {page.map((theme) => (
-        <div
-          className={
-            customColClass ? customColClass : "mb-8 sm:col-6 xl:col-4 2xl:col-3"
-          }
-          key={theme.slug}
-        >
-          <div className="theme-card">
-            <Link href={`/themes/${theme.slug}`} className="img-cover">
-              <ImageFallback
-                src={`/themes/${theme.slug}.png`}
-                fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
-                height={250}
-                width={300}
-                alt={theme.frontmatter?.title}
-                className="rounded-t"
-              />
-            </Link>
-            <div className="theme-card-body">
-              <div className="flex justify-between">
-                <h2 className="h6 mb-0 text-lg font-medium">
-                  <Link
-                    href={`/themes/${theme.slug}`}
-                    className="line-clamp-1 hover:underline"
+      {page.length > 0 ? (
+        page.map((theme) => (
+          <div
+            className={
+              customColClass
+                ? customColClass
+                : "mb-8 sm:col-6 xl:col-4 2xl:col-3"
+            }
+            key={theme.slug}
+          >
+            <div className="theme-card">
+              <Link href={`/themes/${theme.slug}`} className="img-cover">
+                <ImageFallback
+                  src={`/themes/${theme.slug}.png`}
+                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+                  height={250}
+                  width={300}
+                  alt={theme.frontmatter?.title}
+                  className="rounded-t"
+                />
+              </Link>
+              <div className="theme-card-body">
+                <div className="flex justify-between">
+                  <h2 className="h6 mb-0 text-lg font-medium">
+                    <Link
+                      href={`/themes/${theme.slug}`}
+                      className="line-clamp-1 hover:underline"
+                    >
+                      {theme.frontmatter?.title}
+                    </Link>
+                  </h2>
+                  <span
+                    className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
+                    data-tooltip={humanize(
+                      theme.frontmatter.price > 0 && theme.type != "update"
+                        ? "Price"
+                        : theme.type
+                        ? theme.type
+                        : "Star"
+                    )}
                   >
-                    {theme.frontmatter?.title}
-                  </Link>
-                </h2>
-                <span
-                  className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
-                  data-tooltip={humanize(
-                    theme.frontmatter.price > 0 && theme.type != "update"
-                      ? "Price"
-                      : theme.type
-                      ? theme.type
-                      : "Star"
-                  )}
-                >
-                  {theme.type === "price" ? (
-                    githubDataChange(theme) !== 0 && (
+                    {theme.type === "price" ? (
+                      githubDataChange(theme) !== 0 && (
+                        <Image
+                          className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
+                          src={`/images/icons/${
+                            theme.frontmatter.price > 0 &&
+                            theme.type != "update"
+                              ? "price"
+                              : theme.type
+                              ? theme.type
+                              : "star"
+                          }.svg`}
+                          alt="github icon"
+                          height="14"
+                          width="14"
+                        />
+                      )
+                    ) : (
                       <Image
                         className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                         src={`/images/icons/${
@@ -148,89 +167,77 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                         height="14"
                         width="14"
                       />
-                    )
+                    )}
+                    {theme.type === "price"
+                      ? githubDataChange(theme) !== 0
+                        ? githubDataChange(theme)
+                        : "Free"
+                      : githubDataChange(theme)}
+                  </span>
+                </div>
+                <span className="text-xs text-dark dark:text-light">
+                  by{" "}
+                  {theme.frontmatter?.author === "Statichunt" ? (
+                    <Link
+                      href="/themes-by-us"
+                      className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent"
+                    >
+                      Statichunt
+                    </Link>
+                  ) : theme.frontmatter?.author ? (
+                    theme.frontmatter?.author
                   ) : (
-                    <Image
-                      className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
-                      src={`/images/icons/${
-                        theme.frontmatter.price > 0 && theme.type != "update"
-                          ? "price"
-                          : theme.type
-                          ? theme.type
-                          : "star"
-                      }.svg`}
-                      alt="github icon"
-                      height="14"
-                      width="14"
-                    />
+                    theme.frontmatter?.github.match(
+                      /github\.com\/([^\/]+)/,
+                      ""
+                    )[0]
                   )}
-                  {theme.type === "price"
-                    ? githubDataChange(theme) !== 0
-                      ? githubDataChange(theme)
-                      : "Free"
-                    : githubDataChange(theme)}
                 </span>
               </div>
-              <span className="text-xs text-dark dark:text-light">
-                by{" "}
-                {theme.frontmatter?.author === "Statichunt" ? (
+              <div className="theme-card-footer">
+                <div className="flex-wrap">
+                  <ToolsIcon
+                    tools={tools}
+                    type={toolsArray(theme)}
+                    themeCard={true}
+                  />
+                </div>
+                <div className="ml-auto flex items-center whitespace-nowrap">
                   <Link
-                    href="/themes-by-us"
-                    className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent"
+                    href={`/demo/${theme.slug}`}
+                    className="btn btn-sm btn-demo svg-block mb-2 mr-1 leading-none"
+                    target="_blank"
+                    rel="noopener nofollow"
+                    data-tooltip="Preview"
+                    aria-label="Preview Theme"
                   >
-                    Statichunt
+                    <TbEye />
                   </Link>
-                ) : theme.frontmatter?.author ? (
-                  theme.frontmatter?.author
-                ) : (
-                  theme.frontmatter?.github.match(
-                    /github\.com\/([^\/]+)/,
-                    ""
-                  )[0]
-                )}
-              </span>
-            </div>
-            <div className="theme-card-footer">
-              <div className="flex-wrap">
-                <ToolsIcon
-                  tools={tools}
-                  type={toolsArray(theme)}
-                  themeCard={true}
-                />
-              </div>
-              <div className="ml-auto flex items-center whitespace-nowrap">
-                <Link
-                  href={`/demo/${theme.slug}`}
-                  className="btn btn-sm btn-demo svg-block mb-2 mr-1 leading-none"
-                  target="_blank"
-                  rel="noopener nofollow"
-                  data-tooltip="Preview"
-                  aria-label="Preview Theme"
-                >
-                  <TbEye />
-                </Link>
-                <Link
-                  href={`${
-                    theme.frontmatter.github
-                      ? theme.frontmatter.github
-                      : theme.frontmatter.download
-                  }?ref=statichunt.com`}
-                  className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
-                  target="_blank"
-                  rel="noopener nofollow"
-                  data-tooltip="Download"
-                  aria-label="Download Theme"
-                >
-                  <>
-                    <span className="mr-1 hidden lg:inline">Get</span>
-                    <TbDownload />
-                  </>
-                </Link>
+                  <Link
+                    href={`${
+                      theme.frontmatter.github
+                        ? theme.frontmatter.github
+                        : theme.frontmatter.download
+                    }?ref=statichunt.com`}
+                    className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
+                    target="_blank"
+                    rel="noopener nofollow"
+                    data-tooltip="Download"
+                    aria-label="Download Theme"
+                  >
+                    <>
+                      <span className="mr-1 hidden lg:inline">Get</span>
+                      <TbDownload />
+                    </>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))
+      ) : (
+        <h1>No Themes Found!</h1>
+      )}
     </InfiniteScroll>
   );
 };

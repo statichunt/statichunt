@@ -19,7 +19,7 @@ const Accordion = ({
   setArrayCategory,
   arrayTool,
   setArrayTool,
-  setIsIntro,
+  SetShowIntro,
 }) => {
   const [taxonomy, setTaxonomy] = useState(type);
   const { darkIconList } = config;
@@ -106,16 +106,16 @@ const Accordion = ({
   };
   // hide intro function
   useEffect(() => {
-    if (setIsIntro) {
+    if (SetShowIntro) {
       if (
         arraySSG?.length > 0 ||
         arrayCategory?.length > 0 ||
         arrayCMS?.length > 0 ||
         arrayCSS?.length > 0
       ) {
-        setIsIntro(false);
+        SetShowIntro(false);
       } else {
-        setIsIntro(true);
+        SetShowIntro(true);
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

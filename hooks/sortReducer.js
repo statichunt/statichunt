@@ -1,43 +1,43 @@
 import { reducer } from "@lib/utils/filterReducer";
 import { useEffect, useReducer, useState } from "react";
 
-const SortReducer = (getCategories, show, slug) => {
-  const defaultSort = getCategories.sort(
+const SortReducer = (themes, show, slug) => {
+  const defaultSortedThemes = themes.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
 
-  const [isShow, setIsShow] = useState(false);
-  const [isValue, setIsValue] = useState("default");
-  const [currentTheme, dispatch] = useReducer(reducer, defaultSort);
+  const [sortMenuShow, setSortMenuShow] = useState(false);
+  const [sortValue, setSortValue] = useState("default");
+  const [sortedThemes, dispatch] = useReducer(reducer, defaultSortedThemes);
 
-  const handleSortTheme = (e, type) => {
+  const handleSortThemes = (e, type) => {
     dispatch({ type: type });
-    setIsValue(e.target.value);
+    setSortValue(e.target.value);
     if (!show) {
-      setIsShow(!isShow);
+      setSortMenuShow(!sortMenuShow);
     }
   };
 
   useEffect(() => {
     if (slug) {
-      dispatch({ type: "SLUG", payload: defaultSort });
-      setIsValue("default");
+      dispatch({ type: "SLUG", payload: defaultSortedThemes });
+      setSortValue("default");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
 
-  const handleClick = () => {
-    setIsShow(!isShow);
+  const handleSortMenu = () => {
+    setSortMenuShow(!sortMenuShow);
   };
   return {
-    currentTheme,
-    handleSortTheme,
-    isShow,
-    setIsShow,
-    isValue,
-    setIsValue,
-    defaultSort,
-    handleClick,
+    sortedThemes,
+    handleSortThemes,
+    sortMenuShow,
+    setSortMenuShow,
+    sortValue,
+    setSortValue,
+    defaultSortedThemes,
+    handleSortMenu,
   };
 };
 
