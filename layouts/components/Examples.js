@@ -85,9 +85,26 @@ const Examples = ({ examples, tools, customRowClass, customColClass }) => {
                 <h2 className="h6 mb-0 text-lg font-medium">
                   <Link
                     href={example.frontmatter.website}
-                    className="line-clamp-1 hover:underline"
+                    className="text-white line-clamp-1 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {simplifyURL(example.frontmatter.website)}
+                    <svg
+                      width="20px"
+                      height="20px"
+                      viewBox="-1.6 -1.6 19.20 19.20"
+                      fill="none"
+                      className="ml-2"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                      <g id="SVGRepo_iconCarrier">
+                        <g fill="#dfdfdf">
+                          <path d="M9 .75A.75.75 0 019.75 0h4.5c.206 0 .393.083.529.218l.001.002.002.001A.748.748 0 0115 .75v4.5a.75.75 0 01-1.5 0V2.56L7.28 8.78a.75.75 0 01-1.06-1.06l6.22-6.22H9.75A.75.75 0 019 .75z" />
+                          <path d="M3.25 3.5a.75.75 0 00-.75.75v7.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0110.75 14h-7.5A2.25 2.25 0 011 11.75v-7.5A2.25 2.25 0 013.25 2h4a.75.75 0 010 1.5h-4z" />
+                        </g>
+                      </g>
+                    </svg>
                   </Link>
                 </h2>
               </div>
