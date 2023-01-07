@@ -1,5 +1,5 @@
 import { humanize } from "@lib/utils/textConverter";
-
+import sortButton from "config/sort.json";
 import { TbChevronDown } from "react-icons/tb";
 
 const HomeSort = ({
@@ -7,9 +7,8 @@ const HomeSort = ({
   sortValue,
   handleSortThemes,
   handleSortMenu,
-  button,
 }) => {
- 
+  const { button } = sortButton;
   return (
     <div className="sort-dropdown ml-0 mt-4 md:ml-2 md:mt-[6px]">
       Sort by:
@@ -27,8 +26,6 @@ const HomeSort = ({
             {humanize(button.value)}
           </button>
         ))}
-
-   
       </div>
     </div>
   );

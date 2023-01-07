@@ -3,37 +3,27 @@
     {
       "type": "DEFAULT",
       "value": "default",
-      "icon": "/images/icons/sort.svg",
-      "free": true,
-      "premium": true
+      "icon": "/images/icons/sort.svg"
     },
     {
       "type": "STAR",
       "value": "star",
-      "icon": "/images/icons/star.svg",
-      "free": true,
-      "premium": false
+      "icon": "/images/icons/star.svg"
     },
     {
       "type": "FORK",
       "value": "fork",
-      "icon": "/images/icons/fork.svg",
-      "free": true,
-      "premium": false
+      "icon": "/images/icons/fork.svg"
     },
     {
       "type": "UPDATE",
       "value": "update",
-      "icon": "/images/icons/update.svg",
-      "free": true,
-      "premium": true
+      "icon": "/images/icons/update.svg"
     },
     {
       "type": "PRICE",
       "value": "price",
-      "icon": "/images/icons/price.svg",
-      "free": false,
-      "premium": true
+      "icon": "/images/icons/price.svg"
     }
   ]
 }
