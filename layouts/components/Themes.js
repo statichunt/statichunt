@@ -14,6 +14,7 @@ const githubDataChange = (theme) => {
   const getStar = theme.frontmatter.github_star
     ? theme.frontmatter.github_star
     : 0;
+
   const star =
     getStar < 1000 ? getStar : parseFloat(getStar / 1000).toFixed(1) + "k";
   const fork =
@@ -34,6 +35,7 @@ const githubDataChange = (theme) => {
     return updateDate;
   } else if (theme.type === "price") {
     return price;
+  } else if (theme.type === "asce") {
   } else {
     return price ? price : star;
   }
@@ -42,6 +44,7 @@ const githubDataChange = (theme) => {
 const Themes = ({ themes, tools, customRowClass, customColClass }) => {
   const [item, setItem] = useState(4);
   const [page, setPage] = useState(themes.slice(0, item));
+
 
   // getWindowDimensions
   const [windowSize, setWindowSize] = useState(768);

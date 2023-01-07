@@ -10,7 +10,7 @@ import { slugify } from "@lib/utils/textConverter";
 import { setOthersCategory } from "hooks/setOthersCategory";
 import SortReducer from "hooks/sortReducer";
 import { useState } from "react";
-
+import sortButton from "config/sort.json";
 const Home = ({
   frontmatter: { intro },
   cms,
@@ -21,6 +21,7 @@ const Home = ({
   tools,
 }) => {
   const { sidebar } = config;
+  const { button } = sortButton;
 
   // ssg array update state
   const [arraySSG, setArraySSG] = useState([]);
@@ -120,6 +121,16 @@ const Home = ({
       ? premiumThemeByCategory
       : filterCategory;
 
+  // sort button
+  const buttons =
+    arrayPremium.length && arrayFree.length
+      ? button
+      : arrayPremium.length
+      ? button.filter((data) => data.premium)
+      : arrayFree.length
+      ? button.filter((data) => data.free)
+      : button;
+
   return (
     <Base>
       <div className="flex" onClick={mouseHandler}>
@@ -137,8 +148,10 @@ const Home = ({
           arrayCSS={arrayCSS}
           SetShowIntro={SetShowIntro}
         />
+
         <main className="main">
           <div className="container">
+            <button onClick={()=>reverseData("asc")}>asc</button>
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory
@@ -158,6 +171,7 @@ const Home = ({
                 sortValue={sortValue}
                 handleSortThemes={handleSortThemes}
                 handleSortMenu={handleSortMenu}
+                button={buttons}
               />
             </div>
 
