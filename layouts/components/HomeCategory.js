@@ -14,6 +14,7 @@ const HomeCategory = ({
   setArrayPremium,
 }) => {
   const [taxonomy, setTaxonomy] = useState(category);
+
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
@@ -43,6 +44,8 @@ const HomeCategory = ({
     } else {
       setArrayCategory((prevValue) => [...prevValue, label]);
     }
+   
+    
   };
 
   // category items count
@@ -55,7 +58,7 @@ const HomeCategory = ({
 
   return (
     <ul className="category-list">
-      {/* {filterFree.length > 0 && (
+      {filterFree.length > 0 && (
         <li
           onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
           className={arrayFree.length > 0 ? "active" : undefined}
@@ -75,7 +78,7 @@ const HomeCategory = ({
           <span>{filterPremium.length}</span>
         </li>
       )}
-      <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 border-border !p-0 align-middle" /> */}
+      <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 border-border !p-0 align-middle" />
       {taxonomy.map(
         (item, i) =>
           countItems(item) > 0 && (
