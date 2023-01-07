@@ -1,14 +1,14 @@
 ---
-title: Astrolus
-website: https://astrolus.netlify.app/
+title: Typeform
+website: https://www.typeform.com/
 date: 2022-12-22T00:00:00.000Z
 description: ""
 ssg:
-  - Astro
+  - Next
 css:
-  - Tailwind
+
 cms:
-  - Markdown
+  - Forestry
 category:
   - Saas
 draft: false
