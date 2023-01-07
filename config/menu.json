@@ -13,6 +13,10 @@
       "url": "/resources"
     },
     {
+      "name": "Examples",
+      "url": "/examples"
+    },
+    {
       "name": "About",
       "url": "/about"
     }
@@ -28,6 +32,10 @@
         {
           "page": "resources",
           "url": "/resources"
+        },
+        {
+          "page": "examples",
+          "url": "/examples"
         },
         {
           "page": "about",
