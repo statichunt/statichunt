@@ -6,7 +6,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Header = () => {
+const Header = ({ submitItem }) => {
   // distructuring the main menu from menu object
   const { main } = menu;
   const { logo, logo_light, title } = config.site;
@@ -75,8 +75,8 @@ const Header = () => {
             target="_blank"
             rel="nofollow noreferrer"
           >
-            Submit{" "}
-            <span className="hidden md:inline-block">Theme / Resource</span>
+            Submit
+            {/* <span className="hidden md:inline-block">Theme / Resource</span> */}
           </a>
         </div>
       </nav>

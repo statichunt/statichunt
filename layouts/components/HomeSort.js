@@ -1,14 +1,15 @@
 import { humanize } from "@lib/utils/textConverter";
-import sortButton from "config/sort.json";
 import { TbChevronDown } from "react-icons/tb";
 
 const HomeSort = ({
   sortMenuShow,
   sortValue,
+  sortAsc,
+  setSortAsc,
   handleSortThemes,
   handleSortMenu,
+  sortMenu,
 }) => {
-  const { button } = sortButton;
   return (
     <div className="sort-dropdown ml-0 mt-4 md:ml-2 md:mt-[6px]">
       Sort by:
@@ -16,7 +17,7 @@ const HomeSort = ({
         {humanize(sortValue)} <TbChevronDown />
       </span>
       <div className={`sort-dropdown-buttons ${sortMenuShow && "show"} `}>
-        {button.map((button, i) => (
+        {sortMenu.map((button, i) => (
           <button
             key={`button-${i}`}
             className={sortValue === button.value ? "active" : undefined}
@@ -26,6 +27,19 @@ const HomeSort = ({
             {humanize(button.value)}
           </button>
         ))}
+        <span className="m-2 block border-t border-border dark:border-darkmode-theme-light" />
+        <button
+          className={!sortAsc ? "active" : undefined}
+          onClick={() => setSortAsc(false)}
+        >
+          Descending
+        </button>
+        <button
+          className={sortAsc ? "active" : undefined}
+          onClick={() => setSortAsc(true)}
+        >
+          Ascending
+        </button>
       </div>
     </div>
   );

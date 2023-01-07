@@ -221,7 +221,9 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                     }?ref=statichunt.com`}
                     className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
                     target="_blank"
-                    rel="noopener nofollow"
+                    rel={`noopener ${
+                      theme.frontmatter?.price ? "sponsor" : "nofollow"
+                    }`}
                     data-tooltip="Download"
                     aria-label="Download Theme"
                   >

@@ -12,6 +12,7 @@
     "json": "node lib/jsonGenerator.mjs",
     "ss-themes": "yarn json && node lib/screenshotThemes.mjs",
     "ss-resources": "yarn json && node lib/screenshotResources.mjs",
+    "ss-examples": "yarn json && node lib/screenshotExamples.mjs",
     "update-themes": "yarn json && node lib/updateThemes.js && yarn json",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs"
   },
