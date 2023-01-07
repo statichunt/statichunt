@@ -7,6 +7,7 @@ import Base from "@layouts/Baseof";
 import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
+import sortButton from "config/sort.json";
 import { setOthersCategory } from "hooks/setOthersCategory";
 import SortReducer from "hooks/sortReducer";
 import { useState } from "react";
@@ -21,6 +22,7 @@ const Home = ({
   tools,
 }) => {
   const { sidebar } = config;
+  const { button } = sortButton;
 
   // ssg array update state
   const [arraySSG, setArraySSG] = useState([]);
@@ -30,6 +32,7 @@ const Home = ({
   const [arrayFree, setArrayFree] = useState([]);
   const [arrayPremium, setArrayPremium] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
+  const [sortAsc, setSortAsc] = useState(false);
   const {
     sortedThemes,
     handleSortThemes,
@@ -111,6 +114,7 @@ const Home = ({
       : defaultSortedThemes
   );
 
+  // handle filtered themes
   const filteredThemes =
     arrayFree.length > 0 && arrayPremium.length > 0
       ? filterCategory
@@ -119,6 +123,21 @@ const Home = ({
       : arrayPremium.length > 0
       ? premiumThemeByCategory
       : filterCategory;
+
+  // sort filtered themes
+  const sortFilteredThemes = sortAsc
+    ? filteredThemes.reverse()
+    : filteredThemes;
+
+  // sort menus
+  const sortMenu =
+    arrayPremium.length && arrayFree.length
+      ? button
+      : arrayPremium.length
+      ? button.filter((data) => data.premium)
+      : arrayFree.length
+      ? button.filter((data) => data.free)
+      : button;
 
   return (
     <Base>
@@ -154,14 +173,17 @@ const Home = ({
                 setArrayPremium={setArrayPremium}
               />
               <HomeSort
+                sortMenu={sortMenu}
                 sortMenuShow={sortMenuShow}
                 sortValue={sortValue}
+                sortAsc={sortAsc}
+                setSortAsc={setSortAsc}
                 handleSortThemes={handleSortThemes}
                 handleSortMenu={handleSortMenu}
               />
             </div>
 
-            <Themes themes={filteredThemes} tools={tools} />
+            <Themes themes={sortFilteredThemes} tools={tools} />
           </div>
         </main>
       </div>

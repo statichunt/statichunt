@@ -44,8 +44,6 @@ const HomeCategory = ({
     } else {
       setArrayCategory((prevValue) => [...prevValue, label]);
     }
-   
-    
   };
 
   // category items count
@@ -78,7 +76,7 @@ const HomeCategory = ({
           <span>{filterPremium.length}</span>
         </li>
       )}
-      <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 border-border !p-0 align-middle" />
+      <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" />
       {taxonomy.map(
         (item, i) =>
           countItems(item) > 0 && (
