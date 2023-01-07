@@ -7,14 +7,18 @@ author_link: https://nickdimatteo.com
 date: 2022-12-29T00:00:00.000Z
 description: Headless Shopify starter powered by Next.js + Sanity.io
 ssg:
-  - Next.js
+  - Next
 css:
   - Tailwind
 cms:
-  - Sanity.io
+  - Sanity
 category:
   - Ecommerce
 draft: false
+publish_date: '2020-10-19T19:00:26Z'
+update_date: '2022-12-28T22:41:25Z'
+github_star: 1082
+github_fork: 105
 ---
 
 ## Theme features
