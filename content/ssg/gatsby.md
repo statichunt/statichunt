@@ -12,6 +12,8 @@ license: MIT
 license_url: https://github.com/gatsbyjs/gatsby/blob/master/LICENSE
 language: JavaScript
 url: "/gatsby-themes"
+examples_url: "/gatsby-examples"
 draft: false
 ---
+
 Gatsby is a static site generator that lets you build websites and apps with speed. It offers the control of dynamically rendered sites with scalability - all in a free open source framework!

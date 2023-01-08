@@ -4,6 +4,7 @@ import config from "@config/config.json";
 import { setOthersCategory } from "@hooks/setOthersCategory";
 import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
+import Examples from "@layouts/components/Examples";
 import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
@@ -14,7 +15,7 @@ import {
   getSinglePage,
   getSinglePageSlug,
 } from "@lib/contentParser";
-import { slugify } from "@lib/utils/textConverter";
+import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useEffect, useState } from "react";
 
 // for all regular pages
@@ -67,7 +68,6 @@ const RegularPages = ({
   category.splice(category.length, 0, element);
 
   return (
-    // <div>regular</div>
     <Base
       title={title}
       description={description ? description : content.slice(0, 120)}
@@ -107,8 +107,16 @@ const RegularPages = ({
           <MobileSidebar />
           <ResourceTaxonomy data={data} currentPage={currentPage} />
         </>
-      ) : slug.includes("examples") ? (
-        <div>{slug}</div>
+      ) : slug.includes("-examples") ? (
+        <main className="main">
+          <div className="container">
+            <div className={`mb-10 md:mb-16`}>
+              <h1 className="mb-3">{title}</h1>
+              {markdownify(description, "p")}
+            </div>
+            <Examples examples={currentPage} tools={tools} />
+          </div>
+        </main>
       ) : (
         <Default data={data} />
       )}
@@ -137,8 +145,6 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   const { regular } = params;
 
-  // console.log(regular);
-
   // get taxonomies
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
@@ -153,16 +159,16 @@ export const getStaticProps = async ({ params }) => {
 
   // read examples data
   const examples = getSinglePage("content/examples");
-  const data =
-    regular.includes("examples") &&
-    examples.filter((d) =>
-      d.frontmatter.ssg
+  const ssgExamplesPage =
+    regular.includes("-examples") &&
+    examples.filter((example) =>
+      example.frontmatter.ssg
         .map((d) => slugify(d))
         .includes(regular.replace("-examples", ""))
     );
 
   // ssg page
-  const ssgPage =
+  const ssgThemesPage =
     ssg.length &&
     ssg.filter((page) =>
       page.frontmatter?.url
@@ -170,10 +176,8 @@ export const getStaticProps = async ({ params }) => {
         : page.slug === regular
     );
 
-  // console.log(ssgPage);
-
   // css page
-  const cssPage =
+  const cssThemesPage =
     css.length &&
     css.filter((page) =>
       page.frontmatter?.url
@@ -182,7 +186,7 @@ export const getStaticProps = async ({ params }) => {
     );
 
   // tool page
-  const toolPage =
+  const toolThemesPage =
     tool.length &&
     tool.filter((page) =>
       page.frontmatter?.url
@@ -191,16 +195,16 @@ export const getStaticProps = async ({ params }) => {
     );
 
   // current page data
-  const getCurrentPage = ssgPage.length
-    ? slugify(ssgPage[0]?.frontmatter.title)
-    : cssPage.length
-    ? slugify(cssPage[0]?.frontmatter.title)
-    : toolPage.length
-    ? slugify(toolPage[0]?.frontmatter.title)
+  const getCurrentPage = ssgThemesPage.length
+    ? slugify(ssgThemesPage[0]?.frontmatter.title)
+    : ssgExamplesPage.length
+    ? slugify(ssgExamplesPage[0]?.frontmatter.title)
+    : cssThemesPage.length
+    ? slugify(cssThemesPage[0]?.frontmatter.title)
+    : toolThemesPage.length
+    ? slugify(toolThemesPage[0]?.frontmatter.title)
     : regular;
   const currentPageData = await getRegularPage(getCurrentPage);
-
-  // console.log(currentPageData);
 
   // layout filtering
   const defaultPage = currentPageData.filter(
@@ -208,14 +212,14 @@ export const getStaticProps = async ({ params }) => {
   );
 
   // current page
-  const currentPage = data.length
-    ? data
-    : ssgPage.length
-    ? ssgPage
-    : cssPage.length
-    ? cssPage
-    : toolPage.length
-    ? toolPage
+  const currentPage = ssgExamplesPage.length
+    ? ssgExamplesPage
+    : ssgThemesPage.length
+    ? ssgThemesPage
+    : cssThemesPage.length
+    ? cssThemesPage
+    : toolThemesPage.length
+    ? toolThemesPage
     : defaultPage;
 
   // all tools
