@@ -30,6 +30,7 @@ const RegularPages = ({
 }) => {
   const { title, meta_title, description, image, noindex, canonical } =
     currentPage[0]?.frontmatter;
+
   const { sidebar } = config;
   const { content } = currentPage[0];
   const [arrayCategory, setArrayCategory] = useState([]);
@@ -66,6 +67,7 @@ const RegularPages = ({
   category.splice(category.length, 0, element);
 
   return (
+    // <div>regular</div>
     <Base
       title={title}
       description={description ? description : content.slice(0, 120)}
@@ -105,6 +107,8 @@ const RegularPages = ({
           <MobileSidebar />
           <ResourceTaxonomy data={data} currentPage={currentPage} />
         </>
+      ) : slug.includes("examples") ? (
+        <div>{slug}</div>
       ) : (
         <Default data={data} />
       )}
@@ -116,6 +120,7 @@ export default RegularPages;
 // for regular page routes
 export const getStaticPaths = async () => {
   const slugs = getRegularPageSlug();
+
   const paths = slugs.map((slug) => ({
     params: {
       regular: slug,
@@ -145,6 +150,16 @@ export const getStaticProps = async ({ params }) => {
   const ssgSlug = getSinglePageSlug("content/ssg");
   const cssSlug = getSinglePageSlug("content/css");
   const toolSlug = getSinglePageSlug("content/tool");
+
+  // read examples data
+  const examples = getSinglePage("content/examples");
+  const data =
+    regular.includes("examples") &&
+    examples.filter((d) =>
+      d.frontmatter.ssg
+        .map((d) => slugify(d))
+        .includes(regular.replace("-examples", ""))
+    );
 
   // ssg page
   const ssgPage =
@@ -193,7 +208,9 @@ export const getStaticProps = async ({ params }) => {
   );
 
   // current page
-  const currentPage = ssgPage.length
+  const currentPage = data.length
+    ? data
+    : ssgPage.length
     ? ssgPage
     : cssPage.length
     ? cssPage
