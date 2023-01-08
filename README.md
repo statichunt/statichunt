@@ -22,6 +22,16 @@ Anyone can submit a resource by adding a markdown file to the `content/resources
 
 > **Tip:** Do not generate the screenshots. Please just submit the markdown file in your pull request.
 
+## Submit A Jamstack Example Site
+
+Anyone can submit a jamstack example by adding a markdown file to the `content/examples` folder.
+
+1. Fork this repo and copy the `_template.md` file in `content/examples` folder. Another option is to add a new file using the [Github UI](https://github.com/statichunt/statichunt/tree/main/content/examples) _(click the "add file" button)_
+2. Rename it to the resource name (ex: `statichunt.md`) and fulfill the file with examples info.
+3. Submit a pull request
+
+> **Tip:** Do not generate the screenshots. Please just submit the markdown file in your pull request.
+
 ## Contribution Guidelines
 
 * Any open source themes with a public Github repo can be submitted.

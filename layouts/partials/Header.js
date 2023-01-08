@@ -4,9 +4,10 @@ import config from "@config/config.json";
 import menu from "@config/menu.json";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-const Header = ({ submitItem }) => {
+const Header = () => {
   // distructuring the main menu from menu object
   const { main } = menu;
   const { logo, logo_light, title } = config.site;
@@ -14,6 +15,7 @@ const Header = ({ submitItem }) => {
   const [mounted, setMounted] = useState(false);
   const { theme, resolvedTheme } = useTheme();
   useEffect(() => setMounted(true), []);
+  const router = useRouter();
 
   return (
     <header className="header">
@@ -60,7 +62,13 @@ const Header = ({ submitItem }) => {
         <ul className="navbar-nav hidden lg:flex">
           {main.map((menu, i) => (
             <li className="nav-item" key={`menu-${i}`}>
-              <Link href={menu.url} className="nav-link block">
+              <Link
+                href={menu.url}
+                className={`nav-link block ${
+                  router.asPath === menu.url &&
+                  "text-primary dark:text-darkmode-primary"
+                }`}
+              >
                 {menu.name}
               </Link>
             </li>

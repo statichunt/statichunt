@@ -4,9 +4,9 @@ import config from "@config/config.json";
 import { setOthersCategory } from "@hooks/setOthersCategory";
 import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
-import Examples from "@layouts/components/Examples";
 import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
+import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {
@@ -15,7 +15,7 @@ import {
   getSinglePage,
   getSinglePageSlug,
 } from "@lib/contentParser";
-import { markdownify, slugify } from "@lib/utils/textConverter";
+import { slugify } from "@lib/utils/textConverter";
 import { useEffect, useState } from "react";
 
 // for all regular pages
@@ -29,11 +29,19 @@ const RegularPages = ({
   tools,
   category,
 }) => {
-  const { title, meta_title, description, image, noindex, canonical } =
-    currentPage[0]?.frontmatter;
+  const isExamples = slug.includes("-examples");
+  const {
+    title,
+    meta_title,
+    examples_meta_title,
+    description,
+    examples_description,
+    image,
+    noindex,
+    canonical,
+  } = currentPage[0]?.frontmatter;
 
   const { sidebar } = config;
-  const { content } = currentPage[0];
   const [arrayCategory, setArrayCategory] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
 
@@ -70,8 +78,8 @@ const RegularPages = ({
   return (
     <Base
       title={title}
-      description={description ? description : content.slice(0, 120)}
-      meta_title={meta_title}
+      description={isExamples ? examples_description : description}
+      meta_title={isExamples ? examples_meta_title : meta_title}
       image={image}
       noindex={noindex}
       canonical={canonical}
@@ -107,16 +115,25 @@ const RegularPages = ({
           <MobileSidebar />
           <ResourceTaxonomy data={data} currentPage={currentPage} />
         </>
-      ) : slug.includes("-examples") ? (
-        <main className="main">
-          <div className="container">
-            <div className={`mb-10 md:mb-16`}>
-              <h1 className="mb-3">{title}</h1>
-              {markdownify(description, "p")}
-            </div>
-            <Examples examples={currentPage} tools={tools} />
-          </div>
-        </main>
+      ) : isExamples ? (
+        <div className="flex">
+          <Sidebar
+            sidebar={sidebar}
+            themes={data}
+            slug={slug}
+            category={category}
+            setArrayCategory={setArrayCategory}
+            arrayCategory={arrayCategory}
+            SetShowIntro={SetShowIntro}
+            showIntro={showIntro}
+          />
+          <ExampleTaxonomy
+            currentPage={currentPage}
+            data={data}
+            tools={tools}
+            showIntro={showIntro}
+          />
+        </div>
       ) : (
         <Default data={data} />
       )}
@@ -151,6 +168,7 @@ export const getStaticProps = async ({ params }) => {
   const css = getSinglePage("content/css");
   const category = getSinglePage("content/category");
   const tool = getSinglePage("content/tool");
+  const examples = getSinglePage("content/examples");
 
   // get taxonomies slug
   const ssgSlug = getSinglePageSlug("content/ssg");
@@ -158,7 +176,6 @@ export const getStaticProps = async ({ params }) => {
   const toolSlug = getSinglePageSlug("content/tool");
 
   // read examples data
-  const examples = getSinglePage("content/examples");
   const ssgExamplesPage =
     regular.includes("-examples") &&
     examples.filter((example) =>
@@ -171,7 +188,9 @@ export const getStaticProps = async ({ params }) => {
   const ssgThemesPage =
     ssg.length &&
     ssg.filter((page) =>
-      page.frontmatter?.url
+      regular.includes("-examples")
+        ? page.frontmatter.examples_url === `/${regular}`
+        : page.frontmatter?.url
         ? page.frontmatter.url === `/${regular}`
         : page.slug === regular
     );
@@ -197,14 +216,15 @@ export const getStaticProps = async ({ params }) => {
   // current page data
   const getCurrentPage = ssgThemesPage.length
     ? slugify(ssgThemesPage[0]?.frontmatter.title)
-    : ssgExamplesPage.length
-    ? slugify(ssgExamplesPage[0]?.frontmatter.title)
     : cssThemesPage.length
     ? slugify(cssThemesPage[0]?.frontmatter.title)
     : toolThemesPage.length
     ? slugify(toolThemesPage[0]?.frontmatter.title)
     : regular;
-  const currentPageData = await getRegularPage(getCurrentPage);
+
+  const currentPageData = regular.includes("examples")
+    ? ssgExamplesPage
+    : await getRegularPage(getCurrentPage);
 
   // layout filtering
   const defaultPage = currentPageData.filter(
@@ -213,7 +233,7 @@ export const getStaticProps = async ({ params }) => {
 
   // current page
   const currentPage = ssgExamplesPage.length
-    ? ssgExamplesPage
+    ? ssgThemesPage
     : ssgThemesPage.length
     ? ssgThemesPage
     : cssThemesPage.length

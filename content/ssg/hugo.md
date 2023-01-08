@@ -1,9 +1,12 @@
 ---
 title: Hugo
 page_title: Hugo Themes
+examples_page_title: Hugo Examples
 weight: "4"
 meta_title: 40+ Hand-Picked Free Hugo Themes In 2023
+examples_meta_title: Hand-Picked Hugo Examples
 description: Are you looking for the best Hugo theme? Check out our broad selection of themes that will give your website a professional and polished appearance.
+examples_description: Best Hugo Website Examples
 icon: "/images/icons/hugo.svg"
 website: https://gohugo.io
 github_path: gohugoio/hugo

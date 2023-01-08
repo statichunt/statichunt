@@ -1,7 +1,11 @@
 ---
 title: "Docusaurus"
+page_title: 
+examples_page_title:
 meta_title: "Docusaurus Themes | A Curated Directory Of Free Docusaurus Themes"
+examples_meta_title:
 description: "A curated directory of best free Docusaurus Themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
+examples_description:
 icon: /images/icons/docusaurus.svg
 website: https://docusaurus.io/
 github_path: facebook/docusaurus
