@@ -1,12 +1,9 @@
 ---
 title: Astro
 page_title: Astro Themes
-examples_page_title:
 weight: "5"
 meta_title: Astro Themes | Get The Best Free Astro Themes For Your Website
-examples_meta_title:
 description: "Looking for the best Astro themes? These free Astro themes and templates are ideal for any type of website, from businesses to personal blogs."
-examples_description:
 icon: /images/icons/astro.svg
 website: https://astro.build/
 github_path: withastro/astro
@@ -15,6 +12,13 @@ license: MIT
 license_url: https://github.com/withastro/astro/blob/main/LICENSE
 language: JavaScript
 url: "/astro-themes"
+
+examples_page_title: Astro Examples
+examples_meta_title: Hand-Picked Astro Examples
+examples_description: Best Astro Website Examples
+examples_content: ""
+examples_url: "/astro-examples"
+
 draft: false
 ---
 

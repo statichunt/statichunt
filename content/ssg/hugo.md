@@ -1,12 +1,9 @@
 ---
 title: Hugo
 page_title: Hugo Themes
-examples_page_title: Hugo Examples
 weight: "4"
 meta_title: 40+ Hand-Picked Free Hugo Themes In 2023
-examples_meta_title: Hand-Picked Hugo Examples
 description: Are you looking for the best Hugo theme? Check out our broad selection of themes that will give your website a professional and polished appearance.
-examples_description: Best Hugo Website Examples
 icon: "/images/icons/hugo.svg"
 website: https://gohugo.io
 github_path: gohugoio/hugo
@@ -15,7 +12,13 @@ license: Apache-2.0
 license_url: https://github.com/gohugoio/hugo/blob/master/LICENSE
 language: Go
 url: "/hugo-themes"
+
+examples_page_title: Hugo Examples
+examples_meta_title: Hand-Picked Hugo Examples
+examples_description: Best Hugo Website Examples
+examples_content: "Hugo is a popular static site generator written in Go. It's simple to use and easy to learn, making it a popular choice for developers who want to build a website without having to learn complex coding languages."
 examples_url: "/hugo-examples"
+
 draft: false
 ---
 

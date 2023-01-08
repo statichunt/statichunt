@@ -17,6 +17,7 @@ const ExampleTaxonomy = ({ data, currentPage, tools, showIntro }) => {
   const {
     title,
     examples_page_title,
+    examples_content,
     icon,
     website,
     github_path,
@@ -43,7 +44,7 @@ const ExampleTaxonomy = ({ data, currentPage, tools, showIntro }) => {
               />
               {markdownify(examples_page_title || title, "h1", "self-end")}
             </div>
-            {markdownify(content, "p", "mb-5")}
+            {markdownify(examples_content || content, "p", "mb-5")}
             <ul className="meta-list">
               {website && (
                 <li title="Official Website">
