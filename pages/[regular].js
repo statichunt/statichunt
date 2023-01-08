@@ -168,7 +168,6 @@ export const getStaticProps = async ({ params }) => {
   const css = getSinglePage("content/css");
   const category = getSinglePage("content/category");
   const tool = getSinglePage("content/tool");
-  const examples = getSinglePage("content/examples");
 
   // get taxonomies slug
   const ssgSlug = getSinglePageSlug("content/ssg");
@@ -176,7 +175,7 @@ export const getStaticProps = async ({ params }) => {
   const toolSlug = getSinglePageSlug("content/tool");
 
   // ssg page
-  const ssgThemesPage =
+  const ssgPage =
     ssg.length &&
     ssg.filter((page) =>
       regular.includes("-examples")
@@ -187,7 +186,7 @@ export const getStaticProps = async ({ params }) => {
     );
 
   // css page
-  const cssThemesPage =
+  const cssPage =
     css.length &&
     css.filter((page) =>
       page.frontmatter?.url
@@ -196,7 +195,7 @@ export const getStaticProps = async ({ params }) => {
     );
 
   // tool page
-  const toolThemesPage =
+  const toolPage =
     tool.length &&
     tool.filter((page) =>
       page.frontmatter?.url
@@ -205,12 +204,12 @@ export const getStaticProps = async ({ params }) => {
     );
 
   // current page data
-  const getCurrentPage = ssgThemesPage.length
-    ? slugify(ssgThemesPage[0]?.frontmatter.title)
-    : cssThemesPage.length
-    ? slugify(cssThemesPage[0]?.frontmatter.title)
-    : toolThemesPage.length
-    ? slugify(toolThemesPage[0]?.frontmatter.title)
+  const getCurrentPage = ssgPage.length
+    ? slugify(ssgPage[0]?.frontmatter.title)
+    : cssPage.length
+    ? slugify(cssPage[0]?.frontmatter.title)
+    : toolPage.length
+    ? slugify(toolPage[0]?.frontmatter.title)
     : regular;
 
   const currentPageData = await getRegularPage(getCurrentPage, regular);
@@ -222,13 +221,13 @@ export const getStaticProps = async ({ params }) => {
 
   // current page
   const currentPage = regular.includes("-examples")
-    ? ssgThemesPage
-    : ssgThemesPage.length
-    ? ssgThemesPage
-    : cssThemesPage.length
-    ? cssThemesPage
-    : toolThemesPage.length
-    ? toolThemesPage
+    ? ssgPage
+    : ssgPage.length
+    ? ssgPage
+    : cssPage.length
+    ? cssPage
+    : toolPage.length
+    ? toolPage
     : defaultPage;
 
   // all tools
