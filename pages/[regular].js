@@ -175,15 +175,6 @@ export const getStaticProps = async ({ params }) => {
   const cssSlug = getSinglePageSlug("content/css");
   const toolSlug = getSinglePageSlug("content/tool");
 
-  // read examples data
-  const ssgExamplesPage =
-    regular.includes("-examples") &&
-    examples.filter((example) =>
-      example.frontmatter.ssg
-        .map((d) => slugify(d))
-        .includes(regular.replace("-examples", ""))
-    );
-
   // ssg page
   const ssgThemesPage =
     ssg.length &&
@@ -222,9 +213,7 @@ export const getStaticProps = async ({ params }) => {
     ? slugify(toolThemesPage[0]?.frontmatter.title)
     : regular;
 
-  const currentPageData = regular.includes("examples")
-    ? ssgExamplesPage
-    : await getRegularPage(getCurrentPage);
+  const currentPageData = await getRegularPage(getCurrentPage, regular);
 
   // layout filtering
   const defaultPage = currentPageData.filter(
@@ -232,7 +221,7 @@ export const getStaticProps = async ({ params }) => {
   );
 
   // current page
-  const currentPage = ssgExamplesPage.length
+  const currentPage = regular.includes("-examples")
     ? ssgThemesPage
     : ssgThemesPage.length
     ? ssgThemesPage
