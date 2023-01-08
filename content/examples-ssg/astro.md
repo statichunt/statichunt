@@ -11,7 +11,7 @@ twitter_username: astrodotbuild
 license: MIT
 license_url: https://github.com/withastro/astro/blob/main/LICENSE
 language: JavaScript
-url: "/astro-themes"
+url: "/astro-examples"
 draft: false
 ---
 

@@ -11,7 +11,7 @@ twitter_username: jekyllrb
 license: MIT
 license_url: https://github.com/jekyll/jekyll/blob/master/LICENSE
 language: Ruby
-url: "/jekyll-themes"
+url: "/jekyll-examples"
 draft: false
 ---
 Jekyll is a simple and easy-to-use blog-aware static site generator for personal, project, or organization websites.

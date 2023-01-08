@@ -9,7 +9,7 @@ twitter_username: docusaurus
 license: MIT
 license_url: "https://github.com/facebook/docusaurus/blob/main/LICENSE"
 language: JavaScript
-url: /docusaurus-themes
+url: /docusaurus-examples
 draft: true
 ---
 Build optimized websites quickly, focus on your content. Simply write docs and blog posts with Markdown/MDX and Docusaurus will publish a set of static HTML files ready to serve.

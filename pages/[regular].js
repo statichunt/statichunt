@@ -74,33 +74,7 @@ const RegularPages = ({
       noindex={noindex}
       canonical={canonical}
     >
-      {ssgSlug.includes(slug) ? (
-        <div className="flex">
-          <Sidebar
-            sidebar={sidebar}
-            themes={themesWithOthersCategory}
-            slug={slug}
-            category={category}
-            setArrayCategory={setArrayCategory}
-            arrayCategory={arrayCategory}
-            SetShowIntro={SetShowIntro}
-            showIntro={showIntro}
-          >
-            <SidebarSort
-              sortMenuShow={sortMenuShow}
-              sortValue={sortValue}
-              handleSortThemes={handleSortThemes}
-              handleSortMenu={handleSortMenu}
-            />
-          </Sidebar>
-          <ThemeTaxonomy
-            currentPage={currentPage}
-            data={filterCategory}
-            tools={tools}
-            showIntro={showIntro}
-          />
-        </div>
-      ) : cssSlug.includes(slug) ? (
+      {ssgSlug.includes(slug) || cssSlug.includes(slug) ? (
         <div className="flex">
           <Sidebar
             sidebar={sidebar}
@@ -158,6 +132,8 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   const { regular } = params;
 
+  // console.log(regular);
+
   // get taxonomies
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
@@ -174,17 +150,19 @@ export const getStaticProps = async ({ params }) => {
   const ssgPage =
     ssg.length &&
     ssg.filter((page) =>
-      page.frontmatter.url
-        ? page.frontmatter?.url === `/${regular}`
+      page.frontmatter?.url
+        ? page.frontmatter.url === `/${regular}`
         : page.slug === regular
     );
+
+  // console.log(ssgPage);
 
   // css page
   const cssPage =
     css.length &&
     css.filter((page) =>
-      page.frontmatter.url
-        ? page.frontmatter?.url === `/${regular}`
+      page.frontmatter?.url
+        ? page.frontmatter.url === `/${regular}`
         : page.slug === regular
     );
 
@@ -192,8 +170,8 @@ export const getStaticProps = async ({ params }) => {
   const toolPage =
     tool.length &&
     tool.filter((page) =>
-      page.frontmatter.url
-        ? page.frontmatter?.url === `/${regular}`
+      page.frontmatter?.url
+        ? page.frontmatter.url === `/${regular}`
         : page.slug === regular
     );
 
@@ -206,6 +184,8 @@ export const getStaticProps = async ({ params }) => {
     ? slugify(toolPage[0]?.frontmatter.title)
     : regular;
   const currentPageData = await getRegularPage(getCurrentPage);
+
+  // console.log(currentPageData);
 
   // layout filtering
   const defaultPage = currentPageData.filter(

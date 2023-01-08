@@ -92,10 +92,10 @@ export default Home;
 export const getStaticProps = async () => {
   const examplePage = await getListPage("content/examples/_index.md");
   const { frontmatter } = examplePage;
-  const ssg = getSinglePage("content/examples-ssg");
-  const cms = getSinglePage("content/examples-cms");
-  const css = getSinglePage("content/examples-css");
-  const category = getSinglePage("content/examples-category");
+  const ssg = getSinglePage("content/ssg");
+  const cms = getSinglePage("content/cms");
+  const css = getSinglePage("content/css");
+  const category = getSinglePage("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
   const examples = getSinglePage("content/examples");
 

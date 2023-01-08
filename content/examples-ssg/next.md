@@ -11,7 +11,7 @@ twitter_username: vercel
 license: MIT
 license_url: https://github.com/vercel/next.js/blob/canary/license.md
 language: JavaScript
-url: "/nextjs-templates"
+url: "/nextjs-examples"
 draft: false
 ---
 
