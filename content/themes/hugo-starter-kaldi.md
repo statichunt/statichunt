@@ -11,7 +11,7 @@ cms:
 category:
   - Blog
 description: A Hugo boilerplate for creating a blog site
-draft: true
+draft: false
 publish_date: '2017-09-07T03:11:30Z'
 update_date: '2022-12-12T01:41:38Z'
 github_star: 413
