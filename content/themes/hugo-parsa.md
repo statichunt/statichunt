@@ -17,12 +17,11 @@ date: 2019-05-15T08:33:57.000Z
 description: >-
   Parsa is a personal blog theme powered by Hugo. It has two homepages. Also can
   be used for portfolio template1
+draft: false
 publish_date: '2019-05-15T08:33:57Z'
-update_date: '2022-10-22T03:11:24Z'
-github_star: 144
-github_fork: 327
-draft: true
-disabled_reason: Github repo not found
+update_date: '2023-01-11T04:34:58Z'
+github_star: 147
+github_fork: 326
 ---
 
 ## Theme Features

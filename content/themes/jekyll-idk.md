@@ -11,7 +11,7 @@ date: 2015-07-22T02:24:05.000Z
 description: A simple jekyll theme.
 draft: true
 publish_date: '2015-07-22T02:24:05Z'
-update_date: '2022-12-13T12:39:52Z'
+update_date: '2022-12-24T15:20:11Z'
 github_star: 21
 github_fork: 40
 ---

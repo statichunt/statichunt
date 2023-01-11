@@ -17,10 +17,9 @@ description: >-
   A well-structured production ready Next.js boilerplate with Typescript, Redux,
   Jest, Enzyme, Express.js, Sass, Css, EnvConfig, Fetch, Reverse Proxy, Bundle
   Analyzer and Built-in Project CLI.
-draft: true
+draft: false
 publish_date: '2018-12-19T13:36:52Z'
 update_date: '2021-03-08T13:42:42Z'
-github_star: 1439
-github_fork: 275
-disabled_reason: Github repo not found
+github_star: 1455
+github_fork: 279
 ---

@@ -9,10 +9,9 @@ cms:
   - Markdown
 date: 2018-01-08T16:26:30.000Z
 description: 🌩 A simple, clean, flexible Hugo theme
-draft: true
+draft: false
 publish_date: '2018-01-08T16:26:30Z'
-update_date: '2022-10-24T13:36:26Z'
-github_star: 1231
-github_fork: 262
-disabled_reason: Github repo not found
+update_date: '2023-01-08T17:51:37Z'
+github_star: 1320
+github_fork: 290
 ---

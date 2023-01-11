@@ -19,7 +19,7 @@ description: >-
   zero-config template for pros and beginners.
 draft: true
 publish_date: '2020-10-04T20:00:48Z'
-github_star: 181
-github_fork: 23
+github_star: 184
+github_fork: 26
 update_date: '2022-03-30T13:10:41Z'
 ---

@@ -12,6 +12,6 @@ description: Jekyll Theme
 draft: true
 publish_date: '2018-01-19T01:23:22Z'
 update_date: '2021-09-12T13:41:04Z'
-github_star: 301
-github_fork: 1263
+github_star: 306
+github_fork: 1313
 ---

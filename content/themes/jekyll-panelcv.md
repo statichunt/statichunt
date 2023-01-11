@@ -12,6 +12,6 @@ description: Panel CV for designers (or engineers) :)
 draft: true
 publish_date: '2017-07-30T09:09:24Z'
 update_date: '2017-09-07T14:27:25Z'
-github_star: 174
-github_fork: 410
+github_star: 171
+github_fork: 408
 ---

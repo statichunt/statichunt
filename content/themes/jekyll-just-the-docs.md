@@ -13,7 +13,7 @@ description: >-
   built-in search.
 draft: false
 publish_date: '2017-11-08T16:22:28Z'
-update_date: '2022-12-13T19:52:44Z'
-github_star: 5175
-github_fork: 3146
+update_date: '2023-01-10T19:25:03Z'
+github_star: 5298
+github_fork: 3214
 ---

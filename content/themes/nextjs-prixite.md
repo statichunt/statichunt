@@ -15,9 +15,9 @@ category:
   - Business
 draft: false
 publish_date: '2022-01-18T05:29:08Z'
-update_date: '2022-12-13T08:29:01Z'
-github_star: 16
-github_fork: 15
+update_date: '2023-01-09T10:22:51Z'
+github_star: 18
+github_fork: 14
 ---
 
 ## Theme features

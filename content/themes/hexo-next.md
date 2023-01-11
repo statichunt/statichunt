@@ -17,7 +17,7 @@ description: >-
   love. Elegant and powerful theme for Hexo.
 draft: true
 publish_date: '2020-04-05T03:43:31Z'
-update_date: '2022-12-08T14:13:05Z'
-github_star: 1742
-github_fork: 328
+update_date: '2023-01-02T06:05:22Z'
+github_star: 1773
+github_fork: 335
 ---

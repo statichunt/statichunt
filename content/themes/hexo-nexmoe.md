@@ -16,6 +16,6 @@ description: A special Hexo theme.
 draft: true
 publish_date: '2019-07-21T05:43:13Z'
 update_date: '2022-12-01T02:47:11Z'
-github_star: 1356
-github_fork: 209
+github_star: 1374
+github_fork: 210
 ---

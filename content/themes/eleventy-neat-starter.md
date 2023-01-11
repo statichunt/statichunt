@@ -16,6 +16,6 @@ description: Starter Template for Netlify CMS, Eleventy, Alpine JS & Tailwind CS
 draft: true
 publish_date: '2020-09-21T06:18:37Z'
 update_date: '2022-06-20T16:35:53Z'
-github_star: 257
-github_fork: 77
+github_star: 255
+github_fork: 81
 ---

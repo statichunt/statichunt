@@ -12,7 +12,8 @@ css:
 category:
   - Blog
 date: 2018-07-15T10:07:51.000Z
-description: Apollo is a minimal personal blog template powered by Hugo. This theme is 100%
+description: >-
+  Apollo is a minimal personal blog template powered by Hugo. This theme is 100%
   mobile responsive.
 draft: false
 publish_date: '2021-02-06T06:55:25Z'

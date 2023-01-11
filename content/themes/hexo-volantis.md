@@ -15,7 +15,7 @@ category: null
 description: A Wonderful Theme for Hexo.
 draft: true
 publish_date: '2017-10-24T03:46:42Z'
-update_date: '2022-11-26T04:46:38Z'
-github_star: 1641
-github_fork: 517
+update_date: '2023-01-10T05:35:01Z'
+github_star: 1657
+github_fork: 523
 ---

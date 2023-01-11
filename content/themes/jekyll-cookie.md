@@ -15,15 +15,15 @@ css:
   - Tailwind
 date: 2021-03-04T00:00:00.000Z
 github_branch: master
-description:
+description: >-
   Cookie is a fast and one-click deployable landing website that comes with a
   blog, additional pages and Soopr integration - makes creating and launching
   websites a cakewalk.
 draft: false
 publish_date: '2021-01-12T20:33:49Z'
 update_date: '2022-11-15T14:33:14Z'
-github_star: 66
-github_fork: 67
+github_star: 65
+github_fork: 69
 ---
 ## Theme Features
 

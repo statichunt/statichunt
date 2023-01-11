@@ -17,6 +17,6 @@ description: Modern portfolio theme for your Hugo site
 draft: true
 publish_date: '2021-04-24T12:51:41Z'
 update_date: '2022-09-01T03:24:27Z'
-github_star: 78
-github_fork: 36
+github_star: 79
+github_fork: 35
 ---

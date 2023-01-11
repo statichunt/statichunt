@@ -14,6 +14,6 @@ description: A super unopinionated starter project.
 draft: true
 publish_date: '2019-08-27T17:59:19Z'
 update_date: '2021-04-19T16:21:58Z'
-github_star: 66
+github_star: 67
 github_fork: 21
 ---

@@ -14,7 +14,7 @@ description: >-
   inlined stylesheets and more.
 draft: true
 publish_date: '2013-12-31T11:24:45Z'
-update_date: '2022-12-10T07:04:21Z'
-github_star: 302
+update_date: '2022-12-20T16:41:21Z'
+github_star: 304
 github_fork: 180
 ---

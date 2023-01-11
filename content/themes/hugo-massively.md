@@ -14,6 +14,6 @@ description: Massively theme for Hugo static site generator
 draft: true
 publish_date: '2018-02-24T14:39:43Z'
 update_date: '2022-11-11T15:25:50Z'
-github_star: 125
-github_fork: 134
+github_star: 130
+github_fork: 136
 ---

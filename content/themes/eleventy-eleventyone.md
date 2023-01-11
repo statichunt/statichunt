@@ -12,6 +12,6 @@ description: A scaffold for a quick start building with the Eleventy SSG
 draft: true
 publish_date: '2018-03-30T19:45:51Z'
 update_date: '2021-01-18T11:29:03Z'
-github_star: 445
+github_star: 447
 github_fork: 113
 ---

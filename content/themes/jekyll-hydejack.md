@@ -8,16 +8,15 @@ ssg:
   - Jekyll
 cms:
   - Markdown
-
 css:
-- SCSS
+  - SCSS
 date: 2016-02-26T12:45:54.000Z
 description: A boutique Jekyll theme for hackers, nerds, and academics
 draft: false
 publish_date: '2016-02-26T12:45:54Z'
 update_date: '2022-02-07T04:23:49Z'
-github_star: 1098
-github_fork: 712
+github_star: 1112
+github_fork: 717
 ---
 ## Theme Features
 

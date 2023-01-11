@@ -12,6 +12,6 @@ description: Another jekyll templated based on lanyon
 draft: true
 publish_date: '2015-03-05T06:44:00Z'
 update_date: '2016-06-08T16:32:04Z'
-github_star: 393
-github_fork: 246
+github_star: 392
+github_fork: 244
 ---

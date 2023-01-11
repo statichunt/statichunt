@@ -13,6 +13,6 @@ description: 🎉  Minimal and Clean Free Jekyll Theme
 draft: true
 publish_date: '2017-09-25T11:27:16Z'
 update_date: '2020-06-01T14:12:23Z'
-github_star: 197
-github_fork: 140
+github_star: 199
+github_fork: 142
 ---

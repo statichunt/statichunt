@@ -12,6 +12,6 @@ description: A GatsbyJS starter template that leverages the WordPress API, ACF a
 draft: true
 publish_date: '2018-02-03T21:55:52Z'
 update_date: '2021-04-02T10:22:52Z'
-github_star: 394
-github_fork: 140
+github_star: 395
+github_fork: 139
 ---

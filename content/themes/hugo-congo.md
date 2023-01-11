@@ -15,7 +15,7 @@ category:
 description: A simple, lightweight theme for Hugo built with Tailwind CSS.
 draft: true
 publish_date: '2021-08-11T05:29:45Z'
-update_date: '2022-12-03T00:18:40Z'
-github_star: 540
-github_fork: 159
+update_date: '2023-01-10T21:13:11Z'
+github_star: 573
+github_fork: 170
 ---
