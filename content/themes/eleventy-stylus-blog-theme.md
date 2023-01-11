@@ -17,7 +17,7 @@ description: >-
   Eleventy SSG and Stylus Preprocessor
 draft: true
 publish_date: '2021-03-23T06:34:50Z'
-update_date: '2022-12-06T04:32:48Z'
-github_star: 44
+update_date: '2023-01-03T01:44:01Z'
+github_star: 43
 github_fork: 9
 ---

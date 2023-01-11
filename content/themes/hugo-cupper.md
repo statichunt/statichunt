@@ -11,7 +11,7 @@ date: 2019-01-29T19:16:57.000Z
 description: An accessibility-friendly Hugo theme, ported from the original Cupper project.
 draft: true
 publish_date: '2019-01-29T19:16:57Z'
-update_date: '2022-12-05T16:06:25Z'
-github_star: 268
-github_fork: 173
+update_date: '2023-01-04T03:34:49Z'
+github_star: 269
+github_fork: 175
 ---

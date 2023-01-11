@@ -16,6 +16,6 @@ description: 11ty version of the popular Chirpy Jekyll blog theme
 draft: true
 publish_date: '2021-01-28T07:00:56Z'
 update_date: '2022-01-31T08:03:21Z'
-github_star: 53
-github_fork: 11
+github_star: 54
+github_fork: 14
 ---

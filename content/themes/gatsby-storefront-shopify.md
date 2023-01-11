@@ -17,6 +17,6 @@ description: Create a Shopify store with Gatsby JS
 draft: true
 publish_date: '2019-12-03T15:34:09Z'
 update_date: '2021-04-22T18:53:16Z'
-github_star: 227
+github_star: 228
 github_fork: 48
 ---

@@ -12,5 +12,6 @@ description: 🖱 A simple, minimal Gatsby starter for quick and easy landing pa
 draft: true
 publish_date: '2019-03-19T18:05:37Z'
 github_star: 133
-github_fork: 43
+github_fork: 44
+update_date: '2020-04-21T19:19:31Z'
 ---

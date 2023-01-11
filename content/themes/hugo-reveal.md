@@ -11,7 +11,7 @@ date: 2018-04-26T22:21:56.000Z
 description: 📽️ Create rich HTML-based presentations with Hugo and Reveal.js
 draft: true
 publish_date: '2018-04-26T22:21:56Z'
-update_date: '2022-11-15T14:20:05Z'
-github_star: 542
-github_fork: 140
+update_date: '2023-01-09T09:51:43Z'
+github_star: 545
+github_fork: 139
 ---

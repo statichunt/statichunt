@@ -13,10 +13,9 @@ css: null
 category:
   - Portfolio
 description: Next.js & Chakra-UI portfolio template.
-draft: true
+draft: false
 publish_date: '2021-02-19T14:51:39Z'
 update_date: '2022-02-10T11:29:02Z'
-github_star: 97
-github_fork: 19
-disabled_reason: Github repo not found
+github_star: 104
+github_fork: 20
 ---

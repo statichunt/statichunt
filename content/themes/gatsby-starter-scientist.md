@@ -13,7 +13,7 @@ category:
 description: A portfolio or lab website for Scientists built with Gatsby
 draft: true
 publish_date: '2020-05-23T22:08:30Z'
-update_date: '2022-06-11T14:38:15Z'
-github_star: 7
+update_date: '2022-12-27T19:32:28Z'
+github_star: 9
 github_fork: 23
 ---

@@ -14,6 +14,6 @@ description: A Minimal Dark theme for jekyll with minimal CSS by Sharad Raj Sing
 draft: true
 publish_date: '2019-11-25T10:59:04Z'
 update_date: '2022-07-22T04:03:31Z'
-github_star: 48
+github_star: 47
 github_fork: 24
 ---

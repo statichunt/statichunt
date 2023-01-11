@@ -17,7 +17,7 @@ description: >-
   actually a fork of Jekyll-now with some additional features.
 draft: true
 publish_date: '2019-02-12T19:00:55Z'
-update_date: '2022-11-20T14:21:14Z'
-github_star: 660
-github_fork: 531
+update_date: '2023-01-06T10:18:56Z'
+github_star: 666
+github_fork: 539
 ---

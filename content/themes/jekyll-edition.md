@@ -12,6 +12,6 @@ description: ':books: Product documentation template for Jekyll'
 draft: true
 publish_date: '2016-07-14T03:38:28Z'
 update_date: '2022-12-05T02:49:05Z'
-github_star: 316
-github_fork: 268
+github_star: 320
+github_fork: 274
 ---

@@ -17,7 +17,7 @@ category:
 description: 11ty, Tailwind. Works when JS is disabled.
 draft: true
 publish_date: '2020-07-18T09:49:11Z'
-update_date: '2022-06-25T16:10:22Z'
+update_date: '2022-12-30T05:11:18Z'
 github_star: 60
 github_fork: 8
 ---

@@ -12,6 +12,6 @@ description: A Jekyll version of the 'Prologue' theme by HTML5 UP
 draft: true
 publish_date: '2018-01-07T03:51:49Z'
 update_date: '2021-02-15T16:12:05Z'
-github_star: 395
-github_fork: 924
+github_star: 398
+github_fork: 922
 ---

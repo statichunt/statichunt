@@ -11,9 +11,9 @@ date: 2019-01-27T23:58:03.000Z
 description: A simple, retro theme for Hugo
 draft: false
 publish_date: '2019-01-27T23:58:03Z'
-update_date: '2022-12-09T14:54:14Z'
-github_star: 1555
-github_fork: 570
+update_date: '2023-01-04T08:01:35Z'
+github_star: 1596
+github_fork: 588
 ---
 ## Theme Features
 

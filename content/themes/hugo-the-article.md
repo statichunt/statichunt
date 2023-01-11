@@ -1,0 +1,40 @@
+---
+title: The Article
+download: https://gethugothemes.com/products/the-article
+github: 
+price: 79
+demo: https://demo.gethugothemes.com/the-article/site/
+author: Gethugothemes
+author_link: https://gethugothemes.com
+date: 2023-01-11T00:00:00.000Z
+description: The Article is a perfect Hugo blog theme that will give you a unique personal blogging experience. 
+ssg:
+  - Hugo
+css:
+  - Bootstrap
+cms:
+  - Markdown
+category:
+  - Blog
+draft: false
+---
+
+## Theme features
+
+- Google PageSpeed Score 94/100 (Desktop)
+- Google Analytics Support
+- Netlify Settings Predefine
+- Forestry CMS pre-configured
+- Supports Disqus Comments
+- Search Functionality With Fues.js
+- 100% Responsive Design
+- Semantic HTML Document Structure
+- Compatible With Modern Browsers
+- Custom Logo Support
+- Caching Enabled
+- Site Verifications Code Options Are Available
+- Includes All SCSS Files
+- Images, CSS, and JS files are optimized with Hugo Pipe
+- Google Font Loads From Webfont Loader
+- Free Update and Lifetime Premium Support
+- Detail Documentation.

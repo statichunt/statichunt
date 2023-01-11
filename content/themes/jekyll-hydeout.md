@@ -9,10 +9,9 @@ cms:
   - Markdown
 date: 2017-06-01T00:22:41.000Z
 description: A refreshed version of Hyde for Jekyll 3.x
-draft: true
+draft: false
 publish_date: '2017-06-01T00:22:41Z'
 update_date: '2021-02-02T18:44:30Z'
-github_star: 545
-github_fork: 719
-disabled_reason: Github repo not found
+github_star: 548
+github_fork: 725
 ---

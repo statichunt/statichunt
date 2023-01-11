@@ -12,6 +12,6 @@ description: A blogging-centric Bootstrap v4 theme for the Hugo static site gene
 draft: true
 publish_date: '2016-08-28T13:23:53Z'
 update_date: '2022-07-29T17:15:32Z'
-github_star: 205
+github_star: 206
 github_fork: 141
 ---

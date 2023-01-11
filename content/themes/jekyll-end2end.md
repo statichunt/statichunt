@@ -12,6 +12,6 @@ description: 💎 Clean Jekyll theme
 draft: true
 publish_date: '2015-11-26T15:45:00Z'
 update_date: '2019-03-25T12:39:20Z'
-github_star: 271
-github_fork: 203
+github_star: 272
+github_fork: 201
 ---
