@@ -110,8 +110,8 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                 <ImageFallback
                   src={`/themes/${theme.slug}.png`}
                   fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
-                  height={250}
-                  width={300}
+                  height={240}
+                  width={360}
                   alt={theme.frontmatter?.title}
                   className="rounded-t"
                 />
