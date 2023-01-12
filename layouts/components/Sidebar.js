@@ -16,14 +16,14 @@ const Sidebar = ({
   themes,
   // arraySSG,
   // setArraySSG,
-  arrayCMS,
-  setArrayCMS,
-  arrayCSS,
-  setArrayCSS,
-  arrayCategory,
-  setArrayCategory,
-  arrayTool,
-  setArrayTool,
+  // arrayCMS,
+  // setArrayCMS,
+  // arrayCSS,
+  // setArrayCSS,
+  // arrayCategory,
+  // setArrayCategory,
+  // arrayTool,
+  // setArrayTool,
   SetShowIntro,
   children,
   showIntro,
@@ -129,14 +129,14 @@ const Sidebar = ({
                         type={data.taxonomy}
                         params={slugify(data.type)}
                         themes={themes}
-                        setArrayCMS={setArrayCMS}
-                        arrayCMS={arrayCMS}
-                        setArrayCSS={setArrayCSS}
-                        arrayCSS={arrayCSS}
-                        setArrayCategory={setArrayCategory}
-                        arrayCategory={arrayCategory}
-                        setArrayTool={setArrayTool}
-                        arrayTool={arrayTool}
+                        // setArrayCMS={setArrayCMS}
+                        // arrayCMS={arrayCMS}
+                        // setArrayCSS={setArrayCSS}
+                        // arrayCSS={arrayCSS}
+                        // setArrayCategory={setArrayCategory}
+                        // arrayCategory={arrayCategory}
+                        // setArrayTool={setArrayTool}
+                        // arrayTool={arrayTool}
                         SetShowIntro={SetShowIntro}
                         showIntro={showIntro}
                       />

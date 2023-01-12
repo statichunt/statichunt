@@ -27,11 +27,11 @@ const Home = ({
 
   // ssg array update state
   // const [arraySSG, setArraySSG] = useState([]);
-  const [arrayCMS, setArrayCMS] = useState([]);
-  const [arrayCSS, setArrayCSS] = useState([]);
-  const [arrayCategory, setArrayCategory] = useState([]);
-  const [arrayFree, setArrayFree] = useState([]);
-  const [arrayPremium, setArrayPremium] = useState([]);
+  // const [arrayCMS, setArrayCMS] = useState([]);
+  // const [arrayCSS, setArrayCSS] = useState([]);
+  // const [arrayCategory, setArrayCategory] = useState([]);
+  // const [arrayFree, setArrayFree] = useState([]);
+  // const [arrayPremium, setArrayPremium] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
   const [sortAsc, setSortAsc] = useState(false);
   const {
@@ -49,8 +49,16 @@ const Home = ({
       setSortMenuShow(!sortMenuShow);
     }
   };
-  const { test,arraySSG } = useFilterContext();
-  console.log(test);
+  const {
+    arraySSG,
+    arrayCMS,
+    arrayCSS,
+    arrayCategory,
+    arrayFree,
+    arrayPremium,
+  } = useFilterContext();
+  console.log(arrayPremium);
+
   // theme filtering
   const filterSSG = sortedThemes?.filter((theme) =>
     arraySSG.length
@@ -152,10 +160,10 @@ const Home = ({
           themes={themes}
           // setArraySSG={setArraySSG}
           // arraySSG={arraySSG}
-          setArrayCMS={setArrayCMS}
-          arrayCMS={arrayCMS}
-          setArrayCSS={setArrayCSS}
-          arrayCSS={arrayCSS}
+          // setArrayCMS={setArrayCMS}
+          // arrayCMS={arrayCMS}
+          // setArrayCSS={setArrayCSS}
+          // arrayCSS={arrayCSS}
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
@@ -165,14 +173,14 @@ const Home = ({
               <HomeCategory
                 themes={filteredThemes}
                 category={category}
-                arrayCategory={arrayCategory}
-                setArrayCategory={setArrayCategory}
-                arrayFree={arrayFree}
                 filterFree={filterFree}
-                setArrayFree={setArrayFree}
                 filterPremium={filterPremium}
-                arrayPremium={arrayPremium}
-                setArrayPremium={setArrayPremium}
+                // setArrayFree={setArrayFree}
+                // arrayFree={arrayFree}
+                // arrayPremium={arrayPremium}
+                // setArrayPremium={setArrayPremium}
+                // arrayCategory={arrayCategory}
+                // setArrayCategory={setArrayCategory}
               />
               <HomeSort
                 sortMenu={sortMenu}

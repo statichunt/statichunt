@@ -1,25 +1,54 @@
-import { createContext, useContext, useState } from "react";
+import { useRouter } from "next/router";
+import { createContext, useContext, useEffect, useState } from "react";
 import resources from "../.json/resources.json";
 import themes from "../.json/themes.json";
 
 const FilterContext = createContext();
 
 export const JsonContext = ({ children }) => {
-  const [test, setTest] = useState("");
   const [arraySSG, setArraySSG] = useState([]);
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
+  const [arrayCategory, setArrayCategory] = useState([]);
+  const [arrayFree, setArrayFree] = useState([]);
+  const [arrayPremium, setArrayPremium] = useState([]);
+  const [arrayTool, setArrayTool] = useState([]);
+  const [allReset, setAllReset] = useState(false);
+  const router = useRouter();
+  const reset = () => {
+    setArraySSG([]);
+    setArrayCMS([]);
+    setArrayCSS([]);
+    setArrayCategory([]);
+    setArrayPremium([]), setArrayFree([]);
+    setAllReset(!allReset);
+  };
+  useEffect(() => {
+    setArraySSG([]);
+    setArrayCMS([]);
+    setArrayCSS([]);
+    setArrayCategory([]);
+    setArrayPremium([]), setArrayFree([]);
+  }, [router.asPath]);
   const state = {
+    allReset,
     themes,
     resources,
-    setTest,
-    test,
+    reset,
     arrayCMS,
     setArrayCMS,
     setArrayCSS,
     arrayCSS,
     setArraySSG,
-    arraySSG
+    arraySSG,
+    arrayCategory,
+    setArrayCategory,
+    arrayFree,
+    setArrayFree,
+    arrayPremium,
+    setArrayPremium,
+    arrayTool,
+    setArrayTool,
   };
   return (
     <FilterContext.Provider value={state}>{children}</FilterContext.Provider>

@@ -12,20 +12,32 @@ const Accordion = ({
   themes,
   // arraySSG,
   // setArraySSG,
-  arrayCMS,
-  setArrayCMS,
-  arrayCSS,
-  setArrayCSS,
-  arrayCategory,
-  setArrayCategory,
-  arrayTool,
-  setArrayTool,
+  // arrayCMS,
+  // setArrayCMS,
+  // arrayCSS,
+  // setArrayCSS,
+  // arrayCategory,
+  // setArrayCategory,
+  // arrayTool,
+  // setArrayTool,
   SetShowIntro,
 }) => {
   const [taxonomy, setTaxonomy] = useState(type);
   const { darkIconList } = config;
-  const { setTest,setArraySSG ,arraySSG} = useFilterContext();
-
+  const {
+    setArraySSG,
+    arraySSG,
+    arrayCMS,
+    setArrayCMS,
+    arrayCSS,
+    setArrayCSS,
+    arrayCategory,
+    setArrayCategory,
+    arrayTool,
+    setArrayTool,
+    allReset,
+  } = useFilterContext();
+  console.log(allReset);
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
       ...item,
@@ -33,7 +45,7 @@ const Accordion = ({
     }));
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+  }, [slug, allReset]);
 
   //  sorting texonomy
   // const sortedTaxonomy = taxonomySorted(taxonomy);
@@ -48,7 +60,6 @@ const Accordion = ({
   // };
 
   const handleOnClick = (label, type) => {
-    setTest(label);
     // scroll to top
     window.scrollTo({ top: 0 });
 
@@ -60,6 +71,7 @@ const Accordion = ({
         item.selected = !item.selected;
       }
     }
+
     setTaxonomy(temp);
 
     // set ssg array

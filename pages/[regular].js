@@ -16,6 +16,7 @@ import {
   getSinglePageSlug,
 } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
+import { useFilterContext } from "context/state";
 import { useEffect, useState } from "react";
 
 // for all regular pages
@@ -42,7 +43,7 @@ const RegularPages = ({
   } = currentPage[0]?.frontmatter;
 
   const { sidebar } = config;
-  const [arrayCategory, setArrayCategory] = useState([]);
+  // const [arrayCategory, setArrayCategory] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
 
   const themesWithOthersCategory = setOthersCategory(data);
@@ -54,11 +55,11 @@ const RegularPages = ({
     defaultSortedThemes,
     handleSortMenu,
   } = SortReducer(themesWithOthersCategory, true, slug);
-
-  useEffect(() => {
-    setArrayCategory([]);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+ const {arrayCategory}=useFilterContext()
+  // useEffect(() => {
+  //   setArrayCategory([]);
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [slug]);
 
   const filterCategory = sortedThemes.filter((theme) =>
     arrayCategory.length
@@ -91,8 +92,8 @@ const RegularPages = ({
             themes={themesWithOthersCategory}
             slug={slug}
             category={category}
-            setArrayCategory={setArrayCategory}
-            arrayCategory={arrayCategory}
+            // setArrayCategory={setArrayCategory}
+            // arrayCategory={arrayCategory}
             SetShowIntro={SetShowIntro}
             showIntro={showIntro}
           >
@@ -122,8 +123,8 @@ const RegularPages = ({
             themes={data}
             slug={slug}
             category={category}
-            setArrayCategory={setArrayCategory}
-            arrayCategory={arrayCategory}
+            // setArrayCategory={setArrayCategory}
+            // arrayCategory={arrayCategory}
             SetShowIntro={SetShowIntro}
             showIntro={showIntro}
           />

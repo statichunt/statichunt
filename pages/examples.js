@@ -12,10 +12,10 @@ const Home = ({ frontmatter, cms, css, ssg, category, examples, tools }) => {
 
   // ssg array update state
   // const [arraySSG, setArraySSG] = useState([]);
-  const [arrayCMS, setArrayCMS] = useState([]);
-  const [arrayCSS, setArrayCSS] = useState([]);
-  const [arrayCategory, setArrayCategory] = useState([]);
-  const {arraySSG}=useFilterContext()
+  // const [arrayCMS, setArrayCMS] = useState([]);
+  // const [arrayCSS, setArrayCSS] = useState([]);
+  // const [arrayCategory, setArrayCategory] = useState([]);
+  const { arraySSG, arrayCMS, arrayCSS, arrayCategory } = useFilterContext();
 
   // theme filtering
   const filterSSG = examples?.filter((theme) =>
@@ -67,12 +67,12 @@ const Home = ({ frontmatter, cms, css, ssg, category, examples, tools }) => {
           themes={examples}
           // setArraySSG={setArraySSG}
           // arraySSG={arraySSG}
-          setArrayCMS={setArrayCMS}
-          arrayCMS={arrayCMS}
-          setArrayCSS={setArrayCSS}
-          arrayCSS={arrayCSS}
-          setArrayCategory={setArrayCategory}
-          arrayCategory={arrayCategory}
+          // setArrayCMS={setArrayCMS}
+          // arrayCMS={arrayCMS}
+          // setArrayCSS={setArrayCSS}
+          // arrayCSS={arrayCSS}
+          // setArrayCategory={setArrayCategory}
+          // arrayCategory={arrayCategory}
         />
         <main className="main">
           <div className="container">
