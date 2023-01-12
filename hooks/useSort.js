@@ -1,8 +1,8 @@
-import { reducer } from "@lib/utils/filterReducer";
+import { reducer } from "@lib/utils/sortReducer";
 import { useFilterContext } from "context/state";
 import { useEffect, useReducer, useState } from "react";
 
-const SortReducer = (themes, show, slug) => {
+const useSort = (themes, show, slug) => {
   const { allReset } = useFilterContext();
   const defaultSortedThemes = themes.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
@@ -47,4 +47,4 @@ const SortReducer = (themes, show, slug) => {
   };
 };
 
-export default SortReducer;
+export default useSort;

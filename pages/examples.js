@@ -5,7 +5,6 @@ import Examples from "@layouts/components/Examples";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
-import { useState } from "react";
 
 const Home = ({
   frontmatter,
@@ -19,11 +18,6 @@ const Home = ({
 }) => {
   const { sidebar } = config;
 
-  // ssg array update state
-  // const [arraySSG, setArraySSG] = useState([]);
-  // const [arrayCMS, setArrayCMS] = useState([]);
-  // const [arrayCSS, setArrayCSS] = useState([]);
-  // const [arrayCategory, setArrayCategory] = useState([]);
   const { arraySSG, arrayCMS, arrayCSS, arrayCategory } = useFilterContext();
 
   // theme filtering
@@ -78,14 +72,6 @@ const Home = ({
           css={css}
           category={category}
           themes={examples}
-          // setArraySSG={setArraySSG}
-          // arraySSG={arraySSG}
-          // setArrayCMS={setArrayCMS}
-          // arrayCMS={arrayCMS}
-          // setArrayCSS={setArrayCSS}
-          // arrayCSS={arrayCSS}
-          // setArrayCategory={setArrayCategory}
-          // arrayCategory={arrayCategory}
         />
         <main className="main">
           <div className="container">

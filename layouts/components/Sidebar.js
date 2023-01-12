@@ -14,16 +14,6 @@ const Sidebar = ({
   category,
   tool,
   themes,
-  // arraySSG,
-  // setArraySSG,
-  // arrayCMS,
-  // setArrayCMS,
-  // arrayCSS,
-  // setArrayCSS,
-  // arrayCategory,
-  // setArrayCategory,
-  // arrayTool,
-  // setArrayTool,
   SetShowIntro,
   children,
   showIntro,
@@ -122,21 +112,11 @@ const Sidebar = ({
                   {data.taxonomy && (
                     <div className="lh:mb-8 relative mb-3 flex flex-col">
                       <Accordion
-                        // setArraySSG={setArraySSG}
-                        // arraySSG={arraySSG}
                         data={data}
                         slug={slug}
                         type={data.taxonomy}
                         params={slugify(data.type)}
                         themes={themes}
-                        // setArrayCMS={setArrayCMS}
-                        // arrayCMS={arrayCMS}
-                        // setArrayCSS={setArrayCSS}
-                        // arrayCSS={arrayCSS}
-                        // setArrayCategory={setArrayCategory}
-                        // arrayCategory={arrayCategory}
-                        // setArrayTool={setArrayTool}
-                        // arrayTool={arrayTool}
                         SetShowIntro={SetShowIntro}
                         showIntro={showIntro}
                       />

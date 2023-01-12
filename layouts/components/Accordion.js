@@ -4,24 +4,7 @@ import { useFilterContext } from "context/state";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const Accordion = ({
-  data,
-  slug,
-  type,
-  params,
-  themes,
-  // arraySSG,
-  // setArraySSG,
-  // arrayCMS,
-  // setArrayCMS,
-  // arrayCSS,
-  // setArrayCSS,
-  // arrayCategory,
-  // setArrayCategory,
-  // arrayTool,
-  // setArrayTool,
-  SetShowIntro,
-}) => {
+const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   const [taxonomy, setTaxonomy] = useState(type);
   const { darkIconList } = config;
   const {

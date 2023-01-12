@@ -3,14 +3,14 @@ import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
+import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
 import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
+import setOthersCategory from "@lib/setOthersCategory";
 import { slugify } from "@lib/utils/textConverter";
 import sortButton from "config/sort.json";
 import { useFilterContext } from "context/state";
-import { setOthersCategory } from "hooks/setOthersCategory";
-import SortReducer from "hooks/sortReducer";
 import { useState } from "react";
 
 const Home = ({
@@ -24,16 +24,8 @@ const Home = ({
 }) => {
   const { sidebar } = config;
   const { button } = sortButton;
-
-  // ssg array update state
-  // const [arraySSG, setArraySSG] = useState([]);
-  // const [arrayCMS, setArrayCMS] = useState([]);
-  // const [arrayCSS, setArrayCSS] = useState([]);
-  // const [arrayCategory, setArrayCategory] = useState([]);
-  // const [arrayFree, setArrayFree] = useState([]);
-  // const [arrayPremium, setArrayPremium] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
-  // const [sortAsc, setSortAsc] = useState(false);
+  const themesWithOthersCategory = setOthersCategory(themes);
   const {
     sortedThemes,
     handleSortThemes,
@@ -41,7 +33,7 @@ const Home = ({
     setSortMenuShow,
     sortValue,
     handleSortMenu,
-  } = SortReducer(themes);
+  } = useSort(themesWithOthersCategory);
 
   const mouseHandler = () => {
     if (sortMenuShow) {
@@ -156,13 +148,7 @@ const Home = ({
           ssg={ssg}
           cms={cms}
           css={css}
-          themes={themes}
-          // setArraySSG={setArraySSG}
-          // arraySSG={arraySSG}
-          // setArrayCMS={setArrayCMS}
-          // arrayCMS={arrayCMS}
-          // setArrayCSS={setArrayCSS}
-          // arrayCSS={arrayCSS}
+          themes={themesWithOthersCategory}
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
@@ -174,19 +160,11 @@ const Home = ({
                 category={category}
                 filterFree={filterFree}
                 filterPremium={filterPremium}
-                // setArrayFree={setArrayFree}
-                // arrayFree={arrayFree}
-                // arrayPremium={arrayPremium}
-                // setArrayPremium={setArrayPremium}
-                // arrayCategory={arrayCategory}
-                // setArrayCategory={setArrayCategory}
               />
               <HomeSort
                 sortMenu={sortMenu}
                 sortMenuShow={sortMenuShow}
                 sortValue={sortValue}
-                // sortAsc={sortAsc}
-                // setSortAsc={setSortAsc}
                 handleSortThemes={handleSortThemes}
                 handleSortMenu={handleSortMenu}
               />
@@ -212,7 +190,6 @@ export const getStaticProps = async () => {
   const category = getSinglePage("content/category");
   const tools = [...ssg, ...cms, ...css, ...category];
   const themes = getSinglePage("content/themes");
-  const themesWithOthersCategory = setOthersCategory(themes);
 
   return {
     props: {
@@ -221,7 +198,7 @@ export const getStaticProps = async () => {
       cms: cms,
       css: css,
       category: category,
-      themes: themesWithOthersCategory,
+      themes: themes,
       tools: tools,
     },
   };

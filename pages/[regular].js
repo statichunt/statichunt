@@ -1,10 +1,8 @@
 import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
-import { setOthersCategory } from "@hooks/setOthersCategory";
-import SortReducer from "@hooks/sortReducer";
+import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
-import PricingFilter from "@layouts/components/PricingFilter";
 import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
@@ -16,6 +14,7 @@ import {
   getSinglePage,
   getSinglePageSlug,
 } from "@lib/contentParser";
+import setOthersCategory from "@lib/setOthersCategory";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import { useState } from "react";
@@ -55,12 +54,8 @@ const RegularPages = ({
     sortValue,
     defaultSortedThemes,
     handleSortMenu,
-  } = SortReducer(themesWithOthersCategory, true, slug);
+  } = useSort(themesWithOthersCategory, true, slug);
   const { arrayCategory, sortAsc } = useFilterContext();
-  // useEffect(() => {
-  //   setArrayCategory([]);
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [slug]);
 
   const filterCategory = sortedThemes.filter((theme) =>
     arrayCategory.length
@@ -125,8 +120,6 @@ const RegularPages = ({
             themes={data}
             slug={slug}
             category={category}
-            // setArrayCategory={setArrayCategory}
-            // arrayCategory={arrayCategory}
             SetShowIntro={SetShowIntro}
             showIntro={showIntro}
           />
