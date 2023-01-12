@@ -7,7 +7,16 @@ import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import { useState } from "react";
 
-const Home = ({ frontmatter, cms, css, ssg, category, examples, tools }) => {
+const Home = ({
+  frontmatter,
+  content,
+  cms,
+  css,
+  ssg,
+  category,
+  examples,
+  tools,
+}) => {
   const { sidebar } = config;
 
   // ssg array update state
@@ -56,7 +65,11 @@ const Home = ({ frontmatter, cms, css, ssg, category, examples, tools }) => {
   );
 
   return (
-    <Base>
+    <Base
+      title={frontmatter.title}
+      meta_title={frontmatter.meta_title}
+      description={frontmatter.description}
+    >
       <div className="flex">
         <Sidebar
           sidebar={sidebar}
@@ -78,7 +91,7 @@ const Home = ({ frontmatter, cms, css, ssg, category, examples, tools }) => {
           <div className="container">
             <div className={`mb-10 md:mb-16`}>
               <h1 className="mb-3">{frontmatter.title}</h1>
-              {markdownify(frontmatter.description, "p")}
+              {markdownify(content, "p")}
             </div>
             <Examples examples={filterCategory} tools={tools} />
           </div>
@@ -93,7 +106,7 @@ export default Home;
 // for example page data
 export const getStaticProps = async () => {
   const examplePage = await getListPage("content/examples/_index.md");
-  const { frontmatter } = examplePage;
+  const { frontmatter, content } = examplePage;
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
@@ -104,6 +117,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       frontmatter: frontmatter,
+      content: content,
       ssg: ssg,
       cms: cms,
       css: css,
