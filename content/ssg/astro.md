@@ -16,7 +16,7 @@ url: "/astro-themes"
 examples_page_title: Astro Examples
 examples_meta_title: Hand-Picked Astro Examples
 examples_description: Best Astro Website Examples
-examples_content: ""
+examples_content: "jnhnhnhn"
 examples_url: "/astro-examples"
 
 draft: false
