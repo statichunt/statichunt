@@ -14,9 +14,9 @@ language: JavaScript
 url: "/gatsby-themes"
 
 examples_page_title: Gatsby Examples
-examples_meta_title: Hand-Picked Gatsby Examples
-examples_description: Best Gatsby Website Examples
-examples_content: 
+examples_meta_title: Gatsby Website Examples - Statichunt
+examples_description: A collection of Astro Website examples to inspire the creation of your next online Projects.
+examples_content: "Check out the showcase of a variety of Gatsby website examples. Get inspired about building your next web project on the Gatsby static site generator."
 examples_url: "/gatsby-examples"
 
 draft: false

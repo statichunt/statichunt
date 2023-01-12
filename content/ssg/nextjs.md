@@ -14,9 +14,9 @@ language: JavaScript
 url: "/nextjs-templates"
 
 examples_page_title: Nextjs Examples
-examples_meta_title: Hand-Picked Nextjs Examples
-examples_description: Best Nextjs Website Examples
-examples_content: ""
+examples_meta_title: Nextjs Website Examples - Statichunt
+examples_description: A collection of Nextjs Website examples to inspire the creation of your next web Project.
+examples_content: "Check out the showcase of a variety of Nextjs website examples. Get inspired about building your next web project on the Nextjs static site generator"
 examples_url: "/nextjs-examples"
 
 draft: false

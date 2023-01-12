@@ -14,9 +14,9 @@ language: Go
 url: "/hugo-themes"
 
 examples_page_title: Hugo Examples
-examples_meta_title: Hand-Picked Hugo Examples
-examples_description: Best Hugo Website Examples
-examples_content: "Hugo is a popular static site generator written in Go. It's simple to use and easy to learn, making it a popular choice for developers who want to build a website without having to learn complex coding languages."
+examples_meta_title: Hugo Website Examples - Statichunt
+examples_description: A collection of Hugo Website examples to inspire the creation of your next web Project
+examples_content: "Check out the showcase of a variety of Hugo website examples. Get inspired about building your next web project on the Hugo static site generator"
 examples_url: "/hugo-examples"
 
 draft: false
