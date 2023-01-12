@@ -17,7 +17,7 @@ import {
 } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // for all regular pages
 const RegularPages = ({
@@ -55,7 +55,7 @@ const RegularPages = ({
     defaultSortedThemes,
     handleSortMenu,
   } = SortReducer(themesWithOthersCategory, true, slug);
- const {arrayCategory}=useFilterContext()
+  const { arrayCategory, sortAsc } = useFilterContext();
   // useEffect(() => {
   //   setArrayCategory([]);
   //   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -70,7 +70,7 @@ const RegularPages = ({
         )
       : defaultSortedThemes
   );
-
+  const sortByOrder = sortAsc ? filterCategory.reverse() : filterCategory;
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
@@ -106,7 +106,7 @@ const RegularPages = ({
           </Sidebar>
           <ThemeTaxonomy
             currentPage={currentPage}
-            data={filterCategory}
+            data={sortByOrder}
             tools={tools}
             showIntro={showIntro}
           />

@@ -1,5 +1,6 @@
 import { humanize } from "@lib/utils/textConverter";
 import sortButton from "config/sort.json";
+import { useFilterContext } from "context/state";
 import Image from "next/image";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
@@ -9,6 +10,8 @@ const SidebarSort = ({
   handleSortThemes,
   handleSortMenu,
 }) => {
+  const { sortAsc,
+    setSortAsc,}=useFilterContext()
   const { button } = sortButton;
   return (
     <div className="mb-8">
@@ -43,6 +46,19 @@ const SidebarSort = ({
             <span className="dark:invert">{humanize(button.value)}</span>
           </button>
         ))}
+         <span className="m-2 block border-t border-border dark:border-darkmode-theme-light" />
+        <button
+          className={!sortAsc ? "active" : undefined}
+          onClick={() => setSortAsc(false)}
+        >
+          Descending
+        </button>
+        <button
+          className={sortAsc ? "active" : undefined}
+          onClick={() => setSortAsc(true)}
+        >
+          Ascending
+        </button>
       </div>
     </div>
   );

@@ -1,11 +1,12 @@
 import { reducer } from "@lib/utils/filterReducer";
+import { useFilterContext } from "context/state";
 import { useEffect, useReducer, useState } from "react";
 
 const SortReducer = (themes, show, slug) => {
+  const { allReset } = useFilterContext();
   const defaultSortedThemes = themes.sort(
     (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
   );
-
   const [sortMenuShow, setSortMenuShow] = useState(false);
   const [sortValue, setSortValue] = useState("default");
   const [sortedThemes, dispatch] = useReducer(reducer, defaultSortedThemes);
@@ -26,6 +27,11 @@ const SortReducer = (themes, show, slug) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
 
+  useEffect(() => {
+    dispatch({ type: "SLUG", payload: defaultSortedThemes });
+    setSortValue("default");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allReset]);
   const handleSortMenu = () => {
     setSortMenuShow(!sortMenuShow);
   };

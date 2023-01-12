@@ -37,7 +37,7 @@ const Accordion = ({
     setArrayTool,
     allReset,
   } = useFilterContext();
-  console.log(allReset);
+
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
       ...item,

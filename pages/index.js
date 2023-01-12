@@ -33,14 +33,13 @@ const Home = ({
   // const [arrayFree, setArrayFree] = useState([]);
   // const [arrayPremium, setArrayPremium] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
-  const [sortAsc, setSortAsc] = useState(false);
+  // const [sortAsc, setSortAsc] = useState(false);
   const {
     sortedThemes,
     handleSortThemes,
     sortMenuShow,
     setSortMenuShow,
     sortValue,
-    defaultSortedThemes,
     handleSortMenu,
   } = SortReducer(themes);
 
@@ -56,8 +55,8 @@ const Home = ({
     arrayCategory,
     arrayFree,
     arrayPremium,
+    sortAsc,
   } = useFilterContext();
-  console.log(arrayPremium);
 
   // theme filtering
   const filterSSG = sortedThemes?.filter((theme) =>
@@ -67,7 +66,7 @@ const Home = ({
             ?.map((ssg) => slugify(ssg))
             .includes(slugify(type))
         )
-      : defaultSortedThemes
+      : sortedThemes
   );
   const filterCMS = filterSSG?.filter((theme) =>
     arrayCMS.length
@@ -76,7 +75,7 @@ const Home = ({
             ?.map((cms) => slugify(cms))
             .includes(slugify(type))
         )
-      : defaultSortedThemes
+      : sortedThemes
   );
   const filterCSS = filterCMS?.filter((theme) =>
     arrayCSS.length
@@ -85,7 +84,7 @@ const Home = ({
             ?.map((css) => slugify(css))
             .includes(slugify(type))
         )
-      : defaultSortedThemes
+      : sortedThemes
   );
   const filterCategory = filterCSS?.filter((theme) =>
     arrayCategory.length
@@ -94,7 +93,7 @@ const Home = ({
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : defaultSortedThemes
+      : sortedThemes
   );
 
   const filterFree = filterCategory?.filter(
@@ -107,7 +106,7 @@ const Home = ({
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : defaultSortedThemes
+      : sortedThemes
   );
 
   const filterPremium = filterCategory?.filter(
@@ -121,7 +120,7 @@ const Home = ({
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : defaultSortedThemes
+      : sortedThemes
   );
 
   // handle filtered themes
@@ -186,8 +185,8 @@ const Home = ({
                 sortMenu={sortMenu}
                 sortMenuShow={sortMenuShow}
                 sortValue={sortValue}
-                sortAsc={sortAsc}
-                setSortAsc={setSortAsc}
+                // sortAsc={sortAsc}
+                // setSortAsc={setSortAsc}
                 handleSortThemes={handleSortThemes}
                 handleSortMenu={handleSortMenu}
               />
