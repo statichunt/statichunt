@@ -20,7 +20,8 @@ export const JsonContext = ({ children }) => {
     setArrayCMS([]);
     setArrayCSS([]);
     setArrayCategory([]);
-    setArrayPremium([]), setArrayFree([]);
+    setArrayPremium([]);
+    setArrayFree([]);
     setAllReset(!allReset);
   };
   useEffect(() => {
@@ -28,7 +29,8 @@ export const JsonContext = ({ children }) => {
     setArrayCMS([]);
     setArrayCSS([]);
     setArrayCategory([]);
-    setArrayPremium([]), setArrayFree([]);
+    setArrayPremium([]);
+    setArrayFree([]);
   }, [router.asPath]);
   const state = {
     allReset,
