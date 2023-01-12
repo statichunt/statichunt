@@ -1,10 +1,11 @@
 ---
 title: About
 meta_title: About Statichunt
-description:
+description: 
 draft: false
+
 ---
-Statichunt is an open-source directory that enlists hundreds of themes, starters, and resources for static site generators submitted by the community.
+Statichunt is an open-source JAMStack directory that enlists hundreds of themes, starters, and resources for static site generators submitted by the community.
 
 #### Feedback
 
@@ -18,4 +19,4 @@ This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofol
 
 #### Contact Us
 
-hey.statichunt@gmail.com
+hey@statichunt.com
