@@ -14,8 +14,8 @@ const Sidebar = ({
   category,
   tool,
   themes,
-  arraySSG,
-  setArraySSG,
+  // arraySSG,
+  // setArraySSG,
   arrayCMS,
   setArrayCMS,
   arrayCSS,
@@ -122,8 +122,8 @@ const Sidebar = ({
                   {data.taxonomy && (
                     <div className="lh:mb-8 relative mb-3 flex flex-col">
                       <Accordion
-                        setArraySSG={setArraySSG}
-                        arraySSG={arraySSG}
+                        // setArraySSG={setArraySSG}
+                        // arraySSG={arraySSG}
                         data={data}
                         slug={slug}
                         type={data.taxonomy}

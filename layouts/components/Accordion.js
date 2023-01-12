@@ -1,5 +1,6 @@
 import config from "@config/config.json";
 import { slugify } from "@lib/utils/textConverter";
+import { useFilterContext } from "context/state";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -9,8 +10,8 @@ const Accordion = ({
   type,
   params,
   themes,
-  arraySSG,
-  setArraySSG,
+  // arraySSG,
+  // setArraySSG,
   arrayCMS,
   setArrayCMS,
   arrayCSS,
@@ -23,6 +24,7 @@ const Accordion = ({
 }) => {
   const [taxonomy, setTaxonomy] = useState(type);
   const { darkIconList } = config;
+  const { setTest,setArraySSG ,arraySSG} = useFilterContext();
 
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
@@ -46,6 +48,7 @@ const Accordion = ({
   // };
 
   const handleOnClick = (label, type) => {
+    setTest(label);
     // scroll to top
     window.scrollTo({ top: 0 });
 

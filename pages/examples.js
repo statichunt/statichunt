@@ -4,16 +4,18 @@ import Base from "@layouts/Baseof";
 import Examples from "@layouts/components/Examples";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify, slugify } from "@lib/utils/textConverter";
+import { useFilterContext } from "context/state";
 import { useState } from "react";
 
 const Home = ({ frontmatter, cms, css, ssg, category, examples, tools }) => {
   const { sidebar } = config;
 
   // ssg array update state
-  const [arraySSG, setArraySSG] = useState([]);
+  // const [arraySSG, setArraySSG] = useState([]);
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
   const [arrayCategory, setArrayCategory] = useState([]);
+  const {arraySSG}=useFilterContext()
 
   // theme filtering
   const filterSSG = examples?.filter((theme) =>
@@ -63,8 +65,8 @@ const Home = ({ frontmatter, cms, css, ssg, category, examples, tools }) => {
           css={css}
           category={category}
           themes={examples}
-          setArraySSG={setArraySSG}
-          arraySSG={arraySSG}
+          // setArraySSG={setArraySSG}
+          // arraySSG={arraySSG}
           setArrayCMS={setArrayCMS}
           arrayCMS={arrayCMS}
           setArrayCSS={setArrayCSS}

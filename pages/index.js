@@ -8,6 +8,7 @@ import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { slugify } from "@lib/utils/textConverter";
 import sortButton from "config/sort.json";
+import { useFilterContext } from "context/state";
 import { setOthersCategory } from "hooks/setOthersCategory";
 import SortReducer from "hooks/sortReducer";
 import { useState } from "react";
@@ -25,7 +26,7 @@ const Home = ({
   const { button } = sortButton;
 
   // ssg array update state
-  const [arraySSG, setArraySSG] = useState([]);
+  // const [arraySSG, setArraySSG] = useState([]);
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
   const [arrayCategory, setArrayCategory] = useState([]);
@@ -48,7 +49,8 @@ const Home = ({
       setSortMenuShow(!sortMenuShow);
     }
   };
-
+  const { test,arraySSG } = useFilterContext();
+  console.log(test);
   // theme filtering
   const filterSSG = sortedThemes?.filter((theme) =>
     arraySSG.length
@@ -148,8 +150,8 @@ const Home = ({
           cms={cms}
           css={css}
           themes={themes}
-          setArraySSG={setArraySSG}
-          arraySSG={arraySSG}
+          // setArraySSG={setArraySSG}
+          // arraySSG={arraySSG}
           setArrayCMS={setArrayCMS}
           arrayCMS={arrayCMS}
           setArrayCSS={setArrayCSS}
