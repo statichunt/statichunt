@@ -10,8 +10,7 @@ const SidebarSort = ({
   handleSortThemes,
   handleSortMenu,
 }) => {
-  const { sortAsc,
-    setSortAsc,}=useFilterContext()
+  const { sortAsc, setSortAsc } = useFilterContext();
   const { button } = sortButton;
   return (
     <div className="mb-8">
@@ -46,18 +45,32 @@ const SidebarSort = ({
             <span className="dark:invert">{humanize(button.value)}</span>
           </button>
         ))}
-         <span className="m-2 block border-t border-border dark:border-darkmode-theme-light" />
+        <span className="m-2 block border-t border-border dark:border-darkmode-theme-light" />
         <button
           className={!sortAsc ? "active" : undefined}
           onClick={() => setSortAsc(false)}
         >
-          Descending
+          <Image
+            src="/images/icons/descend.svg"
+            alt="descending"
+            height="17"
+            width="17"
+            className="mx-2 max-h-[17px] dark:invert"
+          />
+          <span className="dark:invert">{humanize("Descending")}</span>
         </button>
         <button
           className={sortAsc ? "active" : undefined}
           onClick={() => setSortAsc(true)}
         >
-          Ascending
+          <Image
+            src="/images/icons/ascend.svg"
+            alt="ascending"
+            height="17"
+            width="17"
+            className="mx-2 max-h-[17px] dark:invert"
+          />
+          <span className="dark:invert">{humanize("Ascending")}</span>
         </button>
       </div>
     </div>

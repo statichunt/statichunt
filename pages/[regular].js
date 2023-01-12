@@ -4,6 +4,7 @@ import config from "@config/config.json";
 import { setOthersCategory } from "@hooks/setOthersCategory";
 import SortReducer from "@hooks/sortReducer";
 import Base from "@layouts/Baseof";
+import PricingFilter from "@layouts/components/PricingFilter";
 import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
@@ -97,6 +98,7 @@ const RegularPages = ({
             SetShowIntro={SetShowIntro}
             showIntro={showIntro}
           >
+            {/* <PricingFilter/> */}
             <SidebarSort
               sortMenuShow={sortMenuShow}
               sortValue={sortValue}
