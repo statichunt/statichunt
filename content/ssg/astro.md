@@ -14,9 +14,9 @@ language: JavaScript
 url: "/astro-themes"
 
 examples_page_title: Astro Examples
-examples_meta_title: Hand-Picked Astro Examples
-examples_description: Best Astro Website Examples
-examples_content: "jnhnhnhn"
+examples_meta_title: Astro Website Examples - Statichunt
+examples_description: "Top collection of Astro Website examples to inspire the creation of your business or personal website."
+examples_content: "Check out the showcase of a variety of Astro website examples. Get inspired about building your next web project on the Astro static site generator."
 examples_url: "/astro-examples"
 
 draft: false
