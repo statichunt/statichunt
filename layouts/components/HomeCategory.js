@@ -2,16 +2,7 @@ import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import { useEffect, useState } from "react";
 
-const HomeCategory = ({
-  themes,
-  category,
-  filterFree,
-  // arrayFree,
-  // setArrayFree,
-  filterPremium,
-  // arrayPremium,
-  // setArrayPremium,
-}) => {
+const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   const [taxonomy, setTaxonomy] = useState(category);
   const {
     arrayCategory,

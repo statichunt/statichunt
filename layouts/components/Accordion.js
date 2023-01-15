@@ -30,18 +30,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug, allReset]);
 
-  //  sorting texonomy
-  // const sortedTaxonomy = taxonomySorted(taxonomy);
-
-  // const loadMore = () => {
-  //   setnoOfElements(sortedTaxonomy.length);
-  //   setReadMore(true);
-  // };
-  // const loadLess = () => {
-  //   setnoOfElements(4);
-  //   setReadMore(false);
-  // };
-
   const handleOnClick = (label, type) => {
     // scroll to top
     window.scrollTo({ top: 0 });
