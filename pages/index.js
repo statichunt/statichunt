@@ -3,6 +3,7 @@ import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
+import usefilterButton from "@hooks/usefilterButton";
 import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
 import HomeSort from "@layouts/components/HomeSort";
@@ -10,7 +11,6 @@ import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
-import sortButton from "config/sort.json";
 import { useFilterContext } from "context/state";
 import { useState } from "react";
 
@@ -24,7 +24,6 @@ const Home = ({
   tools,
 }) => {
   const { sidebar } = config;
-  const { button } = sortButton;
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const {
@@ -126,21 +125,8 @@ const Home = ({
       ? premiumThemeByCategory
       : filterCategory;
 
-  // // sort filtered themes
-  // const sortFilteredThemes = sortAsc
-  //   ? filteredThemes.reverse()
-  //   : filteredThemes;
-
-  // sort menus
-  const sortMenu =
-    arrayPremium.length && arrayFree.length
-      ? button
-      : arrayPremium.length
-      ? button.filter((data) => data.premium)
-      : arrayFree.length
-      ? button.filter((data) => data.free)
-      : button;
-
+  //  button for sorting
+  const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
   return (
     <Base>
       <div className="flex" onClick={mouseHandler}>
@@ -171,7 +157,10 @@ const Home = ({
               />
             </div>
 
-            <Themes themes={sortFilteredThemes(filteredThemes,sortAsc)} tools={tools} />
+            <Themes
+              themes={sortFilteredThemes(filteredThemes, sortAsc)}
+              tools={tools}
+            />
           </div>
         </main>
       </div>

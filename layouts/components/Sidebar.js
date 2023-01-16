@@ -1,4 +1,5 @@
 import menu from "@config/menu.json";
+import useWindowSize from "@hooks/useWindowSize";
 import { slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -23,18 +24,7 @@ const Sidebar = ({
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   // getWindowDimensions
-  const [windowSize, setWindowSize] = useState(1000);
-  useEffect(() => {
-    function showViewport() {
-      var width = Math.max(
-        document.documentElement.clientWidth,
-        window.innerWidth || 0
-      );
-      setWindowSize(width);
-    }
-    showViewport();
-    window.onresize = showViewport;
-  }, []);
+  const { windowSize } = useWindowSize();
 
   useEffect(() => {
     const filterAddition = sidebar.map((item, id) => ({
@@ -129,7 +119,7 @@ const Sidebar = ({
 
         {children && children}
 
-        <ul className="sidebar-main-menu block border-t-2 py-4 dark:border-t-darkmode-theme-light lg:hidden">
+        <ul className="sidebar-main-menu order-3 block border-t-2 py-4 dark:border-t-darkmode-theme-light lg:hidden">
           {main.map((menu, i) => (
             <li key={`menu-${i}`}>
               <Link

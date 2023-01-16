@@ -1,5 +1,5 @@
+import usefilterButton from "@hooks/usefilterButton";
 import { humanize } from "@lib/utils/textConverter";
-import sortButton from "config/sort.json";
 import { useFilterContext } from "context/state";
 import Image from "next/image";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
@@ -10,25 +10,29 @@ const SidebarSort = ({
   handleSortThemes,
   handleSortMenu,
 }) => {
-  const { sortAsc, setSortAsc } = useFilterContext();
-  const { button } = sortButton;
+  // call filterContext
+  const { sortAsc, setSortAsc, arrayFree, arrayPremium } = useFilterContext();
+
+  //  button for sorting
+  const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
+
   return (
-    <div className="order-2 mb-3 lg:mb-5">
+    <div className="order-2 mb-3 lg:mb-5 ">
       <h3
         onClick={handleSortMenu}
         className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
       >
         Sort by
         <span className="mr-2 inline-block align-middle">
-          {!sortMenuShow ? (
+          {sortMenuShow ? (
             <IoChevronDownOutline />
           ) : (
             <IoChevronForwardOutline />
           )}
         </span>
       </h3>
-      <div className={`sort-sidebar-buttons ${!sortMenuShow && "show"}`}>
-        {button.map((button, i) => (
+      <div className={`sort-sidebar-buttons ${sortMenuShow && "show"}`}>
+        {sortMenu.map((button, i) => (
           <button
             key={`button-${i}`}
             className={sortValue === button.value ? "active" : undefined}

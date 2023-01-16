@@ -1,6 +1,7 @@
 import { reducer } from "@lib/utils/sortReducer";
 import { useFilterContext } from "context/state";
 import { useEffect, useReducer, useState } from "react";
+import useWindowSize from "./useWindowSize";
 
 const useSort = (themes, show, slug) => {
   const { allReset } = useFilterContext();
@@ -35,6 +36,14 @@ const useSort = (themes, show, slug) => {
   const handleSortMenu = () => {
     setSortMenuShow(!sortMenuShow);
   };
+  const { windowSize } = useWindowSize();
+  useEffect(() => {
+    if (windowSize < 1024) {
+      setSortMenuShow(false);
+    } else {
+      setSortMenuShow(true);
+    }
+  }, [windowSize]);
   return {
     sortedThemes,
     handleSortThemes,
