@@ -1,5 +1,6 @@
 import { useFilterContext } from "context/state";
-import React, { useState } from "react";
+import Image from "next/image";
+import { useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
 const PricingFilter = ({ filterFree, filterPremium }) => {
@@ -10,12 +11,12 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
     setOpen(!open);
   };
   return (
-    <div className="mb-8">
+    <div className="order-0 mb-3 lg:mb-5">
       <h3
         onClick={handleOpen}
         className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
       >
-        Filter
+        Filter by
         <span className="mr-2 inline-block align-middle">
           {!open ? <IoChevronDownOutline /> : <IoChevronForwardOutline />}
         </span>
@@ -31,7 +32,14 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
               arrayFree.length > 0 ? "active" : undefined
             }`}
           >
-            <span className="ml-2 block"> Free</span>
+            <Image
+              src="/images/icons/free.svg"
+              alt="free"
+              height="18"
+              width="18"
+              className="ml-2 max-h-[18px] dark:invert"
+            />
+            <span className="ml-2 block">Free</span>
             <span className="ml-auto">{filterFree.length}</span>
           </a>
         )}
@@ -44,7 +52,14 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
               arrayPremium.length > 0 ? "active" : undefined
             }`}
           >
-            <span className="ml-2 block"> Premium</span>
+            <Image
+              src="/images/icons/premium.svg"
+              alt="premium"
+              height="18"
+              width="18"
+              className="ml-2 max-h-[18px] dark:invert"
+            />
+            <span className="ml-2 block">Premium</span>
             <span className="ml-auto">{filterPremium.length}</span>
           </a>
         )}

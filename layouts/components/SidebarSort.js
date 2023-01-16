@@ -13,7 +13,7 @@ const SidebarSort = ({
   const { sortAsc, setSortAsc } = useFilterContext();
   const { button } = sortButton;
   return (
-    <div className="mb-8">
+    <div className="order-2 mb-3 lg:mb-5">
       <h3
         onClick={handleSortMenu}
         className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"

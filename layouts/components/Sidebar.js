@@ -91,7 +91,7 @@ const Sidebar = ({
         onClick={() => setIsSidebarOpen(false)}
       />
       <aside className={`sidebar ${isSidebarOpen ? "show" : ""}`}>
-        <div className="accordion">
+        <div className="accordion order-1">
           {sidebarData.map(
             (data, i) =>
               data.taxonomy && (
