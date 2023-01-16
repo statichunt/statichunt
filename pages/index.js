@@ -3,7 +3,7 @@ import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
-import usefilterButton from "@hooks/usefilterButton";
+import usePricingFilter from "@hooks/usePricingFilter";
 import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
 import HomeSort from "@layouts/components/HomeSort";
@@ -126,7 +126,7 @@ const Home = ({
       : filterCategory;
 
   //  button for sorting
-  const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
+  const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
   return (
     <Base>
       <div className="flex" onClick={mouseHandler}>

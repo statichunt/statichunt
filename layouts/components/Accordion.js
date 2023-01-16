@@ -146,7 +146,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                   alt={item.frontmatter.title}
                   style={{ maxHeight: "18px" }}
                 />
-
                 <span className="ml-2 block">{item.frontmatter.title}</span>
                 <span className="ml-auto">{countItems(params, item)}</span>
               </a>

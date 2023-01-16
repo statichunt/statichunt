@@ -108,7 +108,6 @@ const RegularPages = ({
       ? premiumThemeByCategory
       : filterCategory;
 
-  // console.log(filteredThemes);
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];

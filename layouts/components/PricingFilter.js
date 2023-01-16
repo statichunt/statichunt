@@ -1,4 +1,4 @@
-import useWindowSize from "@hooks/useWindowSize";
+import useWindow from "@hooks/useWindow";
 import { useFilterContext } from "context/state";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -8,7 +8,7 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
   const { arrayFree, setArrayFree, arrayPremium, setArrayPremium, allReset } =
     useFilterContext();
   const [open, setOpen] = useState(true);
-  const { windowSize } = useWindowSize();
+  const windowSize = useWindow(1023);
   useEffect(() => {
     if (windowSize < 1024) {
       setOpen(false);
@@ -16,13 +16,13 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
       setOpen(true);
     }
   }, [windowSize]);
-  console.log(open);
+
   const handleOpen = () => {
     setOpen(!open);
   };
   return (
-    <div className="accordion order-0">
-      <div className=" mb-3 lg:mb-5">
+    <div className="order-0">
+      <div className="mb-6 lg:mb-8">
         <h3
           onClick={handleOpen}
           className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
