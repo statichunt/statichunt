@@ -6,6 +6,7 @@ import config from "@config/config.json";
 import usePricingFilter from "@hooks/usePricingFilter";
 import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
+import Announcement from "@layouts/components/Announcement";
 import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
@@ -24,6 +25,7 @@ const Home = ({
   tools,
 }) => {
   const { sidebar } = config;
+  const { announcement_bar } = config.settings;
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const {
@@ -139,6 +141,7 @@ const Home = ({
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
+          {announcement_bar && <Announcement />}
           <div className="container">
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">

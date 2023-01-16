@@ -12,6 +12,7 @@
   },
 
   "settings": {
+    "announcement_bar": true,
     "theme_switcher": true,
     "default_theme": "system",
     "pagination": 2,
