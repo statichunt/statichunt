@@ -1,21 +1,26 @@
 import usefilterButton from "@hooks/usefilterButton";
+import useWindowSize from "@hooks/useWindowSize";
 import { humanize } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
-const SidebarSort = ({
-  sortMenuShow,
-  sortValue,
-  handleSortThemes,
-  handleSortMenu,
-}) => {
+const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
+  const [open, setOpen] = useState(false);
   // call filterContext
   const { sortAsc, setSortAsc, arrayFree, arrayPremium } = useFilterContext();
 
   //  button for sorting
   const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
-
+  const { windowSize } = useWindowSize();
+  useEffect(() => {
+    if (windowSize < 1024) {
+      setOpen(false);
+    } else {
+      setOpen(true);
+    }
+  }, [windowSize]);
   return (
     <div className="order-2 mb-3 lg:mb-5 ">
       <h3
@@ -24,14 +29,10 @@ const SidebarSort = ({
       >
         Sort by
         <span className="mr-2 inline-block align-middle">
-          {sortMenuShow ? (
-            <IoChevronDownOutline />
-          ) : (
-            <IoChevronForwardOutline />
-          )}
+          {open ? <IoChevronDownOutline /> : <IoChevronForwardOutline />}
         </span>
       </h3>
-      <div className={`sort-sidebar-buttons ${sortMenuShow && "show"}`}>
+      <div className={`sort-sidebar-buttons ${open && "show"}`}>
         {sortMenu.map((button, i) => (
           <button
             key={`button-${i}`}
