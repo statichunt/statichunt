@@ -1,19 +1,18 @@
 import { slugify } from "@lib/utils/textConverter";
+import { useFilterContext } from "context/state";
 import { useEffect, useState } from "react";
 
-const HomeCategory = ({
-  themes,
-  category,
-  arrayCategory,
-  setArrayCategory,
-  filterFree,
-  arrayFree,
-  setArrayFree,
-  filterPremium,
-  arrayPremium,
-  setArrayPremium,
-}) => {
+const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   const [taxonomy, setTaxonomy] = useState(category);
+  const {
+    arrayCategory,
+    setArrayCategory,
+    arrayFree,
+    setArrayFree,
+    arrayPremium,
+    setArrayPremium,
+    allReset,
+  } = useFilterContext();
 
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
@@ -27,7 +26,7 @@ const HomeCategory = ({
     }));
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [allReset]);
 
   const handleTaxonomy = (label) => {
     const temp = [...taxonomy];

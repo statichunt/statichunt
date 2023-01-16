@@ -533,7 +533,7 @@
 
 // sidebar accordion item
 .filter-list {
-  @apply relative mb-1 flex cursor-pointer rounded py-2 pl-2 pr-3 text-sm text-dark hover:bg-white dark:text-white dark:hover:bg-[#3a4751];
+  @apply relative mb-1 flex cursor-pointer items-center rounded py-2 pl-2 pr-3 text-sm text-dark hover:bg-white dark:text-white dark:hover:bg-[#3a4751];
   &::before {
     position: absolute;
     left: -8px;
@@ -725,7 +725,7 @@
     @apply block;
   }
   button {
-    @apply relative mb-1 flex w-full cursor-pointer rounded py-2 pl-2 pr-3 text-sm text-dark hover:bg-white dark:hover:bg-[#3a4751];
+    @apply relative mb-1 flex w-full cursor-pointer items-center rounded py-2 pl-2 pr-3 text-sm text-dark hover:bg-white dark:hover:bg-[#3a4751];
     &::before {
       @apply absolute right-3 top-3 h-3 w-3 rounded-full;
       box-shadow: 0 0 0 2px #059668a8;

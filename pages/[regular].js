@@ -1,9 +1,9 @@
 import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
-import { setOthersCategory } from "@hooks/setOthersCategory";
-import SortReducer from "@hooks/sortReducer";
+import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
+import PricingFilter from "@layouts/components/PricingFilter";
 import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
@@ -15,8 +15,11 @@ import {
   getSinglePage,
   getSinglePageSlug,
 } from "@lib/contentParser";
+import setOthersCategory from "@lib/setOthersCategory";
+import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
-import { useEffect, useState } from "react";
+import { useFilterContext } from "context/state";
+import { useState } from "react";
 
 // for all regular pages
 const RegularPages = ({
@@ -42,7 +45,7 @@ const RegularPages = ({
   } = currentPage[0]?.frontmatter;
 
   const { sidebar } = config;
-  const [arrayCategory, setArrayCategory] = useState([]);
+  // const [arrayCategory, setArrayCategory] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
 
   const themesWithOthersCategory = setOthersCategory(data);
@@ -53,12 +56,9 @@ const RegularPages = ({
     sortValue,
     defaultSortedThemes,
     handleSortMenu,
-  } = SortReducer(themesWithOthersCategory, true, slug);
-
-  useEffect(() => {
-    setArrayCategory([]);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+  } = useSort(themesWithOthersCategory, true, slug);
+  const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
+    useFilterContext();
 
   const filterCategory = sortedThemes.filter((theme) =>
     arrayCategory.length
@@ -69,6 +69,44 @@ const RegularPages = ({
         )
       : defaultSortedThemes
   );
+
+  const filterFree = filterCategory?.filter(
+    (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0
+  );
+  const freeThemeByCategory = filterFree?.filter((theme) =>
+    arrayCategory.length
+      ? arrayCategory.find((type) =>
+          theme.frontmatter.category
+            ?.map((category) => slugify(category))
+            .includes(slugify(type))
+        )
+      : sortedThemes
+  );
+
+  const filterPremium = filterCategory?.filter(
+    (theme) => theme.frontmatter.price > 0
+  );
+
+  const premiumThemeByCategory = filterPremium?.filter((theme) =>
+    arrayCategory.length
+      ? arrayCategory.find((type) =>
+          theme.frontmatter.category
+            ?.map((category) => slugify(category))
+            .includes(slugify(type))
+        )
+      : sortedThemes
+  );
+
+  // const sortByOrder = sortAsc ? filterCategory.reverse() : filterCategory;
+
+  const filteredThemes =
+    arrayFree.length > 0 && arrayPremium.length > 0
+      ? filterCategory
+      : arrayFree.length > 0
+      ? freeThemeByCategory
+      : arrayPremium.length > 0
+      ? premiumThemeByCategory
+      : filterCategory;
 
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
@@ -91,11 +129,13 @@ const RegularPages = ({
             themes={themesWithOthersCategory}
             slug={slug}
             category={category}
-            setArrayCategory={setArrayCategory}
-            arrayCategory={arrayCategory}
             SetShowIntro={SetShowIntro}
             showIntro={showIntro}
           >
+            <PricingFilter
+              filterFree={filterFree}
+              filterPremium={filterPremium}
+            />
             <SidebarSort
               sortMenuShow={sortMenuShow}
               sortValue={sortValue}
@@ -105,7 +145,7 @@ const RegularPages = ({
           </Sidebar>
           <ThemeTaxonomy
             currentPage={currentPage}
-            data={filterCategory}
+            data={sortFilteredThemes(filteredThemes, sortAsc)}
             tools={tools}
             showIntro={showIntro}
           />
@@ -122,8 +162,6 @@ const RegularPages = ({
             themes={data}
             slug={slug}
             category={category}
-            setArrayCategory={setArrayCategory}
-            arrayCategory={arrayCategory}
             SetShowIntro={SetShowIntro}
             showIntro={showIntro}
           />

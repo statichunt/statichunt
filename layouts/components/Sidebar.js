@@ -1,4 +1,5 @@
 import menu from "@config/menu.json";
+import useWindow from "@hooks/useWindow";
 import { slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -14,16 +15,6 @@ const Sidebar = ({
   category,
   tool,
   themes,
-  arraySSG,
-  setArraySSG,
-  arrayCMS,
-  setArrayCMS,
-  arrayCSS,
-  setArrayCSS,
-  arrayCategory,
-  setArrayCategory,
-  arrayTool,
-  setArrayTool,
   SetShowIntro,
   children,
   showIntro,
@@ -33,18 +24,7 @@ const Sidebar = ({
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   // getWindowDimensions
-  const [windowSize, setWindowSize] = useState(1000);
-  useEffect(() => {
-    function showViewport() {
-      var width = Math.max(
-        document.documentElement.clientWidth,
-        window.innerWidth || 0
-      );
-      setWindowSize(width);
-    }
-    showViewport();
-    window.onresize = showViewport;
-  }, []);
+  const windowSize = useWindow(1023);
 
   useEffect(() => {
     const filterAddition = sidebar.map((item, id) => ({
@@ -101,11 +81,11 @@ const Sidebar = ({
         onClick={() => setIsSidebarOpen(false)}
       />
       <aside className={`sidebar ${isSidebarOpen ? "show" : ""}`}>
-        <div className="accordion">
+        <div className="order-1">
           {sidebarData.map(
             (data, i) =>
               data.taxonomy && (
-                <div key={`accordion-${i}`} className="mb-3 lg:mb-5">
+                <div key={`accordion-${i}`} className="mb-4 lg:mb-8">
                   <h3
                     className={`mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3`}
                     onClick={() => handleOnClick(data.title)}
@@ -120,23 +100,13 @@ const Sidebar = ({
                     </span>
                   </h3>
                   {data.taxonomy && (
-                    <div className="lh:mb-8 relative mb-3 flex flex-col">
+                    <div className="relative flex flex-col">
                       <Accordion
-                        setArraySSG={setArraySSG}
-                        arraySSG={arraySSG}
                         data={data}
                         slug={slug}
                         type={data.taxonomy}
                         params={slugify(data.type)}
                         themes={themes}
-                        setArrayCMS={setArrayCMS}
-                        arrayCMS={arrayCMS}
-                        setArrayCSS={setArrayCSS}
-                        arrayCSS={arrayCSS}
-                        setArrayCategory={setArrayCategory}
-                        arrayCategory={arrayCategory}
-                        setArrayTool={setArrayTool}
-                        arrayTool={arrayTool}
                         SetShowIntro={SetShowIntro}
                         showIntro={showIntro}
                       />
@@ -149,7 +119,7 @@ const Sidebar = ({
 
         {children && children}
 
-        <ul className="sidebar-main-menu block border-t-2 py-4 dark:border-t-darkmode-theme-light lg:hidden">
+        <ul className="sidebar-main-menu order-3 block border-t-2 py-4 dark:border-t-darkmode-theme-light lg:hidden">
           {main.map((menu, i) => (
             <li key={`menu-${i}`}>
               <Link

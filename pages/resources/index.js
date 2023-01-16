@@ -4,12 +4,12 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify, slugify } from "@lib/utils/textConverter";
-import { useState } from "react";
+import { useFilterContext } from "context/state";
 
 const ResourceList = ({ tool, resources, indexPage }) => {
   const { title, page_title, image, description } = indexPage;
   const { sidebar } = config;
-  const [arrayTool, setArrayTool] = useState([]);
+  const { arrayTool } = useFilterContext();
   const filterTool = resources.filter((theme) =>
     arrayTool.length
       ? arrayTool.find((type) =>
@@ -23,13 +23,7 @@ const ResourceList = ({ tool, resources, indexPage }) => {
   return (
     <Base title={title} description={description && description} image={image}>
       <div className="flex">
-        <Sidebar
-          sidebar={sidebar}
-          tool={tool}
-          themes={resources}
-          setArrayTool={setArrayTool}
-          arrayTool={arrayTool}
-        />
+        <Sidebar sidebar={sidebar} tool={tool} themes={resources} />
         <main className="main">
           <div className="container">
             <div className="row mb-8 justify-center">
