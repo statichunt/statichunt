@@ -8,6 +8,7 @@ import Base from "@layouts/Baseof";
 import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
+import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import sortButton from "config/sort.json";
 import { useFilterContext } from "context/state";
@@ -125,10 +126,10 @@ const Home = ({
       ? premiumThemeByCategory
       : filterCategory;
 
-  // sort filtered themes
-  const sortFilteredThemes = sortAsc
-    ? filteredThemes.reverse()
-    : filteredThemes;
+  // // sort filtered themes
+  // const sortFilteredThemes = sortAsc
+  //   ? filteredThemes.reverse()
+  //   : filteredThemes;
 
   // sort menus
   const sortMenu =
@@ -170,7 +171,7 @@ const Home = ({
               />
             </div>
 
-            <Themes themes={sortFilteredThemes} tools={tools} />
+            <Themes themes={sortFilteredThemes(filteredThemes,sortAsc)} tools={tools} />
           </div>
         </main>
       </div>

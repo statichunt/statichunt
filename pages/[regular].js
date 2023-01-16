@@ -3,6 +3,7 @@ import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
 import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
+import PricingFilter from "@layouts/components/PricingFilter";
 import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
@@ -15,6 +16,7 @@ import {
   getSinglePageSlug,
 } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
+import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import { useState } from "react";
@@ -55,7 +57,8 @@ const RegularPages = ({
     defaultSortedThemes,
     handleSortMenu,
   } = useSort(themesWithOthersCategory, true, slug);
-  const { arrayCategory, sortAsc } = useFilterContext();
+  const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
+    useFilterContext();
 
   const filterCategory = sortedThemes.filter((theme) =>
     arrayCategory.length
@@ -66,7 +69,46 @@ const RegularPages = ({
         )
       : defaultSortedThemes
   );
-  const sortByOrder = sortAsc ? filterCategory.reverse() : filterCategory;
+
+  const filterFree = filterCategory?.filter(
+    (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0
+  );
+  const freeThemeByCategory = filterFree?.filter((theme) =>
+    arrayCategory.length
+      ? arrayCategory.find((type) =>
+          theme.frontmatter.category
+            ?.map((category) => slugify(category))
+            .includes(slugify(type))
+        )
+      : sortedThemes
+  );
+
+  const filterPremium = filterCategory?.filter(
+    (theme) => theme.frontmatter.price > 0
+  );
+
+  const premiumThemeByCategory = filterPremium?.filter((theme) =>
+    arrayCategory.length
+      ? arrayCategory.find((type) =>
+          theme.frontmatter.category
+            ?.map((category) => slugify(category))
+            .includes(slugify(type))
+        )
+      : sortedThemes
+  );
+
+  // const sortByOrder = sortAsc ? filterCategory.reverse() : filterCategory;
+
+  const filteredThemes =
+    arrayFree.length > 0 && arrayPremium.length > 0
+      ? filterCategory
+      : arrayFree.length > 0
+      ? freeThemeByCategory
+      : arrayPremium.length > 0
+      ? premiumThemeByCategory
+      : filterCategory;
+
+  // console.log(filteredThemes);
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
@@ -88,12 +130,13 @@ const RegularPages = ({
             themes={themesWithOthersCategory}
             slug={slug}
             category={category}
-            // setArrayCategory={setArrayCategory}
-            // arrayCategory={arrayCategory}
             SetShowIntro={SetShowIntro}
             showIntro={showIntro}
           >
-            {/* <PricingFilter/> */}
+            <PricingFilter
+              filterFree={filterFree}
+              filterPremium={filterPremium}
+            />
             <SidebarSort
               sortMenuShow={sortMenuShow}
               sortValue={sortValue}
@@ -103,7 +146,7 @@ const RegularPages = ({
           </Sidebar>
           <ThemeTaxonomy
             currentPage={currentPage}
-            data={sortByOrder}
+            data={sortFilteredThemes(filteredThemes, sortAsc)}
             tools={tools}
             showIntro={showIntro}
           />
