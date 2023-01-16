@@ -1,7 +1,7 @@
 ---
 title: Jekyll
 page_title: Jekyll Themes
-weight: "1"
+weight: "4"
 meta_title: 30+ Best Free Jekyll Themes and Templates
 description: "Do you want to find the best Jekyll theme? Jekyll is a straightforward, blog-aware static site generator that is ideal for personal, project, or organization websites."
 icon: /images/icons/jekyll.svg

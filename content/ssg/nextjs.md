@@ -2,7 +2,7 @@
 title: Nextjs
 page_title: Nextjs Templates
 meta_title: 30+ Best Nextjs Templates | Open-source and Free to Download
-weight: "3"
+weight: "1"
 description: Looking for the best free Nextjs templates and themes? Check out our top picks, all of which are sure to help you get the most out of your Nextjs development.
 icon: "/images/icons/next.svg"
 website: https://nextjs.org/
