@@ -1,15 +1,17 @@
 import config from "@config/config.json";
+import { useFilterContext } from "context/state";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
 const Logo = ({ src, height, width, className }) => {
   const router = useRouter();
+  const { reset } = useFilterContext();
   // destructuring items from config object
   const { title, logo_height, logo_width } = config.site;
   return router.asPath === "/" ? (
     <button
-      onClick={() => location.reload()}
+      onClick={() => reset()}
       className={`navbar-brand ${className} w-auto md:w-[${
         logo_width.replace("px", "") + "px"
       }]`}

@@ -1,28 +1,25 @@
 import config from "@config/config.json";
 import { slugify } from "@lib/utils/textConverter";
+import { useFilterContext } from "context/state";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const Accordion = ({
-  data,
-  slug,
-  type,
-  params,
-  themes,
-  arraySSG,
-  setArraySSG,
-  arrayCMS,
-  setArrayCMS,
-  arrayCSS,
-  setArrayCSS,
-  arrayCategory,
-  setArrayCategory,
-  arrayTool,
-  setArrayTool,
-  SetShowIntro,
-}) => {
+const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   const [taxonomy, setTaxonomy] = useState(type);
   const { darkIconList } = config;
+  const {
+    setArraySSG,
+    arraySSG,
+    arrayCMS,
+    setArrayCMS,
+    arrayCSS,
+    setArrayCSS,
+    arrayCategory,
+    setArrayCategory,
+    arrayTool,
+    setArrayTool,
+    allReset,
+  } = useFilterContext();
 
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
@@ -31,19 +28,7 @@ const Accordion = ({
     }));
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
-
-  //  sorting texonomy
-  // const sortedTaxonomy = taxonomySorted(taxonomy);
-
-  // const loadMore = () => {
-  //   setnoOfElements(sortedTaxonomy.length);
-  //   setReadMore(true);
-  // };
-  // const loadLess = () => {
-  //   setnoOfElements(4);
-  //   setReadMore(false);
-  // };
+  }, [slug, allReset]);
 
   const handleOnClick = (label, type) => {
     // scroll to top
@@ -57,6 +42,7 @@ const Accordion = ({
         item.selected = !item.selected;
       }
     }
+
     setTaxonomy(temp);
 
     // set ssg array
@@ -160,8 +146,7 @@ const Accordion = ({
                   alt={item.frontmatter.title}
                   style={{ maxHeight: "18px" }}
                 />
-
-                <span className="ml-2 block"> {item.frontmatter.title}</span>
+                <span className="ml-2 block">{item.frontmatter.title}</span>
                 <span className="ml-auto">{countItems(params, item)}</span>
               </a>
             )

@@ -1,15 +1,15 @@
 import { humanize } from "@lib/utils/textConverter";
+import { useFilterContext } from "context/state";
 import { TbChevronDown } from "react-icons/tb";
 
 const HomeSort = ({
   sortMenuShow,
   sortValue,
-  sortAsc,
-  setSortAsc,
   handleSortThemes,
   handleSortMenu,
   sortMenu,
 }) => {
+  const { sortAsc, setSortAsc } = useFilterContext();
   return (
     <div className="sort-dropdown ml-0 mt-4 md:ml-2 md:mt-[6px]">
       Sort by:

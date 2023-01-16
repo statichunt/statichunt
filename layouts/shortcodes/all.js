@@ -3,4 +3,4 @@ const shortcodes = {
   Button,
 };
 
-export { Button, shortcodes };
+export default shortcodes;
