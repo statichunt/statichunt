@@ -5,6 +5,8 @@ demo: https://mmistakes.github.io/so-simple-theme/
 author: Michael Rose
 ssg:
   - Jekyll
+css:
+  - Scss
 cms:
   - Markdown
 date: 2013-06-25T20:17:12.000Z

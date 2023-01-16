@@ -5,13 +5,24 @@ demo: https://lenpaul.github.io/Millennial/
 author: Paul Le
 ssg:
   - Jekyll
+css:
+  - SCSS
 cms:
   - Markdown
+category:
+  - Blog
 date: 2016-08-21T21:53:24.000Z
-description: A minimalist Jekyll theme for running an online publication
-draft: true
+description: Millennial is a minimalist Jekyll theme for running a simple, clean, content-focused publishing platform for your publication site or blog
+draft: false
 publish_date: '2016-08-21T21:53:24Z'
 update_date: '2022-06-02T14:28:42Z'
 github_star: 348
 github_fork: 707
 ---
+## Theme Features:
+- ompatible with GitHub Pages.
+- upport for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
+- oogle Analytics support.
+- ommenting support powered by Disqus.
+- ptimized for search engines.
+- aTeX support through MathJax.
