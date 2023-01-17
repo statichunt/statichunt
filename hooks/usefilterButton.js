@@ -1,7 +1,7 @@
 import sortButton from "config/sort.json";
 
 const usefilterButton = (arrayFree, arrayPremium) => {
-  console.log(arrayFree, arrayPremium);
+
   const { button } = sortButton;
   const sortMenu =
     arrayPremium.length && arrayFree.length

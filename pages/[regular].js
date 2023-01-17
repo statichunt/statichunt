@@ -1,6 +1,7 @@
 import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
+import useFilterData from "@hooks/useFilterData";
 import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
 import PricingFilter from "@layouts/components/PricingFilter";
@@ -54,12 +55,10 @@ const RegularPages = ({
     handleSortThemes,
     sortMenuShow,
     sortValue,
-    defaultSortedThemes,
     handleSortMenu,
   } = useSort(themesWithOthersCategory, true, slug);
   const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
     useFilterContext();
-
   const filterCategory = sortedThemes.filter((theme) =>
     arrayCategory.length
       ? arrayCategory.find((type) =>
@@ -67,49 +66,16 @@ const RegularPages = ({
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : defaultSortedThemes
-  );
-
-  const filterFree = filterCategory?.filter(
-    (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0
-  );
-  const freeThemeByCategory = filterFree?.filter((theme) =>
-    arrayCategory.length
-      ? arrayCategory.find((type) =>
-          theme.frontmatter.category
-            ?.map((category) => slugify(category))
-            .includes(slugify(type))
-        )
       : sortedThemes
   );
-
-  const filterPremium = filterCategory?.filter(
-    (theme) => theme.frontmatter.price > 0
+  const { filteredThemes, filterFree, filterPremium } = useFilterData(
+    sortedThemes,
+    filterCategory,
+    arrayCategory,
+    arrayFree,
+    arrayPremium
   );
 
-  const premiumThemeByCategory = filterPremium?.filter((theme) =>
-    arrayCategory.length
-      ? arrayCategory.find((type) =>
-          theme.frontmatter.category
-            ?.map((category) => slugify(category))
-            .includes(slugify(type))
-        )
-      : sortedThemes
-  );
-
-  // const sortByOrder = sortAsc ? filterCategory.reverse() : filterCategory;
-
-  const filteredThemes =
-    arrayFree.length > 0 && arrayPremium.length > 0
-      ? filterCategory
-      : arrayFree.length > 0
-      ? freeThemeByCategory
-      : arrayPremium.length > 0
-      ? premiumThemeByCategory
-      : filterCategory;
-
-  // console.log(filteredThemes);
-  // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
   category.splice(category.length, 0, element);

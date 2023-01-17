@@ -25,18 +25,37 @@ const Sidebar = ({
 
   // getWindowDimensions
   const { windowSize } = useWindowSize();
+  const ssgData = ssg.map((data) => {
+    return {
+      ...data,
+      taxonomy: "ssg",
+    };
+  });
 
+  const cmsData = cms.map((data) => {
+    return {
+      ...data,
+      taxonomy: "cms",
+    };
+  });
+  const cssData = css.map((data) => {
+    return {
+      ...data,
+      taxonomy: "css",
+    };
+  });
+  
   useEffect(() => {
     const filterAddition = sidebar.map((item, id) => ({
       ...item,
       selected: windowSize < 1024 ? false : true,
       taxonomy:
         item.type == "ssg"
-          ? ssg
+          ? ssgData
           : item.type == "cms"
-          ? cms
+          ? cmsData
           : item.type == "css"
-          ? css
+          ? cssData
           : item.type == "category"
           ? category
           : tool,

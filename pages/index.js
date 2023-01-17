@@ -4,6 +4,7 @@ import Sidebar from "@components/Sidebar";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
 import usefilterButton from "@hooks/usefilterButton";
+import useFilterData from "@hooks/useFilterData";
 import useSort from "@hooks/useSort";
 import Base from "@layouts/Baseof";
 import HomeSort from "@layouts/components/HomeSort";
@@ -49,17 +50,30 @@ const Home = ({
     arrayPremium,
     sortAsc,
   } = useFilterContext();
+  const filterFunction = (array, filterArray, params) => {
+    const test = array?.filter((theme) =>
+      filterArray.length
+        ? filterArray.find((type) =>
+            theme.frontmatter[params]
+              ?.map((data) => slugify(data))
+              .includes(slugify(type))
+          )
+        : sortedThemes
+    );
+    return test;
+  };
+  const filterSSG = filterFunction(sortedThemes, arraySSG, "ssg");
 
   // theme filtering
-  const filterSSG = sortedThemes?.filter((theme) =>
-    arraySSG.length
-      ? arraySSG.find((type) =>
-          theme.frontmatter.ssg
-            ?.map((ssg) => slugify(ssg))
-            .includes(slugify(type))
-        )
-      : sortedThemes
-  );
+  // const filterSSG = sortedThemes?.filter((theme) =>
+  //   arraySSG.length
+  //     ? arraySSG.find((type) =>
+  //         theme.frontmatter.ssg
+  //           ?.map((ssg) => slugify(ssg))
+  //           .includes(slugify(type))
+  //       )
+  //     : sortedThemes
+  // );
   const filterCMS = filterSSG?.filter((theme) =>
     arrayCMS.length
       ? arrayCMS.find((type) =>
@@ -88,45 +102,16 @@ const Home = ({
       : sortedThemes
   );
 
-  const filterFree = filterCategory?.filter(
-    (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0
-  );
-  const freeThemeByCategory = filterFree?.filter((theme) =>
-    arrayCategory.length
-      ? arrayCategory.find((type) =>
-          theme.frontmatter.category
-            ?.map((category) => slugify(category))
-            .includes(slugify(type))
-        )
-      : sortedThemes
-  );
-
-  const filterPremium = filterCategory?.filter(
-    (theme) => theme.frontmatter.price > 0
-  );
-
-  const premiumThemeByCategory = filterPremium?.filter((theme) =>
-    arrayCategory.length
-      ? arrayCategory.find((type) =>
-          theme.frontmatter.category
-            ?.map((category) => slugify(category))
-            .includes(slugify(type))
-        )
-      : sortedThemes
-  );
-
-  // handle filtered themes
-  const filteredThemes =
-    arrayFree.length > 0 && arrayPremium.length > 0
-      ? filterCategory
-      : arrayFree.length > 0
-      ? freeThemeByCategory
-      : arrayPremium.length > 0
-      ? premiumThemeByCategory
-      : filterCategory;
-
   //  button for sorting
   const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
+  const { filteredThemes, filterFree, filterPremium } = useFilterData(
+    sortedThemes,
+    filterCategory,
+    arrayCategory,
+    arrayFree,
+    arrayPremium
+  );
+
   return (
     <Base>
       <div className="flex" onClick={mouseHandler}>
@@ -135,7 +120,7 @@ const Home = ({
           ssg={ssg}
           cms={cms}
           css={css}
-          themes={themesWithOthersCategory}
+          themes={filteredThemes}
           SetShowIntro={SetShowIntro}
         />
         <main className="main">

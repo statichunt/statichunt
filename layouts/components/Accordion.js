@@ -6,7 +6,11 @@ import { useEffect, useState } from "react";
 
 const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   const [taxonomy, setTaxonomy] = useState(type);
+  const [test, setTest] = useState("");
+  console.log(params);
+
   const { darkIconList } = config;
+
   const {
     setArraySSG,
     arraySSG,
@@ -31,6 +35,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   }, [slug, allReset]);
 
   const handleOnClick = (label, type) => {
+    setTest(type);
     // scroll to top
     window.scrollTo({ top: 0 });
 
@@ -90,6 +95,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
       }
     }
   };
+
   // hide intro function
   useEffect(() => {
     if (SetShowIntro) {
@@ -112,45 +118,62 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     arrayCSS?.length,
   ]);
   // category items count
-  const countItems = (params, item) =>
-    themes.filter((theme) =>
-      theme.frontmatter[params]
-        ?.map((theme) => slugify(theme))
-        .includes(slugify(item.frontmatter.title))
-    ).length;
-
+  // const countItems = (params, item) => {
+  //   const dataLength =
+  //     test && test === item.taxonomy
+  //       ? themes.filter((theme) =>
+  //           theme.frontmatter[item.taxonomy]
+  //             ?.map((theme) => slugify(theme))
+  //             .includes(slugify(item.frontmatter.title))
+  //         ).length
+  //       : themes.filter((theme) =>
+  //           theme.frontmatter[item.taxonomy]
+  //             ?.map((theme) => slugify(theme))
+  //             .includes(slugify(item.frontmatter.title))
+  //         ).length;
+  //   return dataLength;
+  // };
   return (
     <>
       {data.selected &&
         data.type === params &&
         taxonomy.map(
-          (item, i) =>
-            countItems(params, item) > 0 && (
-              <a
-                onClick={() =>
-                  handleOnClick(slugify(item.frontmatter.title), data.type)
-                }
-                key={`item-${i}`}
-                className={`filter-list ${item.selected && "active"}`}
-                style={{ order: item.frontmatter.weight || "100" }}
-              >
-                <Image
-                  className={`${
-                    darkIconList.includes(slugify(item.frontmatter.title))
-                      ? "dark:invert"
-                      : ""
-                  } ml-2`}
-                  src={item.frontmatter.icon}
-                  height={18}
-                  width={18}
-                  alt={item.frontmatter.title}
-                  style={{ maxHeight: "18px" }}
-                />
+          (item, i) => (
+            // countItems(params, item) > 0 && (
+            <a
+              onClick={() =>
+                handleOnClick(slugify(item.frontmatter.title), data.type)
+              }
+              key={`item-${i}`}
+              className={`filter-list ${item.selected && "active"}`}
+              style={{ order: item.frontmatter.weight || "100" }}
+            >
+              <Image
+                className={`${
+                  darkIconList.includes(slugify(item.frontmatter.title))
+                    ? "dark:invert"
+                    : ""
+                } ml-2`}
+                src={item.frontmatter.icon}
+                height={18}
+                width={18}
+                alt={item.frontmatter.title}
+                style={{ maxHeight: "18px" }}
+              />
 
-                <span className="ml-2 block">{item.frontmatter.title}</span>
-                <span className="ml-auto">{countItems(params, item)}</span>
-              </a>
-            )
+              <span className="ml-2 block">{item.frontmatter.title}</span>
+              <span className="ml-auto">
+                {
+                  themes.filter((d) =>
+                    d.frontmatter[data.type]
+                      .map((d) => slugify(d))
+                      .includes(slugify(item.frontmatter.title))
+                  ).length
+                }
+              </span>
+            </a>
+          )
+          // )
         )}
     </>
   );

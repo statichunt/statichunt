@@ -16,7 +16,7 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
       setOpen(true);
     }
   }, [windowSize]);
-  console.log(open);
+
   const handleOpen = () => {
     setOpen(!open);
   };
