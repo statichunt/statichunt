@@ -1,9 +1,9 @@
 const Announcement = () => {
   return (
     <div
-      className={`announcement sticky top-[104px] z-[10] -translate-y-10 -translate-x-0 bg-white p-2 dark:bg-darkmode-body lg:-translate-x-4`}
+      className={`announcement z-[10] -translate-y-10 -translate-x-0 bg-white p-2 dark:bg-darkmode-body lg:-translate-x-4`}
     >
-      <div className="rounded-[0.25rem] bg-gradient-to-r from-primary to-secondary  text-white transition-opacity ease-in hover:opacity-90">
+      <div className="rounded-[0.25rem] text-white transition-opacity ease-in hover:opacity-90">
         <a
           href="https://cfe.dev/events/the-jam-2023/"
           target="_blank"
