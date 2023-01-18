@@ -19,6 +19,13 @@
     "summary_length": 200
   },
 
+  "announcement": {
+    "enable": true,
+    "name": "Jamstack Conference",
+    "link": "https://cfe.dev/events/the-jam-2023/",
+    "content": "Join 2-days virtual conference at TheJam.dev on — 25 Jan, 2023"
+  },
+
   "params": {
     "tag_manager_id": "GTM-PWJBVR2",
     "feeder_id": "6314275d56249000047ecbfa",

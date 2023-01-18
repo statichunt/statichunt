@@ -1,41 +1,57 @@
+import config from "@config/config.json";
+import { markdownify } from "@lib/utils/textConverter";
+import { useEffect, useState } from "react";
+import { CgCloseO } from "react-icons/cg";
+import useCookie, { getCookie } from "react-use-cookie";
+
 const Announcement = () => {
+  const { enable, name, content, link } = config.announcement;
+  // cookie bar
+  const [announcementClose, setAnnouncementClose] =
+    useCookie("announcementClose");
+  const [announcementCloseState, setAnnouncementCloseState] = useState(true);
+
+  // cookie check from browser
+  useEffect(() => {
+    setAnnouncementCloseState(getCookie("announcementClose"));
+  }, [announcementClose]);
+
+  // cookie handler
+  const cookieHandler = () => {
+    setAnnouncementClose(true, {
+      days: 150,
+      SameSite: "Strict",
+      Secure: true,
+    });
+  };
   return (
-    <div
-      className={`announcement z-[10] -translate-y-10 -translate-x-0 bg-white p-2 dark:bg-darkmode-body lg:-translate-x-4`}
-    >
-      <div className="rounded-[0.25rem] text-white transition-opacity ease-in hover:opacity-90">
-        <a
-          href="https://cfe.dev/events/the-jam-2023/"
-          target="_blank"
-          rel="noreferrer"
-          className="flex content-between items-center px-3 py-2 font-light"
+    <>
+      {enable && !announcementCloseState && (
+        <div
+          className={`z-[10] mt-4 -translate-y-10 bg-white dark:bg-darkmode-body`}
         >
-          <span className="mr-2 inline-block rounded-[0.25rem] bg-dark/30 px-2 py-2 leading-none">
-            Jamstack Conference
-          </span>
-          <span className="mx-auto">
-            Join 2-days virtual conference at TheJam.dev on — 25 Jan, 2023
-          </span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="ml-auto"
-            width="22"
-            height="22"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="#fff"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <circle cx="12" cy="12" r="9" />
-            <line x1="15" y1="9" x2="9" y2="15" />
-            <polyline points="15 15 15 9 9 9" />
-          </svg>
-        </a>
-      </div>
-    </div>
+          <div className="bg-linear-gradient rounded-[0.25rem] text-white transition-opacity ease-in hover:opacity-90">
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="flex items-center px-3 py-2 font-light"
+            >
+              <span className="mr-2 inline-block rounded-[0.25rem] bg-dark/30 px-2 py-2 leading-none">
+                {name}
+              </span>
+              <span className="mx-auto">{markdownify(content)}</span>
+            </a>
+            <span
+              className="absolute right-3 top-2 z-10 cursor-pointer text-xl"
+              onClick={cookieHandler}
+            >
+              <CgCloseO />
+            </span>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

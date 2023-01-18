@@ -25,7 +25,6 @@ const Home = ({
   tools,
 }) => {
   const { sidebar } = config;
-  const { announcement_bar } = config.settings;
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const {
@@ -141,8 +140,8 @@ const Home = ({
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
-          {announcement_bar && <Announcement />}
           <div className="container">
+            <Announcement />
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory

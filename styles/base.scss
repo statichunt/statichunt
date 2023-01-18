@@ -44,19 +44,3 @@ h6,
 .h6 {
   @apply text-h6;
 }
-
-.announcement {
-  width: calc(100% + 1rem);
-  @media screen and (max-width: 1024px) {
-    width: 100%;
-  }
-  > div {
-    background-image: linear-gradient(
-      190deg,
-      #638def 0%,
-      #31aea4 71%,
-      #31aea4 81%,
-      #07a79d 100%
-    );
-  }
-}
