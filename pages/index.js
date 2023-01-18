@@ -13,6 +13,7 @@ import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
+import { fi } from "date-fns/locale";
 import { useState } from "react";
 
 const Home = ({
@@ -63,44 +64,9 @@ const Home = ({
     return test;
   };
   const filterSSG = filterFunction(sortedThemes, arraySSG, "ssg");
-
-  // theme filtering
-  // const filterSSG = sortedThemes?.filter((theme) =>
-  //   arraySSG.length
-  //     ? arraySSG.find((type) =>
-  //         theme.frontmatter.ssg
-  //           ?.map((ssg) => slugify(ssg))
-  //           .includes(slugify(type))
-  //       )
-  //     : sortedThemes
-  // );
-  const filterCMS = filterSSG?.filter((theme) =>
-    arrayCMS.length
-      ? arrayCMS.find((type) =>
-          theme.frontmatter.cms
-            ?.map((cms) => slugify(cms))
-            .includes(slugify(type))
-        )
-      : sortedThemes
-  );
-  const filterCSS = filterCMS?.filter((theme) =>
-    arrayCSS.length
-      ? arrayCSS.find((type) =>
-          theme.frontmatter.css
-            ?.map((css) => slugify(css))
-            .includes(slugify(type))
-        )
-      : sortedThemes
-  );
-  const filterCategory = filterCSS?.filter((theme) =>
-    arrayCategory.length
-      ? arrayCategory.find((type) =>
-          theme.frontmatter.category
-            ?.map((category) => slugify(category))
-            .includes(slugify(type))
-        )
-      : sortedThemes
-  );
+  const filterCMS = filterFunction(filterSSG, arrayCMS, "cms");
+  const filterCSS = filterFunction(filterCMS, arrayCSS, "css");
+  const filterCategory = filterFunction(filterCSS, arrayCategory, "category");
 
   //  button for sorting
   const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
@@ -120,7 +86,7 @@ const Home = ({
           ssg={ssg}
           cms={cms}
           css={css}
-          themes={filteredThemes}
+          themes={sortedThemes}
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
