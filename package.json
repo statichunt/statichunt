@@ -6,10 +6,11 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
-    "build": "yarn json && node lib/parseNewThemesData.js && next build",
+    "build": "yarn update && next build",
     "lint": "next lint",
     "start": "next start",
     "json": "node lib/jsonGenerator.mjs",
+    "update": "node lib/jsonGenerator.mjs && node lib/parseNewThemesData.js && node lib/screenshotThemes.mjs && node lib/screenshotExamples.mjs && node lib/screenshotResources.mjs",
     "ss-themes": "yarn json && node lib/screenshotThemes.mjs",
     "ss-resources": "yarn json && node lib/screenshotResources.mjs",
     "ss-examples": "yarn json && node lib/screenshotExamples.mjs",
