@@ -17,6 +17,7 @@ const DemoHeader = ({
   demo,
   slug,
   github,
+  download,
   showHeader,
   setShowHeader,
   device,
@@ -116,7 +117,7 @@ const DemoHeader = ({
             </a>
             <a
               className="btn btn-outline-primary svg-align-bottom has-tooltip tooltip-bottom text-lg !leading-none"
-              href={`${github}?ref=statichunt.com`}
+              href={`${github ? github : download}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
               data-tooltip="Download"
@@ -128,10 +129,10 @@ const DemoHeader = ({
         </div>
         {/* header toggler */}
         <span
-          className={`absolute right-4 block h-5 w-5 cursor-pointer border-border text-center leading-none ${
+          className={`absolute right-4 block h-5 w-5 cursor-pointer border-border text-center ${
             showHeader
-              ? "rounded-full border"
-              : "top-[62px] bg-primary pt-1 text-white"
+              ? "rounded-full border leading-[.9rem]"
+              : "top-[62px] bg-primary leading-5 text-white"
           }`}
           onClick={() => setShowHeader(!showHeader)}
         >
