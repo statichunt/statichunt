@@ -16,7 +16,7 @@ cms:
 
 category:
   - others
-draft: false
+draft: true
 ---
 ## Theme Features
 
