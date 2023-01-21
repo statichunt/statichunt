@@ -115,7 +115,7 @@ const Home = ({
         )
       : sortedThemes
   );
-
+  console.log(showIntro);
   // handle filtered themes
   const filteredThemes =
     arrayFree.length > 0 && arrayPremium.length > 0
