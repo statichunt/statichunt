@@ -48,3 +48,7 @@ object {
     #07a79d 100%
   );
 }
+
+.disabled {
+  @apply bg-theme-light/5 opacity-60 dark:bg-darkmode-dark/5;
+}

@@ -33,47 +33,43 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
           </span>
         </h3>
         <div className={`sort-sidebar-buttons ${open && "show"}`}>
-          {filterFree.length > 0 && (
-            <a
-              onClick={() =>
-                setArrayFree(arrayFree.length === 0 ? filterFree : [])
-              }
-              // className={arrayFree.length > 0 ? "active" : undefined}
-              className={`filter-list ${
-                arrayFree.length > 0 ? "active" : undefined
-              }`}
-            >
-              <Image
-                src="/images/icons/free.svg"
-                alt="free"
-                height="18"
-                width="18"
-                className="ml-2 max-h-[18px] dark:invert"
-              />
-              <span className="ml-2 block">Free</span>
-              <span className="ml-auto">{filterFree.length}</span>
-            </a>
-          )}
-          {filterPremium.length > 0 && (
-            <a
-              onClick={() =>
-                setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
-              }
-              className={`filter-list ${
-                arrayPremium.length > 0 ? "active" : undefined
-              }`}
-            >
-              <Image
-                src="/images/icons/premium.svg"
-                alt="premium"
-                height="18"
-                width="18"
-                className="ml-2 max-h-[18px] dark:invert"
-              />
-              <span className="ml-2 block">Premium</span>
-              <span className="ml-auto">{filterPremium.length}</span>
-            </a>
-          )}
+          <a
+            onClick={() =>
+              setArrayFree(arrayFree.length === 0 ? filterFree : [])
+            }
+            // className={arrayFree.length > 0 ? "active" : undefined}
+            className={`filter-list ${
+              arrayFree.length > 0 ? "active" : undefined
+            }`}
+          >
+            <Image
+              src="/images/icons/free.svg"
+              alt="free"
+              height="18"
+              width="18"
+              className="ml-2 max-h-[18px] dark:invert"
+            />
+            <span className="ml-2 block">Free</span>
+            <span className="ml-auto">{filterFree.length}</span>
+          </a>
+          <a
+            onClick={() =>
+              setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
+            }
+            className={`filter-list ${
+              arrayPremium.length > 0 ? "active" : undefined
+            }`}
+          >
+            <Image
+              src="/images/icons/premium.svg"
+              alt="premium"
+              height="18"
+              width="18"
+              className="ml-2 max-h-[18px] dark:invert"
+            />
+            <span className="ml-2 block">Premium</span>
+            <span className="ml-auto">{filterPremium.length}</span>
+          </a>
         </div>
       </div>
     </div>
