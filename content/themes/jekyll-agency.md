@@ -13,12 +13,14 @@ css:
 category:
   - Business
 date: 2023-01-19T00:00:00.000Z
-description: Jekyll version of the newest Agency Bootstrap theme, plus new features Google Analytics, Markdown support, custom pages, and more!
+description: >-
+  Jekyll version of the newest Agency Bootstrap theme, plus new features Google
+  Analytics, Markdown support, custom pages, and more!
 draft: false
-publish_date: '2014-08-20T19:54:22Z'
-update_date: '2017-02-27T18:44:56Z'
-github_star: 794
-github_fork: 1778
+publish_date: '2019-09-30T06:04:44Z'
+update_date: '2022-11-20T22:51:59Z'
+github_star: 216
+github_fork: 423
 ---
 ## Theme Features
 - GitHub Pages support

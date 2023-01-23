@@ -12,6 +12,6 @@ description: A Casper 2 blog starter for Gatsby
 draft: true
 publish_date: '2018-09-10T03:48:22Z'
 update_date: '2022-11-10T05:22:47Z'
-github_star: 454
-github_fork: 181
+github_star: 453
+github_fork: 180
 ---

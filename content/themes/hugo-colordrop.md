@@ -12,6 +12,6 @@ description: Customizable, monochromatic and minimalist hugo theme for personal 
 draft: true
 publish_date: '2019-07-24T01:14:27Z'
 update_date: '2022-12-09T13:59:06Z'
-github_star: 17
-github_fork: 6
+github_star: 18
+github_fork: 7
 ---

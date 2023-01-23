@@ -12,6 +12,6 @@ description: Adam Blog is a minimal clear theme for Jekyll
 draft: true
 publish_date: '2017-09-06T10:24:57Z'
 update_date: '2019-08-14T13:24:10Z'
-github_star: 174
+github_star: 175
 github_fork: 283
 ---

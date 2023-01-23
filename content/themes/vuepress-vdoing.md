@@ -18,6 +18,6 @@ description: A simple and efficient VuePress knowledge management & blog theme.
 draft: true
 publish_date: '2019-11-30T07:17:46Z'
 update_date: '2022-12-01T03:58:53Z'
-github_star: 2875
-github_fork: 796
+github_star: 2903
+github_fork: 800
 ---

@@ -12,6 +12,6 @@ description: A Jekyll starter with a variety of flexible layouts and components.
 draft: true
 publish_date: '2014-06-02T13:25:37Z'
 update_date: '2019-08-27T20:12:13Z'
-github_star: 791
-github_fork: 907
+github_star: 793
+github_fork: 909
 ---

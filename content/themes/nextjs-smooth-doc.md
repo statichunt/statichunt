@@ -14,6 +14,6 @@ description: smooth-doc in Nextjs implementation
 draft: true
 publish_date: '2021-06-05T00:36:07Z'
 update_date: '2021-10-08T13:12:35Z'
-github_star: 30
+github_star: 31
 github_fork: 21
 ---

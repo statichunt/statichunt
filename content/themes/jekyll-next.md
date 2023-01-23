@@ -12,6 +12,6 @@ description: Elegant theme for Jekyll.
 draft: true
 publish_date: '2017-07-21T08:44:59Z'
 update_date: '2018-11-21T02:03:20Z'
-github_star: 756
-github_fork: 764
+github_star: 757
+github_fork: 757
 ---

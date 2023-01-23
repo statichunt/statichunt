@@ -15,7 +15,7 @@ category:
 description: A beautiful, simple, clean, and responsive Jekyll theme for academics
 draft: false
 publish_date: '2016-05-30T16:32:46Z'
-update_date: '2023-01-10T14:03:41Z'
-github_star: 4699
-github_fork: 6963
+update_date: '2023-01-15T03:56:38Z'
+github_star: 4778
+github_fork: 7117
 ---

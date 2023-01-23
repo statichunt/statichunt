@@ -11,7 +11,8 @@ cms:
 category:
   - Blog
   - Portfolio
-description: Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
+description: >-
+  Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
   Gatsby + Contenful.
 draft: false
 publish_date: '2020-02-24T11:47:07Z'

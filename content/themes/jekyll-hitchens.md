@@ -12,6 +12,6 @@ description: An inarguably well-designed Jekyll theme by Pat Dryburgh.
 draft: true
 publish_date: '2018-07-31T01:12:09Z'
 update_date: '2020-10-01T20:42:29Z'
-github_star: 238
-github_fork: 271
+github_star: 241
+github_fork: 276
 ---

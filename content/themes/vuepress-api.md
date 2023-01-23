@@ -15,6 +15,6 @@ description: A api-friendly theme for VuePress.
 draft: true
 publish_date: '2018-05-17T15:06:25Z'
 update_date: '2021-08-03T16:29:33Z'
-github_star: 345
+github_star: 347
 github_fork: 67
 ---

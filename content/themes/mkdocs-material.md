@@ -11,7 +11,7 @@ date: 2016-01-28T22:09:23.000Z
 description: A Material Design theme for MkDocs
 draft: true
 publish_date: '2016-01-28T22:09:23Z'
-github_star: 12351
-github_fork: 2719
-update_date: '2023-01-10T18:59:04Z'
+github_star: 12482
+github_fork: 2735
+update_date: '2023-01-21T17:04:30Z'
 ---

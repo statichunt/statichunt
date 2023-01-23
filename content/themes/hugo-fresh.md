@@ -17,7 +17,7 @@ category:
   - Sass
 draft: false
 publish_date: '2018-04-10T20:32:30Z'
-update_date: '2022-09-22T02:23:54Z'
-github_star: 449
-github_fork: 282
+update_date: '2023-01-18T07:49:27Z'
+github_star: 452
+github_fork: 287
 ---

@@ -17,7 +17,7 @@ draft: false
 publish_date: '2021-07-15T11:59:59Z'
 update_date: '2023-01-09T20:18:03Z'
 github_star: 211
-github_fork: 91
+github_fork: 94
 ---
 ## Theme Features
 - Responsive content / Mobile-optimized

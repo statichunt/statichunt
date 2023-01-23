@@ -14,6 +14,6 @@ description: A Gatsby theme based on gatsby-serif-theme, rewrite with Tailwind C
 draft: false
 publish_date: '2019-07-08T15:05:18Z'
 update_date: '2022-04-09T16:18:12Z'
-github_star: 29
+github_star: 28
 github_fork: 20
 ---

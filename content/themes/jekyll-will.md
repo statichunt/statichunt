@@ -12,6 +12,6 @@ description: A simple Jekyll theme.
 draft: false
 publish_date: '2015-08-04T06:35:46Z'
 update_date: '2020-10-05T15:31:49Z'
-github_star: 376
-github_fork: 437
+github_star: 375
+github_fork: 438
 ---

@@ -12,6 +12,6 @@ description: '博客主题 A forkable Jekyll theme with Chinese UI and document 
 draft: true
 publish_date: '2019-06-02T06:42:58Z'
 update_date: '2021-02-28T20:18:49Z'
-github_star: 341
-github_fork: 397
+github_star: 343
+github_fork: 399
 ---

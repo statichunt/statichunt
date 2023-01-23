@@ -12,6 +12,6 @@ description: Simple, elegant and clean jekyll theme.
 draft: true
 publish_date: '2014-06-30T14:56:52Z'
 update_date: '2021-09-03T19:18:22Z'
-github_star: 214
-github_fork: 153
+github_star: 215
+github_fork: 151
 ---

@@ -15,7 +15,7 @@ category: null
 description: A simple, delicate, and modern theme for the static site generator Hexo.
 draft: true
 publish_date: '2015-03-19T14:24:24Z'
-update_date: '2022-12-14T17:38:36Z'
-github_star: 5663
-github_fork: 1483
+update_date: '2023-01-19T05:29:36Z'
+github_star: 5672
+github_fork: 1488
 ---

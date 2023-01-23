@@ -15,6 +15,6 @@ description: A (nearly) no-CSS, fast, minimalist Jekyll theme.
 draft: true
 publish_date: '2020-07-10T12:23:19Z'
 update_date: '2021-07-08T18:21:44Z'
-github_star: 677
-github_fork: 362
+github_star: 680
+github_fork: 367
 ---

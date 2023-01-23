@@ -15,12 +15,13 @@ category:
   - Blog
   - Portfolio
   - Ecommerce
-description: A Jekyll Theme built for Developers and Software Engineers, Dark Mode
+description: >-
+  A Jekyll Theme built for Developers and Software Engineers, Dark Mode
   Supported
 draft: false
 publish_date: '2018-07-03T11:38:13Z'
 update_date: '2022-12-12T07:33:08Z'
-github_star: 558
+github_star: 564
 github_fork: 809
 ---
 ## Theme Features:

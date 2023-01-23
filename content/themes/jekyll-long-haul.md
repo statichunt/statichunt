@@ -17,6 +17,6 @@ description: A minimal, type-focused Jekyll theme.
 draft: true
 publish_date: '2014-12-14T08:41:52Z'
 update_date: '2022-09-13T04:36:54Z'
-github_star: 604
+github_star: 606
 github_fork: 689
 ---

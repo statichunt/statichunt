@@ -24,8 +24,8 @@ description: >-
   travel blog. Entice your visitors to read every single content via Milingo
   Hugo by putting your focus on consistent blogging.
 publish_date: '2021-11-06T05:57:35Z'
-update_date: '2022-12-21T07:15:32Z'
-github_star: 4
+update_date: '2023-01-18T06:17:04Z'
+github_star: 5
 github_fork: 0
 draft: false
 ---

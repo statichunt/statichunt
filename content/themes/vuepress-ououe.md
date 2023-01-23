@@ -12,6 +12,6 @@ description: A blog theme for VuePress
 draft: true
 publish_date: '2019-02-23T04:18:48Z'
 update_date: '2020-12-02T06:49:27Z'
-github_star: 78
+github_star: 77
 github_fork: 23
 ---

@@ -20,7 +20,7 @@ description: >-
   ESLint, Prettier, Husky, Commit-lint and Atomic Design for components.
 draft: true
 publish_date: '2021-11-14T13:11:48Z'
-update_date: '2022-06-29T09:38:30Z'
-github_star: 109
-github_fork: 10
+update_date: '2023-01-13T14:18:09Z'
+github_star: 111
+github_fork: 11
 ---
