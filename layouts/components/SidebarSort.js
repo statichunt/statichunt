@@ -56,26 +56,26 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
           onClick={() => setSortAsc(false)}
         >
           <Image
-            src="/images/icons/descend.svg"
-            alt="descending"
+            src="/images/icons/descending.svg"
+            alt="Descending"
             height="17"
             width="17"
             className="mx-2 max-h-[17px] dark:invert"
           />
-          <span className="dark:invert">{humanize("Descending")}</span>
+          <span className="dark:invert">Descending</span>
         </button>
         <button
           className={sortAsc ? "active" : undefined}
           onClick={() => setSortAsc(true)}
         >
           <Image
-            src="/images/icons/ascend.svg"
-            alt="ascending"
+            src="/images/icons/ascending.svg"
+            alt="Ascending"
             height="17"
             width="17"
             className="mx-2 max-h-[17px] dark:invert"
           />
-          <span className="dark:invert">{humanize("Ascending")}</span>
+          <span className="dark:invert">Ascending</span>
         </button>
       </div>
     </div>
