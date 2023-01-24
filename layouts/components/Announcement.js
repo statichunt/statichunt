@@ -1,5 +1,5 @@
 import config from "@config/config.json";
-import { markdownify } from "@lib/utils/textConverter";
+import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useEffect, useState } from "react";
 import { CgCloseO } from "react-icons/cg";
 import useCookie, { getCookie } from "react-use-cookie";
@@ -7,19 +7,18 @@ import useCookie, { getCookie } from "react-use-cookie";
 const Announcement = () => {
   const { enable, name, content, link } = config.announcement;
   // cookie bar
-  const [announcementClose, setAnnouncementClose] =
-    useCookie("announcementClose");
+  const [announcementClose, setAnnouncementClose] = useCookie(slugify(name));
   const [announcementCloseState, setAnnouncementCloseState] = useState(true);
 
   // cookie check from browser
   useEffect(() => {
-    setAnnouncementCloseState(getCookie("announcementClose"));
+    setAnnouncementCloseState(getCookie(slugify(name)));
   }, [announcementClose]);
 
   // cookie handler
   const cookieHandler = () => {
     setAnnouncementClose(true, {
-      days: 150,
+      days: 7,
       SameSite: "Strict",
       Secure: true,
     });

@@ -575,7 +575,6 @@
       @apply ml-2 rounded bg-[#dce9e9] px-[.3rem] py-[.15rem] text-xs dark:bg-darkmode-theme-light;
     }
     &.active {
-      // @apply border-transparent bg-gradient-to-r from-primary to-secondary text-white;
       @apply border-primary bg-primary text-white;
       span {
         @apply bg-dark/[.15] text-white;
@@ -643,18 +642,15 @@
 
 // cookie bar
 .cookieBar {
-  @apply fixed left-[20px] bottom-[20px] z-[999999999] mt-[20px] flex content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
+  @apply fixed left-[20px] bottom-[20px] z-[999999999] mt-[20px] flex w-[400px] content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
   box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
     rgb(12 20 66 / 4%) 0px 16px 40px;
-}
-
-.cookieBarContent {
-  @apply flex items-center;
-}
-
-.cookieBarBtn {
-  @apply ml-[15px] cursor-pointer rounded-[5px] border-none bg-[#edf0f3] py-[5px] px-[10px] dark:bg-theme-dark;
-  font-size: 13px;
+  max-width: calc(100% - 40px);
+  &:hover {
+    .cookieCloseBtn {
+      transform: scale(1);
+    }
+  }
 }
 
 // bookmark bar
@@ -683,7 +679,7 @@
       visibility: visible;
       opacity: 1;
     }
-    .bookmarkClose {
+    .cookieCloseBtn {
       transform: scale(1);
     }
   }
@@ -700,22 +696,24 @@
   justify-content: center;
 }
 
-.bookmarkClose {
+.cookieCloseBtn {
   position: absolute;
-  right: -10px;
-  top: -10px;
+  right: -15px;
+  top: -15px;
   background-color: #fff;
   box-shadow: 0 5px 16px #eee;
   @apply dark:bg-darkmode-border;
   border-radius: 50%;
-  height: 20px;
+  height: 30px;
   text-align: center;
-  width: 20px;
-  line-height: 15px !important;
+  width: 30px;
+  line-height: 25px !important;
   transform: scale(0);
   transition: 0.2s ease;
+  cursor: pointer;
 }
-.dark .bookmarkClose {
+
+.dark .cookieCloseBtn {
   box-shadow: 0 5px 16px #333;
 }
 
