@@ -1,36 +1,48 @@
 ---
-title: Congo
-github: https://github.com/jpanther/congo
-demo: https://jpanther.github.io/congo/
-author: jpanther
-date: 2021-08-23T00:00:00.000Z
+title: Blowfish
+github: https://github.com/nunocoracao/blowfish
+demo: https://blowfish.page/
+author: Nuno Coração
+author_link: https://github.com/nunocoracao
+date: 2023-01-25T00:00:00.000Z
+description: >-
+  Blowfish is designed to be a powerful, lightweight theme for Hugo. It's built
+  using Tailwind CSS with a clean and minimalist design that prioritises to your
+  content.
 ssg:
   - Hugo
-cms:
-  - Markdown
 css:
   - Tailwind
 category:
   - Blog
-description: A simple, lightweight theme for Hugo built with Tailwind CSS.
 draft: false
-publish_date: '2021-08-11T05:29:45Z'
-update_date: '2023-01-22T21:49:09Z'
-github_star: 586
-github_fork: 181
+publish_date: '2022-09-09T20:38:52Z'
+update_date: '2023-01-18T21:45:33Z'
+github_star: 249
+github_fork: 75
 ---
-## Key Features
+## Theme Features
 - Fully responsive layout built with Tailwind CSS 3.0
 - Multiple colour schemes (or fully customise your own)
 - Dark mode (forced on/off or auto-switching with user toggle)
 - Highly customisable configuration
+- Firebase integration to support dynamic data
+- Views count & like mechanism
 - Multiple homepage layouts
+- Support for multiple authors
+- Support for series of articles
 - Flexible with any content types, taxonomies and menus
+- Support for header and footer menus
+- Support for nested menus
+- Support for sub-navigation menu
 - Multilingual content support inlcuding support for RTL languages
 - Ability to link to posts on third-party websites
+- Support for several shortcodes like Gallery, GitHub cards, and Carousels
+- Buymeacoffee integration
 - Client-side site search powered by Fuse.js
 - Diagrams and visualisations using Mermaid
 - Charts using Chart.js
+- TypeIt integration
 - Mathematical notation using KaTeX
 - SVG icons from FontAwesome 6
 - Automatic image resizing using Hugo Pipes
