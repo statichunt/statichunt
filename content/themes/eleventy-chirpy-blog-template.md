@@ -13,9 +13,18 @@ css:
 category:
   - Blog
 description: 11ty version of the popular Chirpy Jekyll blog theme
-draft: true
+draft: false
 publish_date: '2021-01-28T07:00:56Z'
 update_date: '2022-01-31T08:03:21Z'
 github_star: 54
 github_fork: 16
 ---
+## Theme Features
+- Dark Mode
+- SEO and OpenGraph optimized
+- Responsive images optimization
+- Accessible
+- JavaScript and CSS build optimization
+- Prism-based syntax highlighting
+- RSS (yup, still a thing), sitemap.xml, and JSON-LD
+- Algolia Search enabled

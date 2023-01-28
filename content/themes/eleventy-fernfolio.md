@@ -8,14 +8,29 @@ ssg:
   - Eleventy
 cms:
   - NetlifyCMS
-css: null
+css:
 category:
   - Blog
   - Portfolio
 description: The super simple portfolio template built with Eleventy and NetlifyCMS
-draft: true
+draft: false
 publish_date: '2021-02-18T18:21:50Z'
 update_date: '2023-01-23T01:00:34Z'
 github_star: 63
 github_fork: 29
 ---
+
+## Theme Features
+- Deep integration with Netlify CMS. Modify content without opening a code editor.
+- Customizable blog and project pages with tag support
+- Working contact form powered by Netlify Forms
+- Fast page speeds and high lighthouse scores
+- Uses Markdown for content files and Nunjucks for layouts
+- 100% Javascript framework free
+- SCSS support with sane base styles
+- Continuous Deployment workflow via Netlify
+- Responsive images generated at build time
+- Minified HTML with HTMLMinifier
+- Minified CSS with cssnano
+- Turbolinks integration to enable instant navigation without page refresh
+- Useful Nunjuck filters built in

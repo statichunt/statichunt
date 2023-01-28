@@ -1,9 +1,9 @@
 ---
 title: Vredeburg
-github: https://github.com/dafiulh/vredeburg
-demo: https://vredeburg.netlify.app
-author: Dafiul Haq
-date: 2020-10-12T00:14:00.000Z
+github: https://github.com/daflh/vredeburg
+demo: https://vredeburg.netlify.app/
+author: Daff
+date: 2023-01-26T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
@@ -13,7 +13,7 @@ css:
 category:
   - Blog
 description: A simple starter project to create a blog using Eleventy and Tailwind CSS
-draft: true
+draft: false
 publish_date: '2020-07-12T07:42:23Z'
 update_date: '2023-01-23T03:11:07Z'
 github_star: 140
