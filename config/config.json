@@ -20,7 +20,7 @@
   },
 
   "announcement": {
-    "enable": true,
+    "enable": false,
     "name": "Jamstack Conference",
     "link": "https://cfe.dev/events/the-jam-2023/",
     "content": "Join 2-days virtual conference at TheJam.dev on — 25 Jan, 2023"
