@@ -3,6 +3,7 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import Examples from "@layouts/components/Examples";
 import { getListPage, getSinglePage } from "@lib/contentParser";
+import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
 import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 
@@ -16,19 +17,20 @@ const Home = ({
   examples,
   tools,
 }) => {
+  const examplesSortedByDate = sortByDate(examples);
+  const examplesSortedByWeight = sortByWeight(examplesSortedByDate);
   const { sidebar } = config;
-
   const { arraySSG, arrayCMS, arrayCSS, arrayCategory } = useFilterContext();
 
   // theme filtering
-  const filterSSG = examples?.filter((theme) =>
+  const filterSSG = examplesSortedByWeight?.filter((theme) =>
     arraySSG.length
       ? arraySSG.find((type) =>
           theme.frontmatter.ssg
             ?.map((ssg) => slugify(ssg))
             .includes(slugify(type))
         )
-      : examples
+      : examplesSortedByWeight
   );
   const filterCMS = filterSSG?.filter((theme) =>
     arrayCMS.length
@@ -37,7 +39,7 @@ const Home = ({
             ?.map((cms) => slugify(cms))
             .includes(slugify(type))
         )
-      : examples
+      : examplesSortedByWeight
   );
   const filterCSS = filterCMS?.filter((theme) =>
     arrayCSS.length
@@ -46,7 +48,7 @@ const Home = ({
             ?.map((css) => slugify(css))
             .includes(slugify(type))
         )
-      : examples
+      : examplesSortedByWeight
   );
   const filterCategory = filterCSS?.filter((theme) =>
     arrayCategory.length
@@ -55,7 +57,7 @@ const Home = ({
             ?.map((category) => slugify(category))
             .includes(slugify(type))
         )
-      : examples
+      : examplesSortedByWeight
   );
 
   return (
