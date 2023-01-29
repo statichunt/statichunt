@@ -1,7 +1,7 @@
 import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
-import useSort from "@hooks/useSort";
+import useThemesSort from "@hooks/useThemesSort";
 import Base from "@layouts/Baseof";
 import PricingFilter from "@layouts/components/PricingFilter";
 import SidebarSort from "@layouts/components/SidebarSort";
@@ -56,7 +56,7 @@ const RegularPages = ({
     sortValue,
     defaultSortedThemes,
     handleSortMenu,
-  } = useSort(themesWithOthersCategory, true, slug);
+  } = useThemesSort(themesWithOthersCategory, true, slug);
   const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
     useFilterContext();
 

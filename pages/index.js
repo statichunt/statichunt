@@ -4,7 +4,7 @@ import Sidebar from "@components/Sidebar";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
 import usePricingFilter from "@hooks/usePricingFilter";
-import useSort from "@hooks/useSort";
+import useThemesSort from "@hooks/useThemesSort";
 import Base from "@layouts/Baseof";
 import Announcement from "@layouts/components/Announcement";
 import HomeSort from "@layouts/components/HomeSort";
@@ -34,7 +34,7 @@ const Home = ({
     setSortMenuShow,
     sortValue,
     handleSortMenu,
-  } = useSort(themesWithOthersCategory);
+  } = useThemesSort(themesWithOthersCategory);
 
   const mouseHandler = () => {
     if (sortMenuShow) {

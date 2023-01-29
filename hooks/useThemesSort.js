@@ -1,12 +1,12 @@
+import { sortByWeight } from "@lib/utils/sortFunctions";
 import { reducer } from "@lib/utils/sortReducer";
 import { useFilterContext } from "context/state";
 import { useEffect, useReducer, useState } from "react";
 
-const useSort = (themes, show, slug) => {
+const useThemesSort = (themes, show, slug) => {
   const { allReset } = useFilterContext();
-  const defaultSortedThemes = themes.sort(
-    (a, b) => new Date(b.frontmatter?.date) - new Date(a.frontmatter?.date)
-  );
+  const themesSortedByDate = sortByWeight(themes);
+  const defaultSortedThemes = sortByWeight(themesSortedByDate);
   const [sortMenuShow, setSortMenuShow] = useState(false);
   const [sortValue, setSortValue] = useState("default");
   const [sortedThemes, dispatch] = useReducer(reducer, defaultSortedThemes);
@@ -48,4 +48,4 @@ const useSort = (themes, show, slug) => {
   };
 };
 
-export default useSort;
+export default useThemesSort;
