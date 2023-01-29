@@ -16,6 +16,7 @@ import {
   getSinglePageSlug,
 } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
+import { parseMDX } from "@lib/utils/mdxParser";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
@@ -29,6 +30,7 @@ const RegularPages = ({
   toolSlug,
   currentPage,
   data,
+  mdxContent,
   tools,
   category,
 }) => {
@@ -173,7 +175,7 @@ const RegularPages = ({
           />
         </div>
       ) : (
-        <Default data={data} />
+        <Default data={data} mdxContent={mdxContent} />
       )}
     </Base>
   );
@@ -268,6 +270,9 @@ export const getStaticProps = async ({ params }) => {
     ? toolPage
     : defaultPage;
 
+  // current page MDXContent
+  const mdxContent = await parseMDX(currentPageData[0].content);
+
   // all tools
   const tools = [...ssg, ...cms, ...css, ...category];
 
@@ -279,6 +284,7 @@ export const getStaticProps = async ({ params }) => {
       toolSlug: toolSlug,
       currentPage: currentPage,
       data: currentPageData,
+      mdxContent: mdxContent,
       tools: tools,
       category: category,
     },

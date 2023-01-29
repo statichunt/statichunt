@@ -1,9 +1,13 @@
 import MobileSidebar from "@components/MobileSidebar";
 import { markdownify } from "@lib/utils/textConverter";
+import shortcodes from "@shortcodes/all";
+import { MDXRemote } from "next-mdx-remote";
 
-const Default = ({ data }) => {
-  const { frontmatter, content } = data[0];
+const Default = ({ data, mdxContent }) => {
+  const { frontmatter } = data[0];
   const { title } = frontmatter;
+
+  // console.log(mdxContent);
 
   return (
     <>
@@ -11,9 +15,9 @@ const Default = ({ data }) => {
       <section className="section">
         <div className="container">
           <div className="row justify-center">
-            <div className="sm:col-10 md:col-9 lg:col-7">
+            <div className="content sm:col-10 md:col-9 lg:col-7">
               {markdownify(title, "h1", "mb-8")}
-              {markdownify(content, "div", "content")}
+              <MDXRemote {...mdxContent} components={shortcodes} />
             </div>
           </div>
         </div>

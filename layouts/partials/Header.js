@@ -6,6 +6,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { FaDiscord } from "react-icons/fa";
 
 const Header = () => {
   // distructuring the main menu from menu object
@@ -47,14 +48,16 @@ const Header = () => {
           />
           <a
             className="btn-follow hidden sm:inline lg:hidden xl:inline"
-            href="https://twitter.com/heyStatichunt"
+            href="https://discord.gg/ph9z267TBZ"
             target="_blank"
             rel="nofollow noreferrer"
           >
-            <span className="hidden not-italic md:inline">Follow </span>
+            {/* <span className="hidden not-italic md:inline">Join </span> */}
             <span>
-              <span className="inline-block -translate-y-[2px]">@</span>
-              Statichunt
+              <span className="mr-1 inline-block">
+                <FaDiscord />
+              </span>
+              Community
             </span>
           </a>
         </div>
