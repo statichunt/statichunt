@@ -1,5 +1,5 @@
 ---
-title: Roxo
+title: Roxo Hugo
 github: https://github.com/StaticMania/roxo-hugo
 demo: https://roxo-hugo.staticmania.com/
 author: StaticMania
