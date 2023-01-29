@@ -271,7 +271,7 @@ export const getStaticProps = async ({ params }) => {
     : defaultPage;
 
   // current page MDXContent
-  const mdxContent = await parseMDX(currentPageData[0].content);
+  const mdxContent = await parseMDX(currentPageData[0]?.content);
 
   // all tools
   const tools = [...ssg, ...cms, ...css, ...category];
