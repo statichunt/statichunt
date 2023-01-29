@@ -2,6 +2,8 @@
 title: "Vercel"
 website: "https://vercel.com/"
 description: "Deploy your Node apps with a single command"
-draft: false
+date: 2022-10-01T00:00:00.000Z
 tool: ["Hosting"]
+weight: 1
+draft: false
 ---

@@ -3,21 +3,24 @@ import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePage } from "@lib/contentParser";
+import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
 import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 
 const ResourceList = ({ tool, resources, indexPage }) => {
+  const resourcesSortedByDate = sortByDate(resources);
+  const resourcesSortedByWeight = sortByWeight(resourcesSortedByDate);
   const { title, page_title, image, description } = indexPage;
   const { sidebar } = config;
   const { arrayTool } = useFilterContext();
-  const filterTool = resources.filter((theme) =>
+  const filterTool = resourcesSortedByWeight.filter((resource) =>
     arrayTool.length
       ? arrayTool.find((type) =>
-          theme.frontmatter.tool
+          resource.frontmatter.tool
             ?.map((tool) => slugify(tool))
             .includes(slugify(type))
         )
-      : resources
+      : resourcesSortedByWeight
   );
 
   return (
