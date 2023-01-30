@@ -16,7 +16,7 @@ description: >-
   The documentation starter you were looking for.Out of the box Gatsby Starter
   for creating documentation websites easily and quickly. With support for MDX,
   code highlight, Analytics, SEO and more.
-draft: true
+draft: false
 publish_date: '2020-01-28T17:41:26Z'
 update_date: '2022-11-17T13:29:06Z'
 github_star: 219

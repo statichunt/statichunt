@@ -11,7 +11,7 @@ date: 2019-01-05T10:20:11.000Z
 description: >-
   A Jekyll theme for automatically generating and deploying landing page sites
   for mobile apps.
-draft: true
+draft: false
 publish_date: '2019-01-05T10:20:11Z'
 update_date: '2021-06-14T13:00:05Z'
 github_star: 2864

@@ -14,7 +14,7 @@ description: >-
   TechFeed is a personal blog theme powered by Hugo. We have created this theme
   based on Bootstrap 5. It gives a Responsive, Fast, and Smooth experience to
   the user.
-draft: true
+draft: false
 publish_date: '2021-08-03T11:15:25Z'
 update_date: '2022-10-22T03:52:21Z'
 github_star: 22

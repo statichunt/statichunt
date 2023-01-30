@@ -15,7 +15,7 @@ category:
 description: >-
   A blog template and theme using 11ty, TailwindCSS, Rollup, Prism syntax
   highlighting, etc.
-draft: true
+draft: false
 publish_date: '2020-08-25T22:40:53Z'
 update_date: '2022-06-24T15:21:40Z'
 github_star: 136

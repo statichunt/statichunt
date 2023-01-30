@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2015-07-22T00:07:37.000Z
 description: Gatsby starter for creating a blog
-draft: true
+draft: false
 publish_date: '2015-07-22T00:07:37Z'
 github_star: 3405
 github_fork: 2654

@@ -9,7 +9,7 @@ cms:
   - Markdown
 date: 2016-11-10T03:08:36.000Z
 description: ':cloud: Agency template for Jekyll'
-draft: true
+draft: false
 publish_date: '2016-11-10T03:08:36Z'
 update_date: '2021-11-24T22:58:41Z'
 github_star: 169

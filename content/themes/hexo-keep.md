@@ -13,7 +13,7 @@ cms: null
 css: null
 category: null
 description: A simple and elegant theme for Hexo. It makes you more focused on writing.
-draft: true
+draft: false
 publish_date: '2020-03-12T07:34:20Z'
 update_date: '2023-01-13T03:07:52Z'
 github_star: 1034

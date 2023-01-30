@@ -16,7 +16,7 @@ description: >-
   This public repo is an example blog web-app that is built with Gatsby using
   Netlify CMS. It follows the JAMstack architecture by using Git as a single
   source of truth, and Netlify for continuous deployment, and CDN distribution.
-draft: true
+draft: false
 publish_date: '2021-06-21T21:16:31Z'
 github_star: 39
 github_fork: 14
