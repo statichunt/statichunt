@@ -15,7 +15,7 @@ category:
 description: >-
   A nice-looking, mobile-first and dark theme friendly blog theme built with
   Eleventy SSG and Stylus Preprocessor
-draft: true
+draft: false
 publish_date: '2021-03-23T06:34:50Z'
 update_date: '2023-01-03T01:44:01Z'
 github_star: 45

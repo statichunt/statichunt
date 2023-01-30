@@ -7,7 +7,7 @@ ssg:
   - Hugo
 date: 2019-04-10T19:54:55.000Z
 description: Blogophonic – a Hugo blog theme by Formspree
-draft: true
+draft: false
 publish_date: '2019-04-10T19:54:55Z'
 update_date: '2021-01-11T20:15:20Z'
 github_star: 157
