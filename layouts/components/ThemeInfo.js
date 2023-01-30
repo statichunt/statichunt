@@ -181,7 +181,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
         </div>
       </div>
 
-      <div className="widget mt-16 hidden lg:block">
+      <div className="widget sticky top-20 mt-16 hidden lg:block">
         <div className="overflow-hidden rounded-md shadow">
           <iframe
             src={`https://discord.com/widget?id=916578016149245972&theme=${
