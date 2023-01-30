@@ -28,6 +28,6 @@
   @apply dark:bg-dark/[.1] dark:text-white;
 }
 
-.btn-fill {
-  @apply bg-gradient-to-r from-primary to-secondary text-white;
+.btn-github {
+  @apply border border-[#151b22] bg-[#151b22] text-white;
 }

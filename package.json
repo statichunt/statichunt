@@ -30,6 +30,7 @@
     "next-sitemap": "^3.1.47",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
+    "react-discord-invite": "^4.0.8",
     "react-dom": "18.2.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.7.1",
