@@ -15,6 +15,7 @@ const Resources = ({ resources }) => {
               width={160}
               height={100}
               className="mr-8 max-w-[160px] rounded-[4px]"
+              placeholder="blur"
             />
 
             <div className="mt-4 bg-transparent sm:mt-0">

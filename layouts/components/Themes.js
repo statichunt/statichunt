@@ -114,6 +114,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   width={360}
                   alt={theme.frontmatter?.title}
                   className="rounded-t"
+                  placeholder="blur"
                 />
               </Link>
               <div className="theme-card-body">
