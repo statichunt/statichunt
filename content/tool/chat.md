@@ -1,11 +1,9 @@
 ---
 title: Chat
-meta_title: "" # this is for SEO title
-description: "" # this is for SEO description
+meta_title: "Best Jamstack Chat Tools | Statichunt" 
+description: "Looking to add a chat to your static website? These JAMstack has the ideal chat solution for you"
 page_title: "Chat Tools For Jamstack" # this is for h1 tag
 icon: /images/icons/chat.svg
 url: "/jamstack-chat"
 draft: false
 ---
-
-Resources are a great way to share your knowledge and experience with others
