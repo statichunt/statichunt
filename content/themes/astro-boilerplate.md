@@ -17,12 +17,11 @@ cms:
   - Markdown
 category:
   - Boilerplate
-
 draft: false
 publish_date: '2022-05-03T15:17:26Z'
 update_date: '2022-08-10T18:31:45Z'
-github_star: 260
-github_fork: 92
+github_star: 271
+github_fork: 96
 ---
 
 ## Theme features

@@ -16,6 +16,6 @@ description: Nehalem is a Gatsby theme for blogging.
 draft: false
 publish_date: '2019-07-03T18:18:51Z'
 update_date: '2020-07-04T12:24:59Z'
-github_star: 170
+github_star: 171
 github_fork: 63
 ---

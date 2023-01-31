@@ -12,6 +12,6 @@ description: A jekyll based resume template
 draft: false
 publish_date: '2016-08-29T16:23:36Z'
 update_date: '2021-06-11T12:07:01Z'
-github_star: 508
-github_fork: 495
+github_star: 511
+github_fork: 498
 ---

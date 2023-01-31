@@ -12,6 +12,6 @@ description: Simple Jekyll theme for a minimal resume website
 draft: false
 publish_date: '2017-11-16T01:45:13Z'
 update_date: '2023-01-16T19:55:46Z'
-github_star: 424
-github_fork: 524
+github_star: 428
+github_fork: 522
 ---

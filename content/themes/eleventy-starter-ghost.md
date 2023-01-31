@@ -12,6 +12,6 @@ description: A starter template to build websites with Ghost & Eleventy
 draft: false
 publish_date: '2019-07-15T11:43:52Z'
 update_date: '2022-01-11T09:28:24Z'
-github_star: 306
-github_fork: 143
+github_star: 305
+github_fork: 144
 ---

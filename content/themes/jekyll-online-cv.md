@@ -12,6 +12,6 @@ description: A minimal Jekyll Theme to host your resume (CV)
 draft: false
 publish_date: '2016-07-29T04:35:27Z'
 update_date: '2023-01-19T18:44:41Z'
-github_star: 2331
-github_fork: 4682
+github_star: 2346
+github_fork: 4711
 ---

@@ -17,7 +17,7 @@ description: 11ty, Tailwind. Works when JS is disabled.
 draft: false
 publish_date: '2020-07-18T09:49:11Z'
 update_date: '2023-01-17T09:11:08Z'
-github_star: 60
+github_star: 61
 github_fork: 8
 ---
 ## Theme Features

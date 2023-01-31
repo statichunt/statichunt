@@ -18,8 +18,8 @@ category:
 draft: false
 publish_date: '2022-09-09T20:38:52Z'
 update_date: '2023-01-18T21:45:33Z'
-github_star: 249
-github_fork: 75
+github_star: 257
+github_fork: 79
 ---
 ## Theme Features
 - Fully responsive layout built with Tailwind CSS 3.0

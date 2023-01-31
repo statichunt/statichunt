@@ -19,8 +19,8 @@ description: >-
 draft: false
 publish_date: '2019-09-30T06:04:44Z'
 update_date: '2022-11-20T22:51:59Z'
-github_star: 216
-github_fork: 423
+github_star: 219
+github_fork: 426
 ---
 ## Theme Features
 - GitHub Pages support

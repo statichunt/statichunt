@@ -14,9 +14,9 @@ description: >-
   Built with MDX and Theme UI.
 draft: false
 publish_date: '2018-06-02T19:41:22Z'
-update_date: '2023-01-06T12:42:30Z'
-github_star: 1331
-github_fork: 378
+update_date: '2023-01-27T10:53:23Z'
+github_star: 1330
+github_fork: 380
 ---
 ## Theme Features
 - Theme UI-based theming

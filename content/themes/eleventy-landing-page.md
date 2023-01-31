@@ -17,6 +17,6 @@ description: A simple landing page built with 11ty and Tailwind CSS.
 draft: false
 publish_date: '2021-03-31T08:33:39Z'
 update_date: '2021-07-13T08:30:58Z'
-github_star: 89
-github_fork: 40
+github_star: 90
+github_fork: 41
 ---

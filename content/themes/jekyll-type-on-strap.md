@@ -12,6 +12,6 @@ description: 🎨 Simplistic, responsive jekyll based open source theme
 draft: false
 publish_date: '2017-10-02T13:37:28Z'
 update_date: '2022-12-10T19:56:18Z'
-github_star: 705
-github_fork: 822
+github_star: 707
+github_fork: 826
 ---

@@ -14,8 +14,8 @@ description: >-
 draft: false
 publish_date: '2020-04-04T17:09:06Z'
 update_date: '2021-10-31T15:32:15Z'
-github_star: 298
-github_fork: 308
+github_star: 299
+github_fork: 309
 ---
 ## Theme Features
 - Compatible with Github pages

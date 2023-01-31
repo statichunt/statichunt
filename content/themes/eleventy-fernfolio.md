@@ -8,16 +8,16 @@ ssg:
   - Eleventy
 cms:
   - NetlifyCMS
-css:
+css: null
 category:
   - Blog
   - Portfolio
 description: The super simple portfolio template built with Eleventy and NetlifyCMS
 draft: false
 publish_date: '2021-02-18T18:21:50Z'
-update_date: '2023-01-23T01:00:34Z'
-github_star: 63
-github_fork: 29
+update_date: '2023-01-24T02:55:53Z'
+github_star: 65
+github_fork: 30
 ---
 
 ## Theme Features

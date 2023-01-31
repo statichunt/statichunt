@@ -19,7 +19,7 @@ draft: false
 publish_date: '2020-09-08T11:31:59Z'
 update_date: '2021-01-05T11:10:11Z'
 github_star: 33
-github_fork: 28
+github_fork: 29
 ---
 ## Theme Features
 - Styles are ure built using Tailwindcss

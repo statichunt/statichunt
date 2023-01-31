@@ -14,7 +14,7 @@ description: Blog Theme Made with Gatsby.
 draft: false
 publish_date: '2019-01-24T16:12:40Z'
 update_date: '2022-12-27T15:23:32Z'
-github_star: 129
+github_star: 128
 github_fork: 67
 ---
 ## Theme Features

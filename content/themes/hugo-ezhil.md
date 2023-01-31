@@ -12,6 +12,6 @@ description: Clean and minimal personal blog theme for Hugo
 draft: false
 publish_date: '2019-04-09T20:57:27Z'
 update_date: '2021-04-28T11:14:00Z'
-github_star: 365
-github_fork: 176
+github_star: 364
+github_fork: 175
 ---

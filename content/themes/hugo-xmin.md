@@ -13,7 +13,7 @@ description: >-
   and CSS (with no dependencies)
 draft: false
 publish_date: '2017-06-16T04:13:22Z'
-update_date: '2022-08-08T14:40:20Z'
+update_date: '2023-01-26T04:07:22Z'
 github_star: 532
 github_fork: 293
 ---

@@ -14,7 +14,8 @@ css:
   - Tailwind
 category:
   - Blog
-description: Deeply customizable, full-featured, ready to publish blog template built with
+description: >-
+  Deeply customizable, full-featured, ready to publish blog template built with
   11ty, TailwindCSS, & Alpine.js
 draft: false
 publish_date: '2020-09-19T16:11:39Z'

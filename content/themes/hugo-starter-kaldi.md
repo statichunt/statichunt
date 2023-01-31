@@ -13,7 +13,7 @@ category:
 description: A Hugo boilerplate for creating a blog site
 draft: false
 publish_date: '2017-09-07T03:11:30Z'
-update_date: '2023-01-23T01:37:39Z'
-github_star: 419
+update_date: '2023-01-30T01:51:38Z'
+github_star: 420
 github_fork: 281
 ---

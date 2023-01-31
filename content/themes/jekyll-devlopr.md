@@ -21,8 +21,8 @@ description: >-
 draft: false
 publish_date: '2018-07-03T11:38:13Z'
 update_date: '2022-12-12T07:33:08Z'
-github_star: 564
-github_fork: 809
+github_star: 568
+github_fork: 810
 ---
 ## Theme Features:
 - Local CMS Admin Support using Jekyll Admin

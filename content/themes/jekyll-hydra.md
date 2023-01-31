@@ -16,8 +16,8 @@ description: Product marketing template for Jekyll
 draft: false
 publish_date: '2016-10-14T04:39:07Z'
 update_date: '2021-11-25T02:48:57Z'
-github_star: 377
-github_fork: 351
+github_star: 378
+github_fork: 353
 ---
 ## Theme Features
 - Contact form

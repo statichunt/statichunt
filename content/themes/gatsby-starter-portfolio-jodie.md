@@ -11,7 +11,7 @@ date: 2019-02-19T15:17:30.000Z
 description: Image-heavy photography portfolio with colorful accents & great typography
 draft: false
 publish_date: '2019-02-19T15:17:30Z'
-update_date: '2023-01-06T12:42:36Z'
-github_star: 321
-github_fork: 78
+update_date: '2023-01-27T10:53:29Z'
+github_star: 320
+github_fork: 79
 ---
