@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64">
+<g fill="none" fill-rule="evenodd">
+<rect width="64" height="44" y="9" fill="#ECECEC"/>
+<path stroke="#979797" stroke-dasharray="4" stroke-linecap="square" stroke-width="2" d="M6 21L61.0090902 21M6 49L61.0090902 49M59 25L59 48M20 25L20 46M5 25L5 48"/>
+<rect width="64" height="7" y="9" fill="#0A3586"/>
+<circle cx="3.5" cy="12.5" r="1.5" fill="#E43535"/>
+<circle cx="8.5" cy="12.5" r="1.5" fill="#FFC05F"/>
+<circle cx="13.5" cy="12.5" r="1.5" fill="#80D25B"/>
+<rect width="33" height="22" x="23" y="24" fill="#595959"/>
+<rect width="9" height="22" x="8" y="24" fill="#E43535"/>
+</g>
+</svg>
