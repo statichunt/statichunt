@@ -47,7 +47,7 @@ const Header = () => {
             width={164}
           />
           <a
-            className="btn-follow hidden sm:inline lg:hidden xl:inline"
+            className="btn-follow hidden md:inline lg:hidden xl:inline"
             href="https://discord.gg/ph9z267TBZ"
             target="_blank"
             rel="nofollow noreferrer"

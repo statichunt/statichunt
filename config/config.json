@@ -20,10 +20,10 @@
   },
 
   "announcement": {
-    "enable": false,
-    "name": "Jamstack Conference",
-    "link": "https://cfe.dev/events/the-jam-2023/",
-    "content": "Join 2-days virtual conference at TheJam.dev on — 25 Jan, 2023"
+    "enable": true,
+    "name": "New Theme: Geeky NextJs",
+    "link": "https://statichunt.com/themes/nextjs-geeky?ref=announcement",
+    "content": "Checkout our newly released free NextJs blog template!"
   },
 
   "params": {

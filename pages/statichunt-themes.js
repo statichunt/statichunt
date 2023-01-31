@@ -1,4 +1,5 @@
 import Base from "@layouts/Baseof";
+import MobileSidebar from "@layouts/components/MobileSidebar";
 import Themes from "@layouts/components/Themes";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";
@@ -18,6 +19,7 @@ const StatichuntThemes = ({ data, statichuntThemes, tools }) => {
       noindex={noindex}
       canonical={canonical}
     >
+      <MobileSidebar />
       <section className="section">
         <div className="container">
           <div className="row mb-8 justify-center">

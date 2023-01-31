@@ -29,17 +29,19 @@ const Announcement = () => {
         <div
           className={`z-[10] mt-4 -translate-y-10 bg-white dark:bg-darkmode-body`}
         >
-          <div className="bg-linear-gradient rounded-[0.25rem] text-white transition-opacity ease-in hover:opacity-90">
+          <div className="bg-linear-gradient rounded-[0.25rem] pr-4 text-white transition-opacity ease-in hover:opacity-90">
             <a
               href={link}
               target="_blank"
               rel="noreferrer noopener"
-              className="flex items-center px-3 py-2 font-light"
+              className="block items-center px-3 py-2 font-light sm:flex"
             >
-              <span className="mr-2 inline-block rounded-[0.25rem] bg-dark/30 px-2 py-2 leading-none">
+              <span className="mr-2 mb-2 inline-block rounded-[0.25rem] bg-dark/30 px-2 py-2 leading-none sm:mb-0">
                 {name}
               </span>
-              <span className="mx-auto">{markdownify(content)}</span>
+              <span className="mx-auto block leading-none">
+                {markdownify(content)}
+              </span>
             </a>
             <span
               className="absolute right-3 top-2 z-10 cursor-pointer text-xl"
