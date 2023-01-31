@@ -4,7 +4,7 @@ import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";
 
 // for all regular pages
-const ThemesByUs = ({ data, themesByUs, tools }) => {
+const StatichuntThemes = ({ data, statichuntThemes, tools }) => {
   const { title, meta_title, description, image, noindex, canonical } =
     data.frontmatter;
   const { content } = data;
@@ -26,22 +26,23 @@ const ThemesByUs = ({ data, themesByUs, tools }) => {
               {markdownify(content, "div", "content")}
             </div>
           </div>
-          <Themes themes={themesByUs} tools={tools} />
+          <Themes themes={statichuntThemes} tools={tools} />
         </div>
       </section>
     </Base>
   );
 };
-export default ThemesByUs;
+
+export default StatichuntThemes;
 
 // for regular page data
 export const getStaticProps = async () => {
-  const data = await getListPage("content/themes-by-us/_index.md");
+  const data = await getListPage("content/statichunt-themes/_index.md");
 
   // all themes
   const themes = getSinglePage("content/themes");
   // statichunt themes
-  const themesByUs = themes.filter(
+  const statichuntThemes = themes.filter(
     (theme) => theme.frontmatter.author === "Statichunt"
   );
 
@@ -58,7 +59,7 @@ export const getStaticProps = async () => {
     props: {
       data: data,
       tools: tools,
-      themesByUs: themesByUs,
+      statichuntThemes: statichuntThemes,
     },
   };
 };
