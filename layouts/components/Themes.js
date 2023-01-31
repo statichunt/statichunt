@@ -114,7 +114,6 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   width={360}
                   alt={theme.frontmatter?.title}
                   className="rounded-t"
-                  placeholder="blur"
                 />
               </Link>
               <div className="theme-card-body">
@@ -180,7 +179,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                   by{" "}
                   {theme.frontmatter?.author === "Statichunt" ? (
                     <Link
-                      href="/themes-by-us"
+                      href="/statichunt-themes"
                       className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent"
                     >
                       Statichunt

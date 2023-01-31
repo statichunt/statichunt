@@ -1,12 +1,12 @@
 {
   "main": [
     {
-      "name": "All Themes",
+      "name": "Themes",
       "url": "/"
     },
     {
       "name": "Themes By Us",
-      "url": "/themes-by-us"
+      "url": "/statichunt-themes"
     },
     {
       "name": "Resources",
@@ -27,7 +27,7 @@
       "pages": [
         {
           "page": "themes",
-          "url": "/"
+          "url": "/themes"
         },
         {
           "page": "resources",

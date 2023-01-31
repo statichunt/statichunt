@@ -80,7 +80,6 @@ const Examples = ({ examples, tools, customRowClass, customColClass }) => {
                 width={360}
                 alt={example.frontmatter?.title}
                 className="w-full rounded-t"
-                placeholder="blur"
               />
               <div className="theme-card-body">
                 <h2 className="h6 mb-0 text-lg font-medium">

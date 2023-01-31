@@ -14,7 +14,6 @@ const ImageFallback = (props) => {
     <Image
       {...rest}
       src={imgSrc}
-      blurDataURL="/images/theme-placeholder.webp"
       onError={() => {
         setImgSrc(fallback);
       }}
