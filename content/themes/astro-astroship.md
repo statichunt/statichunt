@@ -12,7 +12,8 @@ ssg:
   - Astro
 css:
   - Tailwind
-cms: null
+cms:
+  - Markdown
 category:
   - Business
 draft: false
@@ -20,5 +21,4 @@ publish_date: '2022-11-01T10:14:05Z'
 update_date: '2023-01-11T08:23:03Z'
 github_star: 248
 github_fork: 29
-weight: 1
 ---
