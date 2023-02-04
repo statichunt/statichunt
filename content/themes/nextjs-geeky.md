@@ -6,7 +6,7 @@ author: Statichunt
 author_link: https://statichunt.com
 date: 2023-01-31T00:00:00.000Z
 weight: 2
-description: Geeky is a free NextJs personal blog template
+description: Geeky is a highly customizable feature-rich NextJs Blog Template. 
 ssg:
   - Nextjs
 css:
@@ -24,12 +24,14 @@ github_fork: 0
 **Key Features:**
 
 * Google PageSpeed Score 100 (Desktop)
+* Dark and Light Mode 
 * Supports Contact Form
 * Disqus Comment Support
 * Related Posts Suggestion
 * Semantic HTML Document Structure
 * Custom Logo Support
 * Includes All SCSS Files
+* Supports Google Analytics
 * Image Optimized With Next/image
 * 100% Responsive Design
-* MDX Support with many built-in custom components
+* MDX Support with many built-in custom components and much more... 
