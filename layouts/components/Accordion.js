@@ -186,8 +186,9 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
 
   // category items count
   const countItems = (params, item) => {
+    console.log(params);
     return themes.filter((theme) =>
-      theme.frontmatter[item.taxonomy]
+      theme.frontmatter[params]
         ?.map((theme) => slugify(theme))
         .includes(slugify(item.frontmatter.title))
     ).length;
@@ -199,7 +200,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         data.type === params &&
         taxonomy.map(
           (item, i) =>
-            countItems(params, item) > 0 && (
+            countItems(params, item) >= 0 && (
               <a
                 onClick={() =>
                   handleOnClick(slugify(item.frontmatter.title), data.type)
@@ -208,6 +209,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                 className={`filter-list ${item.selected && "active"}`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
+                {console.log(countItems(params, item))}
                 <Image
                   className={`${
                     darkIconList.includes(slugify(item.frontmatter.title))
