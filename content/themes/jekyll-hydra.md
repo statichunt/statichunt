@@ -8,7 +8,7 @@ ssg:
 css:
   - SCSS
 cms:
-  - Markdown
+  - CloudCannon
 category:
   - Business
 date: 2016-10-14T04:39:07.000Z

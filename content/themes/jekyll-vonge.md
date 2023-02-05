@@ -13,7 +13,7 @@ ssg:
 css:
   - Scss
 cms:
-  - Markdown
+  - CloudCannon
 category:
   - Portfolio
 draft: false
