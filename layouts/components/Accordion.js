@@ -6,8 +6,10 @@ import { useEffect, useState } from "react";
 
 const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   const [taxonomy, setTaxonomy] = useState(type);
+
   // const [test, setTest] = useState("");
   // console.log(test);
+  const [jhalapala, setJhalapala] = useState([]);
   const { darkIconList } = config;
   const {
     setArraySSG,
@@ -27,6 +29,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     setTestArry,
   } = useFilterContext();
 
+  // console.log();
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
       ...item,
@@ -37,7 +40,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   }, [slug, allReset]);
 
   useEffect(() => {
-    console.log(arraySSG.length);
     if (test === "ssg") {
       if (!arraySSG.length) {
         setTestArry(testArray.filter((el) => el !== test));
@@ -142,6 +144,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         SetShowIntro(true);
       }
     }
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     arraySSG?.length,
@@ -149,14 +152,55 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     arrayCMS?.length,
     arrayCSS?.length,
   ]);
-  console.log(testArray);
+  console.log(arrayCMS);
+  useEffect(() => {
+    if (testArray[0] === "ssg") {
+      const arrayFilter = arraySSG.map((ssg) => {
+        const filterSSG = themes.filter((data) =>
+          data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
+        );
+        return {
+          filterSSG,
+        };
+      });
+      setJhalapala(arrayFilter.map((d) => d.filterSSG).flat());
+    } else if (testArray[0] === "css") {
+      const arrayFilter = arrayCSS.map((css) => {
+        const filterCSS = themes.filter((data) =>
+          data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
+        );
+        return {
+          filterCSS,
+        };
+      });
+      setJhalapala(arrayFilter.map((d) => d.filterCSS).flat());
+    } else if (testArray[0] === "cms") {
+      const arrayFilter = arrayCMS.map((cms) => {
+        const filterCMS = themes.filter((data) =>
+          data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
+        );
+        return {
+          filterCMS,
+        };
+      });
+      setJhalapala(arrayFilter.map((d) => d.filterCMS).flat());
+    }
+  }, [arrayCMS, arrayCSS, arraySSG, testArray, themes]);
+  console.log(jhalapala);
+  // console.log(arraySSG);
+  // if (testArray[0] === "ssg") {
+  //   const test = ;
+  //   console.log(test);
+  // }
+
   // category items count
-  const countItems = (params, item) =>
-    themes.filter((theme) =>
+  const countItems = (params, item) => {
+    return themes.filter((theme) =>
       theme.frontmatter[item.taxonomy]
         ?.map((theme) => slugify(theme))
         .includes(slugify(item.frontmatter.title))
     ).length;
+  };
 
   return (
     <>
@@ -188,16 +232,17 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                 <span className="ml-2 block">{item.frontmatter.title}</span>
                 {test && [...new Set(testArray)][0] === item.taxonomy ? (
                   <span className="ml-auto">{countItems(params, item)}</span>
+                ) : testArray.length === 0 ? (
+                  <span className="ml-auto">{countItems(params, item)}</span>
                 ) : test && item.taxonomy !== [...new Set(testArray)][0] ? (
                   <span className="ml-auto">
-                    0
-                    {/* {
-                    themes.filter((data) =>
-                      data.frontmatter[item.taxonomy]
-                        ?.map((d) => slugify(d))
-                        ?.includes(slugify(item.frontmatter.title))
-                    ).length
-                  } */}
+                    {
+                      jhalapala.filter((data) =>
+                        data.frontmatter[item.taxonomy]
+                          ?.map((d) => slugify(d))
+                          ?.includes(slugify(item.frontmatter.title))
+                      ).length
+                    }
                   </span>
                 ) : (
                   <span className="ml-auto">{countItems(params, item)}</span>
