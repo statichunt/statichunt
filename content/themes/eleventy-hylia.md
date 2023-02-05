@@ -9,12 +9,14 @@ ssg:
   - Eleventy
 cms:
   - NetlifyCMS
+category:
+  - Blog
 description: >-
   Hylia is a lightweight Eleventy starter kit to help you to create your own
   blog or personal website.
-draft: true
+draft: false
 publish_date: '2019-06-11T20:15:02Z'
 update_date: '2021-10-15T19:09:18Z'
-github_star: 899
-github_fork: 230
+github_star: 898
+github_fork: 228
 ---

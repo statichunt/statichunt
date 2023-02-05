@@ -12,9 +12,13 @@ description: >-
   Playful and Colorful One-Page portfolio featuring Parallax effects and
   animations. Especially designers and/or photographers will love this theme!
   Built with MDX and Theme UI.
-draft: true
+draft: false
 publish_date: '2018-06-02T19:41:22Z'
-update_date: '2023-01-06T12:42:30Z'
-github_star: 1331
-github_fork: 377
+update_date: '2023-01-27T10:53:23Z'
+github_star: 1330
+github_fork: 380
 ---
+## Theme Features
+- Theme UI-based theming
+- react-spring Parallax Effect
+- CSS Animations on Shapes

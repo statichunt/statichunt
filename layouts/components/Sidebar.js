@@ -1,5 +1,5 @@
 import menu from "@config/menu.json";
-import useWindowSize from "@hooks/useWindowSize";
+import useWindow from "@hooks/useWindow";
 import { slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -24,7 +24,7 @@ const Sidebar = ({
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   // getWindowDimensions
-  const { windowSize } = useWindowSize();
+  const windowSize = useWindow();
   const ssgData = ssg?.map((data) => {
     return {
       ...data,
@@ -100,11 +100,11 @@ const Sidebar = ({
         onClick={() => setIsSidebarOpen(false)}
       />
       <aside className={`sidebar ${isSidebarOpen ? "show" : ""}`}>
-        <div className="accordion order-1">
+        <div className="order-1">
           {sidebarData.map(
             (data, i) =>
               data.taxonomy && (
-                <div key={`accordion-${i}`} className="mb-3 lg:mb-5">
+                <div key={`accordion-${i}`} className="mb-4 lg:mb-8">
                   <h3
                     className={`mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3`}
                     onClick={() => handleOnClick(data.title)}
@@ -119,7 +119,7 @@ const Sidebar = ({
                     </span>
                   </h3>
                   {data.taxonomy && (
-                    <div className="lh:mb-8 relative mb-3 flex flex-col">
+                    <div className="relative flex flex-col">
                       <Accordion
                         data={data}
                         slug={slug}

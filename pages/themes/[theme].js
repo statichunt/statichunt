@@ -10,8 +10,7 @@ import { markdownify, plainify } from "@lib/utils/textConverter";
 
 const SingleTheme = ({ slug, theme, allTheme, tools }) => {
   const { frontmatter, content } = theme[0];
-  const { title, description, meta_title, image, noindex, canonical } =
-    frontmatter;
+  const { title, description, meta_title, noindex, canonical } = frontmatter;
   const similarThemes = similerItems(theme, allTheme, slug);
   return (
     <Base
@@ -20,7 +19,7 @@ const SingleTheme = ({ slug, theme, allTheme, tools }) => {
         description ? plainify(description) : plainify(content.slice(0, 120))
       }
       meta_title={plainify(meta_title)}
-      image={image}
+      image={`/themes/${slug}.png`}
       noindex={noindex}
       canonical={canonical}
     >

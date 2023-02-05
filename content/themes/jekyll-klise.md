@@ -15,9 +15,9 @@ category:
 description: >-
   Klisé is a minimalist Jekyll theme for running a personal site or blog, light
   & dark mode support.
-draft: true
+draft: false
 publish_date: '2019-03-03T04:02:13Z'
-github_star: 644
-github_fork: 264
+github_star: 653
+github_fork: 269
 update_date: '2022-09-16T15:29:20Z'
 ---

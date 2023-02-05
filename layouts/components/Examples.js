@@ -85,9 +85,9 @@ const Examples = ({ examples, tools, customRowClass, customColClass }) => {
                 <h2 className="h6 mb-0 text-lg font-medium">
                   <Link
                     href={example.frontmatter.website}
-                    className="text-white line-clamp-1 hover:underline"
+                    className="line-clamp-1 hover:underline dark:text-white"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {simplifyURL(example.frontmatter.website)}
                     <svg

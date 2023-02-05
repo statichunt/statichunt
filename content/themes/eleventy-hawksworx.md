@@ -9,9 +9,9 @@ cms:
   - Markdown
 date: 2012-07-23T11:28:15.000Z
 description: My hawksworx.com blog site, powered by Eleventy and Netlify
-draft: true
+draft: false
 publish_date: '2012-07-23T11:28:15Z'
 update_date: '2023-01-09T15:31:38Z'
-github_star: 108
-github_fork: 41
+github_star: 109
+github_fork: 42
 ---

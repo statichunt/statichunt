@@ -13,9 +13,9 @@ cms: null
 css: null
 category: null
 description: A simple and retro styled Hexo theme, concentrated more on your ideas.
-draft: true
+draft: false
 publish_date: '2015-05-17T07:46:09Z'
 update_date: '2022-06-04T06:32:51Z'
-github_star: 726
-github_fork: 202
+github_star: 728
+github_fork: 203
 ---

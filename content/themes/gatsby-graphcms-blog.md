@@ -13,9 +13,9 @@ date: 2021-07-18T19:00:00.000Z
 description: Gatsby starter for creating a basic blog with GraphCMS
 category:
   - Blog
-draft: true
+draft: false
 publish_date: '2020-07-28T09:54:17Z'
 update_date: '2022-12-14T18:03:58Z'
-github_star: 65
-github_fork: 25
+github_star: 66
+github_fork: 26
 ---

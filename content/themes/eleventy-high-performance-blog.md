@@ -17,9 +17,9 @@ description: >-
   A high performance blog template for the 11ty static site generator.A starter
   repository for building a blog with the Eleventy static site generator
   implementing a wide range of performance best practices.
-draft: true
+draft: false
 publish_date: '2020-09-04T08:16:00Z'
 update_date: '2023-01-09T15:38:31Z'
-github_star: 3781
+github_star: 3791
 github_fork: 267
 ---

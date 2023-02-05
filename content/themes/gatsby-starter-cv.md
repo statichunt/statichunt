@@ -11,9 +11,9 @@ date: 2018-12-24T00:05:49.000Z
 description: >-
   A simple starter to get up and developing your digital curriculum with
   GatsbyJS
-draft: true
+draft: false
 publish_date: '2018-12-24T00:05:49Z'
 update_date: '2021-02-23T23:28:22Z'
-github_star: 114
+github_star: 115
 github_fork: 48
 ---

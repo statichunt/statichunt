@@ -9,9 +9,9 @@ cms:
   - Markdown
 date: 2017-03-13T06:50:23.000Z
 description: Minimal, single page, smooth-scrolling theme for Hugo.
-draft: true
+draft: false
 publish_date: '2017-03-13T06:50:23Z'
 update_date: '2022-09-06T00:17:17Z'
-github_star: 596
-github_fork: 267
+github_star: 603
+github_fork: 266
 ---

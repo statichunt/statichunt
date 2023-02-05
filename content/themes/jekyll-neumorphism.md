@@ -15,9 +15,19 @@ category:
 description: >-
   Neumorphism designed Jekyll theme for personal websites, portfolios and
   resumes.
-draft: true
+draft: false
 publish_date: '2020-04-10T21:08:01Z'
 update_date: '2022-05-25T22:17:08Z'
-github_star: 280
-github_fork: 449
+github_star: 285
+github_fork: 455
 ---
+## Theme Features
+- Mobile-First Responsive Design
+- Animated preloader animation
+- Landing Page with animated background with particles.js, a Typing Carousel and animated social icons
+- Dark Neumorphism Design on main content
+- Animations On Scroll
+- Filterable Skills word cloud
+- Github's API automatically populating the Open Source Projects section
+- Gulp dev workflow with BrowserSync, Autoprefixer and JS & SCSS minifying.
+- Google Analytics

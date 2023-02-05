@@ -12,10 +12,18 @@
   },
 
   "settings": {
+    "announcement_bar": true,
     "theme_switcher": true,
     "default_theme": "system",
     "pagination": 2,
     "summary_length": 200
+  },
+
+  "announcement": {
+    "enable": true,
+    "name": "New Theme: Geeky NextJs",
+    "link": "https://statichunt.com/themes/nextjs-geeky?ref=announcement",
+    "content": "Checkout our newly released free NextJs blog template!"
   },
 
   "params": {

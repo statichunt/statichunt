@@ -3,7 +3,7 @@ title: Bunzo
 download: https://1.envato.market/5beNy9
 github: null
 price: 24
-demo: https://spet-gatsby.envytheme.com/it-startup/
+demo: https://bunzo-react.pages.dev/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-22T00:00:00.000Z

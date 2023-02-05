@@ -13,9 +13,9 @@ css: null
 category:
   - Blog
 description: A gorgeous responsive theme for Hexo blog framework.
-draft: true
+draft: false
 publish_date: '2015-04-22T17:22:28Z'
 update_date: '2021-10-19T02:27:33Z'
 github_star: 1781
-github_fork: 488
+github_fork: 487
 ---

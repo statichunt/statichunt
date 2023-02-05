@@ -12,6 +12,6 @@ description: A refreshed version of Hyde for Jekyll 3.x
 draft: false
 publish_date: '2017-06-01T00:22:41Z'
 update_date: '2021-02-02T18:44:30Z'
-github_star: 548
+github_star: 549
 github_fork: 725
 ---

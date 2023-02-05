@@ -11,9 +11,9 @@ date: 2017-06-16T04:13:22.000Z
 description: >-
   eXtremely Minimal Hugo theme: about 150 lines of code in total, including HTML
   and CSS (with no dependencies)
-draft: true
+draft: false
 publish_date: '2017-06-16T04:13:22Z'
-update_date: '2022-08-08T14:40:20Z'
-github_star: 530
-github_fork: 290
+update_date: '2023-01-26T04:07:22Z'
+github_star: 532
+github_fork: 293
 ---

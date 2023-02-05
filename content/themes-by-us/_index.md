@@ -1,3 +1,0 @@
----
-title: Themes By Statichunt
----

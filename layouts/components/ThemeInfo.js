@@ -1,10 +1,17 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import { dateFormat } from "@lib/utils/dateFormat";
+import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import "react-discord-invite/dist/style.css";
+import { TbGitFork } from "react-icons/tb";
 import ToolsIcon from "./ToolsIcon";
 
 const ThemeInfo = ({ theme, slug, tools }) => {
+  const [mounted, setMounted] = useState(false);
+  const { uiTheme, resolvedTheme } = useTheme();
+  useEffect(() => setMounted(true), []);
   const {
     title,
     author,
@@ -31,7 +38,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
         <div className="intro-description">
           <div className="mt-6 flex">
             <a
-              className="btn btn-demo mr-4 sm:px-10 lg:px-7 xl:px-10"
+              className="btn btn-demo mr-4 w-1/2 sm:px-10 lg:px-7 xl:px-10"
               target="_blank"
               rel="noopener noreferrer nofollow"
               href={`/demo/${slug}`}
@@ -40,7 +47,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
             </a>
 
             <a
-              className="btn btn-fill sm:px-10 lg:px-7 xl:px-10"
+              className="btn btn-primary w-1/2 sm:px-10 lg:px-7 xl:px-10"
               href={`${github ? github : download}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
@@ -48,11 +55,21 @@ const ThemeInfo = ({ theme, slug, tools }) => {
               Download
             </a>
           </div>
+          {github && (
+            <a
+              className="btn btn-github mt-4 w-full sm:px-10 lg:px-7 xl:px-10"
+              href={`${github}/fork`}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+            >
+              <TbGitFork style={{ fontSize: "20px" }} /> Github Fork
+            </a>
+          )}
         </div>
       </div>
+
       <div className="widget widget-info mb-3 mt-12">
         <h3 className="h4 mb-3 font-light">Theme Information:</h3>
-
         {github_star > 0 && (
           <div className="flex items-center py-[6px]">
             <span className="min-w-[120px]">Stars : </span>
@@ -161,6 +178,31 @@ const ThemeInfo = ({ theme, slug, tools }) => {
                 : ""}
             </Link>
           </div>
+        </div>
+      </div>
+
+      <div className="widget sticky top-20 mt-16 hidden lg:block">
+        <div className="overflow-hidden rounded-md shadow">
+          <iframe
+            src={`https://discord.com/widget?id=916578016149245972&theme=${
+              mounted && (uiTheme === "dark" || resolvedTheme === "dark")
+                ? "dark"
+                : "light"
+            }`}
+            width="100%"
+            height="500"
+            allowtransparency="true"
+            frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          />
+          <a
+            className="relative z-10 -mt-12 block rounded-b bg-[#5865f2] p-4 text-center text-white"
+            href="https://discord.gg/ph9z267TBZ"
+            target="_blank"
+            rel="nofollow noreferrer"
+          >
+            Join Discord
+          </a>
         </div>
       </div>
     </>

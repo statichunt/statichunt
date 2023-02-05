@@ -22,7 +22,7 @@ const Resources = ({ resources }) => {
                 {resource.frontmatter.title}
                 <a
                   href={`${resource.frontmatter.website}?ref=statichunt.com`}
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   target="_blank"
                 >
                   <svg

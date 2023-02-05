@@ -38,3 +38,17 @@ object {
 .svg-block svg {
   @apply block;
 }
+
+.bg-linear-gradient {
+  background-image: linear-gradient(
+    190deg,
+    #638def 0%,
+    #31aea4 71%,
+    #31aea4 81%,
+    #07a79d 100%
+  );
+}
+
+.disabled {
+  @apply bg-theme-light/5 opacity-60 dark:bg-darkmode-dark/5;
+}

@@ -1,17 +1,41 @@
 ---
 title: Agency Jekyll
-github: https://github.com/y7kim/agency-jekyll-theme
-demo: https://y7kim.github.io/agency-jekyll-theme/
-author: Rick K
+github: https://github.com/raviriley/agency-jekyll-theme
+demo: https://raviriley.github.io/agency-jekyll-theme-starter/
+author: Ravi
+author_link: https://github.com/raviriley
 ssg:
   - Jekyll
 cms:
   - Markdown
-date: 2014-08-20T19:54:22.000Z
-description: Agency Theme for Jekyll
-draft: true
-publish_date: '2014-08-20T19:54:22Z'
-update_date: '2017-02-27T18:44:56Z'
-github_star: 794
-github_fork: 1778
+css:
+  - Bootstrap
+category:
+  - Business
+date: 2023-01-19T00:00:00.000Z
+description: >-
+  Jekyll version of the newest Agency Bootstrap theme, plus new features Google
+  Analytics, Markdown support, custom pages, and more!
+draft: false
+publish_date: '2019-09-30T06:04:44Z'
+update_date: '2022-11-20T22:51:59Z'
+github_star: 219
+github_fork: 426
 ---
+## Theme Features
+- GitHub Pages support
+- Template repo to get up and running in minutes
+- Contact form functionality powered by Formspree.io
+- Multiple language support (currently English, Spanish, & German)
+- Custom pages
+- 404 page
+- Legal/Privacy Policy page
+- Google Analytics support
+- Markdown support
+- Custom images
+- Logo support (instead of just title text)
+- Automatically updating copyright years
+- Custom navigation bar, even without the header image(s)
+- Customizable footer
+- Custom accent color and dark/light colors
+- Horizontal scrolling support for client section

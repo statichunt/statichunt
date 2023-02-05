@@ -9,9 +9,9 @@ cms:
   - Markdown
 date: 2017-10-02T13:37:28.000Z
 description: 🎨 Simplistic, responsive jekyll based open source theme
-draft: true
+draft: false
 publish_date: '2017-10-02T13:37:28Z'
 update_date: '2022-12-10T19:56:18Z'
-github_star: 700
-github_fork: 819
+github_star: 707
+github_fork: 826
 ---

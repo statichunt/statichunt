@@ -8,10 +8,10 @@ ssg:
 cms:
   - Markdown
 date: 2016-05-29T08:02:13.000Z
-description: '🍎Jalpc -- A flexible Jekyll theme, 3 steps to build your website. '
-draft: true
+description: ' A flexible Jekyll theme, 3 steps to build your website '
+draft: false
 publish_date: '2016-05-29T08:02:13Z'
 update_date: '2021-10-11T14:05:02Z'
-github_star: 962
+github_star: 965
 github_fork: 1095
 ---

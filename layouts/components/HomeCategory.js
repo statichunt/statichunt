@@ -55,40 +55,39 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
 
   return (
     <ul className="category-list">
-      {filterFree.length > 0 && (
-        <li
-          onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
-          className={arrayFree.length > 0 ? "active" : undefined}
-        >
-          Free
-          <span>{filterFree.length}</span>
-        </li>
-      )}
-      {filterPremium.length > 0 && (
-        <li
-          onClick={() =>
-            setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
-          }
-          className={arrayPremium.length > 0 ? "active" : undefined}
-        >
-          Premium
-          <span>{filterPremium.length}</span>
-        </li>
-      )}
+      <li
+        onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
+        className={`${arrayFree.length > 0 ? "active" : undefined} ${
+          filterFree.length < 1 ? "disabled" : undefined
+        }`}
+      >
+        Free
+        <span>{filterFree.length}</span>
+      </li>
+      <li
+        onClick={() =>
+          setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
+        }
+        className={`${arrayPremium.length > 0 ? "active" : undefined} ${
+          filterPremium.length < 1 ? "disabled" : undefined
+        }`}
+      >
+        Premium
+        <span>{filterPremium.length}</span>
+      </li>
       <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" />
-      {taxonomy.map(
-        (item, i) =>
-          countItems(item) > 0 && (
-            <li
-              onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
-              key={`item-${i}`}
-              className={item.selected ? "active" : undefined}
-            >
-              {item.frontmatter.title}
-              <span>{countItems(item)}</span>
-            </li>
-          )
-      )}
+      {taxonomy.map((item, i) => (
+        <li
+          onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
+          key={`item-${i}`}
+          className={`${item.selected ? "active" : undefined} ${
+            countItems(item) < 1 ? "disabled" : undefined
+          }`}
+        >
+          {item.frontmatter.title}
+          <span>{countItems(item)}</span>
+        </li>
+      ))}
     </ul>
   );
 };

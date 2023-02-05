@@ -16,8 +16,8 @@ description: A gorgeous responsive theme for Hugo blog framework
 draft: false
 publish_date: '2016-03-30T19:55:05Z'
 update_date: '2022-08-21T07:01:34Z'
-github_star: 853
-github_fork: 512
+github_star: 861
+github_fork: 515
 ---
 ## Theme Features
 - Fully responsive

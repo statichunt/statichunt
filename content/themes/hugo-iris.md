@@ -14,9 +14,9 @@ category:
   - Blog
   - Portfolio
 description: This theme is a lightweight and dark theme for a blog or a portfolio
-draft: true
+draft: false
 publish_date: '2018-07-28T14:56:18Z'
-update_date: '2023-01-09T10:30:37Z'
-github_star: 57
+update_date: '2023-01-25T12:38:27Z'
+github_star: 58
 github_fork: 18
 ---

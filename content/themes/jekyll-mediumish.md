@@ -9,9 +9,9 @@ cms:
   - Markdown
 date: 2018-01-12T23:01:51.000Z
 description: Jekyll Template - Mediumish
-draft: true
+draft: false
 publish_date: '2018-01-12T23:01:51Z'
 update_date: '2021-10-31T15:31:51Z'
-github_star: 1083
-github_fork: 1237
+github_star: 1093
+github_fork: 1256
 ---

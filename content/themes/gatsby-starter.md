@@ -9,9 +9,9 @@ cms:
   - Markdown
 date: 2017-04-13T12:50:52.000Z
 description: Gatsby 2.0 starter with typescript and many cools dev tools
-draft: true
+draft: false
 publish_date: '2017-04-13T12:50:52Z'
 update_date: '2022-02-28T08:54:57Z'
-github_star: 387
+github_star: 386
 github_fork: 106
 ---

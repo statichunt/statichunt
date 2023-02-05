@@ -1,5 +1,5 @@
-import usefilterButton from "@hooks/usefilterButton";
-import useWindowSize from "@hooks/useWindowSize";
+import usePricingFilter from "@hooks/usePricingFilter";
+import useWindow from "@hooks/useWindow";
 import { humanize } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import Image from "next/image";
@@ -12,8 +12,8 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
   const { sortAsc, setSortAsc, arrayFree, arrayPremium } = useFilterContext();
 
   //  button for sorting
-  const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
-  const { windowSize } = useWindowSize();
+  const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
+  const windowSize = useWindow(1023);
   useEffect(() => {
     if (windowSize < 1024) {
       setOpen(false);
@@ -22,7 +22,7 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
     }
   }, [windowSize]);
   return (
-    <div className="order-2 mb-3 lg:mb-5 ">
+    <div className="order-2 mb-4 lg:mb-8">
       <h3
         onClick={handleSortMenu}
         className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
@@ -56,26 +56,26 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
           onClick={() => setSortAsc(false)}
         >
           <Image
-            src="/images/icons/descend.svg"
-            alt="descending"
+            src="/images/icons/descending.svg"
+            alt="Descending"
             height="17"
             width="17"
             className="mx-2 max-h-[17px] dark:invert"
           />
-          <span className="dark:invert">{humanize("Descending")}</span>
+          <span className="dark:invert">Descending</span>
         </button>
         <button
           className={sortAsc ? "active" : undefined}
           onClick={() => setSortAsc(true)}
         >
           <Image
-            src="/images/icons/ascend.svg"
-            alt="ascending"
+            src="/images/icons/ascending.svg"
+            alt="Ascending"
             height="17"
             width="17"
             className="mx-2 max-h-[17px] dark:invert"
           />
-          <span className="dark:invert">{humanize("Ascending")}</span>
+          <span className="dark:invert">Ascending</span>
         </button>
       </div>
     </div>

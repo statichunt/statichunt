@@ -132,7 +132,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     if (SetShowIntro) {
       if (
         arraySSG?.length > 0 ||
-        arrayCategory?.length > 0 ||
         arrayCMS?.length > 0 ||
         arrayCSS?.length > 0
       ) {

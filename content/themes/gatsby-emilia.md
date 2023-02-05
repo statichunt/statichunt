@@ -11,9 +11,9 @@ date: 2017-11-30T18:53:29.000Z
 description: >-
   Minimalistic portfolio/photography site with masonry grid, page transitions
   and big images. Themeable with Theme UI. Includes Light/Dark mode.
-draft: true
+draft: false
 publish_date: '2017-11-30T18:53:29Z'
-update_date: '2023-01-06T12:42:31Z'
+update_date: '2023-01-27T10:53:25Z'
 github_star: 342
 github_fork: 82
 ---

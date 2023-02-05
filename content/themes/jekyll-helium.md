@@ -14,8 +14,8 @@ description: Bootstrap 4 responsive Jekyll Theme.
 draft: false
 publish_date: '2017-10-07T14:59:13Z'
 update_date: '2021-07-17T21:06:09Z'
-github_star: 96
-github_fork: 141
+github_star: 97
+github_fork: 138
 ---
 ## Theme Features
 

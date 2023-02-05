@@ -91,20 +91,20 @@ const CookieConsent = () => {
   return (
     <>
       <div className={`cookieBar ${cookieAcceptState && "hidden"}`}>
-        <div className="cookieBarContent">
-          <span className="mr-2 mt-1 hidden sm:inline-block">
-            <Image
-              alt="cookie"
-              src="/images/cookie.png"
-              height="30"
-              width="30"
-            />
-          </span>
-          This website uses cookies
-        </div>
-        <button className="cookieBarBtn" onClick={cookieHandler}>
-          Accept
-        </button>
+        <Image
+          className="mr-3 hidden shrink-0 sm:inline-block"
+          alt="cookie"
+          src="/images/cookie.png"
+          height="40"
+          width="40"
+        />
+        <p>
+          This website use cookies. By using this website, you automatically
+          accept that.
+        </p>
+        <span onClick={cookieHandler} className="cookieCloseBtn">
+          &times;
+        </span>
       </div>
       <div
         onClick={bookmarkBarHandler}
@@ -125,7 +125,7 @@ const CookieConsent = () => {
           </small>
           <strong className="block">{key}</strong>
         </div>
-        <span onClick={bookmarkHandler} className="bookmarkClose">
+        <span onClick={bookmarkHandler} className="cookieCloseBtn">
           &times;
         </span>
       </div>

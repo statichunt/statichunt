@@ -12,6 +12,6 @@ description: Minimal, responsive Jekyll theme for hackers
 draft: false
 publish_date: '2017-01-06T17:13:03Z'
 update_date: '2023-01-09T08:02:46Z'
-github_star: 606
+github_star: 609
 github_fork: 192
 ---

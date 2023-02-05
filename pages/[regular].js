@@ -2,7 +2,7 @@ import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
 import useFilterData from "@hooks/useFilterData";
-import useSort from "@hooks/useSort";
+import useThemesSort from "@hooks/useThemesSort";
 import Base from "@layouts/Baseof";
 import PricingFilter from "@layouts/components/PricingFilter";
 import SidebarSort from "@layouts/components/SidebarSort";
@@ -17,6 +17,7 @@ import {
   getSinglePageSlug,
 } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
+import { parseMDX } from "@lib/utils/mdxParser";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
@@ -30,6 +31,7 @@ const RegularPages = ({
   toolSlug,
   currentPage,
   data,
+  mdxContent,
   tools,
   category,
 }) => {
@@ -56,7 +58,7 @@ const RegularPages = ({
     sortMenuShow,
     sortValue,
     handleSortMenu,
-  } = useSort(themesWithOthersCategory, true, slug);
+  } = useThemesSort(themesWithOthersCategory, true, slug);
   const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
     useFilterContext();
   const filterCategory = sortedThemes.filter((theme) =>
@@ -140,7 +142,7 @@ const RegularPages = ({
           />
         </div>
       ) : (
-        <Default data={data} />
+        <Default data={data} mdxContent={mdxContent} />
       )}
     </Base>
   );
@@ -235,6 +237,9 @@ export const getStaticProps = async ({ params }) => {
     ? toolPage
     : defaultPage;
 
+  // current page MDXContent
+  const mdxContent = await parseMDX(currentPageData[0]?.content);
+
   // all tools
   const tools = [...ssg, ...cms, ...css, ...category];
 
@@ -246,6 +251,7 @@ export const getStaticProps = async ({ params }) => {
       toolSlug: toolSlug,
       currentPage: currentPage,
       data: currentPageData,
+      mdxContent: mdxContent,
       tools: tools,
       category: category,
     },

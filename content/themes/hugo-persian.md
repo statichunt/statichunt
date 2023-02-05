@@ -19,8 +19,8 @@ description: >-
 draft: false
 publish_date: '2020-06-15T05:14:11Z'
 update_date: '2022-10-22T03:45:30Z'
-github_star: 34
-github_fork: 111
+github_star: 36
+github_fork: 110
 ---
 
 ## Theme Features

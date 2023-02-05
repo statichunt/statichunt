@@ -3,17 +3,17 @@ import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
-import usefilterButton from "@hooks/usefilterButton";
 import useFilterData from "@hooks/useFilterData";
-import useSort from "@hooks/useSort";
+import usePricingFilter from "@hooks/usePricingFilter";
+import useThemesSort from "@hooks/useThemesSort";
 import Base from "@layouts/Baseof";
+import Announcement from "@layouts/components/Announcement";
 import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
-import { fi } from "date-fns/locale";
 import { useState } from "react";
 
 const Home = ({
@@ -35,7 +35,7 @@ const Home = ({
     setSortMenuShow,
     sortValue,
     handleSortMenu,
-  } = useSort(themesWithOthersCategory);
+  } = useThemesSort(themesWithOthersCategory);
 
   const mouseHandler = () => {
     if (sortMenuShow) {
@@ -69,7 +69,7 @@ const Home = ({
   const filterCategory = filterFunction(filterCSS, arrayCategory, "category");
 
   //  button for sorting
-  const { sortMenu } = usefilterButton(arrayFree, arrayPremium);
+  const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
   const { filteredThemes, filterFree, filterPremium } = useFilterData(
     sortedThemes,
     filterCategory,
@@ -91,6 +91,7 @@ const Home = ({
         />
         <main className="main">
           <div className="container">
+            <Announcement />
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory

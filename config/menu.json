@@ -1,12 +1,12 @@
 {
   "main": [
     {
-      "name": "All Themes",
+      "name": "Themes",
       "url": "/"
     },
     {
       "name": "Themes By Us",
-      "url": "/themes-by-us"
+      "url": "/statichunt-themes"
     },
     {
       "name": "Resources",
@@ -69,6 +69,14 @@
         {
           "page": "jekyll themes",
           "url": "/jekyll-themes"
+        },
+        {
+          "page": "hexo themes",
+          "url": "/hexo-themes"
+        },
+        {
+          "page": "eleventy themes",
+          "url": "/eleventy-themes"
         }
       ]
     },
@@ -82,6 +90,10 @@
         {
           "page": "ecommerce",
           "url": "/jamstack-ecommerce"
+        },
+        {
+          "page": "cms",
+          "url": "/jamstack-cms"
         },
         {
           "page": "feedback",

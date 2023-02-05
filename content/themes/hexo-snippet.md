@@ -9,9 +9,9 @@ cms:
   - Markdown
 date: 2017-07-10T09:26:39.000Z
 description: Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题
-draft: true
+draft: false
 publish_date: '2017-07-10T09:26:39Z'
 update_date: '2021-08-15T09:32:27Z'
-github_star: 1052
+github_star: 1054
 github_fork: 212
 ---

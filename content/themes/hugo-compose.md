@@ -11,9 +11,9 @@ cms:
 description: >-
   A hugo theme for documentation sites. It's inspired by
   https://forestry.io/docs/welcome/
-draft: true
+draft: false
 publish_date: '2020-01-28T20:17:23Z'
-update_date: '2022-12-30T11:26:41Z'
-github_star: 193
-github_fork: 75
+update_date: '2023-01-24T18:38:58Z'
+github_star: 202
+github_fork: 78
 ---
