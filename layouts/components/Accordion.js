@@ -26,7 +26,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     setTaxonomyArray,
   } = useFilterContext();
 
-  // console.log();
+
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
       ...item,
@@ -151,42 +151,79 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
 
   // filter content by taxonomy
   useEffect(() => {
-    if (taxonomyArray[0] === "ssg") {
-      const arrayFilter = arraySSG.map((ssg) => {
-        const filterSSG = themes.filter((data) =>
-          data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
-        );
-        return {
-          filterSSG,
-        };
-      });
-      setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
-    } else if (taxonomyArray[0] === "css") {
-      const arrayFilter = arrayCSS.map((css) => {
-        const filterCSS = themes.filter((data) =>
-          data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
-        );
-        return {
-          filterCSS,
-        };
-      });
-      setFilterState(arrayFilter.map((d) => d.filterCSS).flat());
-    } else if (taxonomyArray[0] === "cms") {
-      const arrayFilter = arrayCMS.map((cms) => {
-        const filterCMS = themes.filter((data) =>
-          data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
-        );
-        return {
-          filterCMS,
-        };
-      });
-      setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+    if (parameter === "ssg") {
+      if (taxonomyArray[0] === "ssg") {
+        const arrayFilter = arraySSG.map((ssg) => {
+          const filterSSG = themes.filter((data) =>
+            data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
+          );
+          return {
+            filterSSG,
+          };
+        });
+        setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+      } else {
+        const arrayFilter = arraySSG.map((ssg) => {
+          const filterSSG = filterState.filter((data) =>
+            data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
+          );
+          return {
+            filterSSG,
+          };
+        });
+        setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+      }
+    } else if (parameter === "css") {
+      if (taxonomyArray[0] === "css") {
+        const arrayFilter = arrayCSS.map((css) => {
+          const filterCSS = themes.filter((data) =>
+            data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
+          );
+          return {
+            filterCSS,
+          };
+        });
+        setFilterState(arrayFilter.map((d) => d.filterCSS).flat());
+      } else {
+        const arrayFilter = arrayCSS.map((css) => {
+          const filterCSS = filterState.filter((data) =>
+            data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
+          );
+          return {
+            filterCSS,
+          };
+        });
+        setFilterState(arrayFilter.map((d) => d.filterCSS).flat());
+      }
+    } else if (parameter === "cms") {
+      if (taxonomyArray[0] === "cms") {
+        const arrayFilter = arrayCMS.map((cms) => {
+          const filterCMS = themes.filter((data) =>
+            data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
+          );
+          return {
+            filterCMS,
+          };
+        });
+        setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+      } else {
+        const arrayFilter = arrayCMS.map((cms) => {
+          const filterCMS = filterState.filter((data) =>
+            data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
+          );
+          return {
+            filterCMS,
+          };
+        });
+        setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+      }
+    } else {
     }
-  }, [arrayCMS, arrayCSS, arraySSG, taxonomyArray, themes]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [arrayCMS, arrayCSS, arraySSG, taxonomyArray, themes, parameter]);
 
   // category items count
   const countItems = (params, item) => {
-    console.log(params);
     return themes.filter((theme) =>
       theme.frontmatter[params]
         ?.map((theme) => slugify(theme))
@@ -209,7 +246,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                 className={`filter-list ${item.selected && "active"}`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
-                {console.log(countItems(params, item))}
                 <Image
                   className={`${
                     darkIconList.includes(slugify(item.frontmatter.title))
