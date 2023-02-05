@@ -1,6 +1,6 @@
 ---
 title: Resources
-meta_title: "All Jamstack Resources" # this is for SEO title # this is for SEO description
+meta_title: " 100+ Best Jamstack Resources | Statichunt" # this is for SEO title # this is for SEO description
 page_title: "All Resources" # this is for h1 tag
 noindex: false
 ---
