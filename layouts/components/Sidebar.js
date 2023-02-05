@@ -25,26 +25,26 @@ const Sidebar = ({
 
   // getWindowDimensions
   const { windowSize } = useWindowSize();
-  const ssgData = ssg.map((data) => {
+  const ssgData = ssg?.map((data) => {
     return {
       ...data,
       taxonomy: "ssg",
     };
   });
 
-  const cmsData = cms.map((data) => {
+  const cmsData = cms?.map((data) => {
     return {
       ...data,
       taxonomy: "cms",
     };
   });
-  const cssData = css.map((data) => {
+  const cssData = css?.map((data) => {
     return {
       ...data,
       taxonomy: "css",
     };
   });
-  
+
   useEffect(() => {
     const filterAddition = sidebar.map((item, id) => ({
       ...item,

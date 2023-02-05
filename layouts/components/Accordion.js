@@ -6,10 +6,7 @@ import { useEffect, useState } from "react";
 
 const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   const [taxonomy, setTaxonomy] = useState(type);
-
-  // const [test, setTest] = useState("");
-  // console.log(test);
-  const [jhalapala, setJhalapala] = useState([]);
+  const [filterState, setFilterState] = useState([]);
   const { darkIconList } = config;
   const {
     setArraySSG,
@@ -23,10 +20,10 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     arrayTool,
     setArrayTool,
     allReset,
-    test,
-    setTest,
-    testArray,
-    setTestArry,
+    parameter,
+    setParameter,
+    taxonomyArray,
+    setTaxonomyArray,
   } = useFilterContext();
 
   // console.log();
@@ -38,38 +35,38 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug, allReset]);
-
+  // add data on texonomy array
   useEffect(() => {
-    if (test === "ssg") {
+    if (parameter === "ssg") {
       if (!arraySSG.length) {
-        setTestArry(testArray.filter((el) => el !== test));
-      } else if (arraySSG.length && testArray.includes(test)) {
-        setTestArry(testArray);
-      } else if (!testArray.includes(test)) {
-        setTestArry((prevValue) => [...prevValue, test]);
+        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
+      } else if (arraySSG.length && taxonomyArray.includes(parameter)) {
+        setTaxonomyArray(taxonomyArray);
+      } else if (!taxonomyArray.includes(parameter)) {
+        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
       }
-    } else if (test === "css") {
+    } else if (parameter === "css") {
       if (!arrayCSS.length) {
-        setTestArry(testArray.filter((el) => el !== test));
-      } else if (arrayCSS.length && testArray.includes(test)) {
-        setTestArry(testArray);
-      } else if (!testArray.includes(test)) {
-        setTestArry((prevValue) => [...prevValue, test]);
+        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
+      } else if (arrayCSS.length && taxonomyArray.includes(parameter)) {
+        setTaxonomyArray(taxonomyArray);
+      } else if (!taxonomyArray.includes(parameter)) {
+        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
       }
-    } else if (test === "cms") {
+    } else if (parameter === "cms") {
       if (!arrayCMS.length) {
-        setTestArry(testArray.filter((el) => el !== test));
-      } else if (arrayCMS.length && testArray.includes(test)) {
-        setTestArry(testArray);
-      } else if (!testArray.includes(test)) {
-        setTestArry((prevValue) => [...prevValue, test]);
+        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
+      } else if (arrayCMS.length && taxonomyArray.includes(parameter)) {
+        setTaxonomyArray(taxonomyArray);
+      } else if (!taxonomyArray.includes(parameter)) {
+        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [test, arraySSG, arrayCMS, arrayCSS]);
+  }, [parameter, arraySSG, arrayCMS, arrayCSS]);
 
   const handleOnClick = (label, type) => {
-    setTest(type);
+    setParameter(type);
 
     // scroll to top
     window.scrollTo({ top: 0 });
@@ -152,9 +149,10 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     arrayCMS?.length,
     arrayCSS?.length,
   ]);
-  console.log(arrayCMS);
+
+  // filter content by taxonomy
   useEffect(() => {
-    if (testArray[0] === "ssg") {
+    if (taxonomyArray[0] === "ssg") {
       const arrayFilter = arraySSG.map((ssg) => {
         const filterSSG = themes.filter((data) =>
           data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
@@ -163,8 +161,8 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
           filterSSG,
         };
       });
-      setJhalapala(arrayFilter.map((d) => d.filterSSG).flat());
-    } else if (testArray[0] === "css") {
+      setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+    } else if (taxonomyArray[0] === "css") {
       const arrayFilter = arrayCSS.map((css) => {
         const filterCSS = themes.filter((data) =>
           data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
@@ -173,8 +171,8 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
           filterCSS,
         };
       });
-      setJhalapala(arrayFilter.map((d) => d.filterCSS).flat());
-    } else if (testArray[0] === "cms") {
+      setFilterState(arrayFilter.map((d) => d.filterCSS).flat());
+    } else if (taxonomyArray[0] === "cms") {
       const arrayFilter = arrayCMS.map((cms) => {
         const filterCMS = themes.filter((data) =>
           data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
@@ -183,15 +181,9 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
           filterCMS,
         };
       });
-      setJhalapala(arrayFilter.map((d) => d.filterCMS).flat());
+      setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
     }
-  }, [arrayCMS, arrayCSS, arraySSG, testArray, themes]);
-  console.log(jhalapala);
-  // console.log(arraySSG);
-  // if (testArray[0] === "ssg") {
-  //   const test = ;
-  //   console.log(test);
-  // }
+  }, [arrayCMS, arrayCSS, arraySSG, taxonomyArray, themes]);
 
   // category items count
   const countItems = (params, item) => {
@@ -230,14 +222,16 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                   style={{ maxHeight: "18px" }}
                 />
                 <span className="ml-2 block">{item.frontmatter.title}</span>
-                {test && [...new Set(testArray)][0] === item.taxonomy ? (
+                {parameter &&
+                [...new Set(taxonomyArray)][0] === item.taxonomy ? (
                   <span className="ml-auto">{countItems(params, item)}</span>
-                ) : testArray.length === 0 ? (
+                ) : taxonomyArray.length === 0 ? (
                   <span className="ml-auto">{countItems(params, item)}</span>
-                ) : test && item.taxonomy !== [...new Set(testArray)][0] ? (
+                ) : parameter &&
+                  item.taxonomy !== [...new Set(taxonomyArray)][0] ? (
                   <span className="ml-auto">
                     {
-                      jhalapala.filter((data) =>
+                      filterState.filter((data) =>
                         data.frontmatter[item.taxonomy]
                           ?.map((d) => slugify(d))
                           ?.includes(slugify(item.frontmatter.title))

@@ -15,8 +15,8 @@ export const JsonContext = ({ children }) => {
   const [arrayTool, setArrayTool] = useState([]);
   const [allReset, setAllReset] = useState(false);
   const [sortAsc, setSortAsc] = useState(false);
-  const [test, setTest] = useState("");
-  const [testArray, setTestArry] = useState("");
+  const [parameter, setParameter] = useState("");
+  const [taxonomyArray, setTaxonomyArray] = useState([]);
   const router = useRouter();
   const reset = () => {
     setArraySSG([]);
@@ -57,10 +57,10 @@ export const JsonContext = ({ children }) => {
     setArrayTool,
     sortAsc,
     setSortAsc,
-    test,
-    setTest,
-    testArray,
-    setTestArry,
+    parameter,
+    setParameter,
+    taxonomyArray,
+    setTaxonomyArray,
   };
   return (
     <FilterContext.Provider value={state}>{children}</FilterContext.Provider>
