@@ -1,31 +1,19 @@
 import HomeCategory from "@components/HomeCategory";
-import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
 import Themes from "@components/Themes";
 import config from "@config/config.json";
 import usePricingFilter from "@hooks/usePricingFilter";
 import useThemesSort from "@hooks/useThemesSort";
 import Base from "@layouts/Baseof";
-import Announcement from "@layouts/components/Announcement";
 import HomeSort from "@layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
-import { useState } from "react";
 
-const Home = ({
-  frontmatter: { intro },
-  cms,
-  css,
-  ssg,
-  category,
-  themes,
-  tools,
-}) => {
+const Home = ({ frontmatter, cms, css, ssg, category, themes, tools }) => {
   const { sidebar } = config;
-  const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const {
     sortedThemes,
@@ -129,7 +117,13 @@ const Home = ({
   //  button for sorting
   const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
   return (
-    <Base noindex={true}>
+    <Base
+      title={frontmatter.title}
+      meta_title={frontmatter.meta_title}
+      description={frontmatter.description}
+      image={frontmatter.image}
+      noindex={true}
+    >
       <div className="flex" onClick={mouseHandler}>
         <Sidebar
           sidebar={sidebar}
@@ -137,12 +131,9 @@ const Home = ({
           cms={cms}
           css={css}
           themes={themesWithOthersCategory}
-          SetShowIntro={SetShowIntro}
         />
         <main className="main">
           <div className="container">
-            <Announcement />
-            <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory
                 themes={filteredThemes}
@@ -174,8 +165,8 @@ export default Home;
 
 // for homepage data
 export const getStaticProps = async () => {
-  const homepage = await getListPage("content/_index.md");
-  const { frontmatter } = homepage;
+  const themesList = await getListPage("content/themes/_index.md");
+  const { frontmatter } = themesList;
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
