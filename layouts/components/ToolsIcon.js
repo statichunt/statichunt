@@ -35,7 +35,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                             darkIconList.includes(
                               slugify(icon.frontmatter.title)
                             )
-                              ? "dark:invert"
+                              ? "dark:brightness-0 dark:invert"
                               : ""
                           }
                         />
@@ -61,7 +61,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                             darkIconList.includes(
                               slugify(icon.frontmatter.title)
                             )
-                              ? "dark:invert"
+                              ? "dark:brightness-0 dark:invert"
                               : ""
                           }
                         />
@@ -82,7 +82,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                       style={{ maxHeight: size ? size : "18px" }}
                       className={
                         darkIconList.includes(slugify(icon.frontmatter.title))
-                          ? "dark:invert"
+                          ? "dark:brightness-0 dark:invert"
                           : ""
                       }
                     />
@@ -114,7 +114,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                 style={{ maxHeight: size ? size : "18px" }}
                 className={
                   darkIconList.includes(slugify(icon.frontmatter.title))
-                    ? "dark:invert"
+                    ? "dark:brightness-0 dark:invert"
                     : ""
                 }
               />

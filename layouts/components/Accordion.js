@@ -249,7 +249,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                 <Image
                   className={`${
                     darkIconList.includes(slugify(item.frontmatter.title))
-                      ? "dark:invert"
+                      ? "dark:brightness-0 dark:invert"
                       : ""
                   } ml-2`}
                   src={item.frontmatter.icon}
