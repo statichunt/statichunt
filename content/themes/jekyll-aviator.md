@@ -7,7 +7,7 @@ thumbnail: themes/jekyll-aviator.jpg
 ssg:
   - Jekyll
 cms:
-  - Markdown
+  - CloudCannon
 date: 2015-01-28T02:49:52.000Z
 description: ':droplet: API Documentation template for Jekyll'
 draft: false

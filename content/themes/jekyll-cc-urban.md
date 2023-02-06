@@ -6,7 +6,7 @@ author: CloudCannon
 ssg:
   - Jekyll
 cms:
-  - Markdown
+  - CloudCannon
 date: 2016-11-10T03:08:36.000Z
 description: ':cloud: Agency template for Jekyll'
 draft: false
