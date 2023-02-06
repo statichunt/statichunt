@@ -33,7 +33,7 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Plus+Jakarta+Sans:wght@500;700",
+      "primary": "Oxygen:wght@400;700",
       "primary_type": "sans-serif"
     },
     "font_size": {
