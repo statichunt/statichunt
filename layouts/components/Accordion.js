@@ -60,9 +60,17 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
       } else if (!taxonomyArray.includes(parameter)) {
         setTaxonomyArray((prevValue) => [...prevValue, parameter]);
       }
+    } else if (parameter === "category") {
+      if (!arrayCategory.length) {
+        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
+      } else if (arrayCategory.length && taxonomyArray.includes(parameter)) {
+        setTaxonomyArray(taxonomyArray);
+      } else if (!taxonomyArray.includes(parameter)) {
+        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [parameter, arraySSG, arrayCMS, arrayCSS]);
+  }, [parameter, arraySSG, arrayCMS, arrayCSS, arrayCategory]);
 
   const handleOnClick = (label, type) => {
     setParameter(type);
@@ -151,18 +159,12 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   // filter content by taxonomy
 
   const filterStateFunction = (array, filterArray, taxonomy) => {
+    console.log(array, filterArray);
     const arrayFilter = filterArray.map((item) => {
-      const filterTaxonomy = filterArray.length
-        ? array.filter((params) =>
-            params?.frontmatter[taxonomy]
-              ?.map((el) => slugify(el))
-              .includes(item)
-          )
-        : themes.filter((params) =>
-            params?.frontmatter[taxonomy]
-              ?.map((el) => slugify(el))
-              .includes(item)
-          );
+      const filterTaxonomy = array.filter((params) =>
+        params?.frontmatter[taxonomy]?.map((el) => slugify(el)).includes(item)
+      );
+
       return {
         filterTaxonomy,
       };
@@ -172,109 +174,148 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   useEffect(() => {
     if (parameter === "ssg") {
       if (taxonomyArray[0] === "ssg") {
-        // const arrayFilter = arraySSG.map((ssg) => {
-        //   const filterSSG = themes.filter((data) =>
-        //     data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
-        //   );
-        //   return {
-        //     filterSSG,
-        //   };
-        // });
-
         setFilterState(filterStateFunction(themes, arraySSG, "ssg"));
       } else {
-        // const arrayFilter = arraySSG.map((ssg) => {
-        //   const filterSSG = filterState.filter((data) =>
-        //     data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
-        //   );
-        //   return {
-        //     filterSSG,
-        //   };
-        // });
-
         if (arraySSG.length) {
           setFilterState(filterStateFunction(filterState, arraySSG, "ssg"));
         } else {
           const filterCSS = filterStateFunction(themes, arrayCSS, "css");
-          const filterCMS = filterStateFunction(filterCSS, arrayCMS, "cms");
-          setFilterState(filterCMS.length ? filterCMS : filterCSS);
+          const filterCMS = filterStateFunction(
+            filterCSS.length ? filterCSS : themes,
+            arrayCMS,
+            "cms"
+          );
+          const filterCategory = filterStateFunction(
+            filterCSS.length
+              ? filterCSS
+              : filterCMS.length
+              ? filterCMS
+              : themes,
+            arrayCategory,
+            "category"
+          );
+
+          setFilterState(
+            filterCategory.length
+              ? filterCategory
+              : filterCMS.length
+              ? filterCMS
+              : filterCSS
+          );
         }
       }
     } else if (parameter === "css") {
       if (taxonomyArray[0] === "css") {
-        // const arrayFilter = arrayCSS.map((css) => {
-        //   const filterCSS = themes.filter((data) =>
-        //     data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
-        //   );
-        //   return {
-        //     filterCSS,
-        //   };
-        // });
         setFilterState(filterStateFunction(themes, arrayCSS, "css"));
       } else {
-        // const arrayFilter = arrayCSS.map((css) => {
-        //   const filterCSS = filterState.filter((data) =>
-        //     data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
-        //   );
-        //   return {
-        //     filterCSS,
-        //   };
-        // });
         if (arrayCSS.length) {
           setFilterState(filterStateFunction(filterState, arrayCSS, "css"));
         } else {
           const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
+          const filterCMS = filterStateFunction(
+            filterSSG.length ? filterSSG : themes,
+            arrayCMS,
+            "cms"
+          );
 
-          const filterCMS = filterStateFunction(filterSSG, arrayCMS, "cms");
-
-          setFilterState(filterCMS.length ? filterCMS : filterSSG);
+          const filterCategory = filterStateFunction(
+            filterCMS.length
+              ? filterCMS
+              : filterSSG.length
+              ? filterSSG
+              : themes,
+            arrayCategory,
+            "category"
+          );
+          setFilterState(
+            filterCategory.length
+              ? filterCategory
+              : filterCMS.length
+              ? filterCMS
+              : filterSSG
+          );
         }
 
         // setFilterState(filterStateFunction(filterState, arrayCSS, "css"));
       }
     } else if (parameter === "cms") {
       if (taxonomyArray[0] === "cms") {
-        // const arrayFilter = arrayCMS.map((cms) => {
-        //   const filterCMS = themes.filter((data) =>
-        //     data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
-        //   );
-        //   return {
-        //     filterCMS,
-        //   };
-        // });
-        // setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
         setFilterState(filterStateFunction(themes, arrayCMS, "cms"));
       } else {
         if (arrayCMS.length) {
-          // const arrayFilter = arrayCMS.map((cms) => {
-          //   const filterCMS = filterState.filter((data) =>
-          //     data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
-          //   );
-          //   return {
-          //     filterCMS,
-          //   };
-          // });
-          // setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
           setFilterState(filterStateFunction(filterState, arrayCMS, "cms"));
         } else {
-          // const arrayFilter = arraySSG.map((ssg) => {
-          //   const filterSSG = themes.filter((data) =>
-          //     data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
-          //   );
-          //   return {
-          //     filterSSG,
-          //   };
-          // });
-          // setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
           const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
-          const filterCSS = filterStateFunction(filterSSG, arrayCSS, "css");
-          setFilterState(filterCSS.length ? filterCSS : filterSSG);
+          const filterCSS = filterStateFunction(
+            filterSSG.length ? filterSSG : themes,
+            arrayCSS,
+            "css"
+          );
+          const filterCategory = filterStateFunction(
+            filterCSS.length
+              ? filterCSS
+              : filterSSG.length
+              ? filterSSG
+              : themes,
+            arrayCategory,
+            "category"
+          );
+          setFilterState(
+            filterCategory.length
+              ? filterCategory
+              : filterCSS.length
+              ? filterCSS
+              : filterSSG
+          );
         }
       }
-    } else {
+    } else if (parameter === "category") {
+      if (taxonomyArray[0] === "category") {
+        setFilterState(filterStateFunction(themes, arrayCategory, "category"));
+      } else {
+        if (arrayCategory.length) {
+          setFilterState(
+            filterStateFunction(filterState, arrayCategory, "category")
+          );
+        } else {
+          const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
+          const filterCSS = filterStateFunction(
+            filterSSG.length ? filterSSG : themes,
+            arrayCSS,
+            "css"
+          );
+          const filterCMS = filterStateFunction(
+            filterCSS.length
+              ? filterCSS
+              : filterSSG.length
+              ? filterSSG
+              : themes,
+            arrayCMS,
+            "cms"
+          );
+
+          setFilterState(
+            filterCMS.length
+              ? filterCMS
+              : filterCSS.length
+              ? filterCSS
+              : filterSSG.length
+              ? filterSSG
+              : themes
+          );
+        }
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [arrayCMS, arrayCSS, arraySSG, taxonomyArray, themes, parameter]);
+  }, [
+    arrayCMS,
+    arrayCSS,
+    arraySSG,
+    arrayCategory,
+    taxonomyArray,
+    themes,
+    parameter,
+  ]);
 
   // category items count
   const countItems = (params, item) => {
@@ -284,7 +325,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         .includes(slugify(item.frontmatter.title))
     ).length;
   };
-
+  console.log(taxonomy);
   return (
     <>
       {data.selected &&
@@ -313,17 +354,15 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                   style={{ maxHeight: "18px" }}
                 />
                 <span className="ml-2 block">{item.frontmatter.title}</span>
-                {parameter &&
-                [...new Set(taxonomyArray)][0] === item.taxonomy ? (
+                {parameter && [...new Set(taxonomyArray)][0] === params ? (
                   <span className="ml-auto">{countItems(params, item)}</span>
                 ) : taxonomyArray.length === 0 ? (
                   <span className="ml-auto">{countItems(params, item)}</span>
-                ) : parameter &&
-                  item.taxonomy !== [...new Set(taxonomyArray)][0] ? (
+                ) : parameter && params !== [...new Set(taxonomyArray)][0] ? (
                   <span className="ml-auto">
                     {
                       filterState.filter((data) =>
-                        data.frontmatter[item.taxonomy]
+                        data.frontmatter[params]
                           ?.map((d) => slugify(d))
                           ?.includes(slugify(item.frontmatter.title))
                       ).length

@@ -12,6 +12,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     arrayPremium,
     setArrayPremium,
     allReset,
+    setParameter,
   } = useFilterContext();
 
   // change others position
@@ -29,6 +30,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   }, [allReset]);
 
   const handleTaxonomy = (label) => {
+    setParameter("category");
     const temp = [...taxonomy];
     for (let i in temp) {
       const item = temp[i];
