@@ -10,7 +10,7 @@ import { useFilterContext } from "context/state";
 const ResourceList = ({ tool, resources, indexPage }) => {
   const resourcesSortedByDate = sortByDate(resources);
   const resourcesSortedByWeight = sortByWeight(resourcesSortedByDate);
-  const { title, page_title, image, description } = indexPage;
+  const { title, meta_title, page_title, image, description } = indexPage;
   const { sidebar } = config;
   const { arrayTool } = useFilterContext();
   const filterTool = resourcesSortedByWeight.filter((resource) =>
@@ -24,7 +24,12 @@ const ResourceList = ({ tool, resources, indexPage }) => {
   );
 
   return (
-    <Base title={title} description={description && description} image={image}>
+    <Base
+      title={title}
+      meta_title={meta_title}
+      description={description}
+      image={image}
+    >
       <div className="flex">
         <Sidebar sidebar={sidebar} tool={tool} themes={resources} />
         <main className="main">

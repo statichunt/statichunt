@@ -1,5 +1,5 @@
 ---
-title: Sendit
+title: Sendit Eleventy
 github: https://github.com/CloudCannon/sendit-eleventy-template
 demo: https://potent-ship.cloudvent.net/
 author: CloudCannon
@@ -11,7 +11,7 @@ ssg:
 css:
   - Bootstrap
 cms:
-  - Markdown
+  - CloudCannon
 category:
   - Business
 draft: false

@@ -6,7 +6,7 @@ author: CloudCannon
 ssg:
   - Jekyll
 cms:
-  - Markdown
+  - CloudCannon
 date: 2016-11-16T01:59:02.000Z
 description: Not for profit template for Jekyll
 draft: false

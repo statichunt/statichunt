@@ -6,7 +6,7 @@ author: CloudCannon
 ssg:
   - Jekyll
 cms:
-  - Markdown
+  - CloudCannon
 css:
   - SCSS
 date: 2016-11-01T04:12:15.000Z
