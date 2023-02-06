@@ -52,7 +52,7 @@ const Home = ({
     sortAsc,
   } = useFilterContext();
   const filterFunction = (array, filterArray, params) => {
-    const test = array?.filter((theme) =>
+    const filterData = array?.filter((theme) =>
       filterArray.length
         ? filterArray.find((type) =>
             theme.frontmatter[params]
@@ -61,7 +61,7 @@ const Home = ({
           )
         : sortedThemes
     );
-    return test;
+    return filterData;
   };
   const filterSSG = filterFunction(sortedThemes, arraySSG, "ssg");
   const filterCMS = filterFunction(filterSSG, arrayCMS, "cms");

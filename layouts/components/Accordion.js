@@ -147,94 +147,135 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     arrayCMS?.length,
     arrayCSS?.length,
   ]);
-  console.log(taxonomyArray.includes(parameter));
+
   // filter content by taxonomy
+
+  const filterStateFunction = (array, filterArray, taxonomy) => {
+    const arrayFilter = filterArray.map((item) => {
+      const filterTaxonomy = filterArray.length
+        ? array.filter((params) =>
+            params?.frontmatter[taxonomy]
+              ?.map((el) => slugify(el))
+              .includes(item)
+          )
+        : themes.filter((params) =>
+            params?.frontmatter[taxonomy]
+              ?.map((el) => slugify(el))
+              .includes(item)
+          );
+      return {
+        filterTaxonomy,
+      };
+    });
+    return arrayFilter.map((d) => d.filterTaxonomy).flat();
+  };
   useEffect(() => {
     if (parameter === "ssg") {
       if (taxonomyArray[0] === "ssg") {
-        console.log("themes");
-        const arrayFilter = arraySSG.map((ssg) => {
-          const filterSSG = themes.filter((data) =>
-            data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
-          );
-          return {
-            filterSSG,
-          };
-        });
-        setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+        // const arrayFilter = arraySSG.map((ssg) => {
+        //   const filterSSG = themes.filter((data) =>
+        //     data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
+        //   );
+        //   return {
+        //     filterSSG,
+        //   };
+        // });
+
+        setFilterState(filterStateFunction(themes, arraySSG, "ssg"));
       } else {
-        const arrayFilter = arraySSG.map((ssg) => {
-          const filterSSG = filterState.filter((data) =>
-            data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
-          );
-          return {
-            filterSSG,
-          };
-        });
-        setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+        // const arrayFilter = arraySSG.map((ssg) => {
+        //   const filterSSG = filterState.filter((data) =>
+        //     data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
+        //   );
+        //   return {
+        //     filterSSG,
+        //   };
+        // });
+
+        if (arraySSG.length) {
+          setFilterState(filterStateFunction(filterState, arraySSG, "ssg"));
+        } else {
+          const filterCSS = filterStateFunction(themes, arrayCSS, "css");
+          const filterCMS = filterStateFunction(filterCSS, arrayCMS, "cms");
+          setFilterState(filterCMS.length ? filterCMS : filterCSS);
+        }
       }
     } else if (parameter === "css") {
       if (taxonomyArray[0] === "css") {
-        const arrayFilter = arrayCSS.map((css) => {
-          const filterCSS = themes.filter((data) =>
-            data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
-          );
-          return {
-            filterCSS,
-          };
-        });
-        setFilterState(arrayFilter.map((d) => d.filterCSS).flat());
+        // const arrayFilter = arrayCSS.map((css) => {
+        //   const filterCSS = themes.filter((data) =>
+        //     data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
+        //   );
+        //   return {
+        //     filterCSS,
+        //   };
+        // });
+        setFilterState(filterStateFunction(themes, arrayCSS, "css"));
       } else {
-        const arrayFilter = arrayCSS.map((css) => {
-          const filterCSS = filterState.filter((data) =>
-            data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
-          );
-          return {
-            filterCSS,
-          };
-        });
-        setFilterState(arrayFilter.map((d) => d.filterCSS).flat());
+        // const arrayFilter = arrayCSS.map((css) => {
+        //   const filterCSS = filterState.filter((data) =>
+        //     data.frontmatter?.css?.map((el) => slugify(el)).includes(css)
+        //   );
+        //   return {
+        //     filterCSS,
+        //   };
+        // });
+        if (arrayCSS.length) {
+          setFilterState(filterStateFunction(filterState, arrayCSS, "css"));
+        } else {
+          const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
+
+          const filterCMS = filterStateFunction(filterSSG, arrayCMS, "cms");
+
+          setFilterState(filterCMS.length ? filterCMS : filterSSG);
+        }
+
+        // setFilterState(filterStateFunction(filterState, arrayCSS, "css"));
       }
     } else if (parameter === "cms") {
       if (taxonomyArray[0] === "cms") {
-        const arrayFilter = arrayCMS.map((cms) => {
-          const filterCMS = themes.filter((data) =>
-            data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
-          );
-          return {
-            filterCMS,
-          };
-        });
-        setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+        // const arrayFilter = arrayCMS.map((cms) => {
+        //   const filterCMS = themes.filter((data) =>
+        //     data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
+        //   );
+        //   return {
+        //     filterCMS,
+        //   };
+        // });
+        // setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+        setFilterState(filterStateFunction(themes, arrayCMS, "cms"));
       } else {
-        console.log(arrayCMS);
         if (arrayCMS.length) {
-          const arrayFilter = arrayCMS.map((cms) => {
-            const filterCMS = filterState.filter((data) =>
-              data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
-            );
-            return {
-              filterCMS,
-            };
-          });
-          setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+          // const arrayFilter = arrayCMS.map((cms) => {
+          //   const filterCMS = filterState.filter((data) =>
+          //     data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
+          //   );
+          //   return {
+          //     filterCMS,
+          //   };
+          // });
+          // setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+          setFilterState(filterStateFunction(filterState, arrayCMS, "cms"));
         } else {
-          const arrayFilter = arraySSG.map((ssg) => {
-            const filterSSG = themes.filter((data) =>
-              data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
-            );
-            return {
-              filterSSG,
-            };
-          });
-          setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+          // const arrayFilter = arraySSG.map((ssg) => {
+          //   const filterSSG = themes.filter((data) =>
+          //     data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
+          //   );
+          //   return {
+          //     filterSSG,
+          //   };
+          // });
+          // setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+          const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
+          const filterCSS = filterStateFunction(filterSSG, arrayCSS, "css");
+          setFilterState(filterCSS.length ? filterCSS : filterSSG);
         }
       }
     } else {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [arrayCMS, arrayCSS, arraySSG, taxonomyArray, themes, parameter]);
-  console.log(filterState);
+
   // category items count
   const countItems = (params, item) => {
     return themes.filter((theme) =>
