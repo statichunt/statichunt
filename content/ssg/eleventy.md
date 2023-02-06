@@ -1,7 +1,7 @@
 ---
 title: Eleventy
 page_title: Eleventy Themes
-weight: "5"
+weight: "6"
 meta_title: Eleventy Themes | Get The Best Free 11ty Themes and Templates
 description: "Looking for the best Eleventy themes? These free eleventy  themes and templates are ideal for any type of website, from businesses to personal blogs."
 icon: /images/icons/eleventy.svg

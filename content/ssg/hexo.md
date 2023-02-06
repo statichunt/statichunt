@@ -1,7 +1,7 @@
 ---
 title: Hexo
 page_title: Hexo Themes
-weight: "5"
+weight: "7"
 meta_title: Best Hexo Themes & Templates | Statichunt
 description: "A comprehensive collection of Hexo themes, templates, and starters, all available for free"
 icon: /images/icons/hexo.svg
