@@ -35,6 +35,7 @@ export const JsonContext = ({ children }) => {
     setArrayCategory([]);
     setArrayPremium([]);
     setArrayFree([]);
+    setTaxonomyArray([]);
   }, [router.asPath]);
   const state = {
     allReset,

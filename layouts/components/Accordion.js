@@ -26,7 +26,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     setTaxonomyArray,
   } = useFilterContext();
 
-
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
       ...item,
@@ -148,11 +147,12 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     arrayCMS?.length,
     arrayCSS?.length,
   ]);
-
+  console.log(taxonomyArray.includes(parameter));
   // filter content by taxonomy
   useEffect(() => {
     if (parameter === "ssg") {
       if (taxonomyArray[0] === "ssg") {
+        console.log("themes");
         const arrayFilter = arraySSG.map((ssg) => {
           const filterSSG = themes.filter((data) =>
             data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
@@ -207,21 +207,34 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         });
         setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
       } else {
-        const arrayFilter = arrayCMS.map((cms) => {
-          const filterCMS = filterState.filter((data) =>
-            data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
-          );
-          return {
-            filterCMS,
-          };
-        });
-        setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+        console.log(arrayCMS);
+        if (arrayCMS.length) {
+          const arrayFilter = arrayCMS.map((cms) => {
+            const filterCMS = filterState.filter((data) =>
+              data.frontmatter?.cms?.map((el) => slugify(el)).includes(cms)
+            );
+            return {
+              filterCMS,
+            };
+          });
+          setFilterState(arrayFilter.map((d) => d.filterCMS).flat());
+        } else {
+          const arrayFilter = arraySSG.map((ssg) => {
+            const filterSSG = themes.filter((data) =>
+              data.frontmatter?.ssg?.map((el) => slugify(el)).includes(ssg)
+            );
+            return {
+              filterSSG,
+            };
+          });
+          setFilterState(arrayFilter.map((d) => d.filterSSG).flat());
+        }
       }
     } else {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [arrayCMS, arrayCSS, arraySSG, taxonomyArray, themes, parameter]);
-
+  console.log(filterState);
   // category items count
   const countItems = (params, item) => {
     return themes.filter((theme) =>
@@ -237,7 +250,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         data.type === params &&
         taxonomy.map(
           (item, i) =>
-            countItems(params, item) >= 0 && (
+            countItems(params, item) > 0 && (
               <a
                 onClick={() =>
                   handleOnClick(slugify(item.frontmatter.title), data.type)
