@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   const [taxonomy, setTaxonomy] = useState(category);
+
   const {
     arrayCategory,
     setArrayCategory,
@@ -48,12 +49,14 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   };
 
   // category items count
-  const countItems = (item) =>
-    themes.filter((theme) =>
+  // category items count
+  const countItems = (item) => {
+    return themes.filter((theme) =>
       theme.frontmatter.category
         ?.map((theme) => slugify(theme))
         .includes(slugify(item.frontmatter.title))
     ).length;
+  };
 
   return (
     <ul className="category-list">
@@ -68,7 +71,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       </li>
       <li
         onClick={() =>
-          setArrayPremium(arrayPremium.length === 0 ? filterPremium : [] )
+          setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
         }
         className={`${arrayPremium.length > 0 ? "active" : undefined} ${
           filterPremium.length < 1 ? "disabled" : undefined
@@ -78,13 +81,19 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
         <span>{filterPremium.length}</span>
       </li>
       <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" />
+
       {taxonomy.map((item, i) => (
         <li
           onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
           key={`item-${i}`}
-          className={`${item.selected ? "active" : undefined} ${
-            countItems(item) < 1 ? "disabled" : undefined
-          }`}
+          className={`${
+            item.selected
+              ? "active"
+              : arrayCategory.length &&
+                !arrayCategory.includes(slugify(item.frontmatter.title))
+              ? "disabled"
+              : undefined
+          } ${countItems(item) < 1 ? "disabled" : undefined}`}
         >
           {item.frontmatter.title}
           <span>{countItems(item)}</span>

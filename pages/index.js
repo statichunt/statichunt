@@ -101,7 +101,13 @@ const Home = ({
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory
-                themes={filteredThemes}
+                themes={
+                  arrayFree.length
+                    ? arrayFree
+                    : arrayPremium.length
+                    ? arrayPremium
+                    : sortedThemes
+                }
                 category={category}
                 filterFree={filterFree}
                 filterPremium={filterPremium}
