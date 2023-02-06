@@ -171,6 +171,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     });
     return arrayFilter.map((d) => d.filterTaxonomy).flat();
   };
+  
   useEffect(() => {
     if (parameter === "ssg") {
       if (taxonomyArray[0] === "ssg") {

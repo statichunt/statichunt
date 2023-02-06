@@ -68,7 +68,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       </li>
       <li
         onClick={() =>
-          setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
+          setArrayPremium(arrayPremium.length === 0 ? filterPremium : [] )
         }
         className={`${arrayPremium.length > 0 ? "active" : undefined} ${
           filterPremium.length < 1 ? "disabled" : undefined

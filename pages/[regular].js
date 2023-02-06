@@ -95,7 +95,13 @@ const RegularPages = ({
         <div className="flex">
           <Sidebar
             sidebar={sidebar}
-            themes={themesWithOthersCategory}
+            themes={
+              arrayFree.length
+                ? arrayFree
+                : arrayPremium.length
+                ? arrayPremium
+                : themesWithOthersCategory
+            }
             slug={slug}
             category={category}
             SetShowIntro={SetShowIntro}

@@ -77,7 +77,7 @@ const Home = ({
     arrayFree,
     arrayPremium
   );
-
+  console.log(arrayFree);
   return (
     <Base>
       <div className="flex" onClick={mouseHandler}>
@@ -86,7 +86,13 @@ const Home = ({
           ssg={ssg}
           cms={cms}
           css={css}
-          themes={sortedThemes}
+          themes={
+            arrayFree.length
+              ? arrayFree
+              : arrayPremium.length
+              ? arrayPremium
+              : sortedThemes
+          }
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
