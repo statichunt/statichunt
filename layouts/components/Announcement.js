@@ -39,7 +39,7 @@ const Announcement = () => {
               <span className="mr-2 mb-2 inline-block rounded-[0.25rem] bg-dark/30 px-2 py-2 leading-none sm:mb-0">
                 {name}
               </span>
-              <span className="mx-auto block leading-none">
+              <span className="ml-2 block leading-none">
                 {markdownify(content)}
               </span>
             </a>
