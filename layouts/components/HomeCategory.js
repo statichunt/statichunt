@@ -86,14 +86,9 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
         <li
           onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
           key={`item-${i}`}
-          className={`${
-            item.selected
-              ? "active"
-              : arrayCategory.length &&
-                !arrayCategory.includes(slugify(item.frontmatter.title))
-              ? "disabled"
-              : undefined
-          } ${countItems(item) < 1 ? "disabled" : undefined}`}
+          className={`${item.selected ? "active" : undefined} ${
+            countItems(item) < 1 ? "disabled" : undefined
+          }`}
         >
           {item.frontmatter.title}
           <span>{countItems(item)}</span>

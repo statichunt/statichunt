@@ -159,7 +159,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   // filter content by taxonomy
 
   const filterStateFunction = (array, filterArray, taxonomy) => {
-    console.log(array, filterArray);
     const arrayFilter = filterArray.map((item) => {
       const filterTaxonomy = array.filter((params) =>
         params?.frontmatter[taxonomy]?.map((el) => slugify(el)).includes(item)
@@ -171,7 +170,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     });
     return arrayFilter.map((d) => d.filterTaxonomy).flat();
   };
-  
+
   useEffect(() => {
     if (parameter === "ssg") {
       if (taxonomyArray[0] === "ssg") {
@@ -326,20 +325,22 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         .includes(slugify(item.frontmatter.title))
     ).length;
   };
-  console.log(taxonomy);
+
   return (
     <>
       {data.selected &&
         data.type === params &&
         taxonomy.map(
           (item, i) =>
-            countItems(params, item) > 0 && (
+            countItems(params, item) >= 0 && (
               <a
                 onClick={() =>
                   handleOnClick(slugify(item.frontmatter.title), data.type)
                 }
                 key={`item-${i}`}
-                className={`filter-list ${item.selected && "active"}`}
+                className={`filter-list ${
+                  item.selected ? "active" : undefined
+                }`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
                 <Image

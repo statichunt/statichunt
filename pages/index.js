@@ -77,7 +77,7 @@ const Home = ({
     arrayFree,
     arrayPremium
   );
-  console.log(arrayFree);
+
   return (
     <Base>
       <div className="flex" onClick={mouseHandler}>
@@ -87,7 +87,9 @@ const Home = ({
           cms={cms}
           css={css}
           themes={
-            arrayFree.length
+            arrayPremium.length && arrayFree.length
+              ? sortedThemes
+              : arrayFree.length
               ? arrayFree
               : arrayPremium.length
               ? arrayPremium
@@ -102,7 +104,9 @@ const Home = ({
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory
                 themes={
-                  arrayFree.length
+                  arrayPremium.length && arrayFree.length
+                    ? sortedThemes
+                    : arrayFree.length
                     ? arrayFree
                     : arrayPremium.length
                     ? arrayPremium

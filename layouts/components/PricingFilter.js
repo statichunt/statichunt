@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
 const PricingFilter = ({ filterFree, filterPremium }) => {
-  const { arrayFree, setArrayFree, arrayPremium, setArrayPremium, allReset } =
+  const { arrayFree, setArrayFree, arrayPremium, setArrayPremium } =
     useFilterContext();
   const [open, setOpen] = useState(true);
   const windowSize = useWindow(1023);

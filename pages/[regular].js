@@ -96,11 +96,13 @@ const RegularPages = ({
           <Sidebar
             sidebar={sidebar}
             themes={
-              arrayFree.length
-                ? arrayFree
+              arrayPremium.length && arrayFree.length
+                ? sortedThemes
+                : arrayFree.length
+                ? filterFree
                 : arrayPremium.length
-                ? arrayPremium
-                : themesWithOthersCategory
+                ? filterPremium
+                : sortedThemes
             }
             slug={slug}
             category={category}
