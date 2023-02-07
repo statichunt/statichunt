@@ -1,5 +1,4 @@
 import { slugify } from "@lib/utils/textConverter";
-import React from "react";
 
 const useFilterData = (
   sortedThemes,
@@ -8,8 +7,6 @@ const useFilterData = (
   arrayFree,
   arrayPremium
 ) => {
-
-
   const filterFree = filterCategory?.filter(
     (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0
   );

@@ -13,7 +13,7 @@ const Announcement = () => {
   // cookie check from browser
   useEffect(() => {
     setAnnouncementCloseState(getCookie(slugify(name)));
-  }, [announcementClose]);
+  }, [announcementClose, name]);
 
   // cookie handler
   const cookieHandler = () => {

@@ -1,6 +1,5 @@
 import config from "@config/config.json";
 import useTaxonmyHandler from "@hooks/useAccordionHandler";
-// import { handleTaxonomyArray } from "@lib/accordionFunction";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import Image from "next/image";
@@ -19,15 +18,17 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     setParameter,
     taxonomyArray,
   } = useFilterContext();
+
   // add select property
   useEffect(() => {
-    const filterAddition = taxonomy.map((item, id) => ({
+    const filterAddition = taxonomy.map((item) => ({
       ...item,
       selected: false,
     }));
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug, allReset]);
+
   // call custom hook
   const {
     taxonomyArrayHandler,
@@ -35,6 +36,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     filterState,
     handleTaxonomyArray,
   } = useTaxonmyHandler(themes);
+
   // add data inside taxonmy array
   useEffect(() => {
     switch (parameter) {
@@ -55,6 +57,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [parameter, arraySSG, arrayCMS, arrayCSS, arrayCategory]);
+
   // add value inside it`s type array
   const handleOnClick = (label, type) => {
     setParameter(type);
@@ -71,6 +74,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     setTaxonomy(temp);
     taxonomyArrayHandler(label, type);
   };
+
   // hide intro function
   useEffect(() => {
     if (SetShowIntro) {
@@ -84,7 +88,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         SetShowIntro(true);
       }
     }
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     arraySSG?.length,
@@ -119,7 +122,6 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
           { array: arrayCSS, params: "css" },
           { array: arrayCategory, params: "category" }
         );
-
         break;
       case "category":
         filteringTaxonomy(
