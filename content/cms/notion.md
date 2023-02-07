@@ -2,6 +2,6 @@
 title: "Notion"
 icon: /images/icons/notion.svg
 website: https://notion.so/
-noindex: true
-draft: false
+draft: true
+page_draft: true
 ---
