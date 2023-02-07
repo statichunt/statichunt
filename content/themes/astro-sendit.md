@@ -14,11 +14,12 @@ cms:
   - CloudCannon
 category:
   - Business
-draft: false
+draft: true
 publish_date: '2022-11-29T03:58:06Z'
 update_date: '2023-02-02T02:03:18Z'
 github_star: 0
 github_fork: 2
+disabled_reason: Github repo not found
 ---
 ## Theme Features
 - Pre-built pages

@@ -1,4 +1,6 @@
 import config from "@config/config.json";
+import useTaxonmyHandler from "@hooks/useAccordionHandler";
+// import { handleTaxonomyArray } from "@lib/accordionFunction";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import Image from "next/image";
@@ -6,26 +8,18 @@ import { useEffect, useState } from "react";
 
 const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   const [taxonomy, setTaxonomy] = useState(type);
-  const [filterState, setFilterState] = useState([]);
   const { darkIconList } = config;
   const {
-    setArraySSG,
     arraySSG,
     arrayCMS,
-    setArrayCMS,
     arrayCSS,
-    setArrayCSS,
     arrayCategory,
-    setArrayCategory,
-    arrayTool,
-    setArrayTool,
     allReset,
     parameter,
     setParameter,
     taxonomyArray,
-    setTaxonomyArray,
   } = useFilterContext();
-
+  // add select property
   useEffect(() => {
     const filterAddition = taxonomy.map((item, id) => ({
       ...item,
@@ -34,50 +28,38 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
     setTaxonomy(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug, allReset]);
-  // add data on texonomy array
+  // call custom hook
+  const {
+    taxonomyArrayHandler,
+    filteringTaxonomy,
+    filterState,
+    handleTaxonomyArray,
+  } = useTaxonmyHandler(themes);
+  // add data inside taxonmy array
   useEffect(() => {
-    if (parameter === "ssg") {
-      if (!arraySSG.length) {
-        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
-      } else if (arraySSG.length && taxonomyArray.includes(parameter)) {
-        setTaxonomyArray(taxonomyArray);
-      } else if (!taxonomyArray.includes(parameter)) {
-        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
-      }
-    } else if (parameter === "css") {
-      if (!arrayCSS.length) {
-        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
-      } else if (arrayCSS.length && taxonomyArray.includes(parameter)) {
-        setTaxonomyArray(taxonomyArray);
-      } else if (!taxonomyArray.includes(parameter)) {
-        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
-      }
-    } else if (parameter === "cms") {
-      if (!arrayCMS.length) {
-        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
-      } else if (arrayCMS.length && taxonomyArray.includes(parameter)) {
-        setTaxonomyArray(taxonomyArray);
-      } else if (!taxonomyArray.includes(parameter)) {
-        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
-      }
-    } else if (parameter === "category") {
-      if (!arrayCategory.length) {
-        setTaxonomyArray(taxonomyArray.filter((el) => el !== parameter));
-      } else if (arrayCategory.length && taxonomyArray.includes(parameter)) {
-        setTaxonomyArray(taxonomyArray);
-      } else if (!taxonomyArray.includes(parameter)) {
-        setTaxonomyArray((prevValue) => [...prevValue, parameter]);
-      }
+    switch (parameter) {
+      case "ssg":
+        handleTaxonomyArray(arraySSG);
+        break;
+      case "css":
+        handleTaxonomyArray(arrayCSS);
+        break;
+      case "cms":
+        handleTaxonomyArray(arrayCMS);
+        break;
+      case "category":
+        handleTaxonomyArray(arrayCategory);
+        break;
+      default:
+        break;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [parameter, arraySSG, arrayCMS, arrayCSS, arrayCategory]);
-
+  // add value inside it`s type array
   const handleOnClick = (label, type) => {
     setParameter(type);
-
     // scroll to top
     window.scrollTo({ top: 0 });
-
     // set active state
     const temp = [...taxonomy];
     for (let i in temp) {
@@ -86,53 +68,8 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         item.selected = !item.selected;
       }
     }
-
     setTaxonomy(temp);
-
-    // set ssg array
-    if (type === "ssg") {
-      if (arraySSG.includes(label)) {
-        setArraySSG(arraySSG.filter((x) => x !== label));
-      } else {
-        setArraySSG((prevValue) => [...prevValue, label]);
-      }
-    }
-
-    // set cms array
-    if (type === "cms") {
-      if (arrayCMS.includes(label)) {
-        setArrayCMS(arrayCMS.filter((x) => x !== label));
-      } else {
-        setArrayCMS((prevValue) => [...prevValue, label]);
-      }
-    }
-
-    // set css array
-    if (type === "css") {
-      if (arrayCSS.includes(label)) {
-        setArrayCSS(arrayCSS.filter((x) => x !== label));
-      } else {
-        setArrayCSS((prevValue) => [...prevValue, label]);
-      }
-    }
-
-    // set category array
-    if (type === "category") {
-      if (arrayCategory.includes(label)) {
-        setArrayCategory(arrayCategory.filter((x) => x !== label));
-      } else {
-        setArrayCategory((prevValue) => [...prevValue, label]);
-      }
-    }
-
-    // set tool array
-    if (type === "tool") {
-      if (arrayTool.includes(label)) {
-        setArrayTool(arrayTool.filter((x) => x !== label));
-      } else {
-        setArrayTool((prevValue) => [...prevValue, label]);
-      }
-    }
+    taxonomyArrayHandler(label, type);
   };
   // hide intro function
   useEffect(() => {
@@ -157,154 +94,43 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   ]);
 
   // filter content by taxonomy
-
-  const filterStateFunction = (array, filterArray, taxonomy) => {
-    const arrayFilter = filterArray.map((item) => {
-      const filterTaxonomy = array.filter((params) =>
-        params?.frontmatter[taxonomy]?.map((el) => slugify(el)).includes(item)
-      );
-
-      return {
-        filterTaxonomy,
-      };
-    });
-    return arrayFilter.map((d) => d.filterTaxonomy).flat();
-  };
-
   useEffect(() => {
-    if (parameter === "ssg") {
-      if (taxonomyArray[0] === "ssg") {
-        setFilterState(filterStateFunction(themes, arraySSG, "ssg"));
-      } else {
-        if (arraySSG.length) {
-          setFilterState(filterStateFunction(filterState, arraySSG, "ssg"));
-        } else {
-          const filterCSS = filterStateFunction(themes, arrayCSS, "css");
-          const filterCMS = filterStateFunction(
-            filterCSS.length ? filterCSS : themes,
-            arrayCMS,
-            "cms"
-          );
-          const filterCategory = filterStateFunction(
-            filterCSS.length
-              ? filterCSS
-              : filterCMS.length
-              ? filterCMS
-              : themes,
-            arrayCategory,
-            "category"
-          );
+    switch (parameter) {
+      case "ssg":
+        filteringTaxonomy(
+          { array: arraySSG, params: "ssg" },
+          { array: arrayCSS, params: "css" },
+          { array: arrayCMS, params: "cms" },
+          { array: arrayCategory, params: "category" }
+        );
+        break;
+      case "css":
+        filteringTaxonomy(
+          { array: arrayCSS, params: "css" },
+          { array: arraySSG, params: "ssg" },
+          { array: arrayCMS, params: "cms" },
+          { array: arrayCategory, params: "category" }
+        );
+        break;
+      case "cms":
+        filteringTaxonomy(
+          { array: arrayCMS, params: "cms" },
+          { array: arraySSG, params: "ssg" },
+          { array: arrayCSS, params: "css" },
+          { array: arrayCategory, params: "category" }
+        );
 
-          setFilterState(
-            filterCategory.length
-              ? filterCategory
-              : filterCMS.length
-              ? filterCMS
-              : filterCSS
-          );
-        }
-      }
-    } else if (parameter === "css") {
-      if (taxonomyArray[0] === "css") {
-        setFilterState(filterStateFunction(themes, arrayCSS, "css"));
-      } else {
-        if (arrayCSS.length) {
-          setFilterState(filterStateFunction(filterState, arrayCSS, "css"));
-        } else {
-          const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
-          const filterCMS = filterStateFunction(
-            filterSSG.length ? filterSSG : themes,
-            arrayCMS,
-            "cms"
-          );
-
-          const filterCategory = filterStateFunction(
-            filterCMS.length
-              ? filterCMS
-              : filterSSG.length
-              ? filterSSG
-              : themes,
-            arrayCategory,
-            "category"
-          );
-          setFilterState(
-            filterCategory.length
-              ? filterCategory
-              : filterCMS.length
-              ? filterCMS
-              : filterSSG
-          );
-        }
-
-        // setFilterState(filterStateFunction(filterState, arrayCSS, "css"));
-      }
-    } else if (parameter === "cms") {
-      if (taxonomyArray[0] === "cms") {
-        setFilterState(filterStateFunction(themes, arrayCMS, "cms"));
-      } else {
-        if (arrayCMS.length) {
-          setFilterState(filterStateFunction(filterState, arrayCMS, "cms"));
-        } else {
-          const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
-          const filterCSS = filterStateFunction(
-            filterSSG.length ? filterSSG : themes,
-            arrayCSS,
-            "css"
-          );
-          const filterCategory = filterStateFunction(
-            filterCSS.length
-              ? filterCSS
-              : filterSSG.length
-              ? filterSSG
-              : themes,
-            arrayCategory,
-            "category"
-          );
-          setFilterState(
-            filterCategory.length
-              ? filterCategory
-              : filterCSS.length
-              ? filterCSS
-              : filterSSG
-          );
-        }
-      }
-    } else if (parameter === "category") {
-      if (taxonomyArray[0] === "category") {
-        setFilterState(filterStateFunction(themes, arrayCategory, "category"));
-      } else {
-        if (arrayCategory.length) {
-          setFilterState(
-            filterStateFunction(filterState, arrayCategory, "category")
-          );
-        } else {
-          const filterSSG = filterStateFunction(themes, arraySSG, "ssg");
-          const filterCSS = filterStateFunction(
-            filterSSG.length ? filterSSG : themes,
-            arrayCSS,
-            "css"
-          );
-          const filterCMS = filterStateFunction(
-            filterCSS.length
-              ? filterCSS
-              : filterSSG.length
-              ? filterSSG
-              : themes,
-            arrayCMS,
-            "cms"
-          );
-
-          setFilterState(
-            filterCMS.length
-              ? filterCMS
-              : filterCSS.length
-              ? filterCSS
-              : filterSSG.length
-              ? filterSSG
-              : themes
-          );
-        }
-      }
+        break;
+      case "category":
+        filteringTaxonomy(
+          { array: arrayCategory, params: "category" },
+          { array: arraySSG, params: "ssg" },
+          { array: arrayCSS, params: "css" },
+          { array: arrayCMS, params: "cms" }
+        );
+        break;
+      default:
+        break;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
