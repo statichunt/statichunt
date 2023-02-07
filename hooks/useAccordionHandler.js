@@ -79,7 +79,6 @@ const useTaxonmyHandler = (themes) => {
         setFilterState(
           filterStateFunction(
             filterState,
-            themes,
             first_params.array,
             first_params.params
           )
