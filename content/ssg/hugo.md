@@ -2,7 +2,7 @@
 title: Hugo
 page_title: Hugo Themes
 weight: "2"
-meta_title: 100+ Hand-Picked Free Hugo Themes In 2023
+meta_title: 70+ Hand-Picked Free Hugo Themes In 2023
 description: Are you looking for the best Hugo theme? Check out our broad selection of themes that will give your website a professional and polished appearance.
 icon: "/images/icons/hugo.svg"
 website: https://gohugo.io

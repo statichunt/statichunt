@@ -2,7 +2,7 @@
 title: Astro
 page_title: Astro Themes
 weight: "3"
-meta_title: Astro Themes | Get The Best Free Astro Themes For Your Website
+meta_title: 10+ Best Free Astro Themes In 2023 | Statichunt
 description: "Looking for the best Astro themes? These free Astro themes and templates are ideal for any type of website, from businesses to personal blogs."
 icon: /images/icons/astro.svg
 website: https://astro.build/
