@@ -2,8 +2,8 @@
 title: Eleventy
 page_title: Eleventy Themes
 weight: "6"
-meta_title: Eleventy Themes | Get The Best Free 11ty Themes and Templates
-description: "Looking for the best Eleventy themes? These free eleventy  themes and templates are ideal for any type of website, from businesses to personal blogs."
+meta_title: Best Free 11ty Themes In 2023 | Statichunt
+description: "Looking for the best Eleventy themes? These free eleventy themes and templates are ideal for any type of website"
 icon: /images/icons/eleventy.svg
 website: https://www.11ty.dev/
 github_path: 11ty/eleventy/
