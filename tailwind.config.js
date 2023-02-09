@@ -1,3 +1,4 @@
+const plugin = require("@tailwindcss/forms");
 const theme = require("./config/theme.json");
 
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
@@ -87,5 +88,15 @@ module.exports = {
     require("@tailwindcss/forms"),
     require("tailwind-bootstrap-grid")({ generateContainer: false }),
     require("@tailwindcss/line-clamp"),
+    plugin(function ({ addComponents }) {
+      addComponents({
+        ".form-control": {
+          position: "relative",
+          width: "1%",
+          flex: "1 1 auto",
+          minWidth: 0,
+        },
+      });
+    }),
   ],
 };
