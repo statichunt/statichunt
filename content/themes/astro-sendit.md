@@ -16,9 +16,9 @@ category:
   - Business
 draft: true
 publish_date: '2022-11-29T03:58:06Z'
-update_date: '2023-02-02T02:03:18Z'
+update_date: '2023-02-08T21:18:14Z'
 github_star: 0
-github_fork: 2
+github_fork: 3
 disabled_reason: Github repo not found
 ---
 ## Theme Features
