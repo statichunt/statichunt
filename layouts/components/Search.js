@@ -39,9 +39,9 @@ const Search = ({ setSearchModal, searchModal }) => {
         className="absolute top-0 left-0 z-[500] h-screen w-screen bg-[black]/30"
         onClick={() => setSearchModal(false)}
       ></div>
-      <div className="relative z-[600] m-[100px_auto_0px] mx-auto h-auto w-[900px] max-w-[calc(100%_-_50px)] overflow-hidden rounded-lg bg-white shadow-[0_15px_25px_#00000029] sm:max-w-[calc(100%_-_20px)]">
+      <div className="relative z-[600] m-[100px_auto_0px] mx-auto h-auto w-[900px] max-w-[calc(100%_-_50px)] overflow-hidden rounded-lg bg-white shadow-[0_15px_25px_#00000029] dark:bg-darkmode-body sm:max-w-[calc(100%_-_20px)]">
         <div className="input-group border-b p-2">
-          <span className="input-group-text border-0 bg-transparent pr-0">
+          <span className="input-group-text border-0 bg-transparent pr-0 dark:text-darkmode-light">
             <svg
               width="18"
               height="18"
@@ -66,23 +66,25 @@ const Search = ({ setSearchModal, searchModal }) => {
           </span>
 
           <input
-            className={`form-control block h-12 w-[90%] border-0 pb-[2px] shadow-none outline-0 focus:ring-0`}
+            className={`form-control block h-12 w-[90%] border-0 pb-[2px] shadow-none outline-0 focus:ring-0 dark:bg-darkmode-body dark:text-darkmode-light`}
             type="text"
             onChange={debouncedResults}
             placeholder="Search (ex: portfolio)"
             ref={emailInputRef}
           />
           <span
-            className={`font-monospace z-10 m-0 ml-0 cursor-pointer self-center rounded-md border-[1px_solid_#eee] bg-white p-[2px_6px_1px_8px]  font-medium leading-[0] hover:bg-[#eee] sm:p-[0px_8px] sm:text-lg`}
+            className={`font-monospace z-10 m-0 ml-0 cursor-pointer self-center rounded-md border-[1px_solid_#eee] bg-white p-[2px_6px_1px_8px] font-medium  leading-[0] hover:bg-[#eee] dark:bg-darkmode-body sm:p-[0px_8px] sm:text-lg`}
             onClick={() => setSearchModal(false)}
           >
-            <span className="hidden text-sm sm:block">ESC</span>
+            <span className="hidden text-sm dark:text-darkmode-light  sm:block ">
+              ESC
+            </span>
           </span>
         </div>
         <Tab />
         <div className="flex justify-between">
-          <ResourceCard />
           <ThemesCard />
+          <ResourceCard />
         </div>
         {/* <ExampleCard /> */}
         {/* <div className={`pt-4 ${styles.searchResultWrap}`}>

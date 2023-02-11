@@ -29,9 +29,9 @@ const Tab = () => {
       <ul className=" flex border-b border-solid border-[#dae1e7]">
         <li className="flex-1 text-center" onClick={() => handleChange("all")}>
           <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 ${
+            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
               isActive === "all"
-                ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
+                ? `border-b-2 border-solid border-primary text-[#292d32]`
                 : undefined
             }`}
           >
@@ -43,7 +43,7 @@ const Tab = () => {
           onClick={() => handleChange("theme")}
         >
           <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 ${
+            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
               isActive === "theme"
                 ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
                 : undefined
@@ -57,7 +57,7 @@ const Tab = () => {
           onClick={() => handleChange("resource")}
         >
           <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 ${
+            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
               isActive === "resource"
                 ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
                 : undefined
@@ -71,7 +71,7 @@ const Tab = () => {
           onClick={() => handleChange("examples")}
         >
           <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 ${
+            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
               isActive === "examples"
                 ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
                 : undefined
