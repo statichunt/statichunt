@@ -1,6 +1,19 @@
 import { useSerachContext } from "context/searchContext";
 import { useState } from "react";
-
+const TabItem = [
+  {
+    label: "Everything",
+    value: "all",
+  },
+  {
+    label: "Themes",
+    value: "themes",
+  },
+  {
+    label: "Resources",
+    value: "resource",
+  },
+];
 const Tab = () => {
   const { setIsExample, setIsResource, setIsTheme } = useSerachContext();
   const [isActive, setIsActive] = useState("all");
@@ -10,35 +23,43 @@ const Tab = () => {
       setIsTheme(true);
       setIsResource(true);
       setIsExample(true);
-    } else if (label === "theme") {
+    } else if (label === "themes") {
       setIsTheme(true);
       setIsResource(false);
       setIsExample(false);
-    } else if (label === "examples") {
-      setIsTheme(false);
-      setIsResource(false);
-      setIsExample(true);
-    } else if (label === "resource") {
+    }
+    // else if (label === "examples") {
+    //   setIsTheme(false);
+    //   setIsResource(false);
+    //   setIsExample(true);
+    // }
+    else if (label === "resource") {
       setIsTheme(false);
       setIsResource(true);
       setIsExample(false);
     }
   };
   return (
-    <div className="my-4 mx-auto">
-      <ul className=" flex border-b border-solid border-[#dae1e7]">
-        <li className="flex-1 text-center" onClick={() => handleChange("all")}>
-          <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
-              isActive === "all"
-                ? `border-b-2 border-solid border-primary text-[#292d32]`
-                : undefined
-            }`}
+    <div className="mx-auto p-8">
+      <ul className="-ml-4">
+        {TabItem.map((item, i) => (
+          <li
+            key={`item-${i}`}
+            className="ml-4 inline w-[calc(100%_/_3_-_16px)] "
+            onClick={() => handleChange(item.value)}
           >
-            All
-          </span>
-        </li>
-        <li
+            <a
+              className={`border-primarycursor-pointer  cursor-pointer  rounded-[4px] border border-solid border-[#059669] px-6 py-2 text-lg font-medium decoration-0 dark:border-[#45D19E]  ${
+                isActive === item.value
+                  ? ` btn-primary border-none text-white dark:text-white`
+                  : "text-[#059669] dark:text-[#45D19E]"
+              }`}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+        {/* <li
           className="flex-1 text-center"
           onClick={() => handleChange("theme")}
         >
@@ -65,8 +86,8 @@ const Tab = () => {
           >
             Resources
           </span>
-        </li>
-        <li
+        </li> */}
+        {/* <li
           className="flex-1 text-center"
           onClick={() => handleChange("examples")}
         >
@@ -79,7 +100,7 @@ const Tab = () => {
           >
             examples
           </span>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

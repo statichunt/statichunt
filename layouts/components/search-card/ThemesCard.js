@@ -1,3 +1,5 @@
+import useSearchResource from "@hooks/useSearchResource";
+import useSearchTheme from "@hooks/useSearchTheme";
 import { toolsArray } from "@lib/utils/toolsArray";
 import { useSerachContext } from "context/searchContext";
 import Link from "next/link";
@@ -6,84 +8,48 @@ import ImageFallback from "../ImageFallback";
 import ToolsIcon from "../ToolsIcon";
 
 const ThemesCard = () => {
-  const { themes, searchKey, tools } = useSerachContext();
-
-  let searchtTheme = themes.filter((theme) => {
-    const searchString = searchKey.toLowerCase();
-    if (searchString === "") {
-      return "";
-    } else if (theme.frontmatter.title.toLowerCase().includes(searchString)) {
-      return theme;
-    } else if (
-      theme.frontmatter.description?.toLowerCase().includes(searchString)
-    ) {
-      return theme;
-    } else if (
-      theme.frontmatter?.ssg
-        ?.map((el) => el?.toLowerCase())
-        .includes(searchString)
-    ) {
-      return theme;
-    } else if (
-      theme.frontmatter?.category
-        ?.map((el) => el?.toLowerCase())
-        .includes(searchString)
-    ) {
-      return theme;
-    } else if (
-      theme.frontmatter?.css
-        ?.map((el) => el?.toLowerCase())
-        .includes(searchString)
-    ) {
-      return theme;
-    } else if (
-      theme.frontmatter?.cms
-        ?.map((el) => el?.toLowerCase())
-        .includes(searchString)
-    ) {
-      return theme;
-    } else if (theme.frontmatter.author.toLowerCase().includes(searchString)) {
-      return theme;
-    }
-  });
+  const { tools } = useSerachContext();
+  const { themes } = useSearchTheme();
+  const { resources } = useSearchResource();
 
   return (
     <div
-      className={` flex-[1_0_50%]  overflow-hidden  border-r border-border p-4 ${
-        searchtTheme.length ? "block" : "hidden"
+      className={` mb-10  flex-[1_0_50%] overflow-hidden border-r border-[#E9E9E9] px-8 dark:border-[#465765] ${
+        themes.length ? "block" : "hidden"
       }`}
     >
-      <h1 className="h4 ml-3 mb-2">Themes</h1>
-      <div className="flex flex-wrap justify-center ">
-        {searchtTheme.slice(0, 4).map((theme, i) => (
-          <div key={`theme-${i}`} className="ml-3 mb-4 rounded-md shadow-md">
-            <Link href={`/themes/${theme.slug}`}>
-              <ImageFallback
-                src={`/themes/${theme.slug}.png`}
-                fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
-                height={145}
-                width={190}
-                alt={theme.frontmatter?.title}
-                className="mb-2 block rounded-t"
-              />
-            </Link>
+      <h2 className="h6 mb-4 text-[#666666]">Themes</h2>
+      <div className={`row ${resources.length ? "row-cols-2" : "row-cols-4"}`}>
+        {themes.slice(0, 4).map((theme, i) => (
+          <div key={`theme-${i}`} className=" col mb-4">
+            <div className="rounded-md shadow-[0px_4px_34px_rgba(0,0,0,0.1)] ">
+              <Link href={`/themes/${theme.slug}`}>
+                <ImageFallback
+                  src={`/themes/${theme.slug}.png`}
+                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+                  height={160}
+                  width={230}
+                  alt={theme.frontmatter?.title}
+                  className=" mb-4 block w-full rounded-t"
+                />
+              </Link>
 
-            <div className="px-2 ">
-              <div className="flex justify-between">
-                <h2 className="h6 mb-0 text-lg font-medium">
+              <div className="mb-2 px-4">
+                <h3 className="h6 mb-3 text-base font-bold leading-4">
                   <Link
                     href={`/themes/${theme.slug}`}
                     className="line-clamp-1 hover:underline"
                   >
                     {theme.frontmatter.title}
                   </Link>
-                </h2>
+                </h3>
+
+                <ToolsIcon
+                  tools={tools}
+                  type={toolsArray(theme)}
+                  themeCard={true}
+                />
               </div>
-              <ToolsIcon
-                tools={tools}
-                type={toolsArray(theme)}
-                themeCard={true}
-              />
             </div>
           </div>
         ))}

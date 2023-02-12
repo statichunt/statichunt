@@ -4,7 +4,6 @@ import React from "react";
 const ThemesCard = () => {
   const { themes, searchKey } = useSerachContext();
 
-  console.log(themes);
   return <div className="mt-4">ThemesCard</div>;
 };
 

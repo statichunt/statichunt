@@ -44,7 +44,6 @@ const ExampleCard = () => {
     // }
   });
 
-  console.log("example",searchExample);
   return <div className="mt-4">ExampleCard</div>;
 };
 

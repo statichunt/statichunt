@@ -24,8 +24,10 @@ export const SearchContext = ({ children }) => {
     setIsExample,
     setIsResource,
     setIsTheme,
+    isResource,
+    isTheme,
   };
-  console.log(isTheme);
+ 
   return (
     <AppsarchContext.Provider value={state}>
       {children}
