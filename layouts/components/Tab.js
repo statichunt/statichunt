@@ -13,43 +13,47 @@ const TabItem = [
     label: "Resources",
     value: "resource",
   },
+  {
+    label: "Blogs",
+    value: "blog",
+  },
 ];
 const Tab = () => {
-  const { setIsExample, setIsResource, setIsTheme } = useSerachContext();
+  const { setIsBlog, setIsResource, setIsTheme } = useSerachContext();
   const [isActive, setIsActive] = useState("all");
   const handleChange = (label) => {
     setIsActive(label);
     if (label === "all") {
       setIsTheme(true);
       setIsResource(true);
-      setIsExample(true);
+      setIsBlog(true);
     } else if (label === "themes") {
       setIsTheme(true);
       setIsResource(false);
-      setIsExample(false);
+      setIsBlog(false);
     }
-    // else if (label === "examples") {
+    // else if (label === "Blogs") {
     //   setIsTheme(false);
     //   setIsResource(false);
-    //   setIsExample(true);
+    //   setIsBlog(true);
     // }
     else if (label === "resource") {
       setIsTheme(false);
       setIsResource(true);
-      setIsExample(false);
+      setIsBlog(false);
     }
   };
   return (
     <div className="mx-auto p-8">
-      <ul className="-ml-4">
+      <ul className="-ml-4 flex">
         {TabItem.map((item, i) => (
           <li
             key={`item-${i}`}
-            className="ml-4 inline w-[calc(100%_/_3_-_16px)] "
+            className="ml-4 w-[calc(100%_/_3_-_16px)] flex-1 "
             onClick={() => handleChange(item.value)}
           >
             <a
-              className={`border-primarycursor-pointer  cursor-pointer  rounded-[4px] border border-solid border-[#059669] px-6 py-2 text-lg font-medium decoration-0 dark:border-[#45D19E]  ${
+              className={`border-primarycursor-pointer block cursor-pointer rounded-[4px]  border border-solid border-[#059669] px-10 py-2 text-center text-lg font-medium decoration-0 dark:border-[#45D19E]  ${
                 isActive === item.value
                   ? ` btn-primary border-none text-white dark:text-white`
                   : "text-[#059669] dark:text-[#45D19E]"
@@ -89,16 +93,16 @@ const Tab = () => {
         </li> */}
         {/* <li
           className="flex-1 text-center"
-          onClick={() => handleChange("examples")}
+          onClick={() => handleChange("Blogs")}
         >
           <span
             className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
-              isActive === "examples"
+              isActive === "Blogs"
                 ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
                 : undefined
             }`}
           >
-            examples
+            Blogs
           </span>
         </li> */}
       </ul>

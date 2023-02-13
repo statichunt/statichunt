@@ -1,10 +1,10 @@
 import { useSerachContext } from "context/searchContext";
 import React from "react";
 
-const ThemesCard = () => {
-  const { themes, searchKey } = useSerachContext();
+const BlogCard = () => {
+  const { blog, searchKey } = useSerachContext();
 
-  return <div className="mt-4">ThemesCard</div>;
+  return <div className="mt-4">blogCard</div>;
 };
 
-export default ThemesCard;
+export default BlogCard;

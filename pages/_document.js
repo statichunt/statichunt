@@ -1,9 +1,11 @@
 import TwSizeIndicator from "@components/TwSizeIndicator";
 import config from "@config/config.json";
+
 import { Head, Html, Main, NextScript } from "next/document";
 
 const Document = () => {
   // destructuring items from config object
+
   const { favicon } = config.site;
   return (
     <Html lang="en">
@@ -23,7 +25,6 @@ const Document = () => {
           content="#252f37"
         />
         <meta name="yandex-verification" content="776294feb841e08c" />
-
       </Head>
       <body>
         <Main />

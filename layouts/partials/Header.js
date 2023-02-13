@@ -4,7 +4,7 @@ import config from "@config/config.json";
 import menu from "@config/menu.json";
 import useOs from "@hooks/useOs";
 import Search from "@layouts/components/Search";
-import { useSerachContext } from "context/searchContext";
+
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -13,7 +13,6 @@ import { FaDiscord } from "react-icons/fa";
 
 const Header = () => {
   const [searchModal, setSeachModal] = useState(false);
-  const { setSearchkey } = useSerachContext();
 
   // distructuring the main menu from menu object
   const { main } = menu;
@@ -40,6 +39,13 @@ const Header = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchModal, macOs]);
+  useEffect(() => {
+    if (searchModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+  }, [searchModal]);
 
   return (
     <>

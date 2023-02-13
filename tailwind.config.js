@@ -88,6 +88,7 @@ module.exports = {
     require("@tailwindcss/forms"),
     require("tailwind-bootstrap-grid")({ generateContainer: false }),
     require("@tailwindcss/line-clamp"),
+
     plugin(function ({ addComponents }) {
       addComponents({
         ".form-control": {

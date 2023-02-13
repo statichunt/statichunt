@@ -39,6 +39,7 @@
     "react-use-cookie": "^1.4.0",
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
+    "tailwind-scrollbar": "^2.1.0",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
