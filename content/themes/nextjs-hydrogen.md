@@ -5,7 +5,7 @@ demo: https://hydrogen-nextjs.vercel.app/
 author: Statichunt
 author_link: https://statichunt.com
 date: 2022-12-19T00:00:00.000Z
-weight: 1
+weight: 5
 description: >-
   Hydrogen is a minimal NextJs Tailwind blog starter template. Highly
   customizable and ideal for creating personal blog website.
