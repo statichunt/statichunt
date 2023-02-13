@@ -4,8 +4,8 @@ download: https://jekyllthemes.io/theme/danto-magazine-jekyll-theme
 github: null
 price: 79
 demo: https://danto-jekyll.netlify.app/
-author: jekyllthemes
-author_link: https://jekyllthemes.io/
+author:  Artem Sheludko
+author_link: https://jekyllthemes.io/developers/artem-sheludko
 date: 2023-02-12T00:00:00.000Z
 description: Danto is a fast, modern, optimized, and mobile-friendly Jekyll theme.
 ssg:

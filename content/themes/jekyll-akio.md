@@ -4,8 +4,8 @@ download: https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme
 github: null
 price: 49
 demo: https://akio-jekyll.netlify.app/
-author: jekyllthemes
-author_link: https://jekyllthemes.io/
+author: Artem Sheludko
+author_link: https://jekyllthemes.io/developers/artem-sheludko
 date: 2023-02-12T00:00:00.000Z
 description: Creative and high-speed performance portfolio theme for Jekyll.
 ssg:

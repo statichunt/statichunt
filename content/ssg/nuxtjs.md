@@ -1,8 +1,8 @@
 ---
 title: Nuxtjs
 page_title:
-meta_title: Nuxtjs Themes | A Curated Directory Of Free Nuxtjs Themes
-description: "A curated directory of best free Nuxtjs themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
+meta_title: Top Nuxtjs Themes and Templates In 2023 | Statichunt
+description: "Explore a wide range of Nuxt.js themes and templates for your next web development project. Designed for optimal performance and ease of use."
 icon: /images/icons/nuxt.svg
 website: https://nuxtjs.org
 github_path: nuxt/nuxt.js
@@ -13,12 +13,12 @@ language: JavaScript
 url: "/nuxtjs-themes"
 
 examples_page_title: Nuxtjs Examples
-examples_meta_title: Hand-Picked Nuxtjs Examples
-examples_description: Best Nuxtjs Website Examples
-examples_content: 
+examples_meta_title: Nuxtjs Website Examples - Statichunt
+examples_description: A collection of Nuxtjs Website examples to inspire the creation of your next online Project.
+examples_content: Check out the showcase of a variety of Nuxtjs website examples. Get inspired about building your upcoming web project with Nuxtjs static site generator.
 examples_url: "/nuxtjs-examples"
 
-draft: true
+draft: false
 ---
 
 Nuxtjs is a static site generator built on top of Vue.js that allows you to create static websites and applications using Vue.js. Static sites are faster and more secure than dynamic websites, and with Nuxt, you can create them without anyomplicated setup process.
