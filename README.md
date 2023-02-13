@@ -46,7 +46,7 @@ If you love this project don’t forget to click the “Star” button.
 
 ## Acknowledgments
 
-Powered by [Nextjs](https://nextjs.org//), Deployed by [Vercel](https://vercel.com/), and Managed by [Forestry](https://forestry.io/).
+Powered by [Nextjs](https://nextjs.org//), Deployed by [Vercel](https://vercel.com/), and Maintained by [Zeon Studio.](https://zeon.studio/)
 
 ## Connect With Us
 
