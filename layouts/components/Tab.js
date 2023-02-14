@@ -1,3 +1,4 @@
+import useWindow from "@hooks/useWindow";
 import { useSerachContext } from "context/searchContext";
 import { useEffect, useState } from "react";
 const TabItem = [
@@ -19,9 +20,12 @@ const TabItem = [
   },
 ];
 const Tab = () => {
+  const windowSize = useWindow();
   const { setIsBlog, setIsResource, setIsTheme, searchModal } =
     useSerachContext();
-  const [isActive, setIsActive] = useState("all");
+  const [isActive, setIsActive] = useState(
+    windowSize > 1024 ? "all" : "themes"
+  );
   const handleChange = (label) => {
     setIsActive(label);
     if (label === "all") {
@@ -42,20 +46,35 @@ const Tab = () => {
       setIsBlog(false);
     }
   };
+
   useEffect(() => {
-    setIsActive("all");
-  }, [searchModal]);
+    if (windowSize < 1024 && searchModal) {
+      setIsTheme(true);
+      setIsResource(false);
+      setIsBlog(false);
+    } else {
+      setIsTheme(true);
+      setIsResource(true);
+      setIsBlog(true);
+    }
+
+    setIsActive(windowSize > 1024 ? "all" : "themes");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchModal, windowSize]);
+
   return (
     <div className="mx-auto p-8">
-      <ul className="-ml-4 flex">
+      <ul className="-ml-4 sm:flex">
         {TabItem.map((item, i) => (
           <li
             key={`item-${i}`}
-            className="ml-4 w-[calc(100%_/_3_-_16px)] flex-1 "
+            className={`ml-4 inline w-[calc(100%_/_3_-_16px)] sm:flex-1  ${
+              windowSize < 1024 && item.value === "all" ? "hidden" : "block"
+            }`}
             onClick={() => handleChange(item.value)}
           >
             <a
-              className={`border-primarycursor-pointer block cursor-pointer rounded-[4px]  border border-solid border-[#059669] px-10 py-2 text-center text-lg font-medium decoration-0 dark:border-[#45D19E]  ${
+              className={`border-primarycursor-pointer cursor-pointer  rounded-[4px] border  border-solid border-[#059669] px-2 py-1  text-center text-sm  font-medium decoration-0 dark:border-[#45D19E] sm:block sm:px-10 sm:text-lg  ${
                 isActive === item.value
                   ? ` btn-primary border-none text-white dark:text-white`
                   : "text-[#059669] dark:text-[#45D19E]"
@@ -65,48 +84,6 @@ const Tab = () => {
             </a>
           </li>
         ))}
-        {/* <li
-          className="flex-1 text-center"
-          onClick={() => handleChange("theme")}
-        >
-          <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
-              isActive === "theme"
-                ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
-                : undefined
-            }`}
-          >
-            Themes
-          </span>
-        </li>
-        <li
-          className="flex-1 text-center"
-          onClick={() => handleChange("resource")}
-        >
-          <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
-              isActive === "resource"
-                ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
-                : undefined
-            }`}
-          >
-            Resources
-          </span>
-        </li> */}
-        {/* <li
-          className="flex-1 text-center"
-          onClick={() => handleChange("Blogs")}
-        >
-          <span
-            className={`block cursor-pointer p-[0.5rem_1rem] font-medium text-[#5a6169] decoration-0 dark:text-darkmode-light ${
-              isActive === "Blogs"
-                ? `border-b-2 border-solid border-[#22b0e7] text-[#292d32]`
-                : undefined
-            }`}
-          >
-            Blogs
-          </span>
-        </li> */}
       </ul>
     </div>
   );

@@ -12,10 +12,10 @@ const BlogCard = () => {
 
   return (
     <div className={blogs.length ? "block" : "hidden"}>
-      <h2 className="h6 mb-4 ml-8 text-text">Blog</h2>
+      <h2 className="h6  ml-8 text-text">Blog</h2>
       <div
         className={`scrollbar ${
-          resources.length ? "max-h-[200px]" : "max-h-[420px]"
+          resources.length ? "max-h-[210px]" : "max-h-[420px]"
         } overflow-y-auto overflow-x-hidden ${
           blogs.length ? "block" : "hidden"
         } pl-8 pr-2 pt-4 `}

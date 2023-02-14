@@ -9,11 +9,11 @@ const ResourceCard = () => {
   const { resources } = useSearchResource();
   const { blogs } = useSearchBlog();
   return (
-    <div className={resources.length ? "block" : "hidden"}>
+    <div className={resources.length ? "mb-2 block" : "hidden"}>
       <h2 className="h6 mb-4 ml-8 text-text">Resources</h2>
       <div
         className={`scrollbar mb-4 ${
-          blogs.length ? "max-h-[200px]" : "max-h-[420px]"
+          blogs.length ? "max-h-[210px]" : "max-h-[420px]"
         } overflow-y-auto overflow-x-hidden ${
           resources.length ? "block" : "hidden"
         } pt-4 pl-8 pr-2`}

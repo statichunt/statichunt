@@ -20,11 +20,13 @@ const ThemesCard = () => {
         themes.length ? "block" : "hidden"
       } `}
     >
-      <h2 className="h6 mb-6 ml-8 text-text">Themes</h2>
-      <div className="scrollbar max-h-[440px] overflow-y-auto overflow-x-hidden pt-4 pl-8 pr-2 ">
+      <h2 className="h6 mb-2 ml-8 text-text">Themes</h2>
+      <div className="scrollbar max-h-[470px] overflow-y-auto overflow-x-hidden pt-4 pl-8 pr-2 ">
         <div
           className={`row ${
-            resources.length || blogs.length ? "row-cols-2" : "row-cols-4"
+            resources.length || blogs.length
+              ? "row-cols-2"
+              : "row-cols-1 sm:row-cols-2 md:row-cols-3 lg:row-cols-4"
           }  `}
         >
           {themes.slice(0).map((theme, i) => (
@@ -36,7 +38,7 @@ const ThemesCard = () => {
                   height={130}
                   width={230}
                   alt={theme.frontmatter?.title}
-                  className=" mb-4 block h-[130px] w-full rounded-t"
+                  className=" mb-4 block h-auto w-full rounded-t"
                 />
 
                 <div className=" px-4">
