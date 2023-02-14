@@ -1,7 +1,7 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 import resources from "../.json/resources.json";
 import themes from "../.json/themes.json";
-import blog from "../.json/blog.json";
+import blogs from "../.json/blog.json";
 
 import tools from "../.json/tools.json";
 
@@ -11,23 +11,29 @@ export const SearchContext = ({ children }) => {
   const [isTheme, setIsTheme] = useState(true);
   const [isResource, setIsResource] = useState(true);
   const [isBlog, setIsBlog] = useState(true);
-
+  const [searchModal, setSeachModal] = useState(false);
+  useEffect(() => {
+    setIsBlog(true);
+    setIsResource(true);
+    setIsTheme(true);
+  }, [searchModal]);
   const state = {
-    themes,
-
-    resources,
+    searchModal,
+    setSeachModal,
     tools,
     searchKey,
     setSearchkey,
     themes: isTheme ? themes : [],
     resources: isResource ? resources : [],
-    blog: isBlog ? blog : [],
+    blogs: isBlog ? blogs : [],
     setIsBlog,
     setIsResource,
     setIsTheme,
     isResource,
     isTheme,
     isBlog,
+    searchModal,
+    setSeachModal,
   };
 
   return (

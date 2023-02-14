@@ -1,3 +1,4 @@
+import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
 import useSearchTheme from "@hooks/useSearchTheme";
 import { humanize } from "@lib/utils/textConverter";
@@ -6,22 +7,27 @@ import ImageFallback from "../ImageFallback";
 const ResourceCard = () => {
   const { themes } = useSearchTheme();
   const { resources } = useSearchResource();
+  const { blogs } = useSearchBlog();
   return (
-    <div
-      className={`flex-[1_0_50%]  rounded px-8   ${
-        resources.length ? "block" : "hidden"
-      }`}
-    >
-      <div className="scrollbar max-h-[200px] overflow-y-auto overflow-x-hidden ">
-        <h2 className="h6 mb-4 text-[#666666]">Resources</h2>
+    <div className={resources.length ? "block" : "hidden"}>
+      <h2 className="h6 mb-4 ml-8 text-text">Resources</h2>
+      <div
+        className={`scrollbar mb-4 ${
+          blogs.length ? "max-h-[200px]" : "max-h-[420px]"
+        } overflow-y-auto overflow-x-hidden ${
+          resources.length ? "block" : "hidden"
+        } pt-4 pl-8 pr-2`}
+      >
         <div
-          className={`row ${themes.length ? "row-cols-1" : "row-cols-2"} mb-2`}
+          className={`row ${
+            themes.length || blogs.length ? "row-cols-1" : "row-cols-2"
+          } mb-2`}
         >
           {resources.map((resource) => (
             <div key={resource.slug} className="col mb-4 ">
-              <div className="relative mr-2 rounded-[4px] p-0 shadow-[0px_4px_34px_rgba(0,0,0,0.1)] hover:bg-[#0596690f] dark:bg-[#2D3B44] dark:shadow-none">
-                <div className=" rounded-[4px]   transition duration-200   sm:flex">
-                  <div className=" w-full items-center rounded-[4px]  p-3 transition  duration-200  sm:flex">
+              <div className="relative mr-2 rounded-[4px] p-0 shadow-[0px_0px_16px_4px_rgba(0,0,0,0.04)] dark:bg-darkmode-border dark:shadow-none">
+                <div className=" rounded-[4px] transition duration-200 sm:flex">
+                  <div className=" w-full items-center rounded-[4px] p-3 transition duration-200 sm:flex">
                     <ImageFallback
                       loading="lazy"
                       src={`/resources/${resource.slug}.png`}
@@ -32,12 +38,12 @@ const ResourceCard = () => {
                       className="mr-8 max-w-[93px] rounded-[4px]"
                     />
 
-                    <div className="width-full  flex-1 bg-transparent sm:mt-0">
-                      <h3 className="h5  mb-4 flex items-center justify-between text-base font-bold ">
+                    <div className="width-full flex-1 bg-transparent sm:mt-0">
+                      <h3 className="h5 mb-4 flex items-center justify-between text-base font-bold ">
                         {resource.frontmatter.title}
 
                         <svg
-                          className="ml-3  inline text-primary dark:text-white"
+                          className="ml-3 inline text-primary dark:text-white"
                           width="15"
                           height="16"
                           viewBox="0 0 13 14"

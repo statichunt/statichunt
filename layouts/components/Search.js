@@ -2,8 +2,8 @@ import { useEffect, useMemo, useRef } from "react";
 import debounce from "lodash.debounce";
 import Tab from "./Tab";
 import { useSerachContext } from "context/searchContext";
-import ResourceCard from "./search-card/ResourceCard";
 import ThemesCard from "./search-card/ThemesCard";
+import ResourceBlogLayout from "./search-card/ResourceBlogLayout";
 
 const Search = ({ setSearchModal, searchModal }) => {
   const { setSearchkey } = useSerachContext();
@@ -37,8 +37,8 @@ const Search = ({ setSearchModal, searchModal }) => {
         className="absolute top-0 left-0 z-[500] h-screen w-screen bg-[black]/30"
         onClick={() => setSearchModal(false)}
       ></div>
-      <div className=" shadow-[0px_0px_60px_40px_rgba(0, 0, 0, 0.7)] relative z-[600] m-[100px_auto_0px] mx-auto h-auto w-[1096px]  max-w-[calc(100%_-_50px)] overflow-hidden rounded-lg bg-white dark:bg-[#2A353F] sm:max-w-[calc(100%_-_20px)]">
-        <div className="input-group  bg-[#F4F7F7] px-10 py-3 dark:bg-[#465765] ">
+      <div className=" shadow-[0px_0px_60px_40px_rgba(0, 0, 0, 0.7)] relative z-[600] m-[100px_auto_0px] mx-auto h-auto w-[1096px] max-w-[calc(100%_-_50px)]  overflow-hidden rounded-lg bg-white pb-8 dark:bg-darkmode-theme-dark sm:max-w-[calc(100%_-_20px)]">
+        <div className="input-group bg-theme-light px-10 py-3 dark:bg-darkmode-theme-light ">
           <span className="input-group-text border-0 bg-transparent pr-0">
             <svg
               width="18"
@@ -64,7 +64,7 @@ const Search = ({ setSearchModal, searchModal }) => {
           </span>
 
           <input
-            className={`form-control  block h-12  flex-1 border-0 bg-transparent pb-[2px] shadow-none outline-0 focus:ring-0  dark:text-[#CBCBCB] `}
+            className={`form-control block h-12 flex-1 border-0 bg-transparent pb-[2px] shadow-none outline-0 focus:ring-0  dark:text-darkmode-text`}
             type="text"
             onChange={debouncedResults}
             placeholder="Search (ex: portfolio)"
@@ -74,7 +74,7 @@ const Search = ({ setSearchModal, searchModal }) => {
             className={`font-monospace z-10 m-0 ml-0 cursor-pointer self-center rounded-sm  border-[1px_solid_#eee] bg-transparent font-medium  leading-[0]   sm:text-lg`}
             onClick={() => setSearchModal(false)}
           >
-            <span className="hidden  rounded-[4px] border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-[#CBCBCB] dark:text-[#CBCBCB]  sm:block ">
+            <span className="hidden  rounded-[4px] border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-darkmode-text dark:text-darkmode-text  sm:block ">
               ESC
             </span>
           </span>
@@ -82,52 +82,8 @@ const Search = ({ setSearchModal, searchModal }) => {
         <Tab />
         <div className=" flex justify-between">
           <ThemesCard />
-          <ResourceCard />
+          <ResourceBlogLayout />
         </div>
-        {/* <ExampleCard /> */}
-        {/* <div className={`pt-4 ${styles.searchResultWrap}`}>
-          {keyword != "" && !searchItem.length && (
-            <div className="text-center mb-md-5 mb-4">
-              <h4
-                className={`mx-3 text-muted font-primary fw-light mt-md-4 mt-2 lh-1 ${common.fontRegular}`}
-                style={{ fontSize: 28 + "px" }}
-              >
-                No results for{" "}
-                <span
-                  className={`${common.textPrimary}`}
-                >{`"${keyword}"`}</span>
-              </h4>
-            </div>
-          )}
-
-          {keyword != "" && searchItem.length > 0 && (
-            <h4
-              className={`mx-3 text-muted mb-4 font-primary fw-light ${common.fontRegular}`}
-              style={{ fontSize: 24 + "px" }}
-            >
-              Results for
-              <span className={`${common.textPrimary}`}>{` "${keyword}"`}</span>
-            </h4>
-          )}
-
-          {!searchItem.length && (
-            <h4 className="h4 text-dark font-primary mx-3 mb-4">
-              {recentProducts.length
-                ? "Your Last visit"
-                : " Most popular themes"}
-            </h4>
-          )}
-
-          <SearchResults
-            products={searchItem}
-            defaultData={
-              recentProducts.length
-                ? recentProducts.slice(0, 4)
-                : productsByWeight.slice(0, 4)
-            }
-            setSearchModal={setSearchModal}
-          />
-        </div> */}
       </div>
     </div>
   );

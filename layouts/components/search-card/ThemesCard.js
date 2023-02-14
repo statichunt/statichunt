@@ -1,3 +1,4 @@
+import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
 import useSearchTheme from "@hooks/useSearchTheme";
 import { toolsArray } from "@lib/utils/toolsArray";
@@ -11,23 +12,24 @@ const ThemesCard = () => {
   const { tools } = useSerachContext();
   const { themes } = useSearchTheme();
   const { resources } = useSearchResource();
+  const { blogs } = useSearchBlog();
 
   return (
     <div
-      className={`  flex-[1_0_50%] overflow-hidden  ${
+      className={`  flex-[1_0_50%] overflow-hidden ${
         themes.length ? "block" : "hidden"
-      }`}
+      } `}
     >
-      <div className="scrollbar max-h-[500px] overflow-y-auto overflow-x-hidden px-8">
-        <h2 className="h6 mb-4 text-[#666666]">Themes</h2>
+      <h2 className="h6 mb-6 ml-8 text-text">Themes</h2>
+      <div className="scrollbar max-h-[440px] overflow-y-auto overflow-x-hidden pt-4 pl-8 pr-2 ">
         <div
           className={`row ${
-            resources.length ? "row-cols-2" : "row-cols-4"
-          } mb-2`}
+            resources.length || blogs.length ? "row-cols-2" : "row-cols-4"
+          }  `}
         >
           {themes.slice(0).map((theme, i) => (
-            <div key={`theme-${i}`} className={`col mb-6`}>
-              <div className="relative rounded-md shadow-[0px_4px_34px_rgba(0,0,0,0.1)] ">
+            <div key={`theme-${i}`} className={`col mb-6 `}>
+              <div className="relative mr-2 rounded-md shadow-[0px_4px_34px_rgba(0,0,0,0.1)]">
                 <ImageFallback
                   src={`/themes/${theme.slug}.png`}
                   fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}

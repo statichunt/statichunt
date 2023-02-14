@@ -4,6 +4,7 @@ import config from "@config/config.json";
 import menu from "@config/menu.json";
 import useOs from "@hooks/useOs";
 import Search from "@layouts/components/Search";
+import { useSerachContext } from "context/searchContext";
 
 import { useTheme } from "next-themes";
 import Link from "next/link";
@@ -12,7 +13,7 @@ import { useEffect, useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 
 const Header = () => {
-  const [searchModal, setSeachModal] = useState(false);
+
 
   // distructuring the main menu from menu object
   const { main } = menu;
@@ -23,7 +24,7 @@ const Header = () => {
   const router = useRouter();
   const macOs = useOs();
   // search function
-
+const {searchModal, setSeachModal}=useSerachContext()
   useEffect(() => {
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {

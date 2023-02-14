@@ -136,7 +136,7 @@ const Base = ({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header />
-      <main className="overflow-hidden">{children}</main>
+      {children}
       <Footer />
       <CookieConsent />
       {feeder_id && (

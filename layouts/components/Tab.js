@@ -1,5 +1,5 @@
 import { useSerachContext } from "context/searchContext";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 const TabItem = [
   {
     label: "Everything",
@@ -19,7 +19,8 @@ const TabItem = [
   },
 ];
 const Tab = () => {
-  const { setIsBlog, setIsResource, setIsTheme } = useSerachContext();
+  const { setIsBlog, setIsResource, setIsTheme, searchModal } =
+    useSerachContext();
   const [isActive, setIsActive] = useState("all");
   const handleChange = (label) => {
     setIsActive(label);
@@ -31,18 +32,19 @@ const Tab = () => {
       setIsTheme(true);
       setIsResource(false);
       setIsBlog(false);
-    }
-    // else if (label === "Blogs") {
-    //   setIsTheme(false);
-    //   setIsResource(false);
-    //   setIsBlog(true);
-    // }
-    else if (label === "resource") {
+    } else if (label === "blog") {
+      setIsTheme(false);
+      setIsResource(false);
+      setIsBlog(true);
+    } else if (label === "resource") {
       setIsTheme(false);
       setIsResource(true);
       setIsBlog(false);
     }
   };
+  useEffect(() => {
+    setIsActive("all");
+  }, [searchModal]);
   return (
     <div className="mx-auto p-8">
       <ul className="-ml-4 flex">
