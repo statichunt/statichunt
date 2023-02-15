@@ -12,13 +12,12 @@ ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-  - null
+cms: null
 category:
   - Portfolio
 draft: false
 publish_date: '2021-10-31T00:55:11Z'
-update_date: '2023-01-26T17:37:15Z'
-github_star: 7
-github_fork: 0
+update_date: '2023-02-14T16:50:11Z'
+github_star: 9
+github_fork: 2
 ---
