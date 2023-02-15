@@ -48,19 +48,23 @@ const Tab = () => {
   };
 
   useEffect(() => {
-    if (windowSize < 1024 && searchModal) {
+    setIsActive(windowSize > 1024 ? "all" : "themes");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchModal, windowSize]);
+  useEffect(() => {
+    if (windowSize < 1024) {
       setIsTheme(true);
       setIsResource(false);
       setIsBlog(false);
+      // setIsActive("themes");
     } else {
+      // setIsActive("all");
       setIsTheme(true);
       setIsResource(true);
       setIsBlog(true);
     }
-
-    setIsActive(windowSize > 1024 ? "all" : "themes");
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchModal, windowSize]);
+  }, [windowSize]);
 
   return (
     <div className="mx-auto p-8">

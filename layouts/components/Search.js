@@ -74,8 +74,11 @@ const Search = ({ setSearchModal, searchModal }) => {
             className={`font-monospace z-10 m-0 ml-0 cursor-pointer self-center rounded-sm  border-[1px_solid_#eee] bg-transparent font-medium  leading-[0]   sm:text-lg`}
             onClick={() => setSearchModal(false)}
           >
-            <span className="hidden  rounded-[4px] border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-darkmode-text dark:text-darkmode-text  sm:block ">
+            <span className="mt-5  hidden rounded-[4px] border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-darkmode-text dark:text-darkmode-text sm:block ">
               ESC
+            </span>
+            <span className="mt-5 block rounded-full border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-darkmode-text dark:text-darkmode-text sm:hidden">
+              &#x2715;
             </span>
           </span>
         </div>
