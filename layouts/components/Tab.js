@@ -21,7 +21,7 @@ const TabItem = [
 ];
 const Tab = () => {
   const windowSize = useWindow();
-  const { setIsBlog, setIsResource, setIsTheme, searchModal } =
+  const { setIsBlog, setIsResource, setIsTheme, searchModal, searchKey } =
     useSerachContext();
   const [isActive, setIsActive] = useState(
     windowSize > 1024 ? "all" : "themes"
@@ -46,11 +46,11 @@ const Tab = () => {
       setIsBlog(false);
     }
   };
-
+  console.log(windowSize, isActive);
   useEffect(() => {
     setIsActive(windowSize > 1024 ? "all" : "themes");
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchModal, windowSize]);
+  }, [windowSize]);
   useEffect(() => {
     if (windowSize < 1024) {
       setIsTheme(true);
@@ -64,7 +64,7 @@ const Tab = () => {
       setIsBlog(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [windowSize]);
+  }, [windowSize, searchKey]);
 
   return (
     <div className="mx-auto p-8">
