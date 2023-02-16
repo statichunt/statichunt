@@ -74,14 +74,14 @@
 
   &:hover {
     &::-webkit-scrollbar-track {
-      @apply bg-[#f1f1f1] dark:bg-darkmode-theme-dark;
+      @apply bg-[#f1f1f1] dark:bg-[#2a353f];
     }
     &::-webkit-scrollbar-thumb {
       @apply bg-[#bbb] dark:bg-[#032020];
     }
   }
 
-  @apply fixed top-[64px] z-50 flex h-[calc(100vh-64px)] w-[300px] max-w-[98%] -translate-x-full select-none flex-col overflow-y-auto bg-theme-light p-6 dark:bg-darkmode-theme-light lg:sticky lg:translate-x-0 xl:w-[330px];
+  @apply fixed top-[64px] z-50 flex h-[calc(100vh-64px)] w-[300px] max-w-[98%] -translate-x-full select-none flex-col overflow-y-auto bg-theme-light p-6 dark:bg-[#2a353f] lg:sticky lg:translate-x-0 xl:w-[330px];
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   &.show {
     @apply translate-x-0;
@@ -739,7 +739,7 @@
   }
 }
 .input-group {
-  @apply relative flex w-full flex-wrap items-stretch;
+  @apply relative flex w-full flex-wrap items-center;
 }
 .input-group-text {
   @apply flex items-center whitespace-nowrap rounded-[0.375rem] border border-solid border-[#ced4da] bg-[#e9ecef]  text-center text-base font-normal leading-6 text-[#212529];

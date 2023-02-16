@@ -67,18 +67,18 @@ const Tab = () => {
   }, [windowSize, searchKey]);
 
   return (
-    <div className="mx-auto p-8">
-      <ul className="-ml-4 sm:flex">
+    <div className="mx-auto p-6 md:p-8">
+      <ul className="-ml-5 flex  sm:-ml-4">
         {TabItem.map((item, i) => (
           <li
             key={`item-${i}`}
-            className={`ml-4 inline w-[calc(100%_/_3_-_16px)] sm:flex-1  ${
+            className={`ml-5 flex-1 sm:ml-4  ${
               windowSize < 1024 && item.value === "all" ? "hidden" : "block"
             }`}
             onClick={() => handleChange(item.value)}
           >
             <a
-              className={`border-primarycursor-pointer cursor-pointer  rounded-[4px] border  border-solid border-[#059669] px-2 py-1  text-center text-sm  font-medium decoration-0 dark:border-[#45D19E] sm:block sm:px-10 sm:text-lg  ${
+              className={`border-primarycursor-pointer block  cursor-pointer rounded-[4px]  border border-solid border-[#059669] px-2  py-1 text-center  text-sm font-medium decoration-0 dark:border-[#45D19E] sm:px-10 sm:text-lg  ${
                 isActive === item.value
                   ? ` btn-primary border-none text-white dark:text-white`
                   : "text-[#059669] dark:text-[#45D19E]"

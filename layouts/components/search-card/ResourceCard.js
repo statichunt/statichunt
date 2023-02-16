@@ -20,14 +20,16 @@ const ResourceCard = () => {
       >
         <div
           className={`row ${
-            themes.length || blogs.length ? "row-cols-1" : "row-cols-2"
+            themes.length || blogs.length
+              ? "row-cols-1"
+              : "row-cols-1 md:row-cols-2"
           } mb-2`}
         >
           {resources.map((resource) => (
             <div key={resource.slug} className="col mb-4 ">
               <div className="relative mr-2 rounded-[4px] p-0 shadow-[0px_0px_16px_4px_rgba(0,0,0,0.04)] dark:bg-darkmode-border dark:shadow-none">
                 <div className=" rounded-[4px] transition duration-200 sm:flex">
-                  <div className=" w-full items-center rounded-[4px] p-3 transition duration-200 sm:flex">
+                  <div className=" flex w-full items-center rounded-[4px] p-3 transition duration-200">
                     <ImageFallback
                       loading="lazy"
                       src={`/resources/${resource.slug}.png`}
@@ -35,11 +37,11 @@ const ResourceCard = () => {
                       alt="{resources.frontmatter.title}"
                       width={93}
                       height={60}
-                      className="mr-8 max-w-[93px] rounded-[4px]"
+                      className="mr-4 max-w-[93px] rounded-[4px] sm:mr-8"
                     />
 
-                    <div className="width-full flex-1 bg-transparent sm:mt-0">
-                      <h3 className="h5 mb-4 flex items-center justify-between text-base font-bold ">
+                    <div className="  flex-1 bg-transparent sm:mt-0">
+                      <h3 className="sm:h5 mb-4 flex items-center justify-between text-sm  font-bold ">
                         {resource.frontmatter.title}
 
                         <svg

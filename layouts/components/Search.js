@@ -38,7 +38,7 @@ const Search = ({ setSearchModal, searchModal }) => {
         onClick={() => setSearchModal(false)}
       ></div>
       <div className=" shadow-[0px_0px_60px_40px_rgba(0, 0, 0, 0.7)] relative z-[600] m-[100px_auto_0px] mx-auto h-auto w-[1096px] max-w-[calc(100%_-_50px)]  overflow-hidden rounded-lg bg-white pb-8 dark:bg-darkmode-theme-dark sm:max-w-[calc(100%_-_20px)]">
-        <div className="input-group bg-theme-light px-10 py-3 dark:bg-darkmode-theme-light ">
+        <div className="input-group bg-theme-light px-6 py-1 dark:bg-darkmode-theme-light  sm:py-3 md:px-10 ">
           <span className="input-group-text border-0 bg-transparent pr-0">
             <svg
               width="18"
@@ -71,13 +71,13 @@ const Search = ({ setSearchModal, searchModal }) => {
             ref={emailInputRef}
           />
           <span
-            className={`font-monospace z-10 m-0 ml-0 cursor-pointer self-center rounded-sm  border-[1px_solid_#eee] bg-transparent font-medium  leading-[0]   sm:text-lg`}
+            className={`font-monospace z-10 m-0 ml-0 cursor-pointer self-center rounded-sm  border-[1px_solid_#eee] bg-transparent font-medium leading-[0] sm:text-lg`}
             onClick={() => setSearchModal(false)}
           >
-            <span className="mt-5  hidden rounded-[4px] border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-darkmode-text dark:text-darkmode-text sm:block ">
+            <span className="  hidden rounded-[4px] border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-darkmode-text dark:text-darkmode-text lg:block ">
               ESC
             </span>
-            <span className="mt-5 block rounded-full border border-[#BCBCBD] px-1 text-sm text-[#BCBCBD] dark:border-darkmode-text dark:text-darkmode-text sm:hidden">
+            <span className=" mt-[2px] block h-6 w-6 rounded-full border border-darkmode-text text-center text-sm leading-6 text-[#BCBCBD] dark:text-darkmode-text sm:mt-1 lg:hidden">
               &#x2715;
             </span>
           </span>
