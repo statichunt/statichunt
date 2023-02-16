@@ -21,7 +21,7 @@ const ThemesCard = () => {
       } `}
     >
       <h2 className="h6 mb-2 ml-8 text-text">Themes</h2>
-      <div className="scrollbar max-h-[470px] overflow-y-auto overflow-x-hidden pt-2 pl-6 pr-2 sm:pt-4 sm:pl-8 ">
+      <div className="scrollbar max-h-[470px] overflow-y-auto overflow-x-hidden pt-2 pl-6 pr-2 sm:pt-4 md:pl-8 ">
         <div
           className={`row ${
             resources.length || blogs.length

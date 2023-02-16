@@ -29,7 +29,7 @@ const Search = ({ setSearchModal, searchModal }) => {
   });
   return (
     <div
-      className={`fixed top-0 left-0 z-[999999] h-screen w-screen    ${
+      className={`fixed top-0 left-0 z-[999999] h-screen w-screen ${
         searchModal ? `block` : "hidden"
       }`}
     >
@@ -37,8 +37,8 @@ const Search = ({ setSearchModal, searchModal }) => {
         className="absolute top-0 left-0 z-[500] h-screen w-screen bg-[black]/50 backdrop-blur-[5px] dark:bg-[black]/60"
         onClick={() => setSearchModal(false)}
       ></div>
-      <div className=" shadow-[0px_0px_60px_40px_rgba(0, 0, 0, 0.7)] relative z-[600] m-[100px_auto_0px] mx-auto h-auto w-[1096px] max-w-[calc(100%_-_50px)]  overflow-hidden rounded-lg bg-white pb-8 dark:bg-darkmode-theme-dark sm:max-w-[calc(100%_-_20px)]">
-        <div className="input-group bg-theme-light px-6 py-1 dark:bg-darkmode-theme-light  sm:py-3 md:px-10 ">
+      <div className=" shadow-[0px_0px_60px_40px_rgba(0, 0, 0, 0.7)] relative z-[600] m-[100px_auto_0px] mx-auto h-auto w-[1096px] max-w-[calc(100%-50px)]  overflow-hidden rounded-lg bg-white pb-8 dark:bg-darkmode-theme-dark sm:max-w-[calc(100%-20px)]">
+        <div className="input-group bg-theme-light px-6 py-1 dark:bg-darkmode-theme-light sm:py-3 md:px-8 ">
           <span className="input-group-text border-0 bg-transparent pr-0">
             <svg
               width="18"
