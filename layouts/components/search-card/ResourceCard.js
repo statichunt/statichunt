@@ -43,24 +43,30 @@ const ResourceCard = () => {
                     <div className="  flex-1 bg-transparent sm:mt-0">
                       <h3 className="sm:h5 mb-4 flex items-center justify-between text-sm  font-bold ">
                         {resource.frontmatter.title}
-
-                        <svg
-                          className="ml-3 inline text-primary dark:text-white"
-                          width="15"
-                          height="16"
-                          viewBox="0 0 13 14"
-                          xmlns="http://www.w3.org/2000/svg"
+                        <a
+                          className="after:absolute after:inset-0"
+                          href={`${resource.frontmatter.website}?ref=statichunt.com`}
+                          rel="noopener noreferrer nofollow"
+                          target="_blank"
                         >
-                          <g
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            fill="none"
-                            fillRule="evenodd"
+                          <svg
+                            className="ml-3 inline text-primary dark:text-white"
+                            width="15"
+                            height="16"
+                            viewBox="0 0 13 14"
+                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            <path d="M9.6 4H4.2a2.4 2.4 0 00-2.4 2.4V10"></path>
-                            <path d="M6.6 7l3-3-3-3m5.4 9v3H0"></path>
-                          </g>
-                        </svg>
+                            <g
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              fill="none"
+                              fillRule="evenodd"
+                            >
+                              <path d="M9.6 4H4.2a2.4 2.4 0 00-2.4 2.4V10"></path>
+                              <path d="M6.6 7l3-3-3-3m5.4 9v3H0"></path>
+                            </g>
+                          </svg>
+                        </a>
                       </h3>
 
                       {resource.frontmatter.tool?.map((tool, i) => (
@@ -74,12 +80,6 @@ const ResourceCard = () => {
                     </div>
                   </div>
                 </div>
-                <a
-                  className="after:absolute after:inset-0"
-                  href={`${resource.frontmatter.website}?ref=statichunt.com`}
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                ></a>
               </div>
             </div>
           ))}

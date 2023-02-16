@@ -1,6 +1,5 @@
 import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
-import React from "react";
 import BlogCard from "./BlogCard";
 import ResourceCard from "./ResourceCard";
 

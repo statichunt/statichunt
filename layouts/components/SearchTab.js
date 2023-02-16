@@ -19,9 +19,9 @@ const TabItem = [
     value: "blog",
   },
 ];
-const Tab = () => {
+const SearchTab = () => {
   const windowSize = useWindow();
-  const { setIsBlog, setIsResource, setIsTheme, searchModal, searchKey } =
+  const { setIsBlog, setIsResource, setIsTheme, searchKey } =
     useSerachContext();
   const [isActive, setIsActive] = useState(
     windowSize > 1024 ? "all" : "themes"
@@ -78,10 +78,10 @@ const Tab = () => {
             onClick={() => handleChange(item.value)}
           >
             <a
-              className={`border-primarycursor-pointer block  cursor-pointer rounded-[4px]  border border-solid border-[#059669] px-2  py-1 text-center  text-sm font-medium decoration-0 dark:border-[#45D19E] sm:px-10 sm:text-lg  ${
+              className={`border-primarycursor-pointer block cursor-pointer rounded-[4px] border border-solid border-primary px-2 py-1 text-center text-sm font-medium decoration-0 dark:border-darkmode-primary sm:px-10 sm:text-lg ${
                 isActive === item.value
-                  ? ` btn-primary border-none text-white dark:text-white`
-                  : "text-[#059669] dark:text-[#45D19E]"
+                  ? `btn-primary border-none text-white dark:text-white`
+                  : "text-primary dark:text-darkmode-primary"
               }`}
             >
               {item.label}
@@ -93,4 +93,4 @@ const Tab = () => {
   );
 };
 
-export default Tab;
+export default SearchTab;

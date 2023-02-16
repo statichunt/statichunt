@@ -4,7 +4,6 @@ import useSearchTheme from "@hooks/useSearchTheme";
 import { toolsArray } from "@lib/utils/toolsArray";
 import { useSerachContext } from "context/searchContext";
 import Link from "next/link";
-import React from "react";
 import ImageFallback from "../ImageFallback";
 import ToolsIcon from "../ToolsIcon";
 
@@ -43,7 +42,12 @@ const ThemesCard = () => {
 
                 <div className=" px-4">
                   <h3 className="h6 mb-3 text-base font-bold leading-4">
-                    {theme.frontmatter.title}
+                    <Link
+                      className="after:absolute after:inset-0 "
+                      href={`/themes/${theme.slug}`}
+                    >
+                      {theme.frontmatter.title}
+                    </Link>
                   </h3>
 
                   <ToolsIcon
@@ -52,10 +56,6 @@ const ThemesCard = () => {
                     themeCard={true}
                   />
                 </div>
-                <Link
-                  className="after:absolute after:inset-0 "
-                  href={`/themes/${theme.slug}`}
-                ></Link>
               </div>
             </div>
           ))}

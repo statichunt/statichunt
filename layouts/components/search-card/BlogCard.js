@@ -2,7 +2,6 @@ import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
 import useSearchTheme from "@hooks/useSearchTheme";
 import Link from "next/link";
-import React from "react";
 import ImageFallback from "../ImageFallback";
 
 const BlogCard = () => {
@@ -44,19 +43,19 @@ const BlogCard = () => {
 
                     <div className="  flex-1 bg-transparent sm:mt-0">
                       <h3 className="sm:h6 mb-[10px] flex items-center justify-between text-sm  font-bold ">
-                        {blog.frontmatter.title}
+                        <Link
+                          className="after:absolute after:inset-0"
+                          href={`/${blog.slug}`}
+                          rel="noopener noreferrer nofollow"
+                          target="_blank"
+                        >
+                          {blog.frontmatter.title}
+                        </Link>
                       </h3>
-
                       <span className="text-xs">{blog.frontmatter.author}</span>
                     </div>
                   </div>
                 </div>
-                <Link
-                  className="after:absolute after:inset-0"
-                  href={`/${blog.slug}`}
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                ></Link>
               </div>
             </div>
           ))}

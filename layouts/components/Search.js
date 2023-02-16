@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useRef } from "react";
-import debounce from "lodash.debounce";
-import Tab from "./Tab";
 import { useSerachContext } from "context/searchContext";
-import ThemesCard from "./search-card/ThemesCard";
+import debounce from "lodash.debounce";
+import { useEffect, useMemo, useRef } from "react";
 import ResourceBlogLayout from "./search-card/ResourceBlogLayout";
+import ThemesCard from "./search-card/ThemesCard";
+import SearchTab from "./SearchTab";
 
 const Search = ({ setSearchModal, searchModal }) => {
   const { setSearchkey } = useSerachContext();
@@ -36,8 +36,8 @@ const Search = ({ setSearchModal, searchModal }) => {
       <div
         className="absolute top-0 left-0 z-[500] h-screen w-screen bg-[black]/50 backdrop-blur-[5px] dark:bg-[black]/60"
         onClick={() => setSearchModal(false)}
-      ></div>
-      <div className=" shadow-[0px_0px_60px_40px_rgba(0, 0, 0, 0.7)] relative z-[600] mx-auto mt-16 max-h-[calc(100vh-150px)]  w-[1096px] max-w-[calc(100%-50px)]  overflow-hidden rounded-lg bg-white pb-8 dark:bg-darkmode-theme-dark sm:mt-24 sm:max-w-[calc(100%-20px)]">
+      />
+      <div className="relative z-[600] mx-auto mt-16 max-h-[calc(100vh-150px)] w-[1096px] max-w-[calc(100%-50px)] overflow-hidden rounded-lg bg-white pb-8 shadow-[0px_0px_60px_40px_rgba(0_0_0_0.7)] dark:bg-darkmode-theme-dark  sm:max-w-[calc(100%-20px)]">
         <div className="input-group bg-theme-light px-6 py-1 dark:bg-darkmode-theme-light sm:py-3 md:px-8 ">
           <span className="input-group-text border-0 bg-transparent pr-0">
             <svg
@@ -82,7 +82,7 @@ const Search = ({ setSearchModal, searchModal }) => {
             </span>
           </span>
         </div>
-        <Tab />
+        <SearchTab />
         <div className=" flex justify-between">
           <ThemesCard />
           <ResourceBlogLayout />
