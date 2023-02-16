@@ -10,9 +10,9 @@ const ResourceCard = () => {
   const { blogs } = useSearchBlog();
   return (
     <div className={resources.length ? "mb-2 block" : "hidden"}>
-      <h2 className="h6 mb-4 ml-8 text-text">Resources</h2>
+      <h2 className="h6 mb-2 ml-8 text-text">Resources</h2>
       <div
-        className={`scrollbar mb-4 ${
+        className={`scrollbar mb-6 ${
           blogs.length ? "max-h-[210px]" : "max-h-[420px]"
         } overflow-y-auto overflow-x-hidden ${
           resources.length ? "block" : "hidden"

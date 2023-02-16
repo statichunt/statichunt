@@ -758,6 +758,7 @@
     @apply  border  border-solid  dark:border-darkmode-border border-border mr-2 rounded-[10px] ;
   }
   &::-webkit-scrollbar-thumb {
+    @apply dark:bg-darkmode-theme-light;
       background-color:rgba(215, 213, 213, 0.832) ;
       border-radius: 5px;
       margin-right: 10px;

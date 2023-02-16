@@ -12,7 +12,7 @@ const BlogCard = () => {
 
   return (
     <div className={blogs.length ? "block" : "hidden"}>
-      <h2 className="h6 ml-8 text-text">Blog</h2>
+      <h2 className="h6 mb-2 ml-8 text-text">Blog</h2>
       <div
         className={`scrollbar ${
           resources.length ? "max-h-[210px]" : "max-h-[420px]"
@@ -31,7 +31,7 @@ const BlogCard = () => {
             <div key={blog.slug} className="col mb-4 ">
               <div className="relative rounded-[4px] p-0 shadow-[0px_4px_30px_rgba(0,0,0,0.06)] dark:bg-[#2D3B44] dark:shadow-none lg:mr-2">
                 <div className=" rounded-[4px] transition duration-200 sm:flex">
-                  <div className=" flex w-full items-center  rounded-[4px] p-3 transition duration-200">
+                  <div className="flex w-full items-center  rounded-[4px] p-3 transition duration-200">
                     <ImageFallback
                       loading="lazy"
                       src={`/blogs/${blog.slug}.png`}
@@ -42,7 +42,7 @@ const BlogCard = () => {
                       className="mr-4 block h-[70px] max-w-[120px] rounded-[4px] object-cover  lg:mr-8"
                     />
 
-                    <div className="width-full  flex-1 bg-transparent sm:mt-0">
+                    <div className="  flex-1 bg-transparent sm:mt-0">
                       <h3 className="sm:h6 mb-[10px] flex items-center justify-between text-sm  font-bold ">
                         {blog.frontmatter.title}
                       </h3>

@@ -46,7 +46,7 @@ const Tab = () => {
       setIsBlog(false);
     }
   };
-  console.log(windowSize, isActive);
+
   useEffect(() => {
     setIsActive(windowSize > 1024 ? "all" : "themes");
     // eslint-disable-next-line react-hooks/exhaustive-deps
