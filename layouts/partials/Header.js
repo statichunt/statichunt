@@ -3,9 +3,8 @@ import ThemeSwitcher from "@components/ThemeSwitcher";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
 import useOs from "@hooks/useOs";
-import Search from "@layouts/components/Search";
+import Search from "@layouts/components/search/Search";
 import { useSerachContext } from "context/searchContext";
-
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -13,8 +12,6 @@ import { useEffect, useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 
 const Header = () => {
-
-
   // distructuring the main menu from menu object
   const { main } = menu;
   const { logo, logo_light, title } = config.site;
@@ -24,7 +21,7 @@ const Header = () => {
   const router = useRouter();
   const macOs = useOs();
   // search function
-const {searchModal, setSeachModal}=useSerachContext()
+  const { searchModal, setSeachModal } = useSerachContext();
   useEffect(() => {
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {

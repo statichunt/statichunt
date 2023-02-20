@@ -52,3 +52,7 @@ object {
 .disabled {
   @apply bg-theme-light/5 opacity-60 dark:bg-darkmode-dark/5;
 }
+
+.flex-fill {
+  @apply flex-[1_1_auto];
+}

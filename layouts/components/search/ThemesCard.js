@@ -15,12 +15,12 @@ const ThemesCard = () => {
 
   return (
     <div
-      className={`  flex-[1_0_50%] overflow-hidden ${
+      className={`flex-fill overflow-hidden ${
         themes.length ? "block" : "hidden"
-      } `}
+      }`}
     >
       <h2 className="h6 mb-2 ml-8 text-text">Themes</h2>
-      <div className="scrollbar max-h-[470px] overflow-y-auto overflow-x-hidden pt-2 pl-6 pr-2 sm:pt-4 md:pl-8 ">
+      <div className="scrollbar max-h-[500px] pt-2 pl-6 pr-2 sm:pt-4 md:pl-8">
         <div
           className={`row ${
             resources.length || blogs.length
@@ -29,21 +29,21 @@ const ThemesCard = () => {
           }  `}
         >
           {themes.slice(0).map((theme, i) => (
-            <div key={`theme-${i}`} className={`col mb-6 `}>
-              <div className="relative mr-2 rounded-md shadow-[0px_4px_34px_rgba(0,0,0,0.1)]">
+            <div key={`theme-${i}`} className={`col mb-6`}>
+              <div className="relative mr-2 rounded-md shadow">
                 <ImageFallback
                   src={`/themes/${theme.slug}.png`}
                   fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
                   height={130}
                   width={230}
                   alt={theme.frontmatter?.title}
-                  className=" mb-4 block h-auto w-full rounded-t"
+                  className="mb-4 block h-auto w-full rounded-t"
                 />
 
-                <div className=" px-4">
+                <div className="px-4">
                   <h3 className="h6 mb-3 text-base font-bold leading-4">
                     <Link
-                      className="after:absolute after:inset-0 "
+                      className="after:absolute after:inset-0"
                       href={`/themes/${theme.slug}`}
                     >
                       {theme.frontmatter.title}

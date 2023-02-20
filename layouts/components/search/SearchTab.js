@@ -1,6 +1,7 @@
 import useWindow from "@hooks/useWindow";
 import { useSerachContext } from "context/searchContext";
 import { useEffect, useState } from "react";
+
 const TabItem = [
   {
     label: "Everything",
@@ -15,10 +16,11 @@ const TabItem = [
     value: "resource",
   },
   {
-    label: "Blogs",
+    label: "Blog",
     value: "blog",
   },
 ];
+
 const SearchTab = () => {
   const windowSize = useWindow();
   const { setIsBlog, setIsResource, setIsTheme, searchKey } =
@@ -56,9 +58,7 @@ const SearchTab = () => {
       setIsTheme(true);
       setIsResource(false);
       setIsBlog(false);
-      // setIsActive("themes");
     } else {
-      // setIsActive("all");
       setIsTheme(true);
       setIsResource(true);
       setIsBlog(true);
@@ -77,15 +77,13 @@ const SearchTab = () => {
             }`}
             onClick={() => handleChange(item.value)}
           >
-            <a
-              className={`border-primarycursor-pointer block cursor-pointer rounded-[4px] border border-solid border-primary px-2 py-1 text-center text-sm font-medium decoration-0 dark:border-darkmode-primary sm:px-10 sm:text-lg ${
-                isActive === item.value
-                  ? `btn-primary border-none text-white dark:text-white`
-                  : "text-primary dark:text-darkmode-primary"
+            <button
+              className={`btn w-full text-sm sm:text-lg ${
+                isActive === item.value ? "btn-primary" : "btn-outline-primary"
               }`}
             >
               {item.label}
-            </a>
+            </button>
           </li>
         ))}
       </ul>
