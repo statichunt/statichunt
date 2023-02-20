@@ -9,16 +9,16 @@ const useSearchResource = () => {
     if (searchString === "") {
       return "";
     } else if (
-      resource.frontmatter.title.toLowerCase().includes(searchString)
+      resource.frontmatter.title?.toLowerCase().includes(searchString)
     ) {
       return resource;
     } else if (
-      resource.frontmatter.description.toLowerCase().includes(searchString)
+      resource.frontmatter.description?.toLowerCase().includes(searchString)
     ) {
       return resource;
     } else if (
       resource.frontmatter.tool
-        .map((el) => el.toLowerCase())
+        ?.map((el) => el.toLowerCase())
         .includes(searchString)
     ) {
       return resource;

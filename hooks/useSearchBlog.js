@@ -8,15 +8,15 @@ const useSearchBlog = () => {
     const searchString = searchKey.toLowerCase();
     if (searchString === "") {
       return "";
-    } else if (blog.frontmatter.title.toLowerCase().includes(searchString)) {
+    } else if (blog.frontmatter.title?.toLowerCase().includes(searchString)) {
       return blog;
     } else if (
-      blog.frontmatter.description.toLowerCase().includes(searchString)
+      blog.frontmatter.description?.toLowerCase().includes(searchString)
     ) {
       return blog;
     } else if (
       blog.frontmatter.categories
-        .map((el) => el.toLowerCase())
+        ?.map((el) => el.toLowerCase())
         .includes(searchString)
     ) {
       return blog;

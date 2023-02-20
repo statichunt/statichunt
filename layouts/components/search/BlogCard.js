@@ -15,15 +15,16 @@ const BlogCard = ({ blogs }) => {
           <div className="relative rounded shadow">
             <div className="rounded sm:flex">
               <div className="flex w-full items-center rounded p-3">
-                <ImageFallback
-                  loading="lazy"
-                  src={`/blogs/${blog.slug}.png`}
-                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${blog.frontmatter.slug}`}
-                  alt={blog.frontmatter.title}
-                  width={120}
-                  height={80}
-                  className="mr-4 block h-[80px] max-w-[120px] rounded object-cover lg:mr-8"
-                />
+                {blog.frontmatter.image && (
+                  <ImageFallback
+                    loading="lazy"
+                    src={blog.frontmatter.image}
+                    alt={blog.frontmatter.title}
+                    width={120}
+                    height={80}
+                    className="mr-4 block h-[80px] max-w-[120px] rounded object-cover lg:mr-8"
+                  />
+                )}
                 <div className="flex-1 bg-transparent sm:mt-0">
                   <h3 className="sm:h6 mb-[10px] flex items-center justify-between text-sm font-bold">
                     <Link

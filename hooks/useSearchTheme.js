@@ -7,7 +7,7 @@ const useSearchTheme = () => {
     const searchString = searchKey.toLowerCase();
     if (searchString === "") {
       return "";
-    } else if (theme.frontmatter.title.toLowerCase().includes(searchString)) {
+    } else if (theme.frontmatter.title?.toLowerCase().includes(searchString)) {
       return theme;
     } else if (
       theme.frontmatter.description?.toLowerCase().includes(searchString)

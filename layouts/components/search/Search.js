@@ -4,7 +4,7 @@ import useSearchTheme from "@hooks/useSearchTheme";
 import { useSerachContext } from "context/searchContext";
 import debounce from "lodash.debounce";
 import { useEffect, useMemo, useRef } from "react";
-import BlogCard from "./BlogCard";
+// import BlogCard from "./BlogCard";
 import ResourceCard from "./ResourceCard";
 import SearchTab from "./SearchTab";
 import ThemesCard from "./ThemesCard";
@@ -90,7 +90,7 @@ const Search = ({ setSearchModal, searchModal }) => {
           <div className="mt-8 flex justify-between">
             {/* themes result */}
             <div
-              className={`flex-fill overflow-hidden ${
+              className={`flex-fill min-w-[50%] overflow-hidden ${
                 isTheme && themes.length ? "block" : "hidden"
               }`}
             >
@@ -113,25 +113,23 @@ const Search = ({ setSearchModal, searchModal }) => {
               >
                 <h4 className="h6 mb-3 pl-2 text-text">Resources</h4>
                 <div
-                  className={`scrollbar ${
-                    isBlog ? "max-h-[215px]" : "max-h-[500px]"
-                  } ${isResource ? "mb-4 block" : "hidden"}`}
+                  className={`scrollbar max-h-[500px]`} // ${isBlog ? "max-h-[215px]" : "max-h-[500px]"}
                 >
                   <ResourceCard resources={resources} />
                 </div>
               </div>
 
               {/* blog results */}
-              <div className={isBlog && blogs.length ? "block" : "hidden"}>
+              {/* <div className={isBlog && blogs.length ? "block" : "hidden"}>
                 <h4 className="h6 mb-3 pl-2 text-text">Blog</h4>
                 <div
                   className={`scrollbar ${
                     isResource ? "max-h-[220px]" : "max-h-[500px]"
-                  } ${isBlog ? "block" : "hidden"}`}
+                  }`}
                 >
                   <BlogCard blogs={blogs} />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
