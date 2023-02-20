@@ -1,13 +1,13 @@
 import { humanize } from "@lib/utils/textConverter";
+import { useSerachContext } from "context/searchContext";
 import ImageFallback from "../ImageFallback";
 
-const ResourceCard = ({ themes, resources, blogs }) => {
+const ResourceCard = ({ resources }) => {
+  const { isTheme, isBlog } = useSerachContext();
   return (
     <div
       className={`row p-2 ${
-        themes.length || blogs.length
-          ? "row-cols-1"
-          : "row-cols-1 md:row-cols-2"
+        isTheme || isBlog ? "row-cols-1" : "row-cols-1 md:row-cols-2"
       }`}
     >
       {resources.map((resource) => (

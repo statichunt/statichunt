@@ -1,13 +1,15 @@
 import { toolsArray } from "@lib/utils/toolsArray";
+import { useSerachContext } from "context/searchContext";
 import Link from "next/link";
 import ImageFallback from "../ImageFallback";
 import ToolsIcon from "../ToolsIcon";
 
-const ThemesCard = ({ tools, themes, resources, blogs }) => {
+const ThemesCard = ({ tools, themes }) => {
+  const { isBlog, isResource } = useSerachContext();
   return (
     <div
       className={`row p-2 ${
-        resources.length || blogs.length
+        isBlog || isResource
           ? "row-cols-2"
           : "row-cols-1 sm:row-cols-2 md:row-cols-3 lg:row-cols-4"
       }`}

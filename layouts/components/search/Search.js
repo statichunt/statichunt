@@ -10,7 +10,7 @@ import SearchTab from "./SearchTab";
 import ThemesCard from "./ThemesCard";
 
 const Search = ({ setSearchModal, searchModal }) => {
-  const { setSearchkey } = useSerachContext();
+  const { setSearchkey, isTheme, isBlog, isResource } = useSerachContext();
   const { resources } = useSearchResource();
   const { blogs } = useSearchBlog();
   const { tools } = useSerachContext();
@@ -91,54 +91,45 @@ const Search = ({ setSearchModal, searchModal }) => {
             {/* themes result */}
             <div
               className={`flex-fill overflow-hidden ${
-                themes.length ? "block" : "hidden"
+                isTheme && themes.length ? "block" : "hidden"
               }`}
             >
               <h4 className="h6 mb-3 pl-2 text-text">Themes</h4>
               <div className="scrollbar max-h-[500px]">
-                <ThemesCard
-                  themes={themes}
-                  blogs={blogs}
-                  resources={resources}
-                  tools={tools}
-                />
+                <ThemesCard themes={themes} tools={tools} />
               </div>
             </div>
             {/* resources and blogs results */}
             <div
               className={`flex-fill flex min-w-[50%] flex-col pl-3 ${
-                blogs.length || resources.length ? "block" : "hidden"
+                isBlog || isResource ? "block" : "hidden"
               }`}
             >
               {/* resource results */}
-              <div className={resources.length ? "mb-4 block" : "hidden"}>
+              <div
+                className={
+                  isResource && resources.length ? "mb-4 block" : "hidden"
+                }
+              >
                 <h4 className="h6 mb-3 pl-2 text-text">Resources</h4>
                 <div
                   className={`scrollbar ${
-                    blogs.length ? "max-h-[215px]" : "max-h-[500px]"
-                  } ${resources.length ? "mb-4 block" : "hidden"}`}
+                    isBlog ? "max-h-[215px]" : "max-h-[500px]"
+                  } ${isResource ? "mb-4 block" : "hidden"}`}
                 >
-                  <ResourceCard
-                    themes={themes}
-                    resources={resources}
-                    blogs={blogs}
-                  />
+                  <ResourceCard resources={resources} />
                 </div>
               </div>
 
               {/* blog results */}
-              <div className={blogs.length ? "block" : "hidden"}>
+              <div className={isBlog && blogs.length ? "block" : "hidden"}>
                 <h4 className="h6 mb-3 pl-2 text-text">Blog</h4>
                 <div
                   className={`scrollbar ${
-                    resources.length ? "max-h-[220px]" : "max-h-[500px]"
-                  } ${blogs.length ? "block" : "hidden"}`}
+                    isResource ? "max-h-[220px]" : "max-h-[500px]"
+                  } ${isBlog ? "block" : "hidden"}`}
                 >
-                  <BlogCard
-                    themes={themes}
-                    resources={resources}
-                    blogs={blogs}
-                  />
+                  <BlogCard blogs={blogs} />
                 </div>
               </div>
             </div>
