@@ -1,6 +1,6 @@
 import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
-import BlogCard from "./BlogCard";
+// import BlogCard from "./BlogCard";
 import ResourceCard from "./ResourceCard";
 
 const ResourceBlogLayout = () => {
@@ -13,7 +13,7 @@ const ResourceBlogLayout = () => {
       } pr-8`}
     >
       <ResourceCard />
-      <BlogCard />
+      {/* <BlogCard /> */}
     </div>
   );
 };

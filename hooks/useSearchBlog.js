@@ -1,5 +1,4 @@
 import { useSerachContext } from "context/searchContext";
-import React from "react";
 
 const useSearchBlog = () => {
   const { blogs, searchKey } = useSerachContext();

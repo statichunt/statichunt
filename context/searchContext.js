@@ -1,7 +1,7 @@
-import React, { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
+import blogs from "../.json/blog.json";
 import resources from "../.json/resources.json";
 import themes from "../.json/themes.json";
-import blogs from "../.json/blog.json";
 
 import tools from "../.json/tools.json";
 
