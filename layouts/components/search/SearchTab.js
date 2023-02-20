@@ -81,8 +81,7 @@ const SearchTab = ({ themes, blogs, resources }) => {
         >
           <button
             className={`btn btn-sm w-full text-sm sm:text-lg ${
-              item.count < 1 &&
-              "pointer-events-none select-none border-gray-300 bg-gray-200 opacity-70"
+              item.count < 1 && "disabled pointer-events-none"
             } ${
               isActive === item.value ? "btn-primary" : "btn-outline-primary"
             }`}

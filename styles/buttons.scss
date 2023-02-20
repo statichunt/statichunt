@@ -14,17 +14,14 @@
   @apply bg-gradient-to-r from-primary to-secondary text-white;
   .btn-badge {
     @apply border-primary bg-primary text-white;
-    span {
-      @apply bg-dark/[.15] text-white;
-    }
   }
-}
-
-.btn-disabled {
 }
 
 .btn-outline-primary {
   @apply btn-sm border border-primary/25 bg-transparent from-primary to-secondary hover:bg-gradient-to-r hover:text-white;
+  &:hover .btn-badge {
+    @apply border-primary bg-primary text-white;
+  }
 }
 
 .btn-follow {

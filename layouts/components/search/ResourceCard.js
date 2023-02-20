@@ -12,7 +12,7 @@ const ResourceCard = ({ resources }) => {
     >
       {resources.map((resource) => (
         <div key={resource.slug} className="col mb-4">
-          <div className="relative rounded shadow dark:bg-darkmode-border dark:shadow-none">
+          <div className="relative rounded shadow">
             <div className="rounded sm:flex">
               <div className="flex w-full items-center rounded p-3">
                 <ImageFallback
