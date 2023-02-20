@@ -722,6 +722,7 @@
 }
 
 .scrollbar {
+  @apply overflow-y-auto overflow-x-hidden;
   &::-webkit-scrollbar {
     width: 5px;
   }
@@ -749,6 +750,6 @@
     @apply absolute top-0 left-0 h-full w-full;
   }
   &-box {
-    @apply relative mx-auto mt-16 max-h-[calc(100vh-150px)] w-[1096px] max-w-[calc(100%-50px)] overflow-hidden rounded-lg bg-white pb-8 shadow-lg dark:bg-darkmode-theme-dark sm:max-w-[calc(100%-20px)];
+    @apply relative mx-auto mt-16 max-h-[calc(100vh-150px)] w-[1096px] max-w-[calc(100%-50px)] overflow-hidden rounded-lg bg-white shadow-lg dark:bg-darkmode-theme-dark sm:max-w-[calc(100%-20px)];
   }
 }

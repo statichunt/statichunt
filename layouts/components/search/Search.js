@@ -1,5 +1,6 @@
 import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
+import useSearchTheme from "@hooks/useSearchTheme";
 import { useSerachContext } from "context/searchContext";
 import debounce from "lodash.debounce";
 import { useEffect, useMemo, useRef } from "react";
@@ -12,16 +13,21 @@ const Search = ({ setSearchModal, searchModal }) => {
   const { setSearchkey } = useSerachContext();
   const { resources } = useSearchResource();
   const { blogs } = useSearchBlog();
+  const { tools } = useSerachContext();
+  const { themes } = useSearchTheme();
   const searchInputRef = useRef(null);
+
   useEffect(() => {
     searchModal
       ? searchInputRef.current.focus()
       : (searchInputRef.current.value = ""),
       setSearchkey("");
   }, [searchModal, setSearchkey]);
+
   const handleSearch = (e) => {
     setSearchkey(e.target.value);
   };
+
   const debouncedResults = useMemo(() => {
     return debounce(handleSearch, 500);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -36,6 +42,7 @@ const Search = ({ setSearchModal, searchModal }) => {
     <div className={`modal ${searchModal ? "block" : "hidden"}`}>
       <div className="modal-overlay" onClick={() => setSearchModal(false)} />
       <div className="modal-box">
+        {/* search input */}
         <div className="flex items-center bg-theme-light px-6 py-1 dark:bg-darkmode-theme-light sm:py-3 md:px-8">
           <svg
             width="18"
@@ -58,7 +65,6 @@ const Search = ({ setSearchModal, searchModal }) => {
               d="M362.4 340C347.89 357.059 330.886 370.641 321 377.36L333.477 390.136C340.377 397.136 368.677 426.536 396.477 455.436C442.39 503.189 449.915 511.338 458.252 512.277C460.338 512.513 462.475 512.296 465.277 512.136C473.777 511.636 477.577 510.036 482.877 504.636C488.077 499.436 490.577 493.236 490.577 485.336C490.577 475.536 488.177 471.136 475.477 458.036C434.491 415.684 365.696 343.904 362.4 340Z"
             />
           </svg>
-
           <input
             className="h-12 flex-1 border-0 bg-transparent text-text shadow-none outline-0 focus:ring-0 dark:text-darkmode-text"
             type="text"
@@ -78,16 +84,64 @@ const Search = ({ setSearchModal, searchModal }) => {
             </span>
           </span>
         </div>
-        <SearchTab />
-        <div className="flex justify-between">
-          <ThemesCard />
-          <div
-            className={`flex-fill flex min-w-[50%] flex-col pr-8 ${
-              blogs.length || resources.length ? "block" : "hidden"
-            }`}
-          >
-            <ResourceCard />
-            <BlogCard />
+
+        <div className="px-4 pt-3 pb-6">
+          <SearchTab themes={themes} blogs={blogs} resources={resources} />
+          <div className="mt-8 flex justify-between">
+            {/* themes result */}
+            <div
+              className={`flex-fill overflow-hidden ${
+                themes.length ? "block" : "hidden"
+              }`}
+            >
+              <h4 className="h6 mb-3 pl-2 text-text">Themes</h4>
+              <div className="scrollbar max-h-[500px]">
+                <ThemesCard
+                  themes={themes}
+                  blogs={blogs}
+                  resources={resources}
+                  tools={tools}
+                />
+              </div>
+            </div>
+            {/* resources and blogs results */}
+            <div
+              className={`flex-fill flex min-w-[50%] flex-col pl-3 ${
+                blogs.length || resources.length ? "block" : "hidden"
+              }`}
+            >
+              {/* resource results */}
+              <div className={resources.length ? "mb-4 block" : "hidden"}>
+                <h4 className="h6 mb-3 pl-2 text-text">Resources</h4>
+                <div
+                  className={`scrollbar ${
+                    blogs.length ? "max-h-[215px]" : "max-h-[500px]"
+                  } ${resources.length ? "mb-4 block" : "hidden"}`}
+                >
+                  <ResourceCard
+                    themes={themes}
+                    resources={resources}
+                    blogs={blogs}
+                  />
+                </div>
+              </div>
+
+              {/* blog results */}
+              <div className={blogs.length ? "block" : "hidden"}>
+                <h4 className="h6 mb-3 pl-2 text-text">Blog</h4>
+                <div
+                  className={`scrollbar ${
+                    resources.length ? "max-h-[220px]" : "max-h-[500px]"
+                  } ${blogs.length ? "block" : "hidden"}`}
+                >
+                  <BlogCard
+                    themes={themes}
+                    resources={resources}
+                    blogs={blogs}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

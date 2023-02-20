@@ -6,8 +6,21 @@
   @apply px-3 py-2 text-sm;
 }
 
+.btn-badge {
+  @apply ml-2 rounded bg-[#dce9e9] px-[.3rem] py-[.15rem] text-xs dark:bg-darkmode-theme-light;
+}
+
 .btn-primary {
   @apply bg-gradient-to-r from-primary to-secondary text-white;
+  .btn-badge {
+    @apply border-primary bg-primary text-white;
+    span {
+      @apply bg-dark/[.15] text-white;
+    }
+  }
+}
+
+.btn-disabled {
 }
 
 .btn-outline-primary {

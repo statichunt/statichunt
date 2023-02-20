@@ -1,66 +1,50 @@
-import useSearchBlog from "@hooks/useSearchBlog";
-import useSearchResource from "@hooks/useSearchResource";
-import useSearchTheme from "@hooks/useSearchTheme";
 import { toolsArray } from "@lib/utils/toolsArray";
-import { useSerachContext } from "context/searchContext";
 import Link from "next/link";
 import ImageFallback from "../ImageFallback";
 import ToolsIcon from "../ToolsIcon";
 
-const ThemesCard = () => {
-  const { tools } = useSerachContext();
-  const { themes } = useSearchTheme();
-  const { resources } = useSearchResource();
-  const { blogs } = useSearchBlog();
-
+const ThemesCard = ({ tools, themes, resources, blogs }) => {
   return (
     <div
-      className={`flex-fill overflow-hidden ${
-        themes.length ? "block" : "hidden"
+      className={`row p-2 ${
+        resources.length || blogs.length
+          ? "row-cols-2"
+          : "row-cols-1 sm:row-cols-2 md:row-cols-3 lg:row-cols-4"
       }`}
     >
-      <h2 className="h6 mb-2 ml-8 text-text">Themes</h2>
-      <div className="scrollbar max-h-[500px] pt-2 pl-6 pr-2 sm:pt-4 md:pl-8">
-        <div
-          className={`row ${
-            resources.length || blogs.length
-              ? "row-cols-2"
-              : "row-cols-1 sm:row-cols-2 md:row-cols-3 lg:row-cols-4"
-          }  `}
-        >
-          {themes.slice(0).map((theme, i) => (
-            <div key={`theme-${i}`} className={`col mb-6`}>
-              <div className="relative mr-2 rounded-md shadow">
-                <ImageFallback
-                  src={`/themes/${theme.slug}.png`}
-                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
-                  height={130}
-                  width={230}
-                  alt={theme.frontmatter?.title}
-                  className="mb-4 block h-auto w-full rounded-t"
+      {themes.slice(0).map((theme, i) => (
+        <div key={`theme-${i}`} className={`col mb-4`}>
+          <div className="relative rounded-md shadow">
+            <ImageFallback
+              src={`/themes/${theme.slug}.png`}
+              fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+              height={130}
+              width={230}
+              alt={theme.frontmatter?.title}
+              className="mb-4 block h-auto w-full rounded-t"
+            />
+
+            <div className="px-4">
+              <h3 className="h6 mb-3 text-base font-bold leading-4">
+                <Link
+                  className="after:absolute after:inset-0"
+                  href={`/themes/${theme.slug}`}
+                >
+                  {theme.frontmatter.title}
+                </Link>
+              </h3>
+
+              <div style={{ zoom: 0.8 }}>
+                <ToolsIcon
+                  tools={tools}
+                  type={toolsArray(theme)}
+                  themeCard={true}
                 />
-
-                <div className="px-4">
-                  <h3 className="h6 mb-3 text-base font-bold leading-4">
-                    <Link
-                      className="after:absolute after:inset-0"
-                      href={`/themes/${theme.slug}`}
-                    >
-                      {theme.frontmatter.title}
-                    </Link>
-                  </h3>
-
-                  <ToolsIcon
-                    tools={tools}
-                    type={toolsArray(theme)}
-                    themeCard={true}
-                  />
-                </div>
               </div>
             </div>
-          ))}
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 };

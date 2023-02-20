@@ -2,26 +2,29 @@ import useWindow from "@hooks/useWindow";
 import { useSerachContext } from "context/searchContext";
 import { useEffect, useState } from "react";
 
-const TabItem = [
-  {
-    label: "Everything",
-    value: "all",
-  },
-  {
-    label: "Themes",
-    value: "themes",
-  },
-  {
-    label: "Resources",
-    value: "resource",
-  },
-  {
-    label: "Blog",
-    value: "blog",
-  },
-];
-
-const SearchTab = () => {
+const SearchTab = ({ themes, blogs, resources }) => {
+  const TabItem = [
+    {
+      label: "Everything",
+      value: "all",
+      count: themes.length + resources.length + blogs.length,
+    },
+    {
+      label: "Themes",
+      value: "themes",
+      count: themes.length,
+    },
+    {
+      label: "Resources",
+      value: "resource",
+      count: resources.length,
+    },
+    {
+      label: "Blog",
+      value: "blog",
+      count: blogs.length,
+    },
+  ];
   const windowSize = useWindow();
   const { setIsBlog, setIsResource, setIsTheme, searchKey } =
     useSerachContext();
@@ -67,27 +70,29 @@ const SearchTab = () => {
   }, [windowSize, searchKey]);
 
   return (
-    <div className="mx-auto p-6 md:p-8">
-      <ul className="-ml-5 flex  sm:-ml-4">
-        {TabItem.map((item, i) => (
-          <li
-            key={`item-${i}`}
-            className={`ml-5 flex-1 sm:ml-4  ${
-              windowSize < 1024 && item.value === "all" ? "hidden" : "block"
+    <ul className="flex">
+      {TabItem.map((item, i) => (
+        <li
+          key={`item-${i}`}
+          className={`flex-fill mx-2 ${
+            windowSize < 1024 && item.value === "all" ? "hidden" : "block"
+          }`}
+          onClick={() => handleChange(item.value)}
+        >
+          <button
+            className={`btn btn-sm w-full text-sm sm:text-lg ${
+              item.count < 1 &&
+              "pointer-events-none select-none border-gray-300 bg-gray-200 opacity-70"
+            } ${
+              isActive === item.value ? "btn-primary" : "btn-outline-primary"
             }`}
-            onClick={() => handleChange(item.value)}
           >
-            <button
-              className={`btn w-full text-sm sm:text-lg ${
-                isActive === item.value ? "btn-primary" : "btn-outline-primary"
-              }`}
-            >
-              {item.label}
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
+            {item.label}
+            <small className="btn-badge">{item.count}</small>
+          </button>
+        </li>
+      ))}
+    </ul>
   );
 };
 
