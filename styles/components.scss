@@ -622,81 +622,37 @@
   }
 }
 
-// cookie bar
-.cookieBar {
-  @apply fixed left-[20px] bottom-[20px] z-[999999999] mt-[20px] flex w-[400px] content-between items-center rounded-[0.25rem] bg-white py-[15px] px-[20px] dark:bg-darkmode-theme-light;
-  box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
-    rgb(12 20 66 / 4%) 0px 16px 40px;
-  max-width: calc(100% - 40px);
-  &:hover {
-    .cookieCloseBtn {
-      transform: scale(1);
-    }
+// cookie box
+.cookie-box {
+  @apply fixed left-3 bottom-3 z-50 mr-5 block w-[calc(100%-1.5rem)] max-w-[450px] items-center justify-between rounded bg-white px-5 py-4 shadow dark:bg-darkmode-theme-dark md:left-5 md:bottom-5 md:flex;
+  &-closer {
+    @apply rounded border-0 bg-theme-light py-1 px-3 text-sm font-semibold transition hover:bg-primary hover:text-white dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary;
   }
 }
 
-// bookmark bar
-.bookmarkBar {
-  @apply invisible fixed content-between bg-white dark:bg-darkmode-theme-light dark:text-white md:visible;
-  padding: 5px 20px 5px 7px;
-  left: 20px;
-  bottom: 20px;
-  z-index: 9999999;
-  border-radius: 0.25rem;
-  margin-right: 20px;
-  box-shadow: rgb(12 20 66 / 3%) 0px 1px 3px, rgb(12 20 66 / 4%) 0px 8px 16px,
-    rgb(12 20 66 / 4%) 0px 16px 40px;
-  display: flex;
-  align-items: center;
-  display: none;
-  cursor: pointer;
-  transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.27);
-  transform-origin: bottom left;
+// bookmark box
+.bookmark-box {
+  @apply fixed left-5 bottom-5 z-50 mr-5 hidden origin-bottom-left items-center justify-between rounded bg-white py-1.5 pr-5 pl-2 shadow transition-[cubic-bezier(0.18_0.89_0.32_1.27)] dark:bg-darkmode-theme-dark;
+  &-icon {
+    @apply mr-2.5 flex items-center justify-center rounded px-1.5 py-2;
+  }
+  &-closer {
+    @apply absolute -right-2.5 -top-2.5 h-6 w-6 scale-0 cursor-pointer rounded-full bg-white text-center leading-6 shadow transition dark:bg-darkmode-theme-light;
+  }
   &:hover {
-    .bookmarkText {
-      visibility: hidden;
-      opacity: 0;
+    .bookmark-box-icon {
+      @apply bg-theme-light dark:bg-darkmode-theme-light;
     }
-    .bookmarkTextHover {
-      visibility: visible;
-      opacity: 1;
+    .bookmark-box-text {
+      @apply invisible opacity-0;
     }
-    .cookieCloseBtn {
-      transform: scale(1);
+    .bookmark-box-text-hover {
+      @apply visible opacity-100;
+    }
+    .bookmark-box-closer {
+      @apply scale-100;
     }
   }
-}
-
-.bookmarkIcon {
-  background-color: #f4f7f7;
-  @apply dark:bg-darkmode-border;
-  border-radius: 0.25rem;
-  padding: 9px 5px 7px 5px;
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cookieCloseBtn {
-  position: absolute;
-  right: -15px;
-  top: -15px;
-  background-color: #fff;
-  box-shadow: 0 5px 16px #eee;
-  @apply dark:bg-darkmode-border;
-  border-radius: 50%;
-  height: 30px;
-  text-align: center;
-  width: 30px;
-  line-height: 25px !important;
-  transform: scale(0);
-  transition: 0.2s ease;
-  cursor: pointer;
-}
-
-.dark .cookieCloseBtn {
-  box-shadow: 0 5px 16px #333;
 }
 
 .sort-sidebar-buttons {

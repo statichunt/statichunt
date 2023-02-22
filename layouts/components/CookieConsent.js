@@ -1,3 +1,4 @@
+import useOs from "hooks/useOs";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import useCookie, { getCookie } from "react-use-cookie";
@@ -68,55 +69,60 @@ const CookieConsent = () => {
   };
 
   // detect OS
-  const [os, setOs] = useState(false);
+  const macOs = useOs();
   const [key, setKey] = useState("");
-
   useEffect(() => {
-    setOs(navigator.platform.indexOf("Mac") > -1);
     document.addEventListener("keydown", (e) => {
-      if (os && e.metaKey && e.key === "d") {
+      if (macOs && e.metaKey && e.key === "d") {
         bookmarkHandler();
       } else if (e.ctrlKey && e.key === "d") {
         bookmarkHandler();
       }
     });
-    if (os) {
+    if (macOs) {
       setKey("⌘+D");
     } else {
       setKey("Ctrl+D");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [os]);
+  }, [macOs]);
 
   return (
     <>
-      <div className={`cookieBar ${cookieAcceptState && "hidden"}`}>
-        <Image
-          className="mr-3 hidden shrink-0 sm:inline-block"
-          alt="cookie"
-          src="/images/cookie.png"
-          height="40"
-          width="40"
-        />
-        <p>
-          This website use cookies. By using this website, you automatically
-          accept that.
-        </p>
-        <span onClick={cookieHandler} className="cookieCloseBtn">
-          &times;
-        </span>
+      {/* cookie box */}
+      <div className={`cookie-box ${cookieAcceptState && "hidden"}`}>
+        <div className="block md:flex">
+          <span className="mr-3 mt-1 hidden flex-shrink-0 md:inline-block">
+            <Image
+              alt="cookie"
+              src="/images/cookie.png"
+              height="30"
+              width="30"
+            />
+          </span>
+          <p>
+            This website use cookies. By using this website, you automatically
+            accept that.
+            <button
+              className="cookie-box-closer mt-2 block"
+              onClick={cookieHandler}
+            >
+              Got It!
+            </button>
+          </p>
+        </div>
       </div>
+      {/* bookmark box */}
       <div
         onClick={bookmarkBarHandler}
-        className={`bookmarkBar ${
-          cookieAcceptState &&
-          !firstVisitState &&
-          !bookmarkAcceptState &&
-          "flex"
+        className={`bookmark-box ${
+          cookieAcceptState && !firstVisitState && !bookmarkAcceptState
+            ? "md:flex"
+            : "hidden"
         } `}
         style={{ transform: `scale(${zoom})` }}
       >
-        <div className="bookmarkIcon">
+        <div className="bookmark-box-icon">
           <Image alt="pin" src="/images/pin.svg" height="25" width="32" />
         </div>
         <div>
@@ -125,7 +131,7 @@ const CookieConsent = () => {
           </small>
           <strong className="block">{key}</strong>
         </div>
-        <span onClick={bookmarkHandler} className="cookieCloseBtn">
+        <span onClick={bookmarkHandler} className="bookmark-box-closer">
           &times;
         </span>
       </div>
