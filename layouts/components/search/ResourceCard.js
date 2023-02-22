@@ -2,12 +2,14 @@ import { humanize } from "@lib/utils/textConverter";
 import { useSerachContext } from "context/searchContext";
 import ImageFallback from "../ImageFallback";
 
-const ResourceCard = ({ resources }) => {
+const ResourceCard = ({ resources, themes, blogs }) => {
   const { isTheme, isBlog } = useSerachContext();
   return (
     <div
       className={`row p-2 ${
-        isTheme || isBlog ? "row-cols-1" : "row-cols-1 md:row-cols-2"
+        (blogs.length || themes.length) && (isBlog || isTheme)
+          ? "row-cols-1"
+          : "row-cols-1 md:row-cols-2"
       }`}
     >
       {resources.map((resource) => (

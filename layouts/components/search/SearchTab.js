@@ -19,11 +19,11 @@ const SearchTab = ({ themes, blogs, resources }) => {
       value: "resource",
       count: resources.length,
     },
-    {
-      label: "Blog",
-      value: "blog",
-      count: blogs.length,
-    },
+    // {
+    //   label: "Blog",
+    //   value: "blog",
+    //   count: blogs.length,
+    // },
   ];
   const windowSize = useWindow();
   const { setIsBlog, setIsResource, setIsTheme, searchKey } =

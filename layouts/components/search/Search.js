@@ -121,10 +121,14 @@ const Search = ({ setSearchModal, searchModal }) => {
                 <h4 className="h6 mb-3 pl-2 text-text">Resources</h4>
                 <div
                   className={`scrollbar ${
-                    isBlog ? "max-h-[215px]" : "max-h-[500px]"
+                    blogs.length ? "max-h-[215px]" : "max-h-[500px]"
                   }`}
                 >
-                  <ResourceCard resources={resources} />
+                  <ResourceCard
+                    themes={themes}
+                    resources={resources}
+                    blogs={blogs}
+                  />
                 </div>
               </div>
 
@@ -133,10 +137,14 @@ const Search = ({ setSearchModal, searchModal }) => {
                 <h4 className="h6 mb-3 pl-2 text-text">Blog</h4>
                 <div
                   className={`scrollbar ${
-                    isResource ? "max-h-[220px]" : "max-h-[500px]"
+                    resources.length ? "max-h-[220px]" : "max-h-[500px]"
                   }`}
                 >
-                  <BlogCard blogs={blogs} />
+                  <BlogCard
+                    themes={themes}
+                    resources={resources}
+                    blogs={blogs}
+                  />
                 </div>
               </div>
             </div>

@@ -2,12 +2,14 @@ import { useSerachContext } from "context/searchContext";
 import Link from "next/link";
 import ImageFallback from "../ImageFallback";
 
-const BlogCard = ({ blogs }) => {
-  const { isTheme, isResouce } = useSerachContext();
+const BlogCard = ({ blogs, themes, resources }) => {
+  const { isTheme, isResource } = useSerachContext();
   return (
     <div
       className={`row p-2 ${
-        isTheme || isResouce ? "row-cols-1" : "row-cols-1 lg:row-cols-2"
+        (resources.length || themes.length) && (isResource || isTheme)
+          ? "row-cols-1"
+          : "row-cols-1 lg:row-cols-2"
       }`}
     >
       {blogs.map((blog) => (
