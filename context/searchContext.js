@@ -1,31 +1,26 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import blogs from "../.json/blog.json";
 import resources from "../.json/resources.json";
 import themes from "../.json/themes.json";
-
 import tools from "../.json/tools.json";
 
 const AppsarchContext = createContext();
 export const SearchContext = ({ children }) => {
   const [searchKey, setSearchkey] = useState("");
-  const [isTheme, setIsTheme] = useState(true);
-  const [isResource, setIsResource] = useState(true);
-  const [isBlog, setIsBlog] = useState(true);
+  const [isTheme, setIsTheme] = useState(false);
+  const [isResource, setIsResource] = useState(false);
+  const [isBlog, setIsBlog] = useState(false);
   const [searchModal, setSeachModal] = useState(false);
-  useEffect(() => {
-    setIsBlog(true);
-    setIsResource(true);
-    setIsTheme(true);
-  }, [searchModal]);
+
   const state = {
     searchModal,
     setSeachModal,
     tools,
     searchKey,
     setSearchkey,
-    themes: themes,
-    resources: resources,
-    blogs: blogs,
+    themes,
+    resources,
+    blogs,
     setIsBlog,
     setIsResource,
     setIsTheme,
