@@ -12,18 +12,17 @@
   },
 
   "settings": {
-    "announcement_bar": true,
     "theme_switcher": true,
     "default_theme": "system",
-    "pagination": 2,
+    "pagination": 6,
     "summary_length": 200
   },
 
   "announcement": {
     "enable": true,
-    "name": "🚀 Recently Added Template : Andromeda Light NextJs",
+    "name": "Andromeda Light NextJs",
     "link": "https://statichunt.com/themes/nextjs-andromeda-light?ref=announcement",
-    "content": "Checkout the newly added free NextJs Tailwind SAAS template!"
+    "content": "**Recently Added Template:** Checkout the newly added Andromeda Light NextJs & Tailwind SAAS template!"
   },
 
   "params": {

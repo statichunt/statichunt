@@ -1,5 +1,5 @@
 ---
-title: Bookworm Light
+title: Bookworm Light Nextjs
 github: https://github.com/themefisher/bookworm-light-nextjs
 demo: https://bookworm-light-nextjs.vercel.app/
 author: Themefisher

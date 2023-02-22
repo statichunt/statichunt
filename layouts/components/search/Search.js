@@ -42,7 +42,7 @@ const Search = ({ setSearchModal, searchModal }) => {
   return (
     <div className={`modal ${searchModal ? "block" : "hidden"}`}>
       <div className="modal-overlay" onClick={() => setSearchModal(false)} />
-      <div className="modal-box">
+      <div className="modal-box top-12 w-[1096px] translate-y-0">
         {/* search input */}
         <div className="flex items-center bg-theme-light px-6 py-1 dark:bg-darkmode-theme-light sm:py-3 md:px-8">
           <svg
@@ -109,7 +109,7 @@ const Search = ({ setSearchModal, searchModal }) => {
                 isTheme && themes.length ? "block" : "hidden"
               }`}
             >
-              <h4 className="h6 mb-3 pl-2 text-text">Themes</h4>
+              <h4 className="h5 mb-3 pl-2">Themes</h4>
               <div className="scrollbar max-h-[500px]">
                 <ThemesCard
                   tools={tools}
@@ -133,7 +133,7 @@ const Search = ({ setSearchModal, searchModal }) => {
                   isResource && resources.length ? "mb-4 block" : "hidden"
                 }
               >
-                <h4 className="h6 mb-3 pl-2 text-text">Resources</h4>
+                <h4 className="h5 mb-3 pl-2">Resources</h4>
                 <div
                   className={`scrollbar ${
                     blogs.length ? "max-h-[215px]" : "max-h-[500px]"
@@ -149,7 +149,7 @@ const Search = ({ setSearchModal, searchModal }) => {
 
               {/* blog results */}
               <div className={isBlog && blogs.length ? "block" : "hidden"}>
-                <h4 className="h6 mb-3 pl-2 text-text">Blog</h4>
+                <h4 className="h5 mb-3 pl-2">Blog</h4>
                 <div
                   className={`scrollbar ${
                     resources.length ? "max-h-[220px]" : "max-h-[500px]"
