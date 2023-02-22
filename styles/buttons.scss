@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-block rounded border border-primary px-5 py-2 text-center text-[.9rem];
+  @apply inline-block rounded border border-primary px-5 py-2 text-center text-[.9rem] disabled:pointer-events-none disabled:cursor-not-allowed disabled:border-gray-600 disabled:bg-gradient-to-r disabled:from-gray-500 disabled:to-gray-500;
 }
 
 .btn-sm {
@@ -41,3 +41,35 @@
 .btn-github {
   @apply border border-[#151b22] bg-[#151b22] text-white;
 }
+
+.btn-loading {
+  @apply relative pr-12;
+}
+
+.btn-loading:after {
+  @apply absolute top-2.5 right-[1em] h-[1.5em] w-[1.5em] rounded-full border-[4px] content-[""];
+  border-color: #fff transparent #fff transparent;
+  animation: loading 1.2s infinite;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// @keyframes loading {
+//   0% {
+//     transform: rotate(0);
+//     animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+//   }
+//   50% {
+//     transform: rotate(900deg);
+//     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+//   }
+//   100% {
+//     transform: rotate(1800deg);
+//   }
+// }
