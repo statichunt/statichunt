@@ -17,7 +17,7 @@ const useWindow = (size) => {
     }
     viewport();
     window.onresize = viewport;
-  }, []);
+  });
 
   return windowSize;
 };

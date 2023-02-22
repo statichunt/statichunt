@@ -24,6 +24,7 @@
     "feeder-react-feedback": "^0.0.6",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
+    "lodash.debounce": "^4.0.8",
     "marked": "^4.2.12",
     "next": "13.1.6",
     "next-mdx-remote": "^4.3.0",
@@ -38,6 +39,7 @@
     "react-use-cookie": "^1.4.0",
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
+    "tailwind-scrollbar": "^2.1.0",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {

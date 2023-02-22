@@ -1,17 +1,27 @@
 .btn {
-  @apply inline-block rounded border-primary px-5 py-2 text-center text-[.9rem];
+  @apply inline-block rounded border border-primary px-5 py-2 text-center text-[.9rem];
 }
 
 .btn-sm {
   @apply px-3 py-2 text-sm;
 }
 
+.btn-badge {
+  @apply ml-2 rounded bg-[#dce9e9] px-[.3rem] py-[.15rem] text-xs dark:bg-darkmode-theme-light;
+}
+
 .btn-primary {
   @apply bg-gradient-to-r from-primary to-secondary text-white;
+  .btn-badge {
+    @apply border-primary bg-primary text-white;
+  }
 }
 
 .btn-outline-primary {
   @apply btn-sm border border-primary/25 bg-transparent from-primary to-secondary hover:bg-gradient-to-r hover:text-white;
+  &:hover .btn-badge {
+    @apply border-primary bg-primary text-white;
+  }
 }
 
 .btn-follow {

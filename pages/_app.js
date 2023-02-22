@@ -1,5 +1,6 @@
 import config from "@config/config.json";
 import theme from "@config/theme.json";
+import { SearchContext } from "context/searchContext";
 import { JsonContext } from "context/state";
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
@@ -37,29 +38,31 @@ const App = ({ Component, pageProps }) => {
   }, []);
 
   return (
-    <JsonContext>
-      <Head>
-        {/* google font css */}
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <style
-          dangerouslySetInnerHTML={{
-            __html: `${fontcss}`,
-          }}
-        />
-        {/* responsive meta */}
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=5"
-        />
-      </Head>
-      <ThemeProvider attribute="class" defaultTheme={default_theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </JsonContext>
+    <SearchContext>
+      <JsonContext>
+        <Head>
+          {/* google font css */}
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `${fontcss}`,
+            }}
+          />
+          {/* responsive meta */}
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=5"
+          />
+        </Head>
+        <ThemeProvider attribute="class" defaultTheme={default_theme}>
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </JsonContext>
+    </SearchContext>
   );
 };
 

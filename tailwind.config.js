@@ -1,3 +1,4 @@
+const plugin = require("@tailwindcss/forms");
 const theme = require("./config/theme.json");
 
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));

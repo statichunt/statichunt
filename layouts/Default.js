@@ -7,8 +7,6 @@ const Default = ({ data, mdxContent }) => {
   const { frontmatter } = data[0];
   const { title } = frontmatter;
 
-  // console.log(mdxContent);
-
   return (
     <>
       <MobileSidebar />

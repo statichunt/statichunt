@@ -13,7 +13,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 // header
 .header {
-  @apply sticky top-0 z-[100] w-full border-b border-border bg-white dark:border-darkmode-border dark:bg-darkmode-body;
+  @apply sticky top-0 z-40 w-full border-b border-border bg-white dark:border-darkmode-border dark:bg-darkmode-body;
 }
 
 // navbar items

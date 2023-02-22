@@ -40,6 +40,7 @@ const githubDataChange = (theme) => {
 };
 
 const Themes = ({ themes, tools, customRowClass, customColClass }) => {
+
   const [item, setItem] = useState(4);
   const [page, setPage] = useState(themes.slice(0, item));
 
