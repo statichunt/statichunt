@@ -2,7 +2,7 @@ import { useSerachContext } from "context/searchContext";
 import Link from "next/link";
 import ImageFallback from "../ImageFallback";
 
-const BlogCard = ({ blogs, themes, resources }) => {
+const BlogCard = ({ blogs, themes, resources, setSearchModal }) => {
   const { isTheme, isResource } = useSerachContext();
   return (
     <div
@@ -32,6 +32,7 @@ const BlogCard = ({ blogs, themes, resources }) => {
                     <Link
                       className="after:absolute after:inset-0 hover:underline"
                       href={`/${blog.slug}`}
+                      onClick={() => setSearchModal(false)}
                     >
                       {blog.frontmatter.title}
                     </Link>

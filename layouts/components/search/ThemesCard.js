@@ -4,7 +4,7 @@ import Link from "next/link";
 import ImageFallback from "../ImageFallback";
 import ToolsIcon from "../ToolsIcon";
 
-const ThemesCard = ({ tools, themes, resources, blogs }) => {
+const ThemesCard = ({ tools, themes, resources, blogs, setSearchModal }) => {
   const { isBlog, isResource } = useSerachContext();
 
   return (
@@ -32,6 +32,7 @@ const ThemesCard = ({ tools, themes, resources, blogs }) => {
                 <Link
                   className="after:absolute after:inset-0 hover:underline"
                   href={`/themes/${theme.slug}`}
+                  onClick={() => setSearchModal(false)}
                 >
                   {theme.frontmatter.title}
                 </Link>
