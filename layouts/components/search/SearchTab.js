@@ -70,7 +70,13 @@ const SearchTab = ({ themes, blogs, resources }) => {
   }, [windowSize, searchKey]);
 
   return (
-    <ul className="flex">
+    <ul
+      className={
+        themes.length + resources.length + blogs.length === 0
+          ? "hidden"
+          : "flex"
+      }
+    >
       {TabItem.map((item, i) => (
         <li
           key={`item-${i}`}

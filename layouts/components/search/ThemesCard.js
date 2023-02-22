@@ -30,7 +30,7 @@ const ThemesCard = ({ tools, themes, resources, blogs }) => {
             <div className="px-4">
               <h3 className="h6 mb-3 text-base font-bold leading-4">
                 <Link
-                  className="after:absolute after:inset-0"
+                  className="after:absolute after:inset-0 hover:underline"
                   href={`/themes/${theme.slug}`}
                 >
                   {theme.frontmatter.title}

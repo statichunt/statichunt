@@ -28,7 +28,7 @@ const ResourceCard = ({ resources, themes, blogs }) => {
                 />
 
                 <div className="flex-1 sm:mt-0">
-                  <h3 className="sm:h5 mb-4 flex items-center justify-between text-sm font-bold">
+                  <h3 className="h6 mb-4 flex items-center justify-between hover:underline">
                     {resource.frontmatter.title}
                     <a
                       className="after:absolute after:inset-0"

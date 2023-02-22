@@ -28,12 +28,10 @@ const BlogCard = ({ blogs, themes, resources }) => {
                   />
                 )}
                 <div className="flex-1 bg-transparent sm:mt-0">
-                  <h3 className="sm:h6 mb-[10px] flex items-center justify-between text-sm font-bold">
+                  <h3 className="h6">
                     <Link
-                      className="after:absolute after:inset-0"
+                      className="after:absolute after:inset-0 hover:underline"
                       href={`/${blog.slug}`}
-                      rel="noopener noreferrer nofollow"
-                      target="_blank"
                     >
                       {blog.frontmatter.title}
                     </Link>

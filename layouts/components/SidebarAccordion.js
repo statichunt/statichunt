@@ -161,7 +161,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
         taxonomy.map(
           (item, i) =>
             countItems(params, item) >= 0 && (
-              <a
+              <button
                 onClick={() =>
                   handleOnClick(slugify(item.frontmatter.title), data.type)
                 }
@@ -201,7 +201,7 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                 ) : (
                   <span className="ml-auto">{countItems(params, item)}</span>
                 )}
-              </a>
+              </button>
             )
         )}
     </>

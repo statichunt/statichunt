@@ -10,7 +10,8 @@ import SearchTab from "./SearchTab";
 import ThemesCard from "./ThemesCard";
 
 const Search = ({ setSearchModal, searchModal }) => {
-  const { setSearchkey, isTheme, isBlog, isResource } = useSerachContext();
+  const { searchKey, setSearchkey, isTheme, isBlog, isResource } =
+    useSerachContext();
   const { resources } = useSearchResource();
   const { blogs } = useSearchBlog();
   const { tools } = useSerachContext();
@@ -87,6 +88,20 @@ const Search = ({ setSearchModal, searchModal }) => {
 
         <div className="p-4">
           <SearchTab themes={themes} blogs={blogs} resources={resources} />
+
+          {/* initial screen */}
+          {themes.length + resources.length + blogs.length === 0 &&
+            searchKey === "" && (
+              <h4 className="py-5 text-center">Search Themes & Resources</h4>
+            )}
+
+          {/* no search found screen */}
+          {themes.length + resources.length + blogs.length === 0 &&
+            searchKey !== "" && (
+              <h4 className="py-5 text-center">No Search Found!</h4>
+            )}
+
+          {/* search result screen */}
           <div className="flex justify-between">
             {/* themes result */}
             <div

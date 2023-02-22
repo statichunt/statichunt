@@ -4,7 +4,7 @@ import { slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
-import Accordion from "./Accordion";
+import Accordion from "./SidebarAccordion";
 
 const Sidebar = ({
   sidebar,
