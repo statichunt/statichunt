@@ -116,6 +116,7 @@ const Search = ({ setSearchModal, searchModal }) => {
                   themes={themes}
                   resources={resources}
                   blogs={blogs}
+                  setSearchModal={setSearchModal}
                 />
               </div>
             </div>
@@ -159,6 +160,7 @@ const Search = ({ setSearchModal, searchModal }) => {
                     themes={themes}
                     resources={resources}
                     blogs={blogs}
+                    setSearchModal={setSearchModal}
                   />
                 </div>
               </div>

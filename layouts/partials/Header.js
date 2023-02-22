@@ -3,13 +3,14 @@ import ThemeSwitcher from "@components/ThemeSwitcher";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
 import useOs from "@hooks/useOs";
-import Search from "@layouts/components/search/Search";
 import { useSerachContext } from "context/searchContext";
 import { useTheme } from "next-themes";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { FaDiscord } from "react-icons/fa";
+const Search = dynamic(() => import("@components/search/Search"));
 
 const Header = () => {
   // distructuring the main menu from menu object
@@ -20,6 +21,7 @@ const Header = () => {
   useEffect(() => setMounted(true), []);
   const router = useRouter();
   const macOs = useOs();
+
   // search function
   const { searchModal, setSeachModal } = useSerachContext();
   useEffect(() => {
@@ -37,13 +39,6 @@ const Header = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchModal, macOs]);
-  useEffect(() => {
-    if (searchModal) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-  }, [searchModal]);
 
   return (
     <>
