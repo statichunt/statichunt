@@ -89,7 +89,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                   </span>
                 ))}
             {filteredTools.length >= 5 && (
-              <span className="has-tooltip-static mr-3 mb-2">
+              <span className="has-tooltip has-tooltip-static mr-3 mb-2">
                 + {filteredTools.length - 3}
                 <span className="tooltip-label-static">
                   {filteredTools.slice(3).map((icon, i) => (

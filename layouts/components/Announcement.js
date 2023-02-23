@@ -8,12 +8,14 @@ import useCookie, { getCookie } from "react-use-cookie";
 const Announcement = () => {
   const { enable, name, content, link } = config.announcement;
   // cookie bar
-  const [announcementClose, setAnnouncementClose] = useCookie(slugify(name));
+  const [announcementClose, setAnnouncementClose] = useCookie(
+    slugify(name) + "-announcement"
+  );
   const [announcementCloseState, setAnnouncementCloseState] = useState(true);
 
   // cookie check from browser
   useEffect(() => {
-    setAnnouncementCloseState(getCookie(slugify(name)));
+    setAnnouncementCloseState(getCookie(slugify(name) + "-announcement"));
   }, [announcementClose, name]);
 
   // cookie handler
@@ -30,7 +32,7 @@ const Announcement = () => {
         <div
           className={`z-10 mt-4 -translate-y-10 bg-white dark:bg-darkmode-body`}
         >
-          <div className="bg-linear-gradient rounded-[0.25rem] pr-6 text-white transition-opacity ease-in hover:opacity-90">
+          <div className="bg-gradient rounded-[0.25rem] pr-6 text-white transition-opacity ease-in hover:opacity-90">
             <a
               href={link}
               target="_blank"

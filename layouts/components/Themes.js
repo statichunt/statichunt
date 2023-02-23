@@ -40,7 +40,6 @@ const githubDataChange = (theme) => {
 };
 
 const Themes = ({ themes, tools, customRowClass, customColClass }) => {
-
   const [item, setItem] = useState(4);
   const [page, setPage] = useState(themes.slice(0, item));
 
@@ -107,14 +106,14 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
             key={theme.slug}
           >
             <div className="theme-card">
-              <Link href={`/themes/${theme.slug}`} className="img-cover">
+              <Link href={`/themes/${theme.slug}`}>
                 <ImageFallback
                   src={`/themes/${theme.slug}.png`}
                   fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
                   height={240}
                   width={360}
                   alt={theme.frontmatter?.title}
-                  className="rounded-t"
+                  className="w-full rounded-t object-cover"
                 />
               </Link>
               <div className="theme-card-body">

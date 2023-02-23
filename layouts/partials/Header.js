@@ -46,7 +46,7 @@ const Header = () => {
         <nav className="navbar">
           <div className="sidebar-toggler mr-lg-0 d-block invisible mr-2 opacity-0 lg:hidden">
             <svg
-              className="sidebar-toggle-icon"
+              className="sidebar-toggler-icon"
               viewBox="0 0 100 100"
               width="40"
             >
