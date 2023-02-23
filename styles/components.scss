@@ -58,7 +58,7 @@ select:required:invalid {
   background-position: right center !important;
 }
 .form-label {
-  @apply pointer-events-none absolute top-5 ml-4 inline-block origin-left bg-white px-1 text-text transition-all duration-200 dark:bg-darkmode-theme-light dark:text-darkmode-text;
+  @apply pointer-events-none absolute top-5 ml-4 inline-block origin-left bg-white px-1 text-text transition-all duration-200 dark:bg-darkmode-theme-dark dark:text-darkmode-text;
 }
 .form-select ~ .form-label {
   @apply bg-body;
@@ -149,12 +149,6 @@ select:required:invalid {
 // theme card
 .theme-card {
   @apply flex h-full flex-col rounded bg-white shadow dark:bg-darkmode-theme-dark;
-  &:hover .theme-card-preview {
-    @apply visible opacity-100;
-    svg {
-      @apply scale-100;
-    }
-  }
   &-body {
     @apply p-4;
   }
@@ -513,19 +507,6 @@ select:required:invalid {
     svg {
       @apply inline;
     }
-  }
-}
-// feedback-block
-.feedback-block {
-  zoom: 0.85;
-  .frf-trigger-button {
-    transition: 0.2s;
-  }
-  &.visible .frf-trigger-button {
-    @apply mr-[25px] sm:mr-[55px];
-    padding-top: 13px;
-    padding-bottom: 10px;
-    padding-right: 24px;
   }
 }
 

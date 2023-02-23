@@ -79,6 +79,10 @@
           "url": "/hexo-themes"
         },
         {
+          "page": "nuxtjs templates",
+          "url": "/nuxtjs-themes"
+        },
+        {
           "page": "eleventy themes",
           "url": "/eleventy-themes"
         }

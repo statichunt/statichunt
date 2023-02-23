@@ -59,7 +59,7 @@ const Contact = ({ data }) => {
 
   return (
     <Base title={title} meta_title={meta_title} description={description}>
-      <div className="section after:absolute after:left-0 after:top-0 after:-z-10 after:h-1/2 after:w-full after:bg-theme-light after:content-[''] dark:after:bg-darkmode-theme-light">
+      <div className="section after:absolute after:left-0 after:top-0 after:-z-10 after:h-[60%] after:w-full after:bg-theme-light after:content-[''] dark:after:bg-darkmode-theme-light">
         <div className="container">
           <div className="row justify-center">
             <div className="mb-16 text-center sm:col-10 md:col-8 lg:col-6">
@@ -68,7 +68,7 @@ const Contact = ({ data }) => {
             </div>
 
             <div className="md:col-10 lg:col-8">
-              <div className="rounded bg-white p-12 shadow dark:bg-darkmode-theme-light">
+              <div className="rounded bg-white p-12 shadow dark:bg-darkmode-theme-dark">
                 {submitted ? (
                   <div className="text-center">
                     <div className="mb-4 text-[3rem] text-primary">

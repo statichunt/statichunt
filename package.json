@@ -18,10 +18,8 @@
     "postbuild": "next-sitemap --config next-sitemap.config.mjs"
   },
   "dependencies": {
-    "@loadable/component": "^5.15.3",
     "cli-spinner": "^0.2.10",
     "dotenv": "^16.0.3",
-    "feeder-react-feedback": "^0.0.6",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "lodash.debounce": "^4.0.8",

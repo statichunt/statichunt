@@ -2,13 +2,10 @@ import config from "@config/config.json";
 import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
 import { plainify } from "@lib/utils/textConverter";
-import loadable from "@loadable/component"; // npm install @loadable/component
-import "feeder-react-feedback/dist/feeder-react-feedback.css"; // import stylesheet
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import CookieConsent from "./components/CookieConsent";
-const Feedback = loadable(() => import("feeder-react-feedback/dist/Feedback")); // dynamically load Feedback component
 
 const Base = ({
   title,
@@ -51,13 +48,10 @@ const Base = ({
       "scroll",
       function () {
         var scrollArrow = document.querySelector(".scroll-to-position");
-        var feedbackBlock = document.querySelector(".feedback-block");
         if (window.pageYOffset > 150) {
           scrollArrow.classList.add("visible");
-          feedbackBlock.classList.add("visible");
         } else if (window.pageYOffset < 150) {
           scrollArrow.classList.remove("visible");
-          feedbackBlock.classList.remove("visible");
         }
       },
       false
@@ -139,19 +133,6 @@ const Base = ({
       {children}
       <Footer />
       <CookieConsent />
-      {feeder_id && (
-        <div className="feedback-block">
-          <Feedback
-            classList="hidden"
-            projectId={feeder_id}
-            feedbackTypes={["bug", "idea"]}
-            email={true}
-            emailRequired={true}
-            primaryColor="#059669"
-            hoverBorderColor="#059669"
-          />
-        </div>
-      )}
 
       <div className="scroll-to-position">
         <button
