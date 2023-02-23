@@ -115,7 +115,7 @@ const ThemePreview = ({ theme, slug }) => {
         <div className="bws-device-toggle hidden md:block">
           <button
             type="button"
-            className="deviceToggleDesktop has-tooltip"
+            className="deviceToggleDesktop tooltip"
             aria-label="Toggle Desktop"
             data-tooltip="Desktop"
             onClick={() => setMobilePreview(false)}
@@ -141,7 +141,7 @@ const ThemePreview = ({ theme, slug }) => {
           </button>
           <button
             type="button"
-            className="deviceToggleMobile has-tooltip"
+            className="deviceToggleMobile tooltip"
             aria-label="Toggle Mobile"
             data-tooltip="Mobile"
             onClick={() => setMobilePreview(true)}

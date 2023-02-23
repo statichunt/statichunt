@@ -10,10 +10,6 @@ description: >-
   SaaS product or solution.
 ssg:
   - Nextjs
-  - Hugo
-  - Hexo
-  - Astro
-  - Jekyll
 css:
   - Tailwind
 cms:

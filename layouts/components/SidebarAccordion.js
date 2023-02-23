@@ -166,22 +166,21 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                   handleOnClick(slugify(item.frontmatter.title), data.type)
                 }
                 key={`item-${i}`}
-                className={`filter-list ${
+                className={`sidebar-checkbox ${
                   item.selected ? "active" : undefined
                 }`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
                 <Image
-                  className={`${
+                  className={`ml-2 max-h-[18px] ${
                     darkIconList.includes(slugify(item.frontmatter.title))
                       ? "dark:brightness-0 dark:invert"
                       : ""
-                  } ml-2`}
+                  }`}
                   src={item.frontmatter.icon}
                   height={18}
                   width={18}
                   alt={item.frontmatter.title}
-                  style={{ maxHeight: "18px" }}
                 />
                 <span className="ml-2 block">{item.frontmatter.title}</span>
                 {parameter && [...new Set(taxonomyArray)][0] === params ? (

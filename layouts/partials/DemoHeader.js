@@ -65,10 +65,10 @@ const DemoHeader = ({
           </div>
         </div>
         {/* demo switcher */}
-        <div className="hidden text-center lg:block lg:col-2">
-          <div className="demo-switcher">
+        <div className="hidden text-center lg:col-2 lg:block">
+          <div className="demo-preview-switcher">
             <button
-              className={`has-tooltip tooltip-bottom svg-block demo-switch-desktop ${
+              className={`tooltip tooltip-bottom svg-block ${
                 device === "desktop" && "active"
               }`}
               data-tooltip="Desktop"
@@ -77,7 +77,7 @@ const DemoHeader = ({
               <TbDeviceDesktop />
             </button>
             <button
-              className={`has-tooltip tooltip-bottom svg-block demo-switch-tablet ${
+              className={`tooltip tooltip-bottom svg-block ${
                 device === "tablet" && "active"
               }`}
               data-tooltip="Tablet"
@@ -86,7 +86,7 @@ const DemoHeader = ({
               <TbDeviceTablet />
             </button>
             <button
-              className={`has-tooltip tooltip-bottom svg-block demo-switch-mobile ${
+              className={`tooltip tooltip-bottom svg-block ${
                 device === "mobile" && "active"
               }`}
               data-tooltip="Mobile"
@@ -102,12 +102,12 @@ const DemoHeader = ({
             <Link
               href={`/themes/${slug}/`}
               data-tooltip="Information"
-              className="btn btn-outline-primary svg-block has-tooltip tooltip-bottom text-lg !leading-none"
+              className="btn btn-outline-primary svg-block tooltip tooltip-bottom text-lg !leading-none"
             >
               <TbInfoCircle />
             </Link>
             <a
-              className="btn btn-outline-primary svg-block has-tooltip tooltip-bottom text-lg !leading-none"
+              className="btn btn-outline-primary svg-block tooltip tooltip-bottom text-lg !leading-none"
               href={`${demo}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
@@ -116,7 +116,7 @@ const DemoHeader = ({
               <TbExternalLink />
             </a>
             <a
-              className="btn btn-outline-primary svg-align-bottom has-tooltip tooltip-bottom text-lg !leading-none"
+              className="btn btn-outline-primary svg-align-bottom tooltip tooltip-bottom text-lg !leading-none"
               href={`${github ? github : download}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
@@ -132,7 +132,7 @@ const DemoHeader = ({
           className={`absolute right-4 block h-5 w-5 cursor-pointer border-border text-center ${
             showHeader
               ? "rounded-full border leading-[.9rem]"
-              : "top-[62px] bg-primary leading-5 text-white"
+              : "top-[62px] bg-primary leading-5 text-white dark:bg-darkmode-primary"
           }`}
           onClick={() => setShowHeader(!showHeader)}
         >

@@ -1,3 +1,5 @@
+import CookieConsent from "@components/CookieConsent";
+import ScrollTop from "@components/ScrollTop";
 import config from "@config/config.json";
 import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
@@ -5,7 +7,6 @@ import { plainify } from "@lib/utils/textConverter";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import CookieConsent from "./components/CookieConsent";
 
 const Base = ({
   title,
@@ -19,12 +20,11 @@ const Base = ({
   // meta data
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
-  const { feeder_id } = config.params;
   const router = useRouter();
 
   // tooltip
   useEffect(() => {
-    var tooltipEl = document.querySelectorAll(".has-tooltip");
+    var tooltipEl = document.querySelectorAll(".tooltip");
     if (tooltipEl) {
       var tooltipItems = document.querySelectorAll(".tooltip-label");
       tooltipItems.forEach((item) => {
@@ -41,22 +41,6 @@ const Base = ({
       }
     }
   });
-
-  // scroll to top
-  useEffect(() => {
-    window.addEventListener(
-      "scroll",
-      function () {
-        var scrollArrow = document.querySelector(".scroll-to-position");
-        if (window.pageYOffset > 150) {
-          scrollArrow.classList.add("visible");
-        } else if (window.pageYOffset < 150) {
-          scrollArrow.classList.remove("visible");
-        }
-      },
-      false
-    );
-  }, []);
 
   return (
     <>
@@ -133,33 +117,7 @@ const Base = ({
       {children}
       <Footer />
       <CookieConsent />
-
-      <div className="scroll-to-position">
-        <button
-          className="scroll-to-top show"
-          type="button"
-          aria-label="Scroll to Top"
-          onClick={() =>
-            window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
-          }
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-chevron-up"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <polyline points="6 15 12 9 18 15"></polyline>
-          </svg>
-        </button>
-      </div>
+      <ScrollTop />
     </>
   );
 };

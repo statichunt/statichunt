@@ -6,13 +6,11 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
-const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
-  const [open, setOpen] = useState(false);
+const SidebarSort = ({ sortValue, handleSortThemes }) => {
   // call filterContext
   const { sortAsc, setSortAsc, arrayFree, arrayPremium } = useFilterContext();
 
-  //  button for sorting
-  const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
+  const [open, setOpen] = useState(true);
   const windowSize = useWindow(1023);
   useEffect(() => {
     if (windowSize < 1024) {
@@ -21,10 +19,13 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
       setOpen(true);
     }
   }, [windowSize]);
+
+  //  button for sorting
+  const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
   return (
     <div className="order-2 mb-4 lg:mb-8">
       <h3
-        onClick={handleSortMenu}
+        onClick={() => setOpen(!open)}
         className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
       >
         Sort by
@@ -32,11 +33,13 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
           {open ? <IoChevronDownOutline /> : <IoChevronForwardOutline />}
         </span>
       </h3>
-      <div className={`sort-sidebar-buttons ${open && "show"}`}>
+      <div className={open ? "block" : "hidden"}>
         {sortMenu.map((button, i) => (
           <button
             key={`button-${i}`}
-            className={sortValue === button.value ? "active" : undefined}
+            className={`sidebar-radio ${
+              sortValue === button.value ? "active" : undefined
+            }`}
             value={button.value}
             onClick={(e) => handleSortThemes(e, button.type)}
           >
@@ -52,7 +55,7 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
         ))}
         <span className="m-2 block border-t border-border dark:border-darkmode-theme-light" />
         <button
-          className={!sortAsc ? "active" : undefined}
+          className={`sidebar-radio ${!sortAsc ? "active" : undefined}`}
           onClick={() => setSortAsc(false)}
         >
           <Image
@@ -65,7 +68,7 @@ const SidebarSort = ({ sortValue, handleSortThemes, handleSortMenu }) => {
           <span className="dark:invert">Descending</span>
         </button>
         <button
-          className={sortAsc ? "active" : undefined}
+          className={`sidebar-radio ${sortAsc ? "active" : undefined}`}
           onClick={() => setSortAsc(true)}
         >
           <Image

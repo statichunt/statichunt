@@ -37,7 +37,7 @@ const Examples = ({ examples, tools, customRowClass, customColClass }) => {
 
   // tooltip
   useEffect(() => {
-    var tooltipEl = document.querySelectorAll(".has-tooltip");
+    var tooltipEl = document.querySelectorAll(".tooltip");
     if (tooltipEl) {
       var tooltipItems = document.querySelectorAll(".tooltip-label");
       tooltipItems.forEach((item) => {

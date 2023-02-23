@@ -48,19 +48,18 @@ const RegularPages = ({
   } = currentPage[0]?.frontmatter;
 
   const { sidebar } = config;
-  // const [arrayCategory, setArrayCategory] = useState([]);
   const [showIntro, SetShowIntro] = useState(true);
 
   const themesWithOthersCategory = setOthersCategory(data);
-  const {
-    sortedThemes,
-    handleSortThemes,
-    sortMenuShow,
-    sortValue,
-    handleSortMenu,
-  } = useThemesSort(themesWithOthersCategory, true, slug);
+
+  const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
+    themesWithOthersCategory,
+    slug
+  );
+
   const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
     useFilterContext();
+
   const filterCategory = sortedThemes.filter((theme) =>
     arrayCategory.length
       ? arrayCategory.find((type) =>
@@ -114,10 +113,8 @@ const RegularPages = ({
               filterPremium={filterPremium}
             />
             <SidebarSort
-              sortMenuShow={sortMenuShow}
               sortValue={sortValue}
               handleSortThemes={handleSortThemes}
-              handleSortMenu={handleSortMenu}
             />
           </Sidebar>
           <ThemeTaxonomy

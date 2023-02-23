@@ -28,20 +28,10 @@ const Home = ({
   const { sidebar } = config;
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
-  const {
-    sortedThemes,
-    handleSortThemes,
-    sortMenuShow,
-    setSortMenuShow,
-    sortValue,
-    handleSortMenu,
-  } = useThemesSort(themesWithOthersCategory);
+  const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
+    themesWithOthersCategory
+  );
 
-  const mouseHandler = () => {
-    if (sortMenuShow) {
-      setSortMenuShow(!sortMenuShow);
-    }
-  };
   const {
     arraySSG,
     arrayCMS,
@@ -80,7 +70,7 @@ const Home = ({
 
   return (
     <Base>
-      <div className="flex" onClick={mouseHandler}>
+      <div className="flex">
         <Sidebar
           sidebar={sidebar}
           ssg={ssg}
@@ -118,10 +108,8 @@ const Home = ({
               />
               <HomeSort
                 sortMenu={sortMenu}
-                sortMenuShow={sortMenuShow}
                 sortValue={sortValue}
                 handleSortThemes={handleSortThemes}
-                handleSortMenu={handleSortMenu}
               />
             </div>
 

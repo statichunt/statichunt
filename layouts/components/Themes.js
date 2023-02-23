@@ -70,7 +70,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
 
   // tooltip
   useEffect(() => {
-    var tooltipEl = document.querySelectorAll(".has-tooltip");
+    var tooltipEl = document.querySelectorAll(".tooltip");
     if (tooltipEl) {
       var tooltipItems = document.querySelectorAll(".tooltip-label");
       tooltipItems.forEach((item) => {
@@ -127,7 +127,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
                     </Link>
                   </h2>
                   <span
-                    className="has-tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
+                    className="tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
                     data-tooltip={humanize(
                       theme.frontmatter.price > 0 && theme.type != "update"
                         ? "Price"

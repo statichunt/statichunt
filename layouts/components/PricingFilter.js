@@ -17,14 +17,11 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
     }
   }, [windowSize]);
 
-  const handleOpen = () => {
-    setOpen(!open);
-  };
   return (
     <div className="order-0">
-      <div className="mb-6 lg:mb-8">
+      <div className="mb-4 lg:mb-8">
         <h3
-          onClick={handleOpen}
+          onClick={() => setOpen(!open)}
           className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
         >
           Filter by
@@ -32,44 +29,51 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
             {open ? <IoChevronDownOutline /> : <IoChevronForwardOutline />}
           </span>
         </h3>
-        <div className={`sort-sidebar-buttons ${open && "show"}`}>
-          <a
-            onClick={() =>
-              setArrayFree(arrayFree.length === 0 ? filterFree : [])
-            }
-            // className={arrayFree.length > 0 ? "active" : undefined}
-            className={`filter-list ${
-              arrayFree.length > 0 ? "active" : undefined
-            }`}
-          >
-            <Image
-              src="/images/icons/free.svg"
-              alt="free"
-              height="18"
-              width="18"
-              className="ml-2 max-h-[18px] dark:invert"
-            />
-            <span className="ml-2 block">Free</span>
-            <span className="ml-auto">{filterFree.length}</span>
-          </a>
-          <a
-            onClick={() =>
-              setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
-            }
-            className={`filter-list ${
-              arrayPremium.length > 0 ? "active" : undefined
-            }`}
-          >
-            <Image
-              src="/images/icons/premium.svg"
-              alt="premium"
-              height="18"
-              width="18"
-              className="ml-2 max-h-[18px] dark:invert"
-            />
-            <span className="ml-2 block">Premium</span>
-            <span className="ml-auto">{filterPremium.length}</span>
-          </a>
+        <div className="flex flex-col">
+          {open && (
+            <>
+              <button
+                onClick={() =>
+                  setArrayFree(arrayFree.length === 0 ? filterFree : [])
+                }
+                // className={arrayFree.length > 0 ? "active" : undefined}
+                className={`sidebar-checkbox ${
+                  arrayFree.length > 0 ? "active" : undefined
+                }`}
+              >
+                <Image
+                  src="/images/icons/free.svg"
+                  alt="free"
+                  height="18"
+                  width="18"
+                  className="ml-2 max-h-[18px] dark:brightness-0 dark:invert"
+                />
+                <span className="ml-2 block">Free</span>
+                <span className="ml-auto">{filterFree.length}</span>
+              </button>
+
+              <button
+                onClick={() =>
+                  setArrayPremium(
+                    arrayPremium.length === 0 ? filterPremium : []
+                  )
+                }
+                className={`sidebar-checkbox ${
+                  arrayPremium.length > 0 ? "active" : undefined
+                }`}
+              >
+                <Image
+                  src="/images/icons/premium.svg"
+                  alt="premium"
+                  height="18"
+                  width="18"
+                  className="ml-2 max-h-[18px] dark:invert"
+                />
+                <span className="ml-2 block">Premium</span>
+                <span className="ml-auto">{filterPremium.length}</span>
+              </button>
+            </>
+          )}
         </div>
       </div>
     </div>

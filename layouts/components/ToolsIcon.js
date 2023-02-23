@@ -21,7 +21,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                   (icon, i) =>
                     i < 4 && (
                       <span
-                        className="has-tooltip mr-3 mb-2"
+                        className="tooltip mr-3 mb-2"
                         data-tooltip={icon.frontmatter.title}
                         key={`icon-${i}`}
                       >
@@ -47,7 +47,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                   (icon, i) =>
                     i < 3 && (
                       <span
-                        className="has-tooltip mr-3 mb-2"
+                        className="tooltip mr-3 mb-2"
                         data-tooltip={icon.frontmatter.title}
                         key={`icon-${i}`}
                       >
@@ -70,7 +70,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                 )
               : filteredTools.map((icon, i) => (
                   <span
-                    className="has-tooltip mr-3 mb-2"
+                    className="tooltip mr-3 mb-2"
                     data-tooltip={icon.frontmatter.title}
                     key={`icon-${i}`}
                   >
@@ -89,9 +89,9 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
                   </span>
                 ))}
             {filteredTools.length >= 5 && (
-              <span className="has-tooltip has-tooltip-static mr-3 mb-2">
+              <span className="tooltip-static mr-3 mb-2">
                 + {filteredTools.length - 3}
-                <span className="tooltip-label-static">
+                <span className="tooltip-static-label">
                   {filteredTools.slice(3).map((icon, i) => (
                     <p key={i}>{icon.frontmatter.title}</p>
                   ))}
@@ -102,7 +102,7 @@ const ToolsIcon = ({ tools, type, size, themeCard }) => {
         ) : (
           filteredTools.map((icon, i) => (
             <span
-              className="has-tooltip mr-3 mb-2"
+              className="tooltip mr-3 mb-2"
               data-tooltip={icon.frontmatter.title}
               key={`icon-${i}`}
             >

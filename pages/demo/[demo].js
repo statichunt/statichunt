@@ -13,7 +13,7 @@ const Demo = ({ theme, slug }) => {
 
   // tooltip
   useEffect(() => {
-    var tooltipEl = document.querySelectorAll(".has-tooltip");
+    var tooltipEl = document.querySelectorAll(".tooltip");
     if (tooltipEl) {
       var tooltipItems = document.querySelectorAll(".tooltip-label");
       tooltipItems.forEach((item) => {
@@ -61,11 +61,11 @@ const Demo = ({ theme, slug }) => {
         setDevice={setDevice}
       />
       <div
-        className={`demo-wrapper ${
+        className={`demo-preview-wrapper ${
           showHeader ? "mt-[60px] h-[calc(100vh-60px)]" : "h-[100vh]"
         }`}
       >
-        <div className={`demo-content ${device}`}>
+        <div className={`demo-preview-content ${device}`}>
           <iframe
             src={demo}
             key={slugify(title)}

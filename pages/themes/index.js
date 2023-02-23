@@ -16,20 +16,10 @@ import { useFilterContext } from "context/state";
 const Home = ({ frontmatter, cms, css, ssg, category, themes, tools }) => {
   const { sidebar } = config;
   const themesWithOthersCategory = setOthersCategory(themes);
-  const {
-    sortedThemes,
-    handleSortThemes,
-    sortMenuShow,
-    setSortMenuShow,
-    sortValue,
-    handleSortMenu,
-  } = useThemesSort(themesWithOthersCategory);
+  const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
+    themesWithOthersCategory
+  );
 
-  const mouseHandler = () => {
-    if (sortMenuShow) {
-      setSortMenuShow(!sortMenuShow);
-    }
-  };
   const {
     arraySSG,
     arrayCMS,
@@ -73,7 +63,7 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes, tools }) => {
       description={frontmatter.description}
       noindex={true}
     >
-      <div className="flex" onClick={mouseHandler}>
+      <div className="flex">
         <Sidebar
           sidebar={sidebar}
           ssg={ssg}
@@ -108,10 +98,8 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes, tools }) => {
               />
               <HomeSort
                 sortMenu={sortMenu}
-                sortMenuShow={sortMenuShow}
                 sortValue={sortValue}
                 handleSortThemes={handleSortThemes}
-                handleSortMenu={handleSortMenu}
               />
             </div>
 
