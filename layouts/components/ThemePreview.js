@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { useEffect, useState } from "react";
 import ImageFallback from "./ImageFallback";
 
@@ -6,22 +5,30 @@ const ThemePreview = ({ theme, slug }) => {
   const { demo } = theme[0].frontmatter;
 
   useEffect(() => {
-    let bwsHeader = document.querySelector(".bwsHeader");
-    let loaderLabel = document.querySelector(".loaderLabel");
-    let bwsThumbnail = document.querySelector(`.bwsThumbnail`);
-    let bwsActions = document.querySelector(".bwsActions");
+    let previewHeader = document.querySelector(".browser-preview-header");
+    let previewHeaderContent = document.querySelector(
+      ".browser-preview-header-content"
+    );
+    let previewThumbnail = document.querySelector(`.browser-preview-thumbnail`);
+    let previewHeaderButtons = document.querySelector(
+      ".browser-preview-header-buttons"
+    );
 
     document.getElementById(slug).onload = () => {
-      if (bwsHeader) {
-        bwsHeader.classList.add(`livePreviwLoaded`);
-        loaderLabel.innerHTML = "Live Preview is Loaded";
+      if (previewHeader) {
+        previewHeader.classList.add(`browser-preview-loaded`);
+        previewHeaderContent.innerHTML = "Live Preview is Loaded";
 
         setTimeout(() => {
-          bwsHeader.classList.remove(`livePreviwLoaded`);
-          bwsThumbnail.classList.add(`hidden`);
-          bwsHeader.classList.add(`addElement`);
-          bwsActions.classList.add(`bwsActionsShow`);
-          loaderLabel.classList.add(`loaderLabelHide`);
+          previewHeader.classList.remove(`browser-preview-loaded`);
+          previewThumbnail.classList.add(`hidden`);
+          previewHeader.classList.add(`browser-preview-after-loaded`);
+          previewHeaderButtons.classList.add(
+            `browser-preview-header-buttons-show`
+          );
+          previewHeaderContent.classList.add(
+            `browser-preview-header-content-hide`
+          );
         }, 750);
       }
     };
@@ -34,12 +41,17 @@ const ThemePreview = ({ theme, slug }) => {
   return (
     <>
       <div className="mb-8">
+        {/* browser preview */}
         <div
-          className={`bwsBlock ${mobilePreview && "bwsMobile"} hidden md:block`}
+          key={slug}
+          className={`browser-preview hidden md:block ${
+            mobilePreview && "browser-preview-mobile"
+          }`}
         >
-          <div className={`bwsHeader`}>
-            <span className={`loaderLabel`}>
-              <span className={`loaderLabelIcon`}>
+          {/* preview header */}
+          <div className="browser-preview-header">
+            <span className="browser-preview-header-content">
+              <span className="browser-preview-header-content-icon">
                 <svg
                   className="mb-0"
                   height="14"
@@ -54,9 +66,9 @@ const ThemePreview = ({ theme, slug }) => {
               </span>{" "}
               We are Pulling down the Live Site here...
             </span>
-            <div className={`bwsActions text-right`}>
+            <div className="browser-preview-header-buttons">
               <a
-                className={`bwsActionLink`}
+                className="browser-preview-header-buttons-link"
                 target="blank"
                 href={`${demo}?ref=statichunt.com`}
               >
@@ -79,92 +91,90 @@ const ThemePreview = ({ theme, slug }) => {
               </a>
             </div>
           </div>
-          <div className={`bwsContent`}>
+          {/* preview body */}
+          <div className="browser-preview-body">
             <iframe
               id={slug}
               sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
               loading="lazy"
               src={demo}
               key={demo}
-            ></iframe>
-            <span className={`bwsThumbnailStyle bwsThumbnail`}>
+              className="browser-preview-frame"
+            />
+            <span className="browser-preview-thumbnail">
               <ImageFallback
                 src={`/themes/${slug}.png`}
                 fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
                 height={250}
                 width={750}
                 alt={theme[0].frontmatter.title}
-                className="w-full rounded-t"
               />
             </span>
           </div>
         </div>
-        <div className={`rounded-3 lh-0 shadowLg overflow-hidden md:hidden`}>
+
+        {/* mobile thumbnail */}
+        <div className="md:hidden">
           <ImageFallback
             src={`/themes/${slug}.png`}
             fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
-            height="100"
-            width="500"
+            height="340"
+            width="510"
             alt={theme[0].frontmatter.title}
-            className="w-full rounded-t"
+            className="w-full rounded shadow"
           />
         </div>
       </div>
 
-      <div className="text-center">
-        <div className="bws-device-toggle hidden md:block">
-          <button
-            type="button"
-            className="deviceToggleDesktop tooltip"
-            aria-label="Toggle Desktop"
-            data-tooltip="Desktop"
-            onClick={() => setMobilePreview(false)}
+      {/* preview mobile/desktop toggler */}
+      <div className="browser-preview-toggler hidden text-center md:block">
+        <button
+          type="button"
+          aria-label="Toggle Desktop"
+          onClick={() => setMobilePreview(false)}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="inline"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="inline"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <rect x="3" y="4" width="18" height="12" rx="1"></rect>
-              <line x1="7" y1="20" x2="17" y2="20"></line>
-              <line x1="9" y1="16" x2="9" y2="20"></line>
-              <line x1="15" y1="16" x2="15" y2="20"></line>
-            </svg>
-          </button>
-          <button
-            type="button"
-            className="deviceToggleMobile tooltip"
-            aria-label="Toggle Mobile"
-            data-tooltip="Mobile"
-            onClick={() => setMobilePreview(true)}
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="3" y="4" width="18" height="12" rx="1"></rect>
+            <line x1="7" y1="20" x2="17" y2="20"></line>
+            <line x1="9" y1="16" x2="9" y2="20"></line>
+            <line x1="15" y1="16" x2="15" y2="20"></line>
+          </svg>
+        </button>
+        <button
+          type="button"
+          aria-label="Toggle Mobile"
+          onClick={() => setMobilePreview(true)}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="inline"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="inline"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <rect x="7" y="4" width="10" height="16" rx="1"></rect>
-              <line x1="11" y1="5" x2="13" y2="5"></line>
-              <line x1="12" y1="17" x2="12" y2="17.01"></line>
-            </svg>
-          </button>
-        </div>
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="7" y="4" width="10" height="16" rx="1"></rect>
+            <line x1="11" y1="5" x2="13" y2="5"></line>
+            <line x1="12" y1="17" x2="12" y2="17.01"></line>
+          </svg>
+        </button>
       </div>
     </>
   );
