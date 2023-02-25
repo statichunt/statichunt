@@ -12,7 +12,7 @@ import {
 
 const { darkIconList } = config;
 
-const ThemeTaxonomy = ({ data, currentPage, tools, showIntro }) => {
+const ThemeTaxonomy = ({ data, currentPage, showIntro }) => {
   const { frontmatter, content } = currentPage[0];
   const {
     title,
@@ -104,7 +104,7 @@ const ThemeTaxonomy = ({ data, currentPage, tools, showIntro }) => {
             </ul>
           </div>
 
-          <Themes themes={data} tools={tools} />
+          <Themes themes={data} />
         </div>
       </section>
     </main>

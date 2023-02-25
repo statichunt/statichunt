@@ -8,7 +8,7 @@ import { getSinglePage, getSinglePageSlug } from "@lib/contentParser";
 import { similerItems } from "@lib/utils/similarItems";
 import { markdownify, plainify } from "@lib/utils/textConverter";
 
-const SingleTheme = ({ slug, theme, allTheme, tools }) => {
+const SingleTheme = ({ slug, theme, allTheme }) => {
   const { frontmatter, content } = theme[0];
   const { title, description, meta_title, noindex, canonical } = frontmatter;
   const similarThemes = similerItems(theme, allTheme, slug);
@@ -38,8 +38,8 @@ const SingleTheme = ({ slug, theme, allTheme, tools }) => {
               </div>
             </div>
 
-            <div className="mt-lg-0 mt-4 lg:mt-0 lg:col-4">
-              <ThemeInfo theme={theme} slug={slug} tools={tools} />
+            <div className="mt-lg-0 mt-4 lg:col-4 lg:mt-0">
+              <ThemeInfo theme={theme} slug={slug} />
             </div>
           </div>
           {similarThemes.length > 0 && (
@@ -49,7 +49,6 @@ const SingleTheme = ({ slug, theme, allTheme, tools }) => {
                 customRowClass="row justify-center !overflow-hidden"
                 customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"
                 themes={similarThemes.slice(0, 4)}
-                tools={tools}
               />
             </div>
           )}
@@ -80,18 +79,12 @@ export const getStaticProps = ({ params }) => {
   const { theme } = params;
   const allTheme = getSinglePage("content/themes");
   const singleTheme = allTheme.filter((data) => data.slug == theme);
-  const ssg = getSinglePage("content/ssg");
-  const cms = getSinglePage("content/cms");
-  const css = getSinglePage("content/css");
-  const category = getSinglePage("content/category");
-  const tools = [...ssg, ...cms, ...css, ...category];
 
   return {
     props: {
       theme: singleTheme,
       allTheme: allTheme,
       slug: theme,
-      tools: tools,
     },
   };
 };

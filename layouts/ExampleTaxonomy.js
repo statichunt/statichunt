@@ -12,7 +12,7 @@ import {
 
 const { darkIconList } = config;
 
-const ExampleTaxonomy = ({ data, currentPage, tools, showIntro }) => {
+const ExampleTaxonomy = ({ data, currentPage, showIntro }) => {
   const { frontmatter, content } = currentPage[0];
   const {
     title,
@@ -102,7 +102,7 @@ const ExampleTaxonomy = ({ data, currentPage, tools, showIntro }) => {
               )}
             </ul>
           </div>
-          <Examples examples={data} tools={tools} />
+          <Examples examples={data} />
         </div>
       </section>
     </main>

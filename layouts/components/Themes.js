@@ -1,6 +1,5 @@
 import { dateFormat } from "@lib/utils/dateFormat";
 import { humanize } from "@lib/utils/textConverter";
-import { toolsArray } from "@lib/utils/toolsArray";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -39,7 +38,7 @@ const githubDataChange = (theme) => {
   }
 };
 
-const Themes = ({ themes, tools, customRowClass, customColClass }) => {
+const Themes = ({ themes, customRowClass, customColClass }) => {
   const [item, setItem] = useState(4);
   const [page, setPage] = useState(themes.slice(0, item));
 
@@ -196,11 +195,7 @@ const Themes = ({ themes, tools, customRowClass, customColClass }) => {
               </div>
               <div className="theme-card-footer">
                 <div className="flex-wrap">
-                  <ToolsIcon
-                    tools={tools}
-                    type={toolsArray(theme)}
-                    themeCard={true}
-                  />
+                  <ToolsIcon item={theme} category={false} />
                 </div>
                 <div className="ml-auto flex items-center whitespace-nowrap">
                   <Link

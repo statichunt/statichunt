@@ -31,7 +31,7 @@ const ResourceCard = ({ resources, themes, blogs }) => {
                   <h3 className="h6 mb-4 flex items-center justify-between hover:underline">
                     {resource.frontmatter.title}
                     <a
-                      className="after:absolute after:inset-0"
+                      className="stretched-link"
                       href={`${resource.frontmatter.website}?ref=statichunt.com`}
                       rel="noopener noreferrer nofollow"
                       target="_blank"

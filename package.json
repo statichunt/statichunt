@@ -5,7 +5,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "next dev",
+    "dev": "yarn update && next dev",
     "build": "yarn update && next build",
     "lint": "next lint",
     "start": "next start",

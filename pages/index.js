@@ -16,15 +16,7 @@ import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 import { useState } from "react";
 
-const Home = ({
-  frontmatter: { intro },
-  cms,
-  css,
-  ssg,
-  category,
-  themes,
-  tools,
-}) => {
+const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
   const { sidebar } = config;
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
@@ -113,10 +105,7 @@ const Home = ({
               />
             </div>
 
-            <Themes
-              themes={sortFilteredThemes(filteredThemes, sortAsc)}
-              tools={tools}
-            />
+            <Themes themes={sortFilteredThemes(filteredThemes, sortAsc)} />
           </div>
         </main>
       </div>
@@ -134,7 +123,6 @@ export const getStaticProps = async () => {
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
   const category = getSinglePage("content/category");
-  const tools = [...ssg, ...cms, ...css, ...category];
   const themes = getSinglePage("content/themes");
 
   return {
@@ -145,7 +133,6 @@ export const getStaticProps = async () => {
       css: css,
       category: category,
       themes: themes,
-      tools: tools,
     },
   };
 };

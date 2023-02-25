@@ -126,15 +126,7 @@ const ThemeInfo = ({ theme, slug, tools }) => {
         <span className="flex py-[6px]">
           <span className="mb-2 min-w-[120px]">Types : </span>
           <div className="flex flex-wrap items-center">
-            <ToolsIcon tools={tools} size={20} themeCard={false} type={ssg} />
-            <ToolsIcon tools={tools} size={20} themeCard={false} type={cms} />
-            <ToolsIcon tools={tools} size={20} themeCard={false} type={css} />
-            <ToolsIcon
-              tools={tools}
-              size={20}
-              themeCard={false}
-              type={category}
-            />
+            <ToolsIcon item={theme[0]} size={20} />
           </div>
         </span>
       </div>

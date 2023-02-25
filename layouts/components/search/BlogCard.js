@@ -30,7 +30,7 @@ const BlogCard = ({ blogs, themes, resources, setSearchModal }) => {
                 <div className="flex-1 bg-transparent sm:mt-0">
                   <h3 className="h6">
                     <Link
-                      className="after:absolute after:inset-0 hover:underline"
+                      className="stretched-link hover:underline"
                       href={`/${blog.slug}`}
                       onClick={() => setSearchModal(false)}
                     >

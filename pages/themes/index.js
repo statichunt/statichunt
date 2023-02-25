@@ -13,7 +13,7 @@ import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/state";
 
-const Home = ({ frontmatter, cms, css, ssg, category, themes, tools }) => {
+const Home = ({ frontmatter, cms, css, ssg, category, themes }) => {
   const { sidebar } = config;
   const themesWithOthersCategory = setOthersCategory(themes);
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
@@ -103,10 +103,7 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes, tools }) => {
               />
             </div>
 
-            <Themes
-              themes={sortFilteredThemes(filteredThemes, sortAsc)}
-              tools={tools}
-            />
+            <Themes themes={sortFilteredThemes(filteredThemes, sortAsc)} />
           </div>
         </main>
       </div>
@@ -124,7 +121,6 @@ export const getStaticProps = async () => {
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
   const category = getSinglePage("content/category");
-  const tools = [...ssg, ...cms, ...css, ...category];
   const themes = getSinglePage("content/themes");
 
   return {
@@ -135,7 +131,6 @@ export const getStaticProps = async () => {
       css: css,
       category: category,
       themes: themes,
-      tools: tools,
     },
   };
 };

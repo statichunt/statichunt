@@ -14,7 +14,6 @@ const Search = ({ setSearchModal, searchModal }) => {
     useSerachContext();
   const { resources } = useSearchResource();
   const { blogs } = useSearchBlog();
-  const { tools } = useSerachContext();
   const { themes } = useSearchTheme();
   const searchInputRef = useRef(null);
 
@@ -112,7 +111,6 @@ const Search = ({ setSearchModal, searchModal }) => {
               <h4 className="h5 mb-3 pl-2">Themes</h4>
               <div className="scrollbar max-h-[500px]">
                 <ThemesCard
-                  tools={tools}
                   themes={themes}
                   resources={resources}
                   blogs={blogs}

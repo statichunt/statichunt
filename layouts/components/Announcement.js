@@ -39,7 +39,7 @@ const Announcement = () => {
               rel="noreferrer noopener"
               className="flex px-3 py-2"
             >
-              <span className="mr-3 inline-block h-7 w-7 shrink-0 rounded bg-primary text-center leading-6">
+              <span className="mr-3 inline-block h-7 w-7 shrink-0 rounded bg-white/10 text-center leading-6">
                 <FaRegBell />
               </span>
               {markdownify(content)}

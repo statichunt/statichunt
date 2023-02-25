@@ -1,4 +1,3 @@
-const plugin = require("@tailwindcss/forms");
 const theme = require("./config/theme.json");
 
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
@@ -86,7 +85,16 @@ module.exports = {
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
-    require("tailwind-bootstrap-grid")({ generateContainer: false }),
     require("@tailwindcss/line-clamp"),
+    require("tailwind-bootstrap-grid")({
+      generateContainer: false,
+      gridGutters: {
+        1: "0.25rem",
+        2: "0.5rem",
+        3: "1rem",
+        4: "1.5rem",
+        5: "3rem",
+      },
+    }),
   ],
 };

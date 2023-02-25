@@ -1,12 +1,11 @@
 import { simplifyURL } from "@lib/utils/textConverter";
-import { toolsArray } from "@lib/utils/toolsArray";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ImageFallback from "./ImageFallback";
 import ToolsIcon from "./ToolsIcon";
 
-const Examples = ({ examples, tools, customRowClass, customColClass }) => {
+const Examples = ({ examples, customRowClass, customColClass }) => {
   const [item, setItem] = useState(4);
   const [page, setPage] = useState(examples.slice(0, item));
 
@@ -72,7 +71,7 @@ const Examples = ({ examples, tools, customRowClass, customColClass }) => {
             }
             key={example.slug}
           >
-            <div className="theme-card">
+            <div className="theme-card relative">
               <ImageFallback
                 src={`/examples/${example.slug}.png`}
                 fallback={`https://teamosis-sg.vercel.app/api/img?url=${example.frontmatter.website}`}
@@ -82,10 +81,10 @@ const Examples = ({ examples, tools, customRowClass, customColClass }) => {
                 className="w-full rounded-t"
               />
               <div className="theme-card-body">
-                <h2 className="h6 mb-0 text-lg font-medium">
+                <h2 className="h6 mb-0 flex justify-between text-lg font-medium">
                   <Link
                     href={example.frontmatter.website}
-                    className="line-clamp-1 hover:underline dark:text-white"
+                    className="stretched-link line-clamp-1 hover:underline dark:text-white"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
@@ -106,16 +105,13 @@ const Examples = ({ examples, tools, customRowClass, customColClass }) => {
                       </g>
                     </svg>
                   </Link>
-                </h2>
-              </div>
-              <div className="theme-card-footer">
-                <div className="flex-wrap">
                   <ToolsIcon
-                    tools={tools}
-                    type={toolsArray(example)}
-                    exampleCard={true}
+                    item={example}
+                    css={false}
+                    cms={false}
+                    category={false}
                   />
-                </div>
+                </h2>
               </div>
             </div>
           </div>

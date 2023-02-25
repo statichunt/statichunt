@@ -32,7 +32,6 @@ const RegularPages = ({
   currentPage,
   data,
   mdxContent,
-  tools,
   category,
 }) => {
   const isExamples = slug.includes("-examples");
@@ -120,7 +119,6 @@ const RegularPages = ({
           <ThemeTaxonomy
             currentPage={currentPage}
             data={sortFilteredThemes(filteredThemes, sortAsc)}
-            tools={tools}
             showIntro={showIntro}
           />
         </div>
@@ -131,18 +129,9 @@ const RegularPages = ({
         </>
       ) : isExamples ? (
         <div className="flex">
-          <Sidebar
-            sidebar={sidebar}
-            themes={data}
-            slug={slug}
-            category={category}
-            SetShowIntro={SetShowIntro}
-            showIntro={showIntro}
-          />
           <ExampleTaxonomy
             currentPage={currentPage}
             data={data}
-            tools={tools}
             showIntro={showIntro}
           />
         </div>
@@ -245,9 +234,6 @@ export const getStaticProps = async ({ params }) => {
   // current page MDXContent
   const mdxContent = await parseMDX(currentPageData[0]?.content);
 
-  // all tools
-  const tools = [...ssg, ...cms, ...css, ...category];
-
   return {
     props: {
       slug: regular,
@@ -257,7 +243,6 @@ export const getStaticProps = async ({ params }) => {
       currentPage: currentPage,
       data: currentPageData,
       mdxContent: mdxContent,
-      tools: tools,
       category: category,
     },
   };
