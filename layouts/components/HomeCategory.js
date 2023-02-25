@@ -49,7 +49,6 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   };
 
   // category items count
-  // category items count
   const countItems = (item) => {
     return themes.filter((theme) =>
       theme.frontmatter.category
