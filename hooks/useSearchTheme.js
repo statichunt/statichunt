@@ -9,11 +9,13 @@ const useSearchTheme = () => {
       return "";
     } else if (theme.frontmatter.title?.toLowerCase().includes(searchString)) {
       return theme;
-    } else if (
-      theme.frontmatter.description?.toLowerCase().includes(searchString)
-    ) {
-      return theme;
-    } else if (
+    }
+    // else if (
+    //   theme.frontmatter.description?.toLowerCase().includes(searchString)
+    // ) {
+    //   return theme;
+    // }
+    else if (
       theme.frontmatter?.ssg
         ?.map((el) => el?.toLowerCase())
         .includes(searchString)

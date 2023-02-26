@@ -1,6 +1,6 @@
 import { sortByWeight } from "@lib/utils/sortFunctions";
 import { reducer } from "@lib/utils/sortReducer";
-import { useFilterContext } from "context/state";
+import { useFilterContext } from "context/filterContext";
 import { useEffect, useReducer, useState } from "react";
 
 const useThemesSort = (themes, slug) => {

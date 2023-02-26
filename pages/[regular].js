@@ -20,7 +20,7 @@ import setOthersCategory from "@lib/setOthersCategory";
 import { parseMDX } from "@lib/utils/mdxParser";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
-import { useFilterContext } from "context/state";
+import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 
 // for all regular pages

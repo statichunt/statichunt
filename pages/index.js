@@ -13,7 +13,7 @@ import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
-import { useFilterContext } from "context/state";
+import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 
 const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {

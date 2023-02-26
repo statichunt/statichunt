@@ -1,7 +1,7 @@
 import config from "@config/config.json";
 import theme from "@config/theme.json";
+import { JsonContext } from "context/filterContext";
 import { SearchContext } from "context/searchContext";
-import { JsonContext } from "context/state";
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 import { useEffect, useState } from "react";

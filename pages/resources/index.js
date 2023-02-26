@@ -5,7 +5,7 @@ import Base from "@layouts/Baseof";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
 import { markdownify, slugify } from "@lib/utils/textConverter";
-import { useFilterContext } from "context/state";
+import { useFilterContext } from "context/filterContext";
 
 const ResourceList = ({ tool, resources, indexPage }) => {
   const resourcesSortedByDate = sortByDate(resources);
