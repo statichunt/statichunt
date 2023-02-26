@@ -53,5 +53,5 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .nav-dropdown-link {
-  @apply min-w-[150px] py-1 text-lg font-semibold text-dark transition hover:text-primary;
+  @apply min-w-[150px] py-1 text-lg font-semibold text-dark transition hover:text-primary dark:hover:text-darkmode-primary;
 }
