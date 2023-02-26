@@ -59,8 +59,8 @@ const Contact = ({ data }) => {
 
   return (
     <Base title={title} meta_title={meta_title} description={description}>
-      <div className="section after:absolute after:left-0 after:top-0 after:-z-10 after:h-[60%] after:w-full after:bg-theme-light after:content-[''] dark:after:bg-darkmode-theme-light">
-        <div className="container">
+      <div className="section after:absolute after:left-0 after:top-0 after:h-[60%] after:w-full after:bg-theme-light after:content-[''] dark:bg-darkmode-body dark:after:bg-darkmode-theme-light">
+        <div className="container relative z-20">
           <div className="row justify-center">
             <div className="mb-16 text-center sm:col-10 md:col-8 lg:col-6">
               {markdownify(title, "h1", "mb-4")}
@@ -68,7 +68,7 @@ const Contact = ({ data }) => {
             </div>
 
             <div className="md:col-10 lg:col-8">
-              <div className="rounded bg-white p-12 shadow dark:bg-darkmode-theme-dark">
+              <div className="rounded bg-white py-12 px-16 shadow dark:bg-darkmode-theme-dark">
                 {submitted ? (
                   <div className="text-center">
                     <div className="mb-4 text-[3rem] text-primary">

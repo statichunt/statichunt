@@ -1,5 +1,5 @@
 import config from "@config/config.json";
-import { useFilterContext } from "context/state";
+import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";

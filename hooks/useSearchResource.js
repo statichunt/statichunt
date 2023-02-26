@@ -12,11 +12,13 @@ const useSearchResource = () => {
       resource.frontmatter.title?.toLowerCase().includes(searchString)
     ) {
       return resource;
-    } else if (
-      resource.frontmatter.description?.toLowerCase().includes(searchString)
-    ) {
-      return resource;
-    } else if (
+    }
+    // else if (
+    //   resource.frontmatter.description?.toLowerCase().includes(searchString)
+    // ) {
+    //   return resource;
+    // }
+    else if (
       resource.frontmatter.tool
         ?.map((el) => el.toLowerCase())
         .includes(searchString)

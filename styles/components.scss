@@ -85,10 +85,10 @@ select:required:invalid {
   @apply prose-hr:border-border prose-hr:dark:border-darkmode-border;
   @apply prose-p:text-base prose-p:text-text prose-p:dark:text-light;
   @apply prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:dark:bg-theme-dark;
-  @apply prose-code:px-1 prose-code:text-primary;
+  @apply prose-code:px-1 prose-code:text-primary dark:prose-code:text-darkmode-primary;
   @apply prose-pre:rounded-none;
   @apply prose-strong:text-dark prose-strong:dark:text-light;
-  @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline;
+  @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline dark:prose-a:text-darkmode-primary;
   @apply prose-li:text-text prose-li:dark:text-light;
   @apply prose-table:overflow-hidden prose-table:border prose-table:border-border prose-table:dark:border-darkmode-border;
   @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:py-4 prose-th:px-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;
@@ -162,9 +162,9 @@ select:required:invalid {
 .tooltip {
   @apply relative inline-block;
   &-label {
-    @apply pointer-events-none invisible absolute left-1/2 bottom-[calc(100%+5px)] z-50 w-max -translate-x-1/2 rounded bg-primary px-3 py-1 text-center text-sm text-white opacity-0 transition dark:bg-darkmode-primary;
+    @apply pointer-events-none invisible absolute left-1/2 bottom-[calc(100%+5px)] z-50 w-max -translate-x-1/2 rounded bg-primary px-3 py-1 text-center text-sm text-white opacity-0 transition;
     &::after {
-      @apply absolute top-full left-1/2 -translate-x-1/2 border-4 border-solid border-transparent border-t-primary content-[""] dark:border-t-darkmode-primary;
+      @apply absolute top-full left-1/2 -translate-x-1/2 border-4 border-solid border-transparent border-t-primary content-[""];
     }
   }
   &:hover .tooltip-label {
@@ -174,7 +174,7 @@ select:required:invalid {
     .tooltip-label {
       @apply bottom-[unset] top-[calc(100%+5px)];
       &::after {
-        @apply top-[unset] bottom-full border-t-transparent border-b-primary dark:border-b-darkmode-primary;
+        @apply top-[unset] bottom-full border-t-transparent border-b-primary;
       }
     }
   }
@@ -196,7 +196,7 @@ select:required:invalid {
       @apply text-inherit hover:underline;
     }
     svg {
-      @apply mr-1 text-primary;
+      @apply mr-1 text-primary dark:text-darkmode-primary;
     }
   }
 }
@@ -216,32 +216,28 @@ select:required:invalid {
     @apply absolute -left-2 top-1/2 h-4 w-4 -translate-y-1/2 rounded border-2 border-transparent content-[""];
   }
   &:hover::before {
-    @apply border-primary/60 dark:border-darkmode-primary/50;
+    @apply border-primary/60;
   }
   &.active {
     @apply bg-white dark:bg-darkmode-theme-light;
     &::before {
-      @apply border-primary bg-cover bg-no-repeat dark:border-darkmode-primary;
+      @apply border-primary bg-cover bg-no-repeat;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%23059669' d='M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z' class=''%3E%3C/path%3E%3C/svg%3E");
       background-position: 50%;
     }
   }
 }
 
-.dark .sidebar-checkbox.active::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%2345D19E' d='M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z' class=''%3E%3C/path%3E%3C/svg%3E");
-}
-
 // sidebar radio button
 .sidebar-radio {
   @apply relative mb-1 flex w-full cursor-pointer items-center rounded py-2 pl-2 pr-3 text-sm text-dark hover:bg-white dark:hover:bg-darkmode-theme-light;
   &::before {
-    @apply absolute right-3 top-3 h-3 w-3 rounded-full ring-2 ring-primary/60 content-[""] dark:ring-darkmode-primary/60;
+    @apply absolute right-3 top-3 h-3 w-3 rounded-full ring-2 ring-primary/60 content-[""];
   }
   &.active {
     @apply bg-white dark:bg-darkmode-theme-light;
     &::before {
-      @apply border-2 border-white bg-primary ring-2 ring-primary dark:border-darkmode-theme-light dark:bg-darkmode-primary dark:ring-darkmode-primary;
+      @apply border-2 border-white bg-primary ring-2 ring-primary dark:border-darkmode-theme-light;
     }
   }
 }
@@ -291,11 +287,11 @@ select:required:invalid {
 // demo previewer
 .demo-preview {
   &-switcher {
-    @apply inline-block space-x-1 rounded border border-primary/60 bg-theme-light text-[1.45rem] leading-none dark:border-darkmode-primary/60 dark:bg-theme-dark;
+    @apply inline-block space-x-1 rounded border border-primary/60 bg-theme-light text-[1.45rem] leading-none dark:bg-theme-dark;
     button {
       @apply rounded-sm px-2 py-[.3rem];
       &.active {
-        @apply bg-primary text-white dark:bg-darkmode-primary;
+        @apply bg-primary text-white;
       }
     }
   }
@@ -320,7 +316,7 @@ select:required:invalid {
 .cookie-box {
   @apply fixed left-3 bottom-3 z-50 mr-5 block w-[calc(100%-1.5rem)] max-w-[450px] items-center justify-between rounded bg-white px-5 py-4 shadow dark:bg-darkmode-theme-dark md:left-5 md:bottom-5 md:flex;
   &-closer {
-    @apply rounded border-0 bg-theme-light py-1 px-3 text-sm font-semibold transition hover:bg-primary hover:text-white dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary;
+    @apply rounded border-0 bg-theme-light py-1 px-3 text-sm font-semibold transition hover:bg-primary hover:text-white dark:bg-darkmode-theme-light;
   }
 }
 
@@ -440,7 +436,7 @@ select:required:invalid {
         @apply visible translate-x-0 opacity-100 delay-200;
       }
       &-link {
-        @apply inline-block h-6 w-6 rounded bg-white text-center text-sm text-dark no-underline hover:text-primary;
+        @apply inline-block h-6 w-6 rounded bg-white text-center text-sm text-dark no-underline hover:text-primary dark:hover:text-darkmode-primary;
       }
     }
   }
@@ -466,7 +462,7 @@ select:required:invalid {
   &-toggler {
     @apply relative z-30 mb-12 space-x-1;
     button {
-      @apply h-10 w-14 rounded border border-border bg-transparent focus:border-primary dark:border-darkmode-border dark:focus:border-darkmode-primary;
+      @apply h-10 w-14 rounded border border-border bg-transparent focus:border-primary dark:border-darkmode-border;
     }
   }
 }

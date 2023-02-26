@@ -1,5 +1,5 @@
 import useWindow from "@hooks/useWindow";
-import { useFilterContext } from "context/state";
+import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";

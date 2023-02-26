@@ -1,5 +1,5 @@
 import { slugify } from "@lib/utils/textConverter";
-import { useFilterContext } from "context/state";
+import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 
 const useTaxonmyHandler = (themes) => {

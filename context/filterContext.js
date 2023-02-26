@@ -58,7 +58,6 @@ export const JsonContext = ({ children }) => {
     setParameter,
     taxonomyArray,
     setTaxonomyArray,
-  
   };
   return (
     <FilterContext.Provider value={state}>{children}</FilterContext.Provider>
