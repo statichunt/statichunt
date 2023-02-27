@@ -131,7 +131,7 @@ const Contact = ({ data }) => {
                     </div>
                     <div className="col-12 relative mb-8">
                       <textarea
-                        className="form-input w-full"
+                        className="form-textarea w-full"
                         id="details"
                         value={details}
                         rows="6"

@@ -50,9 +50,13 @@
 
 // form style
 .form-input,
+.form-select {
+  @apply h-16;
+}
+.form-input,
 .form-select,
 .form-textarea {
-  @apply h-16 rounded border border-border bg-transparent transition duration-200 focus:border-primary focus:ring-transparent dark:border-darkmode-border;
+  @apply rounded border border-border bg-transparent transition duration-200 focus:border-primary focus:ring-transparent dark:border-darkmode-border;
 }
 select:required:invalid {
   @apply text-text;
@@ -67,7 +71,8 @@ select:required:invalid {
   @apply bg-white;
 }
 .form-select,
-.form-input {
+.form-input,
+.form-textarea {
   &.invalid ~ .form-label,
   &.valid ~ .form-label,
   &:focus ~ .form-label {
