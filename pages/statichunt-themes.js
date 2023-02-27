@@ -1,6 +1,6 @@
 import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/components/MobileSidebar";
-import Themes from "@layouts/components/Themes";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
+import Themes from "@layouts/Themes";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";
 

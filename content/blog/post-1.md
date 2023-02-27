@@ -1,10 +1,10 @@
 ---
-title: "How to make toys from old Olarpaper"
+title: "10 Hilarious Cartoons That Depict Real-Life Problems of Programmers"
 meta_title: ""
 description: ""
 date: 2022-04-04T05:00:00Z
 image: "/blog/post-1.png"
-categories: ["art"]
+categories: ["art", "Design tools"]
 authors: ["Linda Lanester"]
 sponsored: false
 draft: false

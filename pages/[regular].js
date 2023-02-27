@@ -1,4 +1,3 @@
-import MobileSidebar from "@components/MobileSidebar";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
 import useFilterData from "@hooks/useFilterData";
@@ -8,6 +7,7 @@ import PricingFilter from "@layouts/components/PricingFilter";
 import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
 import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
 import {

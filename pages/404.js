@@ -1,5 +1,5 @@
 import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/components/MobileSidebar";
+import MobileSidebar from "@partials/MobileSidebar";
 import Link from "next/link";
 
 const notFound = () => {

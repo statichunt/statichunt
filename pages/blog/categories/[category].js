@@ -2,7 +2,7 @@ import Base from "@layouts/Baseof";
 import Posts from "@layouts/Posts";
 import { getSinglePage } from "@lib/contentParser";
 import { getTaxonomy } from "@lib/taxonomyParser";
-import { slugify } from "@lib/utils/textConverter";
+import { humanize, slugify } from "@lib/utils/textConverter";
 
 // category page
 const Category = ({ category, posts, authors }) => {
@@ -11,8 +11,8 @@ const Category = ({ category, posts, authors }) => {
       <div className="section">
         <div className="container">
           <h1 className="h2 mb-8 text-center">
-            Showing posts from <span className="text-primary">{category}</span>{" "}
-            category
+            Showing posts from{" "}
+            <span className="text-primary underline">{humanize(category)}</span>
           </h1>
           <Posts posts={posts} authors={authors} />
         </div>

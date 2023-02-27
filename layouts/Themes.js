@@ -1,3 +1,5 @@
+import ImageFallback from "@components/ImageFallback";
+import ToolsIcon from "@components/ToolsIcon";
 import { dateFormat } from "@lib/utils/dateFormat";
 import { humanize } from "@lib/utils/textConverter";
 import Image from "next/image";
@@ -5,8 +7,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
 import InfiniteScroll from "react-infinite-scroll-component";
-import ImageFallback from "./ImageFallback";
-import ToolsIcon from "./ToolsIcon";
 
 // change github data by sort fuctionality
 const githubDataChange = (theme) => {

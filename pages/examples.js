@@ -1,6 +1,6 @@
-import Examples from "@components/Examples";
-import MobileSidebar from "@components/MobileSidebar";
 import Base from "@layouts/Baseof";
+import Examples from "@layouts/Examples";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
 import { humanize, markdownify, slugify } from "@lib/utils/textConverter";

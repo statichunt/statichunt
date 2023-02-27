@@ -1,9 +1,9 @@
+import ImageFallback from "@components/ImageFallback";
+import ToolsIcon from "@components/ToolsIcon";
 import { simplifyURL } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import ImageFallback from "./ImageFallback";
-import ToolsIcon from "./ToolsIcon";
 
 const Examples = ({ examples, customRowClass, customColClass }) => {
   const [item, setItem] = useState(4);

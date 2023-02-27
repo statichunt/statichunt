@@ -24,8 +24,12 @@ const BlogPagination = ({
     <Base title={title}>
       <section className="section">
         <div className="container">
-          {markdownify(title, "h1", "h2 mb-8 text-center")}
-          <Posts posts={currentPosts} authors={authors} />
+          {markdownify(title, "h1", "mb-8 text-center")}
+          <Posts
+            customRowClass={"row justify-center px-4 mb-8"}
+            posts={currentPosts}
+            authors={authors}
+          />
           <Pagination
             section={"blog"}
             totalPages={totalPages}

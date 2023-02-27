@@ -14,7 +14,7 @@
   "settings": {
     "theme_switcher": true,
     "default_theme": "system",
-    "pagination": 6,
+    "pagination": 2,
     "summary_length": 200
   },
 
