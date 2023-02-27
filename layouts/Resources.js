@@ -1,5 +1,5 @@
 import { humanize } from "@lib/utils/textConverter";
-import ImageFallback from "./ImageFallback";
+import ImageFallback from "./components/ImageFallback";
 
 const Resources = ({ resources }) => {
   return (
