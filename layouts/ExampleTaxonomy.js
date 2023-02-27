@@ -35,7 +35,9 @@ const ExampleTaxonomy = ({ data, currentPage, showIntro }) => {
             <div className="mb-5 flex">
               <Image
                 className={`${
-                  darkIconList.includes(slugify(title)) ? "dark:invert" : ""
+                  darkIconList.includes(slugify(title))
+                    ? "dark:brightness-0 dark:invert"
+                    : ""
                 } mr-3`}
                 src={icon}
                 alt={`${title} icon`}

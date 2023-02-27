@@ -160,7 +160,7 @@ select:required:invalid {
 
 // tooltip
 .tooltip {
-  @apply relative inline-block;
+  @apply relative inline-block cursor-pointer;
   &-label {
     @apply pointer-events-none invisible absolute left-1/2 bottom-[calc(100%+5px)] z-50 w-max -translate-x-1/2 rounded bg-primary px-3 py-1 text-center text-sm text-white opacity-0 transition;
     &::after {

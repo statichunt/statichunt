@@ -19,6 +19,8 @@ examples_description: A collection of Jekyll Website examples to inspire the cre
 examples_content: "Check out the showcase of a variety of jekyll website examples. Get inspired about building your next web project on the Jekyll static site generator"
 examples_url: "/jekyll-examples"
 
+themes_draft: false
+examples_draft: true
 draft: false
 ---
 

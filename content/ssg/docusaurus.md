@@ -18,6 +18,8 @@ examples_description: Best Docusaurus Website Examples
 examples_content: 
 examples_url: "/docusaurus-examples"
 
+themes_draft: true
+examples_draft: true
 draft: true
 ---
 

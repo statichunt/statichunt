@@ -19,6 +19,8 @@ examples_description: "Top collection of Hexo Website examples to inspire the cr
 examples_content: "Check out the showcase of a variety of Hexo website examples. Get inspired about building your next web project on the Hexo static site generator."
 examples_url: "/hexo-examples"
 
+themes_draft: false
+examples_draft: true
 draft: false
 ---
 

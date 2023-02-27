@@ -1,16 +1,18 @@
 import Base from "@layouts/Baseof";
+import MobileSidebar from "@layouts/components/MobileSidebar";
 import Link from "next/link";
 
 const notFound = () => {
   return (
     <Base>
+      <MobileSidebar />
       <section className="section">
         <div className="container">
           <div className="row">
             <div className="mx-auto lg:col-6">
               <div className="flex min-h-[40vh] items-center justify-center">
                 <div className="text-center">
-                  <span className="mb-4 block text-[20rem] font-bold leading-none text-dark dark:text-darkmode-dark">
+                  <span className="mb-4 block text-[5rem] font-bold leading-none text-dark dark:text-darkmode-dark lg:text-[20rem]">
                     404
                   </span>
                   <h1 className="mb-4 text-h2">

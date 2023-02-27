@@ -19,6 +19,8 @@ examples_description: A collection of Astro Website examples to inspire the crea
 examples_content: "Check out the showcase of a variety of Gatsby website examples. Get inspired about building your next web project on the Gatsby static site generator."
 examples_url: "/gatsby-examples"
 
+themes_draft: false
+examples_draft: false
 draft: false
 ---
 

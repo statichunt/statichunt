@@ -18,6 +18,8 @@ examples_description: A collection of Nuxtjs Website examples to inspire the cre
 examples_content: Check out the showcase of a variety of Nuxtjs website examples. Get inspired about building your upcoming web project with Nuxtjs static site generator.
 examples_url: "/nuxtjs-examples"
 
+themes_draft: false
+examples_draft: false
 draft: false
 ---
 

@@ -19,6 +19,8 @@ examples_description: A collection of Hugo Website examples to inspire the creat
 examples_content: "Check out the showcase of a variety of Hugo website examples. Get inspired about building your next web project on the Hugo static site generator"
 examples_url: "/hugo-examples"
 
+themes_draft: false
+examples_draft: false
 draft: false
 ---
 
