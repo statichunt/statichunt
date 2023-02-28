@@ -75,14 +75,14 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                           <Image
                             src={author.frontmatter.image}
                             alt={author.frontmatter.title}
-                            height="150px"
-                            width="150px"
+                            height="40px"
+                            width="40px"
                             className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
                           />
                         ) : (
                           <Gravatar
                             email={author.frontmatter.email}
-                            size={150}
+                            size={40}
                             className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
                           />
                         )}

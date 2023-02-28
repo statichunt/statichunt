@@ -17,15 +17,18 @@ const BlogCard = ({ blogs, themes, resources, setSearchModal }) => {
           <div className="relative rounded shadow">
             <div className="rounded sm:flex">
               <div className="flex w-full items-center rounded p-3">
-                {blog.frontmatter.image && (
+                {blog.frontmatter.image ? (
                   <ImageFallback
-                    loading="lazy"
                     src={blog.frontmatter.image}
                     alt={blog.frontmatter.title}
                     width={120}
                     height={80}
                     className="mr-4 block h-[80px] max-w-[120px] rounded object-cover lg:mr-8"
                   />
+                ) : (
+                  <span className="mr-4 flex h-[80px] max-h-full w-full max-w-[120px] items-center justify-center rounded bg-theme-light text-[4rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark lg:mr-8">
+                    {blog.frontmatter.title.charAt(0)}
+                  </span>
                 )}
                 <div className="flex-1 bg-transparent sm:mt-0">
                   <h3 className="h6">

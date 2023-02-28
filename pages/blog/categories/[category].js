@@ -8,7 +8,7 @@ import { humanize, slugify } from "@lib/utils/textConverter";
 // category page
 const Category = ({ category, posts, authors }) => {
   return (
-    <Base title={category}>
+    <Base title={humanize(category)}>
       <MobileSidebar />
       <div className="section">
         <div className="container">

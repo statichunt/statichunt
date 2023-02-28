@@ -101,7 +101,7 @@ select:required:invalid {
   @apply prose-h3:text-h3-sm md:prose-h3:text-h3;
   @apply prose-hr:border-border prose-hr:dark:border-darkmode-border;
   @apply prose-p:text-base prose-p:text-text prose-p:dark:text-light;
-  @apply prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:dark:bg-theme-dark;
+  @apply prose-blockquote:rounded prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:shadow prose-blockquote:dark:bg-theme-dark;
   @apply prose-code:px-1 prose-code:text-primary dark:prose-code:text-darkmode-primary;
   @apply prose-pre:rounded-none;
   @apply prose-strong:text-dark prose-strong:dark:text-light;

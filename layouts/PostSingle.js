@@ -7,7 +7,9 @@ import { similerPosts } from "@lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
+import Image from "next/image";
 import Link from "next/link";
+import Gravatar from "react-gravatar";
 import MobileSidebar from "./partials/MobileSidebar";
 
 const PostSingle = ({
@@ -102,14 +104,21 @@ const PostSingle = ({
                       className="border-b border-border pb-6 dark:border-darkmode-border"
                       key={i}
                     >
-                      <ImageFallback
-                        src={author.frontmatter.image}
-                        alt={author.frontmatter.title}
-                        fallback="/images/author-placeholder.png"
-                        height={100}
-                        width={100}
-                        className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
-                      />
+                      {author.frontmatter.image ? (
+                        <Image
+                          src={author.frontmatter.image}
+                          alt={author.frontmatter.title}
+                          height="100px"
+                          width="100px"
+                          className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
+                        />
+                      ) : (
+                        <Gravatar
+                          email={author.frontmatter.email}
+                          size={150}
+                          className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
+                        />
+                      )}
                       <h5 className="mb-4">
                         <Link
                           href={`/authors/${slugify(author.frontmatter.title)}`}
@@ -167,16 +176,21 @@ const PostSingle = ({
                               key={`author-${i}`}
                               className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
                             >
-                              <span className="mr-2">
-                                <ImageFallback
+                              {author.frontmatter.image ? (
+                                <Image
                                   src={author.frontmatter.image}
                                   alt={author.frontmatter.title}
-                                  fallback="/images/author-placeholder.png"
-                                  height={40}
-                                  width={40}
-                                  className="h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                                  height="40px"
+                                  width="40px"
+                                  className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
                                 />
-                              </span>
+                              ) : (
+                                <Gravatar
+                                  email={author.frontmatter.email}
+                                  size={40}
+                                  className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                                />
+                              )}
                               <span>{author.frontmatter.title}</span>
                             </Link>
                           ))}
