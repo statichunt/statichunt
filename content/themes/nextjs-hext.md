@@ -8,7 +8,7 @@ author_twitter: DewDots
 date: 2022-09-21T00:00:00.000Z
 description: A web hosting template made using nextjs
 ssg:
-  - Next
+  - Nextjs
 css:
   - SCSS
 cms:
@@ -21,8 +21,3 @@ update_date: '2022-10-01T12:09:36Z'
 github_star: 8
 github_fork: 2
 ---
-
-## Theme features
-
-- Fast
-- Fully Responsive
