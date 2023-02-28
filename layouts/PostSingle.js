@@ -42,7 +42,7 @@ const PostSingle = ({
                   height={340}
                 />
               ) : (
-                <span className="flex h-[240px] max-h-full w-[500px] max-w-full items-center justify-center rounded bg-theme-light text-[10rem] text-dark dark:bg-darkmode-theme-dark dark:text-darkmode-dark">
+                <span className="flex h-[240px] max-h-full w-[500px] max-w-full items-center justify-center rounded bg-white text-[10rem] text-dark dark:bg-darkmode-theme-dark dark:text-darkmode-dark">
                   {title.charAt(0)}
                 </span>
               )}

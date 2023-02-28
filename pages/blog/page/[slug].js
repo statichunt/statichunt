@@ -18,7 +18,7 @@ const BlogPagination = ({
   const indexOfFirstPost = indexOfLastPost - pagination;
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
-  const { frontmatter } = postIndex;
+  const { frontmatter, content } = postIndex;
   const { title } = frontmatter;
 
   return (
@@ -28,7 +28,10 @@ const BlogPagination = ({
         <div className="container">
           <div className="row justify-center">
             <div className="xl:col-10">
-              {markdownify(title, "h1", "mb-8 text-center")}
+              <div className="mb-8 text-center">
+                {markdownify(title, "h1", "mb-4")}
+                {markdownify(content, "p")}
+              </div>
               <Posts
                 customRowClass={"row justify-center px-4 mb-8"}
                 posts={currentPosts}
