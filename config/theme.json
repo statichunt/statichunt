@@ -19,10 +19,10 @@
       "theme_color": {
         "primary": "#45d19e",
         "secondary": "#25b1c8",
-        "body": "#252f37",
-        "border": "#2d3b44",
-        "theme_light": "#465765",
-        "theme_dark": "#2a353f"
+        "body": "#20262e",
+        "border": "#394852",
+        "theme_light": "#323940",
+        "theme_dark": "#272e37"
       },
       "text_color": {
         "default": "#cbcbcb",
