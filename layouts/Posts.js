@@ -13,7 +13,7 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
       {posts.map((post, i) => (
         <div
           key={`key-${i}`}
-          className="col-12 border-b py-8 px-0 xl:col-10 last:border-0"
+          className="col-12 border-b border-border py-8 px-0 xl:col-10 last:border-0 dark:border-darkmode-border"
         >
           <div className="row lg:items-center">
             <div
@@ -32,7 +32,7 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                   height={330}
                 />
               ) : (
-                <span className="flex h-[220px] max-h-full w-[500px] max-w-full items-center justify-center rounded bg-theme-light text-[10rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark">
+                <span className="flex h-[240px] max-h-full w-[500px] max-w-full items-center justify-center rounded bg-theme-light text-[10rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark">
                   {post.frontmatter.title.charAt(0)}
                 </span>
               )}
@@ -53,7 +53,7 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
               <h2 className="h3 mb-4">
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="block hover:text-primary"
+                  className="block hover:text-primary dark:hover:text-darkmode-primary"
                 >
                   {post.frontmatter.title}
                 </Link>
@@ -71,7 +71,7 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                       <Link
                         href={`/authors/${slugify(author.frontmatter.title)}`}
                         key={`author-${i}`}
-                        className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark"
+                        className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
                       >
                         <span className="mr-2">
                           <ImageFallback
@@ -80,14 +80,14 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                             fallback="/images/author-placeholder.png"
                             height={40}
                             width={40}
-                            className="h-9 w-9 rounded-full border-2"
+                            className="h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
                           />
                         </span>
                         <span>{author.frontmatter.title}</span>
                       </Link>
                     ))}
                 </li>
-                <li className="mb-2 mr-4 inline-block border-l pl-3 leading-none text-dark dark:text-darkmode-dark">
+                <li className="mb-2 mr-4 inline-block border-l pl-3 leading-none text-dark dark:border-darkmode-border dark:text-darkmode-dark">
                   {dateFormat(post.frontmatter.date)}
                 </li>
               </ul>

@@ -11,7 +11,7 @@ const Footer = () => {
   const { site, params } = config;
 
   return (
-    <footer className="section bg-theme-dark px-4 sm:px-10 xl:px-16">
+    <footer className="section bg-theme-dark px-4 dark:bg-darkmode-theme-dark sm:px-10 xl:px-16">
       <div className="mb-12 border-b border-[#ffffff0f] pb-10">
         <div className="row lg:justify-center">
           {footer.map((item, i) => (
@@ -46,12 +46,12 @@ const Footer = () => {
 
       {/* footer bottom */}
       <div className="row items-center lg:justify-center">
-        <div className="col-12 mb-3 md:col-5 lg:mb-0 lg:col-3">
+        <div className="col-12 mb-3 md:col-5 lg:col-3 lg:mb-0">
           <Link href="/" className="inline-block">
             <Image src={site.footer_logo} width={180} height={35} alt="logo" />
           </Link>
         </div>
-        <div className="col-12 mb-4 md:col-7 lg:mb-0 lg:col-4">
+        <div className="col-12 mb-4 md:col-7 lg:col-4 lg:mb-0">
           <div className="flex items-center">
             <span className="mr-3 inline-block text-sm text-white">
               Connect with us :
