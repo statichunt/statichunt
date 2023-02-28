@@ -34,18 +34,30 @@
   @apply flex-1 py-10 px-0 lg:pl-4;
 }
 
-// social icon style
-.social-icons {
-  @apply space-x-2;
+// social icons
+.social-icons-simple {
+  @apply space-x-5;
   li {
     @apply inline-block;
     a {
-      @apply block h-9 w-9 text-center text-white;
-      svg {
-        @apply m-auto h-9;
-      }
+      @apply block text-white hover:text-primary dark:hover:text-darkmode-primary;
     }
   }
+}
+
+.social-icons {
+  @apply space-x-5;
+  li {
+    @apply inline-block;
+    a {
+      @apply block text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary;
+    }
+  }
+}
+
+// social share icons
+.social-share {
+  @apply sticky top-20;
 }
 
 // form style
@@ -188,8 +200,11 @@ select:required:invalid {
 // tooltip static which is not generated from js
 .tooltip-static {
   @extend .tooltip;
-  .tooltip-static-label {
+  &-label {
     @extend .tooltip-label;
+  }
+  &-bottom {
+    @extend .tooltip-bottom;
   }
 }
 
@@ -242,7 +257,7 @@ select:required:invalid {
   &.active {
     @apply bg-white dark:bg-darkmode-theme-light;
     &::before {
-      @apply border-2 border-white bg-primary ring-2 ring-primary dark:border-darkmode-theme-light;
+      @apply border-2 border-white bg-primary ring-2 ring-primary dark:border-darkmode-border;
     }
   }
 }
@@ -250,7 +265,7 @@ select:required:invalid {
 // themes category list
 .category-list {
   li {
-    @apply mr-3 mb-3 inline-block cursor-pointer select-none rounded border border-border py-[.3rem] pl-3 pr-2 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-theme-light dark:text-darkmode-text;
+    @apply mr-3 mb-3 inline-block cursor-pointer select-none rounded border border-border py-[.3rem] pl-3 pr-2 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-border dark:text-darkmode-text;
     span {
       @apply ml-2 rounded bg-theme-light px-[.3rem] py-[.15rem] text-xs dark:bg-darkmode-theme-light;
     }
@@ -267,7 +282,7 @@ select:required:invalid {
 .sort-dropdown {
   @apply relative mt-1 inline-block whitespace-nowrap text-[.8rem];
   &-input {
-    @apply ml-2 cursor-pointer rounded border border-border py-[.3rem] px-3 dark:border-darkmode-theme-light;
+    @apply ml-2 cursor-pointer rounded border border-border py-[.3rem] px-3 dark:border-darkmode-border;
   }
   &-buttons {
     @apply absolute top-8 right-0 z-50 hidden w-full rounded bg-white p-3 shadow dark:bg-darkmode-theme-dark;
@@ -292,7 +307,7 @@ select:required:invalid {
 // demo previewer
 .demo-preview {
   &-switcher {
-    @apply inline-block space-x-1 rounded border border-primary/60 bg-theme-light text-[1.45rem] leading-none dark:bg-theme-dark;
+    @apply inline-block rounded border border-primary/60 bg-theme-light text-[1.45rem] leading-none dark:bg-theme-dark;
     button {
       @apply rounded-sm px-2 py-[.3rem];
       &.active {
@@ -309,10 +324,10 @@ select:required:invalid {
   &-content {
     @apply relative mx-auto h-full w-full overflow-hidden border-white bg-white transition-all duration-500 dark:border-dark dark:bg-darkmode-theme-light;
     &.tablet {
-      @apply mt-[-15px] h-[1024px] max-h-[calc(100vh-130px)] w-[768px] rounded-lg border-[15px] border-white shadow dark:border-darkmode-theme-light;
+      @apply mt-[-15px] h-[1024px] max-h-[calc(100vh-130px)] w-[768px] rounded-lg border-[15px] border-white shadow dark:border-darkmode-border;
     }
     &.mobile {
-      @apply mt-[-10px] h-[740px] max-h-[calc(100vh-120px)] w-[375px] rounded-lg border-[10px] border-white shadow dark:border-darkmode-theme-light;
+      @apply mt-[-10px] h-[740px] max-h-[calc(100vh-120px)] w-[375px] rounded-lg border-[10px] border-white shadow dark:border-darkmode-border;
     }
   }
 }

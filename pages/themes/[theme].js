@@ -33,7 +33,12 @@ const SingleTheme = ({ slug, theme, allTheme }) => {
               <div className="mt-8 hidden border-y border-gray-300 py-5 lg:block">
                 <div className="flex flex-wrap items-center">
                   <h3 className="h6 mb-1 mr-5">Share This Theme:</h3>
-                  <Share title={title} description={description} slug={slug} />
+                  <Share
+                    className="space-x-4"
+                    title={title}
+                    description={description}
+                    slug={slug}
+                  />
                 </div>
               </div>
             </div>

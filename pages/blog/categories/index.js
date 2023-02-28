@@ -1,4 +1,5 @@
 import Base from "@layouts/Baseof";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
 import { getTaxonomy } from "@lib/taxonomyParser";
 import { humanize, markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
@@ -6,6 +7,7 @@ import Link from "next/link";
 const Categories = ({ categories }) => {
   return (
     <Base title={"categories"}>
+      <MobileSidebar />
       <section className="section">
         <div className="container text-center">
           {markdownify("Categories", "h1", "h2 mb-16")}

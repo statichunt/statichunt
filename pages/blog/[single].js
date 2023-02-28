@@ -3,7 +3,7 @@ import { getSinglePage } from "@lib/contentParser";
 import { parseMDX } from "@lib/utils/mdxParser";
 
 // post single layout
-const Article = ({ post, authors, mdxContent, slug }) => {
+const Article = ({ post, posts, authors, mdxContent, slug }) => {
   const { frontmatter, content } = post[0];
 
   return (
@@ -13,6 +13,8 @@ const Article = ({ post, authors, mdxContent, slug }) => {
       mdxContent={mdxContent}
       authors={authors}
       slug={slug}
+      post={post}
+      posts={posts}
     />
   );
 };
@@ -43,6 +45,7 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       post: post,
+      posts: posts,
       authors: authors,
       mdxContent: mdxContent,
       slug: single,

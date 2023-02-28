@@ -29,7 +29,7 @@ const ThemesCard = ({ themes, resources, blogs, setSearchModal }) => {
             <div className="px-4">
               <h3 className="h6 mb-3 text-base font-bold leading-4">
                 <Link
-                  className="stretched-link hover:underline"
+                  className="stretched-link line-clamp-1 hover:underline"
                   href={`/themes/${theme.slug}`}
                   onClick={() => setSearchModal(false)}
                 >

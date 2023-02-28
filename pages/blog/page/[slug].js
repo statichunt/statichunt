@@ -1,6 +1,7 @@
 import Pagination from "@components/Pagination";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
 import Posts from "@layouts/Posts";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";
@@ -22,19 +23,24 @@ const BlogPagination = ({
 
   return (
     <Base title={title}>
+      <MobileSidebar />
       <section className="section">
         <div className="container">
-          {markdownify(title, "h1", "mb-8 text-center")}
-          <Posts
-            customRowClass={"row justify-center px-4 mb-8"}
-            posts={currentPosts}
-            authors={authors}
-          />
-          <Pagination
-            section={"blog"}
-            totalPages={totalPages}
-            currentPage={currentPage}
-          />
+          <div className="row justify-center">
+            <div className="xl:col-10">
+              {markdownify(title, "h1", "mb-8 text-center")}
+              <Posts
+                customRowClass={"row justify-center px-4 mb-8"}
+                posts={currentPosts}
+                authors={authors}
+              />
+              <Pagination
+                section={"blog"}
+                totalPages={totalPages}
+                currentPage={currentPage}
+              />
+            </div>
+          </div>
         </div>
       </section>
     </Base>

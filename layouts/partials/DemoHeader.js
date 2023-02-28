@@ -132,7 +132,7 @@ const DemoHeader = ({
           className={`absolute right-4 block h-5 w-5 cursor-pointer border-border text-center ${
             showHeader
               ? "rounded-full border leading-[.9rem]"
-              : "top-[62px] bg-primary leading-5 text-white dark:bg-darkmode-primary"
+              : "top-[62px] bg-primary leading-5 text-white"
           }`}
           onClick={() => setShowHeader(!showHeader)}
         >

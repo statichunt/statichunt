@@ -1,5 +1,8 @@
 import config from "@config/config.json";
+import { useState } from "react";
 import {
+  IoClipboardOutline,
+  IoLinkOutline,
   IoLogoFacebook,
   IoLogoLinkedin,
   IoLogoPinterest,
@@ -9,9 +12,23 @@ import {
 const Share = ({ title, description, slug, className }) => {
   // destructuring items from config object
   const { base_url } = config.site;
+  // copy link
+  const [copyLink, setCopyLink] = useState(false);
+  const copyLinkHandler = () => {
+    let copyLinkButton = document.getElementById("copyLinkButton");
+    copyLinkButton.select();
+    copyLinkButton.setSelectionRange(0, 99999);
+    setTimeout(() => {
+      navigator.clipboard.writeText(copyLinkButton.value);
+    }, 100);
+    setCopyLink(true);
+    setTimeout(() => {
+      setCopyLink(false);
+    }, 2000);
+  };
 
   return (
-    <ul className={`flex gap-x-4 ${className}`}>
+    <ul className={`flex ${className}`}>
       <li className="inline-block">
         <a
           aria-label="facebook share button"
@@ -58,6 +75,24 @@ const Share = ({ title, description, slug, className }) => {
         >
           <IoLogoPinterest />
         </a>
+      </li>
+      <li
+        className="tooltip-static tooltip-static-bottom relative inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white dark:bg-white/5 dark:text-white dark:hover:bg-primary"
+        onClick={() => copyLinkHandler()}
+      >
+        <span className="tooltip-static-label">
+          {copyLink ? "Copied!" : "Copy Link"}
+        </span>
+        <input
+          className="invisible absolute"
+          type="text"
+          value={`${base_url}/${slug}`}
+          id="copyLinkButton"
+          style={{ pointerEvents: "none", top: "-9999px" }}
+          readOnly
+        />
+        <IoLinkOutline className={copyLink ? "hidden" : "inline-block"} />
+        <IoClipboardOutline className={copyLink ? "inline-block" : "hidden"} />
       </li>
     </ul>
   );

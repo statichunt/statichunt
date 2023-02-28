@@ -2,7 +2,9 @@ import ImageFallback from "@components/ImageFallback";
 import config from "@config/config.json";
 import { dateFormat } from "@lib/utils/dateFormat";
 import { humanize, slugify } from "@lib/utils/textConverter";
+import Image from "next/image";
 import Link from "next/link";
+import Gravatar from "react-gravatar";
 
 const Posts = ({ posts, authors, customRowClass, customColClass }) => {
   const { summary_length } = config.settings;
@@ -12,17 +14,13 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
     >
       {posts.map((post, i) => (
         <div
-          key={`key-${i}`}
-          className="col-12 border-b border-border py-8 px-0 xl:col-10 last:border-0 dark:border-darkmode-border"
+          key={`post-${i}`}
+          className={`border-b border-border py-8 px-0 last:border-0 dark:border-darkmode-border ${
+            customColClass ? customColClass : "col-12"
+          }`}
         >
           <div className="row lg:items-center">
-            <div
-              className={
-                customColClass
-                  ? customColClass
-                  : "mb-5 md:col-6 lg:col-5 md:mb-0"
-              }
-            >
+            <div className="mb-5 md:col-6 lg:col-5 md:mb-0">
               {post.frontmatter.image ? (
                 <ImageFallback
                   className="w-full rounded object-cover"
@@ -32,7 +30,7 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                   height={330}
                 />
               ) : (
-                <span className="flex h-[240px] max-h-full w-[500px] max-w-full items-center justify-center rounded bg-theme-light text-[10rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark">
+                <span className="flex h-[240px] max-h-full w-full items-center justify-center rounded bg-theme-light text-[10rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark">
                   {post.frontmatter.title.charAt(0)}
                 </span>
               )}
@@ -73,16 +71,21 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                         key={`author-${i}`}
                         className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
                       >
-                        <span className="mr-2">
-                          <ImageFallback
+                        {author.frontmatter.image ? (
+                          <Image
                             src={author.frontmatter.image}
                             alt={author.frontmatter.title}
-                            fallback="/images/author-placeholder.png"
-                            height={40}
-                            width={40}
-                            className="h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                            height="150px"
+                            width="150px"
+                            className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
                           />
-                        </span>
+                        ) : (
+                          <Gravatar
+                            email={author.frontmatter.email}
+                            size={150}
+                            className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                          />
+                        )}
                         <span>{author.frontmatter.title}</span>
                       </Link>
                     ))}

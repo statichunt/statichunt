@@ -64,3 +64,7 @@ object {
 .stretched-link {
   @apply after:absolute after:inset-0;
 }
+
+article > p:first-child {
+  margin-top: 0 !important;
+}

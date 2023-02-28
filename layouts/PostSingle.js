@@ -1,24 +1,96 @@
+import ImageFallback from "@components/ImageFallback";
 import Share from "@components/Share";
 import Base from "@layouts/Baseof";
 import { dateFormat } from "@lib/utils/dateFormat";
+import { readingTime } from "@lib/utils/readingTime";
+import { similerPosts } from "@lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
-import Image from "next/image";
 import Link from "next/link";
+import MobileSidebar from "./partials/MobileSidebar";
 
-const PostSingle = ({ frontmatter, content, mdxContent, authors, slug }) => {
-  let { description, title, date, image, categories, tags } = frontmatter;
+const PostSingle = ({
+  frontmatter,
+  content,
+  mdxContent,
+  post,
+  posts,
+  authors,
+  slug,
+}) => {
+  let { description, title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
+
+  const relatedPosts = similerPosts(post, posts, slug).slice(0, 2);
 
   return (
     <Base title={title} description={description}>
+      <MobileSidebar />
+      <section className="section bg-theme-light dark:bg-darkmode-theme-light">
+        <div className="container">
+          <div className="row justify-center lg:items-center">
+            <div className="col-12 mb-6 md:col-5 lg:col-4 md:order-2 md:mb-0">
+              {image ? (
+                <ImageFallback
+                  className="w-full rounded object-cover"
+                  src={image}
+                  alt={title}
+                  width={560}
+                  height={340}
+                />
+              ) : (
+                <span className="flex h-[240px] max-h-full w-[500px] max-w-full items-center justify-center rounded bg-theme-light text-[10rem] text-dark dark:bg-darkmode-theme-dark dark:text-darkmode-dark">
+                  {title.charAt(0)}
+                </span>
+              )}
+            </div>
+            <div className="col-12 md:col-7 lg:col-6 md:order-1">
+              <ul className="mb-6 space-x-2">
+                {categories.map((category, i) => (
+                  <li className="inline-block" key={`category-${i}`}>
+                    <Link
+                      href={`/blog/categories/${slugify(category)}`}
+                      className="rounded bg-white from-primary to-secondary px-3 py-1 text-primary hover:bg-gradient-to-r hover:text-white dark:bg-darkmode-theme-dark dark:text-darkmode-light"
+                    >
+                      {humanize(category)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <h1 className="mb-6">{title}</h1>
+              <ul>
+                <li className="mr-4 inline-block leading-none text-dark dark:text-darkmode-dark">
+                  {dateFormat(date)}
+                </li>
+                <li className="mr-4 inline-block border-l pl-3 leading-none text-dark dark:border-darkmode-border dark:text-darkmode-dark">
+                  {readingTime(content)}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="section">
         <div className="container">
-          <article className="text-center">
-            {markdownify(title, "h1", "h2")}
-            <ul className="mt-4 mb-8 text-text">
-              <li className="mb-2 mr-4 inline-block">
+          <div className="row relative">
+            <div className="hidden lg:col-1 lg:block">
+              <Share
+                className="social-share mt-2 flex-col space-y-4"
+                title={title}
+                description={description}
+                slug={slug}
+              />
+            </div>
+            <div className="mb-16 border-border md:col-8 lg:col-7 dark:border-darkmode-border md:mb-0 md:border-r md:pr-6">
+              <article className="content">
+                <MDXRemote {...mdxContent} components={shortcodes} />
+              </article>
+            </div>
+            <div className="pl-0 md:col-4 lg:col-3 md:pl-6 lg:pl-0">
+              {/* author widget */}
+              <div className="widget">
+                <h4 className="mb-8">About Author :</h4>
                 {authors
                   .filter((author) =>
                     frontmatter.authors
@@ -26,63 +98,95 @@ const PostSingle = ({ frontmatter, content, mdxContent, authors, slug }) => {
                       .includes(slugify(author.frontmatter.title))
                   )
                   .map((author, i) => (
-                    <Link
-                      href={`/authors/${slugify(author.frontmatter.title)}`}
-                      key={`author-${i}`}
-                      className="inline-block hover:text-primary"
+                    <div
+                      className="border-b border-border pb-6 dark:border-darkmode-border"
+                      key={i}
                     >
-                      {author.frontmatter.image && (
-                        <span className="mr-2 align-top">
-                          <Image
-                            src={author.frontmatter.image}
-                            alt={author.frontmatter.title}
-                            height={25}
-                            width={25}
-                            className="h-6 w-6 rounded-full"
-                          />
+                      <ImageFallback
+                        src={author.frontmatter.image}
+                        alt={author.frontmatter.title}
+                        fallback="/images/author-placeholder.png"
+                        height={100}
+                        width={100}
+                        className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
+                      />
+                      <h5 className="mb-4">
+                        <Link
+                          href={`/authors/${slugify(author.frontmatter.title)}`}
+                          className="hover:text-primary dark:hover:text-darkmode-primary"
+                        >
+                          {author.frontmatter.title}
+                        </Link>
+                      </h5>
+                      <p>{markdownify(author.content.slice(0, 90))}...</p>
+                    </div>
+                  ))}
+              </div>
+              {/* related posts widget */}
+              <div className="widget">
+                <h4 className="mb-8">Related Posts :</h4>
+
+                {relatedPosts.map((post, i) => (
+                  <div key={`post-${i}`} className="mb-8">
+                    <div className="mb-5">
+                      {post.frontmatter.image ? (
+                        <ImageFallback
+                          className="w-full rounded object-cover"
+                          src={post.frontmatter.image}
+                          alt={post.frontmatter.title}
+                          width={300}
+                          height={180}
+                        />
+                      ) : (
+                        <span className="flex h-[120px] max-h-full w-full items-center justify-center rounded bg-theme-light text-[5rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark">
+                          {post.frontmatter.title.charAt(0)}
                         </span>
                       )}
-                      <span>{author.frontmatter.title}</span>
-                    </Link>
-                  ))}
-              </li>
-              <li className="mb-2 mr-4 inline-block">{dateFormat(date)}</li>
-              <li className="mb-2 mr-4 inline-block">
-                <ul>
-                  {categories.map((category, i) => (
-                    <li className="inline-block" key={`category-${i}`}>
+                    </div>
+                    <h5 className="mb-4">
                       <Link
-                        href={`/categories/${slugify(category)}`}
-                        className="mr-3 hover:text-primary"
+                        href={`/blog/${post.slug}`}
+                        className="block hover:text-primary dark:hover:text-darkmode-primary"
                       >
-                        &#9635; {humanize(category)}
+                        {post.frontmatter.title}
                       </Link>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            </ul>
-            {image && (
-              <Image
-                src={image}
-                height="500"
-                width="1000"
-                alt={title}
-                className="rounded-lg"
-              />
-            )}
-            <div className="content mb-16 text-left">
-              <MDXRemote {...mdxContent} components={shortcodes} />
+                    </h5>
+                    <ul className="text-text">
+                      <li className="mb-2 mr-4 inline-block">
+                        {authors
+                          .filter((author) =>
+                            post.frontmatter.authors
+                              .map((author) => slugify(author))
+                              .includes(slugify(author.frontmatter.title))
+                          )
+                          .map((author, i) => (
+                            <Link
+                              href={`/authors/${slugify(
+                                author.frontmatter.title
+                              )}`}
+                              key={`author-${i}`}
+                              className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
+                            >
+                              <span className="mr-2">
+                                <ImageFallback
+                                  src={author.frontmatter.image}
+                                  alt={author.frontmatter.title}
+                                  fallback="/images/author-placeholder.png"
+                                  height={40}
+                                  width={40}
+                                  className="h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                                />
+                              </span>
+                              <span>{author.frontmatter.title}</span>
+                            </Link>
+                          ))}
+                      </li>
+                    </ul>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="flex flex-wrap items-center justify-between">
-              <Share
-                className="social-share mb-4"
-                title={title}
-                description={description}
-                slug={slug}
-              />
-            </div>
-          </article>
+          </div>
         </div>
       </section>
     </Base>

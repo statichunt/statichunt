@@ -1,4 +1,5 @@
 import Base from "@layouts/Baseof";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
 import Posts from "@layouts/Posts";
 import { getSinglePage } from "@lib/contentParser";
 import { getTaxonomy } from "@lib/taxonomyParser";
@@ -8,13 +9,20 @@ import { humanize, slugify } from "@lib/utils/textConverter";
 const Category = ({ category, posts, authors }) => {
   return (
     <Base title={category}>
+      <MobileSidebar />
       <div className="section">
         <div className="container">
-          <h1 className="h2 mb-8 text-center">
-            Showing posts from{" "}
-            <span className="text-primary underline">{humanize(category)}</span>
-          </h1>
-          <Posts posts={posts} authors={authors} />
+          <div className="row justify-center">
+            <div className="xl:col-10">
+              <h1 className="h2 mb-8 text-center">
+                Showing posts from{" "}
+                <span className="text-primary underline">
+                  {humanize(category)}
+                </span>
+              </h1>
+              <Posts posts={posts} authors={authors} />
+            </div>
+          </div>
         </div>
       </div>
     </Base>
