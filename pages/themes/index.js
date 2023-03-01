@@ -71,12 +71,12 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes }) => {
           css={css}
           themes={
             arrayPremium.length && arrayFree.length
-              ? sortedThemes
+              ? filteredThemes
               : arrayFree.length
               ? arrayFree
               : arrayPremium.length
               ? arrayPremium
-              : sortedThemes
+              : filteredThemes
           }
         />
         <main className="main">
