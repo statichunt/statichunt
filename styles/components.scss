@@ -334,15 +334,15 @@ select:required:invalid {
 
 // cookie box
 .cookie-box {
-  @apply fixed left-3 bottom-3 z-50 mr-5 block w-[calc(100%-1.5rem)] max-w-[450px] items-center justify-between rounded bg-white px-5 py-4 shadow dark:bg-darkmode-theme-dark md:left-5 md:bottom-5 md:flex;
+  @apply fixed left-3 bottom-3 z-50 mr-5 block w-[calc(100%-1.5rem)] max-w-[450px] items-center justify-between rounded bg-white px-5 py-4 shadow dark:bg-darkmode-theme-light md:left-5 md:bottom-5 md:flex;
   &-closer {
-    @apply rounded border-0 bg-theme-light py-1 px-3 text-sm font-semibold transition hover:bg-primary hover:text-white dark:bg-darkmode-theme-light;
+    @apply rounded border-0 bg-theme-light py-1 px-3 text-sm font-semibold transition hover:bg-primary hover:text-white dark:bg-darkmode-theme-dark;
   }
 }
 
 // bookmark box
 .bookmark-box {
-  @apply fixed left-5 bottom-5 z-50 mr-5 hidden origin-bottom-left items-center justify-between rounded bg-white py-1.5 pr-5 pl-2 shadow transition-[cubic-bezier(0.18_0.89_0.32_1.27)] dark:bg-darkmode-theme-dark;
+  @apply fixed left-5 bottom-5 z-50 mr-5 hidden origin-bottom-left items-center justify-between rounded bg-white py-1.5 pr-5 pl-2 shadow transition-[cubic-bezier(0.18_0.89_0.32_1.27)] dark:bg-darkmode-theme-light;
   &-icon {
     @apply mr-2.5 flex items-center justify-center rounded px-1.5 py-2;
   }
@@ -351,13 +351,7 @@ select:required:invalid {
   }
   &:hover {
     .bookmark-box-icon {
-      @apply bg-theme-light dark:bg-darkmode-theme-light;
-    }
-    .bookmark-box-text {
-      @apply invisible opacity-0;
-    }
-    .bookmark-box-text-hover {
-      @apply visible opacity-100;
+      @apply bg-theme-light dark:bg-darkmode-theme-dark;
     }
     .bookmark-box-closer {
       @apply scale-100;

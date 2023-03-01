@@ -30,7 +30,11 @@ const ThemeTaxonomy = ({ data, currentPage, showIntro }) => {
     <main className="main">
       <section>
         <div className="container">
-          <div className={`mb-16 p-6 shadow ${!showIntro && "hidden"}`}>
+          <div
+            className={`mb-16 rounded p-6 shadow dark:bg-darkmode-theme-dark ${
+              !showIntro && "hidden"
+            }`}
+          >
             <div className="mb-5 flex">
               <Image
                 className={`${
