@@ -14,8 +14,8 @@ description: A simple Jekyll theme for words and pictures.
 draft: false
 publish_date: '2013-06-25T20:17:12Z'
 update_date: '2021-09-22T02:46:52Z'
-github_star: 1839
-github_fork: 2432
+github_star: 1846
+github_fork: 2437
 ---
 ## Theme Features:
 - A variety of layouts with clean and readable typography.

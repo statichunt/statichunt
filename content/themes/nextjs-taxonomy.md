@@ -18,8 +18,8 @@ category:
 draft: false
 publish_date: '2022-10-18T18:15:20Z'
 update_date: '2022-12-23T16:35:05Z'
-github_star: 4284
-github_fork: 283
+github_star: 4351
+github_fork: 289
 ---
 
 ## Theme features

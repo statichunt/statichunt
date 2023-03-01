@@ -24,10 +24,6 @@ const ThemeInfo = ({ theme, slug, tools }) => {
     update_date,
     download,
     price,
-    ssg,
-    cms,
-    css,
-    category,
   } = theme[0].frontmatter;
 
   return (

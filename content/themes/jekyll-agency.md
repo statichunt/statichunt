@@ -18,9 +18,9 @@ description: >-
   Analytics, Markdown support, custom pages, and more!
 draft: false
 publish_date: '2019-09-30T06:04:44Z'
-update_date: '2022-11-20T22:51:59Z'
-github_star: 219
-github_fork: 426
+update_date: '2023-02-14T18:45:45Z'
+github_star: 227
+github_fork: 435
 ---
 ## Theme Features
 - GitHub Pages support

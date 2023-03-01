@@ -19,8 +19,8 @@ category:
 draft: false
 publish_date: '2021-10-05T00:56:40Z'
 update_date: '2022-12-05T02:48:38Z'
-github_star: 89
-github_fork: 58
+github_star: 95
+github_fork: 60
 ---
 ## Theme Features
 - Component library for website building

@@ -20,8 +20,8 @@ draft: false
 weight: 6
 publish_date: '2023-02-14T04:43:43Z'
 update_date: '2023-02-14T10:24:40Z'
-github_star: 5
-github_fork: 0
+github_star: 6
+github_fork: 1
 ---
 
 ## Theme features

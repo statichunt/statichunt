@@ -39,7 +39,7 @@
 }
 
 .btn-github {
-  @apply border border-[#151b22] bg-[#151b22] text-white;
+  @apply border border-[#151b22] bg-[#151b22] text-white dark:bg-darkmode-theme-light;
 }
 
 .btn-loading {

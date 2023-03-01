@@ -16,8 +16,8 @@ date: 2019-05-13T08:18:18.000Z
 description: Kross Creative Portfolio Template
 draft: false
 publish_date: '2019-05-13T08:18:18Z'
-update_date: '2022-10-20T10:30:36Z'
-github_star: 257
+update_date: '2023-02-28T07:08:58Z'
+github_star: 261
 github_fork: 389
 ---
 ## Theme Features

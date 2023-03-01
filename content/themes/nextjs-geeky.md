@@ -6,7 +6,7 @@ author: Statichunt
 author_link: https://statichunt.com
 date: 2023-01-31T00:00:00.000Z
 weight: 4
-description: Geeky is a highly customizable feature-rich NextJs Blog Template. 
+description: Geeky is a highly customizable feature-rich NextJs Blog Template.
 ssg:
   - Nextjs
 css:
@@ -17,9 +17,9 @@ category:
   - Blog
 draft: false
 publish_date: '2023-01-25T05:19:20Z'
-update_date: '2023-02-01T04:39:50Z'
-github_star: 1
-github_fork: 0
+update_date: '2023-02-09T05:07:39Z'
+github_star: 11
+github_fork: 12
 ---
 **Key Features:**
 

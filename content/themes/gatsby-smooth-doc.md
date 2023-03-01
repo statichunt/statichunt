@@ -15,7 +15,7 @@ category:
 description: Ready to use documentation theme for Gatsby.
 draft: false
 publish_date: '2018-11-30T09:20:27Z'
-update_date: '2022-10-15T19:31:27Z'
-github_star: 242
-github_fork: 57
+update_date: '2023-02-07T07:21:48Z'
+github_star: 248
+github_fork: 58
 ---
