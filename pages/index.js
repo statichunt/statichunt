@@ -87,12 +87,12 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
               <HomeCategory
                 themes={
                   arrayPremium.length && arrayFree.length
-                    ? sortFilteredThemes(filteredThemes, sortAsc)
+                    ? filteredThemes
                     : arrayFree.length
                     ? arrayFree
                     : arrayPremium.length
                     ? arrayPremium
-                    : sortFilteredThemes(filteredThemes, sortAsc)
+                    : filteredThemes
                 }
                 category={category}
                 filterFree={filterFree}
