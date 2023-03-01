@@ -2,8 +2,8 @@
 title: Hexo
 page_title: Hexo Themes
 weight: "7"
-meta_title: Best Hexo Themes In 2023 | Statichunt
-description: "A comprehensive collection of Hexo themes, templates, and starters, all available for free"
+meta_title: Best Hexo Themes (Hand-picked) | Statichunt
+description: "Are you looking for the best Hexo themes? Checkout this comprehensive collection of Hexo themes"
 icon: /images/icons/hexo.svg
 website: https://hexo.io/
 github_path: hexojs/hexo

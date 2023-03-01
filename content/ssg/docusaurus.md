@@ -1,7 +1,7 @@
 ---
 title: "Docusaurus"
 page_title:
-meta_title: "Docusaurus Themes | A Curated Directory Of Free Docusaurus Themes"
+meta_title: "Best Hand-picked Docusaurus Themes"
 description: "A curated directory of best free Docusaurus Themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: /images/icons/docusaurus.svg
 website: https://docusaurus.io/

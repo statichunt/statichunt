@@ -1,9 +1,9 @@
 ---
 title: Nextjs
 page_title: Nextjs Templates
-meta_title: 50+ Best Free Nextjs Templates In 2023 
+meta_title: 70+ Nextjs Templates (Free & Premium) | Statichunt
 weight: "1"
-description: Looking for the best free Nextjs templates and themes? Check out our top picks, all of which are sure to help you get the most out of your Nextjs development.
+description: Discover 70+ free and premium Nextjs templates to jumpstart your next project.
 icon: "/images/icons/next.svg"
 website: https://nextjs.org/
 github_path: vercel/next.js

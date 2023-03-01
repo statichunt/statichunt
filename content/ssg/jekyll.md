@@ -2,8 +2,8 @@
 title: Jekyll
 page_title: Jekyll Themes
 weight: "4"
-meta_title: 20+ Best Free Jekyll Themes In 2023
-description: "Do you want to find the best Jekyll theme? Jekyll is a straightforward, blog-aware static site generator that is ideal for personal, project, or organization websites."
+meta_title: 40+ Jekyll Themes (Free & Premium) | Statichunt
+description: "Checkout this collection of 40+ free and premium Jekyll themes to jumpstart your next Jekyll project."
 icon: /images/icons/jekyll.svg
 website: https://jekyllrb.com
 github_path: jekyll/jekyll
