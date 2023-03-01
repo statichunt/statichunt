@@ -2,8 +2,8 @@
 title: Gatsby
 page_title: Gatsby Themes
 weight: "5"
-meta_title: 30+ Awesome Free Gatsby Themes and Templates
-description: "Are you looking for a free Gatsby themes and templates to get started with your next project! We listied some of the best Gatsby themes that are compeletely free."
+meta_title: 40+ Gatsby Website Themes (Free & Premium) | Statichunt
+description: "Are you looking for the best Gatsby themes to get started with your next project? Here we've listied 40+ best free and premium Gatsby themes available in the internet"
 icon: /images/icons/gatsby.svg
 website: https://gatsbyjs.org
 github_path: gatsbyjs/gatsby

@@ -2,8 +2,8 @@
 title: Hugo
 page_title: Hugo Themes
 weight: "2"
-meta_title: 70+ Hand-Picked Free Hugo Themes In 2023
-description: Are you looking for the best Hugo theme? Check out our broad selection of themes that will give your website a professional and polished appearance.
+meta_title: 75+ Hugo Themes (Free & Premium) | Statichunt
+description: Check out our collection of 75+ hand-picked Hugo themes that will give your website a professional and polished appearance.
 icon: "/images/icons/hugo.svg"
 website: https://gohugo.io
 github_path: gohugoio/hugo

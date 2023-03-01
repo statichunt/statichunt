@@ -1,8 +1,8 @@
 ---
-title: Nuxtjs
+title: NuxtJs
 page_title:
-meta_title: Top Nuxtjs Themes and Templates In 2023 | Statichunt
-description: "Explore a wide range of Nuxt.js themes and templates for your next web development project. Designed for optimal performance and ease of use."
+meta_title: 15+ NuxtJs Themes (Free & Premium)| Statichunt
+description: "Explore a wide range of Nuxt.js themes and templates for your next web development project"
 icon: /images/icons/nuxt.svg
 website: https://nuxtjs.org
 github_path: nuxt/nuxt.js
