@@ -59,7 +59,7 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
     arrayFree,
     arrayPremium
   );
-
+  console.log(sortedThemes);
   return (
     <Base>
       <div className="flex">
@@ -87,12 +87,12 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
               <HomeCategory
                 themes={
                   arrayPremium.length && arrayFree.length
-                    ? sortedThemes
+                    ? sortFilteredThemes(filteredThemes, sortAsc)
                     : arrayFree.length
                     ? arrayFree
                     : arrayPremium.length
                     ? arrayPremium
-                    : sortedThemes
+                    : sortFilteredThemes(filteredThemes, sortAsc)
                 }
                 category={category}
                 filterFree={filterFree}
