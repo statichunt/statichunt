@@ -1,5 +1,5 @@
-import Examples from "@components/Examples";
 import config from "@config/config.json";
+import Examples from "@layouts/Examples";
 import { markdownify, slugify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import {

@@ -59,7 +59,7 @@ const Contact = ({ data }) => {
 
   return (
     <Base title={title} meta_title={meta_title} description={description}>
-      <div className="section after:absolute after:left-0 after:top-0 after:h-[60%] after:w-full after:bg-theme-light after:content-[''] dark:bg-darkmode-body dark:after:bg-darkmode-theme-light">
+      <section className="section relative after:absolute after:left-0 after:top-0 after:h-[400px] after:w-full after:bg-theme-light after:content-[''] dark:bg-darkmode-body dark:after:bg-darkmode-theme-light">
         <div className="container relative z-20">
           <div className="row justify-center">
             <div className="mb-16 text-center sm:col-10 md:col-8 lg:col-6">
@@ -169,7 +169,7 @@ const Contact = ({ data }) => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </Base>
   );
 };

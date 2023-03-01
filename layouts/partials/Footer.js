@@ -46,20 +46,23 @@ const Footer = () => {
 
       {/* footer bottom */}
       <div className="row items-center lg:justify-center">
-        <div className="col-12 mb-3 md:col-5 lg:col-3 lg:mb-0">
+        <div className="hidden lg:col-3 lg:block">
           <Link href="/" className="inline-block">
             <Image src={site.footer_logo} width={180} height={35} alt="logo" />
           </Link>
         </div>
-        <div className="col-12 mb-4 md:col-7 lg:col-4 lg:mb-0">
+        <div className="col-12 mb-4 sm:col-7 lg:col-4 sm:mb-0 lg:mb-0">
           <div className="flex items-center">
             <span className="mr-3 inline-block text-sm text-white">
               Connect with us :
             </span>
-            <Social source={social} className="social-icons inline-block" />
+            <Social
+              source={social}
+              className="social-icons-simple inline-block"
+            />
           </div>
         </div>
-        <div className="col-12 lg:col-3">
+        <div className="col-12 sm:col-5 lg:col-3">
           {markdownify(params.copyright, "p", "text-white text-sm")}
         </div>
       </div>

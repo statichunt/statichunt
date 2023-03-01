@@ -1,4 +1,4 @@
-import Resources from "@components/Resources";
+import Resources from "@layouts/Resources";
 import { markdownify } from "@lib/utils/textConverter";
 
 const ResourceTaxonomy = ({ data, currentPage }) => {

@@ -1,4 +1,4 @@
-import MobileSidebar from "@components/MobileSidebar";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
 import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";

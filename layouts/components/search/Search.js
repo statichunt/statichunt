@@ -91,7 +91,9 @@ const Search = ({ setSearchModal, searchModal }) => {
           {/* initial screen */}
           {themes.length + resources.length + blogs.length === 0 &&
             searchKey === "" && (
-              <h4 className="py-5 text-center">Search Themes & Resources</h4>
+              <h4 className="py-5 text-center">
+                Search Themes, Resources, And Blogs
+              </h4>
             )}
 
           {/* no search found screen */}

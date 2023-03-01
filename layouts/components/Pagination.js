@@ -15,7 +15,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
     <>
       {totalPages > 1 && (
         <nav
-          className="mb-4 flex justify-center -space-x-px"
+          className="mb-4 flex justify-center space-x-4"
           aria-label="Pagination"
         >
           {/* previous */}
@@ -26,12 +26,11 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                   ? `${section ? "/" + section : "/"}`
                   : `${section ? "/" + section : ""}/page/${currentPage - 1}`
               }
-              className="border border-primary px-2 py-2 text-text"
+              className="hover:bg-gradient rounded border border-border px-2 py-2 hover:border-primary hover:text-white dark:border-darkmode-border"
             >
               <>
-                <span className="sr-only">Previous</span>
                 <svg
-                  className="mt-1 h-5 w-5"
+                  className="h-5 w-5 align-text-bottom"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -43,13 +42,13 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                     clipRule="evenodd"
                   />
                 </svg>
+                <span className="sr-only md:not-sr-only">Previous</span>
               </>
             </Link>
           ) : (
-            <span className="border border-primary px-2 py-2 text-text">
-              <span className="sr-only">Previous</span>
+            <span className="disabled rounded border border-border px-2 py-2 dark:border-darkmode-border ">
               <svg
-                className="mt-1 h-5 w-5"
+                className="h-5 w-5 align-text-bottom"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -61,6 +60,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                   clipRule="evenodd"
                 />
               </svg>
+              <span className="sr-only md:not-sr-only">Previous</span>
             </span>
           )}
 
@@ -70,7 +70,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
               {pagination === currentPage ? (
                 <span
                   aria-current="page"
-                  className={`border border-primary bg-primary px-4 py-2 text-white`}
+                  className="bg-gradient rounded border border-primary px-4 py-2 text-white"
                 >
                   {pagination}
                 </span>
@@ -82,7 +82,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                       : `${section ? "/" + section : ""}/page/${pagination}`
                   }
                   aria-current="page"
-                  className={`border border-primary px-4 py-2 text-text`}
+                  className="hover:bg-gradient rounded border border-border px-4 py-2 hover:border-primary  hover:text-white dark:border-darkmode-border"
                 >
                   {pagination}
                 </Link>
@@ -94,12 +94,12 @@ const Pagination = ({ section, currentPage, totalPages }) => {
           {hasNextPage ? (
             <Link
               href={`${section ? "/" + section : ""}/page/${currentPage + 1}`}
-              className="border border-primary px-2 py-2 text-text"
+              className="hover:bg-gradient rounded border border-border px-2 py-2 hover:border-primary  hover:text-white dark:border-darkmode-border"
             >
               <>
-                <span className="sr-only">Next</span>
+                <span className="sr-only md:not-sr-only">Next</span>
                 <svg
-                  className="mt-1 h-5 w-5"
+                  className="h-5 w-5 align-text-bottom"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -114,10 +114,10 @@ const Pagination = ({ section, currentPage, totalPages }) => {
               </>
             </Link>
           ) : (
-            <span className="border border-primary px-2 py-2 text-text">
-              <span className="sr-only">Next</span>
+            <span className="disabled rounded border border-border px-2 py-2 dark:border-darkmode-border ">
+              <span className="sr-only md:not-sr-only">Next</span>
               <svg
-                className="mt-1 h-5 w-5"
+                className="h-5 w-5 align-text-bottom"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"

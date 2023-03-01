@@ -1,7 +1,7 @@
-import Resources from "@components/Resources";
 import Sidebar from "@components/Sidebar";
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
+import Resources from "@layouts/Resources";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
 import { markdownify, slugify } from "@lib/utils/textConverter";

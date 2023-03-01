@@ -1,12 +1,12 @@
 import HomeCategory from "@components/HomeCategory";
 import Sidebar from "@components/Sidebar";
-import Themes from "@components/Themes";
 import config from "@config/config.json";
 import useFilterData from "@hooks/useFilterData";
 import usePricingFilter from "@hooks/usePricingFilter";
 import useThemesSort from "@hooks/useThemesSort";
 import Base from "@layouts/Baseof";
 import HomeSort from "@layouts/components/HomeSort";
+import Themes from "@layouts/Themes";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
