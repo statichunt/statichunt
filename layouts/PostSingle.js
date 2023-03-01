@@ -135,69 +135,70 @@ const PostSingle = ({
               <div className="widget">
                 <h4 className="mb-8">Related Posts :</h4>
 
-                {relatedPosts.map((post, i) => (
-                  <div key={`post-${i}`} className="mb-8">
-                    <div className="mb-5">
-                      {post.frontmatter.image ? (
-                        <ImageFallback
-                          className="w-full rounded object-cover"
-                          src={post.frontmatter.image}
-                          alt={post.frontmatter.title}
-                          width={300}
-                          height={180}
-                        />
-                      ) : (
-                        <span className="flex h-[120px] max-h-full w-full items-center justify-center rounded bg-theme-light text-[5rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark">
-                          {post.frontmatter.title.charAt(0)}
-                        </span>
-                      )}
+                {relatedPosts.length > 0 &&
+                  relatedPosts.map((post, i) => (
+                    <div key={`post-${i}`} className="mb-8">
+                      <div className="mb-5">
+                        {post.frontmatter.image ? (
+                          <ImageFallback
+                            className="w-full rounded object-cover"
+                            src={post.frontmatter.image}
+                            alt={post.frontmatter.title}
+                            width={300}
+                            height={180}
+                          />
+                        ) : (
+                          <span className="flex h-[120px] max-h-full w-full items-center justify-center rounded bg-theme-light text-[5rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark">
+                            {post.frontmatter.title.charAt(0)}
+                          </span>
+                        )}
+                      </div>
+                      <h5 className="mb-4">
+                        <Link
+                          href={`/blog/${post.slug}`}
+                          className="block hover:text-primary dark:hover:text-darkmode-primary"
+                        >
+                          {post.frontmatter.title}
+                        </Link>
+                      </h5>
+                      <ul className="text-text">
+                        <li className="mb-2 mr-4 inline-block">
+                          {authors
+                            .filter((author) =>
+                              post.frontmatter.authors
+                                .map((author) => slugify(author))
+                                .includes(slugify(author.frontmatter.title))
+                            )
+                            .map((author, i) => (
+                              <Link
+                                href={`/authors/${slugify(
+                                  author.frontmatter.title
+                                )}`}
+                                key={`author-${i}`}
+                                className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
+                              >
+                                {author.frontmatter.image ? (
+                                  <Image
+                                    src={author.frontmatter.image}
+                                    alt={author.frontmatter.title}
+                                    height="40px"
+                                    width="40px"
+                                    className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                                  />
+                                ) : (
+                                  <Gravatar
+                                    email={author.frontmatter.email}
+                                    size={40}
+                                    className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                                  />
+                                )}
+                                <span>{author.frontmatter.title}</span>
+                              </Link>
+                            ))}
+                        </li>
+                      </ul>
                     </div>
-                    <h5 className="mb-4">
-                      <Link
-                        href={`/blog/${post.slug}`}
-                        className="block hover:text-primary dark:hover:text-darkmode-primary"
-                      >
-                        {post.frontmatter.title}
-                      </Link>
-                    </h5>
-                    <ul className="text-text">
-                      <li className="mb-2 mr-4 inline-block">
-                        {authors
-                          .filter((author) =>
-                            post.frontmatter.authors
-                              .map((author) => slugify(author))
-                              .includes(slugify(author.frontmatter.title))
-                          )
-                          .map((author, i) => (
-                            <Link
-                              href={`/authors/${slugify(
-                                author.frontmatter.title
-                              )}`}
-                              key={`author-${i}`}
-                              className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
-                            >
-                              {author.frontmatter.image ? (
-                                <Image
-                                  src={author.frontmatter.image}
-                                  alt={author.frontmatter.title}
-                                  height="40px"
-                                  width="40px"
-                                  className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
-                                />
-                              ) : (
-                                <Gravatar
-                                  email={author.frontmatter.email}
-                                  size={40}
-                                  className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
-                                />
-                              )}
-                              <span>{author.frontmatter.title}</span>
-                            </Link>
-                          ))}
-                      </li>
-                    </ul>
-                  </div>
-                ))}
+                  ))}
               </div>
             </div>
           </div>
