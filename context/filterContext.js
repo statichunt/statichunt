@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import { createContext, useContext, useEffect, useState } from "react";
 
 const FilterContext = createContext();
+
 export const JsonContext = ({ children }) => {
   const [arraySSG, setArraySSG] = useState([]);
   const [arrayCMS, setArrayCMS] = useState([]);
@@ -26,6 +27,7 @@ export const JsonContext = ({ children }) => {
     setAllReset(!allReset);
     setSortAsc(false);
   };
+
   useEffect(() => {
     setArraySSG([]);
     setArrayCMS([]);
@@ -35,6 +37,7 @@ export const JsonContext = ({ children }) => {
     setArrayFree([]);
     setTaxonomyArray([]);
   }, [router.asPath]);
+
   const state = {
     allReset,
     reset,
@@ -59,6 +62,7 @@ export const JsonContext = ({ children }) => {
     taxonomyArray,
     setTaxonomyArray,
   };
+
   return (
     <FilterContext.Provider value={state}>{children}</FilterContext.Provider>
   );

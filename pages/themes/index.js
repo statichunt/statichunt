@@ -28,7 +28,9 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes }) => {
     arrayFree,
     arrayPremium,
     sortAsc,
+    taxonomyArray,
   } = useFilterContext();
+
   const filterFunction = (array, filterArray, params) => {
     const filterData = array?.filter((theme) =>
       filterArray.length
@@ -85,12 +87,16 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes }) => {
               <HomeCategory
                 themes={
                   arrayPremium.length && arrayFree.length
-                    ? sortedThemes
+                    ? taxonomyArray[0] === "category"
+                      ? sortedThemes
+                      : filteredThemes
                     : arrayFree.length
                     ? arrayFree
                     : arrayPremium.length
                     ? arrayPremium
-                    : sortedThemes
+                    : taxonomyArray[0] === "category"
+                    ? sortedThemes
+                    : filteredThemes
                 }
                 category={category}
                 filterFree={filterFree}
