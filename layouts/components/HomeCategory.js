@@ -14,6 +14,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     setArrayPremium,
     allReset,
     setParameter,
+   
   } = useFilterContext();
 
   // change others position
