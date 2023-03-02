@@ -11,7 +11,7 @@ const Footer = () => {
   const { site, params } = config;
 
   return (
-    <footer className="section bg-theme-dark px-4 dark:bg-darkmode-theme-dark sm:px-10 xl:px-16">
+    <footer className="section bg-theme-dark px-4 sm:px-10 xl:px-16">
       <div className="mb-12 border-b border-[#ffffff0f] pb-10">
         <div className="row lg:justify-center">
           {footer.map((item, i) => (
