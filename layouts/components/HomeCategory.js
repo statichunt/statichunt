@@ -1,3 +1,4 @@
+import useTaxonmyHandler from "@hooks/useAccordionHandler";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useState } from "react";
@@ -14,7 +15,19 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     setArrayPremium,
     allReset,
     setParameter,
+    taxonomyArray,
+    parameter,
+    arrayCMS,
+    arrayCSS,
+    arraySSG,
   } = useFilterContext();
+  // call custom hook
+  const {
+    taxonomyArrayHandler,
+    filteringTaxonomy,
+    filterState,
+    handleTaxonomyArray,
+  } = useTaxonmyHandler(themes);
 
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
@@ -40,6 +53,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       }
     }
     setTaxonomy(temp);
+    taxonomyArrayHandler(label);
 
     if (arrayCategory.includes(label)) {
       setArrayCategory(arrayCategory.filter((x) => x !== label));
@@ -47,6 +61,24 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       setArrayCategory((prevValue) => [...prevValue, label]);
     }
   };
+
+  // add data inside taxonmy array
+  useEffect(() => {
+    handleTaxonomyArray(arrayCategory);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [arrayCategory]);
+  // filter content by taxonomy
+  useEffect(() => {
+    filteringTaxonomy(
+      { array: arrayCategory, params: "category" },
+      { array: arraySSG, params: "ssg" },
+      { array: arrayCSS, params: "css" },
+      { array: arrayCMS, params: "cms" }
+    );
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [arrayCMS, arrayCSS, arraySSG, arrayCategory, taxonomyArray, parameter]);
 
   // category items count
   const countItems = (item) => {
@@ -90,7 +122,23 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
           }`}
         >
           {item.frontmatter.title}
-          <span>{countItems(item)}</span>
+          {parameter && [...new Set(taxonomyArray)][0] === "category" ? (
+            <span className="ml-auto">{countItems(item)}</span>
+          ) : taxonomyArray.length === 0 ? (
+            <span className="ml-auto">{countItems(item)}</span>
+          ) : parameter && [...new Set(taxonomyArray)][0] !== "category" ? (
+            <span className="ml-auto">
+              {
+                filterState.filter((data) =>
+                  data.frontmatter.category
+                    ?.map((d) => slugify(d))
+                    ?.includes(slugify(item.frontmatter.title))
+                ).length
+              }
+            </span>
+          ) : (
+            <span className="ml-auto">{countItems(item)}</span>
+          )}
         </li>
       ))}
     </ul>
