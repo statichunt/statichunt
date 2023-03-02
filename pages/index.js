@@ -14,7 +14,7 @@ import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
   const { sidebar } = config;
@@ -32,6 +32,7 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
     arrayFree,
     arrayPremium,
     sortAsc,
+    parameter,
   } = useFilterContext();
   const filterFunction = (array, filterArray, params) => {
     const filterData = array?.filter((theme) =>
@@ -72,9 +73,13 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
             arrayPremium.length && arrayFree.length
               ? sortedThemes
               : arrayFree.length
-              ? arrayFree
+              ? parameter
+                ? filterFree
+                : arrayFree
               : arrayPremium.length
-              ? arrayPremium
+              ? parameter
+                ? filterPremium
+                : arrayPremium
               : sortedThemes
           }
           SetShowIntro={SetShowIntro}
@@ -89,9 +94,13 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
                   arrayPremium.length && arrayFree.length
                     ? sortedThemes
                     : arrayFree.length
-                    ? arrayFree
+                    ? parameter
+                      ? filterFree
+                      : arrayFree
                     : arrayPremium.length
-                    ? arrayPremium
+                    ? parameter
+                      ? filterPremium
+                      : arrayPremium
                     : sortedThemes
                 }
                 category={category}

@@ -21,6 +21,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     arrayCSS,
     arraySSG,
   } = useFilterContext();
+
   // call custom hook
   const {
     taxonomyArrayHandler,
