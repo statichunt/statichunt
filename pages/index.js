@@ -14,7 +14,7 @@ import setOthersCategory from "@lib/setOthersCategory";
 import { sortFilteredThemes } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
   const { sidebar } = config;
@@ -34,6 +34,7 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
     sortAsc,
     parameter,
   } = useFilterContext();
+
   const filterFunction = (array, filterArray, params) => {
     const filterData = array?.filter((theme) =>
       filterArray.length
@@ -61,6 +62,20 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
     arrayPremium
   );
 
+  // final themes filtering
+  const finalThemes =
+    arrayPremium.length && arrayFree.length
+      ? sortedThemes
+      : arrayFree.length
+      ? parameter
+        ? filterFree
+        : arrayFree
+      : arrayPremium.length
+      ? parameter
+        ? filterPremium
+        : arrayPremium
+      : sortedThemes;
+
   return (
     <Base>
       <div className="flex">
@@ -69,19 +84,7 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
           ssg={ssg}
           cms={cms}
           css={css}
-          themes={
-            arrayPremium.length && arrayFree.length
-              ? sortedThemes
-              : arrayFree.length
-              ? parameter
-                ? filterFree
-                : arrayFree
-              : arrayPremium.length
-              ? parameter
-                ? filterPremium
-                : arrayPremium
-              : sortedThemes
-          }
+          themes={finalThemes}
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
@@ -90,19 +93,7 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory
-                themes={
-                  arrayPremium.length && arrayFree.length
-                    ? sortedThemes
-                    : arrayFree.length
-                    ? parameter
-                      ? filterFree
-                      : arrayFree
-                    : arrayPremium.length
-                    ? parameter
-                      ? filterPremium
-                      : arrayPremium
-                    : sortedThemes
-                }
+                themes={finalThemes}
                 category={category}
                 filterFree={filterFree}
                 filterPremium={filterPremium}
