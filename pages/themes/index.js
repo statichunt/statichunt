@@ -28,7 +28,7 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes }) => {
     arrayFree,
     arrayPremium,
     sortAsc,
-    taxonomyArray,
+    parameter,
   } = useFilterContext();
 
   const filterFunction = (array, filterArray, params) => {
@@ -58,6 +58,20 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes }) => {
     arrayPremium
   );
 
+  // final themes filtering
+  const finalThemes =
+    arrayPremium.length && arrayFree.length
+      ? sortedThemes
+      : arrayFree.length
+      ? parameter
+        ? filterFree
+        : arrayFree
+      : arrayPremium.length
+      ? parameter
+        ? filterPremium
+        : arrayPremium
+      : sortedThemes;
+
   return (
     <Base
       title={frontmatter.title}
@@ -71,33 +85,13 @@ const Home = ({ frontmatter, cms, css, ssg, category, themes }) => {
           ssg={ssg}
           cms={cms}
           css={css}
-          themes={
-            arrayPremium.length && arrayFree.length
-              ? filteredThemes
-              : arrayFree.length
-              ? arrayFree
-              : arrayPremium.length
-              ? arrayPremium
-              : filteredThemes
-          }
+          themes={finalThemes}
         />
         <main className="main">
           <div className="container">
             <div className="mb-8 block justify-between md:flex">
               <HomeCategory
-                themes={
-                  arrayPremium.length && arrayFree.length
-                    ? taxonomyArray[0] === "category"
-                      ? sortedThemes
-                      : filteredThemes
-                    : arrayFree.length
-                    ? arrayFree
-                    : arrayPremium.length
-                    ? arrayPremium
-                    : taxonomyArray[0] === "category"
-                    ? sortedThemes
-                    : filteredThemes
-                }
+                themes={finalThemes}
                 category={category}
                 filterFree={filterFree}
                 filterPremium={filterPremium}
