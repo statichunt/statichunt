@@ -29,7 +29,7 @@ const Search = ({ setSearchModal, searchModal }) => {
   };
 
   const debouncedResults = useMemo(() => {
-    return debounce(handleSearch, 500);
+    return debounce(handleSearch, 100);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -86,7 +86,12 @@ const Search = ({ setSearchModal, searchModal }) => {
         </div>
 
         <div className="p-4">
-          <SearchTab themes={themes} blogs={blogs} resources={resources} />
+          <SearchTab
+            themes={themes}
+            blogs={blogs}
+            resources={resources}
+            searchModal={searchModal}
+          />
 
           {/* initial screen */}
           {themes.length + resources.length + blogs.length === 0 &&

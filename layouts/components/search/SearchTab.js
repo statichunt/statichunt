@@ -1,8 +1,8 @@
 import useWindow from "@hooks/useWindow";
 import { useSerachContext } from "context/searchContext";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
-const SearchTab = ({ themes, blogs, resources }) => {
+const SearchTab = ({ themes, blogs, resources, searchModal }) => {
   const TabItem = [
     {
       label: "Everything",
@@ -31,27 +31,33 @@ const SearchTab = ({ themes, blogs, resources }) => {
   const [isActive, setIsActive] = useState(
     windowSize > 1024 ? "all" : "themes"
   );
-  const handleChange = (label) => {
+  // change tab state
+  const handleChange = useCallback((label) => {
     setIsActive(label);
-    if (label === "all") {
+  }, []);
+  useEffect(() => {
+    if (isActive === "all") {
       setIsTheme(true);
       setIsResource(true);
       setIsBlog(true);
-    } else if (label === "themes") {
+    } else if (isActive === "themes") {
       setIsTheme(true);
       setIsResource(false);
       setIsBlog(false);
-    } else if (label === "blog") {
+    } else if (isActive === "blog") {
       setIsTheme(false);
       setIsResource(false);
       setIsBlog(true);
-    } else if (label === "resource") {
+    } else if (isActive === "resource") {
       setIsTheme(false);
       setIsResource(true);
       setIsBlog(false);
     }
-  };
-
+  }, [isActive, setIsBlog, setIsResource, setIsTheme]);
+  // const handleChange = () => {};
+  useEffect(() => {
+    setIsActive("all");
+  }, [searchModal]);
   useEffect(() => {
     setIsActive(windowSize > 1024 ? "all" : "themes");
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -68,7 +74,7 @@ const SearchTab = ({ themes, blogs, resources }) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [windowSize, searchKey]);
-
+  console.log(isActive);
   return (
     <ul
       className={
