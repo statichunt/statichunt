@@ -2,8 +2,7 @@ import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
 import useSearchTheme from "@hooks/useSearchTheme";
 import { useSerachContext } from "context/searchContext";
-import debounce from "lodash.debounce";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useRef } from "react";
 import BlogCard from "./BlogCard";
 import ResourceCard from "./ResourceCard";
 import SearchTab from "./SearchTab";
@@ -24,20 +23,6 @@ const Search = ({ setSearchModal, searchModal }) => {
       setSearchkey("");
   }, [searchModal, setSearchkey]);
 
-  const handleSearch = (e) => {
-    setSearchkey(e.target.value);
-  };
-
-  const debouncedResults = useMemo(() => {
-    return debounce(handleSearch, 100);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect(() => {
-    return () => {
-      debouncedResults.cancel();
-    };
-  });
   return (
     <div className={`modal ${searchModal ? "block" : "hidden"}`}>
       <div className="modal-overlay" onClick={() => setSearchModal(false)} />
@@ -68,7 +53,7 @@ const Search = ({ setSearchModal, searchModal }) => {
           <input
             className="h-12 flex-1 border-0 bg-transparent text-text shadow-none outline-0 focus:ring-0 dark:text-darkmode-text"
             type="text"
-            onChange={debouncedResults}
+            onChange={(e) => setSearchkey(e.target.value)}
             placeholder="Search anything..."
             ref={searchInputRef}
           />
