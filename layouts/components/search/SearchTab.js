@@ -70,6 +70,7 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
   }, [windowSize]);
   useEffect(() => {
     if (windowSize < 1024) {
+      setIsActive("themes");
       setIsTheme(true);
       setIsResource(false);
       setIsBlog(false);
