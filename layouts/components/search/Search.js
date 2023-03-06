@@ -2,7 +2,7 @@ import useSearchBlog from "@hooks/useSearchBlog";
 import useSearchResource from "@hooks/useSearchResource";
 import useSearchTheme from "@hooks/useSearchTheme";
 import { useSerachContext } from "context/searchContext";
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import BlogCard from "./BlogCard";
 import ResourceCard from "./ResourceCard";
 import SearchTab from "./SearchTab";
@@ -22,7 +22,10 @@ const Search = ({ setSearchModal, searchModal }) => {
       : (searchInputRef.current.value = ""),
       setSearchkey("");
   }, [searchModal, setSearchkey]);
-
+  const handleSearchBox = useCallback((e) => {
+    setSearchkey(e.target.value);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   return (
     <div className={`modal ${searchModal ? "block" : "hidden"}`}>
       <div className="modal-overlay" onClick={() => setSearchModal(false)} />
@@ -53,7 +56,7 @@ const Search = ({ setSearchModal, searchModal }) => {
           <input
             className="h-12 flex-1 border-0 bg-transparent text-text shadow-none outline-0 focus:ring-0 dark:text-darkmode-text"
             type="text"
-            onChange={(e) => setSearchkey(e.target.value)}
+            onChange={(e) => handleSearchBox(e)}
             placeholder="Search anything..."
             ref={searchInputRef}
           />
