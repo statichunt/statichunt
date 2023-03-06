@@ -1,6 +1,6 @@
 ---
 title: Helper
-meta_title: "Best JAMstack Development Helper Tools | Statichunt"
+meta_title: "JAMstack Development Helper Tools | Statichunt"
 description:  "Find the Best JAMstack Development Helper Tools Here"
 page_title: "JAMstack Development Helper Tools"
 icon: /images/icons/helper.svg
