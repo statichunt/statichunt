@@ -31,6 +31,11 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
   const [isActive, setIsActive] = useState(
     windowSize > 1024 ? "all" : "themes"
   );
+  useEffect(() => {
+    if (searchKey === "") {
+      setIsActive("all");
+    }
+  }, [searchKey]);
   // change tab state
   const handleChange = useCallback((label) => {
     setIsActive(label);
@@ -54,6 +59,7 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
       setIsBlog(false);
     }
   }, [isActive, setIsBlog, setIsResource, setIsTheme]);
+
   // const handleChange = () => {};
   useEffect(() => {
     setIsActive("all");
@@ -74,7 +80,7 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [windowSize, searchKey]);
-  console.log(isActive);
+
   return (
     <ul
       className={
