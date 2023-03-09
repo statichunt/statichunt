@@ -9,7 +9,7 @@ date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - Decap
 css: null
 category: null
 description: A Gatsby theme for artists, photographers and other creative folks.

@@ -14,7 +14,7 @@ css:
   - Bootstrap
 cms:
    - Markdown
-   - NetlifyCMS
+   - Decap
 category:
   - Blog
 draft: false

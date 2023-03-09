@@ -13,12 +13,13 @@ ssg:
 css:
   - Bootstrap
 cms:
-  - Netlifycms
+  - Decap
 category:
   - Business
 draft: false
 ---
-## Theme Features:
+## Theme Features
+
 - Clean & Simple Design
 - 100% Fluid Responsive – Fits any device perfectly
 - Touch Friendly. Easy browsing on touch devices.

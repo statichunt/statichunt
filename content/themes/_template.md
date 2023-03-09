@@ -32,7 +32,7 @@ cms: # you can choose multiple if applicable
   - Forestry
   - Ghost
   - Graphcms
-  - Netlifycms
+  - Decap
   - Spinal 
   - Markdown
 category: # you can choose multiple if applicable
@@ -54,4 +54,3 @@ draft: false
 - Feature 3
 - Feature 4
 - Feature 5
-
