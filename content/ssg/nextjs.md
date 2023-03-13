@@ -15,7 +15,7 @@ url: "/nextjs-templates"
 
 examples_page_title: Nextjs Examples
 examples_meta_title: Nextjs Website Examples - Statichunt
-examples_description: A collection of Nextjs Website examples to inspire the creation of your next web Project.
+examples_description: Are you looking for inspiration for creating Next.js website? Check out our collection of stunning Next.js website examples, featuring beautiful designs.
 examples_content: "Check out the showcase of a variety of Nextjs website examples. Get inspired about building your next web project on the Nextjs static site generator"
 examples_url: "/nextjs-examples"
 
