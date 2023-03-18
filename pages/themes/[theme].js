@@ -49,7 +49,7 @@ const SingleTheme = ({ slug, theme, allTheme }) => {
           </div>
           {similarThemes.length > 0 && (
             <div className="mt-20">
-              <h2 className="mb-8 text-center">Similar Themes</h2>
+              <h2 className="mb-8 text-center">Similar Themes To Consider</h2>
               <Themes
                 customRowClass="row justify-center !overflow-hidden"
                 customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"

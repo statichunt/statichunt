@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Best Jamstack Themes,Templates and Resources Directory",
+    "title": "Statichunt - Hundreds of Jamstack Themes,Templates & Resources Directory",
     "base_url": "https://statichunt.com",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
@@ -20,9 +20,9 @@
 
   "announcement": {
     "enable": true,
-    "name": "Andromeda Light NextJs",
-    "link": "https://statichunt.com/themes/nextjs-andromeda-light?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
-    "content": "Checkout **Andromeda Light** - Newly added free NextJs & Tailwind SAAS template."
+    "name": "Bigspring Light Astro",
+    "link": "https://statichunt.com/themes/astro-bigspring-light?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
+    "content": "Checkout **Bigspring Light Astro** - Newly added free Astro SaaS theme."
   },
 
   "params": {
@@ -33,7 +33,7 @@
   "metadata": {
     "meta_author": "Statichunt",
     "meta_image": "/images/og-image.png",
-    "meta_description": "A Directory of themes, templates, and resources for Jamstack sites that uses static site generators such as Hugo, Gatsby, Jekyll, Nextjs, and others."
+    "meta_description": "Statichunt is a directory of themes, templates, and resources exclusively designed for JAMStack sites.  Browse through hundreds of options and find the perfect fit for your JAMStack project!"
   },
 
   "sidebar": [

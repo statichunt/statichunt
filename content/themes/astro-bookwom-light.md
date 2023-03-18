@@ -24,14 +24,23 @@ github_star: 6
 github_fork: 1
 ---
 
-## Theme features
+## Key Features
 
-- Google Page Speed score 100! (Desktop)
-- Multi-Author support
-- Supports Contact Form
-- Search Functionality
-- Related Posts Suggestion
-- Semantic HTML Document Structure
-- Custom Logo Support
-- Includes All SCSS Files
-- Image Optimized With Astro/image
+- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- Multi-author support
+- Authors page
+- Author single page
+- Search Functionality with FuseJS
+- Tags and categories support
+- Post social share option
+- Similar post support
+- Fast by default (95+ Google PageSpeed Score)
+- Netlify setting pre-configured
+- Contact form support
+- Support OG image
+- Write and update content in Markdown / MDX
+- MDX components auto import
+- Includes draft pages and posts
+- Built with Tailwind CSS framework
+- Fully responsive on desktops, tablets, and smartphones
+- SEO Friendly 
