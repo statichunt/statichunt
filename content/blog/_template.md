@@ -4,7 +4,7 @@ date: 2022-04-04T05:00:00Z
 meta_title: ""
 description: ""
 image: ""
-author: [""]
+authors: [""]
 categories: [""]
 sponsored: false
 draft: true

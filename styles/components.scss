@@ -489,3 +489,21 @@ select:required:invalid {
     transform: rotate(360deg);
   }
 }
+
+//mockup
+.browser-mockup {
+  @apply relative mb-8 rounded border-t-[35px] border-border shadow;
+
+  img {
+    @apply my-0 rounded-b;
+  }
+
+  &::before {
+    @apply absolute -top-[21px] left-4 block h-2 w-2 rounded-full bg-[#f44] content-[''];
+    box-shadow: 0 0 0 2px #fa5f57, 1.2em 0 0 2px #fcbc2e, 2.4em 0 0 2px #28c840;
+  }
+
+  &::after {
+    @apply absolute -top-[30px] right-1/2 block w-[calc(100%_-_200px)] max-w-[500px] translate-x-1/2 overflow-hidden rounded bg-body p-1.5 text-center text-sm leading-none text-light content-['https://statichunt.com'];
+  }
+}

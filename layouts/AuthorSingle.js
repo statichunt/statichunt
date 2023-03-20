@@ -32,8 +32,8 @@ const AuthorSingle = ({ frontmatter, content, mdxContent, posts, authors }) => {
                   <Image
                     src={image}
                     className="mb-6 rounded"
-                    height="150"
-                    width="150"
+                    height={150}
+                    width={150}
                     alt={title}
                   />
                 ) : (
