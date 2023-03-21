@@ -10,8 +10,7 @@ sponsored: false
 draft: true
 ---
 
-
-In the world of website development, static site generators have gained immense popularity in recent years. With their easy setup and low maintenance, they have become a favorite among developers and website owners alike. But with so many options out there, it can be hard to choose the best one for your needs. 
+In the world of website development, static site generators have gained immense popularity in recent years. With their easy setup and low maintenance, they have become a favorite among developers and website owners alike. But with so many options out there, it can be hard to choose the best one for your needs.
 
 In this article, we will take a comprehensive look at the best static site generators and help you make an informed decision.
 
@@ -35,86 +34,66 @@ There are several advantages to using static site generators for web development
 
 ## 7 Best Static Site Generators
 
-### 1. Astro 
+### 1. Astro
 
 Astro is a all-in-one static site generator that is gaining popularity among web developers due to its flexibility and ease of use. It provides a modern and intuitive development experience with its built-in support for React, Vue, and Svelte, which allows you to write your components with the framework you prefer.
 
-<Mockup src="/images/astro.png" alt="" />
-
+<Mockup src="/blog/astro.png" alt="" />
 
 <Button href="https://astro.build/" >Visit Website </Button>
 
-
-### 2. Hugo 
+### 2. Hugo
 
 Hugo is a powerful static site generator built with Go. It is known for its speed and simplicity, making it an excellent choice for building content-focused websties. Hugo provides a flexible templating system that allows you to customize your website's design and structure. Additionally, Hugo provides built-in support for taxonomies, menus, and content management systems, which makes it easy to manage your website's content.
 
-<Mockup src="/images/hugo.png" alt="" />
-
+<Mockup src="/blog/hugo.png" alt="" />
 
 <Button href="https://gohugo.io/" >Visit Website </Button>
 
-
-### 3. NextJs 
+### 3. NextJs
 
 Nextjs is a popular static site generator built on top of React. It provides an intuitive development experience with its built-in support for server-side rendering and static site generation. Nextjs also provides features such as automatic code-splitting, prefetching, and caching, which makes it an excellent choice for building fast and efficient websites. It has a simple and easy-to-use API and allows you to write server-side code in JavaScript. Next.js is also highly customizable, making it perfect for complex projects.
 
-<Mockup src="/images/nextjs.png" alt="" />
-
+<Mockup src="/blog/nextjs.png" alt="" />
 
 <Button href="https://nextjs.org/" >Visit Website </Button>
 
-
-### 4. Gatsby 
+### 4. Gatsby
 
 Gatsby is a React-based static site generator that is great for building high-performance websites. It uses GraphQL to query data and has a wide range of plugins and themes available. Gatsby also has a built-in image optimization feature, which makes it perfect for creating visually stunning websites
 
-<Mockup src="/images/gatsby.webp" alt="" />
-
+<Mockup src="/blog/gatsby.webp" alt="" />
 
 <Button href="https://www.gatsbyjs.com/" >Visit Website </Button>
 
-
-### 5. Jekyll 
+### 5. Jekyll
 
 Jekyll is one of the most popular static site generators available today. It is written in Ruby and has a simple and easy-to-use syntax. Jekyll allows you to create static sites using Markdown or HTML, and it has a wide range of plugins and themes available.
 
-<Mockup src="/images/jekyll.webp" alt="" />
-
+<Mockup src="/blog/jekyll.webp" alt="" />
 
 <Button href="https://jekyllrb.com/" >Visit Website </Button>
 
-
-### 5. Eleventy 
+### 5. Eleventy
 
 Eleventy is a simple and flexible static site generator written in JavaScript. It has a simple and easy-to-use syntax and allows you to use a wide range of templating languages, including Markdown, Liquid, and Nunjucks. Eleventy is also highly customizable and has a wide range of plugins and themes available.
 
-<Mockup src="/images/11ty.png" alt="" />
-
+<Mockup src="/blog/11ty.png" alt="" />
 
 <Button href="https://www.11ty.dev/" >Visit Website </Button>
 
-
-### 6. Sveltekit 
+### 6. Sveltekit
 
 Sveltekit is a static site generator built on top of the Svelte framework. It provides an intuitive development experience with its built-in support for server-side rendering, static site generation, and client-side rendering. Sveltekit also provides features such as automatic code-splitting, prefetching, and caching, which makes it an excellent choice for building fast and efficient websites.
 
-<Mockup src="/images/sveltekit.png" alt="" />
-
+<Mockup src="/blog/sveltekit.png" alt="" />
 
 <Button href="https://kit.svelte.dev/" >Visit Website </Button>
-
 
 ### 7. Nuxt
 
 Nuxt is a Vue-based static site generator that offers server-side rendering and automatic code splitting out of the box. It also has a wide range of plugins and modules that make it easy to add custom functionality to your site.
 
-<Mockup src="/images/nuxt.png" alt="" />
-
+<Mockup src="/blog/nuxt.png" alt="" />
 
 <Button href="https://nuxt.com/" >Visit Website </Button>
-
-
-
-
-
