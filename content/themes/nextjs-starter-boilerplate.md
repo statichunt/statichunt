@@ -9,6 +9,8 @@ cms:
   - Markdown
 css:
   - Tailwind
+category:
+  - Boilerplate
 date: 2020-11-11T10:23:28.000Z
 description: >-
   Boilerplate and Starter for Next.js 10+, Tailwind CSS and TypeScript. The
