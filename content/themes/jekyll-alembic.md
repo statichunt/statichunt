@@ -7,12 +7,10 @@ ssg:
   - Jekyll
 cms:
   - Decap
-  - Forestry
-  - DatoCMS
-  - Contentful
+category:
+  - Boilerplate
 date: 2016-08-27T15:50:21.000Z
-description: >-
-  ⚗️ A Jekyll boilerplate theme designed to be a starting point for any Jekyll
+description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll
   website
 draft: false
 publish_date: '2016-08-27T15:50:21Z'
