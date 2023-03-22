@@ -9,6 +9,7 @@ const Logo = ({ src, height, width, className }) => {
   const { reset } = useFilterContext();
   // destructuring items from config object
   const { title, logo_height, logo_width } = config.site;
+
   return router.asPath === "/" ? (
     <button
       onClick={() => reset()}

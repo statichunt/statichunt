@@ -1,7 +1,8 @@
 import Base from "@layouts/Baseof";
-import shortcodes from "@layouts/shortcodes/all";
 import { getListPage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";
+import MobileSidebar from "@partials/MobileSidebar";
+import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Link from "next/link";
 import { useState } from "react";
@@ -59,6 +60,7 @@ const Contact = ({ data }) => {
 
   return (
     <Base title={title} meta_title={meta_title} description={description}>
+      <MobileSidebar />
       <section className="section relative after:absolute after:left-0 after:top-0 after:h-[400px] after:w-full after:bg-theme-light after:content-[''] dark:bg-darkmode-body dark:after:bg-darkmode-theme-light">
         <div className="container relative z-20">
           <div className="row justify-center">
