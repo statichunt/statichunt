@@ -78,7 +78,7 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
               className="btn btn-primary"
               onClick={() => setOpenModal(true)}
             >
-              Book Now
+              Sponsor Now
             </button>
             <small className="mt-2 block text-text dark:text-darkmode-text">
               Only {sponsors.frontmatter[type].filter((d) => !d.name).length}{" "}
@@ -99,7 +99,7 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
                   rel="noopener noreferrer nofollow"
                   className="btn btn-primary"
                 >
-                  Book Now
+                  Sponsor Now
                 </Link>
               </div>
             ) : (

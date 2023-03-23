@@ -54,9 +54,9 @@ silver:
 
 bronze:
 - name: "Bronze"
-  logo_default: "/sponsors/wrappixel.png"
-  logo_darkmode: "/sponsors/wrappixel.png"
-  website: "https://www.wrappixel.com/"
+  logo_default: "/sponsors/adminmart.svg"
+  logo_darkmode: "/sponsors/adminmart-darkmode.svg"
+  website: "https://adminmart.com/"
 
 - name: ""
   logo_default: ""
@@ -136,3 +136,5 @@ individual:
   website: ""
 
 ---
+
+Statichunt is an open source JAMStack Directory made possible by these wonderful sponsors
