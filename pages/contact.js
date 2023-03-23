@@ -10,11 +10,12 @@ import { BsCheckCircleFill } from "react-icons/bs";
 
 const Contact = ({ data }) => {
   const { mdxContent, frontmatter } = data;
-  const validate = (e, value) => {
+
+  const checkValue = (e, value) => {
     if (value != "") {
-      e.target.classList.add("valid");
+      e.target.classList.add("has-value");
     } else {
-      e.target.classList.remove("valid");
+      e.target.classList.remove("has-value");
     }
     return "";
   };
@@ -91,7 +92,7 @@ const Contact = ({ data }) => {
                         value={name}
                         onChange={(e) => {
                           setName(e.target.value);
-                          validate(e, e.target.value);
+                          checkValue(e, e.target.value);
                         }}
                         required
                       />
@@ -107,7 +108,7 @@ const Contact = ({ data }) => {
                         value={email}
                         onChange={(e) => {
                           setEmail(e.target.value);
-                          validate(e, e.target.value);
+                          checkValue(e, e.target.value);
                         }}
                         required
                       />
@@ -123,7 +124,7 @@ const Contact = ({ data }) => {
                         value={subject}
                         onChange={(e) => {
                           setSubject(e.target.value);
-                          validate(e, e.target.value);
+                          checkValue(e, e.target.value);
                         }}
                         required
                       />
@@ -139,7 +140,7 @@ const Contact = ({ data }) => {
                         rows="6"
                         onChange={(e) => {
                           setDetails(e.target.value);
-                          validate(e, e.target.value);
+                          checkValue(e, e.target.value);
                         }}
                       />
                       <label className="form-label left-3" htmlFor="details">

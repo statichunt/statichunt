@@ -85,6 +85,7 @@ select:required:invalid {
 .form-select,
 .form-input,
 .form-textarea {
+  &.has-value ~ .form-label,
   &.invalid ~ .form-label,
   &.valid ~ .form-label,
   &:focus ~ .form-label {
@@ -111,6 +112,9 @@ select:required:invalid {
   @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:py-4 prose-th:px-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:px-3 prose-td:py-4 prose-td:dark:text-light;
+  .btn {
+    @apply no-underline dark:text-white;
+  }
 }
 
 // sidebar
