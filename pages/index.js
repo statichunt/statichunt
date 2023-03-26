@@ -88,7 +88,7 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
           SetShowIntro={SetShowIntro}
         />
         <main className="main">
-          <div className="container">
+          <div className="container-home container">
             <Announcement />
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
             <div className="mb-8 block justify-between md:flex">

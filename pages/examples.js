@@ -22,6 +22,17 @@ const Home = ({ frontmatter, content, examples }) => {
   }
   const allSsg = [...new Set(ssgArray)];
 
+  // sort allSsg by length of examples
+  const sortedSg = allSsg.sort((a, b) => {
+    const aLength = examplesSortedByWeight.filter((item) =>
+      item.frontmatter.ssg.map((data) => slugify(data)).includes(a)
+    ).length;
+    const bLength = examplesSortedByWeight.filter((item) =>
+      item.frontmatter.ssg.map((data) => slugify(data)).includes(b)
+    ).length;
+    return bLength - aLength;
+  });
+
   const filteredExamples =
     selectedSsg === "all"
       ? examplesSortedByWeight
@@ -53,7 +64,7 @@ const Home = ({ frontmatter, content, examples }) => {
               All
               <span>{examplesSortedByWeight.length}</span>
             </li>
-            {allSsg.map((item, i) => (
+            {sortedSg.map((item, i) => (
               <li
                 onClick={() => setSelectedSsg(item)}
                 key={`item-${i}`}
@@ -69,6 +80,17 @@ const Home = ({ frontmatter, content, examples }) => {
                 </span>
               </li>
             ))}
+            <li className="border-none p-0">
+              <a
+                className="btn btn-border border-border py-1 px-4 transition duration-300 hover:border-dark dark:border-darkmode-border hover:dark:border-white/60"
+                href="https://github.com/statichunt/statichunt#submit-a-jamstack-example-site"
+                target="_blank"
+                rel="nofollow noreferrer"
+              >
+                Submit Yours
+                {/* <span className="hidden md:inline-block">Theme / Resource</span> */}
+              </a>
+            </li>
           </ul>
           <Examples examples={filteredExamples} />
         </div>

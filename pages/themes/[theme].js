@@ -30,7 +30,7 @@ const SingleTheme = ({ slug, theme, allTheme }) => {
             <div className="relative lg:col-8">
               <ThemePreview theme={theme} slug={slug} />
               {markdownify(content, "div", "content")}
-              <div className="mt-8 hidden border-y border-gray-300 py-5 lg:block">
+              <div className="mt-8 hidden border-y border-gray-300 py-5 dark:border-darkmode-border lg:block">
                 <div className="flex flex-wrap items-center">
                   <h3 className="h6 mb-1 mr-5">Share This Theme:</h3>
                   <Share
@@ -47,7 +47,7 @@ const SingleTheme = ({ slug, theme, allTheme }) => {
             </div>
           </div>
           {similarThemes.length > 0 && (
-            <div className="mt-20">
+            <div className="mt-24">
               <h2 className="mb-8 text-center">Similar Themes To Consider</h2>
               <Themes
                 customRowClass="row justify-center !overflow-hidden"

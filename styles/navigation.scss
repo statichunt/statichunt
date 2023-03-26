@@ -29,15 +29,17 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .navbar-nav {
-  @apply text-center md:text-left;
-}
-
-.nav-item {
-  @apply mx-3;
+  @apply text-center font-secondary md:text-left;
 }
 
 .nav-link {
-  @apply px-2 py-1 text-dark transition hover:text-primary dark:text-white dark:hover:text-darkmode-primary;
+  @apply relative px-[18px] py-3 text-dark/80 transition hover:text-primary dark:text-white dark:hover:text-darkmode-primary;
+  &::after {
+    @apply absolute left-[18px] bottom-4 h-[1px] w-[calc(100%_-_36px)] scale-x-0 bg-primary transition content-[""];
+  }
+  &:hover::after {
+    @apply scale-x-100;
+  }
 }
 
 .nav-dropdown {

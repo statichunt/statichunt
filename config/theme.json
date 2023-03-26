@@ -34,7 +34,9 @@
   "fonts": {
     "font_family": {
       "primary": "Oxygen:wght@400;700",
-      "primary_type": "sans-serif"
+      "primary_type": "sans-serif",
+      "secondary": "Outfit:wght@500",
+      "secondary_type": "sans-serif"
     },
     "font_size": {
       "base": "16px",

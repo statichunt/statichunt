@@ -96,7 +96,7 @@ const Header = () => {
                   href={menu.url}
                   className={`nav-link block ${
                     router.asPath === menu.url &&
-                    "text-primary dark:text-darkmode-primary"
+                    "pointer-events-none text-primary dark:text-darkmode-primary"
                   }`}
                 >
                   {menu.name}

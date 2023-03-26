@@ -72,16 +72,16 @@ const Themes = ({ themes, customRowClass, customColClass }) => {
       dataLength={page.length}
       next={fetchData}
       hasMore={true}
-      className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
+      className={
+        customRowClass
+          ? customRowClass
+          : "row !overflow-hidden py-4 sm:row-cols-2 xl:row-cols-3 2xl:row-cols-4 3xl:row-cols-5"
+      }
     >
       {page.length > 0 ? (
         page.map((theme) => (
           <div
-            className={
-              customColClass
-                ? customColClass
-                : "mb-8 sm:col-6 xl:col-4 2xl:col-3"
-            }
+            className={customColClass ? customColClass : "mb-8"}
             key={theme.slug}
           >
             <div className="theme-card">
