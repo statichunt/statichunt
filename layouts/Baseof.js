@@ -6,7 +6,6 @@ import Header from "@layouts/partials/Header";
 import { plainify } from "@lib/utils/textConverter";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
 
 const Base = ({
   title,
@@ -21,26 +20,6 @@ const Base = ({
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
   const router = useRouter();
-
-  // tooltip
-  useEffect(() => {
-    var tooltipEl = document.querySelectorAll(".tooltip");
-    if (tooltipEl) {
-      var tooltipItems = document.querySelectorAll(".tooltip-label");
-      tooltipItems.forEach((item) => {
-        item.remove();
-      });
-      var length = tooltipEl.length;
-      for (var i = 0; i < length; i++) {
-        var attr = tooltipEl[i].getAttribute("data-tooltip");
-        var x = document.createElement("SPAN");
-        var t = document.createTextNode(attr);
-        x.appendChild(t);
-        x.className = "tooltip-label";
-        tooltipEl[i].appendChild(x);
-      }
-    }
-  });
 
   return (
     <>

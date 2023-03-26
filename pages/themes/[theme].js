@@ -37,7 +37,6 @@ const SingleTheme = ({ slug, theme, allTheme }) => {
                     className="space-x-4"
                     title={title}
                     description={description}
-                    slug={slug}
                   />
                 </div>
               </div>

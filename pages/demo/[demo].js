@@ -1,9 +1,10 @@
 import config from "@config/config.json";
+import useTooltip from "@hooks/useTooltip";
 import DemoHeader from "@layouts/partials/DemoHeader";
 import { getSinglePage, getSinglePageSlug } from "@lib/contentParser";
 import { plainify, slugify } from "@lib/utils/textConverter";
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Demo = ({ theme, slug }) => {
   const { demo, title, github, download } = theme[0].frontmatter;
@@ -11,25 +12,7 @@ const Demo = ({ theme, slug }) => {
   const [showHeader, setShowHeader] = useState(true);
   const [device, setDevice] = useState("desktop");
 
-  // tooltip
-  useEffect(() => {
-    var tooltipEl = document.querySelectorAll(".tooltip");
-    if (tooltipEl) {
-      var tooltipItems = document.querySelectorAll(".tooltip-label");
-      tooltipItems.forEach((item) => {
-        item.remove();
-      });
-      var length = tooltipEl.length;
-      for (var i = 0; i < length; i++) {
-        var attr = tooltipEl[i].getAttribute("data-tooltip");
-        var x = document.createElement("SPAN");
-        var t = document.createTextNode(attr);
-        x.appendChild(t);
-        x.className = "tooltip-label";
-        tooltipEl[i].appendChild(x);
-      }
-    }
-  });
+  useTooltip();
 
   return (
     <>
