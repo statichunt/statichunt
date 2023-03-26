@@ -19,7 +19,7 @@ draft: false
 publish_date: '2022-10-28T20:23:06Z'
 update_date: '2023-03-18T18:10:41Z'
 github_star: 0
-github_fork: 1
+github_fork: 2
 ---
 
 ## Theme features

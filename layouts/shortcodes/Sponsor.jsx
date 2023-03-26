@@ -59,6 +59,8 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
         console.log(error.message);
       });
   };
+
+  const slotCount = sponsors.frontmatter[type].filter((d) => !d.name).length;
   return (
     <>
       <div className="mb-6 overflow-hidden rounded border-[6px] border-theme-light dark:border-darkmode-theme-dark lg:flex">
@@ -77,12 +79,12 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
             <button
               className="btn btn-primary"
               onClick={() => setOpenModal(true)}
+              disabled={slotCount === 0 ? true : false}
             >
               Sponsor Now
             </button>
             <small className="mt-2 block text-text dark:text-darkmode-text">
-              Only {sponsors.frontmatter[type].filter((d) => !d.name).length}{" "}
-              slot left
+              {slotCount} slot left
             </small>
           </div>
         </div>
