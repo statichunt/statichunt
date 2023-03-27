@@ -1,5 +1,5 @@
 ---
-title: Manuel Ernesto
+title: Astro Modern Personal Website Template
 github: https://github.com/manuelernestog/astro-modern-personal-website
 demo: https://astro-modern-personal-website.netlify.app/
 author: Manuel Ernesto Garcia
