@@ -10,11 +10,12 @@ cms:
 category:
   - Boilerplate
 date: 2016-08-27T15:50:21.000Z
-description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll
+description: >-
+  A Jekyll boilerplate theme designed to be a starting point for any Jekyll
   website
 draft: false
 publish_date: '2016-08-27T15:50:21Z'
 update_date: '2021-06-14T18:21:20Z'
-github_star: 669
-github_fork: 784
+github_star: 679
+github_fork: 789
 ---

@@ -14,9 +14,9 @@ category:
   - Blog
 draft: false
 publish_date: '2020-04-10T19:53:00Z'
-update_date: '2023-01-28T18:12:09Z'
-github_star: 563
-github_fork: 320
+update_date: '2023-03-27T18:32:07Z'
+github_star: 571
+github_fork: 324
 ---
 ## Theme Features
 - Dark mode

@@ -5,7 +5,9 @@ demo: https://bigspring-light-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-03-13T00:00:00.000Z
-description: Bigspring is a highly customizable Astro theme designed specifically for SaaS & marketing websites.
+description: >-
+  Bigspring is a highly customizable Astro theme designed specifically for SaaS
+  & marketing websites.
 ssg:
   - Astro
 css:
@@ -16,8 +18,8 @@ category:
   - Business
 draft: false
 publish_date: '2023-03-11T08:41:01Z'
-update_date: '2023-03-12T05:29:31Z'
-github_star: 1
+update_date: '2023-03-14T09:56:36Z'
+github_star: 4
 github_fork: 0
 weight: 1
 ---

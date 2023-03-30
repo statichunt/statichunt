@@ -17,9 +17,9 @@ description: >-
   perfect Next JS Tailwind CSS template to quick start your project.
 draft: false
 publish_date: '2020-07-22T19:47:35Z'
-update_date: '2023-02-28T12:21:15Z'
-github_star: 3437
-github_fork: 744
+update_date: '2023-03-28T16:20:27Z'
+github_star: 3653
+github_fork: 799
 ---
 ## Theme Features
 
