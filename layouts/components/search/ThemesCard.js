@@ -1,10 +1,24 @@
+import ImageFallback from "@components/ImageFallback";
+import config from "@config/config.json";
+import useTooltip from "@hooks/useTooltip";
+import { slugify } from "@lib/utils/textConverter";
 import { useSerachContext } from "context/searchContext";
+import Image from "next/image";
 import Link from "next/link";
-import ImageFallback from "../ImageFallback";
-import ToolsIcon from "../ToolsIcon";
 
 const ThemesCard = ({ themes, resources, blogs, setSearchModal }) => {
   const { isBlog, isResource } = useSerachContext();
+  const { darkIconList } = config;
+
+  const toolsIcon = (theme) => {
+    const ssgIcon = theme.frontmatter.ssg?.map((item) => item) || [];
+    const cssIcon = theme.frontmatter.css?.map((item) => item) || [];
+    const cmsIcon = theme.frontmatter.cms?.map((item) => item) || [];
+    const categoryIcon = theme.frontmatter.category?.map((item) => item) || [];
+    return [...ssgIcon, ...cssIcon, ...cmsIcon, ...categoryIcon];
+  };
+
+  useTooltip();
 
   return (
     <div
@@ -14,7 +28,7 @@ const ThemesCard = ({ themes, resources, blogs, setSearchModal }) => {
           : "row-cols-1 sm:row-cols-2 md:row-cols-3 lg:row-cols-4"
       }`}
     >
-      {themes.slice(0).map((theme, i) => (
+      {themes.map((theme, i) => (
         <div key={`theme-${i}`} className="col mb-4">
           <div className="relative rounded-md shadow">
             <ImageFallback
@@ -27,7 +41,7 @@ const ThemesCard = ({ themes, resources, blogs, setSearchModal }) => {
             />
 
             <div className="px-4">
-              <h3 className="h6 mb-3 text-base font-bold leading-4">
+              <h3 className="h6 pb-1">
                 <Link
                   className="stretched-link line-clamp-1 hover:underline"
                   href={`/themes/${theme.slug}`}
@@ -36,8 +50,26 @@ const ThemesCard = ({ themes, resources, blogs, setSearchModal }) => {
                   {theme.frontmatter.title}
                 </Link>
               </h3>
-              <div>
-                <ToolsIcon item={theme} size={15} />
+              <div className="space-x-3 pb-2">
+                {toolsIcon(theme).map(
+                  (icon) =>
+                    icon !== null && (
+                      <span className="tooltip" data-tooltip={icon}>
+                        <Image
+                          src={`/images/icons/${slugify(icon)}.svg`}
+                          alt={icon}
+                          key={icon}
+                          height={15}
+                          width={15}
+                          className={`max-h-[15px] ${
+                            darkIconList.includes(slugify(icon))
+                              ? "dark:brightness-0 dark:invert"
+                              : ""
+                          }`}
+                        />
+                      </span>
+                    )
+                )}
               </div>
             </div>
           </div>
