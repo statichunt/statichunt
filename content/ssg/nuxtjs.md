@@ -3,7 +3,7 @@ title: NuxtJs
 page_title:
 meta_title: 15+ NuxtJs Themes (Free & Premium)| Statichunt
 description: "Explore a wide range of Nuxt.js themes and templates for your next web development project"
-icon: /images/icons/nuxt.svg
+icon: /images/icons/nuxtjs.svg
 website: https://nuxtjs.org
 github_path: nuxt/nuxt.js
 twitter_username: nuxt_js

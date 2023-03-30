@@ -13,7 +13,7 @@ css:
 cms:
   - null
 category:
-  - Landing
+  - Saas
 draft: false
 publish_date: '2022-05-03T04:02:56Z'
 update_date: '2023-01-31T04:25:15Z'

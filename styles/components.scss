@@ -2,7 +2,7 @@
 .theme-switcher {
   @apply relative inline-flex h-[28px] w-[52px] cursor-pointer items-center justify-center rounded-full bg-theme-light text-dark dark:bg-darkmode-theme-dark dark:text-white;
   &::after {
-    @apply absolute z-10 h-[18px] w-[18px] rounded-full bg-white bg-no-repeat transition-[cubic-bezier(0.77_0_0.18_1)] content-[''] dark:bg-darkmode-body;
+    @apply absolute z-10 h-[18px] w-[18px] rounded-full bg-white bg-no-repeat transition-[cubic-bezier(0.77_0_0.18_1)] content-[''];
     background-size: 6px 6px;
     background-position: center;
     background-image: url("data:image/svg+xml,%3Csvg version='1.1' fill='%23848484' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 6 6' style='enable-background:new 0 0 6 6;' xml:space='preserve'%3E%3Cpath d='M5.5,6C5.2,6,5,5.8,5,5.5v-5C5,0.2,5.2,0,5.5,0S6,0.2,6,0.5v5C6,5.8,5.8,6,5.5,6z M0.5,6C0.2,6,0,5.8,0,5.5v-5 C0,0.2,0.2,0,0.5,0S1,0.2,1,0.5v5C1,5.8,0.8,6,0.5,6z'/%3E%3C/svg%3E");
@@ -16,6 +16,7 @@
 }
 
 .dark .theme-switcher::after {
+  @apply bg-darkmode-theme-light;
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' fill='%23a3a3a3' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 6 6' style='enable-background:new 0 0 6 6;' xml:space='preserve'%3E%3Cpath d='M5.5,6C5.2,6,5,5.8,5,5.5v-5C5,0.2,5.2,0,5.5,0S6,0.2,6,0.5v5C6,5.8,5.8,6,5.5,6z M0.5,6C0.2,6,0,5.8,0,5.5v-5 C0,0.2,0.2,0,0.5,0S1,0.2,1,0.5v5C1,5.8,0.8,6,0.5,6z'/%3E%3C/svg%3E");
 }
 
@@ -36,7 +37,7 @@
 
 // main wrrapper
 .main {
-  @apply flex-1 py-10 px-0 lg:pl-4;
+  @apply flex-1 px-0 py-10 lg:pl-4;
 }
 
 // social icons
@@ -101,20 +102,20 @@ select:required:invalid {
 // content style
 .content {
   @apply prose max-w-none;
-  @apply prose-headings:mt-[.5em] prose-headings:mb-[.9em] prose-headings:font-bold prose-headings:text-dark;
+  @apply prose-headings:mb-[.9em] prose-headings:mt-[.5em] prose-headings:font-bold prose-headings:text-dark;
   @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
   @apply prose-h2:text-h2-sm md:prose-h2:text-h2;
   @apply prose-h3:text-h3-sm md:prose-h3:text-h3;
   @apply prose-hr:border-border prose-hr:dark:border-darkmode-border;
   @apply prose-p:text-base prose-p:text-text prose-p:dark:text-light;
-  @apply prose-blockquote:rounded prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:shadow prose-blockquote:dark:bg-theme-dark;
+  @apply prose-blockquote:rounded prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:px-4 prose-blockquote:py-1 prose-blockquote:shadow prose-blockquote:dark:bg-theme-dark;
   @apply prose-code:px-1 prose-code:text-primary dark:prose-code:text-darkmode-primary;
   @apply prose-pre:rounded-none;
   @apply prose-strong:text-dark prose-strong:dark:text-light;
   @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline dark:prose-a:text-darkmode-primary;
   @apply prose-li:text-text prose-li:dark:text-light;
   @apply prose-table:overflow-hidden prose-table:border prose-table:border-border prose-table:dark:border-darkmode-border;
-  @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:py-4 prose-th:px-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;
+  @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:px-4 prose-th:py-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:px-3 prose-td:py-4 prose-td:dark:text-light;
   .btn {
@@ -167,7 +168,7 @@ select:required:invalid {
 
 // sidebar-overlay
 .sidebar-overlay {
-  @apply pointer-events-none invisible fixed top-[64px] left-0 z-20 h-full w-full bg-black opacity-0 transition-all duration-300;
+  @apply pointer-events-none invisible fixed left-0 top-[64px] z-20 h-full w-full bg-black opacity-0 transition-all duration-300;
   &.show {
     @apply pointer-events-auto visible opacity-40;
   }
@@ -188,9 +189,9 @@ select:required:invalid {
 .tooltip {
   @apply relative inline-block cursor-pointer;
   &-label {
-    @apply pointer-events-none invisible absolute left-1/2 bottom-[calc(100%+5px)] z-50 w-max -translate-x-1/2 rounded bg-primary px-3 py-1 text-center text-sm text-white opacity-0 transition;
+    @apply pointer-events-none invisible absolute bottom-[calc(100%+5px)] left-1/2 z-50 w-max -translate-x-1/2 rounded bg-primary px-3 py-1 text-center text-sm text-white opacity-0 transition;
     &::after {
-      @apply absolute top-full left-1/2 -translate-x-1/2 border-4 border-solid border-transparent border-t-primary content-[""];
+      @apply absolute left-1/2 top-full -translate-x-1/2 border-4 border-solid border-transparent border-t-primary content-[""];
     }
   }
   &:hover .tooltip-label {
@@ -200,7 +201,7 @@ select:required:invalid {
     .tooltip-label {
       @apply bottom-[unset] top-[calc(100%+5px)];
       &::after {
-        @apply top-[unset] bottom-full border-t-transparent border-b-primary;
+        @apply bottom-full top-[unset] border-b-primary border-t-transparent;
       }
     }
   }
@@ -274,7 +275,7 @@ select:required:invalid {
 // themes category list
 .category-list {
   li {
-    @apply mr-3 mb-3 inline-block cursor-pointer select-none rounded border border-border py-[.3rem] pl-3 pr-2 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-border dark:text-darkmode-text;
+    @apply mb-3 mr-3 inline-block cursor-pointer select-none rounded border border-border py-[.3rem] pl-3 pr-2 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-border dark:text-darkmode-text;
     span {
       @apply ml-2 inline-block w-[27px] rounded bg-theme-light px-[.3rem] pt-[2px] text-center text-xs dark:bg-darkmode-theme-light;
     }
@@ -291,12 +292,12 @@ select:required:invalid {
 .sort-dropdown {
   @apply relative mt-1 inline-block whitespace-nowrap text-[.8rem];
   &-input {
-    @apply ml-2 cursor-pointer rounded border border-border py-[.3rem] px-3 dark:border-darkmode-border;
+    @apply ml-2 cursor-pointer rounded border border-border px-3 py-[.3rem] dark:border-darkmode-border;
   }
   &-buttons {
-    @apply absolute top-8 right-0 z-50 hidden w-full rounded bg-white p-3 shadow dark:bg-darkmode-theme-dark;
+    @apply absolute right-0 top-8 z-50 hidden w-full rounded bg-white p-3 shadow dark:bg-darkmode-theme-dark;
     button {
-      @apply block w-full rounded py-1 px-2 text-left;
+      @apply block w-full rounded px-2 py-1 text-left;
       &:hover {
         @apply bg-theme-light dark:hover:bg-white/[.1];
       }
@@ -327,7 +328,7 @@ select:required:invalid {
   &-wrapper {
     @apply flex items-center justify-center bg-theme-light transition-all dark:bg-theme-dark;
     iframe {
-      @apply my-0 mx-auto h-full w-full rounded-[inherit] border-0 shadow-none;
+      @apply mx-auto my-0 h-full w-full rounded-[inherit] border-0 shadow-none;
     }
   }
   &-content {
@@ -343,15 +344,15 @@ select:required:invalid {
 
 // cookie box
 .cookie-box {
-  @apply fixed left-3 bottom-3 z-50 mr-5 block w-[calc(100%-1.5rem)] max-w-[450px] items-center justify-between rounded bg-white px-5 py-4 shadow dark:bg-darkmode-theme-light md:left-5 md:bottom-5 md:flex;
+  @apply fixed bottom-3 left-3 z-50 mr-5 block w-[calc(100%-1.5rem)] max-w-[450px] items-center justify-between rounded bg-white px-5 py-4 shadow dark:bg-darkmode-theme-light md:bottom-5 md:left-5 md:flex;
   &-closer {
-    @apply rounded border-0 bg-theme-light py-1 px-3 text-sm font-semibold transition hover:bg-primary hover:text-white dark:bg-darkmode-theme-dark;
+    @apply rounded border-0 bg-theme-light px-3 py-1 text-sm font-semibold transition hover:bg-primary hover:text-white dark:bg-darkmode-theme-dark;
   }
 }
 
 // bookmark box
 .bookmark-box {
-  @apply fixed left-5 bottom-5 z-50 mr-5 hidden origin-bottom-left items-center justify-between rounded bg-white py-1.5 pr-5 pl-2 shadow transition-[cubic-bezier(0.18_0.89_0.32_1.27)] dark:bg-darkmode-theme-light;
+  @apply fixed bottom-5 left-5 z-50 mr-5 hidden origin-bottom-left items-center justify-between rounded bg-white py-1.5 pl-2 pr-5 shadow transition-[cubic-bezier(0.18_0.89_0.32_1.27)] dark:bg-darkmode-theme-light;
   &-icon {
     @apply mr-2.5 flex items-center justify-center rounded px-1.5 py-2;
   }
@@ -393,9 +394,9 @@ select:required:invalid {
 
 // modal
 .modal {
-  @apply fixed top-0 left-0 z-[50] h-screen w-screen bg-black/30 backdrop-blur-md;
+  @apply fixed left-0 top-0 z-[50] h-screen w-screen bg-black/30 backdrop-blur-md;
   &-overlay {
-    @apply absolute top-0 left-0 h-full w-full;
+    @apply absolute left-0 top-0 h-full w-full;
   }
   &-box {
     @apply relative top-1/2 mx-auto max-h-[calc(100vh-100px)] max-w-[calc(100%-20px)] -translate-y-1/2 overflow-hidden rounded-lg bg-white shadow-lg dark:bg-darkmode-theme-dark;
@@ -438,7 +439,7 @@ select:required:invalid {
     }
   }
   &-header {
-    @apply relative flex items-center justify-between rounded-t bg-[#f5e1a2] py-1 px-2;
+    @apply relative flex items-center justify-between rounded-t bg-[#f5e1a2] px-2 py-1;
     &::before {
       @apply relative left-6 top-0 inline-block h-3 w-3 rounded-full bg-[#ffbd2d] shadow-[] content-[""];
       box-shadow: -20px 0 0 #ff5f57, 20px 0 0 #29c940;
@@ -446,7 +447,7 @@ select:required:invalid {
     &-content {
       @apply absolute left-1/2 z-10 -translate-x-1/2 text-center text-sm dark:text-dark;
       &-icon {
-        @apply relative top-[1px] -left-1 inline-flex h-4 w-4 items-center justify-center leading-none;
+        @apply relative -left-1 top-[1px] inline-flex h-4 w-4 items-center justify-center leading-none;
         animation: rotating 1s linear infinite;
       }
       &-hide {

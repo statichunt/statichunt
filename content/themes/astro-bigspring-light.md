@@ -37,4 +37,4 @@ weight: 1
 - Includes draft pages and posts
 - Built with Tailwind CSS framework
 - Fully responsive on desktops, tablets, and smartphones
-- SEO Friendly 
+- SEO Friendly
