@@ -6,7 +6,7 @@ price: 79
 demo: https://andromeda-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
-date: 2023-02-12T00:00:00.000Z
+date: 2023-03-30T00:00:00.000Z
 description: Andromeda Astro is multipurpose SaaS theme designed to showcase any SaaS product or solution.
 ssg:
   - Astro
