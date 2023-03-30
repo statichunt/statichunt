@@ -1,7 +1,7 @@
 ---
 title: "Bulma"
 page_title: Bulma Templates
-meta_title: Best Free Bulma Templates and Themes For 2023
+meta_title: Bulma Templates
 description: Looking for a quick and easy way to create beautiful blog, portfolio,bussiness and admin dashboard website? Check out Bulma Templates and themes!
 icon: /images/icons/bulma.svg
 website: https://bulma.io/

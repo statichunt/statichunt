@@ -1,7 +1,7 @@
 ---
 title: "Tailwind"
 page_title: Tailwind Templates
-meta_title: Best Free Tailwind CSS Templates and Themes For 2022
+meta_title: 50+ Tailwind CSS Templates
 description: Looking for a quick and easy way to create beautiful blog, portfolio, ecommerce, bussiness and admin dashboard website? Check out Tailwind Templates and themes!
 icon: /images/icons/tailwind.svg
 website: https://tailwindcss.com/
