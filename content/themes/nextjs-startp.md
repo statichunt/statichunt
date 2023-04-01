@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Built with react.js v18+, Next.js v12.1.4, Redux, Bootstrap 5.1.3+
 - Product dynamic routing, internationalized routing support

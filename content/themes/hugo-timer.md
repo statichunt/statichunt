@@ -20,7 +20,7 @@ github_star: 133
 github_fork: 115
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Google analytics support
 - Contact form Support

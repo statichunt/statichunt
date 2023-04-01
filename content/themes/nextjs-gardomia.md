@@ -18,7 +18,7 @@ category:
   - others
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Based on Bootstrap 5.x
 - React JS (Latest Version)

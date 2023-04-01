@@ -17,7 +17,8 @@ update_date: '2021-10-31T15:32:15Z'
 github_star: 308
 github_fork: 313
 ---
-## Theme Features
+## Key Features :
+
 - Compatible with Github pages
 - Index Pagination
 - SEO

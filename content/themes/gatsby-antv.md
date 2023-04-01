@@ -20,7 +20,7 @@ github_star: 324
 github_fork: 61
 ---
 
-## Theme features
+## Key Features :
 
 - Prerendered static site
 - Internationalization support by i18next

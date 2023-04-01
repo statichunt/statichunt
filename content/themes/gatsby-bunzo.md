@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - For IT, Business, and Digital Startup Agency & Company website
 - Built on React v17+, GatsbyJS v4.4, Strapi CMS, PostgreSQL, GraphQL, Bootstrap 5.1.3, and Sass

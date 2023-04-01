@@ -18,7 +18,7 @@ update_date: '2022-07-17T20:24:37Z'
 github_star: 1527
 github_fork: 411
 ---
-## Theme features
+## Key Features :
 
 - Gatsby v4 support
 - First class TypeScript support

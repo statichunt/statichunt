@@ -18,7 +18,8 @@ category:
   - others
 draft: false
 ---
-## Theme Features:
+## Key Features :
+
 - Dark and light mode
 - No jQuery, only vanilla JS
 - 100% responsive design

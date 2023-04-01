@@ -19,7 +19,7 @@ category:
   - Blog
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Built on Gatsby v4.4+, React v17+, Strapi CMS, GraphQL, PostgreSQL & Cloudinary
 - No jQuery Dependency

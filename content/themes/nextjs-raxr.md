@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Based on React 18+, Next.js, Bootstrap 5.1.3 & Sass
 - 22+ pages available

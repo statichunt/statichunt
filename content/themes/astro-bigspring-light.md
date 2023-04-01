@@ -24,7 +24,7 @@ github_fork: 0
 weight: 1
 ---
 
-## Key Features
+## Key Features :
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 - Fast by default (95+ Google PageSpeed Score)

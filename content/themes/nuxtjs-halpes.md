@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Includes 3 Home versions
 - Includes 11 Inner pages

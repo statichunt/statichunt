@@ -18,11 +18,11 @@ category:
 draft: false
 publish_date: '2022-10-28T20:23:06Z'
 update_date: '2023-03-28T20:07:49Z'
-github_star: 0
-github_fork: 2
+github_star: 1
+github_fork: 1
 ---
 
-## Theme features
+## Key Features :
 
 - Responsive design that adapts to different screen sizes.
 - Supports light and dark theme.

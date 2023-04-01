@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Bootstrap Based
 - Netlify Pre Configured

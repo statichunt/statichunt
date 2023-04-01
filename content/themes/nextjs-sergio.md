@@ -18,7 +18,7 @@ category:
   - Portfolio
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Clean And Modern Design
 - Dark/Light Option

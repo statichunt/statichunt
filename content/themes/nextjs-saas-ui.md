@@ -20,7 +20,7 @@ github_star: 29
 github_fork: 11
 ---
 
-## Theme features
+## Key Features :
 
 - Feature blocks
 - Testimonials

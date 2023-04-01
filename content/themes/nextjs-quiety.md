@@ -18,7 +18,7 @@ category:
   - Saas
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - No jQuery Dependency
 - Responsive and Mobile Friendly

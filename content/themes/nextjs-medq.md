@@ -18,7 +18,7 @@ category:
   - Ecommerce
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Built on pure React.js without jQuery
 - Ready to Use eCommerce Template

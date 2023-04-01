@@ -19,7 +19,7 @@ github_star: 4117
 github_fork: 3661
 ---
 
-## Theme features
+## Key Features :
 
 - Setup only takes a few minutes (single config file) 💪
 - Robust support for Notion content via react-notion-x

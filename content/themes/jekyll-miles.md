@@ -18,7 +18,8 @@ category:
   - Business
 draft: false
 ---
-## Theme Features:
+## Key Features :
+
 - 12+ unique creative home page layouts
 - 6 portfolio layout styles
 - 4 blog layout styles

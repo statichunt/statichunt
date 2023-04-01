@@ -20,7 +20,7 @@ github_star: 170
 github_fork: 170
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Google analytics support
 - Multiple author available

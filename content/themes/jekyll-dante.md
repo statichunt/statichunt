@@ -23,7 +23,7 @@ github_star: 1
 github_fork: 1
 ---
 
-## Theme features
+## Key Features :
 
 - Live editing with CloudCannon
 - Component library for website building

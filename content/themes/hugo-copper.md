@@ -18,7 +18,7 @@ category:
   - Saas
 draft: false
 ---
-## Theme features
+## Key Features :
 
 - Speed Optimized
 - SEO-Ready

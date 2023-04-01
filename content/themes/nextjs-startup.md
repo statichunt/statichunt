@@ -24,7 +24,7 @@ github_star: 202
 github_fork: 29
 ---
 
-## Theme features
+## Key Features :
 
 - Crafted for Startup and SaaS Business
 - Next.js 13 and Tailwind CSS

@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - 15+ Jekyll Pages
 - Unique Design

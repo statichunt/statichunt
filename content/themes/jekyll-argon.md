@@ -18,7 +18,8 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
+
 - Three Jekyll-ready blog layouts
 - Responsive design
 - Image galleries

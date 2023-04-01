@@ -18,7 +18,8 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
+
 - Unique homepage version
 - W3C validated HTML5 & CSS3 coding
 - Flat, modern and clean design

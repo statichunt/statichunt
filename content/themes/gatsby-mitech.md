@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Build with latest React (v18.2.0)
 - Build with latest Gatsby (v 4)

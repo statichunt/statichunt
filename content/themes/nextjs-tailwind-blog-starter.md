@@ -24,7 +24,7 @@ github_star: 4393
 github_fork: 1095
 ---
 
-## Theme features
+## Key Features :
 
 - High resolution
 - Well documented

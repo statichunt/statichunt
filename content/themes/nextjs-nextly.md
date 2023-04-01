@@ -25,7 +25,7 @@ github_star: 202
 github_fork: 68
 ---
 
-## Theme features
+## Key Features :
 
 - Clean & Modern Design
 - Light & Dark Mode

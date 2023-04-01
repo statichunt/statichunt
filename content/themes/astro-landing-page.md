@@ -21,7 +21,7 @@ github_star: 198
 github_fork: 63
 ---
 
-## Theme features
+## Key Features :
 
 - Tailwind CSS for styling
 - Dark mode

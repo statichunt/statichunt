@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Google PageSpeed Score 91/100 (Desktop)
 - SEO Ready

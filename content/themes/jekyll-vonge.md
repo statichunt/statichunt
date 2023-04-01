@@ -22,7 +22,8 @@ update_date: '2022-12-05T02:48:38Z'
 github_star: 99
 github_fork: 70
 ---
-## Theme Features
+## Key Features :
+
 - Component library for website building
 - Fully configurable Website
 - Pre-built pages

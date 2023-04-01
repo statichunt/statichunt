@@ -18,7 +18,8 @@ update_date: '2023-02-11T10:36:21Z'
 github_star: 1338
 github_fork: 383
 ---
-## Theme Features
+## Key Features :
+
 - Theme UI-based theming
 - react-spring Parallax Effect
 - CSS Animations on Shapes

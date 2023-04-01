@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Built on React 17+, Gatsby.js v4.4+, Sass, and Bootstrap 5.1.3+
 - Products List, Cart, Checkout & Products Details Pages

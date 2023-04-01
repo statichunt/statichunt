@@ -21,7 +21,7 @@ github_star: 868
 github_fork: 413
 ---
 
-## Theme features
+## Key Features :
 
 - Modern Stack (Next.js + TailwindCSS)
 - Minimal Design

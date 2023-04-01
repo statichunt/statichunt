@@ -22,7 +22,8 @@ github_star: 48
 github_fork: 29
 ---
 
-## Theme Features
+## Key Features :
+
 - Responsive Ready.
 - Powered by Bootstrap 4.
 - Blog Template.

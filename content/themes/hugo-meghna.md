@@ -23,7 +23,7 @@ github_star: 377
 github_fork: 1247
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Multilingual support. (with language selector)
 - Taxonomies

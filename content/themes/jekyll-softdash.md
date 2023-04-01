@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Clean & Simple Design
 - 100% Fluid Responsive – Fits any device perfectly

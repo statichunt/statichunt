@@ -21,7 +21,7 @@ update_date: '2022-10-22T03:33:57Z'
 github_star: 37
 github_fork: 51
 ---
-## Key Features
+## Key Features :
 
 - Onepage template
 - Google analytics support

@@ -19,7 +19,7 @@ github_star: 138
 github_fork: 141
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Multiple homepage (2)
 - Multiple language support (Fr, En)

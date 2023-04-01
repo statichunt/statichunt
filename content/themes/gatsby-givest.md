@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Build with latest React,Gatsby
 - No jQuery Dependency

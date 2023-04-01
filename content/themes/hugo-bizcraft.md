@@ -20,7 +20,7 @@ draft: false
 ---
 
 
-## Theme features
+## Key Features :
 
 - Page Speed (96/100)
 - Netlify-Ready

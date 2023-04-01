@@ -23,7 +23,7 @@ update_date: '2023-02-09T05:08:12Z'
 github_star: 16
 github_fork: 9
 ---
-**Key Features:**
+## Key Features :
 
 * Google PageSpeed Score 100 (Desktop)
 * Supports Contact Form

@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - 11 Trending Home Demos
 - Build with React Next JS (v12.1.6)

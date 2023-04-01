@@ -22,7 +22,7 @@ github_star: 4
 github_fork: 0
 ---
 
-## Theme features
+## Key Features :
 
 - Beautiful design with 8 complete pre-built page examples
 - Integrated lazy-loading and mobile first optimized

@@ -20,7 +20,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Modern Design
 - 3 Different Home Pages

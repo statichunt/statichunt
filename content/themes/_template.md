@@ -47,7 +47,7 @@ category: # you can choose multiple if applicable
 draft: false
 ---
 
-## Key Features
+## Key Features :
 
 - Feature 1
 - Feature 2

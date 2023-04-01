@@ -19,7 +19,7 @@ github_star: 58
 github_fork: 15
 ---
 
-## Theme features
+## Key Features :
 
 - Hero Section
 - Features Section 1

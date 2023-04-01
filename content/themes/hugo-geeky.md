@@ -23,7 +23,7 @@ github_star: 73
 github_fork: 50
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Google analytics support
 - Image optimize with hugo pipe

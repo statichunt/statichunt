@@ -18,7 +18,7 @@ category:
   - Blog
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Made with Bootstarp v5.x
 - Minimal design with 2 Homepage Layout

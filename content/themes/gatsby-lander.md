@@ -23,7 +23,7 @@ github_star: 132
 github_fork: 70
 ---
 
-## Theme Features
+## Key Features :
 
 - Styles using tailwindcss with purgeCSS
 - Features section

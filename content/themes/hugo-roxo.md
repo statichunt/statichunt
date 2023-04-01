@@ -20,7 +20,8 @@ update_date: '2022-10-25T06:22:22Z'
 github_star: 130
 github_fork: 149
 ---
-## Theme Features
+## Key Features :
+
 - Responsive Ready.
 - Powered by Bootstrap 4.
 - Dedicated portfolio page.

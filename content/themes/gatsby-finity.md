@@ -19,7 +19,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - The easiest and fastest way to create a React app with server-side rendering.
 - We’ve crafted all necessary components for you. Just reuse those however you want!

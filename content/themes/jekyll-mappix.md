@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Based on Bootstrap 5.x
 - Discus Commnet Intregrated

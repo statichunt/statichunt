@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Google PageSpeed Score 95/100 (Desktop)
 - Fully featured weblog components

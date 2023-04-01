@@ -24,7 +24,7 @@ github_star: 149
 github_fork: 328
 ---
 
-## Theme Features
+## Key Features :
 
 - Google analytics ssupport
 - CSS and JS bundle with hugo pipe

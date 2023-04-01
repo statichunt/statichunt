@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Dark and light mode user can select themself
 - 100% responsive Design

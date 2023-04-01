@@ -19,7 +19,7 @@ update_date: '2023-03-20T06:26:23Z'
 github_star: 32
 github_fork: 61
 ---
-## Theme Features
+## Key Features :
 
 - Dark mode available
 - Google analytics support

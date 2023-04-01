@@ -22,7 +22,7 @@ github_star: 549
 github_fork: 84
 ---
 
-## Theme features
+## Key Features :
 
 - The React Framework
 - Manage SEO easily

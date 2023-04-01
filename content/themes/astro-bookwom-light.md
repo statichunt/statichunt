@@ -24,7 +24,7 @@ github_star: 7
 github_fork: 1
 ---
 
-## Key Features
+## Key Features :
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 - Multi-author support

@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Dark and Light Mode
 - No jQuery, Only Vanilla JS

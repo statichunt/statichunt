@@ -23,7 +23,7 @@ github_star: 19
 github_fork: 7
 ---
 
-## Theme features
+## Key Features :
 
 - Gatsby V4 ready
 - SEO ready (site structured data & meta tags)

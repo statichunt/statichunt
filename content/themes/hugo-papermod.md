@@ -18,7 +18,7 @@ update_date: '2023-03-04T17:42:18Z'
 github_star: 5855
 github_fork: 1836
 ---
-## Theme Features
+## Key Features :
 
 - Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
 - 3 Modes:Regular Mode,Home-Info Mode,Profile Mode

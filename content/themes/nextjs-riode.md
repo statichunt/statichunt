@@ -18,7 +18,7 @@ category:
   - Ecommerce
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - ReactJS, NextJS, Graphql, Apollo Server
 - React Hook, Redux, Redux Saga, React Persist

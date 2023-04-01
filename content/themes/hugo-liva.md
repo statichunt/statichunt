@@ -18,7 +18,7 @@ update_date: '2022-10-20T10:36:26Z'
 github_star: 206
 github_fork: 211
 ---
-## Theme Features
+## Key Features :
 
 - Google analytics support
 - CSS and JS bundle with hugo pipe

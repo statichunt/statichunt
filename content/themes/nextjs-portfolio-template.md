@@ -20,7 +20,7 @@ github_star: 30
 github_fork: 14
 ---
 
-## Theme features
+## Key Features :
 
 - Landing Page - greeting
 - Work section

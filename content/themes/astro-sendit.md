@@ -21,7 +21,7 @@ github_star: 0
 github_fork: 3
 disabled_reason: Github repo not found
 ---
-## Theme Features
+## Key Features :
 - Pre-built pages
 - Pre-styled components
 - Blog with pagination and category pages

@@ -25,7 +25,7 @@ github_fork: 21
 weight: 3
 ---
 
-## Theme features
+## Key Features :
 
 - Simple and Minimal
 - Fully Responsive

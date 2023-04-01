@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Google PageSpeed Score 98/100 (Desktop)
 - Google Analytics Support

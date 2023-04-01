@@ -21,7 +21,7 @@ github_fork: 10
 update_date: '2022-12-23T16:14:19Z'
 ---
 
-## Theme features
+## Key Features :
 
 - Responsive design using TailwindCSS
 - Responsive navigation

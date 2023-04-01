@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - 8 Unique Home Pages
 - No jQuery Dependency

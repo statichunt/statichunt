@@ -19,7 +19,7 @@ category:
   - Blog
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - 100% responsive, looks nice in any size of device.
 - Content focused, modern and minimal.

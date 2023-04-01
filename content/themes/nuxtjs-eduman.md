@@ -20,7 +20,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Based on Bootstrap (latest Version 5)
 - Vue JS (latest Version 3)

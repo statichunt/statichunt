@@ -18,7 +18,8 @@ update_date: '2023-03-27T18:32:07Z'
 github_star: 571
 github_fork: 324
 ---
-## Theme Features
+## Key Features :
+
 - Dark mode
 - Multilingual
 - RTL support

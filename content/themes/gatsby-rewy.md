@@ -18,7 +18,7 @@ category:
   - Bussiness
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Built on React v17+ GatsbyJS v4.4+
 - Strapi CMS v3.5+ GraphQL + PostgreSQL + Cloudinary + ImageSharp

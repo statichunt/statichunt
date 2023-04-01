@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - No jQuery, only vanilla JS
 - 100% responsive Design

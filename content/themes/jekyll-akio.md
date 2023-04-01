@@ -18,7 +18,7 @@ category:
   - Portfolio
 draft: false
 ---
-## Theme Features:
+## Key Features :
 
 - Dark and light mode user can select themself
 - No jQuery, only vanilla JS

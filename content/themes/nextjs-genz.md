@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - 04 Homepages layout
 - 05 Posts archive layouts

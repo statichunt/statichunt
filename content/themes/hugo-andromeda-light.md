@@ -23,7 +23,7 @@ update_date: '2022-12-11T07:06:47Z'
 github_star: 62
 github_fork: 52
 ---
-## Theme Features
+## Key Features :
 
 - Google analytics support  
 - image optimize with hugo pipe  

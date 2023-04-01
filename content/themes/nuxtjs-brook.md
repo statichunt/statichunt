@@ -21,7 +21,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Build with latest Vue
 - Build with latest Nuxt

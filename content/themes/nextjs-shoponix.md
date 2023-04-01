@@ -18,7 +18,7 @@ category:
   - Ecommerce
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - API-based Multi-Vendor eCommerce Template
 - Built with React 17+, Next.js 11, Mongo DB,

@@ -21,7 +21,7 @@ update_date: '2023-02-09T05:07:39Z'
 github_star: 20
 github_fork: 28
 ---
-**Key Features:**
+## Key Features:
 
 * Google PageSpeed Score 100 (Desktop)
 * Dark and Light Mode 

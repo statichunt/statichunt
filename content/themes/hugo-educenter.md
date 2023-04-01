@@ -23,7 +23,7 @@ github_fork: 296
 draft: false
 ---
 
-## Theme Features
+## Key Features :
 
 - Multiple language support (Fr, En)
 - Google analytics support

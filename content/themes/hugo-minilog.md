@@ -30,7 +30,7 @@ github_fork: 0
 draft: false
 ---
 
-## Theme Features
+## Key Features :
 
 - Image optimize with Hugo pipe
 - Google font loads from Webfont loader

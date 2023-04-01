@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme Features
+## Key Features :
 
 - Creative Design
 - Fully Responsive

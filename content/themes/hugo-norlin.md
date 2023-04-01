@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - 100% responsive and clean theme
 - Optimized for mobile devices

@@ -17,7 +17,8 @@ update_date: '2021-09-22T02:46:52Z'
 github_star: 1863
 github_fork: 2445
 ---
-## Theme Features:
+## Key Features :
+
 - A variety of layouts with clean and readable typography.
 - Microformats markup to make post content machine-readable and discoverable.
 - Disqus Comments and Google Analytics support.

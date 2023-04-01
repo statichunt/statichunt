@@ -21,7 +21,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Pure HTML 5, Angular 15, Vue 3, Nuxt 3, React 18, Next 13, No jQuery Dependency
 - Tailwind CSS

@@ -20,7 +20,7 @@ github_star: 238
 github_fork: 155
 draft: false
 ---
-## Key Features
+## Key Features :
 
 - Multiple language support (Fr, En)
 - Google analytics support

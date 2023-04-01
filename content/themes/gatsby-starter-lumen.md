@@ -17,7 +17,7 @@ github_star: 1918
 github_fork: 677
 update_date: '2023-03-30T02:20:52Z'
 ---
-## Theme Features
+## Key Features :
 
 - Beautiful typography.
 - Mobile first approach in development.

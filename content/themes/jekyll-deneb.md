@@ -18,7 +18,8 @@ category:
   - Business
 draft: false
 ---
-## Theme Features:
+## Key Features :
+
 - Supports Netlify
 - RTL version
 - Creative home style

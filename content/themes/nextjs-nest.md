@@ -18,7 +18,7 @@ category:
   - Ecommerce
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - React, NextJs, Redux
 - React Toastify

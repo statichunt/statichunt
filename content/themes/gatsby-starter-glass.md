@@ -19,7 +19,7 @@ update_date: '2022-10-07T21:36:33Z'
 github_star: 148
 github_fork: 82
 ---
-## Theme Features
+## Key Features :
 
 - Fully responsive
 - SEO metadata and Open Graph tags

@@ -22,7 +22,8 @@ update_date: '2023-02-14T18:45:45Z'
 github_star: 235
 github_fork: 453
 ---
-## Theme Features
+## Key Features :
+
 - GitHub Pages support
 - Template repo to get up and running in minutes
 - Contact form functionality powered by Formspree.io

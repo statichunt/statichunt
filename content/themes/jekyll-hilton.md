@@ -21,7 +21,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Works with GitHub Pages (host it for free)
 - Dark and light mode user can select themself

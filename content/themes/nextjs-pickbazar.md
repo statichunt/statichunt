@@ -18,7 +18,7 @@ category:
   - Ecommerce
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Developed with GraphQL and NextJS
 - 5+ fully designed demo templates

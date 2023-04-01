@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - RTL Version Included for Arabic and Hebrew Language
 - React v18.2.0, Next.js v12.2.5, Bootstrap v5.2.0 & Sass

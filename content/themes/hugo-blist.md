@@ -19,7 +19,8 @@ update_date: '2023-01-09T20:18:03Z'
 github_star: 240
 github_fork: 102
 ---
-## Theme Features
+## Key Features :
+
 - Responsive content / Mobile-optimized
 - Blog pagination
 - Customizable Text Search

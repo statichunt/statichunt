@@ -22,7 +22,7 @@ github_star: 263
 github_fork: 144
 ---
 
-## Theme Features
+## Key Features :
 
 - Using NextJS Image for Image Optimization
 - Slider using React Slick

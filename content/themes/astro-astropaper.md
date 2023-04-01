@@ -21,7 +21,7 @@ github_star: 519
 github_fork: 113
 ---
 
-## Theme Features
+## Key Features :
 
 - Super fast performance
 - Accessible (Keyboard/VoiceOver)

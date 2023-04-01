@@ -21,7 +21,7 @@ update_date: '2023-03-28T16:20:27Z'
 github_star: 3653
 github_fork: 799
 ---
-## Theme Features
+## Key Features :
 
 - Nextjs.js for Static Site Generator
 - Type checking TypeScript

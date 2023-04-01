@@ -20,7 +20,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Built with latest Nuxt
 - Built with latest Vue JS.

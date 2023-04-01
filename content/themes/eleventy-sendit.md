@@ -21,7 +21,7 @@ github_star: 2
 github_fork: 7
 ---
 
-## Theme features
+## Key Features :
 
 - Pre-built pages
 - Pre-styled components

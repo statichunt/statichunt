@@ -19,7 +19,7 @@ category:
   - Portfolio
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Based on Bootstrap 5.x
 - React JS

@@ -18,7 +18,7 @@ category:
   - Bussiness
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Ready Homepages
 - Based On Sass

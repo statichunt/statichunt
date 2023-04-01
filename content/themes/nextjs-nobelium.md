@@ -20,7 +20,7 @@ github_star: 2045
 github_fork: 1362
 ---
 
-## Theme features
+## Key Features :
 
 - Fast page render and responsive design
 - Fast static generation with efficient compiler

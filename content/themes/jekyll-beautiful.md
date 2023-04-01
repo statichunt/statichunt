@@ -18,7 +18,7 @@ update_date: '2023-02-27T07:53:21Z'
 github_star: 4607
 github_fork: 14224
 ---
-## Theme Features
+## Key Features :
 
 - The primary goal of Beautiful Jekyll is to allow literally anyone to create a website in a few minutes.
 - Uses the latest best practices and technologies to achieve nearly perfect scores on Google Chrome's Audit.

@@ -22,7 +22,7 @@ github_star: 94
 github_fork: 157
 ---
 
-## Key Features
+## Key Features :
 
 - Google analytics support  
 - CSS and Js bundle with hugo pipe  

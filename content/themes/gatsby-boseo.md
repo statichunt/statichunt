@@ -19,7 +19,7 @@ category:
   - Business
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Build on React Platform
 - Lerna and Yarn Workspace Monorepo Architecture

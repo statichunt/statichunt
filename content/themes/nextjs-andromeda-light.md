@@ -24,7 +24,7 @@ github_star: 8
 github_fork: 9
 weight: 1
 ---
-**Key Features:**
+## Key Features:
 
 * Google PageSpeed Score 100 (Desktop)
 * Supports Contact Form

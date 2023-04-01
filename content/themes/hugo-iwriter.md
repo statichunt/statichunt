@@ -29,7 +29,7 @@ github_fork: 8
 draft: false
 ---
 
-## Theme Features
+## Key Features :
 
 - Google analytics support
 - Image optimize with Hugo pipe

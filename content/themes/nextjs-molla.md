@@ -18,7 +18,7 @@ category:
   - Ecommerce
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Latest ReactJS, NextJS
 - Apollo Graphql for backend

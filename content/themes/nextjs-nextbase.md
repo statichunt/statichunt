@@ -22,7 +22,7 @@ github_star: 78
 github_fork: 8
 ---
 
-## Key features
+## Key Features :
 
 - Next.js 13 with async components
 - Data fetching examples in React server and client components. Suspenseful data fetching with minimal loading screens.

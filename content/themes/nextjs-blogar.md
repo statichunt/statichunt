@@ -18,7 +18,7 @@ category:
   - Blog
 draft: false
 ---
-## Theme Features
+## Key Features :
 
 - Fast, Lightweight & Powerful
 - Latest React

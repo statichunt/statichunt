@@ -24,7 +24,7 @@ github_star: 338
 github_fork: 114
 ---
 
-## Theme features
+## Key Features :
 
 - Fully responsive layout built with Tailwind CSS 3.0
 - Multiple colour schemes (or fully customise your own)

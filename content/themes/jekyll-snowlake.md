@@ -18,7 +18,8 @@ category:
   - Business
 draft: false
 ---
-## Theme Features:
+## Key Features :
+
 - 27 Different Demos
 - 17 Color Schemes
 - 5 Font Options

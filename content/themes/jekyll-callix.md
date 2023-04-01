@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - 5+ Home Pages
 - Highly Optimize Every Section

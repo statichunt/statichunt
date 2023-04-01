@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
 
 - Page Speed (96/100)
 - Multilingual and i18n support (ES, EN)

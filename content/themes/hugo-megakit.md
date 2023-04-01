@@ -21,7 +21,7 @@ github_star: 13
 github_fork: 5
 ---
 
-## Theme features
+## Key Features :
 
 - Contact form
 - Pre-built pages

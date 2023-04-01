@@ -23,7 +23,7 @@ update_date: '2023-02-19T12:35:13Z'
 github_star: 1498
 github_fork: 317
 ---
-## Theme features
+## Key Features :
 
 - Get 100 scores on Google Lighthouse by default. Doks removes unused css, prefetches links, and lazy loads images.
 

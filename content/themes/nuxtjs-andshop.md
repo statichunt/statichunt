@@ -20,7 +20,8 @@ category:
 draft: false
 ---
 
-## Theme features
+## Key Features :
+
 - Build on Latest Vue Js Platform
 - Build on Nuxt Js Framwork
 - Bootstrap-Vue UI Framework
