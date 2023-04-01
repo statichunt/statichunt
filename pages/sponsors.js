@@ -4,11 +4,22 @@ import { getListPage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";
 import MobileSidebar from "@partials/MobileSidebar";
 import shortcodes from "@shortcodes/all";
+import BuyMeACoffee from "buymeacoffee.js";
 import { MDXRemote } from "next-mdx-remote";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import Gravatar from "react-gravatar";
+import { BsPlusLg } from "react-icons/bs";
+import access from "../coffee.json";
 
 const Sponsors = ({ data }) => {
+  const coffee = new BuyMeACoffee(access.token);
+  const [individualSupporters, setIndividualSupporters] = useState([]);
+  useEffect(() => {
+    coffee.Supporters().then((data) => setIndividualSupporters(data.data));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const { mdxContent, frontmatter } = data;
   const {
     title,
@@ -171,63 +182,31 @@ const Sponsors = ({ data }) => {
                     ))}
                   </ul>
                 </div>
-                {/* Regular Sponsors */}
-                <div className="mb-20 hidden">
-                  <h2 className="h3 mb-6">Sponsors</h2>
-                  <ul>
-                    {regular.map((item, index) => (
-                      <li className="m-4 inline-block align-middle" key={index}>
-                        {item.name ? (
-                          <Link
-                            className="border- flex h-[100px] w-[180px] items-center justify-center rounded border-border p-4 dark:border-darkmode-border"
-                            href={item.website}
-                            title={item.name}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <ImageDark
-                              src={item.logo_default}
-                              src_darkmode={item.logo_darkmode}
-                              alt={item.name}
-                              height={60}
-                              width={180}
-                            />
-                          </Link>
-                        ) : (
-                          <Link
-                            className="flex h-[100px] w-[180px] items-center justify-center rounded border border-dashed border-border p-4 dark:border-darkmode-border"
-                            href="/become-a-sponsor"
-                          >
-                            Book A Slot
-                          </Link>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
                 {/* individual supporters */}
-                <div className="mb-0 hidden">
+                <div className="mb-0">
                   <h2 className="h3 mb-6">Individual Supporters</h2>
                   <ul>
-                    {individual.map((item, index) => (
+                    {individualSupporters.map((item, index) => (
                       <li className="m-2 inline-block align-middle" key={index}>
-                        {item.name && (
-                          <Link
-                            className="block"
-                            href={item.website}
-                            title={item.name}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <Gravatar
-                              email={item.email}
-                              size={50}
-                              className="rounded-full"
-                            />
-                          </Link>
-                        )}
+                        <Gravatar
+                          email={item.payer_email}
+                          size={50}
+                          title={item.payer_name}
+                          className="rounded-full"
+                        />
                       </li>
                     ))}
+                    <li className="m-2 inline-block align-middle">
+                      <Link
+                        href="https://www.buymeacoffee.com/statichunt"
+                        rel="nofollow noopener noreferrer"
+                        target="_blank"
+                        className="block h-[50px] w-[50px] rounded-full border border-dashed border-border text-xl leading-[45px] dark:border-darkmode-border"
+                        title="Become a Supporter"
+                      >
+                        <BsPlusLg />
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
