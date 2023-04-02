@@ -1,3 +1,4 @@
+import SidebarAccordion from "@components/SidebarAccordion";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
 import useWindow from "@hooks/useWindow";
@@ -5,7 +6,6 @@ import { slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
-import Accordion from "./SidebarAccordion";
 
 const Sidebar = ({
   slug,
@@ -104,7 +104,7 @@ const Sidebar = ({
           {sidebarData.map(
             (data, i) =>
               data.taxonomy && (
-                <div key={`accordion-${i}`} className="mb-4 lg:mb-8">
+                <div key={`Sidebaraccordion-${i}`} className="mb-4 lg:mb-8">
                   <h3
                     className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
                     onClick={() => handleOnClick(data.title)}
@@ -120,7 +120,7 @@ const Sidebar = ({
                   </h3>
                   {data.taxonomy && (
                     <div className="relative flex flex-col">
-                      <Accordion
+                      <SidebarAccordion
                         data={data}
                         slug={slug}
                         type={data.taxonomy}

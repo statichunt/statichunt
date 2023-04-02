@@ -5,7 +5,14 @@ import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
+const SidebarAccordion = ({
+  data,
+  slug,
+  type,
+  params,
+  themes,
+  SetShowIntro,
+}) => {
   const [taxonomy, setTaxonomy] = useState(type);
   const { darkIconList } = config;
   const {
@@ -186,7 +193,9 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
                 {parameter && [...new Set(taxonomyArray)][0] === params ? (
                   <span className="ml-auto">{countItems(params, item)}</span>
                 ) : taxonomyArray.length === 0 ? (
-                  <span className="ml-auto">{countItems(params, item)}</span>
+                  <span className="ml-auto">
+                    {countItems(params.replace("tools-", ""), item)}
+                  </span>
                 ) : parameter && params !== [...new Set(taxonomyArray)][0] ? (
                   <span className="ml-auto">
                     {
@@ -207,4 +216,4 @@ const Accordion = ({ data, slug, type, params, themes, SetShowIntro }) => {
   );
 };
 
-export default Accordion;
+export default SidebarAccordion;

@@ -42,7 +42,7 @@
     { "type": "cms", "title": "Jamstack CMS" },
     { "type": "css", "title": "CSS Framework" },
     { "type": "category", "title": "Category" },
-    { "type": "tool", "title": "Category" }
+    { "type": "tools-category", "title": "Category" }
   ],
 
   "darkIconList": [

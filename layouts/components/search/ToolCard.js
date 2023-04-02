@@ -56,12 +56,12 @@ const ToolCard = ({ tools, themes, blogs }) => {
                     </a>
                   </h3>
 
-                  {tool.frontmatter.tool?.map((tool, i) => (
+                  {tool.frontmatter.category?.map((item, i) => (
                     <span
-                      key={`tool-${i}`}
+                      key={`category-${i}`}
                       className="rounded border border-border px-3 py-1 text-xs"
                     >
-                      {humanize(tool)}
+                      {humanize(item)}
                     </span>
                   ))}
                 </div>

@@ -17,8 +17,8 @@ const useSearchTool = () => {
     //   return tool;
     // }
     else if (
-      tool.frontmatter.tool
-        ?.map((el) => el.toLowerCase())
+      tool.frontmatter.category
+        ?.map((item) => item.toLowerCase())
         .includes(searchString)
     ) {
       return tool;

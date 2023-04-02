@@ -47,12 +47,12 @@ const Tools = ({ tools }) => {
                 {tool.frontmatter.description}
               </p>
               <div className="flex space-x-2">
-                {tool.frontmatter.tool?.map((tool, i) => (
+                {tool.frontmatter.category?.map((item, i) => (
                   <span
                     className="rounded border border-border px-2 py-[2px] text-xs"
-                    key={`tool-${i}`}
+                    key={`category-${i}`}
                   >
-                    {humanize(tool)}
+                    {humanize(item)}
                   </span>
                 ))}
               </div>

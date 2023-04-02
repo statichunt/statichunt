@@ -8,12 +8,12 @@ const useTaxonmyHandler = (themes) => {
     arrayCMS,
     arrayCSS,
     arrayCategory,
-    arrayTool,
+    arrayToolsCategory,
     setArraySSG,
     setArrayCSS,
     setArrayCMS,
     setArrayCategory,
-    setArrayTool,
+    setArrayToolsCategory,
     taxonomyArray,
     setTaxonomyArray,
     parameter,
@@ -42,8 +42,8 @@ const useTaxonmyHandler = (themes) => {
       case "category":
         handleTaxonomyChange(arrayCategory, setArrayCategory, label);
         break;
-      case "tool":
-        handleTaxonomyChange(arrayTool, setArrayTool, label);
+      case "tools-category":
+        handleTaxonomyChange(arrayToolsCategory, setArrayToolsCategory, label);
         break;
       default:
         break;

@@ -10,7 +10,7 @@ export const JsonContext = ({ children }) => {
   const [arrayCategory, setArrayCategory] = useState([]);
   const [arrayFree, setArrayFree] = useState([]);
   const [arrayPremium, setArrayPremium] = useState([]);
-  const [arrayTool, setArrayTool] = useState([]);
+  const [arrayToolsCategory, setArrayToolsCategory] = useState([]);
   const [allReset, setAllReset] = useState(false);
   const [sortAsc, setSortAsc] = useState(false);
   const [parameter, setParameter] = useState("");
@@ -37,7 +37,6 @@ export const JsonContext = ({ children }) => {
     setArrayFree([]);
     setTaxonomyArray([]);
   }, [router.asPath]);
- 
 
   const state = {
     allReset,
@@ -54,8 +53,8 @@ export const JsonContext = ({ children }) => {
     setArrayFree,
     arrayPremium,
     setArrayPremium,
-    arrayTool,
-    setArrayTool,
+    arrayToolsCategory,
+    setArrayToolsCategory,
     sortAsc,
     setSortAsc,
     parameter,
