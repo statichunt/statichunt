@@ -114,7 +114,6 @@ const Header = () => {
               rel="nofollow noreferrer"
             >
               Submit
-              {/* <span className="hidden md:inline-block">Theme / Resource</span> */}
             </a>
           </div>
         </nav>

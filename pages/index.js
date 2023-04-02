@@ -1,7 +1,6 @@
 import HomeCategory from "@components/HomeCategory";
 import Intro from "@components/Intro";
 import Sidebar from "@components/Sidebar";
-import config from "@config/config.json";
 import useFilterData from "@hooks/useFilterData";
 import usePricingFilter from "@hooks/usePricingFilter";
 import useThemesSort from "@hooks/useThemesSort";
@@ -17,7 +16,6 @@ import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 
 const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
-  const { sidebar } = config;
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
@@ -80,7 +78,6 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
     <Base>
       <div className="flex">
         <Sidebar
-          sidebar={sidebar}
           ssg={ssg}
           cms={cms}
           css={css}

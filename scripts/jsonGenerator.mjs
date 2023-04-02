@@ -50,7 +50,7 @@ const getCustomData = () => {
 
 // get all data
 const themes = getSinglePageData("content/themes", false);
-const resources = getSinglePageData("content/resources", false);
+const tools = getSinglePageData("content/tools", false);
 const examples = getSinglePageData("content/examples", false);
 const blog = getSinglePageData("content/blog", false);
 const ssg = getSinglePageData("content/ssg", true);
@@ -59,17 +59,17 @@ const cms = getSinglePageData("content/cms", true);
 const category = getSinglePageData("content/category", true);
 const sponsors = getListPageData("content/sponsors", "index.md");
 const customData = getCustomData();
-const tools = [...ssg, ...css, ...cms, ...category];
+const themetools = [...ssg, ...css, ...cms, ...category];
 
 try {
   if (!fs.existsSync(jsonDir)) {
     fs.mkdirSync(jsonDir);
   }
   fs.writeFileSync(`${jsonDir}/themes.json`, JSON.stringify(themes));
-  fs.writeFileSync(`${jsonDir}/resources.json`, JSON.stringify(resources));
+  fs.writeFileSync(`${jsonDir}/tools.json`, JSON.stringify(tools));
   fs.writeFileSync(`${jsonDir}/examples.json`, JSON.stringify(examples));
   fs.writeFileSync(`${jsonDir}/blog.json`, JSON.stringify(blog));
-  fs.writeFileSync(`${jsonDir}/tools.json`, JSON.stringify(tools));
+  fs.writeFileSync(`${jsonDir}/theme-tools.json`, JSON.stringify(themetools));
   fs.writeFileSync(`${jsonDir}/sponsors.json`, JSON.stringify(sponsors));
   fs.writeFileSync(`${jsonDir}/themes-author.json`, JSON.stringify(customData));
 } catch (err) {

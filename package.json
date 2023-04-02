@@ -1,18 +1,18 @@
 {
   "name": "statichunt",
-  "description": "statichunt is a static themes and resources directory",
+  "description": "statichunt is a static themes, tools, and examples directory",
   "version": "2.0.0",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "dev": "yarn update && next dev",
     "build": "yarn update && next build",
     "lint": "next lint",
     "start": "next start",
     "json": "node scripts/jsonGenerator.mjs",
-    "update": "node scripts/jsonGenerator.mjs && node scripts/parseNewThemesData.js && node scripts/screenshotThemes.mjs && node scripts/screenshotExamples.mjs && node scripts/screenshotResources.mjs",
+    "update": "node scripts/jsonGenerator.mjs && node scripts/parseNewThemesData.js && node scripts/screenshotThemes.mjs && node scripts/screenshotExamples.mjs && node scripts/screenshotTools.mjs",
     "ss-themes": "yarn json && node scripts/screenshotThemes.mjs",
-    "ss-resources": "yarn json && node scripts/screenshotResources.mjs",
+    "ss-tools": "yarn json && node scripts/screenshotTools.mjs",
     "ss-examples": "yarn json && node scripts/screenshotExamples.mjs",
     "update-themes": "yarn json && node scripts/updateThemes.js && yarn json",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs"

@@ -82,13 +82,12 @@ const Home = ({ frontmatter, content, examples }) => {
             ))}
             <li className="border-none p-0">
               <a
-                className="btn btn-border border-border py-1 px-4 transition duration-300 hover:border-dark dark:border-darkmode-border hover:dark:border-white/60"
+                className="btn btn-border border-border px-4 py-1 transition duration-300 hover:border-dark dark:border-darkmode-border hover:dark:border-white/60"
                 href="https://github.com/statichunt/statichunt#submit-a-jamstack-example-site"
                 target="_blank"
                 rel="nofollow noreferrer"
               >
                 Submit Yours
-                {/* <span className="hidden md:inline-block">Theme / Resource</span> */}
               </a>
             </li>
           </ul>

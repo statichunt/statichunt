@@ -5,7 +5,7 @@ description:
 draft: false
 
 ---
-Statichunt is an open-source JAMStack directory that enlists hundreds of themes, starters, and resources for static site generators submitted by the community.
+Statichunt is an open-source JAMStack directory that enlists hundreds of themes, starters, and tools for static site generators submitted by the community.
 
 <br/>
 
@@ -45,7 +45,6 @@ We welcome your constructive input. Please tell us what makes this project excep
 
 If you love this project don't forget to click the "Star" button on [Github](https://github.com/statichunt/statichunt).
 
-
 ## Acknowledgments
 
-This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Nextjs</a>, Deployed by <a href="https://vercel.com/" target="_blank" rel="nofollow noopener noreferrer">Vercel</a>, and Content Management by <a href="https://forestry.io/" target="_blank" rel="nofollow noopener noreferrer">Forestry</a>, Maintainer <a href="https://zeon.studio/" target="_blank">Zeon Studio</a> team. 
+This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Nextjs</a>, Deployed by <a href="https://vercel.com/" target="_blank" rel="nofollow noopener noreferrer">Vercel</a>, and Content Management by <a href="https://forestry.io/" target="_blank" rel="nofollow noopener noreferrer">Forestry</a>, Maintainer <a href="https://zeon.studio/" target="_blank">Zeon Studio</a> team.

@@ -58,18 +58,18 @@ sections:
   templates:
   - taxonomy
 - type: heading
-  label: Resources
+  label: Tools
 - type: directory
-  path: content/resources
-  label: Resources
+  path: content/tools
+  label: Tools
   create: documents
   match: "*"
   exclude: _index.md
   templates:
-  - new-resource
+  - new-tool
 - type: directory
-  path: content/tool
-  label: Tool
+  path: content/tools-category
+  label: Tools Category
   create: documents
   match: "*"
   exclude: _index.md

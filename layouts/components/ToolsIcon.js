@@ -2,7 +2,7 @@ import config from "@config/config.json";
 import useTooltip from "@hooks/useTooltip";
 import { slugify } from "@lib/utils/textConverter";
 import Image from "next/image";
-import tools from "../../.json/tools.json";
+import tools from "../../.json/theme-tools.json";
 
 const ToolsIcon = ({
   item,
@@ -52,7 +52,7 @@ const ToolsIcon = ({
             (icon, i) =>
               i < trim && (
                 <span
-                  className="tooltip mr-3 mb-2"
+                  className="tooltip mb-2 mr-3"
                   data-tooltip={icon.frontmatter.title}
                   key={`icon-${i}`}
                 >
@@ -76,7 +76,7 @@ const ToolsIcon = ({
             (icon, i) =>
               i < trim - 1 && (
                 <span
-                  className="tooltip mr-3 mb-2"
+                  className="tooltip mb-2 mr-3"
                   data-tooltip={icon.frontmatter.title}
                   key={`icon-${i}`}
                 >
@@ -97,7 +97,7 @@ const ToolsIcon = ({
           )
         : filteredTools.map((icon, i) => (
             <span
-              className="tooltip mr-3 mb-2"
+              className="tooltip mb-2 mr-3"
               data-tooltip={icon.frontmatter.title}
               key={`icon-${i}`}
             >
@@ -116,7 +116,7 @@ const ToolsIcon = ({
             </span>
           ))}
       {filteredTools.length >= trim + 1 && (
-        <span className="tooltip-static mr-3 mb-2">
+        <span className="tooltip-static mb-2 mr-3">
           + {filteredTools.length - (trim - 1)}
           <span className="tooltip-static-label">
             {filteredTools.slice(trim - 1).map((icon, i) => (

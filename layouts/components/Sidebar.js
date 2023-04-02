@@ -1,3 +1,4 @@
+import config from "@config/config.json";
 import menu from "@config/menu.json";
 import useWindow from "@hooks/useWindow";
 import { slugify } from "@lib/utils/textConverter";
@@ -7,19 +8,19 @@ import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 import Accordion from "./SidebarAccordion";
 
 const Sidebar = ({
-  sidebar,
   slug,
   ssg,
   cms,
   css,
   category,
-  tool,
+  toolsCategory,
   themes,
   SetShowIntro,
   children,
   showIntro,
 }) => {
   const { main } = menu;
+  const { sidebar } = config;
   const [sidebarData, setSidebarData] = useState(sidebar);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -31,7 +32,6 @@ const Sidebar = ({
       taxonomy: "ssg",
     };
   });
-
   const cmsData = cms?.map((data) => {
     return {
       ...data,
@@ -46,7 +46,7 @@ const Sidebar = ({
   });
 
   useEffect(() => {
-    const filterAddition = sidebar.map((item, id) => ({
+    const filterAddition = sidebar.map((item) => ({
       ...item,
       selected: windowSize < 1024 ? false : true,
       taxonomy:
@@ -58,7 +58,7 @@ const Sidebar = ({
           ? cssData
           : item.type == "category"
           ? category
-          : tool,
+          : toolsCategory,
     }));
     setSidebarData(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -106,7 +106,7 @@ const Sidebar = ({
               data.taxonomy && (
                 <div key={`accordion-${i}`} className="mb-4 lg:mb-8">
                   <h3
-                    className={`mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3`}
+                    className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
                     onClick={() => handleOnClick(data.title)}
                   >
                     {data.title}

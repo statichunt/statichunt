@@ -17,7 +17,7 @@ category:
 draft: false
 publish_date: '2023-03-18T05:16:34Z'
 update_date: '2023-03-18T10:14:44Z'
-github_star: 0
+github_star: 1
 github_fork: 0
 ---
 

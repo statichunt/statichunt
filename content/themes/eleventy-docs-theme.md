@@ -25,7 +25,7 @@ github_star: 11
 github_fork: 4
 ---
 
-## Key Features :
+## Key Features
 
 - Tailwind CSS + Typography plugin
 - Responsive (non-JS collapsible/expandable navigation sidebar)

@@ -9,8 +9,8 @@
       "url": "/statichunt-themes"
     },
     {
-      "name": "Resources",
-      "url": "/resources"
+      "name": "Tools",
+      "url": "/tools"
     },
     {
       "name": "Examples",
@@ -30,8 +30,8 @@
           "url": "/"
         },
         {
-          "page": "resources",
-          "url": "/resources"
+          "page": "tools",
+          "url": "/tools"
         },
         {
           "page": "examples",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "name": "Resources",
+      "name": "Tools",
       "pages": [
         {
           "page": "chat",

@@ -2,11 +2,11 @@ import fs from "fs-extra";
 import ora from "ora";
 import path from "path";
 import puppeteer from "puppeteer";
-import getThemes from "../.json/resources.json" assert { type: "json" };
+import getThemes from "../.json/tools.json" assert { type: "json" };
 const spinner = ora("Loading");
-const imagesFolder = path.join(process.cwd(), "/public/resources");
+const imagesFolder = path.join(process.cwd(), "/public/tools");
 
-const resources = getThemes.map((data) => ({
+const tools = getThemes.map((data) => ({
   website: data.frontmatter.website,
   slug: data.slug,
 }));
@@ -57,15 +57,15 @@ const captureScreenshot = async (website, slug, overwrite) => {
   }
 };
 
-const generateScreenshots = async (resources, overwrite) => {
+const generateScreenshots = async (tools, overwrite) => {
   spinner.start("Capturing Screenshots");
-  for (const data of resources) {
+  for (const data of tools) {
     await captureScreenshot(data.website, data.slug, overwrite);
   }
   spinner.succeed("Success - Capturing Screenshots");
 };
 
 generateScreenshots(
-  resources,
+  tools,
   false // overwrite value
 );

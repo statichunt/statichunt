@@ -1,18 +1,18 @@
 import useSearchBlog from "@hooks/useSearchBlog";
-import useSearchResource from "@hooks/useSearchResource";
 import useSearchTheme from "@hooks/useSearchTheme";
+import useSearchTool from "@hooks/useSearchTool";
 import { useSerachContext } from "context/searchContext";
 import debounce from "lodash.debounce";
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import BlogCard from "./BlogCard";
-import ResourceCard from "./ResourceCard";
 import SearchTab from "./SearchTab";
 import ThemesCard from "./ThemesCard";
+import ToolCard from "./ToolCard";
 
 const Search = ({ setSearchModal, searchModal }) => {
-  const { searchKey, setSearchkey, isTheme, isBlog, isResource } =
+  const { searchKey, setSearchkey, isTheme, isBlog, isTool } =
     useSerachContext();
-  const { resources } = useSearchResource();
+  const { tools } = useSearchTool();
   const { blogs } = useSearchBlog();
   const { themes } = useSearchTheme();
   const searchInputRef = useRef(null);
@@ -93,20 +93,20 @@ const Search = ({ setSearchModal, searchModal }) => {
           <SearchTab
             themes={themes}
             blogs={blogs}
-            resources={resources}
+            tools={tools}
             searchModal={searchModal}
           />
 
           {/* initial screen */}
-          {themes.length + resources.length + blogs.length === 0 &&
+          {themes.length + tools.length + blogs.length === 0 &&
             searchKey === "" && (
               <h4 className="py-5 text-center">
-                Search Themes, Resources, And Blogs
+                Search Themes, Tools, And Blogs
               </h4>
             )}
 
           {/* no search found screen */}
-          {themes.length + resources.length + blogs.length === 0 &&
+          {themes.length + tools.length + blogs.length === 0 &&
             searchKey !== "" && (
               <h4 className="py-5 text-center">No Search Found!</h4>
             )}
@@ -123,37 +123,29 @@ const Search = ({ setSearchModal, searchModal }) => {
               <div className="scrollbar max-h-[500px]">
                 <ThemesCard
                   themes={themes}
-                  resources={resources}
+                  tools={tools}
                   blogs={blogs}
                   setSearchModal={setSearchModal}
                 />
               </div>
             </div>
-            {/* resources and blogs results */}
+            {/* tools and blogs results */}
             <div
               className={`flex-fill mt-8 flex min-w-[50%] flex-col pl-3 ${
-                (isBlog || isResource) && (blogs.length || resources.length)
+                (isBlog || isTool) && (blogs.length || tools.length)
                   ? "block"
                   : "hidden"
               }`}
             >
-              {/* resource results */}
-              <div
-                className={
-                  isResource && resources.length ? "mb-4 block" : "hidden"
-                }
-              >
-                <h4 className="h5 mb-3 pl-2">Resources</h4>
+              {/* tool results */}
+              <div className={isTool && tools.length ? "mb-4 block" : "hidden"}>
+                <h4 className="h5 mb-3 pl-2">Tools</h4>
                 <div
                   className={`scrollbar ${
                     blogs.length ? "max-h-[215px]" : "max-h-[500px]"
                   }`}
                 >
-                  <ResourceCard
-                    themes={themes}
-                    resources={resources}
-                    blogs={blogs}
-                  />
+                  <ToolCard themes={themes} tools={tools} blogs={blogs} />
                 </div>
               </div>
 
@@ -162,12 +154,12 @@ const Search = ({ setSearchModal, searchModal }) => {
                 <h4 className="h5 mb-3 pl-2">Blog</h4>
                 <div
                   className={`scrollbar ${
-                    resources.length ? "max-h-[220px]" : "max-h-[500px]"
+                    tools.length ? "max-h-[220px]" : "max-h-[500px]"
                   }`}
                 >
                   <BlogCard
                     themes={themes}
-                    resources={resources}
+                    tools={tools}
                     blogs={blogs}
                     setSearchModal={setSearchModal}
                   />

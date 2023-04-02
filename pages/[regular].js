@@ -1,15 +1,14 @@
 import Sidebar from "@components/Sidebar";
-import config from "@config/config.json";
 import useFilterData from "@hooks/useFilterData";
 import useThemesSort from "@hooks/useThemesSort";
 import Base from "@layouts/Baseof";
-import PricingFilter from "@layouts/components/PricingFilter";
-import SidebarSort from "@layouts/components/SidebarSort";
 import Default from "@layouts/Default";
 import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import ResourceTaxonomy from "@layouts/ResourceTaxonomy";
 import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
+import ToolTaxonomy from "@layouts/ToolTaxonomy";
+import PricingFilter from "@layouts/components/PricingFilter";
+import SidebarSort from "@layouts/components/SidebarSort";
+import MobileSidebar from "@layouts/partials/MobileSidebar";
 import {
   getRegularPage,
   getRegularPageSlug,
@@ -28,7 +27,7 @@ const RegularPages = ({
   slug,
   ssgSlug,
   cssSlug,
-  toolSlug,
+  toolsCategorySlug,
   currentPage,
   data,
   mdxContent,
@@ -46,7 +45,6 @@ const RegularPages = ({
     canonical,
   } = currentPage[0]?.frontmatter;
 
-  const { sidebar } = config;
   const [showIntro, SetShowIntro] = useState(true);
 
   const themesWithOthersCategory = setOthersCategory(data);
@@ -92,7 +90,6 @@ const RegularPages = ({
       {ssgSlug.includes(slug) || cssSlug.includes(slug) ? (
         <div className="flex">
           <Sidebar
-            sidebar={sidebar}
             themes={
               arrayPremium.length && arrayFree.length
                 ? sortedThemes
@@ -122,10 +119,10 @@ const RegularPages = ({
             showIntro={showIntro}
           />
         </div>
-      ) : toolSlug.includes(slug) ? (
+      ) : toolsCategorySlug.includes(slug) ? (
         <>
           <MobileSidebar />
-          <ResourceTaxonomy data={data} currentPage={currentPage} />
+          <ToolTaxonomy data={data} currentPage={currentPage} />
         </>
       ) : isExamples ? (
         <div className="flex">
@@ -168,12 +165,12 @@ export const getStaticProps = async ({ params }) => {
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
   const category = getSinglePage("content/category");
-  const tool = getSinglePage("content/tool");
+  const toolsCategory = getSinglePage("content/tools-category");
 
   // get taxonomies slug
   const ssgSlug = getSinglePageSlug("content/ssg");
   const cssSlug = getSinglePageSlug("content/css");
-  const toolSlug = getSinglePageSlug("content/tool");
+  const toolsCategorySlug = getSinglePageSlug("content/tools-category");
 
   // ssg page
   const ssgPage =
@@ -195,10 +192,10 @@ export const getStaticProps = async ({ params }) => {
         : page.slug === regular
     );
 
-  // tool page
-  const toolPage =
-    tool.length &&
-    tool.filter((page) =>
+  // toolsCategory page
+  const toolsCategoryPage =
+    toolsCategory.length &&
+    toolsCategory.filter((page) =>
       page.frontmatter?.url
         ? page.frontmatter.url === `/${regular}`
         : page.slug === regular
@@ -209,8 +206,8 @@ export const getStaticProps = async ({ params }) => {
     ? slugify(ssgPage[0]?.frontmatter.title)
     : cssPage.length
     ? slugify(cssPage[0]?.frontmatter.title)
-    : toolPage.length
-    ? slugify(toolPage[0]?.frontmatter.title)
+    : toolsCategoryPage.length
+    ? slugify(toolsCategoryPage[0]?.frontmatter.title)
     : regular;
 
   const currentPageData = await getRegularPage(getCurrentPage, regular);
@@ -227,8 +224,8 @@ export const getStaticProps = async ({ params }) => {
     ? ssgPage
     : cssPage.length
     ? cssPage
-    : toolPage.length
-    ? toolPage
+    : toolsCategoryPage.length
+    ? toolsCategoryPage
     : defaultPage;
 
   // current page MDXContent
@@ -239,7 +236,7 @@ export const getStaticProps = async ({ params }) => {
       slug: regular,
       ssgSlug: ssgSlug,
       cssSlug: cssSlug,
-      toolSlug: toolSlug,
+      toolsCategorySlug: toolsCategorySlug,
       currentPage: currentPage,
       data: currentPageData,
       mdxContent: mdxContent,

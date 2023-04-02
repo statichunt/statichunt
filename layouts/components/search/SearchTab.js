@@ -2,12 +2,12 @@ import useWindow from "@hooks/useWindow";
 import { useSerachContext } from "context/searchContext";
 import { useCallback, useEffect, useState } from "react";
 
-const SearchTab = ({ themes, blogs, resources, searchModal }) => {
+const SearchTab = ({ themes, blogs, tools, searchModal }) => {
   const TabItem = [
     {
       label: "Everything",
       value: "all",
-      count: themes.length + resources.length + blogs.length,
+      count: themes.length + tools.length + blogs.length,
     },
     {
       label: "Themes",
@@ -15,9 +15,9 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
       count: themes.length,
     },
     {
-      label: "Resources",
-      value: "resource",
-      count: resources.length,
+      label: "Tools",
+      value: "tool",
+      count: tools.length,
     },
     {
       label: "Blog",
@@ -26,8 +26,7 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
     },
   ];
   const windowSize = useWindow();
-  const { setIsBlog, setIsResource, setIsTheme, searchKey } =
-    useSerachContext();
+  const { setIsBlog, setIsTool, setIsTheme, searchKey } = useSerachContext();
   const [isActive, setIsActive] = useState(
     windowSize > 1024 ? "all" : "themes"
   );
@@ -43,22 +42,22 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
   useEffect(() => {
     if (isActive === "all") {
       setIsTheme(true);
-      setIsResource(true);
+      setIsTool(true);
       setIsBlog(true);
     } else if (isActive === "themes") {
       setIsTheme(true);
-      setIsResource(false);
+      setIsTool(false);
       setIsBlog(false);
     } else if (isActive === "blog") {
       setIsTheme(false);
-      setIsResource(false);
+      setIsTool(false);
       setIsBlog(true);
-    } else if (isActive === "resource") {
+    } else if (isActive === "tool") {
       setIsTheme(false);
-      setIsResource(true);
+      setIsTool(true);
       setIsBlog(false);
     }
-  }, [isActive, setIsBlog, setIsResource, setIsTheme]);
+  }, [isActive, setIsBlog, setIsTool, setIsTheme]);
 
   // const handleChange = () => {};
   useEffect(() => {
@@ -72,11 +71,11 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
     if (windowSize < 1024) {
       setIsActive("themes");
       setIsTheme(true);
-      setIsResource(false);
+      setIsTool(false);
       setIsBlog(false);
     } else {
       setIsTheme(true);
-      setIsResource(true);
+      setIsTool(true);
       setIsBlog(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -85,9 +84,7 @@ const SearchTab = ({ themes, blogs, resources, searchModal }) => {
   return (
     <ul
       className={
-        themes.length + resources.length + blogs.length === 0
-          ? "hidden"
-          : "flex"
+        themes.length + tools.length + blogs.length === 0 ? "hidden" : "flex"
       }
     >
       {TabItem.map((item, i) => (

@@ -2,7 +2,7 @@ import { humanize } from "@lib/utils/textConverter";
 import { useSerachContext } from "context/searchContext";
 import ImageFallback from "../ImageFallback";
 
-const ResourceCard = ({ resources, themes, blogs }) => {
+const ToolCard = ({ tools, themes, blogs }) => {
   const { isTheme, isBlog } = useSerachContext();
   return (
     <div
@@ -12,16 +12,16 @@ const ResourceCard = ({ resources, themes, blogs }) => {
           : "row-cols-1 md:row-cols-2"
       }`}
     >
-      {resources.map((resource) => (
-        <div key={resource.slug} className="col mb-4">
+      {tools.map((tool) => (
+        <div key={tool.slug} className="col mb-4">
           <div className="relative rounded shadow">
             <div className="rounded sm:flex">
               <div className="flex w-full items-center rounded p-3">
                 <ImageFallback
                   loading="lazy"
-                  src={`/resources/${resource.slug}.png`}
-                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${resource.frontmatter.website}`}
-                  alt={resource.frontmatter.title}
+                  src={`/tools/${tool.slug}.png`}
+                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${tool.frontmatter.website}`}
+                  alt={tool.frontmatter.title}
                   width={93}
                   height={60}
                   className="mr-4 max-w-[93px] rounded sm:mr-8"
@@ -29,10 +29,10 @@ const ResourceCard = ({ resources, themes, blogs }) => {
 
                 <div className="flex-1 sm:mt-0">
                   <h3 className="h6 mb-4 flex items-center justify-between hover:underline">
-                    {resource.frontmatter.title}
+                    {tool.frontmatter.title}
                     <a
                       className="stretched-link"
-                      href={`${resource.frontmatter.website}?ref=statichunt.com`}
+                      href={`${tool.frontmatter.website}?ref=statichunt.com`}
                       rel="noopener noreferrer nofollow"
                       target="_blank"
                     >
@@ -56,7 +56,7 @@ const ResourceCard = ({ resources, themes, blogs }) => {
                     </a>
                   </h3>
 
-                  {resource.frontmatter.tool?.map((tool, i) => (
+                  {tool.frontmatter.tool?.map((tool, i) => (
                     <span
                       key={`tool-${i}`}
                       className="rounded border border-border px-3 py-1 text-xs"
@@ -74,4 +74,4 @@ const ResourceCard = ({ resources, themes, blogs }) => {
   );
 };
 
-export default ResourceCard;
+export default ToolCard;

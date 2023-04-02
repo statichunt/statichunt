@@ -1,27 +1,26 @@
 import ImageFallback from "@components/ImageFallback";
 import { humanize } from "@lib/utils/textConverter";
 
-const Resources = ({ resources }) => {
+const Tools = ({ tools }) => {
   return (
     <div className="row justify-center">
-      {resources.map((resource) => (
-        <div className="mb-10 xl:col-10" key={resource.slug}>
+      {tools.map((tool) => (
+        <div className="mb-10 xl:col-10" key={tool.slug}>
           <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
             <ImageFallback
               loading="lazy"
-              src={`/resources/${resource.slug}.png`}
-              fallback={`https://teamosis-sg.vercel.app/api/img?url=${resource.frontmatter.website}`}
-              alt="{resources.frontmatter.title}"
+              src={`/tools/${tool.slug}.png`}
+              fallback={`https://teamosis-sg.vercel.app/api/img?url=${tool.frontmatter.website}`}
+              alt="{tools.frontmatter.title}"
               width={160}
               height={100}
               className="mr-8 max-w-[160px] rounded-[4px]"
             />
-
             <div className="mt-4 bg-transparent sm:mt-0">
               <h3 className="h5 mb-[4px] flex items-center pt-2 font-medium">
-                {resource.frontmatter.title}
+                {tool.frontmatter.title}
                 <a
-                  href={`${resource.frontmatter.website}?ref=statichunt.com`}
+                  href={`${tool.frontmatter.website}?ref=statichunt.com`}
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                 >
@@ -45,10 +44,10 @@ const Resources = ({ resources }) => {
                 </a>
               </h3>
               <p className="mb-3 text-sm text-text dark:text-light">
-                {resource.frontmatter.description}
+                {tool.frontmatter.description}
               </p>
               <div className="flex space-x-2">
-                {resource.frontmatter.tool?.map((tool, i) => (
+                {tool.frontmatter.tool?.map((tool, i) => (
                   <span
                     className="rounded border border-border px-2 py-[2px] text-xs"
                     key={`tool-${i}`}
@@ -65,4 +64,4 @@ const Resources = ({ resources }) => {
   );
 };
 
-export default Resources;
+export default Tools;

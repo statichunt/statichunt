@@ -1,26 +1,24 @@
 import Sidebar from "@components/Sidebar";
-import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import Resources from "@layouts/Resources";
+import Tools from "@layouts/Tools";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
 import { markdownify, slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 
-const ResourceList = ({ tool, resources, indexPage }) => {
-  const resourcesSortedByDate = sortByDate(resources);
-  const resourcesSortedByWeight = sortByWeight(resourcesSortedByDate);
+const ToolsList = ({ toolsCategory, tools, indexPage }) => {
+  const toolsSortedByDate = sortByDate(tools);
+  const toolsSortedByWeight = sortByWeight(toolsSortedByDate);
   const { title, meta_title, page_title, image, description } = indexPage;
-  const { sidebar } = config;
   const { arrayTool } = useFilterContext();
-  const filterTool = resourcesSortedByWeight.filter((resource) =>
+  const filterTool = toolsSortedByWeight.filter((tool) =>
     arrayTool.length
       ? arrayTool.find((type) =>
-          resource.frontmatter.tool
+          tool.frontmatter.tool
             ?.map((tool) => slugify(tool))
             .includes(slugify(type))
         )
-      : resourcesSortedByWeight
+      : toolsSortedByWeight
   );
 
   return (
@@ -31,7 +29,7 @@ const ResourceList = ({ tool, resources, indexPage }) => {
       image={image}
     >
       <div className="flex">
-        <Sidebar sidebar={sidebar} tool={tool} themes={resources} />
+        <Sidebar toolsCategory={toolsCategory} themes={tools} />
         <main className="main">
           <div className="container">
             <div className="row mb-8 justify-center">
@@ -39,7 +37,7 @@ const ResourceList = ({ tool, resources, indexPage }) => {
                 {markdownify(page_title || title, "h1")}
               </div>
             </div>
-            <Resources resources={filterTool} />
+            <Tools tools={filterTool} />
           </div>
         </main>
       </div>
@@ -47,20 +45,22 @@ const ResourceList = ({ tool, resources, indexPage }) => {
   );
 };
 
-export default ResourceList;
+export default ToolsList;
 
 export const getStaticProps = async () => {
-  const ResourcesList = await getListPage("content/resources/_index.md");
-  const { frontmatter } = ResourcesList;
-  const toolsIndex = await getListPage("content/tool/_index.md");
-  const tools = getSinglePage("content/tool");
-  const resources = getSinglePage("content/resources");
+  const toolsList = await getListPage("content/tools/_index.md");
+  const { frontmatter } = toolsList;
+  const toolsCategoryIndex = await getListPage(
+    "content/tools-category/_index.md"
+  );
+  const toolsCategory = getSinglePage("content/tools-category");
+  const tools = getSinglePage("content/tools");
 
   return {
     props: {
-      sidebar: toolsIndex,
-      tool: tools,
-      resources: resources,
+      sidebar: toolsCategoryIndex,
+      toolsCategory: toolsCategory,
+      tools: tools,
       indexPage: frontmatter,
     },
   };

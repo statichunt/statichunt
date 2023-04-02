@@ -6,8 +6,8 @@ import { useSerachContext } from "context/searchContext";
 import Image from "next/image";
 import Link from "next/link";
 
-const ThemesCard = ({ themes, resources, blogs, setSearchModal }) => {
-  const { isBlog, isResource } = useSerachContext();
+const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
+  const { isBlog, Tool } = useSerachContext();
   const { darkIconList } = config;
 
   const toolsIcon = (theme) => {
@@ -23,7 +23,7 @@ const ThemesCard = ({ themes, resources, blogs, setSearchModal }) => {
   return (
     <div
       className={`row p-2 ${
-        (blogs.length || resources.length) && (isBlog || isResource)
+        (blogs.length || tools.length) && (isBlog || Tool)
           ? "row-cols-1 sm:row-cols-2"
           : "row-cols-1 sm:row-cols-2 md:row-cols-3 lg:row-cols-4"
       }`}

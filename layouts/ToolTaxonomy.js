@@ -1,7 +1,7 @@
-import Resources from "@layouts/Resources";
+import Tools from "@layouts/Tools";
 import { markdownify } from "@lib/utils/textConverter";
 
-const ResourceTaxonomy = ({ data, currentPage }) => {
+const ToolTaxonomy = ({ data, currentPage }) => {
   const { frontmatter } = currentPage[0];
   const { title, page_title } = frontmatter;
 
@@ -13,10 +13,10 @@ const ResourceTaxonomy = ({ data, currentPage }) => {
             {markdownify(page_title || title, "h1")}
           </div>
         </div>
-        <Resources resources={data} />
+        <Tools tools={data} />
       </div>
     </section>
   );
 };
 
-export default ResourceTaxonomy;
+export default ToolTaxonomy;
