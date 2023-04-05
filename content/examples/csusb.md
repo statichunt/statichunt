@@ -4,7 +4,7 @@ website: https://csusb.dev/
 date: 2023-04-05T00:00:00.000Z
 description:
 ssg:
-  - Gatsby
+  - Astro
 css:
   - Tailwind
 cms:
