@@ -99,7 +99,7 @@ const Sidebar = ({
         className={`sidebar-overlay ${isSidebarOpen ? "show" : ""}`}
         onClick={() => setIsSidebarOpen(false)}
       />
-      <aside className={`sidebar scrollbar ${isSidebarOpen ? "show" : ""}`}>
+      <aside className={`sidebar scroll-box ${isSidebarOpen ? "show" : ""}`}>
         <div className="order-1">
           {sidebarData.map(
             (data, i) =>

@@ -369,8 +369,8 @@ select:required:invalid {
   }
 }
 
-// custom scrollbar
-.scrollbar {
+// custom scroll-box
+.scroll-box {
   @apply overflow-y-auto overflow-x-hidden;
   &::-webkit-scrollbar {
     width: 5px;
@@ -399,7 +399,7 @@ select:required:invalid {
     @apply absolute left-0 top-0 h-full w-full;
   }
   &-box {
-    @apply relative top-1/2 mx-auto max-h-[calc(100vh-100px)] max-w-[calc(100%-20px)] -translate-y-1/2 overflow-hidden rounded-lg bg-white shadow-lg dark:bg-darkmode-theme-dark;
+    @apply relative mx-auto max-h-[calc(100vh-100px)] max-w-[calc(100%-20px)] overflow-hidden rounded-lg bg-white shadow-lg dark:bg-darkmode-theme-dark;
   }
 }
 

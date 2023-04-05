@@ -60,11 +60,11 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.6",
-    "puppeteer": "^19.8.2",
+    "puppeteer": "^19.8.3",
     "sass": "^1.60.0",
     "sharp": "^0.32.0",
     "tailwind-bootstrap-grid": "^5.0.1",
-    "tailwindcss": "^3.3.0",
+    "tailwindcss": "^3.3.1",
     "yaml-front-matter": "^4.1.1"
   }
 }

@@ -11,7 +11,7 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
   const [website, setWebsite] = useState("");
   const [attachment, setAttachment] = useState("");
   const [loader, setLoader] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(true);
 
   const checkValue = (e, value) => {
     if (value != "") {
@@ -91,21 +91,26 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
       </div>
       <div className={`modal ${openModal ? "block" : "hidden"}`}>
         <div className="modal-overlay" onClick={() => setOpenModal(false)} />
-        <div className="modal-box top-12 w-[800px] translate-y-0">
-          <div className="p-10 text-center">
+        <div className="modal-box top-12 w-[800px]">
+          <div className="scroll-box max-h-[90vh] p-10">
             {submitted ? (
               <div className="text-center">
+                <h2 className="mb-1">We Recived Your Information</h2>
+                <h3 className="h4">Pay Now To Confirm Your Sponsorship</h3>
                 <Link
                   href={paddle}
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   className="btn btn-primary"
                 >
-                  Sponsor Now
+                  Pay Now
                 </Link>
               </div>
             ) : (
               <form className="row" onSubmit={handleSubmit}>
+                <div className="col-12 text-left">
+                  <h2>Complete The Form And Click Next</h2>
+                </div>
                 <div className="col-12 relative mb-10">
                   <input
                     className="form-input w-full"
@@ -204,19 +209,11 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
                 </div>
                 <div className="col-12 text-right">
                   <button
-                    className={`btn btn-primary ${loader && "btn-loading"} `}
+                    className={`btn btn-primary ${loader && "btn-loading"}`}
                     type="submit"
                     disabled={!(name && email && attachment)}
                   >
-                    {loader ? (
-                      <span data-text="Submitting">
-                        <span>Submitting</span>
-                      </span>
-                    ) : (
-                      <span data-text="Submit">
-                        <span>Submit</span>
-                      </span>
-                    )}
+                    {loader ? <span>Submitting</span> : <span>Next</span>}
                   </button>
                 </div>
               </form>

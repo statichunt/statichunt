@@ -23,10 +23,7 @@ const Search = ({ setSearchModal, searchModal }) => {
       : (searchInputRef.current.value = ""),
       setSearchkey("");
   }, [searchModal, setSearchkey]);
-  // const handleSearchBox = useCallback((e) => {
-  //   setSearchkey(e.target.value);
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, []);
+
   const handleChange = useCallback(
     (e) => {
       setSearchkey(e.target.value);
@@ -42,10 +39,11 @@ const Search = ({ setSearchModal, searchModal }) => {
       debouncedResults.cancel();
     };
   });
+
   return (
     <div className={`modal ${searchModal ? "block" : "hidden"}`}>
       <div className="modal-overlay" onClick={() => setSearchModal(false)} />
-      <div className="modal-box top-12 w-[1096px] translate-y-0">
+      <div className="modal-box top-12 w-[1096px]">
         {/* search input */}
         <div className="flex items-center bg-theme-light px-6 py-1 dark:bg-darkmode-theme-light sm:py-3 md:px-8">
           <svg
@@ -120,7 +118,7 @@ const Search = ({ setSearchModal, searchModal }) => {
               }`}
             >
               <h4 className="h5 mb-3 pl-2">Themes</h4>
-              <div className="scrollbar max-h-[500px]">
+              <div className="scroll-box max-h-[500px]">
                 <ThemesCard
                   themes={themes}
                   tools={tools}
@@ -141,7 +139,7 @@ const Search = ({ setSearchModal, searchModal }) => {
               <div className={isTool && tools.length ? "mb-4 block" : "hidden"}>
                 <h4 className="h5 mb-3 pl-2">Tools</h4>
                 <div
-                  className={`scrollbar ${
+                  className={`scroll-box ${
                     blogs.length ? "max-h-[215px]" : "max-h-[500px]"
                   }`}
                 >
@@ -153,7 +151,7 @@ const Search = ({ setSearchModal, searchModal }) => {
               <div className={isBlog && blogs.length ? "block" : "hidden"}>
                 <h4 className="h5 mb-3 pl-2">Blog</h4>
                 <div
-                  className={`scrollbar ${
+                  className={`scroll-box ${
                     tools.length ? "max-h-[220px]" : "max-h-[500px]"
                   }`}
                 >
