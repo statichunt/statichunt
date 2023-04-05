@@ -11,7 +11,7 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
   const [website, setWebsite] = useState("");
   const [attachment, setAttachment] = useState("");
   const [loader, setLoader] = useState(false);
-  const [submitted, setSubmitted] = useState(true);
+  const [submitted, setSubmitted] = useState(false);
 
   const checkValue = (e, value) => {
     if (value != "") {
