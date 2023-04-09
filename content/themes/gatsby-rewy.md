@@ -1,8 +1,6 @@
 ---
-title: Rewy
-download: https://1.envato.market/5beN1j
-github: null
-price: 24
+title: Inteo
+github: 
 demo: https://rewy-gatsby.envytheme.com/machine-learning-ai-solutions/
 author: EnvyTheme
 author_link: https://envytheme.com/
