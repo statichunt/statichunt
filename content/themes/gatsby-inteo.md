@@ -1,6 +1,8 @@
 ---
 title: Inteo
 download: https://landify.design/templates/inteo
+github: null
+price: 0
 demo: https://preview.landify.design/inteo/
 author: Landify
 author_link: https://landify.design/
@@ -15,8 +17,7 @@ css:
 cms: null
 category:
   - Business
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---
 ## Key Features
 

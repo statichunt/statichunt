@@ -1,17 +1,21 @@
 ---
-title: Inteo
-github: 
+title: Rewy
+download: https://1.envato.market/211aga
+price: 24
+github: null
 demo: https://rewy-gatsby.envytheme.com/machine-learning-ai-solutions/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-29T00:00:00.000Z
-description: Rewy is a modern React GatsbyJS template for IT & SEO Agencies and Startups. The template contains 9+ demo variations with a blog and blog details pages. 
+description: >-
+  Rewy is a modern React GatsbyJS template for IT & SEO Agencies and Startups.
+  The template contains 9+ demo variations with a blog and blog details pages.
 ssg:
   - Gatsby
 css:
   - Bootstrap
 cms:
-  - 
+  - null
 category:
   - Bussiness
 draft: false

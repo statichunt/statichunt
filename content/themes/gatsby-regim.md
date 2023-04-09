@@ -1,6 +1,8 @@
 ---
 title: RegiM
 download: https://landify.design/templates/regim
+github: null
+price: 0
 demo: https://preview.landify.design/regim/
 author: Landify
 author_link: https://landify.design/
@@ -13,8 +15,7 @@ css:
 cms: null
 category:
   - Saas
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---
 ## Key Features
 
