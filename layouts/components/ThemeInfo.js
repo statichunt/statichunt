@@ -9,7 +9,7 @@ import "react-discord-invite/dist/style.css";
 import { TbGitFork } from "react-icons/tb";
 import ToolsIcon from "./ToolsIcon";
 
-const ThemeInfo = ({ theme, slug, tools }) => {
+const ThemeInfo = ({ theme, slug }) => {
   const { discord_widget } = config.settings;
   const [mounted, setMounted] = useState(false);
   const { uiTheme, resolvedTheme } = useTheme();
@@ -98,10 +98,16 @@ const ThemeInfo = ({ theme, slug, tools }) => {
             </span>
           </div>
         )}
-        {price && (
+        {price > 0 && (
           <div className="flex items-center py-[6px]">
             <span className="min-w-[120px]">Price : </span>
             <span className="text-dark dark:text-white">${price}</span>
+          </div>
+        )}
+        {!github && price === 0 && (
+          <div className="flex items-center py-[6px]">
+            <span className="min-w-[120px]">Price : </span>
+            <span className="text-dark dark:text-white">Free</span>
           </div>
         )}
         {update_date && (
