@@ -27,7 +27,9 @@ const axiosLimit = rateLimit(axios.create(), {
 });
 
 // filter themes
-const filterGithubTheme = getThemes.filter((theme) => !theme.frontmatter.price);
+const filterGithubTheme = getThemes.filter(
+  (theme) => theme.frontmatter.github && !theme.frontmatter.price
+);
 const themes = filterGithubTheme.map((data) => ({
   github: data.frontmatter.github,
   slug: data.slug,
@@ -97,7 +99,7 @@ const updateGithubData = async (githubURL, slug) => {
 };
 
 // update all github data
-updateAllGithubData = async (themes) => {
+const updateAllGithubData = async (themes) => {
   spinner.start("Updating github data");
   for (const data of themes) {
     await updateGithubData(data.github, data.slug);

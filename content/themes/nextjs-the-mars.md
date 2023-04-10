@@ -1,7 +1,6 @@
 ---
 title: The Mars
 github: https://github.com/kirill-zhirnov/boundless-marsfull-nextjs-ecommerce-template
-price: 0
 demo: https://mars.demos.my-boundless.app/
 author: Kirill Zhirnov
 author_link: https://github.com/kirill-zhirnov
