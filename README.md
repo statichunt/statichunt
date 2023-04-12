@@ -43,11 +43,13 @@ Submit a Jamstack example website by adding a markdown file to the `content/exam
 * Please make sure the theme demo URL links to a demo of the theme and not your personal or business site.
 * Don't submit any affiliate links.
 
-## Become a Sponsor
+## Sponsors
 
-Statichunt is now open to sponsorship opportunities!
+[![OC sponsor 0](https://statichunt.com/sponsors/adminmart.svg)](https://adminmart.com/)
 
-If you / your organization would like to support us, promote products or services, or simply be involved with the community, Statichunt is now open to such opportunities. Check out our [Sponsors](https://statichunt.com/sponsors) and [Learn more about sponsorship.](https://statichunt.com/become-a-sponsor)
+Support and involved with this project by [becoming a sponsor.](https://statichunt.com/become-a-sponsor)
+
+
 
 ## Feedback
 
