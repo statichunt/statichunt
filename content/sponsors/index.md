@@ -10,17 +10,7 @@ platinum:
   logo_darkmode: ""
   website: ""
 
-- name: ""
-  logo_default: ""
-  logo_darkmode: ""
-  website: ""
-
 gold:
-- name: ""
-  logo_default: ""
-  logo_darkmode: ""
-  website: ""
-
 - name: ""
   logo_default: ""
   logo_darkmode: ""
@@ -47,21 +37,11 @@ silver:
   logo_darkmode: ""
   website: ""
 
-- name: ""
-  logo_default: ""
-  logo_darkmode: ""
-  website: ""
-
 bronze:
 - name: "Bronze"
   logo_default: "/sponsors/adminmart.svg"
   logo_darkmode: "/sponsors/adminmart-darkmode.svg"
   website: "https://adminmart.com/"
-
-- name: ""
-  logo_default: ""
-  logo_darkmode: ""
-  website: ""
 
 - name: ""
   logo_default: ""
