@@ -14,14 +14,18 @@ ssg: # ssg name
   - Jekyll
   - Eleventy
   - Nuxtjs
-  - Hexo 
+  - Hexo
+  - Gatsby
 
 css: # css name
+  - Tailwind
   - Bootstrap
-  - Tailwind 
   - Bulma
   - Chakra
   - SCSS
+  - PostCSS
+  - Mui
+  - Stylus
 
 cms: # you can choose multiple if applicable
   - Tina
@@ -35,6 +39,7 @@ cms: # you can choose multiple if applicable
   - Decap
   - Spinal 
   - Markdown
+  
 category: # you can choose multiple if applicable
   - Business
   - Blog
@@ -43,11 +48,12 @@ category: # you can choose multiple if applicable
   - Documentation
   - Ecommerce
   - Saas
-  - Others
+  - Dashboard
+
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Feature 1
 - Feature 2

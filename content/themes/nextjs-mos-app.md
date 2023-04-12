@@ -1,19 +1,25 @@
 ---
-title: "Mosque template - nextJS"
+title: Mosque
 github: https://github.com/mos-apps/mos-app-nextjs/
-demo: https://mos-app-nextjs.vercel.app/ 
+demo: https://mos-app-nextjs.vercel.app/
 author: mos-apps
-date: 2023-03-30
+date: 2023-03-30T00:00:00.000Z
 ssg:
-  - nextJS
+  - Nextjs
 cms:
-  - No CMS
+  - Markdown
 css:
-  - TailwindCSS 
+  - Tailwind
 archetype:
   - Blog
   - Portfolio
-description: This one page, fully responsive theme is for moques to display salah times and other activities 
+description: >-
+  This one page, fully responsive theme is for moques to display salah times and
+  other activities
+publish_date: '2023-03-30T10:04:08Z'
+update_date: '2023-03-30T10:35:39Z'
+github_star: 0
+github_fork: 0
 ---
 
 # A simple starter kit for Mosque Websites
@@ -25,5 +31,5 @@ This one page fully, responsive theme is for moques to display salah times and o
 * TailwindCSS & NextJS based theme
 * Fully responsive
 * Support for Google ReCaptch V3
-* Fully customisable theme 
+* Fully customisable theme
 * Customisable data through markdown files
