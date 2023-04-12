@@ -28,7 +28,7 @@ If you / your organisation would like to support the site, promote products or s
 
 <Sponsor title="Platinum Sponsorship" type="platinum" price="1000" paddle="https://buy.paddle.com/product/822222">
 
-We have only 2 slot for Platinum Sponsorship.
+We have only one slot for Platinum Sponsorship.
 
 **What You Get:**
 
@@ -40,7 +40,7 @@ We have only 2 slot for Platinum Sponsorship.
 
 <Sponsor title="Gold Sponsorship" type="gold" price="500" paddle="https://buy.paddle.com/product/822223">
 
-We have only 3 slot for Gold Sponsorship.
+We have only 2 slot for Gold Sponsorship.
 
 **What You Get:**
 
@@ -52,7 +52,7 @@ We have only 3 slot for Gold Sponsorship.
 
 <Sponsor title="Silver Sponsorship" type="silver" price="300" paddle="https://buy.paddle.com/product/822224">
 
-We have only 4 slot for Silver Sponsorship.
+We have only 3 slot for Silver Sponsorship.
 
 **What You Get:**
 
@@ -63,7 +63,7 @@ We have only 4 slot for Silver Sponsorship.
 
 <Sponsor title="Bronze Sponsorship" type="bronze" price="200" paddle="https://buy.paddle.com/product/820202">
 
-We have only 5 slot for Bronze Sponsorship.
+We have only 4 slot for Bronze Sponsorship.
 
 **What You Get:**
 
