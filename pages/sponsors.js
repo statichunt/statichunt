@@ -82,7 +82,7 @@ const Sponsors = ({ data }) => {
                 </div>
                 {/* Glod Sponsors */}
                 <div className="mb-20">
-                  <h2 className="h3 mb-6">Glod Sponsors</h2>
+                  <h2 className="h3 mb-6">Gold Sponsors</h2>
                   <ul>
                     {gold.map((item, index) => (
                       <li className="m-4 inline-block align-middle" key={index}>

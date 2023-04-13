@@ -30,18 +30,7 @@
     {
       "name": "Statichunt",
       "pages": [
-        {
-          "page": "themes",
-          "url": "/"
-        },
-        {
-          "page": "tools",
-          "url": "/tools"
-        },
-        {
-          "page": "examples",
-          "url": "/examples"
-        },
+
         {
           "page": "about",
           "url": "/about"
@@ -56,6 +45,19 @@
         {
           "page": "write for us",
           "url": "/write-for-us"
+        }
+        ,
+        {
+          "page": "themes",
+          "url": "/"
+        },
+        {
+          "page": "tools",
+          "url": "/tools"
+        },
+        {
+          "page": "examples",
+          "url": "/examples"
         }
         ,
         {
