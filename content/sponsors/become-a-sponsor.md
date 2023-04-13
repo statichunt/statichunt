@@ -8,19 +8,24 @@ draft: false
 
 **Statichunt is now open to sponsorship opportunities!**
 
-Statichunt is a open source JAMStack themes, templates and tools directory. Hundreds of desingers, developers and business owners visit this website regularly.
+Statichunt is the largest and fastest-growing JAMStack themes and resources directory.
 
-If you / your organisation would like to support the site, promote products or services, or simply be involved with the community, the platform is now open to such opportunities. Please read on to see the available sponsorship options.
+You can support and involved with this project by becoming a sponsor. Please read on to see the available sponsorship options.
 
-## Stats
+## Numbers 
 
-- Visitors in March on Statichunt : 2403
+- Visitors in March on Statichunt →  2403
 
-- Page views in March on Statichunt : 18,119
+- Page views in March on Statichunt →  18,119
 
-- Number of JAMStack Themes : 276
+- Number of JAMStack Themes →  300+ 
 
-- Number of Tools : 99
+- Number of Tools →  99
+
+
+## Audience 
+
+The audience is hundreds of web designers, developers, and business owners who are interested in creating JAMStack websites, applications, themes and tools.
 
 <br/>
 
@@ -74,7 +79,7 @@ We have only 4 slot for Bronze Sponsorship.
 
 **Note:** If the sponsorship is not renewed after 1 month, the logo will be moved to the “Previous Sponsors” section.
 
-##### Custom Contribution
+## Custom Contribution
 
 Make a custom one-time or recurring contribution - <a href="https://www.buymeacoffee.com/statichunt " target="_blank" rel="nofollow noopener noreferrer"> Contribute </a>
 
