@@ -20,7 +20,7 @@ examples_content: "Check out the showcase of a variety of jekyll website example
 examples_url: "/jekyll-examples"
 
 themes_draft: false
-examples_draft: true
+examples_draft: false
 draft: false
 ---
 
