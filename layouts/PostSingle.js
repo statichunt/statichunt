@@ -21,13 +21,13 @@ const PostSingle = ({
   authors,
   slug,
 }) => {
-  let { description, title, date, image, categories } = frontmatter;
+  let { description, title, meta_title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   const relatedPosts = similerPosts(post, posts, slug).slice(0, 2);
 
   return (
-    <Base title={title} description={description}>
+    <Base title={title} meta_title={meta_title} description={description}>
       <MobileSidebar />
       <section className="section bg-theme-light dark:bg-darkmode-theme-light">
         <div className="container">
