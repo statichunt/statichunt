@@ -78,7 +78,7 @@ const PostSingle = ({
           <div className="row relative">
             <div className="hidden lg:col-1 lg:block">
               <Share
-                className="social-share mt-2 flex-col space-y-4"
+                className="sticky top-24 mt-2 flex-col space-y-4"
                 title={title}
                 description={description}
               />

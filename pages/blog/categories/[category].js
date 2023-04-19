@@ -15,7 +15,7 @@ const Category = ({ category, posts, authors }) => {
           <div className="row justify-center">
             <div className="xl:col-10">
               <h1 className="h2 mb-8 text-center">
-                Showing posts from{" "}
+                Showing Posts From{" "}
                 <span className="text-primary underline">
                   {humanize(category)}
                 </span>

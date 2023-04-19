@@ -34,7 +34,7 @@ const BlogCard = ({ blogs, themes, tools, setSearchModal }) => {
                   <h3 className="h6">
                     <Link
                       className="stretched-link hover:underline"
-                      href={`/${blog.slug}`}
+                      href={`/blog/${blog.slug}`}
                       onClick={() => setSearchModal(false)}
                     >
                       {blog.frontmatter.title}
