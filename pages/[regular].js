@@ -17,7 +17,7 @@ import {
 } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
 import { parseMDX } from "@lib/utils/mdxParser";
-import { sortFilteredThemes } from "@lib/utils/sortFunctions";
+import { sortOrder } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
@@ -115,7 +115,7 @@ const RegularPages = ({
           </Sidebar>
           <ThemeTaxonomy
             currentPage={currentPage}
-            data={sortFilteredThemes(filteredThemes, sortAsc)}
+            data={sortOrder(filteredThemes, sortAsc)}
             showIntro={showIntro}
           />
         </div>

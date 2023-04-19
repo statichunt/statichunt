@@ -1,11 +1,11 @@
-import { sortByWeight } from "@lib/utils/sortFunctions";
+import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
 import { reducer } from "@lib/utils/sortReducer";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useReducer, useState } from "react";
 
 const useThemesSort = (themes, slug) => {
   const { allReset } = useFilterContext();
-  const themesSortedByDate = sortByWeight(themes);
+  const themesSortedByDate = sortByDate(themes);
   const defaultSortedThemes = sortByWeight(themesSortedByDate);
   const [sortValue, setSortValue] = useState("default");
   const [sortedThemes, dispatch] = useReducer(reducer, defaultSortedThemes);
@@ -25,7 +25,6 @@ const useThemesSort = (themes, slug) => {
 
   useEffect(() => {
     dispatch({ type: "SLUG", payload: defaultSortedThemes });
-    setSortValue("default");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allReset]);
 

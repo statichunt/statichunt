@@ -10,7 +10,7 @@ import HomeSort from "@layouts/components/HomeSort";
 import Themes from "@layouts/Themes";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import setOthersCategory from "@lib/setOthersCategory";
-import { sortFilteredThemes } from "@lib/utils/sortFunctions";
+import { sortOrder } from "@lib/utils/sortFunctions";
 import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
@@ -102,7 +102,7 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
               />
             </div>
 
-            <Themes themes={sortFilteredThemes(filteredThemes, sortAsc)} />
+            <Themes themes={sortOrder(filteredThemes, sortAsc)} />
           </div>
         </main>
       </div>
