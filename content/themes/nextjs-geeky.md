@@ -5,7 +5,6 @@ demo: https://geeky-nextjs.vercel.app/
 author: Statichunt
 author_link: https://statichunt.com
 date: 2023-01-31T00:00:00.000Z
-weight: 4
 description: Geeky is a highly customizable feature-rich NextJs Blog Template.
 ssg:
   - Nextjs

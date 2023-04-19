@@ -1,5 +1,5 @@
 ---
-title: Astroplate
+title: Astroplate - Boilerplate & Starter
 github: https://github.com/zeon-studio/astroplate
 demo: https://astroplate.netlify.app/
 author: Zeon Studio
