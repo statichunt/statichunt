@@ -7,11 +7,11 @@ image: ""
 authors: ["Statichunt"]
 categories: ["Astro"]
 sponsored: false
-draft: false
+draft: true
 ---
 Astro.build is a modern static site generator that has been gaining popularity among web developers in recent times. It's a framework that combines the best features of traditional static site generators and modern build tools. With Astro.build, developers can create highly performant websites that load quickly, have excellent SEO, and are easy to maintain.
 
-In this article, we listed 10 stunning websites created with Astro.build, to inspire developers in their upcoming web projects.
+We listed 10 stunning websites created with Astro.build, to inspire developers in their upcoming web projects.
 
 
 
@@ -69,6 +69,5 @@ In this article, we listed 10 stunning websites created with Astro.build, to ins
 <Button href="https://pizzabillionaire.com/" >Visit Website </Button>
 
 
-**Conclusion**
 
 In conclusion, Astro.build is a powerful tool for building websites that offer exceptional performance, reliability, and customization. From e-commerce to blogs, portfolios, and even entire businesses, Astro.build has proven to be an excellent choice for developers and businesses looking to create a top-tier online presence. With its easy-to-use interface and efficient build process, Astro.build is sure to continue empowering developers and revolutionizing the web development industry.
