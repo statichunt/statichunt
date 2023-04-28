@@ -1,6 +1,6 @@
 ---
 title: Disclaimer
-meta_title: Statichunt Disclaimer
+meta_title: Disclaimer - Statichunt
 description:
 noindex: true
 ---

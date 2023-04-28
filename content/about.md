@@ -1,6 +1,6 @@
 ---
 title: About
-meta_title: About Statichunt
+meta_title: About - Statichunt
 description: 
 draft: false
 

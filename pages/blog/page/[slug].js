@@ -19,10 +19,10 @@ const BlogPagination = ({
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
   const { frontmatter, content } = postIndex;
-  const { title } = frontmatter;
+  const { title ,meta_title} = frontmatter;
 
   return (
-    <Base title={title}>
+    <Base title={title} meta_title={meta_title}>
       <MobileSidebar />
       <section className="section">
         <div className="container">

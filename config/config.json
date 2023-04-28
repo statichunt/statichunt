@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Statichunt - Hundreds of Jamstack Themes, Tools & Examples Directory",
+    "title": "Statichunt - 400+ Jamstack Themes, Templates & Tools Directory",
     "base_url": "https://statichunt.com",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
@@ -21,9 +21,9 @@
 
   "announcement": {
     "enable": true,
-    "name": "Adminmart Sponsorship Announcement",
-    "link": "https://adminmart.com/?utm_source=statichunt&utm_medium=statichunt_website&utm_campaign=statichunt_sponsorship",
-    "content": "📢 **Adminmart** is now a proud sponsor of Statichunt. 🎉  Check out adminmart.com for top-notch admin templates."
+    "name": "Astroplate Announcement",
+    "link": "https://statichunt.com/themes/astro-astroplate?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
+    "content": "📢 Checkout **Astroplate** - Newly added Astro + Tailwind CSS + TypeScript Starter and Boilerplate."
   },
 
   "params": {

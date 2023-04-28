@@ -1,6 +1,6 @@
 ---
 title: "Get In Touch"
-meta_title: "Contact Us"
+meta_title: "Contact Us - Statichunt"
 description: ""
 success_message: "We have received your message and will get back to you soon"
 ---
