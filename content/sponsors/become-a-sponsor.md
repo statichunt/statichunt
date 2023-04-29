@@ -20,7 +20,7 @@ You can support and involved with this project by becoming a sponsor. Please rea
 
 - Number of JAMStack Themes →  300+ 
 
-- Number of Tools →  99
+- Number of Tools →  100+
 
 
 ## Audience 
