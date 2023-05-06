@@ -15,12 +15,11 @@ ssg:
 css:
   - Bootstrap
 cms:
-  - null
 category:
   - Bussiness
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - Built on React v17+ GatsbyJS v4.4+
 - Strapi CMS v3.5+ GraphQL + PostgreSQL + Cloudinary + ImageSharp

@@ -14,7 +14,6 @@ ssg:
 css:
   - Tailwind
 cms:
-  - null
 category:
   - Blog
 draft: false
@@ -24,7 +23,7 @@ github_star: 765
 github_fork: 186
 ---
 
-## Key Features :
+## Key Features
 
 - Integration with Tailwind CSS.
 - Supports Dark mode.

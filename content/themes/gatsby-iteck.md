@@ -13,12 +13,11 @@ ssg:
 css:
   - Bootstrap
 cms:
-  - 
 category:
   - Bussiness
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - Ready Homepages
 - Based On Sass

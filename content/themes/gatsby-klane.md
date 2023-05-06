@@ -13,12 +13,11 @@ ssg:
 css:
   - Bootstrap
 cms:
-  - 
 category:
   - Bussiness
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - 10+ Landing Page Demo Variations.
 - Built on Gatsby v4+, React 18+, Bootstrap 5.x, and Sass

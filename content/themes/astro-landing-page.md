@@ -11,7 +11,6 @@ ssg:
 css:
   - Tailwind
 cms:
-  - null
 category:
   - Saas
 draft: false
@@ -21,7 +20,7 @@ github_star: 198
 github_fork: 63
 ---
 
-## Key Features :
+## Key Features
 
 - Tailwind CSS for styling
 - Dark mode

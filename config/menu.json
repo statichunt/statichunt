@@ -19,8 +19,7 @@
     {
       "name": "Sponsors",
       "url": "/sponsors"
-    }
-    ,
+    },
     {
       "name": "Blog",
       "url": "/blog"
@@ -30,23 +29,18 @@
     {
       "name": "Statichunt",
       "pages": [
-
         {
           "page": "about",
           "url": "/about"
-        }
-        ,
-      
+        },
         {
           "page": "blog",
           "url": "/blog"
-        }
-        ,
+        },
         {
           "page": "write for us",
           "url": "/write-for-us"
-        }
-        ,
+        },
         {
           "page": "themes",
           "url": "/"
@@ -58,8 +52,7 @@
         {
           "page": "examples",
           "url": "/examples"
-        }
-        ,
+        },
         {
           "page": "disclaimer",
           "url": "/disclaimer"

@@ -11,7 +11,6 @@ ssg:
 css:
   - SCSS
 cms:
-  - null
 category:
   - Portfolio
 draft: false
