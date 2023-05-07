@@ -4,7 +4,7 @@ download: https://1.envato.market/EanNRP
 github: null
 price: 35
 demo: https://haiper-react.envytheme.com/index4/
-author: Envy Theme
+author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
 description: Haiper is an ideal React template for Online Banking and Payment Solutions. It's a fully responsive template with demo inner page variations.
@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - Based on React 17+, Next.js 12+, Bootstrap 5.1.3 & Sass
 - 6+ demo pages available

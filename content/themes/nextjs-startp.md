@@ -4,7 +4,7 @@ download: https://1.envato.market/yRD14V
 github: null
 price: 39
 demo: https://startp-next.envytheme.com/it-startup/
-author: Envy Theme
+author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
 description: StartP is an IT Startup & Digital Agency Template that is based on React, NextJS, and Bootstrap. This template was specially made for those who want to provide IT solutions and software services online.
@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - Built with react.js v18+, Next.js v12.1.4, Redux, Bootstrap 5.1.3+
 - Product dynamic routing, internationalized routing support

@@ -4,7 +4,7 @@ download: https://1.envato.market/6baNVK
 github: null
 price: 24
 demo: https://jumpx-react.envytheme.com/
-author: Envy Theme
+author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
 description: Jumpx is a clutterless responsive React template ideal for IT firms or next-generation technology startups. It is indeed a good option for people and with startup business efforts, IT solutions, web marketing services, upcoming startup businesses, etc. 
@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - RTL Version Included
 - Built on React v18.2.0, NextJS v12.2.5, Bootstrap v5.2.0 & Sass

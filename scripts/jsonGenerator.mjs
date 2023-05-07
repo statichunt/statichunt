@@ -39,8 +39,9 @@ const getCustomData = () => {
       theme: item.frontmatter.title,
       demo: item.frontmatter.demo,
       price: item.frontmatter.price ? item.frontmatter.price : 0,
-      github: item.frontmatter.github,
-      download: item.frontmatter.download,
+      download: item.frontmatter.github
+        ? item.frontmatter.github
+        : item.frontmatter.download,
       author: item.frontmatter.author,
       author_link: item.frontmatter.author_link,
     };

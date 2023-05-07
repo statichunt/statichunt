@@ -4,7 +4,7 @@ download: https://1.envato.market/KeRNyn
 github: null
 price: 29
 demo: https://taiker-react.envytheme.com/index12/
-author: Envy Theme
+author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
 description: Taiker is a fully responsive React template that is ideal for an online IT Business startup. The template is crafted with react, Next.js, Bootstrap, and Sass.
@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - Created with React 18+,  Next.js 12+, Bootstrap 5.1.3+ & Sass
 - 40+ Pre-built pages available

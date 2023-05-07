@@ -4,7 +4,7 @@ download: https://1.envato.market/zaQVnO
 github: null
 price: 35
 demo: https://bariton-react.envytheme.com/index-6/
-author: Envy Theme
+author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
 description: Bariton is a Clean and Responsive React Next template. It is built with ReactJS, NextJS, Bootstrap, and Sass with Firebase hosting setup.
@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 ---
-## Key Features :
+## Key Features
 
 - RTL Version Included for Arabic and Hebrew Language
 - React v18.2.0, Next.js v12.2.5, Bootstrap v5.2.0 & Sass
