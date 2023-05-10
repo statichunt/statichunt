@@ -3,7 +3,7 @@ title: Hugo
 page_title: Hugo Themes
 weight: "2"
 meta_title: 80+ Hugo Themes (Free & Premium) | Statichunt
-description: Check out our collection of 80+ hand-picked Hugo themes that will give your website a professional and polished appearance.
+description: Check out our collection of hand-picked Hugo themes and templates that will give your website a professional and polished appearance.
 icon: "/images/icons/hugo.svg"
 website: https://gohugo.io
 github_path: gohugoio/hugo
