@@ -1,9 +1,9 @@
 ---
 title: Astroplate - Boilerplate & Starter
-github: 'https://github.com/zeon-studio/astroplate'
-demo: 'https://astroplate.netlify.app/'
+github: https://github.com/zeon-studio/astroplate
+demo: https://astroplate.netlify.app/
 author: Zeon Studio
-author_link: 'https://zeon.studio/'
+author_link: https://zeon.studio/
 date: 2023-04-18T00:00:00.000Z
 description: >-
   Astroplate is a free starter template built with Astro, TailwindCSS &
@@ -19,9 +19,9 @@ category:
   - Boilerplate
 draft: false
 publish_date: '2023-04-17T06:50:06Z'
-update_date: '2023-04-17T10:27:13Z'
-github_star: 3
-github_fork: 1
+update_date: '2023-05-15T06:34:04Z'
+github_star: 26
+github_fork: 2
 weight: 3
 ---
 

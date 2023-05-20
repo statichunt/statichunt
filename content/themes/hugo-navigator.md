@@ -14,9 +14,9 @@ category:
 date: 2018-07-08T10:28:35.000Z
 description: Navigator Template Hugo Version by themefisher
 publish_date: '2018-07-08T10:28:35Z'
-update_date: '2022-10-22T03:22:09Z'
-github_star: 138
-github_fork: 141
+update_date: '2023-04-30T07:38:16Z'
+github_star: 137
+github_fork: 142
 draft: false
 ---
 ## Key Features :

@@ -13,14 +13,14 @@ ssg:
   - Astro
 css:
   - Tailwind
-cms:
+cms: null
 category:
   - Blog
 draft: false
 publish_date: '2022-06-24T03:13:29Z'
-update_date: '2023-03-28T01:17:49Z'
-github_star: 765
-github_fork: 186
+update_date: '2023-05-19T18:20:36Z'
+github_star: 918
+github_fork: 222
 ---
 
 ## Key Features

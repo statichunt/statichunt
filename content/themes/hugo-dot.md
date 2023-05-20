@@ -15,9 +15,9 @@ category:
 date: 2019-01-05T09:42:06.000Z
 description: Dot - Hugo Documentation Theme
 publish_date: '2019-01-05T09:42:06Z'
-update_date: '2023-03-26T06:09:07Z'
-github_star: 238
-github_fork: 155
+update_date: '2023-05-18T04:15:16Z'
+github_star: 242
+github_fork: 154
 draft: false
 ---
 ## Key Features :

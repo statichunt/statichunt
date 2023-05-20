@@ -19,9 +19,9 @@ description: >-
   by Bootstrap.
 draft: false
 publish_date: '2021-08-09T10:25:21Z'
-update_date: '2022-12-11T07:06:47Z'
-github_star: 62
-github_fork: 52
+update_date: '2023-04-30T07:30:05Z'
+github_star: 63
+github_fork: 53
 ---
 ## Key Features :
 

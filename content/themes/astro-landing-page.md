@@ -10,14 +10,14 @@ ssg:
   - Astro
 css:
   - Tailwind
-cms:
+cms: null
 category:
   - Saas
 draft: false
 publish_date: '2022-05-03T04:02:56Z'
-update_date: '2023-01-31T04:25:15Z'
-github_star: 198
-github_fork: 63
+update_date: '2023-04-26T03:44:02Z'
+github_star: 229
+github_fork: 65
 ---
 
 ## Key Features
