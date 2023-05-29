@@ -94,8 +94,8 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     <ul className="category-list">
       <li
         onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
-        className={`${arrayFree.length > 0 ? "active" : undefined} ${
-          filterFree.length < 1 ? "disabled" : undefined
+        className={`filter-free ${arrayFree.length > 0 ? "active" : ""} ${
+          filterFree.length < 1 ? "disabled" : ""
         }`}
       >
         Free
@@ -105,8 +105,8 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
         onClick={() =>
           setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
         }
-        className={`${arrayPremium.length > 0 ? "active" : undefined} ${
-          filterPremium.length < 1 ? "disabled" : undefined
+        className={`filter-premium ${arrayPremium.length > 0 ? "active" : ""} ${
+          filterPremium.length < 1 ? "disabled" : ""
         }`}
       >
         Premium
@@ -118,9 +118,9 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
         <li
           onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
           key={`item-${i}`}
-          className={`${item.selected ? "active" : undefined} ${
-            countItems(item) < 1 ? "disabled" : undefined
-          }`}
+          className={`${item.selected ? "active" : ""} filter-${slugify(
+            item.frontmatter.title
+          )} ${countItems(item) < 1 ? "disabled" : ""}`}
         >
           {item.frontmatter.title}
           {parameter && [...new Set(taxonomyArray)][0] === "category" ? (

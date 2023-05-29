@@ -173,9 +173,9 @@ const SidebarAccordion = ({
                   handleOnClick(slugify(item.frontmatter.title), data.type)
                 }
                 key={`item-${i}`}
-                className={`sidebar-checkbox ${
-                  item.selected ? "active" : undefined
-                }`}
+                className={`sidebar-checkbox filter-${slugify(
+                  item.frontmatter.title
+                )} ${item.selected ? "active" : ""}`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
                 <Image

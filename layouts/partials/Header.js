@@ -3,6 +3,7 @@ import ThemeSwitcher from "@components/ThemeSwitcher";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
 import useOs from "@hooks/useOs";
+import { slugify } from "@lib/utils/textConverter";
 import { useSerachContext } from "context/searchContext";
 import { useTheme } from "next-themes";
 import dynamic from "next/dynamic";
@@ -94,7 +95,7 @@ const Header = () => {
               <li className="nav-item" key={`menu-${i}`}>
                 <Link
                   href={menu.url}
-                  className={`nav-link block ${
+                  className={`nav-link nav-${slugify(menu.name)} block ${
                     router.asPath === menu.url &&
                     "pointer-events-none text-primary dark:text-darkmode-primary"
                   }`}
