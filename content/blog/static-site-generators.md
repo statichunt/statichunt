@@ -1,11 +1,16 @@
 ---
 title: Want a Blazing-Fast Website? Try These 7 Static Site Generators
-date: 2022-04-04T05:00:00Z
-meta_title: "Best Static Site Generators - Statichunt"
-description: "Looking for a fast and simple way to create a website? Check out our list of the 7 best static site generators. Discover the advantages and disadvantages of each generator, and choose the one that's right for you."
-image: "/blog/best-static-site-generators.png"
-authors: ["Statichunt"]
-categories: ["static site generators"]
+date: 2022-04-04T05:00:00.000Z
+meta_title: Best Static Site Generators - Statichunt
+description: >-
+  Looking for a fast and simple way to create a website? Check out our list of
+  the 7 best static site generators. Discover the advantages and disadvantages
+  of each generator, and choose the one that's right for you.
+image: /blog/best-static-site-generators.png
+authors:
+  - Statichunt
+categories:
+  - static site generators
 sponsored: false
 draft: false
 ---
@@ -22,21 +27,17 @@ Static site generators are tools that allow you to create websites without relyi
 
 There are several advantages to using static site generators for web development, including:
 
-- **Speed**: Static sites are pre-generated, which means they can be served quickly to users without the need for server-side processing.
-
-- **Security**: Because there is no server-side processing or database access required, static sites are less vulnerable to security threats like SQL injection attacks.
-
-- **Scalability**: Static sites can be easily deployed to a content delivery network (CDN), which allows them to be served from multiple locations, improving performance and reliability.
-
-- **Ease of Use**: Static site generators typically use templates and Markdown files to generate pages, making it easy to create and manage content.
-
-- **SEO Benefits**: Static sites tend to perform better in search engine rankings because they are fast, lightweight, and easy to crawl.
+* **Speed**: Static sites are pre-generated, which means they can be served quickly to users without the need for server-side processing.
+* **Security**: Because there is no server-side processing or database access required, static sites are less vulnerable to security threats like SQL injection attacks.
+* **Scalability**: Static sites can be easily deployed to a content delivery network (CDN), which allows them to be served from multiple locations, improving performance and reliability.
+* **Ease of Use**: Static site generators typically use templates and Markdown files to generate pages, making it easy to create and manage content.
+* **SEO Benefits**: Static sites tend to perform better in search engine rankings because they are fast, lightweight, and easy to crawl.
 
 ## 7 Best Static Site Generators 2023
 
 ### 1. Astro
 
-Astro is a all-in-one static site generator that is gaining popularity among web developers due to its flexibility and ease of use. It provides a modern and intuitive development experience with its built-in support for React, Vue, and Svelte, which allows you to write your components with the framework you prefer.
+Astro is an all-in-one static site generator that is gaining popularity among web developers due to its flexibility and ease of use. It provides a modern and intuitive development experience with its built-in support for React, Vue, and Svelte, which allows you to write your components with the framework you prefer.
 
 <Mockup src="/blog/astro.png" alt="astro ssg" />
 
@@ -98,7 +99,6 @@ Nuxt is a Vue-based static site generator that offers server-side rendering and 
 
 <Button href="https://nuxt.com/" >Visit Website </Button>
 
-
-## Conclusion 
+## Conclusion
 
 Each generator has its own strengths and features that cater to different types of projects. It is important to choose the right static site generator based on your specific needs and requirements.
