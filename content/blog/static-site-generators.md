@@ -45,7 +45,7 @@ Astro is an all-in-one static site generator that is gaining popularity among we
 
 ### 2. Hugo
 
-Hugo is a powerful static site generator built with Go. It is known for its speed and simplicity, making it an excellent choice for building content-focused websties. Hugo provides a flexible templating system that allows you to customize your website's design and structure. Additionally, Hugo provides built-in support for taxonomies, menus, and content management systems, which makes it easy to manage your website's content.
+Hugo is a powerful static site generator built with Go. It is known for its speed and simplicity, making it an excellent choice for building content-focused websites. Hugo provides a flexible templating system that allows you to customize your website's design and structure. Additionally, Hugo provides built-in support for taxonomies, menus, and content management systems, which makes it easy to manage your website's content.
 
 <Mockup src="/blog/hugo.png" alt="hugo ssg" />
 
