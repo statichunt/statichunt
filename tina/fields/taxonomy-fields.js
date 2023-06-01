@@ -22,7 +22,7 @@ const taxonomyFields = [
     label: "page_title",
   },
   {
-    type: "string",
+    type: "number",
     name: "weight",
     label: "weight",
   },
