@@ -27,11 +27,11 @@ Static site generators are tools that allow you to create websites without relyi
 
 There are several advantages to using static site generators for web development, including:
 
-* **Speed**: Static sites are pre-generated, which means they can be served quickly to users without the need for server-side processing.
-* **Security**: Because there is no server-side processing or database access required, static sites are less vulnerable to security threats like SQL injection attacks.
-* **Scalability**: Static sites can be easily deployed to a content delivery network (CDN), which allows them to be served from multiple locations, improving performance and reliability.
-* **Ease of Use**: Static site generators typically use templates and Markdown files to generate pages, making it easy to create and manage content.
-* **SEO Benefits**: Static sites tend to perform better in search engine rankings because they are fast, lightweight, and easy to crawl.
+- **Speed**: Static sites are pre-generated, which means they can be served quickly to users without the need for server-side processing.
+- **Security**: Because there is no server-side processing or database access required, static sites are less vulnerable to security threats like SQL injection attacks.
+- **Scalability**: Static sites can be easily deployed to a content delivery network (CDN), which allows them to be served from multiple locations, improving performance and reliability.
+- **Ease of Use**: Static site generators typically use templates and Markdown files to generate pages, making it easy to create and manage content.
+- **SEO Benefits**: Static sites tend to perform better in search engine rankings because they are fast, lightweight, and easy to crawl.
 
 ## 7 Best Static Site Generators 2023
 
