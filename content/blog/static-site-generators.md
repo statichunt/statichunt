@@ -2,10 +2,7 @@
 title: Want a Blazing-Fast Website? Try These 7 Static Site Generators
 date: 2022-04-04T05:00:00.000Z
 meta_title: Best Static Site Generators - Statichunt
-description: >-
-  Looking for a fast and simple way to create a website? Check out our list of
-  the 7 best static site generators. Discover the advantages and disadvantages
-  of each generator, and choose the one that's right for you.
+description: Looking for a fast and simple way to create a website? Check out our list of best static site generators. Discover the advantages and disadvantages of each generator, and choose the one that's right for you.
 image: /blog/best-static-site-generators.png
 authors:
   - Statichunt
