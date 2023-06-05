@@ -94,30 +94,6 @@ select:required:invalid {
   }
 }
 
-// content style
-.content {
-  @apply prose max-w-none;
-  @apply prose-headings:mb-[.9em] prose-headings:mt-[.5em] prose-headings:font-bold prose-headings:text-dark;
-  @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
-  @apply prose-h2:text-h2-sm md:prose-h2:text-h2;
-  @apply prose-h3:text-h3-sm md:prose-h3:text-h3;
-  @apply prose-hr:border-border prose-hr:dark:border-darkmode-border;
-  @apply prose-p:text-base prose-p:text-text prose-p:dark:text-light;
-  @apply prose-blockquote:rounded prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:px-4 prose-blockquote:py-1 prose-blockquote:shadow prose-blockquote:dark:bg-theme-dark;
-  @apply prose-code:px-1 prose-code:text-primary dark:prose-code:text-darkmode-primary;
-  @apply prose-pre:rounded-none;
-  @apply prose-strong:text-dark prose-strong:dark:text-light;
-  @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline dark:prose-a:text-darkmode-primary;
-  @apply prose-li:text-text prose-li:dark:text-light;
-  @apply prose-table:overflow-hidden prose-table:border prose-table:border-border prose-table:dark:border-darkmode-border;
-  @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:px-4 prose-th:py-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;
-  @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
-  @apply prose-td:px-3 prose-td:py-4 prose-td:dark:text-light;
-  .btn {
-    @apply no-underline dark:text-white;
-  }
-}
-
 // sidebar
 .sidebar {
   @apply fixed top-[66px] z-30 flex h-[calc(100vh-64px)] w-[300px] max-w-[98%] -translate-x-full select-none flex-col overflow-y-auto bg-theme-light p-6 transition-[transform_0.3_cubic-bezier(0.075_0.82_0.165_1)] dark:bg-darkmode-theme-dark lg:sticky lg:translate-x-0 xl:w-[330px];
@@ -511,4 +487,25 @@ select:required:invalid {
   &::after {
     @apply absolute -top-[30px] right-1/2 block w-[calc(100%_-_200px)] max-w-[500px] translate-x-1/2 overflow-hidden rounded bg-body p-1.5 text-center text-sm leading-none text-light content-['https://statichunt.com'];
   }
+}
+
+// content style
+.content {
+  @apply prose max-w-none;
+  @apply prose-headings:mb-[.7em] prose-headings:mt-[1em] prose-headings:font-bold prose-headings:text-dark;
+  @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
+  @apply prose-h2:text-h2-sm md:prose-h2:text-h2;
+  @apply prose-h3:text-h3-sm md:prose-h3:text-h3;
+  @apply prose-hr:border-border prose-hr:dark:border-darkmode-border;
+  @apply prose-p:text-base prose-p:text-text prose-p:dark:text-light;
+  @apply prose-blockquote:rounded prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:px-4 prose-blockquote:py-1 prose-blockquote:shadow prose-blockquote:dark:bg-theme-dark;
+  @apply prose-code:px-1 prose-code:text-primary dark:prose-code:text-darkmode-primary;
+  @apply prose-pre:rounded-none;
+  @apply prose-strong:text-dark prose-strong:dark:text-light;
+  @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline dark:prose-a:text-darkmode-primary;
+  @apply prose-li:text-text prose-li:dark:text-light;
+  @apply prose-table:overflow-hidden prose-table:border prose-table:border-border prose-table:dark:border-darkmode-border;
+  @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:px-4 prose-th:py-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;
+  @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
+  @apply prose-td:px-3 prose-td:py-4 prose-td:dark:text-light;
 }

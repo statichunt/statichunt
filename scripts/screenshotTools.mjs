@@ -21,6 +21,7 @@ const captureScreenshot = async (website, slug, overwrite) => {
   try {
     const browser = await puppeteer.launch({
       args: [],
+      headless: "new",
       executablePath:
         process.platform === "win32"
           ? "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"

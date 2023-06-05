@@ -102,12 +102,12 @@ const DemoHeader = ({
             <Link
               href={`/themes/${slug}/`}
               data-tooltip="Information"
-              className="btn btn-outline-primary svg-block tooltip tooltip-bottom text-lg !leading-none"
+              className="btn btn-outline-primary btn-sm svg-block tooltip tooltip-bottom text-lg !leading-none"
             >
               <TbInfoCircle />
             </Link>
             <a
-              className="btn btn-outline-primary svg-block tooltip tooltip-bottom text-lg !leading-none"
+              className="btn btn-outline-primary btn-sm svg-block tooltip tooltip-bottom text-lg !leading-none"
               href={`${demo}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
@@ -116,7 +116,7 @@ const DemoHeader = ({
               <TbExternalLink />
             </a>
             <a
-              className="btn btn-outline-primary svg-align-bottom tooltip tooltip-bottom text-lg !leading-none"
+              className="btn btn-outline-primary btn-sm svg-align-bottom tooltip tooltip-bottom text-lg !leading-none"
               href={`${github ? github : download}?ref=statichunt.com`}
               target="_blank"
               rel="nofollow noopener noreferrer"
