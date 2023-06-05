@@ -16,7 +16,7 @@ date: 2018-07-15T10:07:51.000Z
 description: Timer Template Hugo Version by themefisher3
 publish_date: '2018-07-15T10:07:51Z'
 update_date: '2023-05-18T04:14:41Z'
-github_star: 135
+github_star: 136
 github_fork: 115
 draft: false
 ---

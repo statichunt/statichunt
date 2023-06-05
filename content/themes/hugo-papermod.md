@@ -14,9 +14,9 @@ category:
 description: A fast, clean, responsive Hugo theme based on Paper
 draft: false
 publish_date: '2020-07-21T04:45:10Z'
-update_date: '2023-05-07T12:10:58Z'
-github_star: 6286
-github_fork: 1912
+update_date: '2023-06-04T12:59:55Z'
+github_star: 6371
+github_fork: 1930
 ---
 ## Key Features :
 

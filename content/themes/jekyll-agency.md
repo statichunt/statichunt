@@ -18,9 +18,9 @@ description: >-
   Analytics, Markdown support, custom pages, and more!
 draft: false
 publish_date: '2019-09-30T06:04:44Z'
-update_date: '2023-02-14T18:45:45Z'
-github_star: 242
-github_fork: 474
+update_date: '2023-05-29T19:59:40Z'
+github_star: 246
+github_fork: 478
 ---
 ## Key Features :
 

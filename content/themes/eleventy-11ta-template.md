@@ -19,7 +19,7 @@ description: >-
   11ty, TailwindCSS, & Alpine.js
 draft: false
 publish_date: '2020-09-19T16:11:39Z'
-update_date: '2023-01-10T04:42:57Z'
+update_date: '2023-05-24T01:08:52Z'
 github_star: 106
-github_fork: 10
+github_fork: 11
 --- 

@@ -16,6 +16,6 @@ description: Next.js starter for creating a SaaS Marketing Website with GraphCMS
 draft: false
 publish_date: '2020-05-26T10:38:33Z'
 update_date: '2022-09-02T17:41:06Z'
-github_star: 109
+github_star: 110
 github_fork: 40
 ---

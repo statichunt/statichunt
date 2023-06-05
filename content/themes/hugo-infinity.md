@@ -17,9 +17,9 @@ date: 2018-07-04T11:01:47.000Z
 description: Infinity Coming Soon Template Hugo Version by themefisher
 draft: false
 publish_date: '2018-07-04T11:01:47Z'
-update_date: '2023-04-30T07:34:56Z'
+update_date: '2023-05-20T07:16:40Z'
 github_star: 37
-github_fork: 51
+github_fork: 52
 ---
 ## Key Features :
 

@@ -19,9 +19,9 @@ description: >-
   be used for portfolio template1
 draft: false
 publish_date: '2019-05-15T08:33:57Z'
-update_date: '2023-05-18T05:05:22Z'
-github_star: 149
-github_fork: 326
+update_date: '2023-06-04T07:14:32Z'
+github_star: 151
+github_fork: 327
 ---
 
 ## Key Features :
