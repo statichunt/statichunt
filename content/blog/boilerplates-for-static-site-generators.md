@@ -16,6 +16,18 @@ Static site generators have become popular for creating fast, secure, and mainta
 
 <Mockup src="/blog/hugoplate.png" alt="hugoplate hugo boilerplate" />
 
+### Key Features
+
+- Built With Hugo and Tailwind CSS
+- 15+ Pre-designed Pages
+- Multi-Authors
+- Similar Posts Suggestion
+- Search Functionality
+- Dark Mode
+- Netlify setting pre-configured
+- Write and update content in Markdown
+- Disqus Comment
+
 <Download href="https://statichunt.com/themes/hugo-hugoplate" />
 
 <Demo href="https://hugoplate.netlify.app/" />
@@ -24,6 +36,18 @@ Static site generators have become popular for creating fast, secure, and mainta
 
 <Mockup src="/blog/nextplate.png" alt="nextplate nextjs boilerplate" />
 
+### Key Features
+
+- Built With Nextjs and Tailwind CSS
+- 15+ Pre-designed Pages
+- Multi-Authors
+- Similar Posts Suggestion
+- Search Functionality
+- Dark Mode
+- Netlify setting pre-configured
+- Write and update content in Markdown
+- Disqus Comment
+
 <Download href="https://statichunt.com/themes/nextjs-nextplate" />
 
 <Demo href="https://nextplate.netlify.app/" />
@@ -31,6 +55,18 @@ Static site generators have become popular for creating fast, secure, and mainta
 ## Astroplate - Astro + Tailwind CSS + TypeScript Starter and Boilerplate
 
 <Mockup src="/blog/astroplate.png" alt="astro boilerplate" />
+
+### Key Features
+
+- Built With Astro and Tailwind CSS
+- 15+ Pre-designed Pages
+- Multi-Authors
+- Similar Posts Suggestion
+- Search Functionality
+- Dark Mode
+- Netlify setting pre-configured
+- Write and update content in Markdown
+- Disqus Comment
 
 <Download href="https://statichunt.com/themes/astro-astroplate" />
 
@@ -55,6 +91,18 @@ Static site generators have become popular for creating fast, secure, and mainta
 ## Nuxt 3 Awesome Starter - Nuxtjs Boilerplate
 
 <Mockup src="/blog/awesome-starter.png" alt="nuxtjs Boilerplate" />
+
+- Tailwind CSS v3 with Windicss
+- Headless UI
+- Icon Pack Component
+- State & Store Management
+- Vue Composition Collection
+- Switch Theme (light, dark, system, realtime)
+- Language Switcher
+- Built-in Component & Layout
+- Eslint & Prettier
+- Husky & Commitlint
+- Custom Workspace Snippets
 
 <Download href="https://github.com/viandwi24/nuxt3-awesome-starter" />
 
