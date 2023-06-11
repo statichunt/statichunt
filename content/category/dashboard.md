@@ -1,5 +1,5 @@
 ---
 title: "Dashboard"
 icon: /images/icons/dashboard.svg
-draft: false
+draft: true
 ---

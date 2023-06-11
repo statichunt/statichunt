@@ -14,11 +14,11 @@ You can support and involved with this project by becoming a sponsor. Please rea
 
 ## Numbers 
 
-- Visitors in April on Statichunt →  2600
+- Visitors in May on Statichunt →  3,140
 
-- Page views in April on Statichunt →  18,373
+- Page views in April on Statichunt →  20,464
 
-- Number of JAMStack Themes →  350+ 
+- Number of JAMStack Themes →  380+ 
 
 - Number of Tools →  100+
 
