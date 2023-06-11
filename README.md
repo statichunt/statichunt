@@ -45,8 +45,6 @@ Submit a Jamstack example website by adding a markdown file to the `content/exam
 
 ## Sponsors
 
-[![OC sponsor 0](https://statichunt.com/sponsors/adminmart.svg)](https://adminmart.com/?utm_source=statichunt&utm_medium=statichunt_github&utm_campaign=statichunt_sponsorship)
-
 Support and involved with this project by [becoming a sponsor.](https://statichunt.com/become-a-sponsor)
 
 
