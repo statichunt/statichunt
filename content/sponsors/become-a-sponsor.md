@@ -5,25 +5,23 @@ description: ""
 draft: false
 ---
 
-
 **Statichunt is now open to sponsorship opportunities!**
 
 Statichunt is the largest and fastest-growing JAMStack themes and resources directory.
 
 You can support and involved with this project by becoming a sponsor. Please read on to see the available sponsorship options.
 
-## Numbers 
+## Numbers
 
-- Visitors in May on Statichunt →  3,140
+- Visitors in May on Statichunt → 3,140
 
-- Page views in April on Statichunt →  20,464
+- Page views in May on Statichunt → 20,464
 
-- Number of JAMStack Themes →  380+ 
+- Number of JAMStack Themes → 380+
 
-- Number of Tools →  100+
+- Number of Tools → 100+
 
-
-## Audience 
+## Audience
 
 The audience is hundreds of web designers, developers, and business owners who are interested in creating JAMStack websites, applications, themes and tools.
 
@@ -41,7 +39,7 @@ We have only one slot for Platinum Sponsorship.
 - Promote your product or services (if relevant)
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-</Sponsor>
+  </Sponsor>
 
 <Sponsor title="Gold Sponsorship" type="gold" price="500" paddle="https://buy.paddle.com/product/822223">
 
@@ -53,7 +51,7 @@ We have only 2 slot for Gold Sponsorship.
 - Promote your product or services (if relevant)
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-</Sponsor>
+  </Sponsor>
 
 <Sponsor title="Silver Sponsorship" type="silver" price="300" paddle="https://buy.paddle.com/product/822224">
 
@@ -64,7 +62,7 @@ We have only 3 slot for Silver Sponsorship.
 - Logo on the site
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-</Sponsor>
+  </Sponsor>
 
 <Sponsor title="Bronze Sponsorship" type="bronze" price="200" paddle="https://buy.paddle.com/product/820202">
 
@@ -75,7 +73,7 @@ We have only 4 slot for Bronze Sponsorship.
 - Logo on the site
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-</Sponsor>
+  </Sponsor>
 
 **Note:** If the sponsorship is not renewed after 1 month, the logo will be moved to the “Previous Sponsors” section.
 
