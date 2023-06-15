@@ -39,7 +39,8 @@ We have only one slot for Platinum Sponsorship.
 - Promote your product or services (if relevant)
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-  </Sponsor>
+
+</Sponsor>
 
 <Sponsor title="Gold Sponsorship" type="gold" price="500" paddle="https://buy.paddle.com/product/822223">
 
@@ -51,7 +52,8 @@ We have only 2 slot for Gold Sponsorship.
 - Promote your product or services (if relevant)
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-  </Sponsor>
+
+</Sponsor>
 
 <Sponsor title="Silver Sponsorship" type="silver" price="300" paddle="https://buy.paddle.com/product/822224">
 
@@ -62,7 +64,8 @@ We have only 3 slot for Silver Sponsorship.
 - Logo on the site
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-  </Sponsor>
+
+</Sponsor>
 
 <Sponsor title="Bronze Sponsorship" type="bronze" price="200" paddle="https://buy.paddle.com/product/820202">
 
@@ -73,12 +76,13 @@ We have only 4 slot for Bronze Sponsorship.
 - Logo on the site
 - A banner with logo and link on Statichunt's Github Repository
 - Support the ongoing development of this open source project
-  </Sponsor>
+
+</Sponsor>
 
 **Note:** If the sponsorship is not renewed after 1 month, the logo will be moved to the “Previous Sponsors” section.
 
 ## Custom Contribution
 
-Make a custom one-time or recurring contribution - <a href="https://www.buymeacoffee.com/statichunt " target="_blank" rel="nofollow noopener noreferrer"> Contribute </a>
+Make a custom one-time or recurring contribution - <a href="https://www.buymeacoffee.com/statichunt" target="_blank" rel="nofollow noopener noreferrer"> Contribute</a>
 
 For general inquiries please get in touch at hey@statichunt.com
