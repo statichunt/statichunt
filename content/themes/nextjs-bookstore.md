@@ -17,7 +17,7 @@ cms:
 category:
   - Ecommerce
 publish_date: '2022-11-13T07:05:46Z'
-update_date: '2023-03-23T16:35:37Z'
-github_star: 6
-github_fork: 4
+update_date: '2023-06-08T02:56:29Z'
+github_star: 10
+github_fork: 5
 ---

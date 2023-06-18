@@ -20,9 +20,9 @@ description: >-
   Performance, Clean & Pragmatic Codebase out of the box.
 draft: false
 publish_date: '2021-09-03T20:00:32Z'
-update_date: '2023-05-31T20:46:49Z'
-github_star: 677
-github_fork: 173
+update_date: '2023-06-15T12:06:28Z'
+github_star: 708
+github_fork: 181
 ---
 
 ## Key Features :

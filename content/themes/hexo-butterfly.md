@@ -15,7 +15,7 @@ category: null
 description: '🦋 A Hexo Theme: Butterfly.'
 draft: false
 publish_date: '2019-06-04T13:38:41Z'
-update_date: '2023-05-22T11:11:28Z'
-github_star: 5496
-github_fork: 1086
+update_date: '2023-06-11T15:09:39Z'
+github_star: 5552
+github_fork: 1094
 ---

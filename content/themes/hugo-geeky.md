@@ -19,7 +19,7 @@ description: >-
   This theme is ideal for any kind of blog website and portfolio. 
 publish_date: '2021-08-18T06:46:42Z'
 update_date: '2023-04-16T05:05:20Z'
-github_star: 84
+github_star: 85
 github_fork: 58
 draft: false
 ---

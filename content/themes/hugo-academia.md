@@ -17,7 +17,7 @@ description: Academia Hugo is a resume template for Hugo theme.
 publish_date: '2019-07-02T07:37:20Z'
 update_date: '2023-05-20T05:59:49Z'
 github_star: 170
-github_fork: 170
+github_fork: 172
 draft: false
 ---
 ## Key Features :

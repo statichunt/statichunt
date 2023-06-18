@@ -18,9 +18,9 @@ description: >-
   providing everything you need to jumpstart your Hugo project and save valuable
   time.
 draft: false
-publish_date: "2023-05-25T10:41:33Z"
-update_date: "2023-06-04T09:18:31Z"
-github_star: 3
+publish_date: '2023-05-25T10:41:33Z'
+update_date: '2023-06-15T10:26:40Z'
+github_star: 4
 github_fork: 0
 ---
 
