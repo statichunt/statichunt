@@ -1,5 +1,5 @@
 ---
-title: Nextplate
+title: Nextplate - Nextjs Boilerplate
 github: https://github.com/zeon-studio/nextplate
 demo: https://nextplate.netlify.app/
 author: Zeon Studio
@@ -19,8 +19,8 @@ category:
   - Boilerplate
 draft: false
 weight: 4
-publish_date: '2023-05-18T06:57:50Z'
-update_date: '2023-06-17T06:26:14Z'
+publish_date: "2023-05-18T06:57:50Z"
+update_date: "2023-06-17T06:26:14Z"
 github_star: 31
 github_fork: 29
 ---
