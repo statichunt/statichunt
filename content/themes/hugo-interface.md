@@ -11,7 +11,7 @@ description: Interface is a Hugo theme is perfect for showcasing SaaS products.
 ssg:
   - Hugo
 css:
-  - Tailwind
+  - Bootstrap
 cms:
   - Markdown
 category:
