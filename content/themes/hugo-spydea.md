@@ -1,5 +1,5 @@
 ---
-title: Spydea
+title: Spydea Hugo
 download: https://gethugothemes.com/products/spydea
 github: null
 price: 79
