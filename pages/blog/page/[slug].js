@@ -19,7 +19,7 @@ const BlogPagination = ({
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
   const { frontmatter, content } = postIndex;
-  const { title ,meta_title} = frontmatter;
+  const { title, meta_title } = frontmatter;
 
   return (
     <Base title={title} meta_title={meta_title}>
@@ -79,7 +79,7 @@ export const getStaticProps = async ({ params }) => {
   const currentPage = parseInt((params && params.slug) || 1);
   const { pagination } = config.settings;
   const posts = getSinglePage("content/blog");
-  const authors = getSinglePage("content/authors");
+  const authors = getSinglePage("content/blog-authors");
   const postIndex = await getListPage("content/blog/_index.md");
 
   return {

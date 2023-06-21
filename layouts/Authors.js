@@ -30,7 +30,7 @@ const Authors = ({ authors }) => {
             <div className="col-8 2xl:col-7">
               <h3 className="h4 mb-2">
                 <Link
-                  href={`/authors/${author.slug}`}
+                  href={`/blog/authors/${author.slug}`}
                   className="block hover:text-primary"
                 >
                   {author.frontmatter.title}

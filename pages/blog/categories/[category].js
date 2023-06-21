@@ -52,7 +52,7 @@ export const getStaticProps = ({ params }) => {
       slugify(category).includes(params.category)
     )
   );
-  const authors = getSinglePage("content/authors");
+  const authors = getSinglePage("content/blog-authors");
 
   return {
     props: { posts: filterPosts, category: params.category, authors: authors },

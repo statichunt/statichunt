@@ -15,7 +15,7 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
       {posts.map((post, i) => (
         <div
           key={`post-${i}`}
-          className={`border-b border-border py-8 px-0 last:border-0 dark:border-darkmode-border ${
+          className={`border-b border-border px-0 py-8 last:border-0 dark:border-darkmode-border ${
             customColClass ? customColClass : "col-12"
           }`}
         >
@@ -67,7 +67,9 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                     )
                     .map((author, i) => (
                       <Link
-                        href={`/authors/${slugify(author.frontmatter.title)}`}
+                        href={`/blog/authors/${slugify(
+                          author.frontmatter.title
+                        )}`}
                         key={`author-${i}`}
                         className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
                       >

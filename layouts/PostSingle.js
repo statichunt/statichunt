@@ -120,7 +120,9 @@ const PostSingle = ({
                       )}
                       <h5 className="mb-4">
                         <Link
-                          href={`/authors/${slugify(author.frontmatter.title)}`}
+                          href={`/blog/authors/${slugify(
+                            author.frontmatter.title
+                          )}`}
                           className="hover:text-primary dark:hover:text-darkmode-primary"
                         >
                           {author.frontmatter.title}
@@ -172,7 +174,7 @@ const PostSingle = ({
                             )
                             .map((author, i) => (
                               <Link
-                                href={`/authors/${slugify(
+                                href={`/blog/authors/${slugify(
                                   author.frontmatter.title
                                 )}`}
                                 key={`author-${i}`}
