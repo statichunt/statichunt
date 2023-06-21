@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/statichunt-themes",
+      "destination": "/authors/statichunt",
+      "permanent": true
+    }
+  ]
+}
