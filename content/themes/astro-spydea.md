@@ -1,5 +1,5 @@
 ---
-title: Spydea
+title: Spydea Astro
 download: hhttps://themefisher.com/products/spydea-astro
 github: null
 price: 79
