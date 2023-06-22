@@ -15,7 +15,15 @@ import { slugify } from "@lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 
-const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
+const Home = ({
+  frontmatter: { intro },
+  cms,
+  css,
+  ssg,
+  category,
+  themes,
+  authors,
+}) => {
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
@@ -102,7 +110,10 @@ const Home = ({ frontmatter: { intro }, cms, css, ssg, category, themes }) => {
               />
             </div>
 
-            <Themes themes={sortOrder(filteredThemes, sortAsc)} />
+            <Themes
+              themes={sortOrder(filteredThemes, sortAsc)}
+              authors={authors}
+            />
           </div>
         </main>
       </div>
@@ -121,6 +132,7 @@ export const getStaticProps = async () => {
   const css = getSinglePage("content/css");
   const category = getSinglePage("content/category");
   const themes = getSinglePage("content/themes");
+  const authors = getSinglePage("content/authors");
 
   return {
     props: {
@@ -130,6 +142,7 @@ export const getStaticProps = async () => {
       css: css,
       category: category,
       themes: themes,
+      authors: authors,
     },
   };
 };

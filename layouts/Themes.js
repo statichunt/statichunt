@@ -1,7 +1,7 @@
 import ImageFallback from "@components/ImageFallback";
 import ToolsIcon from "@components/ToolsIcon";
 import { dateFormat } from "@lib/utils/dateFormat";
-import { humanize } from "@lib/utils/textConverter";
+import { humanize, slugify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -38,7 +38,7 @@ const githubDataChange = (theme) => {
   }
 };
 
-const Themes = ({ themes, customRowClass, customColClass }) => {
+const Themes = ({ themes, authors, customRowClass, customColClass }) => {
   const [item, setItem] = useState(4);
   const [page, setPage] = useState(themes.slice(0, item));
 
@@ -154,14 +154,20 @@ const Themes = ({ themes, customRowClass, customColClass }) => {
                       : githubDataChange(theme)}
                   </span>
                 </div>
-                <span className="text-xs text-dark dark:text-light">
+                <span className="text-xs">
                   by{" "}
-                  {theme.frontmatter?.author === "Statichunt" ? (
+                  {authors
+                    .map((author) => author.slug)
+                    .includes(slugify(theme.frontmatter?.author)) ? (
                     <Link
-                      href="/authors/statichunt"
-                      className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent"
+                      href={`/authors/${slugify(theme.frontmatter?.author)}`}
+                      className={`${
+                        theme.frontmatter?.author === "Statichunt"
+                          ? "bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent"
+                          : "hover:underline"
+                      }`}
                     >
-                      Statichunt
+                      {theme.frontmatter?.author}
                     </Link>
                   ) : theme.frontmatter?.author ? (
                     theme.frontmatter?.author

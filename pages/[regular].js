@@ -32,6 +32,7 @@ const RegularPages = ({
   data,
   mdxContent,
   category,
+  authors,
 }) => {
   const isExamples = slug.includes("-examples");
   const {
@@ -117,6 +118,7 @@ const RegularPages = ({
             currentPage={currentPage}
             data={sortOrder(filteredThemes, sortAsc)}
             showIntro={showIntro}
+            authors={authors}
           />
         </div>
       ) : toolsCategorySlug.includes(slug) ? (
@@ -159,6 +161,8 @@ export const getStaticPaths = async () => {
 // for regular page data
 export const getStaticProps = async ({ params }) => {
   const { regular } = params;
+
+  const authors = getSinglePage("content/authors");
 
   // get taxonomies
   const ssg = getSinglePage("content/ssg");
@@ -241,6 +245,7 @@ export const getStaticProps = async ({ params }) => {
       data: currentPageData,
       mdxContent: mdxContent,
       category: category,
+      authors: authors,
     },
   };
 };

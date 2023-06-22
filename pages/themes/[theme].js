@@ -8,10 +8,10 @@ import { getSinglePage, getSinglePageSlug } from "@lib/contentParser";
 import { similerItems } from "@lib/utils/similarItems";
 import { markdownify, plainify } from "@lib/utils/textConverter";
 
-const SingleTheme = ({ slug, theme, allTheme }) => {
+const SingleTheme = ({ slug, theme, themes, authors }) => {
   const { frontmatter, content } = theme[0];
   const { title, description, meta_title, noindex, canonical } = frontmatter;
-  const similarThemes = similerItems(theme, allTheme, slug);
+  const similarThemes = similerItems(theme, themes, slug);
   return (
     <Base
       title={plainify(title)}
@@ -53,6 +53,7 @@ const SingleTheme = ({ slug, theme, allTheme }) => {
                 customRowClass="row justify-center !overflow-hidden"
                 customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"
                 themes={similarThemes.slice(0, 4)}
+                authors={authors}
               />
             </div>
           )}
@@ -81,14 +82,16 @@ export const getStaticPaths = () => {
 
 export const getStaticProps = ({ params }) => {
   const { theme } = params;
-  const allTheme = getSinglePage("content/themes");
-  const singleTheme = allTheme.filter((data) => data.slug == theme);
+  const themes = getSinglePage("content/themes");
+  const singleTheme = themes.filter((data) => data.slug === theme);
+  const authors = getSinglePage("content/authors");
 
   return {
     props: {
       theme: singleTheme,
-      allTheme: allTheme,
+      themes: themes,
       slug: theme,
+      authors: authors,
     },
   };
 };
