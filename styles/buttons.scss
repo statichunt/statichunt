@@ -24,10 +24,6 @@
   }
 }
 
-.btn-follow {
-  @apply ml-3 rounded-full bg-[#7288da] px-3 py-1 text-center text-xs text-white transition sm:ml-5;
-}
-
 .btn-demo {
   @apply border border-primary/25 from-primary to-secondary text-primary hover:bg-gradient-to-r hover:text-white dark:text-darkmode-primary;
   @apply dark:text-white;

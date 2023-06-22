@@ -10,7 +10,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { FaDiscord } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 const Search = dynamic(() => import("@components/search/Search"));
 
 const Header = () => {
@@ -75,17 +75,16 @@ const Header = () => {
               width={164}
             />
             <a
-              className="btn-follow hidden md:inline lg:hidden xl:inline"
-              href="https://discord.gg/ph9z267TBZ"
+              className="ml-3 mt-1 hidden rounded-full bg-[#21262e] px-3 py-1 text-center text-xs text-white transition dark:bg-[#f5f7f9] dark:text-dark sm:ml-5 md:inline lg:hidden xl:inline"
+              href="https://github.com/statichunt/statichunt"
               target="_blank"
               rel="nofollow noreferrer"
             >
-              {/* <span className="hidden not-italic md:inline">Join </span> */}
               <span>
                 <span className="mr-1 inline-block">
-                  <FaDiscord />
+                  <FaStar className="mb-0.5" />
                 </span>
-                Community
+                Give a Star
               </span>
             </a>
           </div>
