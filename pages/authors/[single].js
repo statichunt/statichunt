@@ -8,7 +8,7 @@ import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 
 // for all regular pages
-const ThemeAuthor = ({ author, mdxContent, themes, slug }) => {
+const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
   const { content, frontmatter } = author[0];
   const { title, meta_title, description, image, noindex, canonical } =
     frontmatter;
@@ -37,7 +37,7 @@ const ThemeAuthor = ({ author, mdxContent, themes, slug }) => {
               </div>
             </div>
           </div>
-          <Themes themes={filterThemeByAuthor} />
+          <Themes themes={filterThemeByAuthor} authors={authors} />
         </div>
       </section>
     </Base>
@@ -75,6 +75,7 @@ export const getStaticProps = async ({ params }) => {
       mdxContent: mdxContent,
       slug: single,
       themes: themes,
+      authors: authors,
     },
   };
 };
