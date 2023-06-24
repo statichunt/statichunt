@@ -19,6 +19,7 @@ Statichunt is an open-source JAMStack directory that enlists hundreds of themes,
 <Event date="" title=" 🚀  NextJs Version Released - 1st September 2022 "> We released a new version of Statichunt, using NextJs. It was a big step forward for us and we were excited about the possibilities it opened up </Event>
 <Event date="" title=" 🪄 First Contributor - 6th September 2022 "> We were delighted to welcome our first community contributor, <a href="https://github.com/olivier3lanc" target="_blank">olivier3lanc</a>. It was great to see others getting involved and helping us to make Statichunt even better. </Event>
 <Event date="" title=" 🏆 1,000 Monthly Users Milestone - 29th January 2023 "> We were thrilled to reach the milestone of having 1000 monthly active users. It was a testament to the hard work of our team and the value that Statichunt provides. </Event>
+<Event date="" title=" 🏆 3,000 Monthly Users Milestone - 25th May 2023 "> Statichunt has reached a major milestone of 3,000 monthly active users! Thank you to our dedicated team and incredible users. We'll continue working hard to exceed your expectations and deliver even more value in the future.</Event>
 <Event date="" title=" 🎯 10,000 Monthly Users Milestone (Loading....)  ">We're currently working towards the goal of reaching 10,000 monthly active users. It's an ambitious target, but we're excited about the challenge and the opportunities that it will bring. Stay tuned for updates!</Event>
 
 </Timeline>
@@ -29,7 +30,7 @@ Statichunt is an open-source JAMStack directory that enlists hundreds of themes,
 
 <Timeline>
 
-<Event date="" title=" 🖼️  500+ High-Quality JAMStack Themes">Added **380/500** Themes. </Event>
+<Event date="" title=" 🖼️  500+ High-Quality JAMStack Themes">Added **387/500** Themes. </Event>
 <Event date="" title=" ⚙️  150+ JAMStack Tools & Resources "> Added **107/150** Tools.</Event>
 <Event date="" title=" 🖼️  Release 3 High-Quality JAMStack Themes Made By Statichunt Team ">Released **0/3** Themes. </Event>
 <Event date="" title=" 💡 100+ JAMStack Example Websites ">Added **65/100** Example Websites. </Event>
