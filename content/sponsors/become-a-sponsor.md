@@ -13,9 +13,9 @@ You can support and involved with this project by becoming a sponsor. Please rea
 
 ## Numbers
 
-- Visitors in May on Statichunt → 3,140
+- Visitors in June on Statichunt → 3,220
 
-- Page views in May on Statichunt → 20,464
+- Page views in June on Statichunt → 21,141
 
 - Number of JAMStack Themes → 380+
 
@@ -85,4 +85,4 @@ We have only 4 slot for Bronze Sponsorship.
 
 Make a custom one-time or recurring contribution - <a href="https://www.buymeacoffee.com/statichunt" target="_blank" rel="nofollow noopener noreferrer"> Contribute</a>
 
-For general inquiries please get in touch at hey@statichunt.com
+For general inquiries please get in touch at <hey@statichunt.com>
