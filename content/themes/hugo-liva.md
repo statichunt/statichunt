@@ -14,9 +14,9 @@ date: 2021-08-29T16:18:21.000Z
 description: Liva is a personal blog template powered by Hugo.
 draft: false
 publish_date: '2019-10-30T05:03:31Z'
-update_date: '2023-05-20T07:59:56Z'
-github_star: 217
-github_fork: 224
+update_date: '2023-06-21T07:13:50Z'
+github_star: 223
+github_fork: 228
 ---
 ## Key Features :
 

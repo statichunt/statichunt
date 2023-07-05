@@ -20,9 +20,9 @@ description: >-
   functional, users can order items and also payments throw this theme.
 draft: false
 publish_date: '2019-10-20T04:33:46Z'
-update_date: '2023-05-20T04:45:29Z'
-github_star: 108
-github_fork: 156
+update_date: '2023-06-21T06:50:04Z'
+github_star: 109
+github_fork: 155
 ---
 ## Key Features :
 
