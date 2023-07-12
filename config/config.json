@@ -21,9 +21,9 @@
 
   "announcement": {
     "enable": true,
-    "name": "Astroplate Announcement",
-    "link": "https://statichunt.com/themes/nextjs-nextplate?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
-    "content": "👉 Checkout **Nextplate** - Newly added Nextjs + TailwindCSS + TypeScript Starter and Boilerplate.🔥"
+    "name": "Hugoplate Announcement",
+    "link": "https://statichunt.com/themes/hugo-hugoplate?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
+    "content": "👉 Checkout **Hugoplate** - Newly added Free Starter Template built with Hugo & TailwindCSS 🔥"
   },
 
   "params": {

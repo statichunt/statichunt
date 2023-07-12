@@ -26,7 +26,8 @@ github_fork: 1
 
 ## Key Features :
 
-- Multi-Authors
+- Multi-Authors Support
+- Multilingual Support
 - Similar Posts Suggestion
 - Search Functionality
 - Dark Mode
@@ -37,3 +38,4 @@ github_fork: 1
 - Write and update content in Markdown
 - Disqus Comment
 - Syntax Highlighting
+- And more...
