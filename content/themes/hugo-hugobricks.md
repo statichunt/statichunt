@@ -8,10 +8,8 @@ ssg:
   - Hugo
 cms:
   - Markdown
-css:
-  - Tailwind
-category:
-  - Boilerplate
+  - Cloudcannon
+  - Usecue
 date: 2023-07-13T00:00:00.000Z
 description: >-
   Hugobricks is a free website theme for Hugo. It makes building Hugo websites
