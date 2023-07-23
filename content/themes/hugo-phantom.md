@@ -1,7 +1,7 @@
 ---
 title: Phantom
 download: https://gethugothemes.com/products/phantom
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/phantom/site/
 author: Gethugothemes

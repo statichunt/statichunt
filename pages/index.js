@@ -27,7 +27,7 @@ const Home = ({
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
-    themesWithOthersCategory
+    themesWithOthersCategory,
   );
 
   const {
@@ -47,9 +47,9 @@ const Home = ({
         ? filterArray.find((type) =>
             theme.frontmatter[params]
               ?.map((data) => slugify(data))
-              .includes(slugify(type))
+              .includes(slugify(type)),
           )
-        : sortedThemes
+        : sortedThemes,
     );
     return filterData;
   };
@@ -65,7 +65,7 @@ const Home = ({
     filterCategory,
     arrayCategory,
     arrayFree,
-    arrayPremium
+    arrayPremium,
   );
 
   // final themes filtering

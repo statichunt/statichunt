@@ -7,11 +7,11 @@ const ThemePreview = ({ theme, slug }) => {
   useEffect(() => {
     let previewHeader = document.querySelector(".browser-preview-header");
     let previewHeaderContent = document.querySelector(
-      ".browser-preview-header-content"
+      ".browser-preview-header-content",
     );
     let previewThumbnail = document.querySelector(`.browser-preview-thumbnail`);
     let previewHeaderButtons = document.querySelector(
-      ".browser-preview-header-buttons"
+      ".browser-preview-header-buttons",
     );
 
     document.getElementById(slug).onload = () => {
@@ -24,10 +24,10 @@ const ThemePreview = ({ theme, slug }) => {
           previewThumbnail.classList.add(`hidden`);
           previewHeader.classList.add(`browser-preview-after-loaded`);
           previewHeaderButtons.classList.add(
-            `browser-preview-header-buttons-show`
+            `browser-preview-header-buttons-show`,
           );
           previewHeaderContent.classList.add(
-            `browser-preview-header-content-hide`
+            `browser-preview-header-content-hide`,
           );
         }, 750);
       }

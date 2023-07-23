@@ -1,5 +1,5 @@
 ---
-title: Ecostate 
+title: Ecostate
 download: https://1.envato.market/k00EAL
 github: null
 price: 24
@@ -13,11 +13,12 @@ ssg:
 css:
   - Tailwind
 cms:
-   
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features:
 
 - Build with latest React (v18.0.2)

@@ -11,7 +11,7 @@ description: FlexiBlocks is a collection of multi-purpose landing pages powered 
 ssg:
   - Gatsby
 css:
-  
+
 cms:
 
 category:

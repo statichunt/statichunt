@@ -1,7 +1,7 @@
 ---
 title: Gojournal
 download: https://gethugothemes.com/products/gojournal
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/gojournal/site/
 author: Gethugothemes
@@ -22,7 +22,7 @@ draft: false
 ## Key Features :
 
 - Google PageSpeed Score 95/100 (Desktop)
-- Google analytics  support
+- Google analytics support
 - Netlify Settings Predefine
 - Forestry CMS pre-configured
 - I18n Multi-language Support Fr, En)

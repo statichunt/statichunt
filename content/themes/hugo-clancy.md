@@ -1,5 +1,5 @@
 ---
-title: Clancy 
+title: Clancy
 download: https://1.envato.market/QOargA
 github: null
 price: 49

@@ -1,7 +1,7 @@
 ---
 title: Eduzone
 download: https://1.envato.market/VyzLP6
-github: 
+github:
 price: 39
 demo: https://jekyll-eduzone.netlify.app/
 author: Themeix
@@ -13,7 +13,7 @@ ssg:
 css:
   - Bootstrap
 cms:
-  
+
 category:
   - Business
 draft: false

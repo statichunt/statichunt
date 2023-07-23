@@ -1,13 +1,13 @@
 ---
 title: Orbitor
 download: https://gethugothemes.com/products/orbitor
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/orbitor/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: Orbitor is an agency Hugo theme that comes with a simple yet charming outlook. 
+description: Orbitor is an agency Hugo theme that comes with a simple yet charming outlook.
 ssg:
   - Hugo
 css:

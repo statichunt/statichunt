@@ -40,7 +40,7 @@ const MobileSidebar = () => {
               <Link
                 href={menu.url}
                 className={`inline-block py-2 text-black transition-all duration-150 hover:text-primary dark:text-white dark:hover:text-darkmode-primary nav-${slugify(
-                  menu.name
+                  menu.name,
                 )}`}
               >
                 {menu.name}

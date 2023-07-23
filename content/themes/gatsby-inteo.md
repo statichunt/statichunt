@@ -18,8 +18,8 @@ cms: null
 category:
   - Business
 draft: false
-
 ---
+
 ## Key Features
 
 - Fully responsive design

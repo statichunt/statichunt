@@ -1,13 +1,13 @@
 ---
 title: Small Apps
 download: https://gethugothemes.com/products/small-apps
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/small-apps/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2022-12-17T00:00:00.000Z
-description: Small App is a premium landing page theme that offers a straightforward and clean design. It's an ideal theme to present your digital product, especially your mobile app. 
+description: Small App is a premium landing page theme that offers a straightforward and clean design. It's an ideal theme to present your digital product, especially your mobile app.
 ssg:
   - Hugo
 css:

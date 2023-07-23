@@ -75,7 +75,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       { array: arrayCategory, params: "category" },
       { array: arraySSG, params: "ssg" },
       { array: arrayCSS, params: "css" },
-      { array: arrayCMS, params: "cms" }
+      { array: arrayCMS, params: "cms" },
     );
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -86,7 +86,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     return themes.filter((theme) =>
       theme.frontmatter.category
         ?.map((theme) => slugify(theme))
-        .includes(slugify(item.frontmatter.title))
+        .includes(slugify(item.frontmatter.title)),
     ).length;
   };
 
@@ -119,7 +119,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
           onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
           key={`item-${i}`}
           className={`${item.selected ? "active" : ""} filter-${slugify(
-            item.frontmatter.title
+            item.frontmatter.title,
           )} ${countItems(item) < 1 ? "disabled" : ""}`}
         >
           {item.frontmatter.title}
@@ -133,7 +133,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
                 filterState.filter((data) =>
                   data.frontmatter.category
                     ?.map((d) => slugify(d))
-                    ?.includes(slugify(item.frontmatter.title))
+                    ?.includes(slugify(item.frontmatter.title)),
                 ).length
               }
             </span>

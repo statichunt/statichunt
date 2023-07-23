@@ -1,7 +1,7 @@
 ---
 title: Agico
 download: https://gethugothemes.com/products/agico
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/agico/site/
 author: Gethugothemes

@@ -1,5 +1,5 @@
 ---
-title: Oxpitan 
+title: Oxpitan
 download: https://1.envato.market/q449GY
 github: null
 price: 16
@@ -13,11 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-   
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features:
 
 - Includes 2 Home versions

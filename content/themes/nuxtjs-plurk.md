@@ -13,7 +13,7 @@ ssg:
 css:
   - Tailwind
 cms:
-  
+
 category:
   - Business
   - Portfolio

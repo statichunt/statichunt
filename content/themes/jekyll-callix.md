@@ -1,7 +1,7 @@
 ---
 title: Callix
 download: https://1.envato.market/vnGoM3
-github: 
+github:
 price: 33
 demo: https://callix.netlify.app/
 author: Theme-Downloaded

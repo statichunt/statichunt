@@ -6,7 +6,7 @@ demo: https://example.com/theme-demo
 author: Author # author name
 author_link: https://examplesite.com/ # if any
 date: 2023-01-29T00:00:00.000Z # submit date
-description: Theme short description, it will be the meta description for the theme also. 
+description: Theme short description, it will be the meta description for the theme also.
 ssg: # ssg name
   - Hugo
   - Nextjs
@@ -37,9 +37,9 @@ cms: # you can choose multiple if applicable
   - Ghost
   - Graphcms
   - Decap
-  - Spinal 
+  - Spinal
   - Markdown
-  
+
 category: # you can choose multiple if applicable
   - Business
   - Blog

@@ -1,5 +1,5 @@
 ---
-title: Pringo 
+title: Pringo
 download: https://1.envato.market/5beNqj
 github: null
 price: 24
@@ -13,11 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-   
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features:
 
 - Build with latest React (v18.2.0)

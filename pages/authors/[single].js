@@ -14,7 +14,7 @@ const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
     frontmatter;
 
   const filterThemeByAuthor = themes.filter(
-    (theme) => slugify(theme.frontmatter.author) === slug
+    (theme) => slugify(theme.frontmatter.author) === slug,
   );
 
   return (

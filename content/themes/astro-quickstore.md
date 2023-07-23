@@ -16,10 +16,10 @@ css:
 category:
   - Ecommerce
 draft: false
-publish_date: '2022-12-12T19:25:23Z'
-update_date: '2023-06-04T05:43:33Z'
-github_star: 53
-github_fork: 17
+publish_date: "2022-12-12T19:25:23Z"
+update_date: "2023-06-04T05:43:33Z"
+github_star: 55
+github_fork: 16
 ---
 
 ## Key Features
@@ -28,4 +28,5 @@ github_fork: 17
 - Great color palette
 
 **Pages**
+
 - Home

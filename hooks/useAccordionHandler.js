@@ -54,7 +54,7 @@ const useTaxonmyHandler = (themes) => {
   const filterStateFunction = (array, filterArray, taxonomy) => {
     const arrayFilter = filterArray.map((item) => {
       const filterTaxonomy = array.filter((params) =>
-        params?.frontmatter[taxonomy]?.map((el) => slugify(el)).includes(item)
+        params?.frontmatter[taxonomy]?.map((el) => slugify(el)).includes(item),
       );
 
       return {
@@ -68,11 +68,11 @@ const useTaxonmyHandler = (themes) => {
     first_params,
     second_params,
     third_params,
-    fourth_params
+    fourth_params,
   ) => {
     if (taxonomyArray[0] === first_params.params) {
       setFilterState(
-        filterStateFunction(themes, first_params.array, first_params.params)
+        filterStateFunction(themes, first_params.array, first_params.params),
       );
     } else {
       if (first_params.array.length) {
@@ -80,19 +80,19 @@ const useTaxonmyHandler = (themes) => {
           filterStateFunction(
             filterState,
             first_params.array,
-            first_params.params
-          )
+            first_params.params,
+          ),
         );
       } else {
         const filterArray_one = filterStateFunction(
           themes,
           second_params.array,
-          second_params.params
+          second_params.params,
         );
         const filterArray_two = filterStateFunction(
           filterArray_one.length ? filterArray_one : themes,
           third_params.array,
-          third_params.params
+          third_params.params,
         );
         const filterArray_three = filterStateFunction(
           filterArray_one.length
@@ -101,7 +101,7 @@ const useTaxonmyHandler = (themes) => {
             ? filterArray_two
             : themes,
           fourth_params.array,
-          fourth_params.params
+          fourth_params.params,
         );
 
         setFilterState(
@@ -109,7 +109,7 @@ const useTaxonmyHandler = (themes) => {
             ? filterArray_three
             : filterArray_two.length
             ? filterArray_two
-            : filterArray_one
+            : filterArray_one,
         );
       }
     }

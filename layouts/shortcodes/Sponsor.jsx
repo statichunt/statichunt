@@ -48,7 +48,7 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
           website: website,
           attachment: attachment,
         }),
-      }
+      },
     )
       .then((response) => response.json())
       .then((data) => {

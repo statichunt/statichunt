@@ -14,7 +14,7 @@ const AuthorSingle = ({ frontmatter, content, mdxContent, posts, authors }) => {
   const filterPostByAuthor = posts.filter((post) =>
     post.frontmatter.authors
       .map((author) => slugify(author))
-      .includes(slugify(title))
+      .includes(slugify(title)),
   );
 
   return (

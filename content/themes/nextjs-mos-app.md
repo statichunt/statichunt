@@ -16,8 +16,8 @@ archetype:
 description: >-
   This one page, fully responsive theme is for moques to display salah times and
   other activities
-publish_date: '2023-03-30T10:04:08Z'
-update_date: '2023-03-30T10:35:39Z'
+publish_date: "2023-03-30T10:04:08Z"
+update_date: "2023-03-30T10:35:39Z"
 github_star: 1
 github_fork: 0
 ---
@@ -28,8 +28,8 @@ This one page fully, responsive theme is for moques to display salah times and o
 
 ## Features
 
-* TailwindCSS & NextJS based theme
-* Fully responsive
-* Support for Google ReCaptch V3
-* Fully customisable theme
-* Customisable data through markdown files
+- TailwindCSS & NextJS based theme
+- Fully responsive
+- Support for Google ReCaptch V3
+- Fully customisable theme
+- Customisable data through markdown files

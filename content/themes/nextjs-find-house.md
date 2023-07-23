@@ -1,10 +1,10 @@
 ---
-title: Find House 
+title: Find House
 download: https://1.envato.market/XxPeZg
 github: null
 price: 14
 demo: https://findhousenextjs.vercel.app/
-author: Ib-themes 
+author: Ib-themes
 author_link: https://themeforest.net/user/ib-themes
 date: 2023-01-01T00:00:00.000Z
 description: FindHouse – Real Estate React Next JS Template. it’s a high-Quality and well organized React NextJS Template specially designed to fit all the needs of a Real Estate Business.
@@ -18,6 +18,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - 10 Home Demos

@@ -16,29 +16,29 @@ description: >-
   Northendlab is a minimal personal blog theme powered by Hugo. It has a Premium
   version on our gethugothemes site.
 draft: false
-publish_date: '2019-11-14T10:30:50Z'
-update_date: '2023-06-21T07:32:33Z'
+publish_date: "2019-11-14T10:30:50Z"
+update_date: "2023-06-21T07:32:33Z"
 github_star: 96
 github_fork: 156
 ---
 
 ## Key Features :
 
-- Google analytics support  
-- CSS and Js bundle with hugo pipe  
-- Netlify settings predefine  
-- Forestry cms pre-configured  
-- Contact form Support (formspree)  
-- Search by fuse.js and mark.js  
-- GDPR consent enable  
-- Google page speed optimized  
-- Open graph meta tag  
-- Twitter card meta tag  
-- Multiple language support (Fr, En)  
-- Multiple author support  
-- Header-search-layout (expanded, popupable)  
-- Menu alignment customized (left, right, or center )  
-- Color and fonts variable in config file  
-- Sidebar option (left, right or false)  
-- Mailchimp integrate  
+- Google analytics support
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Contact form Support (formspree)
+- Search by fuse.js and mark.js
+- GDPR consent enable
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag
+- Multiple language support (Fr, En)
+- Multiple author support
+- Header-search-layout (expanded, popupable)
+- Menu alignment customized (left, right, or center )
+- Color and fonts variable in config file
+- Sidebar option (left, right or false)
+- Mailchimp integrate
 - 5+ Premium Pages

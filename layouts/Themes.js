@@ -23,7 +23,7 @@ const githubDataChange = (theme) => {
     theme.frontmatter.update_date
       ? theme.frontmatter.update_date
       : theme.frontmatter.date,
-    "dd/MM/yy"
+    "dd/MM/yy",
   );
   const price = theme.frontmatter.price ? theme.frontmatter.price : 0;
 
@@ -48,7 +48,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
     function showViewport() {
       var width = Math.max(
         document.documentElement.clientWidth,
-        window.innerWidth || 0
+        window.innerWidth || 0,
       );
       setWindowSize(width);
     }
@@ -112,7 +112,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                         ? "Price"
                         : theme.type
                         ? theme.type
-                        : "Star"
+                        : "Star",
                     )}
                   >
                     {theme.type === "price" ? (
@@ -174,7 +174,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                   ) : (
                     theme.frontmatter?.github.match(
                       /github\.com\/([^\/]+)/,
-                      ""
+                      "",
                     )[0]
                   )}
                 </span>

@@ -18,27 +18,28 @@ description: >-
   fits any kind of SAAS Software. It is fully responsive, Superfast, and powered
   by Bootstrap.
 draft: false
-publish_date: '2021-08-09T10:25:21Z'
-update_date: '2023-06-21T07:37:14Z'
+publish_date: "2021-08-09T10:25:21Z"
+update_date: "2023-06-21T07:37:14Z"
 github_star: 65
 github_fork: 55
 ---
+
 ## Key Features :
 
-- Google analytics support  
-- image optimize with hugo pipe  
-- CSS and Js bundle with hugo pipe  
-- Netlify settings predefine  
-- Google font loads from webfont loader  
-- Color and fonts variable in config file  
-- Contact form Support (formspree)  
-- GDPR consent enable  
-- Post reading time calculator  
-- Google page speed optimized  
-- Open graph meta tag  
-- Twitter card meta tag  
-- Multiple language support (Fr, En)  
-- Multiple author and single author  
-- Forestry cms pre-configured  
-- Caching enable  
+- Google analytics support
+- image optimize with hugo pipe
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- Google font loads from webfont loader
+- Color and fonts variable in config file
+- Contact form Support (formspree)
+- GDPR consent enable
+- Post reading time calculator
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag
+- Multiple language support (Fr, En)
+- Multiple author and single author
+- Forestry cms pre-configured
+- Caching enable
 - 9+ Premium Pages

@@ -6,9 +6,9 @@ description:
 ssg:
   - Nextjs
 css:
- 
+
 cms:
- - Contentful
+  - Contentful
 category:
   - others
 draft: false

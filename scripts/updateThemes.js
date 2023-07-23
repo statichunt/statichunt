@@ -16,7 +16,7 @@ const token = process.env.GITHUB_TOKEN;
 // check github token
 if (!token) {
   throw new Error(
-    'Cannot access Github API - environment variable "GITHUB_TOKEN" is missing'
+    'Cannot access Github API - environment variable "GITHUB_TOKEN" is missing',
   );
 }
 
@@ -28,7 +28,7 @@ const axiosLimit = rateLimit(axios.create(), {
 
 // filter themes
 const filterGithubTheme = getThemes.filter(
-  (theme) => theme.frontmatter.github && !theme.frontmatter.price
+  (theme) => theme.frontmatter.github && !theme.frontmatter.price,
 );
 const themes = filterGithubTheme.map((data) => ({
   github: data.frontmatter.github,

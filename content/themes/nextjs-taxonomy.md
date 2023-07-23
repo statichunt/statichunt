@@ -16,10 +16,10 @@ cms: null
 category:
   - Boilerplate
 draft: false
-publish_date: '2022-10-18T18:15:20Z'
-update_date: '2023-04-29T17:54:14Z'
-github_star: 13978
-github_fork: 1679
+publish_date: "2022-10-18T18:15:20Z"
+update_date: "2023-04-29T17:54:14Z"
+github_star: 14195
+github_fork: 1725
 ---
 
 ## Key Features :

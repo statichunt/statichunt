@@ -9,7 +9,7 @@ const Announcement = () => {
   const { enable, name, content, link } = config.announcement;
   // cookie bar
   const [announcementClose, setAnnouncementClose] = useCookie(
-    slugify(name) + "-announcement"
+    slugify(name) + "-announcement",
   );
   const [announcementCloseState, setAnnouncementCloseState] = useState(true);
 

@@ -11,13 +11,14 @@ description: Resumo – Personal Portfolio React, NextJS Template is for many pu
 ssg:
   - Nextjs
 css:
-  
+
 cms:
-  
+
 category:
   - Portfolio
 draft: false
 ---
+
 ## Key Features :
 
 - Pixel Perfect Design

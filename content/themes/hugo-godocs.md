@@ -19,7 +19,6 @@ category:
 draft: false
 ---
 
-
 ## Key Features :
 
 - Google PageSpeed Score 90/100 (Desktop)

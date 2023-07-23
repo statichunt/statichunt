@@ -13,12 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-  
+
 category:
   - Business
 draft: false
-
 ---
+
 ## Key Features
 
 - React 17+ and Next.js 12+

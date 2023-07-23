@@ -4,20 +4,21 @@ download: https://1.envato.market/ORNxyQ
 github: null
 price: 49
 demo: https://medq-react.envytheme.com/
-author: EnvyTheme 
+author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
 description: MedQ is a clutter-free React & NextJS-based fully functional Medical template specially designed for Emergency Medical Supply eCommerce Shop.
 ssg:
   - Nextjs
 css:
-- Bootstrap 
+  - Bootstrap
 cms:
 
 category:
   - Ecommerce
 draft: false
 ---
+
 ## Key Features :
 
 - Built on pure React.js without jQuery

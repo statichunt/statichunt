@@ -18,11 +18,12 @@ description: >-
   Doks is a Hugo theme helping you build modern documentation websites that are
   secure, fast, and SEO-ready — by default.
 draft: false
-publish_date: '2020-04-15T13:37:31Z'
-update_date: '2023-06-17T13:10:54Z'
-github_star: 1634
+publish_date: "2020-04-15T13:37:31Z"
+update_date: "2023-06-17T13:10:54Z"
+github_star: 1654
 github_fork: 344
 ---
+
 ## Key Features :
 
 - Get 100 scores on Google Lighthouse by default. Doks removes unused css, prefetches links, and lazy loads images.

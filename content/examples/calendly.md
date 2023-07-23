@@ -6,7 +6,7 @@ description:
 ssg:
   - Gatsby
 css:
-  
+
 cms:
   - Contentful
 category:

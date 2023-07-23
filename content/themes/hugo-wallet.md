@@ -1,13 +1,13 @@
 ---
 title: Wallet
 download: https://gethugothemes.com/products/wallet
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/wallet/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: Wallet Hugo theme comes with a one-of-a-kind design that is ideal for corporate, business, or financial service websites.  
+description: Wallet Hugo theme comes with a one-of-a-kind design that is ideal for corporate, business, or financial service websites.
 ssg:
   - Hugo
 css:

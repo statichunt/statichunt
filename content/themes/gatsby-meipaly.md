@@ -1,5 +1,5 @@
 ---
-title: Meipaly 
+title: Meipaly
 download: https://1.envato.market/KjjmYN
 github: null
 price: 18
@@ -13,11 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-   
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features:
 
 - Includes 2 Home versions

@@ -1,7 +1,7 @@
 ---
 title: Andromeda NextJs
 download: https://themefisher.com/products/andromeda-nextjs
-demo: https://andromeda-nextjs.vercel.app/ 
+demo: https://andromeda-nextjs.vercel.app/
 price: 79
 author: Themefisher
 author_link: https://themefisher.com
@@ -22,27 +22,27 @@ draft: false
 
 ## Key Features :
 
-* 16+ Unique Pages
-* Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
-* Fast by default (95+ Google PageSpeed Score)
-* Built with Next.js and Tailwind CSS
-* Netlify setting pre-configured
-* Contact form support
-* Support OG image
-* Multi-Author
-* Video Showcase
-* Related Posts Suggestions
-* Support Disqus Comments
-* Write and update content in Markdown / MDX
-* MDX components auto import
-* Includes draft pages and posts
-* Fully responsive on desktops, tablets, and smartphones
-* SEO Friendly
-* Clean folder structure
-* Simple and easy development environment setup
-* Compatible with all modern browsers
-* Free Google fonts
-* Font Awesome icons
-* Clean code
-* Animate on scroll
-* Free Update and Lifetime Premium Support
+- 16+ Unique Pages
+- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- Fast by default (95+ Google PageSpeed Score)
+- Built with Next.js and Tailwind CSS
+- Netlify setting pre-configured
+- Contact form support
+- Support OG image
+- Multi-Author
+- Video Showcase
+- Related Posts Suggestions
+- Support Disqus Comments
+- Write and update content in Markdown / MDX
+- MDX components auto import
+- Includes draft pages and posts
+- Fully responsive on desktops, tablets, and smartphones
+- SEO Friendly
+- Clean folder structure
+- Simple and easy development environment setup
+- Compatible with all modern browsers
+- Free Google fonts
+- Font Awesome icons
+- Clean code
+- Animate on scroll
+- Free Update and Lifetime Premium Support

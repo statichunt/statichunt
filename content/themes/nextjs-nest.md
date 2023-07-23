@@ -7,7 +7,7 @@ demo: https://nest-nextjs.vercel.app/
 author: Alithemes
 author_link: https://alithemes.com/
 date: 2023-01-03T00:00:00.000Z
-description: Nest is a mulipurpose E-commerce template based on React Redux, NextJS, Bootstrap 5.x. 
+description: Nest is a mulipurpose E-commerce template based on React Redux, NextJS, Bootstrap 5.x.
 ssg:
   - Nextjs
 css:
@@ -18,6 +18,7 @@ category:
   - Ecommerce
 draft: false
 ---
+
 ## Key Features :
 
 - React, NextJs, Redux

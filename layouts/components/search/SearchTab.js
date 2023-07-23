@@ -28,7 +28,7 @@ const SearchTab = ({ themes, blogs, tools, searchModal }) => {
   const windowSize = useWindow();
   const { setIsBlog, setIsTool, setIsTheme, searchKey } = useSerachContext();
   const [isActive, setIsActive] = useState(
-    windowSize > 1024 ? "all" : "themes"
+    windowSize > 1024 ? "all" : "themes",
   );
   useEffect(() => {
     if (searchKey === "") {

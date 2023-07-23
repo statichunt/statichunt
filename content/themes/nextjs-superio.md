@@ -13,11 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-  
+
 category:
   - others
 draft: false
 ---
+
 ## Key Features :
 
 - Build with Latest Next JS (v13+)

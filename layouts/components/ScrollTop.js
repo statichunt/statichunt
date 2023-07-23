@@ -12,7 +12,7 @@ const ScrollTop = () => {
           scrollArrow.classList.remove("show");
         }
       },
-      false
+      false,
     );
   }, []);
 

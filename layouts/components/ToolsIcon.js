@@ -38,7 +38,7 @@ const ToolsIcon = ({
   const filteredTools = tools.filter((data) =>
     allTools
       .map((tool) => slugify(tool))
-      .includes(slugify(data.frontmatter.title))
+      .includes(slugify(data.frontmatter.title)),
   );
 
   const toolsLength = filteredTools.length;
@@ -69,7 +69,7 @@ const ToolsIcon = ({
                     }
                   />
                 </span>
-              )
+              ),
           )
         : toolsLength >= trim
         ? filteredTools.map(
@@ -93,7 +93,7 @@ const ToolsIcon = ({
                     }
                   />
                 </span>
-              )
+              ),
           )
         : filteredTools.map((icon, i) => (
             <span

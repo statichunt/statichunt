@@ -15,7 +15,7 @@ const Examples = ({ examples, customRowClass, customColClass }) => {
     function showViewport() {
       var width = Math.max(
         document.documentElement.clientWidth,
-        window.innerWidth || 0
+        window.innerWidth || 0,
       );
       setWindowSize(width);
     }

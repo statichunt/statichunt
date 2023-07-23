@@ -11,13 +11,14 @@ description: Molla React/Next/Graphql eCommerce template is an ultimate ecommerc
 ssg:
   - Nextjs
 css:
-  - Bootstrap 
+  - Bootstrap
 cms:
 
 category:
   - Ecommerce
 draft: false
 ---
+
 ## Key Features :
 
 - Latest ReactJS, NextJS

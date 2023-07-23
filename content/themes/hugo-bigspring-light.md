@@ -14,29 +14,30 @@ category:
   - Blog
 date: 2018-07-15T10:07:51.000Z
 description: Bigspring is a Hugo startup theme. It has a clean, minimal, fresh UI.
-publish_date: '2020-09-28T10:58:13Z'
-update_date: '2023-06-21T07:12:47Z'
-github_star: 172
-github_fork: 284
+publish_date: "2020-09-28T10:58:13Z"
+update_date: "2023-06-21T07:12:47Z"
+github_star: 173
+github_fork: 285
 draft: false
 ---
+
 ## Key Features :
 
-- Google analytics support  
-- CSS and Js bundle with hugo pipe  
-- Netlify settings predefine  
-- Forestry cms pre-configured  
-- Color and fonts variable in config file  
-- Contact form Support  
-- GDPR consent enable  
-- Google page speed optimized  
-- Open graph meta tag  
-- Twitter card meta tag  
-- Dark and Light mode available  
-- image optimize with hugo pipe  
-- Google font loads from webfont loader  
-- Multiple language support (En, De, Zh-Cn, Hi, Jp, ko, Fr, Es, Id, It, Ru)  
-- Caching enable  
-- Multiple author support  
-- 17+ Premium Pages  
+- Google analytics support
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- Forestry cms pre-configured
+- Color and fonts variable in config file
+- Contact form Support
+- GDPR consent enable
+- Google page speed optimized
+- Open graph meta tag
+- Twitter card meta tag
+- Dark and Light mode available
+- image optimize with hugo pipe
+- Google font loads from webfont loader
+- Multiple language support (En, De, Zh-Cn, Hi, Jp, ko, Fr, Es, Id, It, Ru)
+- Caching enable
+- Multiple author support
+- 17+ Premium Pages
 - Site verification support (google, bing, baidu)

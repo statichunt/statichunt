@@ -7,7 +7,7 @@ demo: https://folio.cssninja.io/home/
 author: cssninja
 author_link: https://cssninja.io/
 date: 2023-02-26T00:00:00.000Z
-description: Folio is a multi author markdown blog template that can be used for your personal, or company blog, with very limited coding knowledge, without installing any resource consuming CMS. 
+description: Folio is a multi author markdown blog template that can be used for your personal, or company blog, with very limited coding knowledge, without installing any resource consuming CMS.
 ssg:
   - Astro
 css:

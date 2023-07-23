@@ -13,9 +13,8 @@ ssg:
 css:
   - Tailwind
 cms:
-  
+
 category:
   - Portfolio
 draft: false
-
 ---

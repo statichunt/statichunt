@@ -1,5 +1,5 @@
 ---
-title: Menca 
+title: Menca
 download: https://1.envato.market/Zdo1D1
 github: null
 price: 49

@@ -17,10 +17,10 @@ description: >-
   brick on top of some image bricks and a pricing table and build a complete
   website in seconds!
 draft: false
-publish_date: '2023-06-12T12:03:41Z'
-update_date: '2023-07-13T08:57:45Z'
-github_star: 10
-github_fork: 0
+publish_date: "2023-06-12T12:03:41Z"
+update_date: "2023-07-18T22:34:11Z"
+github_star: 13
+github_fork: 1
 ---
 
 Hugobricks is a comprehensive starter theme that includes everything you need to get started with your Hugo project.

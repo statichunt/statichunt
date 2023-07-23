@@ -19,11 +19,12 @@ css:
 category:
   - Boilerplate
 draft: false
-publish_date: '2022-01-07T01:12:41Z'
-update_date: '2023-04-19T03:50:14Z'
-github_star: 678
-github_fork: 125
+publish_date: "2022-01-07T01:12:41Z"
+update_date: "2023-04-19T03:50:14Z"
+github_star: 686
+github_fork: 128
 ---
+
 ## Key Features :
 
 - Authentication

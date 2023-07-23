@@ -13,11 +13,12 @@ css:
 category:
   - Blog
 draft: false
-publish_date: '2020-04-10T19:53:00Z'
-update_date: '2023-05-13T17:28:31Z'
-github_star: 596
-github_fork: 332
+publish_date: "2020-04-10T19:53:00Z"
+update_date: "2023-05-13T17:28:31Z"
+github_star: 598
+github_fork: 333
 ---
+
 ## Key Features :
 
 - Dark mode

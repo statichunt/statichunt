@@ -23,20 +23,19 @@ weight: 1
 
 ## Key Features :
 
-- 16+ Unique Pages 
+- 16+ Unique Pages
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 - Fast by default (95+ Google PageSpeed Score)
 - Built with Tailwind CSS framework
 - Netlify setting pre-configured
 - Contact form support
 - Support OG image
-- Multi-Author 
+- Multi-Author
 - Video Showcase
-- Related Posts Suggestions 
-- Support Disqus Comments 
+- Related Posts Suggestions
+- Support Disqus Comments
 - Write and update content in Markdown / MDX
 - MDX components auto import
 - Includes draft pages and posts
 - Fully responsive on desktops, tablets, and smartphones
 - SEO Friendly
-

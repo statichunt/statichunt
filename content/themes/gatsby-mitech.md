@@ -4,7 +4,7 @@ download: https://1.envato.market/P0LDmz
 github: null
 price: 24
 demo: https://mitech.jamstacktemplates.dev/
-author: BootXperts 
+author: BootXperts
 author_link: https://hasthemes.com/
 date: 2022-12-22T00:00:00.000Z
 description: Mitech – IT Solutions And Services Company React Gatsby Template is a super-smooth and creative Website design.
@@ -18,6 +18,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - Build with latest React (v18.2.0)

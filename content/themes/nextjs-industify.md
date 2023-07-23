@@ -11,13 +11,14 @@ description: Industify is designed & developed in React with Nextjs for onepage 
 ssg:
   - Nextjs
 css:
-  
+
 cms:
-  
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - Pixel Perfect Design

@@ -11,13 +11,14 @@ description: Glax is designed & developed in React with Nextjs for single page a
 ssg:
   - Nextjs
 css:
-  
+
 cms:
-  
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - Pixel Perfect Design

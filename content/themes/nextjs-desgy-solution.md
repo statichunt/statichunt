@@ -7,17 +7,18 @@ demo: https://desgy-solutions-nextjs.netlify.app/
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2023-04-12T00:00:00.000Z
-description: A free next.js template with several additional features that is eye-catching and elegantly designed. 
+description: A free next.js template with several additional features that is eye-catching and elegantly designed.
 ssg:
   - Nextjs
 css:
-  - Tailwind 
+  - Tailwind
 cms:
 
 category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - React 18+

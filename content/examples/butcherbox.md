@@ -7,7 +7,7 @@ ssg:
   - Gatsby
 css:
 cms:
-- Contentful
+  - Contentful
 category:
   - Business
 draft: false

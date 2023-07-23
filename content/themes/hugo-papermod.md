@@ -13,11 +13,12 @@ category:
   - Portfolio
 description: A fast, clean, responsive Hugo theme based on Paper
 draft: false
-publish_date: '2020-07-21T04:45:10Z'
-update_date: '2023-07-09T05:40:43Z'
-github_star: 6690
-github_fork: 1994
+publish_date: "2020-07-21T04:45:10Z"
+update_date: "2023-07-15T06:22:30Z"
+github_star: 6748
+github_fork: 2014
 ---
+
 ## Key Features :
 
 - Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.

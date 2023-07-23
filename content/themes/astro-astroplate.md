@@ -18,23 +18,23 @@ cms:
 category:
   - Boilerplate
 draft: false
-publish_date: '2023-04-17T06:50:06Z'
-update_date: '2023-07-13T04:21:38Z'
-github_star: 79
-github_fork: 20
+publish_date: "2023-04-17T06:50:06Z"
+update_date: "2023-07-22T11:02:20Z"
+github_star: 85
+github_fork: 24
 weight: 3
 ---
 
 ## Key Features
 
-* Syntax Highlighting
-* Multi-Authors
-* Similar Posts Suggestion
-* Search Functionality
-* Dark Mode
-* Tags & Categories
-* Netlify setting pre-configured
-* Support contact form
-* Fully responsive
-* Write and update content in Markdown / MDX
-* Disqus Comment
+- Syntax Highlighting
+- Multi-Authors
+- Similar Posts Suggestion
+- Search Functionality
+- Dark Mode
+- Tags & Categories
+- Netlify setting pre-configured
+- Support contact form
+- Fully responsive
+- Write and update content in Markdown / MDX
+- Disqus Comment

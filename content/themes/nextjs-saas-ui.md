@@ -14,10 +14,10 @@ cms: null
 category:
   - Saas
 draft: false
-publish_date: '2022-07-07T09:54:16Z'
-update_date: '2023-04-29T12:34:22Z'
-github_star: 46
-github_fork: 24
+publish_date: "2022-07-07T09:54:16Z"
+update_date: "2023-04-29T12:34:22Z"
+github_star: 49
+github_fork: 25
 ---
 
 ## Key Features :

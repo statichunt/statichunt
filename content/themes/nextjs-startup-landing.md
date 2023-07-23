@@ -11,9 +11,9 @@ description: Absolutely free landing pages built with React, Next JS & Gatsby JS
 ssg:
   - Nextjs
 css:
-  
+
 cms:
-  
+
 category:
   - Business
 draft: false

@@ -6,4 +6,3 @@ page_title: "" # this is for h1 tag
 icon: /images/icons/others.svg
 url: "/others"
 ---
-

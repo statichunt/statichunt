@@ -13,12 +13,13 @@ ssg:
 css:
   - Bootstrap
 cms:
-   - Markdown
-   - Decap
+  - Markdown
+  - Decap
 category:
   - Blog
 draft: false
 ---
+
 ## Key Features :
 
 - 100% responsive, looks nice in any size of device.

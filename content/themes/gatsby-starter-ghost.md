@@ -10,8 +10,8 @@ cms:
 date: 2018-11-13T05:04:05.000Z
 description: A starter template to build lightning fast websites with Ghost & Gatsby
 draft: false
-publish_date: '2018-11-13T05:04:05Z'
-update_date: '2023-07-10T04:48:47Z'
-github_star: 1016
-github_fork: 866
+publish_date: "2018-11-13T05:04:05Z"
+update_date: "2023-07-20T09:28:44Z"
+github_star: 1018
+github_fork: 867
 ---

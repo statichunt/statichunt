@@ -54,7 +54,7 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
                 {toolsIcon(theme).map(
                   (icon) =>
                     icon !== null && (
-                      <span className="tooltip" data-tooltip={icon}>
+                      <span className="tooltip" data-tooltip={icon} key={icon}>
                         <Image
                           src={`/images/icons/${slugify(icon)}.svg`}
                           alt={icon}
@@ -68,7 +68,7 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
                           }`}
                         />
                       </span>
-                    )
+                    ),
                 )}
               </div>
             </div>

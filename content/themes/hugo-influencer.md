@@ -14,11 +14,12 @@ description: >-
   Influencer is a Hugo theme for book authors and writers. It has also Snipcart
   supports for order books and payments.
 draft: false
-publish_date: '2019-11-24T07:05:34Z'
-update_date: '2023-06-21T07:15:34Z'
+publish_date: "2019-11-24T07:05:34Z"
+update_date: "2023-06-21T07:15:34Z"
 github_star: 83
-github_fork: 75
+github_fork: 76
 ---
+
 ## Key Features :
 
 - Google analytics support

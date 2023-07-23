@@ -16,8 +16,8 @@ cms:
 category:
   - Business
 draft: false
-
 ---
+
 ## Key Features
 
 - Built on GatsbyJS 4+, React v17+, Strapi CMS, PostgreSQL, GraphQL, Bootstrap v5, and Sass

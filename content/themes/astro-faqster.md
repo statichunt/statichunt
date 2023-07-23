@@ -13,9 +13,8 @@ ssg:
 css:
   - Bulma
 cms:
-  
+
 category:
   - others
 draft: false
 ---
-

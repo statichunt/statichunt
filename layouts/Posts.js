@@ -63,12 +63,12 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                     .filter((author) =>
                       post.frontmatter.authors
                         .map((author) => slugify(author))
-                        .includes(slugify(author.frontmatter.title))
+                        .includes(slugify(author.frontmatter.title)),
                     )
                     .map((author, i) => (
                       <Link
                         href={`/blog/authors/${slugify(
-                          author.frontmatter.title
+                          author.frontmatter.title,
                         )}`}
                         key={`author-${i}`}
                         className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"

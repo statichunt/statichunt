@@ -11,13 +11,14 @@ description: Sala is a Technology & Startup, SaaS NextJS 13 template for modern 
 ssg:
   - Nextjs
 css:
-  - Bootstrap 
+  - Bootstrap
 cms:
 
 category:
   - Saas
 draft: false
 ---
+
 ## Key Features :
 
 - +27 unique home pages and landing pages

@@ -16,11 +16,12 @@ description: >-
   Boilerplate and Starter for Next.js 10+, Tailwind CSS and TypeScript. The
   perfect Next JS Tailwind CSS template to quick start your project.
 draft: false
-publish_date: '2020-07-22T19:47:35Z'
-update_date: '2023-06-07T13:05:15Z'
-github_star: 4333
-github_fork: 914
+publish_date: "2020-07-22T19:47:35Z"
+update_date: "2023-07-13T23:27:48Z"
+github_star: 4366
+github_fork: 922
 ---
+
 ## Key Features :
 
 - Nextjs.js for Static Site Generator

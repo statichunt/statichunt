@@ -14,11 +14,12 @@ category:
 date: 2018-07-15T10:07:51.000Z
 description: Omega is a landing page business template powered by Hugo.
 draft: false
-publish_date: '2020-11-23T05:55:45Z'
-update_date: '2023-06-21T07:35:31Z'
-github_star: 34
-github_fork: 61
+publish_date: "2020-11-23T05:55:45Z"
+update_date: "2023-06-21T07:35:31Z"
+github_star: 35
+github_fork: 62
 ---
+
 ## Key Features :
 
 - Dark mode available

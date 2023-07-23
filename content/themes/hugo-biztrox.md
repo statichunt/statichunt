@@ -1,7 +1,7 @@
 ---
 title: Biztrox
 download: https://gethugothemes.com/products/biztrox
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/biztrox/site/
 author: Gethugothemes

@@ -15,8 +15,8 @@ cms:
 category:
   - Portfolio
 draft: false
-publish_date: '2022-06-25T08:02:36Z'
-update_date: '2022-10-16T06:43:52Z'
+publish_date: "2022-06-25T08:02:36Z"
+update_date: "2022-10-16T06:43:52Z"
 github_star: 8
 github_fork: 24
 ---

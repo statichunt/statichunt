@@ -7,17 +7,18 @@ demo: https://voxo.vercel.app/
 author: PixelStrap
 author_link: https://themeforest.net/user/pixelstrap
 date: 2023-04-17T00:00:00.000Z
-description: Multipurpose Vue Js Ecommerce Template Admin + Email + Invoice Template 
+description: Multipurpose Vue Js Ecommerce Template Admin + Email + Invoice Template
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
 cms:
-  
+
 category:
   - Ecommerce
 draft: false
 ---
+
 ## Key Features:
 
 - Create with nuxt/vue

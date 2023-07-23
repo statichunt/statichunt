@@ -120,7 +120,9 @@ select:required:invalid {
     .line {
       @apply dark:stroke-white;
       fill: none;
-      transition: stroke-dasharray 0.4s, stroke-dashoffset 0.4s;
+      transition:
+        stroke-dasharray 0.4s,
+        stroke-dashoffset 0.4s;
       stroke: #333333;
       stroke-width: 5.5;
       stroke-linecap: round;
@@ -413,7 +415,9 @@ select:required:invalid {
     @apply relative flex items-center justify-between rounded-t bg-[#f5e1a2] px-2 py-1;
     &::before {
       @apply relative left-6 top-0 inline-block h-3 w-3 rounded-full bg-[#ffbd2d] shadow-[] content-[""];
-      box-shadow: -20px 0 0 #ff5f57, 20px 0 0 #29c940;
+      box-shadow:
+        -20px 0 0 #ff5f57,
+        20px 0 0 #29c940;
     }
     &-content {
       @apply absolute left-1/2 z-10 -translate-x-1/2 text-center text-sm dark:text-dark;
@@ -481,7 +485,10 @@ select:required:invalid {
 
   &::before {
     @apply absolute -top-[21px] left-4 block h-2 w-2 rounded-full bg-[#f44] content-[''];
-    box-shadow: 0 0 0 2px #fa5f57, 1.2em 0 0 2px #fcbc2e, 2.4em 0 0 2px #28c840;
+    box-shadow:
+      0 0 0 2px #fa5f57,
+      1.2em 0 0 2px #fcbc2e,
+      2.4em 0 0 2px #28c840;
   }
 
   &::after {

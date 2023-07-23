@@ -13,11 +13,12 @@ description: >-
   website quickly. Perfect for personal sites, blogs, or simple project
   websites.
 draft: false
-publish_date: '2015-03-02T20:04:26Z'
-update_date: '2023-07-03T02:09:32Z'
-github_star: 4747
-github_fork: 14623
+publish_date: "2015-03-02T20:04:26Z"
+update_date: "2023-07-14T04:36:57Z"
+github_star: 4759
+github_fork: 14651
 ---
+
 ## Key Features :
 
 - The primary goal of Beautiful Jekyll is to allow literally anyone to create a website in a few minutes.

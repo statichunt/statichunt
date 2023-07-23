@@ -13,9 +13,8 @@ ssg:
 css:
   - Tailwind
 cms:
-  
+
 category:
   - Business
 draft: false
-
 ---

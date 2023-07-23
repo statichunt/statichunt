@@ -20,7 +20,7 @@ const App = ({ Component, pageProps }) => {
     fetch(
       `https://fonts.googleapis.com/css2?family=${pf}${
         sf ? "&family=" + sf : ""
-      }&display=swap`
+      }&display=swap`,
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 

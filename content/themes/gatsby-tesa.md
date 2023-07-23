@@ -17,8 +17,8 @@ cms:
 category:
   - Saas
 draft: false
-
 ---
+
 ## Key Features
 
 - Built on React v17+, GatsbyJS v4.4, Strapi CMS, PostgreSQL, GraphQL, Bootstrap 5.1.3, and Sass

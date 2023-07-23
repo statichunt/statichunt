@@ -6,7 +6,7 @@ description:
 ssg:
   - Astro
 css:
- 
+
 cms:
   - Storyblok
 category:

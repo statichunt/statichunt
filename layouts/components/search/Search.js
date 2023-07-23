@@ -28,7 +28,7 @@ const Search = ({ setSearchModal, searchModal }) => {
     (e) => {
       setSearchkey(e.target.value);
     },
-    [setSearchkey]
+    [setSearchkey],
   );
   const debouncedResults = useMemo(() => {
     return debounce(handleChange, 100);

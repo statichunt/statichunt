@@ -39,7 +39,7 @@ const Authors = ({ authors }) => {
               {markdownify(
                 author.content.slice(0, 120),
                 "p",
-                "line-clamp-3 mb-2 text-sm"
+                "line-clamp-3 mb-2 text-sm",
               )}
               <Social
                 className="social-icons"

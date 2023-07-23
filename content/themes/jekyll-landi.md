@@ -7,7 +7,7 @@ demo: https://iamsabbirislam.github.io/landi-Jekyll-theme-live/
 author: TwinkleTheme
 author_link: https://themeforest.net/user/twinkletheme
 date: 2023-05-04T00:00:00.000Z
-description: Landi is a clean modern Jekyll Theme for gardening websites and their related services. 
+description: Landi is a clean modern Jekyll Theme for gardening websites and their related services.
 ssg:
   - Jekyll
 css:
@@ -18,6 +18,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features
 
 - Based on Bootstrap 5.2.x

@@ -16,9 +16,9 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
       ? arrayToolsCategory.find((type) =>
           tool.frontmatter.category
             ?.map((item) => slugify(item))
-            .includes(slugify(type))
+            .includes(slugify(type)),
         )
-      : toolsSortedByWeight
+      : toolsSortedByWeight,
   );
 
   return (

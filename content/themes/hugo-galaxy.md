@@ -1,7 +1,7 @@
 ---
 title: Galaxy
 download: https://gethugothemes.com/products/galaxy
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/galaxy/site/
 author: Gethugothemes

@@ -9,7 +9,7 @@
       "@config/*": ["config/*"],
       "@hooks/*": ["hooks/*"],
       "@json/*": ["json/*"],
-      "@lib/*": ["lib/*"],
+      "@lib/*": ["lib/*"]
     }
   }
 }

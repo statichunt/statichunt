@@ -7,7 +7,7 @@ demo: https://samartheme3.vercel.app/
 author: DexignZone
 author_link: http://www.dexignzone.com/
 date: 2022-12-21T00:00:00.000Z
-description:  Creative Agency React NextJs Template 
+description: Creative Agency React NextJs Template
 ssg:
   - Nextjs
 css:
@@ -18,6 +18,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - 3 Home Page

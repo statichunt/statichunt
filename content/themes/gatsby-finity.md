@@ -1,5 +1,5 @@
 ---
-title: Finity 
+title: Finity
 download: https://1.envato.market/e4oWJj
 github: null
 price: 16
@@ -13,12 +13,13 @@ ssg:
 css:
   - Bootstrap
 cms:
-   - Markdown
-  
+  - Markdown
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - The easiest and fastest way to create a React app with server-side rendering.

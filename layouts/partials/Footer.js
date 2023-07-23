@@ -32,7 +32,7 @@ const Footer = () => {
                     <Link
                       href={page.url}
                       className={`text-sm capitalize text-light hover:text-white footer-${slugify(
-                        page.page
+                        page.page,
                       )}`}
                       rel={page.rel}
                     >

@@ -1,5 +1,5 @@
 ---
-title: Naxos 
+title: Naxos
 download: https://1.envato.market/6eeLRq
 github: null
 price: 17
@@ -13,11 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-   
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features:
 
 - React Gatsby JS framework used

@@ -1,10 +1,10 @@
 ---
 title: About
 meta_title: About - Statichunt
-description: 
+description:
 draft: false
-
 ---
+
 Statichunt is an open-source JAMStack directory that enlists hundreds of themes, starters, and tools for static site generators submitted by the community.
 
 <br/>
@@ -46,10 +46,9 @@ We welcome your constructive input. Please tell us what makes this project excep
 
 If you love this project don't forget to click the "Star" button on [Github](https://github.com/statichunt/statichunt).
 
-## Sponsors 
+## Sponsors
 
 Support and involved with this project by [becoming a sponsor](/become-a-sponsor).
-
 
 ## Acknowledgments
 

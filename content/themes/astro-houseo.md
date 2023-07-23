@@ -13,7 +13,7 @@ ssg:
 css:
   - Bulma
 cms:
-  
+
 category:
   - Business
 draft: false

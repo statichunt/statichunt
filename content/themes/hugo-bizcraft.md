@@ -19,7 +19,6 @@ category:
 draft: false
 ---
 
-
 ## Key Features :
 
 - Page Speed (96/100)

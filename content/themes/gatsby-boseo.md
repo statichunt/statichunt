@@ -13,12 +13,13 @@ ssg:
 css:
   - Bootstrap
 cms:
-   - Markdown
-   - Strapi
+  - Markdown
+  - Strapi
 category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - Build on React Platform

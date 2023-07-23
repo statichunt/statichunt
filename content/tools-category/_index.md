@@ -1,7 +1,7 @@
 ---
 title: Category
 meta_title: "All Jamstack Tool" # this is for SEO title
-description:  "" # this is for SEO description
+description: "" # this is for SEO description
 page_title: "All Tool" # this is for h1 tag
 noindex: false
 ---

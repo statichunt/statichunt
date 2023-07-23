@@ -18,6 +18,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features
 
 - Built on Pure React v18.2.0, NextJS v12.3.0, Bootstrap v5.2.1 & Sass without jQuery

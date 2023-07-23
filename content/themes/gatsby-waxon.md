@@ -1,5 +1,5 @@
 ---
-title: Waxon 
+title: Waxon
 download: https://1.envato.market/PyyEqe
 github: null
 price: 19
@@ -13,11 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-   
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features:
 
 - Build On latest React

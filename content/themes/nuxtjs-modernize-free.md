@@ -11,7 +11,7 @@ description: Modernize Free Vuetify 3 NuxtJs Admin Dashboard Template that has e
 ssg:
   - Nuxtjs
 css:
-  
+
 cms:
 
 category:
@@ -19,6 +19,7 @@ category:
   - Dashboard
 draft: false
 ---
+
 ## Key Features :
 
 - NuxtJs 3

@@ -23,8 +23,8 @@ description: >-
   The template is wrapped up with features to create your next adventure or
   travel blog. Entice your visitors to read every single content via Milingo
   Hugo by putting your focus on consistent blogging.
-publish_date: '2021-11-06T05:57:35Z'
-update_date: '2023-06-21T07:46:32Z'
+publish_date: "2021-11-06T05:57:35Z"
+update_date: "2023-06-21T07:46:32Z"
 github_star: 7
 github_fork: 0
 draft: false

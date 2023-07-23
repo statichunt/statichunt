@@ -7,5 +7,3 @@ social:
   twitter: https://twitter.com/themefisher/
   github: https://github.com/themefisher/
 ---
-
-

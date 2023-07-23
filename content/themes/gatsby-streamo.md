@@ -1,5 +1,5 @@
 ---
-title: Streamo 
+title: Streamo
 download: https://1.envato.market/EKK1Y2
 github: null
 price: 39
@@ -13,11 +13,12 @@ ssg:
 css:
   - Tailwind
 cms:
-   
+
 category:
   - others
 draft: false
 ---
+
 ## Key Features:
 
 - Build on React Platform (v7.27.1)

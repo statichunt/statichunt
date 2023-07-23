@@ -6,7 +6,7 @@ description:
 ssg:
   - Nextjs
 css:
-  
+
 cms:
   - Contentful
 category:

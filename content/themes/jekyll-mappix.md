@@ -1,7 +1,7 @@
 ---
 title: Mappix
 download: https://1.envato.market/x9V0dx
-github: 
+github:
 price: 33
 demo: https://mappix-jekyll.netlify.app/
 author: Froxtheme

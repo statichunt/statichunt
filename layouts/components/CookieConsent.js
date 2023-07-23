@@ -15,7 +15,7 @@ const CookieConsent = () => {
   // bookmark
   const [bookmarkAccept, setBookmarkAccept] = useCookie(
     "bookmarkAccept",
-    false
+    false,
   );
   const [bookmarkAcceptState, setBookmarkAcceptState] = useState(false);
 

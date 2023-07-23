@@ -11,13 +11,14 @@ description: The Crypto Next.js Tailwind template provides a starting point for 
 ssg:
   - Nextjs
 css:
-  - Tailwind 
+  - Tailwind
 cms:
 
 category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - React 18+

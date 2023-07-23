@@ -13,12 +13,14 @@ ssg:
 css:
   - Tailwind
 cms:
-  
+
 category:
   - Ecommerce
 draft: false
 ---
+
 ## Key Features
+
 - Complete Authentication
 - Quick add to cart
 - Async full text search

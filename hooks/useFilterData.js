@@ -5,23 +5,23 @@ const useFilterData = (
   filterCategory,
   arrayCategory,
   arrayFree,
-  arrayPremium
+  arrayPremium,
 ) => {
   const filterFree = filterCategory?.filter(
-    (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0
+    (theme) => !theme.frontmatter.price || theme.frontmatter.price < 0,
   );
   const freeThemeByCategory = filterFree?.filter((theme) =>
     arrayCategory.length
       ? arrayCategory.find((type) =>
           theme.frontmatter.category
             ?.map((category) => slugify(category))
-            .includes(slugify(type))
+            .includes(slugify(type)),
         )
-      : sortedThemes
+      : sortedThemes,
   );
 
   const filterPremium = filterCategory?.filter(
-    (theme) => theme.frontmatter.price > 0
+    (theme) => theme.frontmatter.price > 0,
   );
 
   const premiumThemeByCategory = filterPremium?.filter((theme) =>
@@ -29,9 +29,9 @@ const useFilterData = (
       ? arrayCategory.find((type) =>
           theme.frontmatter.category
             ?.map((category) => slugify(category))
-            .includes(slugify(type))
+            .includes(slugify(type)),
         )
-      : sortedThemes
+      : sortedThemes,
   );
   const filteredThemes =
     arrayFree.length > 0 && arrayPremium.length > 0

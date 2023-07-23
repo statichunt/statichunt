@@ -1,7 +1,7 @@
 ---
 title: LogBook
 download: https://gethugothemes.com/products/logbook
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/logbook/site/
 author: Gethugothemes
@@ -18,7 +18,6 @@ category:
   - Blog
 draft: false
 ---
-
 
 ## Key Features :
 

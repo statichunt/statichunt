@@ -13,11 +13,12 @@ ssg:
 css:
   - Tailwind
 cms:
-  
+
 category:
   - Saas
 draft: false
 ---
+
 ## Key Features :
 
 - User authentication with Email and Social Login

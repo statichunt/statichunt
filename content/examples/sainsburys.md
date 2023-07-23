@@ -6,9 +6,9 @@ description:
 ssg:
   - Astro
 css:
-  
+
 cms:
-  
+
 category:
   - Ecommerce
 draft: false

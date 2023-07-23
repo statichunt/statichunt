@@ -14,10 +14,10 @@ cms: null
 category:
   - Blog
 draft: false
-publish_date: '2021-03-14T06:52:48Z'
-update_date: '2023-04-14T14:46:51Z'
-github_star: 2417
-github_fork: 1641
+publish_date: "2021-03-14T06:52:48Z"
+update_date: "2023-04-14T14:46:51Z"
+github_star: 2431
+github_fork: 1646
 ---
 
 ## Key Features :
@@ -30,4 +30,3 @@ github_fork: 1641
 - RSS, analytics, web vital... and much more
 - Rich config options, support English & Chinese interface
 - Built with Tailwind CSS, easy for customization
-

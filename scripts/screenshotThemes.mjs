@@ -47,7 +47,7 @@ const captureScreenshot = async (demo, slug, overwrite) => {
     await page.evaluate(
       (cookieBox) =>
         document.querySelectorAll(cookieBox).forEach((el) => el.remove()),
-      cookieBox
+      cookieBox,
     );
 
     await page.screenshot({ path: imagePath });
@@ -68,5 +68,5 @@ const generateScreenshots = async (themes, overwrite) => {
 
 generateScreenshots(
   themes,
-  false // overwrite value
+  false, // overwrite value
 );

@@ -1,5 +1,5 @@
 ---
-title: Modernize Nuxt Js Admin Dashboard 
+title: Modernize Nuxt Js Admin Dashboard
 download: https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/
 github: null
 price: 59
@@ -11,7 +11,7 @@ description: Modernize Nuxt Js Admin Dashboard is the most powerful and develope
 ssg:
   - Nuxtjs
 css:
-  
+
 cms:
 
 category:
@@ -19,6 +19,7 @@ category:
   - Dashboard
 draft: false
 ---
+
 ## Key Features :
 
 - Easy Folder Structure

@@ -55,7 +55,7 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
               <button
                 onClick={() =>
                   setArrayPremium(
-                    arrayPremium.length === 0 ? filterPremium : []
+                    arrayPremium.length === 0 ? filterPremium : [],
                   )
                 }
                 className={`sidebar-checkbox ${

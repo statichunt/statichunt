@@ -1,7 +1,7 @@
 ---
 title: Agen
 download: https://gethugothemes.com/products/agen
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/agen/site/
 author: Gethugothemes

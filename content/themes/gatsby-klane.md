@@ -7,7 +7,7 @@ demo: https://klane-gatsby.hibotheme.com/creative-agency/
 author: HiboTheme
 author_link: https://hibotheme.com/
 date: 2022-12-29T00:00:00.000Z
-description: Klane is a new modern React GatsbyJS template for Multipurpose Business Landing websites.  
+description: Klane is a new modern React GatsbyJS template for Multipurpose Business Landing websites.
 ssg:
   - Gatsby
 css:
@@ -17,6 +17,7 @@ category:
   - Bussiness
 draft: false
 ---
+
 ## Key Features
 
 - 10+ Landing Page Demo Variations.

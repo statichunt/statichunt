@@ -23,10 +23,10 @@ const getSinglePageData = (folder, includeDrafts) => {
   const sanitizeData = getPath.filter((item) => item.includes(".md"));
   const filterData = sanitizeData.filter((item) => item.match(/^(?!_)/));
   const allPages = filterData.map((filename) =>
-    getListPageData(folder, filename)
+    getListPageData(folder, filename),
   );
   const publishedPages = allPages.filter(
-    (page) => !page.frontmatter?.draft && page
+    (page) => !page.frontmatter?.draft && page,
   );
   return includeDrafts ? allPages : publishedPages;
 };

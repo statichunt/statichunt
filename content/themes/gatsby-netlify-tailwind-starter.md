@@ -15,11 +15,12 @@ cms:
 category:
   - Portfolio
 draft: false
-publish_date: '2021-09-18T12:33:25Z'
-update_date: '2021-10-12T20:01:59Z'
+publish_date: "2021-09-18T12:33:25Z"
+update_date: "2021-10-12T20:01:59Z"
 github_star: 20
-github_fork: 14
+github_fork: 15
 ---
+
 ## Key Features :
 
 - Gatsby v3

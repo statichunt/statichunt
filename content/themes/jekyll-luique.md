@@ -7,7 +7,7 @@ demo: https://luique-jekyll.netlify.app/
 author: bslthemes
 author_link: https://bslthemes.com/
 date: 2023-05-04T00:00:00.000Z
-description: Luique – Personal Portfolio Jekyll Theme its suitable for Designer, Developer, Programmer, Freelancer, Artist, Photographer & Can be use for Personal Portfolio. 
+description: Luique – Personal Portfolio Jekyll Theme its suitable for Designer, Developer, Programmer, Freelancer, Artist, Photographer & Can be use for Personal Portfolio.
 ssg:
   - Jekyll
 css:
@@ -18,6 +18,7 @@ category:
   - Portfolio
 draft: false
 ---
+
 ## Key Features
 
 - Powered by Jekyll 4

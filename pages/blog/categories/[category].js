@@ -49,8 +49,8 @@ export const getStaticProps = ({ params }) => {
   const posts = getSinglePage("content/blog");
   const filterPosts = posts.filter((post) =>
     post.frontmatter.categories.find((category) =>
-      slugify(category).includes(params.category)
-    )
+      slugify(category).includes(params.category),
+    ),
   );
   const authors = getSinglePage("content/blog-authors");
 

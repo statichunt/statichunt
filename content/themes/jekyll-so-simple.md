@@ -12,11 +12,12 @@ cms:
 date: 2013-06-25T20:17:12.000Z
 description: A simple Jekyll theme for words and pictures.
 draft: false
-publish_date: '2013-06-25T20:17:12Z'
-update_date: '2021-09-22T02:46:52Z'
+publish_date: "2013-06-25T20:17:12Z"
+update_date: "2021-09-22T02:46:52Z"
 github_star: 1903
-github_fork: 2455
+github_fork: 2458
 ---
+
 ## Key Features :
 
 - A variety of layouts with clean and readable typography.

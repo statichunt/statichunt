@@ -15,11 +15,12 @@ category:
 date: 2019-05-13T08:18:18.000Z
 description: Kross Creative Portfolio Template
 draft: false
-publish_date: '2019-05-13T08:18:18Z'
-update_date: '2023-06-21T06:56:11Z'
+publish_date: "2019-05-13T08:18:18Z"
+update_date: "2023-06-21T06:56:11Z"
 github_star: 267
 github_fork: 385
 ---
+
 ## Key Features :
 
 - Google analytics support

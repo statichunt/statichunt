@@ -1,13 +1,13 @@
 ---
 title: Icelab
 download: https://gethugothemes.com/products/icelab
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/icelab/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: IceLab Hugo theme is ideal to represent any business as well as a lucrative portfolio. 
+description: IceLab Hugo theme is ideal to represent any business as well as a lucrative portfolio.
 ssg:
   - Hugo
 css:
@@ -25,7 +25,7 @@ draft: false
 - SEO Ready
 - Netlify Settings Predefine
 - Forestry CMS pre-configured
-- Google analytics  support
+- Google analytics support
 - Caching enabled
 - Contact form support
 - Google Map Integrated

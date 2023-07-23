@@ -1,7 +1,7 @@
 ---
 title: Delta
 download: https://gethugothemes.com/products/delta
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/delta/site/
 author: Gethugothemes

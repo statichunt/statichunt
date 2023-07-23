@@ -10,6 +10,6 @@ css:
 cms:
   - Contentful
 category:
-  
+
 draft: false
 ---

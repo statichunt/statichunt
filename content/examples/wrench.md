@@ -8,7 +8,7 @@ ssg:
 css:
   - Bootstrap
 cms:
-  
+
 category:
   - Business
 draft: false

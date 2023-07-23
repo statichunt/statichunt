@@ -7,7 +7,7 @@ demo: https://iteck-gatsby.vercel.app/home-app-landing/
 author: ThemesCamp
 author_link: https://www.themescamp.com/
 date: 2022-12-29T00:00:00.000Z
-description: Iteck is a Software & Technology Gatsby Template built with NextJs, perfect for Modeling Business Startups, IT services and digtal agencies. Responsive based on Bootstrap. 
+description: Iteck is a Software & Technology Gatsby Template built with NextJs, perfect for Modeling Business Startups, IT services and digtal agencies. Responsive based on Bootstrap.
 ssg:
   - Gatsby
 css:
@@ -17,6 +17,7 @@ category:
   - Bussiness
 draft: false
 ---
+
 ## Key Features
 
 - Ready Homepages

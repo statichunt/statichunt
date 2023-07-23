@@ -1,7 +1,7 @@
 ---
 title: Editor
 download: https://gethugothemes.com/products/editor
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/editor/site/
 author: Gethugothemes
@@ -22,7 +22,7 @@ draft: false
 ## Key Features :
 
 - Google PageSpeed Score 90/100 (Desktop)
-- Google analytics  support
+- Google analytics support
 - Multiple language support
 - Netlify Settings Predefine
 - Forestry CMS pre-configured

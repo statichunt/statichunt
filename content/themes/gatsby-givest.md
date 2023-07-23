@@ -7,7 +7,7 @@ demo: https://reactdemo.hasthemes.com/givest/index.html
 author: Code Carnival
 author_link: https://hasthemes.com/
 date: 2022-12-22T00:00:00.000Z
-description: Givest- Non Profit Gatsby Template is an exclusive web template that helps designers and web developers build a modern website for non-profit organizations. 
+description: Givest- Non Profit Gatsby Template is an exclusive web template that helps designers and web developers build a modern website for non-profit organizations.
 ssg:
   - Gatsby
 css:
@@ -18,6 +18,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
 - Build with latest React,Gatsby

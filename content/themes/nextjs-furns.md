@@ -13,11 +13,12 @@ ssg:
 css:
   - Bootstrap
 cms:
-  
+
 category:
   - Ecommerce
 draft: false
 ---
+
 ## Key Features :
 
 - Jamstack eCommerce (Headless)

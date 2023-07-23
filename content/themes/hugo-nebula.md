@@ -1,7 +1,7 @@
 ---
 title: Nebula
 download: https://gethugothemes.com/products/nebula
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/nebula/site/
 author: Gethugothemes
@@ -22,7 +22,7 @@ draft: false
 ## Key Features :
 
 - Google PageSpeed Score 97/100 (Desktop)
-- Google analytics  support
+- Google analytics support
 - Dark & Light Mode Available
 - Netlify Settings Predefine
 - Open Graph & Twitter Card meta tag

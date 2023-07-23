@@ -15,7 +15,7 @@ url: /docusaurus-themes
 examples_page_title: Docusaurus Examples
 examples_meta_title: Hand-Picked Docusaurus Examples
 examples_description: Best Docusaurus Website Examples
-examples_content: 
+examples_content:
 examples_url: "/docusaurus-examples"
 
 themes_draft: true

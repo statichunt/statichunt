@@ -15,8 +15,8 @@ description: >-
   based on Bootstrap 5. It gives a Responsive, Fast, and Smooth experience to
   the user.
 draft: false
-publish_date: '2021-08-03T11:15:25Z'
-update_date: '2023-06-21T07:34:44Z'
+publish_date: "2021-08-03T11:15:25Z"
+update_date: "2023-06-21T07:34:44Z"
 github_star: 24
-github_fork: 15
+github_fork: 16
 ---

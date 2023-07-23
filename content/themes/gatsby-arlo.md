@@ -1,5 +1,5 @@
 ---
-title: Arlo 
+title: Arlo
 download: https://1.envato.market/Y99PvP
 github: null
 price: 12
@@ -7,17 +7,18 @@ demo: https://arlo-static-demo.netlify.app/
 author: Rainbow-Themes
 author_link: https://themeforest.net/user/rainbow-themes
 date: 2023-04-16T00:00:00.000Z
-description: Arlo – Personal Portfolio React Template is for many purposes. It’s creative, minimal and clean design. 
+description: Arlo – Personal Portfolio React Template is for many purposes. It’s creative, minimal and clean design.
 ssg:
   - Gatsby
 css:
   - Bootstrap
 cms:
-   
+
 category:
   - Portfolio
 draft: false
 ---
+
 ## Key Features:
 
 - Build On latest React

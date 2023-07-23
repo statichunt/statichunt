@@ -1,7 +1,7 @@
 ---
 title: Applin
 download: https://1.envato.market/0JEkqO
-github: 
+github:
 price: 28
 demo: https://jekyll-applin.netlify.app/
 author: Themeix

@@ -13,11 +13,12 @@ description: >-
   animations. Especially designers and/or photographers will love this theme!
   Built with MDX and Theme UI.
 draft: false
-publish_date: '2018-06-02T19:41:22Z'
-update_date: '2023-06-08T14:38:12Z'
+publish_date: "2018-06-02T19:41:22Z"
+update_date: "2023-06-08T14:38:12Z"
 github_star: 1366
-github_fork: 385
+github_fork: 387
 ---
+
 ## Key Features :
 
 - Theme UI-based theming

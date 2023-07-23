@@ -7,17 +7,18 @@ demo: https://d-themes.com/vue/porto/demo-9/
 author: Don Themes
 author_link: https://themeforest.net/user/don-themes
 date: 2023-04-17T00:00:00.000Z
-description: Porto VueJS/Nuxt/Strapi eCommerce template is an ultimate ecommerce solution. It is built with VueJS, NuxtJS, VueX, Strapi, SCSS. 
+description: Porto VueJS/Nuxt/Strapi eCommerce template is an ultimate ecommerce solution. It is built with VueJS, NuxtJS, VueX, Strapi, SCSS.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
 cms:
-  
+
 category:
   - Ecommerce
 draft: false
 ---
+
 ## Key Features:
 
 - VueJS, NuxtJS, VueX

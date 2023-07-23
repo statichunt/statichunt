@@ -1,6 +1,6 @@
 ---
 title: Spydea NextJs
-download: https://themefisher.com/products/spydea-nextjs 
+download: https://themefisher.com/products/spydea-nextjs
 demo: https://spydea-nextjs.vercel.app/
 price: 79
 author: Themefisher
@@ -22,23 +22,23 @@ draft: false
 
 ## Key Features :
 
-* 17+ Unique Pages
-* Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
-* Fast by default (95+ Google PageSpeed Score)
-* Built with Tailwind CSS framework
-* Netlify setting pre-configured
-* Contact form support
-* Taxonomy support
-* Support OG image
-* Support Disqus Comments
-* Write and update content in Markdown / MDX
-* MDX components auto import
-* Fully responsive on desktops, tablets, and smartphones
-* SEO Friendly
-* Clean folder structure
-* Simple and easy development environment setup
-* Compatible with all modern browsers
-* Clean code
-* Animation on scroll
-* Free Google fonts
-* Font Awesome icons
+- 17+ Unique Pages
+- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- Fast by default (95+ Google PageSpeed Score)
+- Built with Tailwind CSS framework
+- Netlify setting pre-configured
+- Contact form support
+- Taxonomy support
+- Support OG image
+- Support Disqus Comments
+- Write and update content in Markdown / MDX
+- MDX components auto import
+- Fully responsive on desktops, tablets, and smartphones
+- SEO Friendly
+- Clean folder structure
+- Simple and easy development environment setup
+- Compatible with all modern browsers
+- Clean code
+- Animation on scroll
+- Free Google fonts
+- Font Awesome icons

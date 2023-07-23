@@ -13,20 +13,21 @@ ssg:
 css:
   - Tailwind
 cms:
-  
+
 category:
   - Business
 draft: false
 ---
+
 ## Key Features :
 
-- Responsive 
-- Search Engine Friendly 
-- Mobile Layout Included 
-- Light Template 
-- Sample content 
-- Performance Optimization 
-- Blog 
-- One Page Templates 
-- Static 
+- Responsive
+- Search Engine Friendly
+- Mobile Layout Included
+- Light Template
+- Sample content
+- Performance Optimization
+- Blog
+- One Page Templates
+- Static
 - Lazy Load effect

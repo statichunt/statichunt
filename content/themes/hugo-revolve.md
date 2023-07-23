@@ -1,7 +1,7 @@
 ---
 title: Revolve
 download: https://gethugothemes.com/products/revolve
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/revolve/site/
 author: Gethugothemes

@@ -111,7 +111,7 @@ const SidebarAccordion = ({
           { array: arraySSG, params: "ssg" },
           { array: arrayCSS, params: "css" },
           { array: arrayCMS, params: "cms" },
-          { array: arrayCategory, params: "category" }
+          { array: arrayCategory, params: "category" },
         );
         break;
       case "css":
@@ -119,7 +119,7 @@ const SidebarAccordion = ({
           { array: arrayCSS, params: "css" },
           { array: arraySSG, params: "ssg" },
           { array: arrayCMS, params: "cms" },
-          { array: arrayCategory, params: "category" }
+          { array: arrayCategory, params: "category" },
         );
         break;
       case "cms":
@@ -127,7 +127,7 @@ const SidebarAccordion = ({
           { array: arrayCMS, params: "cms" },
           { array: arraySSG, params: "ssg" },
           { array: arrayCSS, params: "css" },
-          { array: arrayCategory, params: "category" }
+          { array: arrayCategory, params: "category" },
         );
         break;
       case "category":
@@ -135,7 +135,7 @@ const SidebarAccordion = ({
           { array: arrayCategory, params: "category" },
           { array: arraySSG, params: "ssg" },
           { array: arrayCSS, params: "css" },
-          { array: arrayCMS, params: "cms" }
+          { array: arrayCMS, params: "cms" },
         );
         break;
       default:
@@ -157,7 +157,7 @@ const SidebarAccordion = ({
     return themes.filter((theme) =>
       theme.frontmatter[params]
         ?.map((theme) => slugify(theme))
-        .includes(slugify(item.frontmatter.title))
+        .includes(slugify(item.frontmatter.title)),
     ).length;
   };
 
@@ -174,7 +174,7 @@ const SidebarAccordion = ({
                 }
                 key={`item-${i}`}
                 className={`sidebar-checkbox filter-${slugify(
-                  item.frontmatter.title
+                  item.frontmatter.title,
                 )} ${item.selected ? "active" : ""}`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
@@ -202,7 +202,7 @@ const SidebarAccordion = ({
                       filterState.filter((data) =>
                         data.frontmatter[params]
                           ?.map((d) => slugify(d))
-                          ?.includes(slugify(item.frontmatter.title))
+                          ?.includes(slugify(item.frontmatter.title)),
                       ).length
                     }
                   </span>
@@ -210,7 +210,7 @@ const SidebarAccordion = ({
                   <span className="ml-auto">{countItems(params, item)}</span>
                 )}
               </button>
-            )
+            ),
         )}
     </>
   );

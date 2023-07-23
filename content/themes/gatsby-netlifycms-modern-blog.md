@@ -6,7 +6,10 @@ demo: https://gatsby-netlifycms-modern-template.netlify.app/
 author: Simar Mann Singh
 author_link: https://github.com/simarmannsingh/
 date: 2023-07-20T00:00:18.000Z
-description:  A fully-responsive blog theme built with Gatsby and NetlifyCMS (now DecapCMS), for those who prefer blazing fast sites, a fully functional CMS, complete with comments and cookies functionality out of the box.
+description: >-
+  A fully-responsive blog theme built with Gatsby and NetlifyCMS (now DecapCMS),
+  for those who prefer blazing fast sites, a fully functional CMS, complete with
+  comments and cookies functionality out of the box.
 ssg:
   - Gatsby
 css:
@@ -16,6 +19,10 @@ cms:
 category:
   - Blog
 draft: false
+publish_date: "2021-06-21T21:16:31Z"
+update_date: "2023-07-22T22:51:34Z"
+github_star: 45
+github_fork: 16
 ---
 
 ## Key Features

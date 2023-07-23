@@ -17,12 +17,13 @@ cms:
 category:
   - Saas
 draft: false
-publish_date: '2023-05-01T09:48:28Z'
-update_date: '2023-05-16T05:04:44Z'
-github_star: 33
-github_fork: 24
+publish_date: "2023-05-01T09:48:28Z"
+update_date: "2023-05-16T05:04:44Z"
+github_star: 35
+github_fork: 30
 weight: 2
 ---
+
 ## Key Features
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

@@ -11,9 +11,9 @@ description: It’s a React Gatsby based E-commerce Template that uses two Headl
 ssg:
   - Gatsby
 css:
- 
+
 cms:
-  - Prismic 
+  - Prismic
 category:
   - Ecommerce
 draft: false

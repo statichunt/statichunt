@@ -52,7 +52,7 @@ const RegularPages = ({
 
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
     themesWithOthersCategory,
-    slug
+    slug,
   );
 
   const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
@@ -63,16 +63,16 @@ const RegularPages = ({
       ? arrayCategory.find((type) =>
           theme.frontmatter.category
             ?.map((category) => slugify(category))
-            .includes(slugify(type))
+            .includes(slugify(type)),
         )
-      : sortedThemes
+      : sortedThemes,
   );
   const { filteredThemes, filterFree, filterPremium } = useFilterData(
     sortedThemes,
     filterCategory,
     arrayCategory,
     arrayFree,
-    arrayPremium
+    arrayPremium,
   );
 
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
@@ -184,7 +184,7 @@ export const getStaticProps = async ({ params }) => {
         ? page.frontmatter.examples_url === `/${regular}`
         : page.frontmatter?.url
         ? page.frontmatter.url === `/${regular}`
-        : page.slug === regular
+        : page.slug === regular,
     );
 
   // css page
@@ -193,7 +193,7 @@ export const getStaticProps = async ({ params }) => {
     css.filter((page) =>
       page.frontmatter?.url
         ? page.frontmatter.url === `/${regular}`
-        : page.slug === regular
+        : page.slug === regular,
     );
 
   // toolsCategory page
@@ -202,7 +202,7 @@ export const getStaticProps = async ({ params }) => {
     toolsCategory.filter((page) =>
       page.frontmatter?.url
         ? page.frontmatter.url === `/${regular}`
-        : page.slug === regular
+        : page.slug === regular,
     );
 
   // current page data
@@ -218,7 +218,7 @@ export const getStaticProps = async ({ params }) => {
 
   // layout filtering
   const defaultPage = currentPageData.filter(
-    (data) => !data.frontmatter.layout
+    (data) => !data.frontmatter.layout,
   );
 
   // current page
