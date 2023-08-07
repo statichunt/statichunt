@@ -1,5 +1,5 @@
-import config from "@config/config.json";
-import theme from "@config/theme.json";
+import config from "@/config/config.json";
+import theme from "@/config/theme.json";
 import { JsonContext } from "context/filterContext";
 import { SearchContext } from "context/searchContext";
 import { ThemeProvider } from "next-themes";

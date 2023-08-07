@@ -1,5 +1,5 @@
-import Base from "@layouts/Baseof";
-import { getSinglePage, getSinglePageSlug } from "@lib/contents";
+import Base from "@/layouts/Baseof";
+import { getSinglePage, getSinglePageSlug } from "@/lib/contents";
 import Image from "next/image";
 
 const Tools = ({ tool, slug }) => {

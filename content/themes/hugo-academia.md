@@ -7,7 +7,7 @@ author_link: https://themefisher.com
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -21,7 +21,7 @@ github_fork: 170
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - Multiple author available

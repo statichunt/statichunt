@@ -19,13 +19,12 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 97/100 (Desktop)
 - Supports Contact Form (Formspree)
 - 100% Responsive Design
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Semantic HTML Document Structure
 - Compatible With Modern Browsers
 - Custom Logo Support

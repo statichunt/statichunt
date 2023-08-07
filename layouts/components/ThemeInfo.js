@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import config from "@config/config.json";
-import { dateFormat } from "@lib/utils/dateFormat";
+import config from "@/config/config.json";
+import { dateFormat } from "@/lib/utils/dateFormat";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";

@@ -1,5 +1,5 @@
-import ImageFallback from "@components/ImageFallback";
-import { humanize } from "@lib/utils/textConverter";
+import ImageFallback from "@/components/ImageFallback";
+import { humanize } from "@/lib/utils/textConverter";
 
 const Tools = ({ tools }) => {
   return (

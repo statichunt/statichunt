@@ -8,7 +8,7 @@ ssg:
 css:
 
 cms:
-  - Forestry
+  - Markdown
 category:
   - Saas
 draft: false

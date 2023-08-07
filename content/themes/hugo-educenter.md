@@ -7,7 +7,7 @@ author_link: https://themefisher.com
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -29,7 +29,6 @@ draft: false
 - Google analytics support
 - CSS and Js bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Multiple author available
 - Contact form Support
 - Mailchimp integrate

@@ -1,4 +1,4 @@
-import useWindow from "@hooks/useWindow";
+import useWindow from "@/hooks/useWindow";
 import { useSerachContext } from "context/searchContext";
 import { useCallback, useEffect, useState } from "react";
 

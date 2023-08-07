@@ -1,10 +1,10 @@
-import Base from "@layouts/Baseof";
-import Themes from "@layouts/Themes";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import { getSinglePage } from "@lib/contentParser";
-import { parseMDX } from "@lib/utils/mdxParser";
-import { markdownify, slugify } from "@lib/utils/textConverter";
-import shortcodes from "@shortcodes/all";
+import Base from "@/layouts/Baseof";
+import Themes from "@/layouts/Themes";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
+import { getSinglePage } from "@/lib/contentParser";
+import { parseMDX } from "@/lib/utils/mdxParser";
+import { markdownify, slugify } from "@/lib/utils/textConverter";
+import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 
 // for all regular pages

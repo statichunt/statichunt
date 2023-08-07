@@ -23,7 +23,7 @@ github_star: 407
 github_fork: 282
 ---
 
-## Key Features :
+## Key Features
 
 - Responsive Ready.
 - Powered by Bootstrap 4.
@@ -32,5 +32,4 @@ github_fork: 282
 - Easy Customization.
 - FabForm.io static website form.
 - Google Analytics.
-- Forestry Integrated.
 - Crafted for Personal Portfolio

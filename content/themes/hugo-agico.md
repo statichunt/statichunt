@@ -19,11 +19,10 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Bootstrap Based
 - Netlify Pre Configured
-- Forestry Pre Configured
 - Multilanguage Support
 - Google Mpas Integration
 - Search Js Included

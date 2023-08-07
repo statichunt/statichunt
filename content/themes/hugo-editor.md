@@ -19,13 +19,12 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 90/100 (Desktop)
 - Google analytics support
 - Multiple language support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Contact form support
 - Search functionality included by fuse.js
 - Main taxonomy change option (tag or category)

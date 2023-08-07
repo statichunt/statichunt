@@ -7,7 +7,7 @@ author_link: https://themefisher.com
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -21,12 +21,11 @@ github_fork: 289
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - CSS and Js bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Color and fonts variable in config file
 - Contact form Support
 - GDPR consent enable

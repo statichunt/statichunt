@@ -19,11 +19,10 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Page Speed (96/100)
 - Netlify-Ready
-- Forestry-Ready(CMS)
 - SEO-Ready
 - CSS & JS Bundle With Hugo Pipe
 - Reusable Shortcodes

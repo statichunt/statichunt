@@ -1,5 +1,5 @@
-import menu from "@config/menu.json";
-import { slugify } from "@lib/utils/textConverter";
+import menu from "@/config/menu.json";
+import { slugify } from "@/lib/utils/textConverter";
 import Link from "next/link";
 import { useState } from "react";
 

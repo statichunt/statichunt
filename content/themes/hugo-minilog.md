@@ -7,7 +7,7 @@ author_link: https://statichunt.com/
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -30,7 +30,7 @@ github_fork: 0
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Image optimize with Hugo pipe
 - Google font loads from Webfont loader
@@ -47,5 +47,4 @@ draft: false
 - Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
-- Forestry cms pre-configured
 - Google analytics, Baidu analytics, Counter analytics, Matomo analytics, Plausible analytics Support

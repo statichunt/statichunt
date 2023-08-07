@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 96/100 (Desktop)
 - Multi-Author Support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Supports Contact Form (Formspree)
 - Top-header customization options
 - Google map support

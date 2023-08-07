@@ -1,4 +1,4 @@
-import { markdownify } from "@lib/utils/textConverter";
+import { markdownify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 import Gravatar from "react-gravatar";

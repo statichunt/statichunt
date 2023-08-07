@@ -1,6 +1,6 @@
-import useSearchBlog from "@hooks/useSearchBlog";
-import useSearchTheme from "@hooks/useSearchTheme";
-import useSearchTool from "@hooks/useSearchTool";
+import useSearchBlog from "@/hooks/useSearchBlog";
+import useSearchTheme from "@/hooks/useSearchTheme";
+import useSearchTool from "@/hooks/useSearchTool";
 import { useSerachContext } from "context/searchContext";
 import debounce from "lodash.debounce";
 import { useCallback, useEffect, useMemo, useRef } from "react";

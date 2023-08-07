@@ -1,4 +1,4 @@
-import { humanize } from "@lib/utils/textConverter";
+import { humanize } from "@/lib/utils/textConverter";
 import { useSerachContext } from "context/searchContext";
 import ImageFallback from "../ImageFallback";
 

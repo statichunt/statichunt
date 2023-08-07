@@ -1,6 +1,6 @@
-import config from "@config/config.json";
-import Themes from "@layouts/Themes";
-import { markdownify, slugify } from "@lib/utils/textConverter";
+import config from "@/config/config.json";
+import Themes from "@/layouts/Themes";
+import { markdownify, slugify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import {
   TbBrandGithub,

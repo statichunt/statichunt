@@ -6,7 +6,7 @@ author: Gethugothemes
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -22,12 +22,11 @@ github_star: 6
 github_fork: 9
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - CSS and jS bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - GDPR consent enable
 - Google page speed optimized
 - Open graph meta tag

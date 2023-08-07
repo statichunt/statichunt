@@ -1,6 +1,6 @@
-import config from "@config/config.json";
-import useTooltip from "@hooks/useTooltip";
-import { slugify } from "@lib/utils/textConverter";
+import config from "@/config/config.json";
+import useTooltip from "@/hooks/useTooltip";
+import { slugify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import tools from "../../.json/theme-tools.json";
 

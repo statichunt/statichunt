@@ -1,5 +1,5 @@
-import Logo from "@components/Logo";
-import config from "@config/config.json";
+import Logo from "@/components/Logo";
+import config from "@/config/config.json";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useEffect, useState } from "react";

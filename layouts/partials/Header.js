@@ -1,9 +1,9 @@
-import Logo from "@components/Logo";
-import ThemeSwitcher from "@components/ThemeSwitcher";
-import config from "@config/config.json";
-import menu from "@config/menu.json";
-import useOs from "@hooks/useOs";
-import { slugify } from "@lib/utils/textConverter";
+import Logo from "@/components/Logo";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
+import config from "@/config/config.json";
+import menu from "@/config/menu.json";
+import useOs from "@/hooks/useOs";
+import { slugify } from "@/lib/utils/textConverter";
 import { useSerachContext } from "context/searchContext";
 import { useTheme } from "next-themes";
 import dynamic from "next/dynamic";
@@ -11,7 +11,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
-const Search = dynamic(() => import("@components/search/Search"));
+const Search = dynamic(() => import("@/components/search/Search"));
 
 const Header = () => {
   // distructuring the main menu from menu object

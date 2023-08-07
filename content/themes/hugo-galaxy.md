@@ -19,13 +19,12 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 92/100 (Desktop)
 - Google analytics support
 - I18n Multiple language support(Fr, En)
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Contact form support
 - Mailchimp integrated
 - Search functionality by fuse.js

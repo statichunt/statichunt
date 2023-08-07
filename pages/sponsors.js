@@ -1,9 +1,9 @@
-import ImageDark from "@components/ImageDark";
-import Base from "@layouts/Baseof";
-import { getListPage } from "@lib/contentParser";
-import { markdownify } from "@lib/utils/textConverter";
-import MobileSidebar from "@partials/MobileSidebar";
-import shortcodes from "@shortcodes/all";
+import ImageDark from "@/components/ImageDark";
+import Base from "@/layouts/Baseof";
+import { getListPage } from "@/lib/contentParser";
+import { markdownify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
+import shortcodes from "@/shortcodes/all";
 import BuyMeACoffee from "buymeacoffee.js";
 import { MDXRemote } from "next-mdx-remote";
 import Link from "next/link";

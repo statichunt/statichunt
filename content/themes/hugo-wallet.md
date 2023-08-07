@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Page Speed (96/100)
 - Multilingual and i18n support (ES, EN)
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Google Analytics support
 - Multi-Author Support
 - Supports Contact Form (Formspree)

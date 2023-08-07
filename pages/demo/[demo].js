@@ -1,8 +1,8 @@
-import config from "@config/config.json";
-import useTooltip from "@hooks/useTooltip";
-import DemoHeader from "@layouts/partials/DemoHeader";
-import { getSinglePage, getSinglePageSlug } from "@lib/contentParser";
-import { plainify, slugify } from "@lib/utils/textConverter";
+import config from "@/config/config.json";
+import useTooltip from "@/hooks/useTooltip";
+import DemoHeader from "@/layouts/partials/DemoHeader";
+import { getSinglePage, getSinglePageSlug } from "@/lib/contentParser";
+import { plainify, slugify } from "@/lib/utils/textConverter";
 import Head from "next/head";
 import { useState } from "react";
 

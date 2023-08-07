@@ -8,7 +8,7 @@ thumbnail: themes/themefisher-hargo-hugo.jpg
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -25,7 +25,7 @@ github_star: 116
 github_fork: 155
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - CSS and Js bundle with hugo pipe

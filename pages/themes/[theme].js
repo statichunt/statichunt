@@ -1,12 +1,12 @@
-import Share from "@components/Share";
-import ThemeInfo from "@components/ThemeInfo";
-import ThemePreview from "@components/ThemePreview";
-import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import Themes from "@layouts/Themes";
-import { getSinglePage, getSinglePageSlug } from "@lib/contentParser";
-import { similerItems } from "@lib/utils/similarItems";
-import { markdownify, plainify } from "@lib/utils/textConverter";
+import Share from "@/components/Share";
+import ThemeInfo from "@/components/ThemeInfo";
+import ThemePreview from "@/components/ThemePreview";
+import Base from "@/layouts/Baseof";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
+import Themes from "@/layouts/Themes";
+import { getSinglePage, getSinglePageSlug } from "@/lib/contentParser";
+import { similerItems } from "@/lib/utils/similarItems";
+import { markdownify, plainify } from "@/lib/utils/textConverter";
 
 const SingleTheme = ({ slug, theme, themes, authors }) => {
   const { frontmatter, content } = theme[0];

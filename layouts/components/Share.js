@@ -1,4 +1,4 @@
-import config from "@config/config.json";
+import config from "@/config/config.json";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import {

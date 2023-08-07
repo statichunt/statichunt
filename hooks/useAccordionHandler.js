@@ -1,4 +1,4 @@
-import { slugify } from "@lib/utils/textConverter";
+import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 

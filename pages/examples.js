@@ -1,9 +1,9 @@
-import Base from "@layouts/Baseof";
-import Examples from "@layouts/Examples";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import { getListPage, getSinglePage } from "@lib/contentParser";
-import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
-import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
+import Base from "@/layouts/Baseof";
+import Examples from "@/layouts/Examples";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
+import { getListPage, getSinglePage } from "@/lib/contentParser";
+import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
+import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { useState } from "react";
 
 const Home = ({ frontmatter, content, examples }) => {

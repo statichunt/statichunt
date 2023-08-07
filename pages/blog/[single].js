@@ -1,6 +1,6 @@
-import PostSingle from "@layouts/PostSingle";
-import { getSinglePage } from "@lib/contentParser";
-import { parseMDX } from "@lib/utils/mdxParser";
+import PostSingle from "@/layouts/PostSingle";
+import { getSinglePage } from "@/lib/contentParser";
+import { parseMDX } from "@/lib/utils/mdxParser";
 
 // post single layout
 const Article = ({ post, posts, authors, mdxContent, slug }) => {

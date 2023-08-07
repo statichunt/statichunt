@@ -19,13 +19,12 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 87/100 (Desktop)
 - Count down available
 - Slider available
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Search Functionality using fuse.js
 - Google Analytics Support
 - Google Map support Available

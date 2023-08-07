@@ -1,8 +1,8 @@
-import Base from "@layouts/Baseof";
-import { getListPage } from "@lib/contentParser";
-import { markdownify } from "@lib/utils/textConverter";
-import MobileSidebar from "@partials/MobileSidebar";
-import shortcodes from "@shortcodes/all";
+import Base from "@/layouts/Baseof";
+import { getListPage } from "@/lib/contentParser";
+import { markdownify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
+import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Link from "next/link";
 import { useState } from "react";

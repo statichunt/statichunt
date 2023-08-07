@@ -22,13 +22,12 @@ github_star: 174
 github_fork: 266
 ---
 
-## Key Features :
+## Key Features
 
 - Multiple language support (Fr, En)
 - Google analytics support
 - CSS and JS bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Contact form Support
 - Mailchimp integrate
 - Google page speed optimized

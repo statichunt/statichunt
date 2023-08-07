@@ -1,4 +1,4 @@
-import useWindow from "@hooks/useWindow";
+import useWindow from "@/hooks/useWindow";
 import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import { useEffect, useState } from "react";

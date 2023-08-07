@@ -33,7 +33,6 @@ cms: # you can choose multiple if applicable
   - Datocms
   - Sanity
   - Contentful
-  - Forestry
   - Ghost
   - Graphcms
   - Decap

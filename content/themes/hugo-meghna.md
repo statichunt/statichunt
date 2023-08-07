@@ -8,7 +8,7 @@ thumbnail: themes/themefisher-meghna-hugo.jpg
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -24,7 +24,7 @@ github_fork: 1242
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Multilingual support. (with language selector)
 - Taxonomies

@@ -1,24 +1,24 @@
-import Sidebar from "@components/Sidebar";
-import useFilterData from "@hooks/useFilterData";
-import useThemesSort from "@hooks/useThemesSort";
-import Base from "@layouts/Baseof";
-import Default from "@layouts/Default";
-import ExampleTaxonomy from "@layouts/ExampleTaxonomy";
-import ThemeTaxonomy from "@layouts/ThemeTaxonomy";
-import ToolTaxonomy from "@layouts/ToolTaxonomy";
-import PricingFilter from "@layouts/components/PricingFilter";
-import SidebarSort from "@layouts/components/SidebarSort";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
+import Sidebar from "@/components/Sidebar";
+import useFilterData from "@/hooks/useFilterData";
+import useThemesSort from "@/hooks/useThemesSort";
+import Base from "@/layouts/Baseof";
+import Default from "@/layouts/Default";
+import ExampleTaxonomy from "@/layouts/ExampleTaxonomy";
+import ThemeTaxonomy from "@/layouts/ThemeTaxonomy";
+import ToolTaxonomy from "@/layouts/ToolTaxonomy";
+import PricingFilter from "@/layouts/components/PricingFilter";
+import SidebarSort from "@/layouts/components/SidebarSort";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import {
   getRegularPage,
   getRegularPageSlug,
   getSinglePage,
   getSinglePageSlug,
-} from "@lib/contentParser";
-import setOthersCategory from "@lib/setOthersCategory";
-import { parseMDX } from "@lib/utils/mdxParser";
-import { sortOrder } from "@lib/utils/sortFunctions";
-import { slugify } from "@lib/utils/textConverter";
+} from "@/lib/contentParser";
+import setOthersCategory from "@/lib/setOthersCategory";
+import { parseMDX } from "@/lib/utils/mdxParser";
+import { sortOrder } from "@/lib/utils/sortFunctions";
+import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 

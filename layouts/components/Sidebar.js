@@ -1,8 +1,8 @@
-import SidebarAccordion from "@components/SidebarAccordion";
-import config from "@config/config.json";
-import menu from "@config/menu.json";
-import useWindow from "@hooks/useWindow";
-import { slugify } from "@lib/utils/textConverter";
+import SidebarAccordion from "@/components/SidebarAccordion";
+import config from "@/config/config.json";
+import menu from "@/config/menu.json";
+import useWindow from "@/hooks/useWindow";
+import { slugify } from "@/lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";

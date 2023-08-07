@@ -7,7 +7,7 @@ author_link: https://statichunt.com/
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -24,13 +24,12 @@ github_fork: 64
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - Image optimize with hugo pipe
 - CSS and JS bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Google font loads from webfont loader
 - Caching enable
 - Color and fonts variable in config file

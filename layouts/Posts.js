@@ -1,7 +1,7 @@
-import ImageFallback from "@components/ImageFallback";
-import config from "@config/config.json";
-import { dateFormat } from "@lib/utils/dateFormat";
-import { humanize, slugify } from "@lib/utils/textConverter";
+import ImageFallback from "@/components/ImageFallback";
+import config from "@/config/config.json";
+import { dateFormat } from "@/lib/utils/dateFormat";
+import { humanize, slugify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 import Gravatar from "react-gravatar";

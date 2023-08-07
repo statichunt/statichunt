@@ -1,4 +1,4 @@
-import { slugify } from "@lib/utils/textConverter";
+import { slugify } from "@/lib/utils/textConverter";
 
 const useFilterData = (
   sortedThemes,

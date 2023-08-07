@@ -1,6 +1,6 @@
-import usePricingFilter from "@hooks/usePricingFilter";
-import useWindow from "@hooks/useWindow";
-import { humanize } from "@lib/utils/textConverter";
+import usePricingFilter from "@/hooks/usePricingFilter";
+import useWindow from "@/hooks/useWindow";
+import { humanize } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import { useEffect, useState } from "react";

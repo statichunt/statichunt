@@ -1,10 +1,10 @@
-import Pagination from "@components/Pagination";
-import config from "@config/config.json";
-import Authors from "@layouts/Authors";
-import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import { getListPage, getSinglePage } from "@lib/contentParser";
-import { markdownify } from "@lib/utils/textConverter";
+import Pagination from "@/components/Pagination";
+import config from "@/config/config.json";
+import Authors from "@/layouts/Authors";
+import Base from "@/layouts/Baseof";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
+import { getListPage, getSinglePage } from "@/lib/contentParser";
+import { markdownify } from "@/lib/utils/textConverter";
 
 // blog pagination
 const AuthorPagination = ({

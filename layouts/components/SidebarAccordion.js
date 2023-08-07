@@ -1,6 +1,6 @@
-import config from "@config/config.json";
-import useTaxonmyHandler from "@hooks/useAccordionHandler";
-import { slugify } from "@lib/utils/textConverter";
+import config from "@/config/config.json";
+import useTaxonmyHandler from "@/hooks/useAccordionHandler";
+import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import { useEffect, useState } from "react";

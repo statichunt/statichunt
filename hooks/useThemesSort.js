@@ -1,5 +1,5 @@
-import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
-import { reducer } from "@lib/utils/sortReducer";
+import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
+import { reducer } from "@/lib/utils/sortReducer";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useReducer, useState } from "react";
 

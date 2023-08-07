@@ -1,5 +1,5 @@
-import Tools from "@layouts/Tools";
-import { markdownify } from "@lib/utils/textConverter";
+import Tools from "@/layouts/Tools";
+import { markdownify } from "@/lib/utils/textConverter";
 
 const ToolTaxonomy = ({ data, currentPage }) => {
   const { frontmatter } = currentPage[0];

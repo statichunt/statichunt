@@ -1,4 +1,4 @@
-import { markdownify } from "@lib/utils/textConverter";
+import { markdownify } from "@/lib/utils/textConverter";
 import Typewriter from "typewriter-effect";
 
 const Intro = ({ data, toggleClass }) => {

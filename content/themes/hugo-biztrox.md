@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 93/100 (Desktop)
 - Multilingual and i18n support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Google Map integrated
 - Attractive Hero Area
 - Contact form support (Formspress)

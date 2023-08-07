@@ -19,11 +19,10 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Page Speed (93/100)
 - Netlify-Ready
-- Forestry-Ready (CMS)
 - SEO Friendly
 - Reusable Shortcodes
 - Disqus Comments

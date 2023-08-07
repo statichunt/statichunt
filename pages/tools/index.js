@@ -1,9 +1,9 @@
-import Sidebar from "@components/Sidebar";
-import Base from "@layouts/Baseof";
-import Tools from "@layouts/Tools";
-import { getListPage, getSinglePage } from "@lib/contentParser";
-import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
-import { markdownify, slugify } from "@lib/utils/textConverter";
+import Sidebar from "@/components/Sidebar";
+import Base from "@/layouts/Baseof";
+import Tools from "@/layouts/Tools";
+import { getListPage, getSinglePage } from "@/lib/contentParser";
+import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
+import { markdownify, slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 
 const ToolsList = ({ toolsCategory, tools, indexPage }) => {

@@ -1,5 +1,5 @@
-import useTaxonmyHandler from "@hooks/useAccordionHandler";
-import { slugify } from "@lib/utils/textConverter";
+import useTaxonmyHandler from "@/hooks/useAccordionHandler";
+import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useState } from "react";
 

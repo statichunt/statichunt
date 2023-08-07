@@ -9,7 +9,7 @@ ssg:
 css:
   - Bootstrap
 cms:
-  - Forestry
+  - Markdown
 category:
   - Business
 date: 2021-08-29T16:13:50.000Z
@@ -24,7 +24,7 @@ github_star: 67
 github_fork: 55
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - image optimize with hugo pipe
@@ -40,6 +40,5 @@ github_fork: 55
 - Twitter card meta tag
 - Multiple language support (Fr, En)
 - Multiple author and single author
-- Forestry cms pre-configured
 - Caching enable
 - 9+ Premium Pages

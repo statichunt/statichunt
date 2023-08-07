@@ -9,7 +9,7 @@ ssg:
 css:
   - Tailwind
 cms:
-  - Forestry
+  - Markdown
 category:
   - Agency
 draft: false

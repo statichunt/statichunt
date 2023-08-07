@@ -52,4 +52,4 @@ Support and involved with this project by [becoming a sponsor](/become-a-sponsor
 
 ## Acknowledgments
 
-This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Nextjs</a>, Deployed by <a href="https://vercel.com/" target="_blank" rel="nofollow noopener noreferrer">Vercel</a>, and Content Management by <a href="https://forestry.io/" target="_blank" rel="nofollow noopener noreferrer">Forestry</a>, Maintainer <a href="https://zeon.studio/" target="_blank">Zeon Studio</a> team.
+This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Nextjs</a>, Deployed by <a href="https://vercel.com/" target="_blank" rel="nofollow noopener noreferrer">Vercel</a>, and Content Management by <a href="https://tina.io/" target="_blank" rel="nofollow noopener noreferrer">Tina</a>, Maintainer <a href="https://zeon.studio/" target="_blank">Zeon Studio</a> team.

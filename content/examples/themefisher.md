@@ -8,7 +8,7 @@ ssg:
 css:
   - Bootstrap
 cms:
-  - Forestry
+  - Markdown
 category:
   - Marketplace
 draft: false

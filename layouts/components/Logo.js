@@ -1,4 +1,4 @@
-import config from "@config/config.json";
+import config from "@/config/config.json";
 import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import Link from "next/link";

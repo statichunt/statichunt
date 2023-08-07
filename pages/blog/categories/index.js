@@ -1,7 +1,7 @@
-import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import { getTaxonomy } from "@lib/taxonomyParser";
-import { humanize, markdownify } from "@lib/utils/textConverter";
+import Base from "@/layouts/Baseof";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
+import { getTaxonomy } from "@/lib/taxonomyParser";
+import { humanize, markdownify } from "@/lib/utils/textConverter";
 import Link from "next/link";
 
 const Categories = ({ categories }) => {

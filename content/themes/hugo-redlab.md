@@ -20,12 +20,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)
 - Google analytics support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Multiple language support(Fr, En)
 - Multi-author Support
 - Caching enabled

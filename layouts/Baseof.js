@@ -1,9 +1,9 @@
-import CookieConsent from "@components/CookieConsent";
-import ScrollTop from "@components/ScrollTop";
-import config from "@config/config.json";
-import Footer from "@layouts/partials/Footer";
-import Header from "@layouts/partials/Header";
-import { plainify } from "@lib/utils/textConverter";
+import CookieConsent from "@/components/CookieConsent";
+import ScrollTop from "@/components/ScrollTop";
+import config from "@/config/config.json";
+import Footer from "@/layouts/partials/Footer";
+import Header from "@/layouts/partials/Header";
+import { plainify } from "@/lib/utils/textConverter";
 import Head from "next/head";
 import { useRouter } from "next/router";
 

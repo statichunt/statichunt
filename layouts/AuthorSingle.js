@@ -1,8 +1,8 @@
-import Social from "@components/Social";
-import Base from "@layouts/Baseof";
-import { markdownify, slugify } from "@lib/utils/textConverter";
-import MobileSidebar from "@partials/MobileSidebar";
-import shortcodes from "@shortcodes/all";
+import Social from "@/components/Social";
+import Base from "@/layouts/Baseof";
+import { markdownify, slugify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
+import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Gravatar from "react-gravatar";
