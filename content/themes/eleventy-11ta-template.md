@@ -18,8 +18,8 @@ description: >-
   Deeply customizable, full-featured, ready to publish blog template built with
   11ty, TailwindCSS, & Alpine.js
 draft: false
-publish_date: "2020-09-19T16:11:39Z"
-update_date: "2023-05-24T01:08:52Z"
-github_star: 108
+publish_date: '2020-09-19T16:11:39Z'
+update_date: '2023-05-24T01:08:52Z'
+github_star: 110
 github_fork: 10
 ---

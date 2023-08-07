@@ -18,10 +18,10 @@ category:
   - Business
   - Saas
 draft: false
-publish_date: "2023-02-02T15:27:45Z"
-update_date: "2023-05-28T08:58:34Z"
-github_star: 409
-github_fork: 95
+publish_date: '2023-02-02T15:27:45Z'
+update_date: '2023-05-28T08:58:34Z'
+github_star: 442
+github_fork: 108
 ---
 
 ## Key Features :

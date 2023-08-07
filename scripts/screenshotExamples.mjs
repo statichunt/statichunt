@@ -3,6 +3,7 @@ import ora from "ora";
 import path from "path";
 import puppeteer from "puppeteer";
 import getExamples from "../.json/examples.json" assert { type: "json" };
+
 const spinner = ora("Loading");
 const imagesFolder = path.join(process.cwd(), "/public/examples");
 

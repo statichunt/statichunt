@@ -17,8 +17,8 @@ description: >-
   brick on top of some image bricks and a pricing table and build a complete
   website in seconds!
 draft: false
-publish_date: "2023-06-12T12:03:41Z"
-update_date: "2023-07-18T22:34:11Z"
+publish_date: '2023-06-12T12:03:41Z'
+update_date: '2023-07-30T18:09:20Z'
 github_star: 13
 github_fork: 1
 ---

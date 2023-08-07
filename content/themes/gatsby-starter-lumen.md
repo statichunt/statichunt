@@ -12,10 +12,10 @@ description: >-
   A minimal, lightweight and mobile-first starter for creating blogs uses
   Gatsby.
 draft: false
-publish_date: "2016-03-11T21:02:37Z"
-github_star: 1944
-github_fork: 677
-update_date: "2023-07-23T00:14:04Z"
+publish_date: '2016-03-11T21:02:37Z'
+github_star: 1945
+github_fork: 676
+update_date: '2023-08-06T21:31:04Z'
 ---
 
 ## Key Features :

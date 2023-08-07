@@ -16,9 +16,9 @@ description: >-
   Northendlab is a minimal personal blog theme powered by Hugo. It has a Premium
   version on our gethugothemes site.
 draft: false
-publish_date: "2019-11-14T10:30:50Z"
-update_date: "2023-06-21T07:32:33Z"
-github_star: 96
+publish_date: '2019-11-14T10:30:50Z'
+update_date: '2023-06-21T07:32:33Z'
+github_star: 99
 github_fork: 156
 ---
 

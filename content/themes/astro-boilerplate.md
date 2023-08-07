@@ -17,10 +17,10 @@ cms:
 category:
   - Boilerplate
 draft: false
-publish_date: "2022-05-03T15:17:26Z"
-update_date: "2023-06-12T16:47:36Z"
-github_star: 445
-github_fork: 164
+publish_date: '2022-05-03T15:17:26Z'
+update_date: '2023-08-05T13:35:23Z'
+github_star: 459
+github_fork: 180
 ---
 
 ## Key Features

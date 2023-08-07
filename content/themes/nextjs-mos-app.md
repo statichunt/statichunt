@@ -16,9 +16,9 @@ archetype:
 description: >-
   This one page, fully responsive theme is for moques to display salah times and
   other activities
-publish_date: "2023-03-30T10:04:08Z"
-update_date: "2023-03-30T10:35:39Z"
-github_star: 1
+publish_date: '2023-03-30T10:04:08Z'
+update_date: '2023-03-30T10:35:39Z'
+github_star: 2
 github_fork: 0
 ---
 

@@ -17,10 +17,10 @@ date: 2021-08-29T16:16:35.000Z
 description: >-
   Geeky is a Hugo personal blog theme that is fully responsive and super-fast.
   This theme is ideal for any kind of blog website and portfolio.
-publish_date: "2021-08-18T06:46:42Z"
-update_date: "2023-06-21T07:45:16Z"
-github_star: 92
-github_fork: 62
+publish_date: '2021-08-18T06:46:42Z'
+update_date: '2023-06-21T07:45:16Z'
+github_star: 95
+github_fork: 64
 draft: false
 ---
 

@@ -1,15 +1,17 @@
-#!/usr/bin/env node
-const fs = require("fs");
-const path = require("path");
-const dotenv = require("dotenv").config();
-const Spinner = require("cli-spinner").Spinner;
-const spinner = new Spinner("Loading");
-const yamlFront = require("yaml-front-matter");
-const yaml = require("js-yaml");
-const axios = require("axios");
-const rateLimit = require("axios-rate-limit");
-const parseGithubUrl = require("parse-github-url");
-const getThemes = require("../.json/themes.json");
+import axios from "axios";
+import rateLimit from "axios-rate-limit";
+import dotenv from "dotenv";
+import fs from "fs";
+import yaml from "js-yaml";
+import ora from "ora";
+import parseGithubUrl from "parse-github-url";
+import path from "path";
+import yamlFront from "yaml-front-matter";
+import getThemes from "../.json/themes.json" assert { type: "json" };
+
+dotenv.config();
+
+const spinner = ora("Loading");
 const themesFolder = path.join(process.cwd(), "/content/themes");
 const token = process.env.GITHUB_TOKEN;
 
@@ -26,10 +28,11 @@ const axiosLimit = rateLimit(axios.create(), {
   perMilliseconds: 200,
 });
 
-// filter themes
+// get all github themes
 const filterGithubTheme = getThemes.filter(
   (theme) => theme.frontmatter.github && !theme.frontmatter.price,
 );
+
 const themes = filterGithubTheme.map((data) => ({
   github: data.frontmatter.github,
   slug: data.slug,
@@ -41,18 +44,21 @@ const getRepoName = (repoUrl) => {
 };
 
 // get last commit
-const getLastCommit = (repo, branch) => {
-  return axiosLimit
-    .get(`https://api.github.com/repos/${repo}/branches/${branch}`, {
-      headers: {
-        Authorization: `Token ${token}`,
+const getLastCommit = async (repo, branch) => {
+  try {
+    const res = await axiosLimit.get(
+      `https://api.github.com/repos/${repo}/branches/${branch}`,
+      {
+        headers: {
+          Authorization: `Token ${token}`,
+        },
       },
-    })
-    .then((res) => {
-      const lastCommit = res.data.commit.commit.author.date;
-      return lastCommit;
-    })
-    .catch((err) => {});
+    );
+    const lastCommit = res.data.commit.commit.author.date;
+    return lastCommit;
+  } catch (err) {
+    return null;
+  }
 };
 
 // update frontmatter
@@ -73,9 +79,8 @@ const updateFrontmatter = (slug, update = {}) => {
 
 // fetch github data
 const updateGithubData = async (githubURL, slug) => {
-  const repo = getRepoName(githubURL);
-
   try {
+    const repo = getRepoName(githubURL);
     spinner.text = `${slug} => updating`;
     const res = await axiosLimit.get(`https://api.github.com/repos/${repo}`, {
       headers: {

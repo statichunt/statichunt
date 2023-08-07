@@ -16,10 +16,10 @@ description: >-
   Boilerplate and Starter for Next.js 10+, Tailwind CSS and TypeScript. The
   perfect Next JS Tailwind CSS template to quick start your project.
 draft: false
-publish_date: "2020-07-22T19:47:35Z"
-update_date: "2023-07-13T23:27:48Z"
-github_star: 4366
-github_fork: 922
+publish_date: '2020-07-22T19:47:35Z'
+update_date: '2023-08-05T13:23:35Z'
+github_star: 4449
+github_fork: 932
 ---
 
 ## Key Features :

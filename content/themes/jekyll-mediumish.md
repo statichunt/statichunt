@@ -10,8 +10,8 @@ cms:
 date: 2018-01-12T23:01:51.000Z
 description: Jekyll Template - Mediumish
 draft: false
-publish_date: "2018-01-12T23:01:51Z"
-update_date: "2021-10-31T15:31:51Z"
-github_star: 1152
-github_fork: 1336
+publish_date: '2018-01-12T23:01:51Z'
+update_date: '2021-10-31T15:31:51Z'
+github_star: 1154
+github_fork: 1339
 ---
