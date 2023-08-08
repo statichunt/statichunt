@@ -4,7 +4,7 @@ github: https://github.com/statichunt/geeky-astro
 demo: https://geeky-astro.vercel.app/
 author: Statichunt
 author_link: https://statichunt.com
-date: 2023-08-308T00:00:00.000Z
+date: 2023-08-08T00:00:00.000Z
 description: Geeky is a highly customizable feature-rich NextJs Blog Template.
 ssg:
   - Astro
