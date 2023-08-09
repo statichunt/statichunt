@@ -1,15 +1,12 @@
 ---
-title: Gatsby NetlifyCMS Modern-Blog (GNM)
-github: https://github.com/simarmannsingh/gatsby-netlifycms-modern-blog/
+title: Silverlux
+github: https://github.com/simarmannsingh/silverlux/
 price: 0
-demo: https://gatsby-netlifycms-modern-template.netlify.app/
+demo: https://silverlux.netlify.app/
 author: Simar Mann Singh
 author_link: https://github.com/simarmannsingh/
 date: 2023-07-20T00:00:18.000Z
-description: >-
-  A fully-responsive blog theme built with Gatsby and NetlifyCMS (now DecapCMS),
-  for those who prefer blazing fast sites, a fully functional CMS, complete with
-  comments and cookies functionality out of the box.
+description:  A fully-responsive blog theme built with Gatsby and NetlifyCMS (now DecapCMS), for those who prefer blazing fast sites, a fully functional CMS, complete with comments and cookies functionality out of the box.
 ssg:
   - Gatsby
 css:
@@ -19,16 +16,13 @@ cms:
 category:
   - Blog
 draft: false
-publish_date: '2021-06-21T21:16:31Z'
-update_date: '2023-08-07T01:48:21Z'
-github_star: 45
-github_fork: 16
 ---
 
 ## Key Features
 
 - A simple blogging web-app built with Netlify CMS
 - Editable Pages: About, Blog-Collection and Contact page with Netlify Form support
+- Search functionality
 - Custom 404 page
 - Tags support: Separate page for posts under each tag
 - Scroll to Top button on every page
@@ -38,5 +32,5 @@ github_fork: 16
 - Uses gatsby-image with Netlify-CMS preview support
 - Separate components for everything
 - Perfect score on Lighthouse for SEO, Accessibility and Performance
-- Comment and Like functionality
-- Cookie Consent
+- Comment and Like functionality via Disqus
+- Cookie Consent for GDPR
