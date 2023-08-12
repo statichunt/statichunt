@@ -14,8 +14,8 @@ description: >-
   Bookworm is a clean and modern Hugo blog theme focused on high speed and
   support multiple authors.
 draft: false
-publish_date: '2021-02-07T03:55:28Z'
-update_date: '2023-06-21T07:17:18Z'
+publish_date: "2021-02-07T03:55:28Z"
+update_date: "2023-06-21T07:17:18Z"
 github_star: 95
 github_fork: 65
 ---

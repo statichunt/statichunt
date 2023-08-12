@@ -13,10 +13,10 @@ css:
 cms: null
 category:
   - Ecommerce
-publish_date: '2021-04-26T15:20:01Z'
-update_date: '2022-12-06T17:10:03Z'
-github_star: 39
-github_fork: 18
+publish_date: "2021-04-26T15:20:01Z"
+update_date: "2022-12-06T17:10:03Z"
+github_star: 40
+github_fork: 19
 ---
 
 ## Key Features :

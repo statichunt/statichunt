@@ -19,9 +19,9 @@ css:
 category:
   - Boilerplate
 draft: false
-publish_date: '2022-01-07T01:12:41Z'
-update_date: '2023-07-31T14:13:11Z'
-github_star: 703
+publish_date: "2022-01-07T01:12:41Z"
+update_date: "2023-07-31T14:13:11Z"
+github_star: 710
 github_fork: 128
 ---
 

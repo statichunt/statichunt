@@ -12,10 +12,10 @@ description: >-
   Memoirs is a free minimalist Jekyll theme for those who love the beauty of
   simplicity.
 draft: false
-publish_date: '2020-04-04T17:09:06Z'
-update_date: '2021-10-31T15:32:15Z'
+publish_date: "2020-04-04T17:09:06Z"
+update_date: "2021-10-31T15:32:15Z"
 github_star: 325
-github_fork: 318
+github_fork: 319
 ---
 
 ## Key Features :

@@ -19,10 +19,10 @@ description: >-
   page/marketing website for your startup. Great SEO metrics, Green WebVitals,
   Performance, Clean & Pragmatic Codebase out of the box.
 draft: false
-publish_date: '2021-09-03T20:00:32Z'
-update_date: '2023-07-24T10:09:32Z'
-github_star: 794
-github_fork: 199
+publish_date: "2021-09-03T20:00:32Z"
+update_date: "2023-07-24T10:09:32Z"
+github_star: 803
+github_fork: 201
 ---
 
 ## Key Features :

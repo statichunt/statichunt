@@ -15,9 +15,9 @@ css:
 category:
   - Business
 draft: false
-publish_date: '2020-03-08T11:52:08Z'
-update_date: '2022-10-25T06:22:22Z'
-github_star: 141
+publish_date: "2020-03-08T11:52:08Z"
+update_date: "2022-10-25T06:22:22Z"
+github_star: 140
 github_fork: 165
 ---
 

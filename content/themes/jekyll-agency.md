@@ -17,8 +17,8 @@ description: >-
   Jekyll version of the newest Agency Bootstrap theme, plus new features Google
   Analytics, Markdown support, custom pages, and more!
 draft: false
-publish_date: '2019-09-30T06:04:44Z'
-update_date: '2023-05-29T19:59:40Z'
+publish_date: "2019-09-30T06:04:44Z"
+update_date: "2023-05-29T19:59:40Z"
 github_star: 264
 github_fork: 512
 ---

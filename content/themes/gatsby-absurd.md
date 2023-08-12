@@ -11,8 +11,8 @@ category: null
 date: 2019-04-21T11:32:28.000Z
 description: An absurd Gatsby starter
 draft: false
-publish_date: '2019-04-21T11:32:28Z'
-update_date: '2020-06-18T12:16:06Z'
+publish_date: "2019-04-21T11:32:28Z"
+update_date: "2020-06-18T12:16:06Z"
 github_star: 176
 github_fork: 69
 ---

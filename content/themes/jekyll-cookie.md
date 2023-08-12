@@ -18,8 +18,8 @@ description: >-
   Cookie is a Jekyll and Tailwind CSS based static website that makes the whole
   process of creating and launching landing websites extremely easy.
 draft: false
-publish_date: '2021-01-12T20:33:49Z'
-update_date: '2023-07-26T07:07:15Z'
+publish_date: "2021-01-12T20:33:49Z"
+update_date: "2023-07-26T07:07:15Z"
 github_star: 78
 github_fork: 85
 ---

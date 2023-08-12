@@ -13,10 +13,10 @@ description: >-
   website quickly. Perfect for personal sites, blogs, or simple project
   websites.
 draft: false
-publish_date: '2015-03-02T20:04:26Z'
-update_date: '2023-07-27T05:41:29Z'
-github_star: 4784
-github_fork: 14698
+publish_date: "2015-03-02T20:04:26Z"
+update_date: "2023-07-27T05:41:29Z"
+github_star: 4794
+github_fork: 14711
 ---
 
 ## Key Features :
