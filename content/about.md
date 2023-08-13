@@ -26,20 +26,6 @@ Statichunt is an open-source JAMStack directory that enlists hundreds of themes,
 
 <br/>
 
-## 🎯 Next 3 Months Roadmap - (Deadline 30th June 2023)
-
-<Timeline>
-
-<Event date="" title=" 🖼️  500+ High-Quality JAMStack Themes">Added **387/500** Themes. </Event>
-<Event date="" title=" ⚙️  150+ JAMStack Tools & Resources "> Added **107/150** Tools.</Event>
-<Event date="" title=" 🖼️  Release 3 High-Quality JAMStack Themes Made By Statichunt Team ">Released **0/3** Themes. </Event>
-<Event date="" title=" 💡 100+ JAMStack Example Websites ">Added **65/100** Example Websites. </Event>
-<Event date="" title=" ✍️ Introduce Blog"> ✅ Done </Event>
-<Event date="" title=" 🔍 Introduce Search Functionality"> ✅ Done </Event>
-<Event date="" title=" 🚀 Launch on Producthunt"> </Event>
-
-</Timeline>
-
 ## Feedback
 
 We welcome your constructive input. Please tell us what makes this project exceptional. Also, please share your feedback on this project and assist us in upgrading.
