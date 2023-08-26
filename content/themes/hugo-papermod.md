@@ -13,10 +13,10 @@ category:
   - Portfolio
 description: A fast, clean, responsive Hugo theme based on Paper
 draft: false
-publish_date: "2020-07-21T04:45:10Z"
-update_date: "2023-08-09T15:49:17Z"
-github_star: 6871
-github_fork: 2055
+publish_date: '2020-07-21T04:45:10Z'
+update_date: '2023-08-12T12:22:00Z'
+github_star: 6972
+github_fork: 2085
 ---
 
 ## Key Features :

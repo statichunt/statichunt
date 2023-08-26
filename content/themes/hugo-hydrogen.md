@@ -16,8 +16,8 @@ description: >-
   for developers. It inherited the latest structure and excluded all jquery
   dependencies. A vast amount of shortcodes are available on the element page.
 draft: false
-publish_date: "2022-01-10T07:20:44Z"
-update_date: "2023-06-21T07:47:14Z"
-github_star: 12
+publish_date: '2022-01-10T07:20:44Z'
+update_date: '2023-06-21T07:47:14Z'
+github_star: 11
 github_fork: 4
 ---

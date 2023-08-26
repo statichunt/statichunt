@@ -16,8 +16,8 @@ cms:
   - Strapi
 category:
   - Ecommerce
-publish_date: "2022-11-13T07:05:46Z"
-update_date: "2023-06-28T07:58:28Z"
-github_star: 26
+publish_date: '2022-11-13T07:05:46Z'
+update_date: '2023-06-28T07:58:28Z'
+github_star: 29
 github_fork: 11
 ---

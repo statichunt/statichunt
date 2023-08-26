@@ -15,10 +15,10 @@ cms:
 category:
   - Ecommerce
 draft: false
-publish_date: "2021-01-29T00:33:03Z"
-update_date: "2023-02-22T16:37:51Z"
-github_star: 355
-github_fork: 174
+publish_date: '2021-01-29T00:33:03Z'
+update_date: '2023-02-22T16:37:51Z'
+github_star: 359
+github_fork: 176
 ---
 
 ## Key Features:

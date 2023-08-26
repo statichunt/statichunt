@@ -14,10 +14,10 @@ description: >-
   A Minimal & Beautiful GatsbyJS Personal Blog Starter With Nice Glassmorphism
   UI
 draft: false
-publish_date: "2021-03-23T11:47:33Z"
-update_date: "2022-10-07T21:36:33Z"
-github_star: 156
-github_fork: 82
+publish_date: '2021-03-23T11:47:33Z'
+update_date: '2022-10-07T21:36:33Z'
+github_star: 157
+github_fork: 83
 ---
 
 ## Key Features :
