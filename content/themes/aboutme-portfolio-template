@@ -1,0 +1,34 @@
+---
+title: About Me - Personal Portfolio Bootstrap 5 Template
+github: https://github.com/easetemplates/about-me-personal-portfolio-website-template
+price: 0 # only for premium theme
+demo: https://preview.easetemplate.com/aboutme/
+author: Author # ease template
+author_link: https://easetemplate.com/ # if any
+date: 2023-01-29T00:00:00.000Z # submit date
+description: About me is Simple Portfolio Personal Bootstrap 5 Template, built with bootstrap and vite js project. 
+ssg: # ssg name
+  
+
+css: # css name
+
+  - Bootstrap
+  
+cms: # you can choose multiple if applicable
+  
+
+category: # you can choose multiple if applicable
+  - Business
+  - Portfolio
+    
+
+draft: false
+---
+
+## Key Features
+
+- Bootstrap 5
+- Build with Vite.js
+- Clean and Dark mode design
+- Google Font
+- One Page Website
