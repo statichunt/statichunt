@@ -18,8 +18,8 @@ description: >-
   website in seconds!
 draft: false
 publish_date: '2023-06-12T12:03:41Z'
-update_date: '2023-07-30T18:09:20Z'
-github_star: 17
+update_date: '2023-09-08T14:48:23Z'
+github_star: 18
 github_fork: 3
 ---
 

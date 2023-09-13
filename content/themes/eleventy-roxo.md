@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 publish_date: '2021-12-26T10:52:59Z'
-update_date: '2023-04-03T05:42:57Z'
-github_star: 38
+update_date: '2023-09-12T11:48:38Z'
+github_star: 37
 github_fork: 37
 ---
