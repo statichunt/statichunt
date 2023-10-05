@@ -21,9 +21,9 @@
 
   "announcement": {
     "enable": true,
-    "name": "Hugoplate Announcement",
-    "link": "https://statichunt.com/themes/hugo-hugoplate?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
-    "content": "👉 Checkout **Hugoplate** - Newly added Free Starter Template built with Hugo & TailwindCSS 🔥"
+    "name": "Spydea Astro Announcement",
+    "link": "https://statichunt.com/themes/astro-spydea?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
+    "content": "👉 Checkout **Spydea Astro** - Newly added Astro SaaS theme built with Astro & TailwindCSS 🔥"
   },
 
   "params": {
