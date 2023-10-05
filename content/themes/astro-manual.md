@@ -15,8 +15,8 @@ category:
   - Documentation
 draft: false
 publish_date: '2023-02-25T13:49:04Z'
-update_date: '2023-02-25T13:47:45Z'
-github_star: 24
+update_date: '2023-10-02T15:40:56Z'
+github_star: 26
 github_fork: 5
 ---
 

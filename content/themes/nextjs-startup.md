@@ -20,8 +20,8 @@ category:
 draft: false
 publish_date: '2023-02-02T15:27:45Z'
 update_date: '2023-05-28T08:58:34Z'
-github_star: 507
-github_fork: 130
+github_star: 532
+github_fork: 143
 ---
 
 ## Key Features :
