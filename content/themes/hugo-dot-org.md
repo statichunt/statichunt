@@ -1,11 +1,11 @@
 ---
 title: Dot-Org
 github: https://github.com/cncf/dot-org-hugo-theme
-price: 0 # only for premium theme
+price: 0
 demo: https://dot-org-hugo-theme-demo.netlify.app
 author: CNCF
 author_link: https://www.cncf.io
-date: 2023-09-17T00:00:00.000Z # submit date
+date: 2023-09-17T00:00:00.000Z
 description: Hugo theme for a small organization, developed by CNCF.
 ssg:
   - Hugo
@@ -15,8 +15,11 @@ css:
 category:
   - Business
   - Blog
-    
 draft: false
+publish_date: '2023-06-23T04:26:31Z'
+update_date: '2023-10-12T02:37:55Z'
+github_star: 14
+github_fork: 2
 ---
 
 This Hugo theme is ideal for powering the website of a small organization or project. It was built initially by [CNCF.io](https://www.cncf.io) (part of [The Linux Foundation](https://www.linuxfoundation.org)) for the [TODO Group](https://todogroup.org)

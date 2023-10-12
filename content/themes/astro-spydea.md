@@ -1,6 +1,6 @@
 ---
 title: Spydea Astro
-download: hhttps://themefisher.com/products/spydea-astro
+download: https://themefisher.com/products/spydea-astro
 github: null
 price: 79
 demo: https://spydea-astro.vercel.app/
@@ -20,7 +20,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 17+ Unique Pages
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

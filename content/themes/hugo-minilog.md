@@ -25,7 +25,7 @@ description: >-
   Hugo by putting your focus on consistent blogging.
 publish_date: '2021-11-06T05:57:35Z'
 update_date: '2023-06-21T07:46:32Z'
-github_star: 7
+github_star: 8
 github_fork: 1
 draft: false
 ---
