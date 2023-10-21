@@ -3,9 +3,9 @@ title: Ovidius
 github: https://github.com/JustGoodUI/ovidius-astro-theme
 demo: https://ovidius-astro-theme.netlify.app/
 author: Just Good UI
-author_link: https://justgoodui.com/ 
-date: 2023-10-16
-description: Ovidius - a single-author blog theme for Astro.js and Tailwind CSS. 
+author_link: https://justgoodui.com/
+date: 2023-10-16T00:00:00.000Z
+description: Ovidius - a single-author blog theme for Astro.js and Tailwind CSS.
 ssg:
   - Astro
 css:
@@ -15,8 +15,10 @@ cms:
 category:
   - Blog
 draft: false
-publish_date: '2023-10-15'
-update_date: '2023-10-16'
+publish_date: '2023-10-15T17:05:06Z'
+update_date: '2023-10-16T06:51:43Z'
+github_star: 3
+github_fork: 1
 ---
 
 
