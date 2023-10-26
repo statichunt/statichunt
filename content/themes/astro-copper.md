@@ -7,7 +7,7 @@ demo: https://copper-astro.netlify.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-10-25T00:00:00.000Z
-description: Copper is a modern, fully customizable SaaS theme built with Astro and Tailwind CSS. It's the perfect theme for any SaaS business looking to create a beautiful, user-friendly, and high-performing website that showcases their products and services in the best possible way. Copper includes 17+ pre-built pages that you can easily customize to match your branding and needs.
+description: Copper is a modern, fully customizable SaaS theme built with Astro and Tailwind CSS. It includes 17+ pre-built pages that you can easily customize to match your branding and needs.
 ssg:
   - Astro
 css:
@@ -19,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 17+ Unique Pages
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
