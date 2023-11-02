@@ -19,8 +19,8 @@ date: 2018-09-12T09:09:05.000Z
 description: Meghna Hugo Template
 publish_date: '2018-09-12T09:09:05Z'
 update_date: '2023-07-13T09:59:30Z'
-github_star: 405
-github_fork: 1239
+github_star: 410
+github_fork: 1244
 draft: false
 ---
 

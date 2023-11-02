@@ -16,8 +16,8 @@ date: 2018-01-09T22:28:21.000Z
 description: Airspace Hugo theme for multipurpose use, like Portfolio, Blog, Business.
 publish_date: '2018-01-09T22:28:21Z'
 update_date: '2023-07-20T06:52:07Z'
-github_star: 329
-github_fork: 516
+github_star: 330
+github_fork: 517
 draft: false
 ---
 
