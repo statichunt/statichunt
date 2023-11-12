@@ -2,7 +2,7 @@
 title: Astro
 page_title: Astro Themes
 weight: "3"
-meta_title: 40+ Astro Themes & Templates (Hand-picked) | Statichunt
+meta_title: 45+ Astro Themes & Templates (Hand-picked) | Statichunt
 description: "Looking for the Astro themes? These Astro themes,starter and templates are ideal for any type of website, from businesses to personal blogs."
 icon: /images/icons/astro.svg
 website: https://astro.build/

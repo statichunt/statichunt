@@ -1,7 +1,7 @@
 ---
 title: "Bootstrap"
 page_title: Bootstrap Templates
-meta_title: 100+ Bootstrap Templates and Themes
+meta_title: 180+ Bootstrap Templates and Themes | Statichunt
 description: Create a responsive blog, portfolio, business, landing, and admin dashboard website with Bootstrap Templates. Choose from a wide range of templates and themes.
 icon: /images/icons/bootstrap.svg
 website: https://getbootstrap.com/

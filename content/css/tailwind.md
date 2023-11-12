@@ -1,7 +1,7 @@
 ---
 title: "Tailwind"
 page_title: Tailwind Templates
-meta_title: 100+ Tailwind CSS Templates
+meta_title: 140+ Tailwind CSS Templates (Handpicked)
 description: Looking for a quick and easy way to create beautiful blog, portfolio, ecommerce, bussiness and admin dashboard website? Check out Tailwind Templates and themes!
 icon: /images/icons/tailwind.svg
 website: https://tailwindcss.com/
