@@ -1,9 +1,9 @@
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 import Link from "next/link";
 import ImageFallback from "../ImageFallback";
 
 const BlogCard = ({ blogs, themes, tools, setSearchModal }) => {
-  const { isTheme, isTool } = useSerachContext();
+  const { isTheme, isTool } = useSearchContext();
   return (
     <div
       className={`row p-2 ${

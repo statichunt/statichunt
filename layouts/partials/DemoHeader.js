@@ -23,7 +23,7 @@ const DemoHeader = ({
   device,
   setDevice,
 }) => {
-  // distructuring the main menu from menu object
+  // destructuring the main menu from menu object
   const { logo, logo_light, title, favicon } = config.site;
 
   const [mounted, setMounted] = useState(false);

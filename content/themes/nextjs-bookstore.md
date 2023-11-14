@@ -18,6 +18,6 @@ category:
   - Ecommerce
 publish_date: '2022-11-13T07:05:46Z'
 update_date: '2023-09-16T04:57:15Z'
-github_star: 50
-github_fork: 18
+github_star: 52
+github_fork: 21
 ---

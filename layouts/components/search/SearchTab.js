@@ -1,5 +1,5 @@
 import useWindow from "@/hooks/useWindow";
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 import { useCallback, useEffect, useState } from "react";
 
 const SearchTab = ({ themes, blogs, tools, searchModal }) => {
@@ -26,7 +26,7 @@ const SearchTab = ({ themes, blogs, tools, searchModal }) => {
     },
   ];
   const windowSize = useWindow();
-  const { setIsBlog, setIsTool, setIsTheme, searchKey } = useSerachContext();
+  const { setIsBlog, setIsTool, setIsTheme, searchKey } = useSearchContext();
   const [isActive, setIsActive] = useState(
     windowSize > 1024 ? "all" : "themes",
   );

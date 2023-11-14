@@ -4,20 +4,20 @@ import themeTools from "../.json/theme-tools.json";
 import themes from "../.json/themes.json";
 import tools from "../.json/tools.json";
 
-const AppsarchContext = createContext();
+const AppSearchContext = createContext();
 export const SearchContext = ({ children }) => {
-  const [searchKey, setSearchkey] = useState("");
+  const [searchKey, setSearchKey] = useState("");
   const [isTheme, setIsTheme] = useState(false);
   const [isTool, setIsTool] = useState(false);
   const [isBlog, setIsBlog] = useState(false);
-  const [searchModal, setSeachModal] = useState(false);
+  const [searchModal, setSearchModal] = useState(false);
 
   const state = {
     searchModal,
-    setSeachModal,
+    setSearchModal,
     themeTools,
     searchKey,
-    setSearchkey,
+    setSearchKey,
     themes,
     tools,
     blogs,
@@ -28,15 +28,15 @@ export const SearchContext = ({ children }) => {
     isTheme,
     isBlog,
     searchModal,
-    setSeachModal,
+    setSearchModal,
   };
 
   return (
-    <AppsarchContext.Provider value={state}>
+    <AppSearchContext.Provider value={state}>
       {children}
-    </AppsarchContext.Provider>
+    </AppSearchContext.Provider>
   );
 };
-export const useSerachContext = () => {
-  return useContext(AppsarchContext);
+export const useSearchContext = () => {
+  return useContext(AppSearchContext);
 };

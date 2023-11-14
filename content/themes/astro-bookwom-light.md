@@ -19,11 +19,11 @@ category:
 draft: false
 publish_date: '2023-02-14T04:43:43Z'
 update_date: '2023-08-19T03:04:19Z'
-github_star: 107
+github_star: 110
 github_fork: 30
 ---
 
-## Key Features :
+## Key Features
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 - Multi-author support

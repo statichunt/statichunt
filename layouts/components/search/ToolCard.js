@@ -1,9 +1,9 @@
 import { humanize } from "@/lib/utils/textConverter";
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 import ImageFallback from "../ImageFallback";
 
 const ToolCard = ({ tools, themes, blogs }) => {
-  const { isTheme, isBlog } = useSerachContext();
+  const { isTheme, isBlog } = useSearchContext();
   return (
     <div
       className={`row p-2 ${

@@ -2,12 +2,12 @@ import ImageFallback from "@/components/ImageFallback";
 import config from "@/config/config.json";
 import useTooltip from "@/hooks/useTooltip";
 import { slugify } from "@/lib/utils/textConverter";
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 import Image from "next/image";
 import Link from "next/link";
 
 const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
-  const { isBlog, Tool } = useSerachContext();
+  const { isBlog, Tool } = useSearchContext();
   const { darkIconList } = config;
 
   const toolsIcon = (theme) => {

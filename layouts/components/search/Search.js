@@ -1,7 +1,7 @@
 import useSearchBlog from "@/hooks/useSearchBlog";
 import useSearchTheme from "@/hooks/useSearchTheme";
 import useSearchTool from "@/hooks/useSearchTool";
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 import debounce from "lodash.debounce";
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import BlogCard from "./BlogCard";
@@ -10,8 +10,8 @@ import ThemesCard from "./ThemesCard";
 import ToolCard from "./ToolCard";
 
 const Search = ({ setSearchModal, searchModal }) => {
-  const { searchKey, setSearchkey, isTheme, isBlog, isTool } =
-    useSerachContext();
+  const { searchKey, setSearchKey, isTheme, isBlog, isTool } =
+    useSearchContext();
   const { tools } = useSearchTool();
   const { blogs } = useSearchBlog();
   const { themes } = useSearchTheme();
@@ -21,14 +21,14 @@ const Search = ({ setSearchModal, searchModal }) => {
     searchModal
       ? searchInputRef.current.focus()
       : (searchInputRef.current.value = ""),
-      setSearchkey("");
-  }, [searchModal, setSearchkey]);
+      setSearchKey("");
+  }, [searchModal, setSearchKey]);
 
   const handleChange = useCallback(
     (e) => {
-      setSearchkey(e.target.value);
+      setSearchKey(e.target.value);
     },
-    [setSearchkey],
+    [setSearchKey],
   );
   const debouncedResults = useMemo(() => {
     return debounce(handleChange, 100);

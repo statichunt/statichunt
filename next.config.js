@@ -4,7 +4,22 @@
 
 const nextConfig = {
   images: {
-    domains: ["www.github.com", "teamosis-sg.vercel.app", "t1.gstatic.com"],
+    remotePatterns: [{
+      protocol: 'https',
+        hostname: 'www.github.com',
+        port: '',
+        pathname: '/**',
+    },{
+      protocol: 'https',
+        hostname: 'teamosis-sg.vercel.app',
+        port: '',
+        pathname: '/**',
+    },{
+      protocol: 'https',
+        hostname: 't1.gstatic.com',
+        port: '',
+        pathname: '/**',
+    }],
   },
   reactStrictMode: true,
 };

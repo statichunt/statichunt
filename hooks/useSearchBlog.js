@@ -1,7 +1,7 @@
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 
 const useSearchBlog = () => {
-  const { blogs, searchKey } = useSerachContext();
+  const { blogs, searchKey } = useSearchContext();
 
   // search filtering
   let searchBlog = blogs.filter((blog) => {

@@ -18,9 +18,9 @@ description: >-
   website in seconds!
 draft: false
 publish_date: '2023-06-12T12:03:41Z'
-update_date: '2023-10-19T22:33:55Z'
-github_star: 25
-github_fork: 5
+update_date: '2023-11-11T15:49:40Z'
+github_star: 27
+github_fork: 7
 ---
 
 Hugobricks is a comprehensive starter theme that includes everything you need to get started with your Hugo project.

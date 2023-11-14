@@ -1,7 +1,7 @@
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 
 const useSearchTheme = () => {
-  const { themes, searchKey } = useSerachContext();
+  const { themes, searchKey } = useSearchContext();
 
   let searchtTheme = themes.filter((theme) => {
     const searchString = searchKey.toLowerCase();

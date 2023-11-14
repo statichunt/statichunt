@@ -1,7 +1,7 @@
-import { useSerachContext } from "context/searchContext";
+import { useSearchContext } from "context/searchContext";
 
 const useSearchTool = () => {
-  const { tools, searchKey } = useSerachContext();
+  const { tools, searchKey } = useSearchContext();
 
   // search filtering
   let searchTools = tools.filter((tool) => {
