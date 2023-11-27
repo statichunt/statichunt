@@ -11,10 +11,10 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
   const { darkIconList } = config;
 
   const toolsIcon = (theme) => {
-    const ssgIcon = theme.frontmatter.ssg?.map((item) => item) || [];
-    const cssIcon = theme.frontmatter.css?.map((item) => item) || [];
-    const cmsIcon = theme.frontmatter.cms?.map((item) => item) || [];
-    const categoryIcon = theme.frontmatter.category?.map((item) => item) || [];
+    const ssgIcon = theme.frontmatter?.ssg?.map((item) => item) || [];
+    const cssIcon = theme.frontmatter?.css?.map((item) => item) || [];
+    const cmsIcon = theme.frontmatter?.cms?.map((item) => item) || [];
+    const categoryIcon = theme.frontmatter?.category?.map((item) => item) || [];
     return [...ssgIcon, ...cssIcon, ...cmsIcon, ...categoryIcon];
   };
 

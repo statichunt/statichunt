@@ -3,7 +3,7 @@ import { useSearchContext } from "context/searchContext";
 const useSearchTheme = () => {
   const { themes, searchKey } = useSearchContext();
 
-  let searchtTheme = themes.filter((theme) => {
+  let searchTheme = themes.filter((theme) => {
     const searchString = searchKey.toLowerCase();
     if (searchString === "") {
       return "";
@@ -39,12 +39,14 @@ const useSearchTheme = () => {
         .includes(searchString)
     ) {
       return theme;
-    } else if (theme.frontmatter.author.toLowerCase().includes(searchString)) {
+    } else if (
+      theme.frontmatter?.author?.toLowerCase().includes(searchString)
+    ) {
       return theme;
     }
   });
   return {
-    themes: searchtTheme,
+    themes: searchTheme,
   };
 };
 

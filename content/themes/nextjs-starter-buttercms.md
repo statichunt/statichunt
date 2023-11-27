@@ -14,7 +14,7 @@ ssg:
   - Nextjs
 css: null
 cms:
-  - Buttercms
+  - ButterCMS
 category:
   - others
 draft: false
