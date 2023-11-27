@@ -10,7 +10,8 @@ ssg:
   - Astro
 css:
   - Tailwind
-cms: Static CMS
+cms: 
+  - StaticCMS
 category:
   - Blog
   - Portfolio
@@ -21,7 +22,8 @@ update_date: '2023-11-01T08:23:30Z'
 github_star: 106
 github_fork: 51
 ---
-## Key Features:
+
+## Key Features
 
 - Chart Your Path with a Blog
 - Showcase Your Stellar Portfolio

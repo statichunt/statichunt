@@ -4,20 +4,26 @@ github: https://github.com/unfolding-io/StarFunnel
 demo: https://starfunnel.unfolding.io/
 author_link: https://github.com/unfolding-io
 date: 2023-10-11T00:00:00.000Z
-description: The Astro powered landing page builder. Newsletters with Mailchimp, contact forms with PostMark, MailGun or Slack. Powered by Static CMS.
+description: >-
+  The Astro powered landing page builder. Newsletters with Mailchimp, contact
+  forms with PostMark, MailGun or Slack. Powered by Static CMS.
 ssg:
   - Astro
 css:
   - Tailwind
-cms: Static CMS
+cms:
+  - StaticCMS
 category:
   - Blog
   - Saas
   - Business
-draft: false 
-
+draft: false
+publish_date: '2023-11-19T14:35:58Z'
+update_date: '2023-11-26T09:32:56Z'
+github_star: 12
+github_fork: 4
 ---
-## Key Features:
+## Key Features
 
 - Block Based Landing Page Builder .
 - Newsletter forms with Mailchimp.
