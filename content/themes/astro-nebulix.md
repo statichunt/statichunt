@@ -10,10 +10,11 @@ ssg:
   - Astro
 css:
   - Tailwind
-cms: null
+cms: Static CMS
 category:
   - Blog
   - Portfolio
+  - Ecommerce
 draft: false
 publish_date: '2023-09-04T09:40:53Z'
 update_date: '2023-11-01T08:23:30Z'
@@ -32,3 +33,4 @@ github_fork: 51
 - Static CMS Ready for Galactic Exploration
 - Mailchimp newsletter form
 - Unveil Hidden Constellations with Full Text Search using Pagefind
+- Powerd By Static CMS
