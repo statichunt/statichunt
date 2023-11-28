@@ -1,10 +1,9 @@
 ---
 title: Vibrant Shadows
 github: https://github.com/Softorage/HugoTheme-VibrantShadows
-price: 0 # only for premium theme
 demo: https://vibrantshadows.softorage.com/
 author: Softorage
-author_link: https://softorage.com/ # if any
+author_link: https://softorage.com/
 date: 2023-11-28T00:00:00.000Z # submit date
 description: A deeply customizable, extremely lightweight, and super fast 'Blog Theme' for Hugo, with mobile support and a lot more.
 ssg: # ssg name
