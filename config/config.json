@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Statichunt - 500+ Jamstack Themes, Templates & Tools Directory",
+    "title": "Statichunt - 1500+ Jamstack Themes, Templates & Tools Directory",
     "base_url": "https://statichunt.com",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
@@ -39,8 +39,8 @@
 
   "sidebar": [
     { "type": "ssg", "title": "Static Site Generator" },
-    { "type": "cms", "title": "Jamstack CMS" },
     { "type": "css", "title": "CSS Framework" },
+    { "type": "cms", "title": "Jamstack CMS" },
     { "type": "category", "title": "Category" },
     { "type": "tools-category", "title": "Category" }
   ],

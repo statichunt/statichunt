@@ -32,7 +32,7 @@ const axiosLimit = rateLimit(axios.create(), {
 const filterNewTheme = getThemes.filter(
   (theme) =>
     theme.frontmatter.github &&
-    !theme.frontmatter.github_star &&
+    !theme.frontmatter.publish_date &&
     !theme.frontmatter.price,
 );
 
