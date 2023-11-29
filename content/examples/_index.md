@@ -1,6 +1,6 @@
 ---
 title: "Jamstack Showcase And Examples"
-meta_title: "70+ Best Jamstack Websites Examples - Statichunt "
+meta_title: "80+ Best Jamstack Websites Examples - Statichunt "
 description: "We compiled a collection of the best static websites examples to provide you with an overview and inspiration for the capabilities of the Jamstack technology"
 ---
 
