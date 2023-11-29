@@ -1,5 +1,4 @@
 import config from "@/config/config.json";
-import useTooltip from "@/hooks/useTooltip";
 import { slugify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import tools from "../../.json/theme-tools.json";
@@ -43,7 +42,7 @@ const ToolsIcon = ({
 
   const toolsLength = filteredTools.length;
 
-  useTooltip();
+  // useTooltip();
 
   return (
     <>
@@ -72,49 +71,49 @@ const ToolsIcon = ({
               ),
           )
         : toolsLength >= trim
-        ? filteredTools.map(
-            (icon, i) =>
-              i < trim - 1 && (
-                <span
-                  className="tooltip mb-2 mr-3"
-                  data-tooltip={icon.frontmatter.title}
-                  key={`icon-${i}`}
-                >
-                  <Image
-                    width={size ? size : 18}
-                    height={size ? size : 18}
-                    alt={icon.frontmatter.title}
-                    src={icon.frontmatter.icon}
-                    style={{ maxHeight: size ? size : "18px" }}
-                    className={
-                      darkIconList.includes(slugify(icon.frontmatter.title))
-                        ? "dark:brightness-0 dark:invert"
-                        : ""
-                    }
-                  />
-                </span>
-              ),
-          )
-        : filteredTools.map((icon, i) => (
-            <span
-              className="tooltip mb-2 mr-3"
-              data-tooltip={icon.frontmatter.title}
-              key={`icon-${i}`}
-            >
-              <Image
-                width={size ? size : 18}
-                height={size ? size : 18}
-                alt={icon.frontmatter.title}
-                src={icon.frontmatter.icon}
-                style={{ maxHeight: size ? size : "18px" }}
-                className={
-                  darkIconList.includes(slugify(icon.frontmatter.title))
-                    ? "dark:brightness-0 dark:invert"
-                    : ""
-                }
-              />
-            </span>
-          ))}
+          ? filteredTools.map(
+              (icon, i) =>
+                i < trim - 1 && (
+                  <span
+                    className="tooltip mb-2 mr-3"
+                    data-tooltip={icon.frontmatter.title}
+                    key={`icon-${i}`}
+                  >
+                    <Image
+                      width={size ? size : 18}
+                      height={size ? size : 18}
+                      alt={icon.frontmatter.title}
+                      src={icon.frontmatter.icon}
+                      style={{ maxHeight: size ? size : "18px" }}
+                      className={
+                        darkIconList.includes(slugify(icon.frontmatter.title))
+                          ? "dark:brightness-0 dark:invert"
+                          : ""
+                      }
+                    />
+                  </span>
+                ),
+            )
+          : filteredTools.map((icon, i) => (
+              <span
+                className="tooltip mb-2 mr-3"
+                data-tooltip={icon.frontmatter.title}
+                key={`icon-${i}`}
+              >
+                <Image
+                  width={size ? size : 18}
+                  height={size ? size : 18}
+                  alt={icon.frontmatter.title}
+                  src={icon.frontmatter.icon}
+                  style={{ maxHeight: size ? size : "18px" }}
+                  className={
+                    darkIconList.includes(slugify(icon.frontmatter.title))
+                      ? "dark:brightness-0 dark:invert"
+                      : ""
+                  }
+                />
+              </span>
+            ))}
       {filteredTools.length >= trim + 1 && (
         <span className="tooltip-static mb-2 mr-3">
           + {filteredTools.length - (trim - 1)}

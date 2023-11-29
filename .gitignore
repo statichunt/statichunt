@@ -6,6 +6,7 @@
 .pnp.js
 yarn.lock
 package-lock.json
+ss-themes-log.json
 
 # testing
 /coverage

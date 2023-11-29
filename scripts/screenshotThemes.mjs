@@ -6,6 +6,20 @@ import getThemes from "../.json/themes.json" assert { type: "json" };
 const spinner = ora("Loading");
 const imagesFolder = path.join(process.cwd(), "/public/themes");
 
+const crawlerLogPath = "./ss-themes-log.json";
+
+// Check if the log file exists
+fs.access(crawlerLogPath, fs.constants.F_OK, (err) => {
+  if (err) {
+    fs.writeFile(crawlerLogPath, JSON.stringify([]), "utf8", (err) => {
+      if (err) {
+        console.error("Error creating file:", err);
+        return;
+      }
+    });
+  }
+});
+
 const themes = getThemes.map((data) => ({
   demo: data.frontmatter.demo,
   slug: data.slug,
@@ -26,8 +40,8 @@ const captureScreenshot = async (demo, slug, overwrite) => {
         process.platform === "win32"
           ? "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
           : process.platform === "linux"
-          ? "/usr/bin/google-chrome"
-          : "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            ? "/usr/bin/google-chrome"
+            : "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     });
 
     spinner.text = `${demo} => capturing`;
@@ -54,6 +68,28 @@ const captureScreenshot = async (demo, slug, overwrite) => {
     await browser.close();
   } catch {
     spinner.text = `${demo} => failed capturing`;
+    // Read and update crawler-log
+    fs.readFile(crawlerLogPath, "utf8", (err, result) => {
+      if (err) {
+        console.log("Error reading file from disk:", err);
+        return;
+      }
+      try {
+        const logs = JSON.parse(result);
+        logs.push(demo);
+        const stringifyLogs = JSON.stringify(logs);
+
+        // Write the crawler log to the file
+        fs.writeFile(crawlerLogPath, stringifyLogs, "utf8", (err) => {
+          if (err) {
+            console.error("Error writing file:", err);
+            return;
+          }
+        });
+      } catch (err) {
+        console.log("Error parsing JSON string:", err);
+      }
+    });
     return false;
   }
 };

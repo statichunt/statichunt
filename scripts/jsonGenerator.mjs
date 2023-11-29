@@ -6,9 +6,9 @@ const jsonDir = "./.json";
 // get list page data (ex: about.md)
 const getListPageData = (folder, filename) => {
   const slug = filename.replace(".md", "");
-  const filedata = fs.readFileSync(path.join(folder, filename), "utf-8");
-  const { data } = matter(filedata);
-  const content = matter(filedata).content;
+  const fileData = fs.readFileSync(path.join(folder, filename), "utf-8");
+  const { data } = matter(fileData);
+  const content = matter(fileData).content;
 
   return {
     frontmatter: data,
@@ -31,21 +31,10 @@ const getSinglePageData = (folder, includeDrafts) => {
   return includeDrafts ? allPages : publishedPages;
 };
 
-// get single page data (ex: blog/*.md)
+// get custom data
 const getCustomData = () => {
   const getAllData = getSinglePageData("content/themes", false);
-  const customData = getAllData.map((item) => {
-    return {
-      theme: item.frontmatter.title,
-      demo: item.frontmatter.demo,
-      price: item.frontmatter.price ? item.frontmatter.price : 0,
-      download: item.frontmatter.github
-        ? item.frontmatter.github
-        : item.frontmatter.download,
-      author: item.frontmatter.author,
-      author_link: item.frontmatter.author_link,
-    };
-  });
+  const customData = getAllData.map((item) => item.slug);
   return customData;
 };
 
@@ -59,8 +48,8 @@ const css = getSinglePageData("content/css", true);
 const cms = getSinglePageData("content/cms", true);
 const category = getSinglePageData("content/category", true);
 const sponsors = getListPageData("content/sponsors", "index.md");
+const themeTools = [...ssg, ...css, ...cms, ...category];
 const customData = getCustomData();
-const themetools = [...ssg, ...css, ...cms, ...category];
 
 try {
   if (!fs.existsSync(jsonDir)) {
@@ -69,10 +58,11 @@ try {
   fs.writeFileSync(`${jsonDir}/themes.json`, JSON.stringify(themes));
   fs.writeFileSync(`${jsonDir}/tools.json`, JSON.stringify(tools));
   fs.writeFileSync(`${jsonDir}/examples.json`, JSON.stringify(examples));
+  fs.writeFileSync(`${jsonDir}/theme-tools.json`, JSON.stringify(themeTools));
   fs.writeFileSync(`${jsonDir}/blog.json`, JSON.stringify(blog));
-  fs.writeFileSync(`${jsonDir}/theme-tools.json`, JSON.stringify(themetools));
   fs.writeFileSync(`${jsonDir}/sponsors.json`, JSON.stringify(sponsors));
   fs.writeFileSync(`${jsonDir}/themes-author.json`, JSON.stringify(customData));
+  fs.writeFileSync(`${jsonDir}/themes-name.json`, JSON.stringify(customData));
 } catch (err) {
   console.error(err);
 }

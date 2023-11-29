@@ -4,23 +4,25 @@ github: https://github.com/Softorage/HugoTheme-VibrantShadows
 demo: https://vibrantshadows.softorage.com/
 author: Softorage
 author_link: https://softorage.com/
-date: 2023-11-28T00:00:00.000Z # submit date
-description: A deeply customizable, extremely lightweight, and super fast 'Blog Theme' for Hugo, with mobile support and a lot more.
-ssg: # ssg name
+date: 2023-11-28T00:00:00.000Z
+description: >-
+  A deeply customizable, extremely lightweight, and super fast 'Blog Theme' for
+  Hugo, with mobile support and a lot more.
+ssg:
   - Hugo
-
-css: # css name
+css:
   - Bootstrap
   - SCSS
   - PostCSS
-
-cms: # you can choose multiple if applicable
+cms:
   - Markdown
-
-category: # you can choose multiple if applicable
+category:
   - Blog
-
 draft: false
+publish_date: '2020-10-02T15:01:24Z'
+update_date: '2023-11-28T10:36:18Z'
+github_star: 12
+github_fork: 7
 ---
 
 ## Features

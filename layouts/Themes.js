@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
 import InfiniteScroll from "react-infinite-scroll-component";
 
-// change github data by sort fuctionality
+// change github data by sort functionality
 const githubDataChange = (theme) => {
   const getStar = theme.frontmatter.github_star
     ? theme.frontmatter.github_star
@@ -63,6 +63,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
   const fetchData = () => {
     setItem(item + 20);
   };
+
   useEffect(() => {
     setPage(themes.slice(0, item));
   }, [item, themes]);
@@ -111,8 +112,8 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                       theme.frontmatter.price > 0 && theme.type != "update"
                         ? "Price"
                         : theme.type
-                        ? theme.type
-                        : "Star",
+                          ? theme.type
+                          : "Star",
                     )}
                   >
                     {theme.type === "price" ? (
@@ -124,8 +125,8 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                             theme.type != "update"
                               ? "price"
                               : theme.type
-                              ? theme.type
-                              : "star"
+                                ? theme.type
+                                : "star"
                           }.svg`}
                           alt="github icon"
                           height="14"
@@ -139,8 +140,8 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                           theme.frontmatter.price > 0 && theme.type != "update"
                             ? "price"
                             : theme.type
-                            ? theme.type
-                            : "star"
+                              ? theme.type
+                              : "star"
                         }.svg`}
                         alt="github icon"
                         height="14"
