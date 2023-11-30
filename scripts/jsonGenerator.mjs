@@ -31,6 +31,20 @@ const getSinglePageData = (folder, includeDrafts) => {
   return includeDrafts ? allPages : publishedPages;
 };
 
+// get themes name
+const getThemesName = () => {
+  const getAllData = getSinglePageData("content/themes", false);
+  return getAllData.map((item) => item.slug);
+};
+
+// get custom data
+const getThemesGithub = () => {
+  const getAllData = getSinglePageData("content/themes", false);
+  return getAllData
+    .map((item) => (item.frontmatter.github ? item.frontmatter.github : ""))
+    .filter((item) => item !== "");
+};
+
 // get custom data
 const getCustomData = () => {
   const getAllData = getSinglePageData("content/themes", false);
@@ -49,7 +63,6 @@ const cms = getSinglePageData("content/cms", true);
 const category = getSinglePageData("content/category", true);
 const sponsors = getListPageData("content/sponsors", "index.md");
 const themeTools = [...ssg, ...css, ...cms, ...category];
-const customData = getCustomData();
 
 try {
   if (!fs.existsSync(jsonDir)) {
@@ -61,8 +74,14 @@ try {
   fs.writeFileSync(`${jsonDir}/theme-tools.json`, JSON.stringify(themeTools));
   fs.writeFileSync(`${jsonDir}/blog.json`, JSON.stringify(blog));
   fs.writeFileSync(`${jsonDir}/sponsors.json`, JSON.stringify(sponsors));
-  fs.writeFileSync(`${jsonDir}/themes-author.json`, JSON.stringify(customData));
-  fs.writeFileSync(`${jsonDir}/themes-name.json`, JSON.stringify(customData));
+  fs.writeFileSync(
+    `${jsonDir}/themes-name.json`,
+    JSON.stringify(getThemesName()),
+  );
+  fs.writeFileSync(
+    `${jsonDir}/themes-github.json`,
+    JSON.stringify(getThemesGithub()),
+  );
 } catch (err) {
   console.error(err);
 }
