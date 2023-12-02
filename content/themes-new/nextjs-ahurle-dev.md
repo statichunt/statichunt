@@ -1,0 +1,21 @@
+---
+title: Ahurle Dev
+github: https://github.com/fracture91/ahurle-dev
+demo: https://ahurle.dev/?utm_source=github
+author: fracture91
+author_link: https://github.com/fracture91
+date: 2023-11-28T02:58:14.732Z
+description: >-
+  Personal website and developer blog ahurle.dev powered by Next.js, TypeScript,
+  React, Theme UI, and MDX
+ssg:
+  - Nextjs
+css: []
+cms:
+  - Markdown
+category:
+  - Blog
+  - Portfolio
+draft: true
+disabled_reason: Github repo not found
+---

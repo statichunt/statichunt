@@ -1,0 +1,16 @@
+---
+title: Angular Vercel
+github: https://github.com/luismendes070/angular-vercel
+demo: https://angular-vercel-seven-henna.vercel.app/
+author: luismendes070
+author_link: https://github.com/luismendes070
+date: 2023-11-29T03:20:33.476Z
+description: ''
+ssg:
+  - Nextjs
+css: []
+cms: []
+category: []
+draft: true
+disabled_reason: Github repo not found
+---

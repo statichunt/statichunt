@@ -1,0 +1,16 @@
+---
+title: The Plain
+github: https://github.com/heiswayi/the-plain
+demo: https://heiswayi.github.io/the-plain/
+author: heiswayi
+author_link: https://github.com/heiswayi
+date: 2023-11-28T04:37:57.218Z
+description: A minimalist Jekyll theme, ideally designed for your personal blog use.
+ssg:
+  - Jekyll
+css: []
+cms: []
+category: []
+draft: true
+disabled_reason: Github repo not found
+---

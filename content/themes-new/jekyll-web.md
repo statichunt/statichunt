@@ -1,0 +1,16 @@
+---
+title: Jekyll Web
+github: https://github.com/SrIzan10/jekyll-web
+demo: https://jekyll.srizan.ml/
+author: SrIzan10
+author_link: https://github.com/SrIzan10
+date: 2023-11-30T11:08:38.380Z
+description: A jekyll thingy because I'm bored.
+ssg:
+  - Jekyll
+css: []
+cms: []
+category: []
+draft: true
+disabled_reason: Github repo not found
+---

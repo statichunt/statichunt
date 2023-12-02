@@ -1,0 +1,16 @@
+---
+title: Mixyll
+github: https://github.com/saikiransripada/mixyll
+demo: https://mixyll.saikiransripada.com/
+author: saikiransripada
+author_link: https://github.com/saikiransripada
+date: 2023-11-30T08:31:02.247Z
+description: A minimal and beautiful Jekyll theme
+ssg:
+  - Jekyll
+css: []
+cms: []
+category: []
+draft: true
+disabled_reason: Github repo not found
+---

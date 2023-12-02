@@ -1,0 +1,17 @@
+---
+title: Admin Js
+github: https://github.com/Emroni/admin-js
+demo: https://adminjs.emrekoc.io/
+author: Emroni
+author_link: https://github.com/Emroni
+date: 2023-11-27T09:59:39.668Z
+description: A personalized application to manage work and finances
+ssg:
+  - Nextjs
+css: []
+cms: []
+category:
+  - Dashboard
+draft: true
+disabled_reason: Github repo not found
+---

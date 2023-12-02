@@ -1,0 +1,16 @@
+---
+title: Jekyll Ttskch Theme
+github: https://github.com/ttskch/jekyll-ttskch-theme
+demo: https://ttskch.github.io/jekyll-ttskch-theme/
+author: ttskch
+author_link: https://github.com/ttskch
+date: 2023-11-30T14:01:39.866Z
+description: A simple and customizable theme for Jekyll.
+ssg:
+  - Jekyll
+css: []
+cms: []
+category: []
+draft: true
+disabled_reason: Github repo not found
+---

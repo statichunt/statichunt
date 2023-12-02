@@ -1,0 +1,18 @@
+---
+title: WhatATheme
+github: https://github.com/thedevslot/WhatATheme
+demo: https://thedevslot.github.io/WhatATheme/
+author: thedevslot
+author_link: https://github.com/thedevslot
+date: 2023-11-30T12:49:01.859Z
+description: A customizable Jekyll Portfolio theme which supports blogging.
+ssg:
+  - Jekyll
+css: []
+cms: []
+category:
+  - Blog
+  - Portfolio
+draft: true
+disabled_reason: Github repo not found
+---

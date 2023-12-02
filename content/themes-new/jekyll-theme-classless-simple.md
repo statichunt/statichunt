@@ -1,0 +1,16 @@
+---
+title: Jekyll Theme Classless Simple
+github: https://github.com/toshimaru/jekyll-theme-classless-simple
+demo: https://jekyll-classless-simple.toshimaru.net/
+author: toshimaru
+author_link: https://github.com/toshimaru
+date: 2023-11-30T13:47:19.509Z
+description: Jekyll theme with simple.css, classless CSS framework.
+ssg:
+  - Jekyll
+css: []
+cms: []
+category: []
+draft: true
+disabled_reason: Github repo not found
+---

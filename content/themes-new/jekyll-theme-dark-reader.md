@@ -1,0 +1,19 @@
+---
+title: Jekyll Theme Dark Reader
+github: https://github.com/sharadcodes/jekyll-theme-dark-reader
+demo: https://sharadcodes.github.io/jekyll-theme-dark-reader/
+author: sharadcodes
+author_link: https://github.com/sharadcodes
+date: 2023-11-30T09:43:51.404Z
+description: >-
+  A Minimal Dark theme for jekyll with minimal CSS and blazing fast loading of
+  pages by Sharad Raj Singh Maurya
+ssg:
+  - Jekyll
+css: []
+cms: []
+category:
+  - Blog
+draft: true
+disabled_reason: Github repo not found
+---

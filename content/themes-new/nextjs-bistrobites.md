@@ -1,0 +1,24 @@
+---
+title: BistroBites
+github: https://github.com/vaxad/BistroBites
+demo: https://youtu.be/07G-66KQ3zA
+author: vaxad
+author_link: https://github.com/vaxad
+date: 2023-11-30T14:50:46.777Z
+description: >-
+  Dynamic restaurant websites, enabling seamless customer orders, admin control,
+  menu updates, password security, and feedback channels using Next.js
+ssg:
+  - Nextjs
+css:
+  - Tailwind
+  - PostCSS
+cms: []
+category:
+  - Ecommerce
+draft: false
+publish_date: '2023-08-15T14:40:25Z'
+update_date: '2023-08-20T19:11:49Z'
+github_star: 2
+github_fork: 0
+---

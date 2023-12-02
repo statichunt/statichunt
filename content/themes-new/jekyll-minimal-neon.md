@@ -1,0 +1,18 @@
+---
+title: Minimal Neon
+github: https://github.com/ronynn/minimal-neon
+demo: https://ronynn.github.io/minimal-neon
+author: ronynn
+author_link: https://github.com/ronynn
+date: 2023-11-30T07:59:28.522Z
+description: A minimal jekyll theme based on old computer terminals.
+ssg:
+  - Jekyll
+css:
+  - SCSS
+cms: []
+category:
+  - Blog
+draft: true
+disabled_reason: Github repo not found
+---

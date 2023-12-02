@@ -1,0 +1,16 @@
+---
+title: Simple Electron Ui
+github: https://github.com/digital-technology-agency/simple-electron-ui
+demo: https://digital-technology-agency.github.io/simple-electron-ui
+author: digital-technology-agency
+author_link: https://github.com/digital-technology-agency
+date: 2023-11-27T08:53:01.519Z
+description: simple-electron-ui
+ssg:
+  - Jekyll
+css: []
+cms: []
+category: []
+draft: true
+disabled_reason: Github repo not found
+---
