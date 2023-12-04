@@ -1,7 +1,7 @@
 ---
 title: Forge React Starter
 github: https://github.com/ArcBlock/forge-react-starter
-demo: https://forge-react-starter.netlify.com/
+demo: https://forge-react-starter.netlify.app/
 author: ArcBlock
 author_link: https://github.com/ArcBlock
 date: 2023-11-26T09:32:01.040Z

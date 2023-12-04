@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Photo Book
 github: https://github.com/baobabKoodaa/gatsby-starter-photo-book
-demo: https://gatsby-starter-photo-book.netlify.com/
+demo: https://gatsby-starter-photo-book.netlify.app/
 author: baobabKoodaa
 author_link: https://github.com/baobabKoodaa
 date: 2023-11-26T10:13:04.724Z

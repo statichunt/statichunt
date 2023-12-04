@@ -1,7 +1,7 @@
 ---
 title: Gatsby Theme Material Blog
 github: https://github.com/chenlijun99/gatsby-theme-material-blog
-demo: https://gatsby-material-blog-theme.netlify.com/
+demo: https://gatsby-material-blog-theme.netlify.app/
 author: chenlijun99
 author_link: https://github.com/chenlijun99
 date: 2023-11-26T11:48:01.997Z

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Typescript Rebass Netlifycms
 github: https://github.com/damassi/gatsby-starter-typescript-rebass-netlifycms
-demo: https://frosty-ride-4ff3b9.netlify.com/
+demo: https://frosty-ride-4ff3b9.netlify.app/
 author: damassi
 author_link: https://github.com/damassi
 date: 2023-11-27T04:43:45.258Z

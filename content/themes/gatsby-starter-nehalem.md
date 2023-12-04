@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Nehalem
 github: https://github.com/nehalist/gatsby-starter-nehalem
-demo: https://nehalem.netlify.com/
+demo: https://nehalem.netlify.app/
 author: nehalist
 author_link: https://github.com/nehalist
 date: 2023-11-26T13:39:41.421Z

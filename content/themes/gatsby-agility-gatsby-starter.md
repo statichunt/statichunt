@@ -1,7 +1,7 @@
 ---
 title: Agility Gatsby Starter
 github: https://github.com/agility/agility-gatsby-starter
-demo: https://agility-gatsby-starter.netlify.com/
+demo: https://agility-gatsby-starter.netlify.app/
 author: agility
 author_link: https://github.com/agility
 date: 2023-11-26T08:08:58.379Z

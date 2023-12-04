@@ -1,7 +1,7 @@
 ---
 title: Gatsby Blog Cosmicjs
 github: https://github.com/cosmicjs/gatsby-blog-cosmicjs
-demo: https://gatsby-blog-cosmicjs.netlify.com/
+demo: https://gatsby-blog-cosmicjs.netlify.app/
 author: cosmicjs
 author_link: https://github.com/cosmicjs
 date: 2023-11-27T03:52:54.357Z

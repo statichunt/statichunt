@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Accessibility
 github: https://github.com/benrobertsonio/gatsby-starter-accessibility
-demo: https://gatsby-starter-accessibility.netlify.com/
+demo: https://gatsby-starter-accessibility.netlify.app/
 author: benrobertsonio
 author_link: https://github.com/benrobertsonio
 date: 2023-11-26T10:24:28.682Z

@@ -1,7 +1,7 @@
 ---
 title: Eleventy Blog Mnml
 github: https://github.com/arpitbatra123/eleventy-blog-mnml
-demo: https://eleventy-blog-mnml.netlify.com/
+demo: https://eleventy-blog-mnml.netlify.app/
 author: arpitbatra123
 author_link: https://github.com/arpitbatra123
 date: 2023-11-26T09:39:27.794Z

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Auth Aws Amplify
 github: https://github.com/beamsies/gatsby-starter-auth-aws-amplify
-demo: https://authenticaysh.netlify.com/
+demo: https://authenticaysh.netlify.app/
 author: beamsies
 author_link: https://github.com/beamsies
 date: 2023-11-26T10:20:15.797Z

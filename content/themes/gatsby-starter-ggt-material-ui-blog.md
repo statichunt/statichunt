@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Ggt Material Ui Blog
 github: https://github.com/avatar-kaleb/gatsby-starter-ggt-material-ui-blog
-demo: https://gatsby-theme-ggt-material-ui-blog.netlify.com/
+demo: https://gatsby-theme-ggt-material-ui-blog.netlify.app/
 author: avatar-kaleb
 author_link: https://github.com/avatar-kaleb
 date: 2023-11-26T09:59:17.788Z

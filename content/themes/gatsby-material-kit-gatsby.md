@@ -1,7 +1,7 @@
 ---
 title: Material Kit Gatsby
 github: https://github.com/CosmicWill/Material-Kit-Gatsby
-demo: https://amazing-franklin-4a05ff.netlify.com/
+demo: https://amazing-franklin-4a05ff.netlify.app/
 author: CosmicWill
 author_link: https://github.com/CosmicWill
 date: 2023-11-27T03:53:29.132Z

@@ -1,7 +1,7 @@
 ---
 title: Gatsby_starter_unicorn
 github: https://github.com/algokun/gatsby_starter_unicorn
-demo: https://gatsby-starter-unicorn.netlify.com/
+demo: https://gatsby-starter-unicorn.netlify.app/
 author: algokun
 author_link: https://github.com/algokun
 date: 2023-11-26T08:42:32.643Z

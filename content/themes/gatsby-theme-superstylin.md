@@ -1,7 +1,7 @@
 ---
 title: Gatsby Theme Superstylin
 github: https://github.com/bntzio/gatsby-theme-superstylin
-demo: https://superstylin.netlify.com/
+demo: https://superstylin.netlify.app/
 author: bntzio
 author_link: https://github.com/bntzio
 date: 2023-11-26T10:45:45.461Z

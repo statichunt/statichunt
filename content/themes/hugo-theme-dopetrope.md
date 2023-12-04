@@ -1,7 +1,7 @@
 ---
 title: Hugo Theme Dopetrope
 github: https://github.com/curtiscde/hugo-theme-dopetrope
-demo: https://hugo-theme-dopetrope.netlify.com/
+demo: https://hugo-theme-dopetrope.netlify.app/
 author: curtiscde
 author_link: https://github.com/curtiscde
 date: 2023-11-27T04:30:50.345Z

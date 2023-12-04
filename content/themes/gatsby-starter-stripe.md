@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Stripe
 github: https://github.com/brxck/gatsby-starter-stripe
-demo: https://gatsby-starter-stripe.netlify.com/
+demo: https://gatsby-starter-stripe.netlify.app/
 author: brxck
 author_link: https://github.com/brxck
 date: 2023-11-26T11:04:23.534Z

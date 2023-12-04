@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Krisp
 github: https://github.com/algokun/gatsby-starter-krisp
-demo: https://gatsby-starter-krisp.netlify.com/
+demo: https://gatsby-starter-krisp.netlify.app/
 author: algokun
 author_link: https://github.com/algokun
 date: 2023-11-26T08:42:28.184Z

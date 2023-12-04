@@ -1,7 +1,7 @@
 ---
 title: Derrick
 github: https://github.com/artemsheludko/derrick
-demo: https://derrick-jekyll.netlify.com/
+demo: https://derrick-jekyll.netlify.app/
 author: artemsheludko
 author_link: https://github.com/artemsheludko
 date: 2023-11-26T09:41:31.695Z

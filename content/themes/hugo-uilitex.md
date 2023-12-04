@@ -1,7 +1,7 @@
 ---
 title: Hugo Uilitex
 github: https://github.com/5n7/hugo-uilitex
-demo: https://uilitex.netlify.com/
+demo: https://uilitex.netlify.app/
 author: 5n7
 author_link: https://github.com/5n7
 date: 2023-11-26T07:38:17.423Z

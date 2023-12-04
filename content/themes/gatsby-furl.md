@@ -1,7 +1,7 @@
 ---
 title: Furl
 github: https://github.com/Chalarangelo/furl
-demo: https://furl.netlify.com/
+demo: https://furl.netlify.app/
 author: Chalarangelo
 author_link: https://github.com/Chalarangelo
 date: 2023-11-26T11:38:49.405Z

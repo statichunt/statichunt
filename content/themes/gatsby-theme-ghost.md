@@ -1,7 +1,7 @@
 ---
 title: Gatsby Theme Ghost
 github: https://github.com/akanshgulati/gatsby-theme-ghost
-demo: https://gatsby-theme-ghost.netlify.com/
+demo: https://gatsby-theme-ghost.netlify.app/
 author: akanshgulati
 author_link: https://github.com/akanshgulati
 date: 2023-11-26T08:21:53.705Z

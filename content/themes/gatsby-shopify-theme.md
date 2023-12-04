@@ -1,7 +1,7 @@
 ---
 title: Gatsby Shopify Theme
 github: https://github.com/alexislepresle/gatsby-shopify-theme
-demo: https://gatsby-shopify-store.netlify.com/
+demo: https://gatsby-shopify-store.netlify.app/
 author: alexislepresle
 author_link: https://github.com/alexislepresle
 date: 2023-11-26T08:39:02.980Z

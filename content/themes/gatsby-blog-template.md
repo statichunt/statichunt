@@ -1,7 +1,7 @@
 ---
 title: Gatsby Blog Template
 github: https://github.com/completejavascript/gatsby-blog-template
-demo: https://gb-template.netlify.com/
+demo: https://gb-template.netlify.app/
 author: completejavascript
 author_link: https://github.com/completejavascript
 date: 2023-11-27T03:28:11.030Z

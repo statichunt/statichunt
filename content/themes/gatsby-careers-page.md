@@ -1,7 +1,7 @@
 ---
 title: Gatsby Careers Page
 github: https://github.com/agneym/gatsby-careers-page
-demo: https://hardcore-darwin-d7328f.netlify.com/
+demo: https://hardcore-darwin-d7328f.netlify.app/
 author: agneym
 author_link: https://github.com/agneym
 date: 2023-11-26T08:09:31.120Z

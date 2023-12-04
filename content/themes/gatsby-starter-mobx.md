@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Mobx
 github: https://github.com/borekb/gatsby-starter-mobx
-demo: https://gatsby-starter-mobx.netlify.com/
+demo: https://gatsby-starter-mobx.netlify.app/
 author: borekb
 author_link: https://github.com/borekb
 date: 2023-11-26T10:51:28.855Z

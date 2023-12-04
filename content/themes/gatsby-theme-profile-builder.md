@@ -1,7 +1,7 @@
 ---
 title: Gatsby Theme Profile Builder
 github: https://github.com/ashr81/gatsby-theme-profile-builder
-demo: https://gatsby-theme-profile-builder.netlify.com/
+demo: https://gatsby-theme-profile-builder.netlify.app/
 author: ashr81
 author_link: https://github.com/ashr81
 date: 2023-11-26T09:47:32.949Z

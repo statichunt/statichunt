@@ -1,7 +1,7 @@
 ---
 title: Gatsby Wedding Theme
 github: https://github.com/agneym/gatsby-wedding-theme
-demo: https://vigorous-ptolemy-fe8a70.netlify.com/event
+demo: https://vigorous-ptolemy-fe8a70.netlify.app/event
 author: agneym
 author_link: https://github.com/agneym
 date: 2023-11-26T08:09:35.320Z

@@ -1,7 +1,7 @@
 ---
 title: Engimo
 github: https://github.com/achary/engimo
-demo: https://engimo.netlify.com/
+demo: https://engimo.netlify.app/
 author: achary
 author_link: https://github.com/achary
 date: 2023-11-26T07:53:26.593Z

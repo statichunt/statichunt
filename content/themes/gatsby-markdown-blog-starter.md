@@ -1,7 +1,7 @@
 ---
 title: Gatsby Markdown Blog Starter
 github: https://github.com/ammarjabakji/gatsby-markdown-blog-starter
-demo: https://gatsby-markdown-blog-starter.netlify.com/
+demo: https://gatsby-markdown-blog-starter.netlify.app/
 author: ammarjabakji
 author_link: https://github.com/ammarjabakji
 date: 2023-11-26T08:58:05.165Z

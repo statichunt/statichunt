@@ -79,11 +79,17 @@ const RegularPages = ({
   const element = category.splice(indexOfOthers, 1)[0];
   category.splice(category.length, 0, element);
 
+  let metaTitle = isExamples ? examples_meta_title : meta_title;
+  metaTitle = metaTitle.replace(
+    "<themes>",
+    `${Math.floor(filteredThemes.length / 50) * 50}+`,
+  );
+
   return (
     <Base
       title={title}
+      meta_title={metaTitle}
       description={isExamples ? examples_description : description}
-      meta_title={isExamples ? examples_meta_title : meta_title}
       image={image}
       noindex={noindex}
       canonical={canonical}
@@ -95,10 +101,10 @@ const RegularPages = ({
               arrayPremium.length && arrayFree.length
                 ? sortedThemes
                 : arrayFree.length
-                ? filterFree
-                : arrayPremium.length
-                ? filterPremium
-                : sortedThemes
+                  ? filterFree
+                  : arrayPremium.length
+                    ? filterPremium
+                    : sortedThemes
             }
             slug={slug}
             category={category}
@@ -183,8 +189,8 @@ export const getStaticProps = async ({ params }) => {
       regular.includes("-examples")
         ? page.frontmatter.examples_url === `/${regular}`
         : page.frontmatter?.url
-        ? page.frontmatter.url === `/${regular}`
-        : page.slug === regular,
+          ? page.frontmatter.url === `/${regular}`
+          : page.slug === regular,
     );
 
   // css page
@@ -209,10 +215,10 @@ export const getStaticProps = async ({ params }) => {
   const getCurrentPage = ssgPage.length
     ? slugify(ssgPage[0]?.frontmatter.title)
     : cssPage.length
-    ? slugify(cssPage[0]?.frontmatter.title)
-    : toolsCategoryPage.length
-    ? slugify(toolsCategoryPage[0]?.frontmatter.title)
-    : regular;
+      ? slugify(cssPage[0]?.frontmatter.title)
+      : toolsCategoryPage.length
+        ? slugify(toolsCategoryPage[0]?.frontmatter.title)
+        : regular;
 
   const currentPageData = await getRegularPage(getCurrentPage, regular);
 
@@ -225,12 +231,12 @@ export const getStaticProps = async ({ params }) => {
   const currentPage = regular.includes("-examples")
     ? ssgPage
     : ssgPage.length
-    ? ssgPage
-    : cssPage.length
-    ? cssPage
-    : toolsCategoryPage.length
-    ? toolsCategoryPage
-    : defaultPage;
+      ? ssgPage
+      : cssPage.length
+        ? cssPage
+        : toolsCategoryPage.length
+          ? toolsCategoryPage
+          : defaultPage;
 
   // current page MDXContent
   const mdxContent = await parseMDX(currentPageData[0]?.content);

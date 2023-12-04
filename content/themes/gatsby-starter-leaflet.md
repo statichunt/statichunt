@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Leaflet
 github: https://github.com/colbyfayock/gatsby-starter-leaflet
-demo: https://gatsby-starter-leaflet.netlify.com/
+demo: https://gatsby-starter-leaflet.netlify.app/
 author: colbyfayock
 author_link: https://github.com/colbyfayock
 date: 2023-11-27T03:24:00.284Z

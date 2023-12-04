@@ -1,7 +1,7 @@
 ---
 title: Hugo Cereus Pro Theme
 github: https://github.com/arhen/hugo-cereus-pro-theme
-demo: https://cereus-pro.netlify.com/
+demo: https://cereus-pro.netlify.app/
 author: arhen
 author_link: https://github.com/arhen
 date: 2023-11-26T09:35:04.156Z

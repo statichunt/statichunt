@@ -1,7 +1,7 @@
 ---
 title: Eleventy Taunt
 github: https://github.com/bradleytaunt/eleventy-taunt
-demo: https://taunt11ty.netlify.com/
+demo: https://taunt11ty.netlify.app/
 author: bradleytaunt
 author_link: https://github.com/bradleytaunt
 date: 2023-11-26T10:54:52.172Z

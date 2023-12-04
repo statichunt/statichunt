@@ -2,7 +2,7 @@
 title: Example
 github: https://github.com/cstate/example
 demo: >-
-  https://app.netlify.com/start/deploy?repository=https://github.com/cstate/example
+  https://app.netlify.app/start/deploy?repository=https://github.com/cstate/example
 author: cstate
 author_link: https://github.com/cstate
 date: 2023-11-27T04:23:47.756Z

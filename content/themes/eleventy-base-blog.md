@@ -1,7 +1,7 @@
 ---
 title: Eleventy Base Blog
 github: https://github.com/11ty/eleventy-base-blog
-demo: https://eleventy-base-blog.netlify.com/
+demo: https://eleventy-base-blog.netlify.app/
 author: 11ty
 author_link: https://github.com/11ty
 date: 2023-11-26T07:33:05.230Z

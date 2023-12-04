@@ -6,26 +6,12 @@ import getThemes from "../.json/themes.json" assert { type: "json" };
 const spinner = ora("Loading");
 const imagesFolder = path.join(process.cwd(), "/public/themes");
 
-const crawlerLogPath = "./ss-themes-log.json";
-
-// Check if the log file exists
-fs.access(crawlerLogPath, fs.constants.F_OK, (err) => {
-  if (err) {
-    fs.writeFile(crawlerLogPath, JSON.stringify([]), "utf8", (err) => {
-      if (err) {
-        console.error("Error creating file:", err);
-        return;
-      }
-    });
-  }
-});
-
 const themes = getThemes.map((data) => ({
   demo: data.frontmatter.demo,
   slug: data.slug,
 }));
 
-const captureScreenshot = async (demo, slug, overwrite) => {
+async function captureScreenshot(demo, slug, overwrite) {
   const thumbnail = `${slug}.png`;
   const imagePath = path.join(imagesFolder, thumbnail);
   if (!overwrite && fs.existsSync(imagePath)) {
@@ -51,12 +37,27 @@ const captureScreenshot = async (demo, slug, overwrite) => {
       height: 1000,
     });
 
-    await page.goto(demo, {
-      waitUntil: "networkidle0",
-      timeout: 0,
-    });
+    // Set a timeout of 10 seconds
+    const timeout = 10000;
+    const controller = new AbortController();
+    const timer = setTimeout(() => {
+      controller.abort();
+    }, timeout);
 
-    // remove cookie banner
+    try {
+      await page.goto(demo, {
+        waitUntil: "networkidle0",
+        signal: controller.signal, // abort the navigation if the timeout is reached
+      });
+    } catch {
+      clearTimeout(timer);
+      await browser.close();
+      throw new Error("Timeout");
+    }
+
+    clearTimeout(timer);
+
+    // Remove cookie banner
     const cookieBox = "[class*='cookie']";
     await page.evaluate(
       (cookieBox) =>
@@ -66,33 +67,21 @@ const captureScreenshot = async (demo, slug, overwrite) => {
 
     await page.screenshot({ path: imagePath });
     await browser.close();
-  } catch {
+  } catch (error) {
     spinner.text = `${demo} => failed capturing`;
-    // Read and update crawler-log
-    fs.readFile(crawlerLogPath, "utf8", (err, result) => {
+    console.error(error);
+
+    // Delete the theme
+    fs.unlink(path.join(process.cwd(), `/content/themes/${slug}.md`), (err) => {
       if (err) {
-        console.log("Error reading file from disk:", err);
+        console.error("Error deleting file:", err);
         return;
       }
-      try {
-        const logs = JSON.parse(result);
-        logs.push(demo);
-        const stringifyLogs = JSON.stringify(logs);
-
-        // Write the crawler log to the file
-        fs.writeFile(crawlerLogPath, stringifyLogs, "utf8", (err) => {
-          if (err) {
-            console.error("Error writing file:", err);
-            return;
-          }
-        });
-      } catch (err) {
-        console.log("Error parsing JSON string:", err);
-      }
     });
+
     return false;
   }
-};
+}
 
 const generateScreenshots = async (themes, overwrite) => {
   spinner.start("Capturing Screenshots");

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Netlify Boilerplate
 github: https://github.com/danurbanowicz/jekyll-netlify-boilerplate
-demo: https://jekyll-netlify-boilerplate.netlify.com/
+demo: https://jekyll-netlify-boilerplate.netlify.app/
 author: danurbanowicz
 author_link: https://github.com/danurbanowicz
 date: 2023-11-27T05:09:19.151Z

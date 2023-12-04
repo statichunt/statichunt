@@ -1,7 +1,7 @@
 ---
 title: Eleventy Netlify Boilerplate
 github: https://github.com/danurbanowicz/eleventy-netlify-boilerplate
-demo: https://eleventy-netlify-boilerplate.netlify.com/
+demo: https://eleventy-netlify-boilerplate.netlify.app/
 author: danurbanowicz
 author_link: https://github.com/danurbanowicz
 date: 2023-11-27T05:09:13.862Z

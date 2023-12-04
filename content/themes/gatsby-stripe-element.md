@@ -1,7 +1,7 @@
 ---
 title: Gatsby Stripe Element
 github: https://github.com/alexislepresle/gatsby-stripe-element
-demo: https://stripe-element.netlify.com/
+demo: https://stripe-element.netlify.app/
 author: alexislepresle
 author_link: https://github.com/alexislepresle
 date: 2023-11-26T08:39:05.139Z

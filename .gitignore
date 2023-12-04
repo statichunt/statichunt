@@ -6,7 +6,8 @@
 .pnp.js
 yarn.lock
 package-lock.json
-ss-themes-log.json
+eng.traineddata
+crawler-log.json
 
 # testing
 /coverage

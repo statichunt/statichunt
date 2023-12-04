@@ -2,7 +2,7 @@
 title: Gatsby
 page_title: Gatsby Themes
 weight: "5"
-meta_title: 50+ Gatsby Themes (Free & Premium) | Statichunt
+meta_title: <themes> Gatsby Themes (Free & Premium) | Statichunt
 description: "Are you looking for the best Gatsby themes and templates a to get started with your next project? Here we've listed awesome themes and templates"
 icon: /images/icons/gatsby.svg
 website: https://gatsbyjs.org

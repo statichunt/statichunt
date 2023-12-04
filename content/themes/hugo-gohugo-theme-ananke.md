@@ -1,7 +1,7 @@
 ---
 title: Gohugo Theme Ananke
 github: https://github.com/theNewDynamic/gohugo-theme-ananke
-demo: https://gohugo-ananke-theme-demo.netlify.com/
+demo: https://gohugo-ananke-theme-demo.netlify.app/
 author: theNewDynamic
 author_link: https://github.com/theNewDynamic
 date: 2023-11-26T11:06:29.194Z

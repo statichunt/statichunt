@@ -1,7 +1,7 @@
 ---
 title: Gatsby Bigcommerce Netlify Cms Starter
 github: https://github.com/bigcommerce/gatsby-bigcommerce-netlify-cms-starter
-demo: https://affectionate-goldwasser-30230c.netlify.com/
+demo: https://affectionate-goldwasser-30230c.netlify.app/
 author: bigcommerce
 author_link: https://github.com/bigcommerce
 date: 2023-11-26T10:32:24.344Z

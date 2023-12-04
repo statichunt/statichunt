@@ -1,7 +1,7 @@
 ---
 title: Gatsby Minimal Boilerplate
 github: https://github.com/AndrewUsher/gatsby-minimal-boilerplate
-demo: https://gatsby-minimal-boilerplate.netlify.com/
+demo: https://gatsby-minimal-boilerplate.netlify.app/
 author: AndrewUsher
 author_link: https://github.com/AndrewUsher
 date: 2023-11-26T09:07:03.295Z

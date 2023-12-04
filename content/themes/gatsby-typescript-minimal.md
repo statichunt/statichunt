@@ -1,7 +1,7 @@
 ---
 title: Gatsby Typescript Minimal
 github: https://github.com/benbarber/gatsby-typescript-minimal
-demo: https://gatsby-typescript-minimal.netlify.com/
+demo: https://gatsby-typescript-minimal.netlify.app/
 author: benbarber
 author_link: https://github.com/benbarber
 date: 2023-11-26T10:22:51.270Z

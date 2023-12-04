@@ -1,23 +1,23 @@
 ---
-title: Next 13 Boilerplate
-github: https://github.com/AstrOOnauta/next-13-boilerplate
-demo: https://next-js--boilerplate.vercel.app/
-author: AstrOOnauta
-author_link: https://github.com/AstrOOnauta
-date: 2023-11-26T09:51:43.804Z
+title: Nextjs 13 Boilerplate
+github: https://github.com/sakilk130/nextjs-13-boilerplate
+demo: https://nextjs-13-boilerplate.vercel.app/
+author: sakilk130
+author_link: https://github.com/sakilk130
+date: 2023-11-30T08:34:16.417Z
 description: >-
-  A personal NextJS 13 boilerplate: Typescript + Chakra UI + Prettier + ESLint +
-  Pre-commit (Husky + Lint-staged) + Cypress (e2e + component)
+  Boilerplate and Starter for Next.js 13+, Tailwind CSS & TypeScript Made with
+  developer experience first: Next.js + TypeScript + ESLint + Prettier + Husky +
+  Lint-Staged + Jest + Testing Library + Cypress + Commitlint + VSCode + PostCSS
+  + Tailwind CSS
 ssg:
   - Nextjs
 css:
-  - Chakra
+  - Tailwind
+  - PostCSS
 cms: []
 category:
   - Boilerplate
-draft: false
-publish_date: '2023-05-06T16:30:35Z'
-update_date: '2023-11-26T14:31:19Z'
-github_star: 66
-github_fork: 4
+draft: true
+disabled_reason: Github repo not found
 ---

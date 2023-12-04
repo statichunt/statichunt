@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Prismic Resume
 github: https://github.com/deamme/gatsby-starter-prismic-resume
-demo: https://compassionate-morse-5204bf.netlify.com/
+demo: https://compassionate-morse-5204bf.netlify.app/
 author: deamme
 author_link: https://github.com/deamme
 date: 2023-11-27T05:54:58.455Z

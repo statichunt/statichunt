@@ -1,7 +1,7 @@
 ---
 title: Gatsby Simple Contentful Starter
 github: https://github.com/cwlsn/gatsby-simple-contentful-starter
-demo: https://gatsby-simple-contentful-starter.netlify.com/
+demo: https://gatsby-simple-contentful-starter.netlify.app/
 author: cwlsn
 author_link: https://github.com/cwlsn
 date: 2023-11-27T04:32:21.406Z

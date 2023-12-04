@@ -1,6 +1,7 @@
 import HomeCategory from "@/components/HomeCategory";
 import Intro from "@/components/Intro";
 import Sidebar from "@/components/Sidebar";
+import config from "@/config/config.json";
 import useFilterData from "@/hooks/useFilterData";
 import usePricingFilter from "@/hooks/usePricingFilter";
 import useThemesSort from "@/hooks/useThemesSort";
@@ -73,17 +74,22 @@ const Home = ({
     arrayPremium.length && arrayFree.length
       ? sortedThemes
       : arrayFree.length
-      ? parameter
-        ? filterFree
-        : arrayFree
-      : arrayPremium.length
-      ? parameter
-        ? filterPremium
-        : arrayPremium
-      : sortedThemes;
+        ? parameter
+          ? filterFree
+          : arrayFree
+        : arrayPremium.length
+          ? parameter
+            ? filterPremium
+            : arrayPremium
+          : sortedThemes;
+
+  const title = config.site.title.replace(
+    "<themes>",
+    `${Math.floor(finalThemes.length / 50) * 50}+`,
+  );
 
   return (
-    <Base>
+    <Base title={title}>
       <div className="flex">
         <Sidebar
           ssg={ssg}

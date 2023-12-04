@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Alchemy
 github: https://github.com/bntzio/gatsby-starter-alchemy
-demo: https://alchemy.netlify.com/
+demo: https://alchemy.netlify.app/
 author: bntzio
 author_link: https://github.com/bntzio
 date: 2023-11-26T10:45:43.190Z

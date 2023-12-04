@@ -1,7 +1,7 @@
 ---
 title: Blogger
 github: https://github.com/aslammultani/blogger
-demo: https://gatsby-blogger.netlify.com/
+demo: https://gatsby-blogger.netlify.app/
 author: aslammultani
 author_link: https://github.com/aslammultani
 date: 2023-11-26T09:49:26.333Z

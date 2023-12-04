@@ -1,7 +1,7 @@
 ---
 title: Docuapi
 github: https://github.com/bep/docuapi
-demo: https://docuapi.netlify.com/
+demo: https://docuapi.netlify.app/
 author: bep
 author_link: https://github.com/bep
 date: 2023-11-26T10:26:12.514Z

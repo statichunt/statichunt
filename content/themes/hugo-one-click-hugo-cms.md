@@ -1,7 +1,7 @@
 ---
 title: One Click Hugo Cms
 github: https://github.com/netlify-templates/one-click-hugo-cms
-demo: https://master-template-one-click-hugo-cms.netlify.com/
+demo: https://master-template-one-click-hugo-cms.netlify.app/
 author: netlify-templates
 author_link: https://github.com/netlify-templates
 date: 2023-11-26T13:44:19.328Z

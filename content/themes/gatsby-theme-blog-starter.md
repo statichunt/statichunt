@@ -1,7 +1,7 @@
 ---
 title: Gatsby Theme Blog Starter
 github: https://github.com/aTechGuide/gatsby-theme-blog-starter
-demo: https://gatsby-theme-blog-starter.netlify.com/
+demo: https://gatsby-theme-blog-starter.netlify.app/
 author: aTechGuide
 author_link: https://github.com/aTechGuide
 date: 2023-11-26T09:53:12.904Z

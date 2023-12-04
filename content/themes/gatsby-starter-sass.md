@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Sass
 github: https://github.com/colbyfayock/gatsby-starter-sass
-demo: https://gatsby-starter-sass.netlify.com/
+demo: https://gatsby-starter-sass.netlify.app/
 author: colbyfayock
 author_link: https://github.com/colbyfayock
 date: 2023-11-27T03:24:02.552Z

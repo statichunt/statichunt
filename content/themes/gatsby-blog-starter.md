@@ -1,7 +1,7 @@
 ---
 title: Gatsby Blog Starter
 github: https://github.com/agneym/gatsby-blog-starter
-demo: https://vigilant-leakey-a4f8cd.netlify.com/
+demo: https://vigilant-leakey-a4f8cd.netlify.app/
 author: agneym
 author_link: https://github.com/agneym
 date: 2023-11-26T08:09:28.593Z

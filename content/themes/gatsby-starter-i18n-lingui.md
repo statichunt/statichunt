@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter I18n Lingui
 github: https://github.com/dcroitoru/gatsby-starter-i18n-lingui
-demo: https://gatsby-starter-i18n-lingui.netlify.com/
+demo: https://gatsby-starter-i18n-lingui.netlify.app/
 author: dcroitoru
 author_link: https://github.com/dcroitoru
 date: 2023-11-27T05:40:43.495Z

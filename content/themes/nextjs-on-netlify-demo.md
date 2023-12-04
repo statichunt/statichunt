@@ -1,7 +1,7 @@
 ---
 title: Next On Netlify Demo
 github: https://github.com/netlify/next-on-netlify-demo
-demo: https://next-on.netlify.com/
+demo: https://next-on.netlify.app/
 author: netlify
 author_link: https://github.com/netlify
 date: 2023-11-26T13:43:50.563Z
