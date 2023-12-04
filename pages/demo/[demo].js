@@ -66,9 +66,9 @@ const Demo = ({ theme, slug }) => {
 export default Demo;
 
 // use server side rendering
-export const getServerSideProps = ({ params }) => {
+export const getServerSideProps = async ({ params }) => {
   const { demo } = params;
-  const allTheme = getSinglePage("content/themes");
+  const allTheme = await getSinglePage("content/themes");
   const singleTheme = allTheme.filter((data) => data.slug == demo);
 
   return {

@@ -1,19 +1,21 @@
 import fs from "fs";
 import fsPromises from "fs/promises";
 import ora from "ora";
-import { createWorker } from 'tesseract.js';
+import { createWorker } from "tesseract.js";
 const spinner = ora("Loading");
 
 const imagesFolder = "./public/themes";
 const contentFolder = "./content/themes";
 const crawlerLogPath = "./crawler-log.json";
 const textsToDelete = [
-  "The page you're looking for doesn't exist",
+  "The page you're looking for doesn't",
   "This page is no longer available",
   "This page isn't working",
   "There isn't a GitHub Pages site here",
   "DEPLOYMENT_NOT_FOUND",
   "Site Not Found",
+  "Windows and installation",
+  "Blocked due to security reason",
 ];
 
 // Check if the log file exists
@@ -28,15 +30,13 @@ fs.access(crawlerLogPath, fs.constants.F_OK, (err) => {
   }
 });
 
-
 async function processImages() {
   spinner.start("Checking Images");
   let files = await fsPromises.readdir(imagesFolder);
-  
+
   // filter crawler log files from files
   const crawlerLog = fs.readFileSync(crawlerLogPath, "utf8");
   files = files.filter((file) => !crawlerLog.includes(file));
-
 
   for (const file of files) {
     spinner.text = `Checking ${file}`;
@@ -70,7 +70,7 @@ async function processImages() {
     });
 
     try {
-      const worker = await createWorker('eng');
+      const worker = await createWorker("eng");
       const {
         data: { text },
       } = await worker.recognize(imagePath);

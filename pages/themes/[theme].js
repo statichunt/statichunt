@@ -4,7 +4,7 @@ import ThemePreview from "@/components/ThemePreview";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import Themes from "@/layouts/Themes";
-import { getSinglePage } from "@/lib/contentParser";
+import { getSinglePageServer } from "@/lib/contentParser";
 import { similarItems } from "@/lib/utils/similarItems";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
 
@@ -67,10 +67,10 @@ const SingleTheme = ({ slug, theme, themes, authors }) => {
 export default SingleTheme;
 
 // use server side rendering
-export const getServerSideProps = ({ params }) => {
+export const getServerSideProps = async ({ params }) => {
   const { theme } = params;
-  const themes = getSinglePage("content/themes");
-  const authors = getSinglePage("content/authors");
+  const themes = await getSinglePageServer("content/themes");
+  const authors = await getSinglePageServer("content/authors");
   const singleTheme = themes.filter((data) => data.slug === theme);
 
   return {
