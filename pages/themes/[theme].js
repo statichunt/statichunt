@@ -4,14 +4,15 @@ import ThemePreview from "@/components/ThemePreview";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import Themes from "@/layouts/Themes";
-import { getSinglePage, getSinglePageSlug } from "@/lib/contentParser";
-import { similerItems } from "@/lib/utils/similarItems";
+import { getSinglePage } from "@/lib/contentParser";
+import { similarItems } from "@/lib/utils/similarItems";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
 
 const SingleTheme = ({ slug, theme, themes, authors }) => {
   const { frontmatter, content } = theme[0];
   const { title, description, meta_title, noindex, canonical } = frontmatter;
-  const similarThemes = similerItems(theme, themes, slug);
+  const similarThemes = similarItems(theme, themes, slug);
+
   return (
     <Base
       title={plainify(title)}
@@ -65,26 +66,12 @@ const SingleTheme = ({ slug, theme, themes, authors }) => {
 
 export default SingleTheme;
 
-export const getStaticPaths = () => {
-  const slugs = getSinglePageSlug("content/themes");
-
-  const paths = slugs.map((theme) => ({
-    params: {
-      theme: theme,
-    },
-  }));
-
-  return {
-    paths,
-    fallback: false,
-  };
-};
-
-export const getStaticProps = ({ params }) => {
+// use server side rendering
+export const getServerSideProps = ({ params }) => {
   const { theme } = params;
   const themes = getSinglePage("content/themes");
-  const singleTheme = themes.filter((data) => data.slug === theme);
   const authors = getSinglePage("content/authors");
+  const singleTheme = themes.filter((data) => data.slug === theme);
 
   return {
     props: {

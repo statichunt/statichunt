@@ -1,6 +1,6 @@
 import config from "@/config/config.json";
 import useTooltip from "@/hooks/useTooltip";
-import { getSinglePage, getSinglePageSlug } from "@/lib/contentParser";
+import { getSinglePage } from "@/lib/contentParser";
 import { plainify, slugify } from "@/lib/utils/textConverter";
 import DemoHeader from "@/partials/DemoHeader";
 import Head from "next/head";
@@ -65,22 +65,8 @@ const Demo = ({ theme, slug }) => {
 
 export default Demo;
 
-export const getStaticPaths = () => {
-  const slugs = getSinglePageSlug("content/themes");
-
-  const paths = slugs.map((theme) => ({
-    params: {
-      demo: theme,
-    },
-  }));
-
-  return {
-    paths,
-    fallback: false,
-  };
-};
-
-export const getStaticProps = ({ params }) => {
+// use server side rendering
+export const getServerSideProps = ({ params }) => {
   const { demo } = params;
   const allTheme = getSinglePage("content/themes");
   const singleTheme = allTheme.filter((data) => data.slug == demo);
