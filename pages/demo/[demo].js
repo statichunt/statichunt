@@ -71,6 +71,13 @@ export const getServerSideProps = async ({ params }) => {
 
   const singleTheme = await getSinglePageServer("content/themes", demo);
 
+  // handle 404
+  if (!singleTheme) {
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       theme: singleTheme,

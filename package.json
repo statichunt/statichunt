@@ -6,17 +6,12 @@
   "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "scripts": {
-    "dev": "next dev",
-    "build": "yarn json && next build",
+    "dev": "yarn update && next dev",
+    "build": "yarn update && next build",
     "lint": "next lint",
     "preview": "next start",
     "json": "node scripts/jsonGenerator.mjs",
-    "update": "node scripts/jsonGenerator.mjs && node scripts/parseNewThemesData.mjs && node scripts/screenshotThemes.mjs && node scripts/screenshotExamples.mjs && node scripts/screenshotTools.mjs",
-    "ss-themes": "yarn json && node scripts/screenshotThemes.mjs",
-    "ss-themes-clean": "yarn json && node scripts/deleteObsoleteThemesImages.mjs",
-    "themes-clean": "node scripts/delete404DemoThemes.mjs",
-    "ss-tools": "yarn json && node scripts/screenshotTools.mjs",
-    "ss-examples": "yarn json && node scripts/screenshotExamples.mjs",
+    "update": "node scripts/jsonGenerator.mjs && node scripts/parseNewThemesData.mjs",
     "update-themes": "yarn json && node scripts/updateThemes.mjs && yarn json",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs",
     "format": "prettier -w ."
@@ -63,11 +58,9 @@
     "postcss": "^8.4.32",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
-    "puppeteer": "^21.5.2",
     "sass": "^1.69.5",
     "tailwind-bootstrap-grid": "^5.1.0",
     "tailwindcss": "^3.3.5",
-    "tesseract.js": "^5.0.3",
     "yaml-front-matter": "^4.1.1"
   }
 }
