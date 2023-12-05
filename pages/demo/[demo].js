@@ -9,7 +9,7 @@ import path from "path";
 import { useState } from "react";
 
 const Demo = ({ theme, slug }) => {
-  const { demo, title, github, download } = theme[0].frontmatter;
+  const { demo, title, github, download } = theme.frontmatter;
   const { favicon } = config.site;
   const [showHeader, setShowHeader] = useState(true);
   const [device, setDevice] = useState("desktop");
@@ -72,58 +72,28 @@ export const getServerSideProps = async ({ params }) => {
   const { demo } = params;
 
   // get single page on server side
-  const getSinglePageServer = async (folder) => {
-    const filesPath = await new Promise((resolve, reject) => {
-      fs.readdir(path.join(process.cwd(), folder), (err, files) => {
-        if (err) {
-          reject(err);
-        } else {
-          resolve(files);
-        }
-      });
+  const getSinglePageServer = async (folder, slug) => {
+    const pageData = await new Promise((resolve, reject) => {
+      fs.readFile(
+        path.join(process.cwd(), folder, `${slug}.md`),
+        "utf-8",
+        (err, data) => {
+          if (err) {
+            reject(err);
+          } else {
+            resolve(data);
+          }
+        },
+      );
     });
-
-    const sanitizeFiles = filesPath.filter((file) => file.includes(".md"));
-    const filterSingleFiles = sanitizeFiles.filter((file) =>
-      file.match(/^(?!_)/),
-    );
-    const filesPromises = filterSingleFiles.map(async (filename) => {
-      const slug = filename.replace(".md", "");
-      const pageData = await new Promise((resolve, reject) => {
-        fs.readFile(
-          path.join(process.cwd(), folder, filename),
-          "utf-8",
-          (err, data) => {
-            if (err) {
-              reject(err);
-            } else {
-              resolve(data);
-            }
-          },
-        );
-      });
-      const pageDataParsed = matter(pageData);
-      const frontmatterString = JSON.stringify(pageDataParsed.data);
-      const frontmatter = JSON.parse(frontmatterString);
-      const content = pageDataParsed.content;
-      const url = frontmatter.url ? frontmatter.url.replace("/", "") : slug;
-
-      return { frontmatter: frontmatter, slug: url, content: content };
-    });
-
-    const singlePages = await Promise.all(filesPromises);
-    const publishedPages = singlePages.filter(
-      (page) => !page.frontmatter.draft && page,
-    );
-    const filterByDate = publishedPages.filter(
-      (page) => new Date(page.frontmatter.date || new Date()) <= new Date(),
-    );
-
-    return filterByDate;
+    const pageDataParsed = matter(pageData);
+    const frontmatterString = JSON.stringify(pageDataParsed.data);
+    const frontmatter = JSON.parse(frontmatterString);
+    const content = pageDataParsed.content;
+    return { frontmatter: frontmatter, slug: demo, content: content };
   };
 
-  const allTheme = await getSinglePageServer("content/themes");
-  const singleTheme = allTheme.filter((data) => data.slug == demo);
+  const singleTheme = await getSinglePageServer("content/themes", demo);
 
   return {
     props: {

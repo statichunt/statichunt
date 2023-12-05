@@ -7,7 +7,7 @@ author_link: https://github.com/Ruffianjiang
 date: 2023-11-30T08:10:54.395Z
 description: theme for hexo
 ssg:
-  - Nextjs
+  - Hexo
 css:
   - Stylus
 cms:
