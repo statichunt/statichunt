@@ -103,8 +103,8 @@ const ThemePreview = ({ theme, slug }) => {
             />
             <span className="browser-preview-thumbnail">
               <ImageFallback
-                src={`/themes/${slug}.png`}
-                fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
+                src={`https://statichunt-images.netlify.app/themes/${slug}.png`}
+                fallback={`/images/theme-placeholder.png`}
                 height={250}
                 width={750}
                 alt={theme[0].frontmatter.title}
@@ -116,8 +116,9 @@ const ThemePreview = ({ theme, slug }) => {
         {/* mobile thumbnail */}
         <div className="md:hidden">
           <ImageFallback
-            src={`/themes/${slug}.png`}
-            fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
+            src={`https://statichunt-images.netlify.app/themes/${slug}.png`}
+            // fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
+            fallback={`/images/theme-placeholder.png`}
             height="340"
             width="510"
             alt={theme[0].frontmatter.title}

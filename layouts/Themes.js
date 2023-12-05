@@ -88,8 +88,9 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
             <div className="theme-card">
               <Link href={`/themes/${theme.slug}`}>
                 <ImageFallback
-                  src={`/themes/${theme.slug}.png`}
-                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+                  src={`https://statichunt-images.netlify.app/themes/${theme.slug}.png`}
+                  // fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+                  fallback={`/images/theme-placeholder.png`}
                   height={240}
                   width={360}
                   alt={theme.frontmatter?.title}
