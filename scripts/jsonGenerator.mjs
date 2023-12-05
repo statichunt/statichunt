@@ -11,9 +11,9 @@ const getListPageData = (folder, filename) => {
   const content = matter(fileData).content;
 
   return {
-    frontmatter: data,
-    content: content,
     slug: slug,
+    frontmatter: data,
+    // content: content,
   };
 };
 
@@ -68,6 +68,7 @@ try {
   if (!fs.existsSync(jsonDir)) {
     fs.mkdirSync(jsonDir);
   }
+  // json data
   fs.writeFileSync(`${jsonDir}/themes.json`, JSON.stringify(themes));
   fs.writeFileSync(`${jsonDir}/tools.json`, JSON.stringify(tools));
   fs.writeFileSync(`${jsonDir}/examples.json`, JSON.stringify(examples));
@@ -82,6 +83,11 @@ try {
     `${jsonDir}/themes-github.json`,
     JSON.stringify(getThemesGithub()),
   );
+
+  // public data
+  fs.writeFileSync(`public/data/themes.json`, JSON.stringify(themes));
+  fs.writeFileSync(`public/data/tools.json`, JSON.stringify(tools));
+  fs.writeFileSync(`public/data/examples.json`, JSON.stringify(examples));
 } catch (err) {
   console.error(err);
 }

@@ -32,8 +32,9 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
         <div key={`theme-${i}`} className="col mb-4">
           <div className="relative rounded-md shadow">
             <ImageFallback
-              src={`/themes/${theme.slug}.png`}
-              fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+              src={`https://statichunt-images.netlify.app/themes/${theme.slug}.png`}
+              // fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+              fallback={`/images/theme-placeholder.png`}
               height={130}
               width={230}
               alt={theme.frontmatter?.title}

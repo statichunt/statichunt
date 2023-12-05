@@ -2,10 +2,8 @@ import config from "@/config/config.json";
 import useTooltip from "@/hooks/useTooltip";
 import { plainify, slugify } from "@/lib/utils/textConverter";
 import DemoHeader from "@/partials/DemoHeader";
-import fs from "fs";
-import matter from "gray-matter";
+import { getSinglePageServer } from "lib/contentParser";
 import Head from "next/head";
-import path from "path";
 import { useState } from "react";
 
 const Demo = ({ theme, slug }) => {
@@ -70,28 +68,6 @@ export default Demo;
 // use server side rendering
 export const getServerSideProps = async ({ params }) => {
   const { demo } = params;
-
-  // get single page on server side
-  const getSinglePageServer = async (folder, slug) => {
-    const pageData = await new Promise((resolve, reject) => {
-      fs.readFile(
-        path.join(process.cwd(), folder, `${slug}.md`),
-        "utf-8",
-        (err, data) => {
-          if (err) {
-            reject(err);
-          } else {
-            resolve(data);
-          }
-        },
-      );
-    });
-    const pageDataParsed = matter(pageData);
-    const frontmatterString = JSON.stringify(pageDataParsed.data);
-    const frontmatter = JSON.parse(frontmatterString);
-    const content = pageDataParsed.content;
-    return { frontmatter: frontmatter, slug: demo, content: content };
-  };
 
   const singleTheme = await getSinglePageServer("content/themes", demo);
 

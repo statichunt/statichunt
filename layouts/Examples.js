@@ -53,7 +53,7 @@ const Examples = ({ examples, customRowClass, customColClass }) => {
           >
             <div className="theme-card relative">
               <ImageFallback
-                src={`/examples/${example.slug}.png`}
+                src={`https://statichunt-images.netlify.app/examples/${example.slug}.png`}
                 fallback={`https://teamosis-sg.vercel.app/api/img?url=${example.frontmatter.website}`}
                 height={240}
                 width={360}

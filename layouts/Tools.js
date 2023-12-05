@@ -9,7 +9,7 @@ const Tools = ({ tools }) => {
           <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
             <ImageFallback
               loading="lazy"
-              src={`/tools/${tool.slug}.png`}
+              src={`https://statichunt-images.netlify.app/tools/${tool.slug}.png`}
               fallback={`https://teamosis-sg.vercel.app/api/img?url=${tool.frontmatter.website}`}
               alt="{tools.frontmatter.title}"
               width={160}

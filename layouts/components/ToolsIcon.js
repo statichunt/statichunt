@@ -19,17 +19,17 @@ const ToolsIcon = ({
   let cmsArray = [];
   let categoryArray = [];
 
-  if (ssg && item.frontmatter?.ssg) {
-    ssgArray = item.frontmatter?.ssg;
+  if (ssg && item?.frontmatter?.ssg) {
+    ssgArray = item?.frontmatter?.ssg;
   }
-  if (css && item.frontmatter?.css) {
-    cssArray = item.frontmatter?.css;
+  if (css && item?.frontmatter?.css) {
+    cssArray = item?.frontmatter?.css;
   }
-  if (cms && item.frontmatter?.cms) {
-    cmsArray = item.frontmatter?.cms;
+  if (cms && item?.frontmatter?.cms) {
+    cmsArray = item?.frontmatter?.cms;
   }
-  if (category && item.frontmatter?.category) {
-    categoryArray = item.frontmatter?.category;
+  if (category && item?.frontmatter?.category) {
+    categoryArray = item?.frontmatter?.category;
   }
 
   const allTools = [...ssgArray, ...cssArray, ...cmsArray, ...categoryArray];

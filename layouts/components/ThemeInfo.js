@@ -26,7 +26,7 @@ const ThemeInfo = ({ theme, slug }) => {
     update_date,
     download,
     price,
-  } = theme[0].frontmatter;
+  } = theme.frontmatter;
 
   return (
     <>
@@ -130,7 +130,7 @@ const ThemeInfo = ({ theme, slug }) => {
         <span className="flex py-[6px]">
           <span className="mb-2 min-w-[120px]">Types : </span>
           <div className="flex flex-wrap items-center">
-            <ToolsIcon item={theme[0]} size={20} />
+            <ToolsIcon item={theme} size={20} />
           </div>
         </span>
       </div>
@@ -144,8 +144,8 @@ const ThemeInfo = ({ theme, slug }) => {
                     github.match(/github\.com\/([^\/]+)/, "")[1]
                   }.png`
                 : author_link
-                ? `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${author_link}&size=64`
-                : "/images/author-placeholder.png"
+                  ? `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${author_link}&size=64`
+                  : "/images/author-placeholder.png"
             }
             height={50}
             width={50}
@@ -160,8 +160,8 @@ const ThemeInfo = ({ theme, slug }) => {
                 author_link
                   ? author_link
                   : github
-                  ? `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
-                  : ""
+                    ? `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
+                    : ""
               }
               target="_blank"
               rel="nofollow noopener noreferrer"
@@ -170,8 +170,8 @@ const ThemeInfo = ({ theme, slug }) => {
               {author
                 ? author
                 : github
-                ? github.match(/github\.com\/([^\/]+)/, "")[0]
-                : ""}
+                  ? github.match(/github\.com\/([^\/]+)/, "")[0]
+                  : ""}
             </Link>
           </div>
         </div>

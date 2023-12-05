@@ -20,6 +20,7 @@ crawler-log.json
 # production
 /build
 sitemap.xml
+sitemap-1.xml
 
 # misc
 .DS_Store

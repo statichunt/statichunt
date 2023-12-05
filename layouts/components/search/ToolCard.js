@@ -19,7 +19,7 @@ const ToolCard = ({ tools, themes, blogs }) => {
               <div className="flex w-full items-center rounded p-3">
                 <ImageFallback
                   loading="lazy"
-                  src={`/tools/${tool.slug}.png`}
+                  src={`https://statichunt-images.netlify.app/tools/${tool.slug}.png`}
                   fallback={`https://teamosis-sg.vercel.app/api/img?url=${tool.frontmatter.website}`}
                   alt={tool.frontmatter.title}
                   width={93}
