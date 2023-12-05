@@ -7,7 +7,7 @@
   "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "yarn update && next dev",
-    "build": "next build",
+    "build": "yarn json && next build",
     "lint": "next lint",
     "preview": "next start",
     "json": "node scripts/jsonGenerator.mjs",
