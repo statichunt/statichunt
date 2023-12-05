@@ -4,12 +4,16 @@ import ThemePreview from "@/components/ThemePreview";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
+import Themes from "layouts/Themes";
 import { getSinglePageServer } from "lib/contentParser";
+import { similarThemes } from "lib/utils/similarItems";
+import authors from "../../.json/authors.json";
+import themes from "../../.json/themes.json";
 
-const SingleTheme = ({ slug, theme, themes, authors }) => {
+const SingleTheme = ({ slug, theme }) => {
   const { frontmatter, content } = theme;
   const { title, description, meta_title, noindex, canonical } = frontmatter;
-  // const similarThemes = similarItems(theme, themes, slug);
+  const similarProducts = similarThemes(theme, themes, slug);
 
   return (
     <Base
@@ -45,17 +49,17 @@ const SingleTheme = ({ slug, theme, themes, authors }) => {
               <ThemeInfo theme={theme} slug={slug} />
             </div>
           </div>
-          {/* {similarThemes.length > 0 && (
+          {similarProducts.length > 0 && (
             <div className="mt-24">
               <h2 className="mb-8 text-center">Similar Themes To Consider</h2>
               <Themes
                 customRowClass="row justify-center !overflow-hidden"
                 customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"
-                themes={similarThemes.slice(0, 4)}
+                themes={similarProducts.slice(0, 4)}
                 authors={authors}
               />
             </div>
-          )} */}
+          )}
         </div>
       </section>
     </Base>
@@ -63,37 +67,6 @@ const SingleTheme = ({ slug, theme, themes, authors }) => {
 };
 
 export default SingleTheme;
-
-// export const getStaticPaths = () => {
-//   const slugs = getSinglePageSlug("content/themes");
-
-//   const paths = slugs.map((theme) => ({
-//     params: {
-//       theme: theme,
-//     },
-//   }));
-
-//   return {
-//     paths,
-//     fallback: false,
-//   };
-// };
-
-// export const getStaticProps = ({ params }) => {
-//   const { theme } = params;
-//   const themes = getSinglePage("content/themes");
-//   const authors = getSinglePage("content/authors");
-//   const singleTheme = themes.filter((data) => data.slug === theme);
-
-//   return {
-//     props: {
-//       theme: singleTheme,
-//       themes: themes,
-//       slug: theme,
-//       authors: authors,
-//     },
-//   };
-// };
 
 // use server side rendering
 export const getServerSideProps = async ({ params }) => {
@@ -112,8 +85,6 @@ export const getServerSideProps = async ({ params }) => {
     props: {
       theme: singleTheme,
       slug: theme,
-      // themes: themes,
-      // authors: authors,
     },
   };
 };

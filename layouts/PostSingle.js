@@ -3,7 +3,7 @@ import Share from "@/components/Share";
 import Base from "@/layouts/Baseof";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { readingTime } from "@/lib/utils/readingTime";
-import { similerPosts } from "@/lib/utils/similarItems";
+import { similarPosts } from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
@@ -24,7 +24,7 @@ const PostSingle = ({
   let { description, title, meta_title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
-  const relatedPosts = similerPosts(post, posts, slug).slice(0, 2);
+  const relatedPosts = similarPosts(post, posts, slug).slice(0, 2);
 
   return (
     <Base title={title} meta_title={meta_title} description={description}>

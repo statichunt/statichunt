@@ -56,6 +56,7 @@ const getCustomData = () => {
 const themes = getSinglePageData("content/themes", false);
 const tools = getSinglePageData("content/tools", false);
 const examples = getSinglePageData("content/examples", false);
+const authors = getSinglePageData("content/authors", false);
 const blog = getSinglePageData("content/blog", false);
 const ssg = getSinglePageData("content/ssg", true);
 const css = getSinglePageData("content/css", true);
@@ -72,6 +73,7 @@ try {
   fs.writeFileSync(`${jsonDir}/themes.json`, JSON.stringify(themes));
   fs.writeFileSync(`${jsonDir}/tools.json`, JSON.stringify(tools));
   fs.writeFileSync(`${jsonDir}/examples.json`, JSON.stringify(examples));
+  fs.writeFileSync(`${jsonDir}/authors.json`, JSON.stringify(authors));
   fs.writeFileSync(`${jsonDir}/theme-tools.json`, JSON.stringify(themeTools));
   fs.writeFileSync(`${jsonDir}/blog.json`, JSON.stringify(blog));
   fs.writeFileSync(`${jsonDir}/sponsors.json`, JSON.stringify(sponsors));
