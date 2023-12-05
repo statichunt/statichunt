@@ -20,7 +20,7 @@ const Tools = ({ tool, slug }) => {
           <div className="row justify-center">
             <div className="mb-8 md:col-8 md:mb-0">
               <Image
-                src={`/tools/${slug}.png`}
+                src={`https://statichunt-images.netlify.app/tools/${slug}.png`}
                 alt={title}
                 height={550}
                 width={825}

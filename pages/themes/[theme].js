@@ -4,12 +4,10 @@ import ThemePreview from "@/components/ThemePreview";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
-import fs from "fs";
-import matter from "gray-matter";
-import path from "path";
+import { getSinglePageServer } from "lib/contentParser";
 
 const SingleTheme = ({ slug, theme, themes, authors }) => {
-  const { frontmatter, content } = theme[0];
+  const { frontmatter, content } = theme;
   const { title, description, meta_title, noindex, canonical } = frontmatter;
   // const similarThemes = similarItems(theme, themes, slug);
 
@@ -100,28 +98,6 @@ export default SingleTheme;
 // use server side rendering
 export const getServerSideProps = async ({ params }) => {
   const { theme } = params;
-
-  // get single page on server side
-  const getSinglePageServer = async (folder, slug) => {
-    const pageData = await new Promise((resolve, reject) => {
-      fs.readFile(
-        path.join(process.cwd(), folder, `${slug}.md`),
-        "utf-8",
-        (err, data) => {
-          if (err) {
-            reject(err);
-          } else {
-            resolve(data);
-          }
-        },
-      );
-    });
-    const pageDataParsed = matter(pageData);
-    const frontmatterString = JSON.stringify(pageDataParsed.data);
-    const frontmatter = JSON.parse(frontmatterString);
-    const content = pageDataParsed.content;
-    return { frontmatter: frontmatter, slug: demo, content: content };
-  };
 
   const singleTheme = await getSinglePageServer("content/themes", theme);
 

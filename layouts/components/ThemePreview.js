@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ImageFallback from "./ImageFallback";
 
 const ThemePreview = ({ theme, slug }) => {
-  const { demo } = theme[0].frontmatter;
+  const { demo } = theme.frontmatter;
 
   useEffect(() => {
     let previewHeader = document.querySelector(".browser-preview-header");
@@ -107,7 +107,7 @@ const ThemePreview = ({ theme, slug }) => {
                 fallback={`/images/theme-placeholder.png`}
                 height={250}
                 width={750}
-                alt={theme[0].frontmatter.title}
+                alt={theme.frontmatter.title}
               />
             </span>
           </div>
@@ -121,7 +121,7 @@ const ThemePreview = ({ theme, slug }) => {
             fallback={`/images/theme-placeholder.png`}
             height="340"
             width="510"
-            alt={theme[0].frontmatter.title}
+            alt={theme.frontmatter.title}
             className="w-full rounded shadow"
           />
         </div>
