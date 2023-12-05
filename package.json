@@ -7,7 +7,7 @@
   "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "yarn update && next dev",
-    "build": "yarn update && next build",
+    "build": "next build",
     "lint": "next lint",
     "preview": "next start",
     "json": "node scripts/jsonGenerator.mjs",
@@ -20,9 +20,6 @@
     "update-themes": "yarn json && node scripts/updateThemes.mjs && yarn json",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs",
     "format": "prettier -w ."
-  },
-  "engines": {
-    "node": ">=18.0.0"
   },
   "dependencies": {
     "buymeacoffee.js": "^2.0.0",
@@ -68,7 +65,6 @@
     "prettier-plugin-tailwindcss": "^0.5.7",
     "puppeteer": "^21.5.2",
     "sass": "^1.69.5",
-    "sharp": "^0.33.0",
     "tailwind-bootstrap-grid": "^5.1.0",
     "tailwindcss": "^3.3.5",
     "tesseract.js": "^5.0.3",
