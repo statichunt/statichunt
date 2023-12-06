@@ -17,10 +17,8 @@
     "format": "prettier -w ."
   },
   "dependencies": {
-    "buymeacoffee.js": "^2.0.0",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
-    "lodash.debounce": "^4.0.8",
     "marked": "^11.0.0",
     "next": "14.0.3",
     "next-mdx-remote": "^4.4.1",

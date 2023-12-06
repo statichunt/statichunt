@@ -2,20 +2,21 @@ import useSearchBlog from "@/hooks/useSearchBlog";
 import useSearchTheme from "@/hooks/useSearchTheme";
 import useSearchTool from "@/hooks/useSearchTool";
 import { useSearchContext } from "context/searchContext";
-import debounce from "lodash.debounce";
-import { useCallback, useEffect, useMemo, useRef } from "react";
+import { useEffect, useRef, useTransition } from "react";
 import BlogCard from "./BlogCard";
 import SearchTab from "./SearchTab";
 import ThemesCard from "./ThemesCard";
 import ToolCard from "./ToolCard";
 
 const Search = ({ setSearchModal, searchModal }) => {
+  const searchInputRef = useRef(null);
   const { searchKey, setSearchKey, isTheme, isBlog, isTool } =
     useSearchContext();
+  const { themes } = useSearchTheme();
   const { tools } = useSearchTool();
   const { blogs } = useSearchBlog();
-  const { themes } = useSearchTheme();
-  const searchInputRef = useRef(null);
+
+  const [isPending, startTransition] = useTransition();
 
   useEffect(() => {
     searchModal
@@ -24,21 +25,9 @@ const Search = ({ setSearchModal, searchModal }) => {
       setSearchKey("");
   }, [searchModal, setSearchKey]);
 
-  const handleChange = useCallback(
-    (e) => {
-      setSearchKey(e.target.value);
-    },
-    [setSearchKey],
-  );
-  const debouncedResults = useMemo(() => {
-    return debounce(handleChange, 100);
-  }, [handleChange]);
-
-  useEffect(() => {
-    return () => {
-      debouncedResults.cancel();
-    };
-  });
+  const handleChange = (e) => {
+    startTransition(() => setSearchKey(e.target.value));
+  };
 
   return (
     <div className={`modal ${searchModal ? "block" : "hidden"}`}>
@@ -70,7 +59,7 @@ const Search = ({ setSearchModal, searchModal }) => {
           <input
             className="h-12 flex-1 border-0 bg-transparent text-text shadow-none outline-0 focus:ring-0 dark:text-darkmode-text"
             type="text"
-            onChange={debouncedResults}
+            onChange={handleChange}
             placeholder="Search anything..."
             ref={searchInputRef}
           />

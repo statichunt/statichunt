@@ -4,34 +4,20 @@ import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import MobileSidebar from "@/partials/MobileSidebar";
 import shortcodes from "@/shortcodes/all";
-import BuyMeACoffee from "buymeacoffee.js";
 import { MDXRemote } from "next-mdx-remote";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import Gravatar from "react-gravatar";
-import { BsPlusLg } from "react-icons/bs";
-import access from "../coffee.json";
 
 const Sponsors = ({ data }) => {
-  const coffee = new BuyMeACoffee(access.token);
-  const [individualSupporters, setIndividualSupporters] = useState([]);
-  useEffect(() => {
-    coffee.Supporters().then((data) => setIndividualSupporters(data.data));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // const coffee = new BuyMeACoffee(access.token);
+  // const [individualSupporters, setIndividualSupporters] = useState([]);
+  // useEffect(() => {
+  //   coffee.Supporters().then((data) => setIndividualSupporters(data.data));
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   const { mdxContent, frontmatter } = data;
-  const {
-    title,
-    meta_title,
-    description,
-    platinum,
-    gold,
-    silver,
-    bronze,
-    regular,
-    individual,
-  } = frontmatter;
+  const { title, meta_title, description, platinum, gold, silver, bronze } =
+    frontmatter;
 
   return (
     <Base title={title} meta_title={meta_title} description={description}>
@@ -183,7 +169,7 @@ const Sponsors = ({ data }) => {
                   </ul>
                 </div>
                 {/* individual supporters */}
-                <div className="mb-0">
+                {/* <div className="mb-0">
                   <h2 className="h3 mb-6">Individual Supporters</h2>
                   <ul>
                     {individualSupporters.map((item, index) => (
@@ -208,7 +194,7 @@ const Sponsors = ({ data }) => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

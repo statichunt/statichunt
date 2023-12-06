@@ -15,7 +15,7 @@ const Sponsors = ({ data }) => {
       <section className="section">
         <div className="container">
           <div className="row justify-center">
-            <div className="content sm:col-10 md:col-9 lg:col-7">
+            <div className="content sm:col-10 md:col-9 lg:col-9 xl:col-8 2xl:col-8">
               {markdownify(title, "h1", "mb-8")}
               <MDXRemote {...mdxContent} components={shortcodes} />
             </div>

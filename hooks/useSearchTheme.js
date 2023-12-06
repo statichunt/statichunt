@@ -45,6 +45,7 @@ const useSearchTheme = () => {
       return theme;
     }
   });
+
   return {
     themes: searchTheme,
   };
