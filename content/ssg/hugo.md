@@ -1,7 +1,7 @@
 ---
 title: Hugo
 page_title: Hugo Themes
-weight: "2"
+weight: "3"
 meta_title: <themes> Hugo Themes (Free & Premium) | Statichunt
 description: Check out our collection of hand-picked Hugo themes and templates that will give your website a professional and polished appearance.
 icon: "/images/icons/hugo.svg"

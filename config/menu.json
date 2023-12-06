@@ -1,7 +1,7 @@
 {
   "main": [
     {
-      "name": "Themes",
+      "name": "All Themes",
       "url": "/"
     },
     {
@@ -20,6 +20,12 @@
       "name": "Blog",
       "url": "/blog"
     }
+    ,
+    {
+      "name": "Submit Theme",
+      "url": "https://github.com/statichunt/statichunt"
+    }
+
   ],
   "footer": [
     {

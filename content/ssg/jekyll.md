@@ -1,7 +1,7 @@
 ---
 title: Jekyll
 page_title: Jekyll Themes
-weight: "4"
+weight: "6"
 meta_title: <themes> Jekyll Themes (Free & Premium) | Statichunt
 description: "Checkout this collection of free and premium Jekyll themes to jumpstart your next Jekyll project."
 icon: /images/icons/jekyll.svg

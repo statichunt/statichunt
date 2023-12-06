@@ -130,12 +130,11 @@ const Header = () => {
             </button>
             <ThemeSwitcher />
             <a
-              className="btn btn-primary origin-right scale-90 md:scale-100 lg:ml-0"
-              href="https://github.com/statichunt/statichunt"
+              className="btn btn-primary nav-hire-expert origin-right scale-90 md:scale-100 lg:ml-0"
+              href="https://zeon.studio/"
               target="_blank"
-              rel="nofollow noreferrer"
             >
-              Submit
+              Need Jamstack Expert?
             </a>
           </div>
         </nav>
