@@ -17,6 +17,5 @@ cms: []
 category:
   - Ecommerce
   - Dashboard
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---

@@ -19,7 +19,7 @@ github_star: 145
 github_fork: 42
 ---
 
-## Key Features :
+## Key Features
 
 - Hero Section
 - Features Section 1

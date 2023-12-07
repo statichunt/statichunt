@@ -1,7 +1,6 @@
 ---
 title: Streamo
 download: https://1.envato.market/EKK1Y2
-github: null
 price: 39
 demo: https://reactdemo.hasthemes.com/streamo/index.html
 author: Hastech
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build on React Platform (v7.27.1)
 - Build on Gatsby (v4.x.x)

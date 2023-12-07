@@ -1,7 +1,6 @@
 ---
 title: Industify
 download: https://1.envato.market/PyOZve
-github: null
 price: 21
 demo: https://industify-react.vercel.app/
 author: TrendyCoder
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Pixel Perfect Design
 - React, Next JS

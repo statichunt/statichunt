@@ -1,7 +1,6 @@
 ---
 title: Astro Folio
 download: https://cssninja.io/product/folio
-github: null
 price: 29
 demo: https://folio.cssninja.io/home/
 author: cssninja
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Astro v2.x
 - Tailwind CSS v3.x

@@ -1,7 +1,6 @@
 ---
 title: Adrian
 download: https://gethugothemes.com/products/adrian
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/adrian/site/
 author: Gethugothemes

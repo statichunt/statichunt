@@ -1,7 +1,6 @@
 ---
 title: Mojosa
 download: https://1.envato.market/2rPNVz
-github: null
 price: 25
 demo: https://mojosa-react.envytheme.com/agency/
 author: EnvyTheme

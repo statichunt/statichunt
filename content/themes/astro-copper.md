@@ -1,7 +1,6 @@
 ---
 title: Copper Astro
 download: https://themefisher.com/products/copper-astro
-github: null
 price: 79
 demo: https://copper-astro.netlify.app/
 author: Themefisher

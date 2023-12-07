@@ -1,7 +1,6 @@
 ---
 title: BoSEO
 download: https://1.envato.market/EanN2P
-github: null
 price: 12
 demo: https://boseo.jamstacktemplates.dev/
 author: BootXperts
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build on React Platform
 - Lerna and Yarn Workspace Monorepo Architecture

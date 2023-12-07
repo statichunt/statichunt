@@ -1,7 +1,6 @@
 ---
 title: Andromeda Astro
 download: https://themefisher.com/products/andromeda-astro
-github: null
 price: 79
 demo: https://andromeda-astro.vercel.app/
 author: Themefisher
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 16+ Unique Pages
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

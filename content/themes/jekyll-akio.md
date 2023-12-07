@@ -1,7 +1,6 @@
 ---
 title: Akio
 download: https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme
-github: null
 price: 49
 demo: https://akio-jekyll.netlify.app/
 author: Artem Sheludko
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Dark and light mode user can select themself
 - No jQuery, only vanilla JS

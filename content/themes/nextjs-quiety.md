@@ -1,7 +1,6 @@
 ---
 title: Quiety
 download: https://1.envato.market/XxPeKg
-github: null
 price: 27
 demo: https://quiety-next.themetags.com/
 author: ThemeTags
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - No jQuery Dependency
 - Responsive and Mobile Friendly

@@ -1,7 +1,6 @@
 ---
 title: MedQ
 download: https://1.envato.market/ORNxyQ
-github: null
 price: 49
 demo: https://medq-react.envytheme.com/
 author: EnvyTheme
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Built on pure React.js without jQuery
 - Ready to Use eCommerce Template

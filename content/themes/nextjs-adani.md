@@ -1,7 +1,6 @@
 ---
 title: Adani
 download: https://envytheme.com/item/adani/
-github: null
 price: 12
 demo: https://adani-react.envytheme.com/index2
 author: envytheme

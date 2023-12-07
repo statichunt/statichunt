@@ -1,6 +1,5 @@
 ---
-title: Geeks-NextJs-LMS-Courses-Theme
-github: null # only for free theme
+title: Geeks-NextJs-LMS-Courses-Theme # only for free theme
 price: 49 # only for premium theme
 demo: https://geeks-nextjs.vercel.app/marketing/landings/home-academy
 download: https://themes.getbootstrap.com/product/geeks-admin-dashboard-template-react/

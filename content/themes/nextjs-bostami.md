@@ -1,7 +1,6 @@
 ---
 title: Bostami
 download: https://1.envato.market/1r93Vd
-github: null
 price: 14
 demo: https://bostami-next.vercel.app/home-box-layout/home
 author: ib-themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 2 Separate (NextJS + React) File (2023 Update)
 - NextJS Version Link

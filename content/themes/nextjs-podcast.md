@@ -1,7 +1,6 @@
 ---
 title: Podcast
 download: https://cruip.com/podcast/
-github: null
 price: 49
 demo: https://preview.cruip.com/podcast/
 author: Cruip

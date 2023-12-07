@@ -13,6 +13,5 @@ css:
 cms: []
 category:
   - Dashboard
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---

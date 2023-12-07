@@ -1,7 +1,6 @@
 ---
 title: E-Learning
 download: https://adminmart.com/product/e-learning-free-nextjs-landing-page-template/
-github: null
 price: 0
 demo: https://e-learning-tailwind-nextjs-free.vercel.app/
 author: Adminmart
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - NextJs 13+
 - Tailwind

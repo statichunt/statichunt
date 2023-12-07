@@ -1,7 +1,6 @@
 ---
 title: Nuron
 download: https://1.envato.market/rnvdYd
-github: null
 price: 12
 demo: https://nuron-nextjs.vercel.app/
 author: Rainbow Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with latest React/NextJS
 - React Hooks used

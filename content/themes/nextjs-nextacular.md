@@ -25,7 +25,7 @@ github_star: 819
 github_fork: 147
 ---
 
-## Key Features :
+## Key Features
 
 - Authentication
 - Database Integration + Prisma (SQL/PostgreSQL)

@@ -1,7 +1,6 @@
 ---
 title: Argon
 download: https://jekyllthemes.io/theme/argon-jekyll-theme
-github: null
 price: 99
 demo: https://argon.jekyllthemes.io/
 author: Jekyll Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Three Jekyll-ready blog layouts
 - Responsive design

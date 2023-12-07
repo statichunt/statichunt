@@ -1,7 +1,6 @@
 ---
 title: Nest
 download: https://1.envato.market/MX4MOJ
-github: null
 price: 29
 demo: https://nest-nextjs.vercel.app/
 author: Alithemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - React, NextJs, Redux
 - React Toastify

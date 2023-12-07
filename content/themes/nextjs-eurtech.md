@@ -1,7 +1,6 @@
 ---
 title: Eurtech
 download: https://1.envato.market/NKdMV1
-github: null
 price: 16
 demo: https://eurtech-react.vercel.app/
 author: BDevs
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Based on Bootstrap 5.x
 - React JS (Latest Version)

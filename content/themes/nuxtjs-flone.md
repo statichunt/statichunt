@@ -1,7 +1,6 @@
 ---
 title: Flone
 download: https://1.envato.market/g11nYv
-github: null
 price: 24
 demo: https://flone.vuejstemplate.com/
 author: codecarnival
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build with latest Vue
 - Build with latest Nuxt

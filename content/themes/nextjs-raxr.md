@@ -1,7 +1,6 @@
 ---
 title: Raxr
 download: https://1.envato.market/4ekNg9
-github: null
 price: 25
 demo: https://raxr-react.envytheme.com/
 author: EnvyTheme

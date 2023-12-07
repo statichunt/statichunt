@@ -1,7 +1,6 @@
 ---
 title: Talent
 download: https://cruip.com/talent/
-github: null
 price: 49
 demo: https://preview.cruip.com/talent/
 author: Cruip

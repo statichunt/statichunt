@@ -85,7 +85,7 @@ const Home = ({
 
   const title = config.site.title.replace(
     "<themes>",
-    `${Math.floor(finalThemes.length / 50) * 50}+`,
+    `${Math.floor(themes.length / 50) * 50}+`,
   );
 
   return (
@@ -102,7 +102,7 @@ const Home = ({
           <div className="container-home container">
             <Announcement />
             <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
-            <div className="mb-8 block justify-between md:flex">
+            <div className="mb-8 block justify-between md:flex lg:sticky top-[74px] bg-body dark:bg-darkmode-body pt-2 z-20 px-2">
               <HomeCategory
                 themes={finalThemes}
                 category={category}

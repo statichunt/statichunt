@@ -15,6 +15,5 @@ cms:
   - Sanity
 category:
   - Ecommerce
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---

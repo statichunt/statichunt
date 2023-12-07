@@ -25,7 +25,7 @@ github_star: 920
 github_fork: 225
 ---
 
-## Key Features :
+## Key Features
 
 - Best SEO setup - Meta Tags, JSON-LD and Open Graph Tags
 - Tina CMS integration - local & (optional) production CMS

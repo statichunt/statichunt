@@ -1,7 +1,6 @@
 ---
 title: Bizcraft
 download: https://gethugothemes.com/products/bizcraft
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/bizcraft/site/
 author: Gethugothemes

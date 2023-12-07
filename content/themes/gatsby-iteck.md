@@ -1,7 +1,6 @@
 ---
 title: Iteck Gatsby
 download: https://1.envato.market/QOqQ2P
-github: null
 price: 9
 demo: https://iteck-gatsby.vercel.app/home-app-landing/
 author: ThemesCamp

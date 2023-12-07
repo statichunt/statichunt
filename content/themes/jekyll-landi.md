@@ -1,7 +1,6 @@
 ---
 title: Landi
 download: https://1.envato.market/y2q072
-github: null
 price: 10
 demo: https://iamsabbirislam.github.io/landi-Jekyll-theme-live/
 author: TwinkleTheme

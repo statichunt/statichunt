@@ -1,7 +1,6 @@
 ---
 title: Linoor
 download: https://1.envato.market/GjPrj2
-github: null
 price: 18
 demo: https://linoor-nuxt.netlify.app/
 author: Layerdrops
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Includes 3 Home versions
 - Includes 14 Inner pages

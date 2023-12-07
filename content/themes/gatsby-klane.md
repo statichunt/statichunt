@@ -1,7 +1,6 @@
 ---
 title: Klane Gatsby
 download: https://1.envato.market/9W1YyW
-github: null
 price: 16
 demo: https://klane-gatsby.hibotheme.com/creative-agency/
 author: HiboTheme

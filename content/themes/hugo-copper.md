@@ -1,7 +1,6 @@
 ---
 title: Copper
 download: https://gethugothemes.com/products/copper
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/copper/site/
 author: Gethugothemes

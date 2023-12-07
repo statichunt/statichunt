@@ -1,7 +1,6 @@
 ---
 title: Wavvy
 download: https://www.tailwindawesome.com/resources/wavvy
-github: null
 price: 29
 demo: https://wavvy-next-preview.vercel.app/
 author: Tailwind Awesome
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 8 fully responsive and pre-assembled pages (available in HTML and React/Next.js)
 - 30+ customizable sections

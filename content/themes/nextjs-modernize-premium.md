@@ -1,7 +1,6 @@
 ---
 title: Modernize Next Js Admin Dashboard
 download: https://adminmart.com/product/modernize-next-js-admin-dashboard/
-github: null
 price: 59
 demo: https://modernize-nextjs.adminmart.com/dashboards/modern
 author: Adminmart
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Easy Folder Structure
 - Organized Code Structure

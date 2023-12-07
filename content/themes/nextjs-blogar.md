@@ -1,7 +1,6 @@
 ---
 title: Blogar
 download: https://1.envato.market/a1JMgW
-github: null
 price: 13
 demo: https://new.axilthemes.com/demo/react/blogar
 author: Axilthemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Fast, Lightweight & Powerful
 - Latest React

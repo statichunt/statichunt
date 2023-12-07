@@ -1,7 +1,6 @@
 ---
 title: Harry
 download: https://1.envato.market/ZQQR91
-github: null
 price: 17
 demo: https://harry-nuxt.vercel.app/
 author: Theme_Pure
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Vue JS 3
 - Nuxt 3

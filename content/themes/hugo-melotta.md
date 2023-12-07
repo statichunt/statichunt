@@ -1,7 +1,6 @@
 ---
 title: Melotta
 download: https://1.envato.market/6b095K
-github: null
 price: 29
 demo: https://melotta-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 100% Responsive and clean theme
 - Optimized for mobile devices

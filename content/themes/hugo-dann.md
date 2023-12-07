@@ -1,7 +1,6 @@
 ---
 title: Dann
 download: https://1.envato.market/qnQ3v5
-github: null
 price: 49
 demo: https://dann-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - No jQuery, only vanilla JS
 - 100% responsive Design

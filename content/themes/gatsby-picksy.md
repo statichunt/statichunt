@@ -1,7 +1,6 @@
 ---
 title: Picksy
 download: https://1.envato.market/GmK9L6
-github: null
 price: 35
 demo: https://picksy.vercel.app/minimal/
 author: REDQ

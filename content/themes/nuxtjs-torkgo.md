@@ -1,7 +1,6 @@
 ---
 title: TorkGo
 download: https://1.envato.market/yRJ572
-github: null
 price: 25
 demo: https://torkgo.thetork.com/
 author: TheTork
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Modern Design
 - 3 Different Home Pages

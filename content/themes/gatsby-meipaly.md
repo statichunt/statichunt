@@ -1,7 +1,6 @@
 ---
 title: Meipaly
 download: https://1.envato.market/KjjmYN
-github: null
 price: 18
 demo: https://meipaly-gatsby.vercel.app/
 author: Layerdrops
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Includes 2 Home versions
 - Includes 10 Inner pages

@@ -23,7 +23,7 @@ github_star: 128
 github_fork: 93
 ---
 
-## Key Features :
+## Key Features
 
 - Component library for website building
 - Fully configurable Website

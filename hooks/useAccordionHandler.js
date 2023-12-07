@@ -2,7 +2,7 @@ import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 
-const useTaxonmyHandler = (themes) => {
+const useTaxonomyHandler = (themes) => {
   const {
     arraySSG,
     arrayCMS,
@@ -98,8 +98,8 @@ const useTaxonmyHandler = (themes) => {
           filterArray_one.length
             ? filterArray_one
             : filterArray_two.length
-            ? filterArray_two
-            : themes,
+              ? filterArray_two
+              : themes,
           fourth_params.array,
           fourth_params.params,
         );
@@ -108,8 +108,8 @@ const useTaxonmyHandler = (themes) => {
           filterArray_three.length
             ? filterArray_three
             : filterArray_two.length
-            ? filterArray_two
-            : filterArray_one,
+              ? filterArray_two
+              : filterArray_one,
         );
       }
     }
@@ -133,4 +133,4 @@ const useTaxonmyHandler = (themes) => {
   };
 };
 
-export default useTaxonmyHandler;
+export default useTaxonomyHandler;

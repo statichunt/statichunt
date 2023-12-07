@@ -1,7 +1,6 @@
 ---
 title: Edublink
 download: https://1.envato.market/qn5r4g
-github: null
 price: 24
 demo: https://edublink.vue.devsblink.com/
 author: DevsBlink
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 8 Unique Home Pages
 - No jQuery Dependency

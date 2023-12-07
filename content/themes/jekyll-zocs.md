@@ -13,6 +13,5 @@ cms:
   - Markdown
 category:
   - Documentation
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---

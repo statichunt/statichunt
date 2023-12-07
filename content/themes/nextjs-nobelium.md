@@ -20,7 +20,7 @@ github_star: 2607
 github_fork: 1781
 ---
 
-## Key Features :
+## Key Features
 
 - Fast page render and responsive design
 - Fast static generation with efficient compiler

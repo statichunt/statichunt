@@ -1,7 +1,6 @@
 ---
 title: Doxy
 download: https://1.envato.market/jrWYdZ
-github: null
 price: 39
 demo: https://jekyll-doxy.netlify.app/
 author: Doxy
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Minimal Design.
 - SCSS files included.

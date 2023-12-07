@@ -1,7 +1,6 @@
 ---
 title: Hilton
 download: https://1.envato.market/GjxB3V
-github: null
 price: 49
 demo: https://hilton-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Dark and Light Mode
 - No jQuery, Only Vanilla JS

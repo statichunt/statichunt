@@ -1,7 +1,6 @@
 ---
 title: Ecostate
 download: https://1.envato.market/k00EAL
-github: null
 price: 24
 demo: https://ecostate.jamstacktemplates.dev/
 author: Bootxperts
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build with latest React (v18.0.2)
 - Build with latest Gatsby (v5.7.0)

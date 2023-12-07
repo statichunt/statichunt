@@ -1,7 +1,6 @@
 ---
 title: Glit
 download: https://envytheme.com/item/glit-gatsby-react-marketing-startup-template/
-github: null
 price: 17
 demo: https://glit-gatsby.envytheme.com/
 author: envytheme

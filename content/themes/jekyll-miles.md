@@ -1,7 +1,6 @@
 ---
 title: Miles
 download: https://jekyllthemes.io/theme/miles
-github: null
 price: 49
 demo: https://miles-jekyll.tortoizthemes.com/
 author: Tortoiz Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 12+ unique creative home page layouts
 - 6 portfolio layout styles

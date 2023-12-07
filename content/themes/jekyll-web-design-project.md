@@ -12,6 +12,5 @@ css: []
 cms: []
 category:
   - Business
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: Norlin
 download: https://anvodstudio.com/hugo-themes/norlin
-github: null
 price: 49
 demo: https://norlin-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 100% responsive and clean theme
 - Optimized for mobile devices

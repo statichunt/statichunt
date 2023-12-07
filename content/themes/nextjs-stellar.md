@@ -1,7 +1,6 @@
 ---
 title: Stellar
 download: https://cruip.com/stellar/
-github: null
 price: 49
 demo: https://preview.cruip.com/stellar/
 author: Cruip

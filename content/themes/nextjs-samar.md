@@ -1,7 +1,6 @@
 ---
 title: Samar
 download: https://1.envato.market/doXz5M
-github: null
 price: 25
 demo: https://samartheme3.vercel.app/
 author: DexignZone
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 3 Home Page
 - Slider

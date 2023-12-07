@@ -1,7 +1,6 @@
 ---
 title: Meta Portal
 download: https://1.envato.market/Gj6MNr
-github: null
 price: 17
 demo: https://meta-portal-react.vercel.app/
 author: CodeeFly

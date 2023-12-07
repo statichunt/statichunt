@@ -22,7 +22,7 @@ github_star: 4
 github_fork: 7
 ---
 
-## Key Features :
+## Key Features
 
 - Responsive design that adapts to different screen sizes.
 - Supports light and dark theme.

@@ -1,7 +1,6 @@
 ---
 title: Cube
 download: https://cruip.com/cube/
-github: null
 price: 49
 demo: https://preview.cruip.com/cube/
 author: Cruip

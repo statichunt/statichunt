@@ -1,7 +1,6 @@
 ---
 title: Naxos
 download: https://1.envato.market/6eeLRq
-github: null
 price: 17
 demo: https://naxos-gatsbyjs.vercel.app/
 author: AthenaStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - React Gatsby JS framework used
 - NPM Packages used

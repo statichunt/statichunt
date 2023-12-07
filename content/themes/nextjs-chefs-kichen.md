@@ -1,7 +1,6 @@
 ---
 title: Chefs Kichen
 download: https://adminmart.com/product/chefs-kichen-free-nextjs-landing-page-template/
-github: null
 price: 0
 demo: https://restaurant-tailwind-nextjs-free.vercel.app/
 author: Adminmart
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - NextJs 13+
 - Tailwind

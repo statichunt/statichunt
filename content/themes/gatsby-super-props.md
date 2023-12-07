@@ -1,7 +1,6 @@
 ---
 title: Super Props Gatsby
 download: https://1.envato.market/XxPe2o
-github: null
 price: 17
 demo: https://superprops-gatsby.vercel.app/appmodern/
 author: Redqteam

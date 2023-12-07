@@ -14,6 +14,5 @@ css: []
 cms: []
 category:
   - Boilerplate
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---

@@ -21,7 +21,7 @@ github_star: 376
 github_fork: 184
 ---
 
-## Key Features:
+## Key Features
 
 - Ultra high performance
 - SEO optimized

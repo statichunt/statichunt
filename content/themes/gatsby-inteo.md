@@ -1,7 +1,6 @@
 ---
 title: Inteo
 download: https://landify.design/templates/inteo
-github: null
 price: 0
 demo: https://preview.landify.design/inteo/
 author: Landify

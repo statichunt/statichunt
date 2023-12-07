@@ -1,4 +1,4 @@
-import useTaxonmyHandler from "@/hooks/useAccordionHandler";
+import useTaxonomyHandler from "@/hooks/useAccordionHandler";
 import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useState } from "react";
@@ -28,7 +28,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     filteringTaxonomy,
     filterState,
     handleTaxonomyArray,
-  } = useTaxonmyHandler(themes);
+  } = useTaxonomyHandler(themes);
 
   // change others position
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
@@ -63,7 +63,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     }
   };
 
-  // add data inside taxonmy array
+  // add data inside taxonomy array
   useEffect(() => {
     handleTaxonomyArray(arrayCategory);
 
@@ -91,16 +91,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   };
 
   return (
-    <ul className="category-list">
-      <li
-        onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
-        className={`filter-free ${arrayFree.length > 0 ? "active" : ""} ${
-          filterFree.length < 1 ? "disabled" : ""
-        }`}
-      >
-        Free
-        <span>{filterFree.length}</span>
-      </li>
+    <ul className="category-list flex flex-wrap">
       <li
         onClick={() =>
           setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
@@ -112,15 +103,27 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
         Premium
         <span>{filterPremium.length}</span>
       </li>
-      <li className="!mb-0 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" />
+      <li
+        onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
+        className={`filter-free ${arrayFree.length > 0 ? "active" : ""} ${
+          filterFree.length < 1 ? "disabled" : ""
+        }`}
+      >
+        Free
+        <span>{filterFree.length}</span>
+      </li>
+      <li className="!mb-0 mt-1 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" />
 
       {taxonomy.map((item, i) => (
         <li
           onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}
           key={`item-${i}`}
-          className={`${item.selected ? "active" : ""} filter-${slugify(
-            item.frontmatter.title,
-          )} ${countItems(item) < 1 ? "disabled" : ""}`}
+          className={`whitespace-nowrap ${
+            item.selected ? "active" : ""
+          } filter-${slugify(item.frontmatter.title)} ${
+            countItems(item) < 1 ? "disabled" : ""
+          }`}
+          style={{ order: item.frontmatter.weight || "100" }}
         >
           {item.frontmatter.title}
           {parameter && [...new Set(taxonomyArray)][0] === "category" ? (

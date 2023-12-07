@@ -1,7 +1,6 @@
 ---
 title: Luique
 download: https://1.envato.market/MmAJ6o
-github: null
 price: 24
 demo: https://luique-jekyll.netlify.app/
 author: bslthemes

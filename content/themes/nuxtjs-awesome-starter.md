@@ -22,7 +22,7 @@ github_star: 1353
 github_fork: 292
 ---
 
-## Key Features:
+## Key Features
 
 - Tailwind CSS v3 with Windicss
 - Headless UI

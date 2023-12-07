@@ -1,7 +1,6 @@
 ---
 title: Justcamp
 download: https://1.envato.market/DKKGZ2
-github: null
 price: 21
 demo: https://justcamp-gatsby.netlify.app/
 author: Grayic
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Create React App
 - Reusable Components

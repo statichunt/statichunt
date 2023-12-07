@@ -1,7 +1,6 @@
 ---
 title: Brook
 download: https://1.envato.market/kjDXKn
-github: null
 price: 24
 demo: https://brook.vuejstemplate.com/
 author: BootXperts
@@ -21,7 +20,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with latest Vue
 - Build with latest Nuxt

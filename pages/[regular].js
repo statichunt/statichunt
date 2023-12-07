@@ -82,7 +82,11 @@ const RegularPages = ({
   let metaTitle = isExamples ? examples_meta_title : meta_title;
   metaTitle = metaTitle.replace(
     "<themes>",
-    `${Math.floor(filteredThemes.length / 50) * 50}+`,
+    `${
+      sortedThemes.length > 50
+        ? Math.floor(sortedThemes.length / 50) * 50
+        : sortedThemes.length - 1
+    }+`,
   );
 
   return (

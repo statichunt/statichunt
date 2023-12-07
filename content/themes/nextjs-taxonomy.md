@@ -22,7 +22,7 @@ github_star: 15757
 github_fork: 2058
 ---
 
-## Key Features :
+## Key Features
 
 - New /app dir,
 - Routing, Layouts, Nested Layouts and Layout Groups

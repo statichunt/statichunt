@@ -1,7 +1,6 @@
 ---
 title: Astro Minimal
 download: https://cssninja.io/product/minimal
-github: null
 price: 49
 demo: https://minimal.cssninja.io/landing-1/
 author: cssninja
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Astro v1.x
 - Alpine.js v3.x

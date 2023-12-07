@@ -1,7 +1,6 @@
 ---
 title: Maxdi
 download: https://1.envato.market/rnvmd5
-github: null
 price: 20
 demo: https://maxdi.vercel.app/
 author: Alimasha
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Based on React Bootstrap
 - React JS

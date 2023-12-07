@@ -1,7 +1,6 @@
 ---
 title: Kimox
 download: https://1.envato.market/zNN32O
-github: null
 price: 16
 demo: https://gatsby-kimox.vercel.app/
 author: BDevs
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Based on Bootstrap 5.x
 - React JS (Latest Version)

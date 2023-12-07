@@ -1,7 +1,6 @@
 ---
 title: Anur
 download: https://1.envato.market/jregVv
-github: null
 price: 10
 demo: https://anur-next.netlify.app/home
 author: wpoceans
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Bootstrap 5
 - material ui

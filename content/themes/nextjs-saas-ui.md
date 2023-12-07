@@ -20,7 +20,7 @@ github_star: 114
 github_fork: 46
 ---
 
-## Key Features :
+## Key Features
 
 - Feature blocks
 - Testimonials

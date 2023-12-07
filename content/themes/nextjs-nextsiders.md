@@ -1,7 +1,6 @@
 ---
 title: Nextsiders
 download: https://www.templatemonster.com/landing-page-template/nextsiders-nextjs-saas-landing-page-template-301856.html
-github: null
 price: 99
 demo: https://nextsiders.vercel.app/
 author: NextSiders
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Responsive
 - Search Engine Friendly

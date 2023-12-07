@@ -1,7 +1,6 @@
 ---
 title: Visionex Astro
 download: https://themefisher.com/products/visionex-astro
-github: null
 price: 79
 demo: https://visionex-astro.vercel.app/
 author: Themefisher

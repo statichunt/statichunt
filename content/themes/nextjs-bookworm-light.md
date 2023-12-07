@@ -23,7 +23,7 @@ github_star: 133
 github_fork: 50
 ---
 
-## Key Features:
+## Key Features
 
 - Multi-Author support
 - Supports Contact Form

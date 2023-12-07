@@ -1,7 +1,6 @@
 ---
 title: Mibix
 download: https://1.envato.market/rnvPJQ
-github: null
 price: 35
 demo: https://mibix-react.envytheme.com/index-8/
 author: EnvyTheme
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Built on React 17+, Gatsby.js v4.4+, Sass, and Bootstrap 5.1.3+
 - Products List, Cart, Checkout & Products Details Pages

@@ -24,7 +24,7 @@ github_star: 114
 github_fork: 82
 ---
 
-## Key Features :
+## Key Features
 
 - Simple and Minimal
 - Fully Responsive

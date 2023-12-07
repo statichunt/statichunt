@@ -20,7 +20,7 @@ github_star: 37
 github_fork: 22
 ---
 
-## Key Features :
+## Key Features
 
 - Landing Page - greeting
 - Work section

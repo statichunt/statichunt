@@ -1,7 +1,6 @@
 ---
 title: Plurk
 download: https://1.envato.market/VyzW13
-github: null
 price: 11
 demo: https://html.plurk.sbthemes.com/
 author: Sbthemes
@@ -21,7 +20,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Pure HTML 5, Angular 15, Vue 3, Nuxt 3, React 18, Next 13, No jQuery Dependency
 - Tailwind CSS

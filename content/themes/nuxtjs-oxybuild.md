@@ -1,7 +1,6 @@
 ---
 title: Oxybuild
 download: https://1.envato.market/Zdn06g
-github: null
 price: 24
 demo: https://oxybuild.vuejstemplate.com/
 author: codecarnival
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with latest Vue
 - Build with latest Nuxt

@@ -1,7 +1,6 @@
 ---
 title: Mitech Nuxtjs
 download: https://1.envato.market/x9VP7v
-github: null
 price: 24
 demo: https://mitech.vuejstemplate.com/
 author: BootXperts
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Built with latest Nuxt
 - Built with latest Vue JS.

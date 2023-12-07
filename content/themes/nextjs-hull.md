@@ -21,7 +21,7 @@ github_star: 1264
 github_fork: 158
 ---
 
-## Key Features :
+## Key Features
 
 - Utility-first CSS with Tailwind CSS
 - Animations powered by Framer Motion

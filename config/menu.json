@@ -20,12 +20,6 @@
       "name": "Blog",
       "url": "/blog"
     }
-    ,
-    {
-      "name": "Submit Theme",
-      "url": "https://github.com/statichunt/statichunt"
-    }
-
   ],
   "footer": [
     {
@@ -42,19 +36,15 @@
         {
           "page": "write for us",
           "url": "/write-for-us"
-        }
-        ,
+        },
         {
           "page": "contact",
           "url": "/contact"
-        }
-        
-        ,
+        },
         {
           "page": "disclaimer",
           "url": "/disclaimer"
-        }
-        ,
+        },
         {
           "page": "Sponsors",
           "url": "/sponsors"

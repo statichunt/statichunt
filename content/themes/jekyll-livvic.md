@@ -1,7 +1,6 @@
 ---
 title: Livvic
 download: https://jekyllthemes.io/theme/livvic-portfolio-jekyll-theme
-github: null
 price: 49
 demo: https://livvic-jekyll.tortoizthemes.com/
 author: Tortoiz Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Unique homepage version
 - W3C validated HTML5 & CSS3 coding

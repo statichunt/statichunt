@@ -20,26 +20,25 @@ github_star: 120
 github_fork: 13
 ---
 
-## Key Features:
+## Key Features
 
- - Basic functionality of reading pages and posts
- - Basic design dark/light mode
- - MDX code highlighting
- - robots.txt & sitemap.xml
- - RSS Feed
- - Reading time estimate
- - LICENSE
- - MDX components (TOC & footnotes)
- - general config & metadat
- - OG image generation
- - projects page
- - about section on homepage
- - search & command bar
- - Analytics: Vercel, Umami, Plausible, Google Analytics
- - Post series
- - Not found page
- - contributing docs
- - Docs refresh
- - Back to top button
- - Social icons component
- 
+- Basic functionality of reading pages and posts
+- Basic design dark/light mode
+- MDX code highlighting
+- robots.txt & sitemap.xml
+- RSS Feed
+- Reading time estimate
+- LICENSE
+- MDX components (TOC & footnotes)
+- general config & metadat
+- OG image generation
+- projects page
+- about section on homepage
+- search & command bar
+- Analytics: Vercel, Umami, Plausible, Google Analytics
+- Post series
+- Not found page
+- contributing docs
+- Docs refresh
+- Back to top button
+- Social icons component

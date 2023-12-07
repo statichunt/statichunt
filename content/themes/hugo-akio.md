@@ -1,7 +1,6 @@
 ---
 title: Akio
 download: https://1.envato.market/x9e3vd
-github: null
 price: 49
 demo: https://akio-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Dark and light mode user can select themself
 - No jQuery, only vanilla JS

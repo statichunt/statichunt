@@ -2,7 +2,6 @@
 title: Rewy
 download: https://1.envato.market/211aga
 price: 24
-github: null
 demo: https://rewy-gatsby.envytheme.com/machine-learning-ai-solutions/
 author: EnvyTheme
 author_link: https://envytheme.com/

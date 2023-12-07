@@ -1,7 +1,6 @@
 ---
 title: Maxcoach
 download: https://1.envato.market/x9VALR
-github: null
 price: 24
 demo: https://maxcoach.vuejstemplate.com/
 author: BootXperts
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with latest Vue
 - Build with latest Nuxt JS version

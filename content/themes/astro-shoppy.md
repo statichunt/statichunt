@@ -1,7 +1,6 @@
 ---
 title: Shoppy
 download: https://cssninja.io/product/shoppy
-github: null
 price: 29
 demo: https://shoppy.cssninja.io/home/
 author: cssninja

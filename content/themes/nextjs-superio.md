@@ -1,7 +1,6 @@
 ---
 title: Superio
 download: https://1.envato.market/Nk9VyV
-github: null
 price: 24
 demo: https://superio-next.vercel.app/
 author: ib-themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with Latest Next JS (v13+)
 - 17 Home Pages

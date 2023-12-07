@@ -1,7 +1,6 @@
 ---
 title: Porto
 download: https://1.envato.market/m55K6O
-github: null
 price: 29
 demo: https://d-themes.com/vue/porto/demo-9/
 author: Don Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - VueJS, NuxtJS, VueX
 - Data from Strapi server

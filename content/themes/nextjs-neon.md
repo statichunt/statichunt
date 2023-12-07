@@ -1,7 +1,6 @@
 ---
 title: Neon
 download: https://cruip.com/neon/
-github: null
 price: 49
 demo: https://preview.cruip.com/neon/
 author: Cruip

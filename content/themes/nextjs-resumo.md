@@ -1,7 +1,6 @@
 ---
 title: Resumo
 download: https://1.envato.market/OreJ0G
-github: null
 price: 17
 demo: https://resumo-react.vercel.app/
 author: TrendyCoder
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Pixel Perfect Design
 - React, Next JS

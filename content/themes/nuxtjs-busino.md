@@ -1,7 +1,6 @@
 ---
 title: Busino
 download: https://1.envato.market/k00Nnd
-github: null
 price: 24
 demo: https://busino-vue.pages.dev/
 author: HasTech
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build on VueJS Platform
 - Build on Nuxtjs framework of vuejs

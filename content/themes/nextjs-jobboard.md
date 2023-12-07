@@ -1,7 +1,6 @@
 ---
 title: JobBoard
 download: https://cruip.com/jobboard/
-github: null
 price: 49
 demo: https://preview.cruip.com/job-board/
 author: Cruip

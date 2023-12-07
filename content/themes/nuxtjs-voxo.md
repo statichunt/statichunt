@@ -1,7 +1,6 @@
 ---
 title: Voxo
 download: https://1.envato.market/Qyy9Dz
-github: null
 price: 19
 demo: https://voxo.vercel.app/
 author: PixelStrap
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Create with nuxt/vue
 - authentication using firebase

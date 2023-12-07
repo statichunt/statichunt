@@ -1,7 +1,6 @@
 ---
 title: Outstock
 download: https://1.envato.market/LXXWbZ
-github: null
 price: 17
 demo: https://outstock-vue.vercel.app/
 author: Theme_Pure
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Vue JS 3
 - Nuxt 3

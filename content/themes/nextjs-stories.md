@@ -1,7 +1,6 @@
 ---
 title: Stories
 download: https://1.envato.market/MX4LRJ
-github: null
 price: 24
 demo: https://stories-nextjs-v3.vercel.app/
 author: Alithemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Creative Design
 - Fully Responsive

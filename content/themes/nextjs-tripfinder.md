@@ -1,7 +1,6 @@
 ---
 title: TripFinder
 download: https://1.envato.market/m5OyrZ
-github: null
 price: 17
 demo: https://tripfinder-hotel.vercel.app/
 author: redqteam

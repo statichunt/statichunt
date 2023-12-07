@@ -1,7 +1,6 @@
 ---
 title: Harri
 download: https://1.envato.market/LXKGyY
-github: null
 price: 29
 demo: https://hamart-shop.vercel.app/
 author: Theme_Pure
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - React JS
 - Next JS

@@ -1,7 +1,6 @@
 ---
 title: Creative
 download: https://cruip.com/creative/
-github: null
 price: 49
 demo: https://preview.cruip.com/creative/
 author: Cruip

@@ -1,7 +1,6 @@
 ---
 title: Ecostate
 download: https://1.envato.market/q44BRy
-github: null
 price: 24
 demo: https://ecostate-vue.pages.dev/
 author: BootXperts
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with Nuxt Js
 - Used latest Tailwindcss

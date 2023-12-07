@@ -1,7 +1,6 @@
 ---
 title: Danto
 download: https://jekyllthemes.io/theme/danto-magazine-jekyll-theme
-github: null
 price: 79
 demo: https://danto-jekyll.netlify.app/
 author: Artem Sheludko
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Dark and light mode
 - No jQuery, only vanilla JS

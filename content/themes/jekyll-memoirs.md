@@ -18,7 +18,7 @@ github_star: 335
 github_fork: 327
 ---
 
-## Key Features :
+## Key Features
 
 - Compatible with Github pages
 - Index Pagination

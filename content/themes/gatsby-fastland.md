@@ -1,7 +1,6 @@
 ---
 title: Fastland
 download: https://1.envato.market/e4oWeD
-github: null
 price: 16
 demo: https://fastland-gatsby.netlify.app/
 author: Grayic
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Reusable Components
 - Ready for Production

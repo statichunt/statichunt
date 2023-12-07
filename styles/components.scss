@@ -250,7 +250,7 @@ select:required:invalid {
   li {
     @apply mb-3 mr-3 inline-block cursor-pointer select-none rounded border border-border py-[.3rem] pl-3 pr-2 text-[.8rem] text-dark last:mr-0 dark:border-darkmode-border dark:text-darkmode-text;
     span {
-      @apply ml-2 inline-block w-[27px] rounded bg-theme-light px-[.3rem] pt-[2px] text-center text-xs dark:bg-darkmode-theme-light;
+      @apply ml-2 inline-block min-w-[27px] rounded bg-theme-light px-[.3rem] pt-[2px] text-center text-xs dark:bg-darkmode-theme-light;
     }
     &.active {
       @apply border-primary bg-primary text-white;

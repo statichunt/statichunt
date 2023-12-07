@@ -1,7 +1,6 @@
 ---
 title: Houseo
 download: https://cssninja.io/product/houseo
-github: null
 price: 49
 demo: https://houseo.cssninja.io/home/
 author: cssninja
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Astro v1.x
 - Alpine.js v3.x

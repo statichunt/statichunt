@@ -1,7 +1,6 @@
 ---
 title: Bexer
 download: https://gethugothemes.com/products/bexer
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/bexer/site/
 author: Gethugothemes

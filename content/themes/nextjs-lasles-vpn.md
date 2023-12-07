@@ -22,7 +22,7 @@ github_star: 384
 github_fork: 224
 ---
 
-## Key Features :
+## Key Features
 
 - Using NextJS Image for Image Optimization
 - Slider using React Slick

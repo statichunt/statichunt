@@ -1,7 +1,6 @@
 ---
 title: Shoponix
 download: https://1.envato.market/NKdq27
-github: null
 price: 99
 demo: https://shoponix.envytheme.com/
 author: EnvyTheme
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - API-based Multi-Vendor eCommerce Template
 - Built with React 17+, Next.js 11, Mongo DB,

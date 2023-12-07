@@ -16,7 +16,7 @@ category:
   - Documentation
 draft: false
 publish_date: '2023-05-20T04:42:07Z'
-update_date: '2023-11-30T14:13:55Z'
+update_date: '2023-12-03T12:20:17Z'
 github_star: 3
 github_fork: 7
 ---

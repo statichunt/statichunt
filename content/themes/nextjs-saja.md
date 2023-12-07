@@ -1,7 +1,6 @@
 ---
 title: Saja
 download: https://1.envato.market/2rPvza
-github: null
 price: 22
 demo: https://saja-react.vercel.app/
 author: BDevs
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Based on Bootstrap 5.x
 - React JS

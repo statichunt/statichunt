@@ -1,7 +1,6 @@
 ---
 title: Piloz
 download: https://1.envato.market/eKK061
-github: null
 price: 16
 demo: https://piloz-vue.vercel.app/
 author: Bracket-web
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Includes 1 Home versions
 - Includes 2 Inner pages

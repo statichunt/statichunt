@@ -1,7 +1,6 @@
 ---
 title: Qurno
 download: https://1.envato.market/vnLaEd
-github: null
 price: 25
 demo: https://qurno-nextjs.vercel.app/
 author: Platol
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Made with Bootstarp v5.x
 - Minimal design with 2 Homepage Layout

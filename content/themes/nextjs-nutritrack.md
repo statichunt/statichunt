@@ -19,9 +19,10 @@ publish_date: '2023-07-10T03:39:19Z'
 update_date: '2023-11-06T04:43:34Z'
 github_star: 21
 github_fork: 10
+draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Minimal styling (make it your own!)
 - Accessible, semantic HTML markup

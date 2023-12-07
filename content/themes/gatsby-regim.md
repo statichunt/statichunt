@@ -1,7 +1,6 @@
 ---
 title: RegiM
 download: https://landify.design/templates/regim
-github: null
 price: 0
 demo: https://preview.landify.design/regim/
 author: Landify

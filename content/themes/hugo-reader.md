@@ -1,7 +1,6 @@
 ---
 title: Reader
 download: https://gethugothemes.com/products/reader
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/reader/site/
 author: Gethugothemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 87/100 (Desktop)
 - Multilingual and i18n support

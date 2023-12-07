@@ -1,7 +1,6 @@
 ---
 title: Genz
 download: https://1.envato.market/7mANQQ
-github: null
 price: 24
 demo: https://genz-next.vercel.app/
 author: Alithemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 04 Homepages layout
 - 05 Posts archive layouts

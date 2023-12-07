@@ -1,7 +1,6 @@
 ---
 title: Bunzo
 download: https://1.envato.market/5beNy9
-github: null
 price: 24
 demo: https://bunzo-react.pages.dev/
 author: EnvyTheme
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - For IT, Business, and Digital Startup Agency & Company website
 - Built on React v17+, GatsbyJS v4.4, Strapi CMS, PostgreSQL, GraphQL, Bootstrap 5.1.3, and Sass

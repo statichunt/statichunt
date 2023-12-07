@@ -23,7 +23,7 @@ github_star: 367
 github_fork: 205
 ---
 
-## Key Features :
+## Key Features
 
 - Responsive design
 - Next.js for Static Site Generator

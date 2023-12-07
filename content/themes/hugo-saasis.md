@@ -1,7 +1,6 @@
 ---
 title: Saasis
 download: https://gethugothemes.com/products/saasis
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/saasis/site/
 author: Gethugothemes

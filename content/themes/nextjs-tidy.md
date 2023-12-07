@@ -1,7 +1,6 @@
 ---
 title: Tidy
 download: https://cruip.com/tidy/
-github: null
 price: 49
 demo: https://preview.cruip.com/tidy/
 author: Cruip

@@ -20,6 +20,7 @@ publish_date: '2023-03-30T10:04:08Z'
 update_date: '2023-03-30T10:35:39Z'
 github_star: 5
 github_fork: 1
+draft: false
 ---
 
 # A simple starter kit for Mosque Websites

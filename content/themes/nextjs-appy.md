@@ -1,7 +1,6 @@
 ---
 title: Appy
 download: https://cruip.com/appy/
-github: null
 price: 49
 demo: https://preview.cruip.com/appy/
 author: Cruip

@@ -1,7 +1,6 @@
 ---
 title: Tozi
 download: https://1.envato.market/doXz3K
-github: null
 price: 39
 demo: https://tozi-gatsby.envytheme.com/
 author: EnvyTheme
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Built on Gatsby v4.4+, React v17+, Strapi CMS, GraphQL, PostgreSQL & Cloudinary
 - No jQuery Dependency

@@ -1,7 +1,6 @@
 ---
 title: GoFolium
 download: https://gethugothemes.com/products/gofolium
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/gofolium/site/
 author: Gethugothemes

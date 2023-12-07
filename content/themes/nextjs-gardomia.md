@@ -1,7 +1,6 @@
 ---
 title: Gardomia
 download: https://1.envato.market/XxPMko
-github: null
 price: 29
 demo: https://gardomia.vercel.app/
 author: BDevs
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Based on Bootstrap 5.x
 - React JS (Latest Version)

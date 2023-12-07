@@ -1,7 +1,6 @@
 ---
 title: Glax
 download: https://1.envato.market/zNxkkm
-github: null
 price: 21
 demo: https://glax-react.vercel.app/
 author: TrendyCoder
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Pixel Perfect Design
 - React, Next JS

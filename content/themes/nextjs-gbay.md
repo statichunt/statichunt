@@ -1,7 +1,6 @@
 ---
 title: Gbay
 download: https://envytheme.com/item/gbay-multipurpose-startup-agency-react-template/
-github: null
 price: 17
 demo: https://gbay-react.envytheme.com/index-digital-marketing/
 author: envytheme

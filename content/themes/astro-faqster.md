@@ -1,7 +1,6 @@
 ---
 title: FaqSter
 download: https://cssninja.io/product/faqster
-github: null
 price: 49
 demo: https://faqster.cssninja.io/home/
 author: cssninja

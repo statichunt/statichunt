@@ -1,7 +1,6 @@
 ---
 title: Taiker
 download: https://1.envato.market/KeRNyn
-github: null
 price: 29
 demo: https://taiker-react.envytheme.com/index12/
 author: EnvyTheme

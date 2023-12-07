@@ -1,7 +1,6 @@
 ---
 title: Arlo
 download: https://1.envato.market/Y99PvP
-github: null
 price: 12
 demo: https://arlo-static-demo.netlify.app/
 author: Rainbow-Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build On latest React
 - Developer Friendly Code

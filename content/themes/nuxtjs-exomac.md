@@ -1,7 +1,6 @@
 ---
 title: Exomac
 download: https://1.envato.market/P0J1yR
-github: null
 price: 24
 demo: https://exomac.vuejstemplate.com/
 author: codecarnival
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with latest Vue
 - Build with latest Nuxt

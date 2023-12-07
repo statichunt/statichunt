@@ -1,7 +1,6 @@
 ---
 title: Pringo
 download: https://1.envato.market/5beNqj
-github: null
 price: 24
 demo: https://pringo-react.pages.dev/
 author: Code Carnival
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build with latest React (v18.2.0)
 - Build with latest Gatsby (v5.7.0)

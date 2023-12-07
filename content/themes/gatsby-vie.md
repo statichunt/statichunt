@@ -1,7 +1,6 @@
 ---
 title: Vie
 download: https://1.envato.market/5beN1j
-github: null
 price: 12
 demo: https://vie-gatsby.vercel.app/homepage/home2-dark/
 author: ThemesCamp
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Ready Homepages
 - Based On Sass

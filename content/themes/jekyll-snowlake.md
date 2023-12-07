@@ -1,7 +1,6 @@
 ---
 title: Snowlake
 download: https://jekyllthemes.io/theme/snowlake-website-jekyll-theme
-github: null
 price: 79
 demo: https://snowlake.tortoizthemes.com/
 author: Tortoiz Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 27 Different Demos
 - 17 Color Schemes

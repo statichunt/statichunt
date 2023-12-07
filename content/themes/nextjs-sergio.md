@@ -1,7 +1,6 @@
 ---
 title: Sergio
 download: https://1.envato.market/jWELB0
-github: null
 price: 5
 demo: https://sergio-react.vercel.app/
 author: CodeeFly
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Clean And Modern Design
 - Dark/Light Option

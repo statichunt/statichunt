@@ -1,7 +1,6 @@
 ---
 title: Gadden
 download: https://1.envato.market/jrrnzb
-github: null
 price: 12
 demo: https://gadden-react.vercel.app/index
 author: Webtend
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 03 Unique Homepage Version
 - Built on React 18.x

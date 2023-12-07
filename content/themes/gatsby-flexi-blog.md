@@ -1,7 +1,6 @@
 ---
 title: Flexi Blog Gatsby
 download: https://1.envato.market/qnRjm5
-github: null
 price: 29
 demo: https://flexiblog-agency.netlify.app/
 author: ElegantStack
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Multiple homepage layouts
 - Various article page layouts

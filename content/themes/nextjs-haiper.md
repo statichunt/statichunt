@@ -1,7 +1,6 @@
 ---
 title: Haiper
 download: https://1.envato.market/EanNRP
-github: null
 price: 35
 demo: https://haiper-react.envytheme.com/index4/
 author: EnvyTheme

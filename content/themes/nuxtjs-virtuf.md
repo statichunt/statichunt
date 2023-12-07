@@ -1,7 +1,6 @@
 ---
 title: Virtuf
 download: https://1.envato.market/Vmmkrj
-github: null
 price: 24
 demo: https://virtuf.vuejstemplate.com/
 author: Codecarnival
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build with latest Vue
 - Build with latest Nuxt

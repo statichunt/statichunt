@@ -22,7 +22,7 @@ github_star: 5181
 github_fork: 1022
 ---
 
-## Key Features :
+## Key Features
 
 - Nextjs.js for Static Site Generator
 - Type checking TypeScript

@@ -12,6 +12,5 @@ css: []
 cms: []
 category:
   - Blog
-draft: true
-disabled_reason: Github repo not found
+draft: false
 ---

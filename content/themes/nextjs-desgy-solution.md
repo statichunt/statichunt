@@ -1,7 +1,6 @@
 ---
 title: Desgy Solution
 download: https://adminmart.com/product/desgy-solution-free-next-js-template/
-github: null
 price: 0
 demo: https://desgy-solutions-nextjs.netlify.app/
 author: Adminmart
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - React 18+
 - NextJs 13+

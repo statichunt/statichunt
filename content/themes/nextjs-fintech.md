@@ -1,7 +1,6 @@
 ---
 title: FinTech
 download: https://cruip.com/fintech/
-github: null
 price: 49
 demo: https://preview.cruip.com/fintech/
 author: Cruip

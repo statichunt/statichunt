@@ -15,10 +15,13 @@ const githubDataChange = (theme) => {
     : 0;
   const star =
     getStar < 1000 ? getStar : parseFloat(getStar / 1000).toFixed(1) + "k";
+
+  const getFork = theme.frontmatter.github_fork
+    ? theme.frontmatter.github_fork
+    : 0;
   const fork =
-    theme.frontmatter.github_fork < 1000
-      ? theme.frontmatter.github_fork
-      : parseFloat(theme.frontmatter.github_fork / 1000).toFixed(1) + "k";
+    getFork < 1000 ? getFork : parseFloat(getFork / 1000).toFixed(1) + "k";
+
   const updateDate = dateFormat(
     theme.frontmatter.update_date
       ? theme.frontmatter.update_date
@@ -76,7 +79,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
       className={
         customRowClass
           ? customRowClass
-          : "row !overflow-hidden py-4 sm:row-cols-2 xl:row-cols-3 2xl:row-cols-4 3xl:row-cols-5"
+          : "row !overflow-hidden px-2 py-4 sm:row-cols-2 xl:row-cols-3 2xl:row-cols-4 3xl:row-cols-5"
       }
     >
       {page.length > 0 ? (

@@ -1,7 +1,6 @@
 ---
 title: Nextlessjs
 download: https://creativedesignsguru.com/react-saas-starter-kit/
-github: null
 price: 699
 demo: https://demo.nextlessjs.com/
 author: Creative Designs Guru
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Authentication
 - Teams and Multi-tenancy

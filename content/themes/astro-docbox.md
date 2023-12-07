@@ -1,7 +1,6 @@
 ---
 title: Docbox Astro
 download: https://themefisher.com/products/docbox-astro
-github: null
 price: 79
 demo: https://docbox-astro.vercel.app/
 author: Themefisher

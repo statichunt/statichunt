@@ -1,7 +1,6 @@
 ---
 title: Spydea Hugo
 download: https://gethugothemes.com/products/spydea
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/spydea/site/
 author: Gethugothemes
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 17+ Unique Pages
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

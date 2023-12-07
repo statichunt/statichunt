@@ -17,9 +17,10 @@ publish_date: '2021-04-26T15:20:01Z'
 update_date: '2022-12-06T17:10:03Z'
 github_star: 54
 github_fork: 32
+draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Progressive Web App (PWA)
 - Full-text Search

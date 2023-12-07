@@ -1,7 +1,6 @@
 ---
 title: Andshop
 download: https://1.envato.market/yRJG2G
-github: null
 price: 10
 demo: https://andshop-vue.netlify.app/electronics
 author: andIT_themes
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build on Latest Vue Js Platform
 - Build on Nuxt Js Framwork

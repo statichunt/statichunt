@@ -1,7 +1,6 @@
 ---
 title: Modernize Free NuxtJs Admin Dashboard Template
 download: https://adminmart.com/product/modernize-free-nuxtjs-admin-dashboard/
-github: null
 price: 0
 demo: https://modernize-nuxtjs-free.netlify.app/
 author: Adminmart
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - NuxtJs 3
 - vitejs

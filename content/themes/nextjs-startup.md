@@ -24,7 +24,7 @@ github_star: 605
 github_fork: 157
 ---
 
-## Key Features :
+## Key Features
 
 - Crafted for Startup and SaaS Business
 - Next.js 13 and Tailwind CSS

@@ -1,7 +1,6 @@
 ---
 title: Bariton
 download: https://1.envato.market/zaQVnO
-github: null
 price: 35
 demo: https://bariton-react.envytheme.com/index-6/
 author: EnvyTheme

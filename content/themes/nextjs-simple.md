@@ -1,7 +1,6 @@
 ---
 title: Simple
 download: https://cruip.com/simple/
-github: null
 price: 49
 demo: https://preview.cruip.com/simple/
 author: Cruip

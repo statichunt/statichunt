@@ -1,7 +1,6 @@
 ---
 title: Shifter
 download: https://cssninja.io/product/shifter
-github: null
 price: 5
 demo: https://shifter.cssninja.io/
 author: cssninja
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Astro v1.x
 - Alpine.js v3.x

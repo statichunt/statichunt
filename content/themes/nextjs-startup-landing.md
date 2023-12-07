@@ -1,7 +1,6 @@
 ---
 title: Startup Landing
 download: https://startuplanding.redq.io/
-github: null
 price: 0
 demo: https://startup-agency-modern.vercel.app/
 author: REDQ

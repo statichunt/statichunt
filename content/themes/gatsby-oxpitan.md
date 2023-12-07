@@ -1,7 +1,6 @@
 ---
 title: Oxpitan
 download: https://1.envato.market/q449GY
-github: null
 price: 16
 demo: https://oxpitan-gatsby.vercel.app/
 author: Layerdrops
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Includes 2 Home versions
 - Includes 13 Inner pages

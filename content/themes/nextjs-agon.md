@@ -1,7 +1,6 @@
 ---
 title: Agon
 download: https://1.envato.market/n1OQBX
-github: null
 price: 24
 demo: https://agon-nextjs-13.vercel.app/
 author: Alithemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - React, NextJs 12, NextJs 13
 - React countup

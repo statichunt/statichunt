@@ -1,7 +1,6 @@
 ---
 title: Bonik
 download: https://1.envato.market/WDjk2P
-github: null
 price: 29
 demo: https://bonik-react.vercel.app/
 author: Ui-lib
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - SEO Friendly
 - Server side rendered

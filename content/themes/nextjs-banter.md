@@ -1,7 +1,6 @@
 ---
 title: Banter
 download: https://www.tailwindawesome.com/resources/banter
-github: null
 price: 29
 demo: https://banter.tailwindawesome.com/
 author: Tailwind Awesome
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 9 fully responsive and pre-assembled pages (available in HTML and React Next.js)
 - 30+ customizable sections

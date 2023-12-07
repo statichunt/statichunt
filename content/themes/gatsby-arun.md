@@ -1,7 +1,6 @@
 ---
 title: Arun
 download: https://1.envato.market/vnLaWd
-github: null
 price: 49
 demo: https://arun-gatsby.netlify.app/
 author: GBJsolution
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 100% responsive, looks nice in any size of device.
 - Content focused, modern and minimal.

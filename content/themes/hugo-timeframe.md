@@ -1,7 +1,6 @@
 ---
 title: Timeframe
 download: https://gethugothemes.com/products/timeframe
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/timeframe/site/
 author: Gethugothemes

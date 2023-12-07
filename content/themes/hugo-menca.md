@@ -1,7 +1,6 @@
 ---
 title: Menca
 download: https://1.envato.market/Zdo1D1
-github: null
 price: 49
 demo: https://menca-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Dark and light mode user can select themself
 - No jQuery, only vanilla JS

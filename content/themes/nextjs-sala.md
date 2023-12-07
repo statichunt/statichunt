@@ -1,7 +1,6 @@
 ---
 title: Sala
 download: https://1.envato.market/nLLEzR
-github: null
 price: 19
 demo: https://sala-nextjs.vercel.app/home/home-startup
 author: alithemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - +27 unique home pages and landing pages
 - 03 About Pages

@@ -10,10 +10,9 @@ ssg:
   - Hugo
 category:
   - Blog
-draft: true
+draft: false
 publish_date: "2020-04-05T11:15:28Z"
 update_date: "2023-01-11T11:54:56Z"
 github_star: 0
 github_fork: 0
-disabled_reason: Github repo not found
 ---

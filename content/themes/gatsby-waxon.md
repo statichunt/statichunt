@@ -1,7 +1,6 @@
 ---
 title: Waxon
 download: https://1.envato.market/PyyEqe
-github: null
 price: 19
 demo: https://waxon.netlify.app/
 author: Rainbow-Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build On latest React
 - Developer Friendly Code

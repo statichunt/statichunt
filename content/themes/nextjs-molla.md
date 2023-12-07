@@ -1,7 +1,6 @@
 ---
 title: Molla
 download: https://1.envato.market/3P5NmK
-github: null
 price: 24
 demo: https://d-themes.com/react/molla/demo-1/
 author: Don Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Latest ReactJS, NextJS
 - Apollo Graphql for backend

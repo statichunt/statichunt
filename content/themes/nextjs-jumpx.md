@@ -1,7 +1,6 @@
 ---
 title: Jumpx
 download: https://1.envato.market/6baNVK
-github: null
 price: 24
 demo: https://jumpx-react.envytheme.com/
 author: EnvyTheme

@@ -1,7 +1,6 @@
 ---
 title: Riode
 download: https://1.envato.market/AozNG7
-github: null
 price: 5
 demo: https://d-themes.com/react/riode/demo-4/
 author: Don-themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - ReactJS, NextJS, Graphql, Apollo Server
 - React Hook, Redux, Redux Saga, React Persist

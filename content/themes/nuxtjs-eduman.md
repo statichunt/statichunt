@@ -1,7 +1,6 @@
 ---
 title: Eduman
 download: https://1.envato.market/P0JZ5Y
-github: null
 price: 29
 demo: https://nuxt-eduman.vercel.app/
 author: BDevs
@@ -20,7 +19,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Based on Bootstrap (latest Version 5)
 - Vue JS (latest Version 3)

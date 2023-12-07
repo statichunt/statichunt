@@ -1,7 +1,6 @@
 ---
 title: Si Educational
 download: https://adminmart.com/product/si-educational-next-js/
-github: null
 price: 0
 demo: https://si-educational-nextjs.netlify.app/
 author: Adminmart
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - React 18+
 - NextJs 13+

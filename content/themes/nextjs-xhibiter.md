@@ -1,7 +1,6 @@
 ---
 title: Xhibiter
 download: https://1.envato.market/5beNLN
-github: null
 price: 14
 demo: https://xhibiter-nextjs.vercel.app/
 author: Ib-themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 11 Trending Home Demos
 - Build with React Next JS (v12.1.6)

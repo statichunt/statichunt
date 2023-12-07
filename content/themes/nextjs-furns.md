@@ -1,7 +1,6 @@
 ---
 title: Furns
 download: https://1.envato.market/PyOZqQ
-github: null
 price: 29
 demo: https://furns-react.netlify.app/
 author: codecarnival
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Jamstack eCommerce (Headless)
 - Build on React Platform (v17.x.x)

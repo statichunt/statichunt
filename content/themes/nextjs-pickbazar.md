@@ -1,7 +1,6 @@
 ---
 title: Pick Bazar
 download: https://1.envato.market/Ryx929
-github: null
 price: 29
 demo: https://pickbazar-react.vercel.app/daily-needs
 author: Redqteam
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Developed with GraphQL and NextJS
 - 5+ fully designed demo templates

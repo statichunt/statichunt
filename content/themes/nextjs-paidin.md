@@ -1,7 +1,6 @@
 ---
 title: Paidin
 download: https://adminmart.com/product/paidin-free-nextjs-landing-page-template/
-github: null
 price: 0
 demo: https://paidin-tailwind-nextjs-free.vercel.app/
 author: Adminmart
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - NextJs 13+
 - Tailwind

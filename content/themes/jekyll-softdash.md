@@ -1,7 +1,6 @@
 ---
 title: Softdash
 download: https://1.envato.market/kjDXKn
-github: null
 price: 37
 demo: https://softdash-multiple-saas.vercel.app/
 author: Ducor
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Clean & Simple Design
 - 100% Fluid Responsive – Fits any device perfectly

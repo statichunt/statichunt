@@ -1,7 +1,6 @@
 ---
 title: Jekyll Hiton Theme
 download: https://jekyllthemes.io/theme/hilton-portfolio-jekyll-theme
-github: null
 price: 79
 demo: https://hilton-jekyll.netlify.app/
 author: Artem Sheludko
@@ -21,7 +20,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Works with GitHub Pages (host it for free)
 - Dark and light mode user can select themself

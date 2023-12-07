@@ -1,5 +1,5 @@
 import config from "@/config/config.json";
-import useTaxonmyHandler from "@/hooks/useAccordionHandler";
+import useTaxonomyHandler from "@/hooks/useAccordionHandler";
 import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
@@ -42,9 +42,9 @@ const SidebarAccordion = ({
     filteringTaxonomy,
     filterState,
     handleTaxonomyArray,
-  } = useTaxonmyHandler(themes);
+  } = useTaxonomyHandler(themes);
 
-  // add data inside taxonmy array
+  // add data inside taxonomy array
   useEffect(() => {
     switch (parameter) {
       case "ssg":

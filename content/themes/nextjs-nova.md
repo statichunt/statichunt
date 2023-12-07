@@ -1,7 +1,6 @@
 ---
 title: NOVA
 download: https://www.templatemonster.com/website-templates/nova-multipurpose-listing-directory-theme-nextjs-amp-react-template-232036.html
-github: null
 price: 51
 demo: https://nova-template.vercel.app/home
 author: hyperidx
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Skeleton, Waffle loading components React Lazy & Suspense
 - Redux Toolkit Boilerplate Auth.

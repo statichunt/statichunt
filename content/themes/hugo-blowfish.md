@@ -19,9 +19,9 @@ category:
   - Blog
 draft: false
 publish_date: '2022-09-09T20:38:52Z'
-update_date: '2023-11-04T16:45:58Z'
-github_star: 692
-github_fork: 212
+update_date: '2023-12-06T22:18:29Z'
+github_star: 742
+github_fork: 229
 ---
 
 ## Key Features :

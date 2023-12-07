@@ -131,7 +131,7 @@ const Header = () => {
             <ThemeSwitcher />
             <a
               className="btn btn-primary nav-hire-expert origin-right scale-90 md:scale-100 lg:ml-0"
-              href="https://zeon.studio/"
+              href="https://zeon.studio/?ref=statichunt.com"
               target="_blank"
             >
               Need Jamstack Expert?

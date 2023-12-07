@@ -1,7 +1,6 @@
 ---
 title: Aditu
 download: https://1.envato.market/WDZaaM
-github: null
 price: 49
 demo: https://aditu-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 100% responsive and clean theme
 - Valid HTML5

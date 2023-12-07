@@ -1,7 +1,6 @@
 ---
 title: Modern MERN
 download: https://creativedesignsguru.com/node-saas-starter-kit/
-github: null
 price: 699
 demo: https://demo.modernmern.com/
 author: Creative Designs Guru
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - User authentication with Email and Social Login
 - Multi-tenant architecture

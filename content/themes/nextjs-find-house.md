@@ -1,7 +1,6 @@
 ---
 title: Find House
 download: https://1.envato.market/XxPeZg
-github: null
 price: 14
 demo: https://findhousenextjs.vercel.app/
 author: Ib-themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - 10 Home Demos
 - 59+ All Pages

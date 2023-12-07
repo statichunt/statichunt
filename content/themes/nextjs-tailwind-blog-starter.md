@@ -24,7 +24,7 @@ github_star: 5954
 github_fork: 1441
 ---
 
-## Key Features :
+## Key Features
 
 - High resolution
 - Well documented

@@ -1,7 +1,6 @@
 ---
 title: Vixcon
 download: https://gethugothemes.com/products/vixcon
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/vixcon/site/
 author: Gethugothemes

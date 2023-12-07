@@ -25,7 +25,7 @@ github_star: 470
 github_fork: 175
 ---
 
-## Key Features :
+## Key Features
 
 - Clean & Modern Design
 - Light & Dark Mode

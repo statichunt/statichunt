@@ -1,7 +1,6 @@
 ---
 title: Papr
 download: https://1.envato.market/P0LM9N
-github: null
 price: 8
 demo: https://new.axilthemes.com/demo/react/papr
 author: Axilthemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Fast, Lightweight & Powerful
 - Latest React

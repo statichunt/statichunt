@@ -1,7 +1,6 @@
 ---
 title: Deneb
 download: https://jekyllthemes.io/theme/deneb-agency-jekyll-theme
-github: null
 price: 49
 demo: https://deneb-jekyll.tortoizthemes.com/
 author: Tortoiz Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Supports Netlify
 - RTL version

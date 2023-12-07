@@ -1,7 +1,6 @@
 ---
 title: Texa
 download: https://envytheme.com/item/texa-gatsby-technology-services-template/
-github: null
 price: 17
 demo: https://texa-gatsby.envytheme.com/
 author: envytheme

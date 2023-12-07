@@ -21,7 +21,7 @@ github_star: 1074
 github_fork: 477
 ---
 
-## Key Features :
+## Key Features
 
 - Modern Stack (Next.js + TailwindCSS)
 - Minimal Design

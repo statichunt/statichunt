@@ -1,7 +1,6 @@
 ---
 title: Tesa
 download: https://envytheme.com/item/tesa-gatsby-react-saas-startup-template/
-github: null
 price: 17
 demo: https://tesa-gatsby.envytheme.com/
 author: envytheme

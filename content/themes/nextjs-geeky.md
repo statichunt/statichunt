@@ -21,7 +21,7 @@ github_star: 114
 github_fork: 153
 ---
 
-## Key Features:
+## Key Features
 
 - Google PageSpeed Score 100 (Desktop)
 - Dark and Light Mode

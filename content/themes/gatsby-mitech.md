@@ -1,7 +1,6 @@
 ---
 title: Mitech
 download: https://1.envato.market/P0LDmz
-github: null
 price: 24
 demo: https://mitech.jamstacktemplates.dev/
 author: BootXperts
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with latest React (v18.2.0)
 - Build with latest Gatsby (v 4)

@@ -1,7 +1,6 @@
 ---
 title: Givest
 download: https://1.envato.market/x9xGrA
-github: null
 price: 24
 demo: https://reactdemo.hasthemes.com/givest/index.html
 author: Code Carnival
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Build with latest React,Gatsby
 - No jQuery Dependency

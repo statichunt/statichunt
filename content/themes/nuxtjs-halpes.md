@@ -1,7 +1,6 @@
 ---
 title: Halpes
 download: https://1.envato.market/doN4o2
-github: null
 price: 16
 demo: https://halpes-nuxt.vercel.app/
 author: Bracket-web
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Includes 3 Home versions
 - Includes 11 Inner pages

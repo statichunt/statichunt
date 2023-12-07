@@ -18,7 +18,7 @@ github_star: 1930
 github_fork: 2454
 ---
 
-## Key Features :
+## Key Features
 
 - A variety of layouts with clean and readable typography.
 - Microformats markup to make post content machine-readable and discoverable.

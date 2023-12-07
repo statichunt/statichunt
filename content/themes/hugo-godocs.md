@@ -1,7 +1,6 @@
 ---
 title: Godocs
 download: https://gethugothemes.com/products/godocs
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/godocs/site/style-1/
 author: Gethugothemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 90/100 (Desktop)
 - Bootstrap Based

@@ -1,7 +1,6 @@
 ---
 title: Docs Jekyll
 download: https://1.envato.market/k0jYKV
-github: null
 price: 29
 demo: https://jekyll-theme-docs.netlify.app/
 author: UnboundStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Live Search
 - Two Changelog Styles

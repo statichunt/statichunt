@@ -1,7 +1,6 @@
 ---
 title: Opins
 download: https://1.envato.market/AWWO9K
-github: null
 price: 14
 demo: https://opins-vue.vercel.app/
 author: Layerdrops
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Includes 2 Home versions
 - Includes 2 Inner pages

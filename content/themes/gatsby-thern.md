@@ -1,7 +1,6 @@
 ---
 title: TheRN
 download: https://1.envato.market/oe29ob
-github: null
 price: 14
 demo: https://thern.rainbowit.net/index-banner/
 author: Rainbow Themes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features:
+## Key Features
 
 - Build On latest React and Gatsby
 - No JQuery

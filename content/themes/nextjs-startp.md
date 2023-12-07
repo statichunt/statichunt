@@ -1,7 +1,6 @@
 ---
 title: StartP
 download: https://1.envato.market/yRD14V
-github: null
 price: 39
 demo: https://startp-next.envytheme.com/it-startup/
 author: EnvyTheme

@@ -1,7 +1,6 @@
 ---
 title: Pixer
 download: https://1.envato.market/3eJ14y
-github: null
 price: 79
 demo: https://pixer-shop.vercel.app/
 author: REDQ

@@ -1,7 +1,6 @@
 ---
 title: The Article
 download: https://gethugothemes.com/products/the-article
-github: null
 price: 79
 demo: https://demo.gethugothemes.com/the-article/site/
 author: Gethugothemes

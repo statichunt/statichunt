@@ -1,7 +1,6 @@
 ---
 title: Clancy
 download: https://1.envato.market/QOargA
-github: null
 price: 49
 demo: https://clancy-hugo.netlify.app/
 author: AnvodStudio
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Dark and light mode user can select themself
 - 100% responsive Design
