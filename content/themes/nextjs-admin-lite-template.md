@@ -15,4 +15,8 @@ cms: []
 category:
   - Dashboard
 draft: false
+publish_date: '2023-10-20T18:24:20Z'
+update_date: '2023-11-08T08:44:09Z'
+github_star: 1
+github_fork: 0
 ---

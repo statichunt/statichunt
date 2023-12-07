@@ -18,4 +18,8 @@ category:
   - Ecommerce
   - Dashboard
 draft: false
+publish_date: '2022-07-26T20:45:44Z'
+update_date: '2022-08-14T02:02:35Z'
+github_star: 0
+github_fork: 0
 ---

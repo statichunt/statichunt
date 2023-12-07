@@ -12,4 +12,8 @@ css: []
 cms: []
 category: []
 draft: false
+publish_date: '2016-06-06T00:02:33Z'
+update_date: '2016-06-06T00:31:47Z'
+github_star: 2
+github_fork: 0
 ---

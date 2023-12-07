@@ -13,4 +13,8 @@ cms: []
 category:
   - Ecommerce
 draft: false
+publish_date: '2021-02-17T19:53:45Z'
+update_date: '2022-01-26T21:42:54Z'
+github_star: 5
+github_fork: 0
 ---
