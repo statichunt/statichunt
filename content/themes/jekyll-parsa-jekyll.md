@@ -1,7 +1,7 @@
 ---
 title: Parsa Jekyll
 github: https://github.com/themefisher/parsa-jekyll
-demo: https://themefisher.com/products/parsa-jekyll
+demo: https://demo.themefisher.com/parsa-bootstrap/
 author: themefisher
 author_link: https://github.com/themefisher
 date: 2023-11-30T12:56:59.366Z
