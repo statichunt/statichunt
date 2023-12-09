@@ -16,7 +16,7 @@ category:
   - Ecommerce
 draft: false
 publish_date: '2022-10-11T21:14:57Z'
-update_date: '2023-04-28T18:39:33Z'
+update_date: '2023-12-05T23:00:35Z'
 github_star: 1
 github_fork: 0
 ---

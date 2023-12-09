@@ -16,9 +16,9 @@ description: >-
   responsiveness.
 draft: false
 publish_date: '2020-04-11T06:42:21Z'
-update_date: '2023-12-06T18:48:50Z'
-github_star: 862
-github_fork: 521
+update_date: '2023-12-08T16:04:58Z'
+github_star: 864
+github_fork: 520
 ---
 
 ## Key Features

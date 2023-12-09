@@ -13,6 +13,7 @@ dotenv.config();
 
 const spinner = ora("Loading");
 const themesFolder = path.join(process.cwd(), "/content/themes");
+const crawlerLogPath = "./crawler-log.json";
 const token = process.env.GITHUB_TOKEN;
 
 // check github token
@@ -21,6 +22,18 @@ if (!token) {
     'Cannot access Github API - environment variable "GITHUB_TOKEN" is missing',
   );
 }
+
+// Check if the log file exists
+fs.access(crawlerLogPath, fs.constants.F_OK, (err) => {
+  if (err) {
+    fs.writeFile(crawlerLogPath, JSON.stringify([]), "utf8", (err) => {
+      if (err) {
+        console.error("Error creating file:", err);
+        return;
+      }
+    });
+  }
+});
 
 // axios limit
 const axiosLimit = rateLimit(axios.create(), {
@@ -94,22 +107,54 @@ const updateGithubData = async (githubURL, slug) => {
       github_star: res.data.stargazers_count,
       github_fork: res.data.forks_count,
     });
+
+    // Read the crawler log file
+    fs.readFile(crawlerLogPath, "utf8", (err, result) => {
+      if (err) {
+        console.log("Error reading file from disk:", err);
+        return;
+      }
+      try {
+        const logs = JSON.parse(result);
+        logs.push(slug);
+        const stringifyLogs = JSON.stringify(logs);
+
+        // Write the crawler log to the file
+        fs.writeFile(crawlerLogPath, stringifyLogs, "utf8", (err) => {
+          if (err) {
+            console.error("Error writing file:", err);
+            return;
+          }
+        });
+      } catch (err) {
+        console.log("Error parsing JSON string:", err);
+      }
+    });
   } catch (err) {
     spinner.text = `${slug} => update failed`;
-    updateFrontmatter(slug, {
-      draft: true,
-      disabled_reason: "Github repo not found",
-    });
+    // updateFrontmatter(slug, {
+    //   draft: true,
+    //   disabled_reason: "Github repo not found",
+    // });
   }
 };
 
 // update all github data
 const updateAllGithubData = async (themes) => {
   spinner.start("Updating github data");
-  for (const data of themes) {
-    await updateGithubData(data.github, data.slug);
+
+  // filter crawler log themes
+  const crawlerLog = fs.readFileSync(crawlerLogPath, "utf8");
+  themes = themes.filter((theme) => !crawlerLog.includes(theme.slug));
+  themes = themes.slice(0, 2500);
+
+  for (const theme of themes) {
+    await updateGithubData(theme.github, theme.slug);
   }
   spinner.stop("Success - Updating github data");
 };
 
-updateAllGithubData(themes);
+// main function delay 1s for create crawler log file
+setTimeout(() => {
+  updateAllGithubData(themes);
+}, 1000);

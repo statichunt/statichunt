@@ -16,6 +16,6 @@ category:
 draft: false
 publish_date: '2023-09-01T20:50:45Z'
 update_date: '2023-09-06T01:34:45Z'
-github_star: 6
+github_star: 7
 github_fork: 2
 ---
