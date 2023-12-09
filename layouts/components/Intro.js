@@ -3,7 +3,11 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
-const Intro = ({ data, toggleClass }) => {
+const Intro = ({ data, themeCount, toggleClass }) => {
+  const description = data.description.replace(
+    "<themes>",
+    `${Math.floor(themeCount / 50) * 50}+`,
+  );
   return (
     <div className={`mt-4 mb-10 px-2 md:mb-16 ${toggleClass}`}>
       <h1 className="mb-3">
@@ -19,7 +23,7 @@ const Intro = ({ data, toggleClass }) => {
         />{" "}
         {data.title_end}
       </h1>
-      {markdownify(data.description, "p")}
+      {markdownify(description, "p")}
       <Link
         className="btn btn-github mt-4"
         target="_blank"

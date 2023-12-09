@@ -101,7 +101,11 @@ const Home = ({
         <main className="main">
           <div className="container-home container">
             <Announcement />
-            <Intro data={intro} toggleClass={showIntro ? "block" : "hidden"} />
+            <Intro
+              data={intro}
+              themeCount={themes.length}
+              toggleClass={showIntro ? "block" : "hidden"}
+            />
             <div className="mb-8 block justify-between md:flex lg:sticky top-[74px] bg-body dark:bg-darkmode-body pt-2 z-20 px-2">
               <HomeCategory
                 themes={finalThemes}
