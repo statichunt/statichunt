@@ -7,12 +7,14 @@ import { markdownify, plainify } from "@/lib/utils/textConverter";
 import Themes from "layouts/Themes";
 import { getSinglePageServer } from "lib/contentParser";
 import { similarThemes } from "lib/utils/similarItems";
+import Script from "next/script";
 import authors from "../../.json/authors.json";
 import themes from "../../.json/themes.json";
 
 const SingleTheme = ({ slug, theme }) => {
   const { frontmatter, content } = theme;
-  const { title, description, meta_title, noindex, canonical } = frontmatter;
+  const { title, description, meta_title, date, noindex, canonical, ssg } =
+    frontmatter;
   const similarProducts = similarThemes(theme, themes, slug);
 
   return (
@@ -62,6 +64,39 @@ const SingleTheme = ({ slug, theme }) => {
           )}
         </div>
       </section>
+      <Script
+        type="application/ld+json"
+        id="schema-script"
+        dangerouslySetInnerHTML={{
+          __html: `
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "${title}",
+            "image": "https://statichunt-images.netlify.app/themes/${slug}.png",
+            "url": "https://statichunt.com/themes/${slug}",  
+            "description": "${description}",
+            "brand": {
+              "@type": "Brand",
+              "name": "Statichunt"
+            },
+            "releaseDate": "${date}",
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Product Type",
+                "value": "${ssg[0]}"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Theme Demo",
+                "value": "https://statichunt.com/demo/${slug}"
+              }
+            ]
+          }
+      `,
+        }}
+      />
     </Base>
   );
 };
