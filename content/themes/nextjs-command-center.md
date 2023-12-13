@@ -1,7 +1,7 @@
 ---
 title: Command Center
 github: https://github.com/next-orders/command-center
-demo: https://v1.next-orders.org/command-center
+demo: https://command-center.next-orders.org/auth/login
 author: next-orders
 author_link: https://github.com/next-orders
 date: 2023-11-29T09:30:31.173Z
