@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
 import ImageFallback from "./ImageFallback";
 
@@ -102,9 +103,9 @@ const ThemePreview = ({ theme, slug }) => {
               className="browser-preview-frame"
             />
             <span className="browser-preview-thumbnail">
-              <ImageFallback
+              <img
                 src={`https://statichunt-images.netlify.app/themes/${slug}.png`}
-                fallback={`/images/theme-placeholder.png`}
+                // fallback={`/images/theme-placeholder.png`}
                 height={250}
                 width={750}
                 alt={theme.frontmatter.title}

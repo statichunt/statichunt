@@ -1,4 +1,4 @@
-import ImageFallback from "@/components/ImageFallback";
+/* eslint-disable @next/next/no-img-element */
 import ToolsIcon from "@/components/ToolsIcon";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
@@ -90,9 +90,9 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
           >
             <div className="theme-card">
               <Link href={`/themes/${theme.slug}`}>
-                <ImageFallback
-                  src={`https://statichunt-images.netlify.app/themes/${theme.slug}.png`}
-                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
+                <img
+                  src={`https://statichunt-images.netlify.app/themes/thumbnails/${theme.slug}.webp`}
+                  // fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
                   // fallback={`/images/theme-placeholder.png`}
                   height={240}
                   width={360}

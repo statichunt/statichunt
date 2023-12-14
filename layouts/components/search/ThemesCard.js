@@ -1,4 +1,4 @@
-import ImageFallback from "@/components/ImageFallback";
+/* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
 import useTooltip from "@/hooks/useTooltip";
 import { slugify } from "@/lib/utils/textConverter";
@@ -31,10 +31,10 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
       {themes.map((theme, i) => (
         <div key={`theme-${i}`} className="col mb-4">
           <div className="relative rounded-md shadow">
-            <ImageFallback
-              src={`https://statichunt-images.netlify.app/themes/${theme.slug}.png`}
+            <img
+              src={`https://statichunt-images.netlify.app/themes/thumbnails/${theme.slug}.webp`}
               // fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
-              fallback={`/images/theme-placeholder.png`}
+              // fallback={`/images/theme-placeholder.png`}
               height={130}
               width={230}
               alt={theme.frontmatter?.title}
