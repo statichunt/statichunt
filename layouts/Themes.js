@@ -42,7 +42,7 @@ const githubDataChange = (theme) => {
 };
 
 const Themes = ({ themes, authors, customRowClass, customColClass }) => {
-  const [item, setItem] = useState(4);
+  const [item, setItem] = useState(8);
   const [page, setPage] = useState(themes.slice(0, item));
 
   // getWindowDimensions

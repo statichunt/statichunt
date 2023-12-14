@@ -53,12 +53,12 @@ const Sidebar = ({
         item.type == "ssg"
           ? ssgData
           : item.type == "cms"
-          ? cmsData
-          : item.type == "css"
-          ? cssData
-          : item.type == "category"
-          ? category
-          : toolsCategory,
+            ? cmsData
+            : item.type == "css"
+              ? cssData
+              : item.type == "category"
+                ? category
+                : toolsCategory,
     }));
     setSidebarData(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -104,7 +104,7 @@ const Sidebar = ({
           {sidebarData.map(
             (data, i) =>
               data.taxonomy && (
-                <div key={`Sidebaraccordion-${i}`} className="mb-4 lg:mb-8">
+                <div key={`sidebar-accordion-${i}`} className="mb-4 lg:mb-8">
                   <h3
                     className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
                     onClick={() => handleOnClick(data.title)}
