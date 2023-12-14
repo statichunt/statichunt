@@ -13,8 +13,16 @@ import themes from "../../.json/themes.json";
 
 const SingleTheme = ({ slug, theme }) => {
   const { frontmatter, content } = theme;
-  const { title, description, meta_title, date, noindex, canonical, ssg } =
-    frontmatter;
+  const {
+    title,
+    description,
+    meta_title,
+    date,
+    noindex,
+    canonical,
+    ssg,
+    price,
+  } = frontmatter;
   const similarProducts = similarThemes(theme, themes, slug);
 
   return (
@@ -81,6 +89,11 @@ const SingleTheme = ({ slug, theme }) => {
               "name": "Statichunt"
             },
             "releaseDate": "${date}",
+            "offers": {
+              "@type": "Offer",
+              "price": "${price ? price : 0}",  
+              "priceCurrency": "USD"  
+            },
             "additionalProperty": [
               {
                 "@type": "PropertyValue",
