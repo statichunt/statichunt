@@ -177,7 +177,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                   ) : theme.frontmatter?.author ? (
                     theme.frontmatter?.author
                   ) : (
-                    theme.frontmatter?.github.match(
+                    theme.frontmatter?.github?.match(
                       /github\.com\/([^\/]+)/,
                       "",
                     )[0]
