@@ -1,7 +1,7 @@
 ---
 title: Campanula
 github: https://github.com/sakurabird/Campanula
-demo: https://campanula-demo.vercel.app/
+demo: https://campanula-demo.vercel.app/vercel.app/
 author: sakurabird
 author_link: https://github.com/sakurabird
 date: 2023-11-30T08:34:53.589Z
