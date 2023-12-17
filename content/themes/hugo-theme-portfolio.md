@@ -1,7 +1,7 @@
 ---
 title: Theme Portfolio
 github: https://github.com/HugoBlox/theme-portfolio
-demo: https://hugoblox.com/templates/
+demo: https://hugo-portfolio-theme.netlify.app/
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:27.499Z

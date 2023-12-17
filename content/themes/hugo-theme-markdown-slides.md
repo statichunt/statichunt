@@ -1,7 +1,7 @@
 ---
 title: Theme Markdown Slides
 github: https://github.com/HugoBlox/theme-markdown-slides
-demo: https://hugoblox.com/templates/
+demo: https://statichunt.com/demo/hugo-theme-markdown-slides
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:22.512Z

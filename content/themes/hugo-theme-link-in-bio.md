@@ -1,7 +1,7 @@
 ---
 title: Theme Link In Bio
 github: https://github.com/HugoBlox/theme-link-in-bio
-demo: https://hugoblox.com/templates/
+demo: https://link-in-bio-theme.netlify.app/
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:19.966Z

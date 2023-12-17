@@ -1,7 +1,7 @@
 ---
 title: Theme Documentation
 github: https://github.com/HugoBlox/theme-documentation
-demo: https://hugoblox.com/templates/
+demo: https://hugoblox.com/templates/details/docs/
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:17.417Z

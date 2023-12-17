@@ -1,7 +1,7 @@
 ---
 title: Theme Research Group
 github: https://github.com/HugoBlox/theme-research-group
-demo: https://hugoblox.com/templates/
+demo: https://research-group.netlify.app/
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:30.032Z

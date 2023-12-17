@@ -1,7 +1,7 @@
 ---
 title: Theme Resume
 github: https://github.com/HugoBlox/theme-resume
-demo: https://hugoblox.com/templates/
+demo: https://resume-theme.netlify.app/
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:34.944Z

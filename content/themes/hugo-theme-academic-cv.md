@@ -1,7 +1,7 @@
 ---
 title: Theme Academic Cv
 github: https://github.com/HugoBlox/theme-academic-cv
-demo: https://hugoblox.com/templates/
+demo: https://academic-demo.netlify.app/
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:12.364Z

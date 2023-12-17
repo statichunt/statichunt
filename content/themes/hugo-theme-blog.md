@@ -1,7 +1,7 @@
 ---
 title: Theme Blog
 github: https://github.com/HugoBlox/theme-blog
-demo: https://hugoblox.com/templates/
+demo: https://hugo-blog-theme.netlify.app/
 author: HugoBlox
 author_link: https://github.com/HugoBlox
 date: 2023-11-30T04:32:14.889Z
