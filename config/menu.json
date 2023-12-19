@@ -1,7 +1,7 @@
 {
   "main": [
     {
-      "name": "All Themes",
+      "name": " Themes",
       "url": "/"
     },
     {
@@ -9,16 +9,21 @@
       "url": "/authors/statichunt"
     },
     {
-      "name": "Tools",
+      "name": "Resources",
       "url": "/tools"
     },
     {
-      "name": "Showcase",
+      "name": "Examples",
       "url": "/examples"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Bundles",
+      "url": "/bundles",
+      "badge": "New"
+    },
+    {
+      "name": "About",
+      "url": "/about"
     }
   ],
   "footer": [
@@ -26,28 +31,24 @@
       "name": "Statichunt",
       "pages": [
         {
-          "page": "about",
+          "page": "Themes",
+          "url": "/"
+        },
+        {
+          "page": "Resources",
+          "url": "/tools"
+        },
+        {
+          "page": "Examples",
+          "url": "/examples"
+        },
+        {
+          "page": "About",
           "url": "/about"
         },
         {
-          "page": "blog",
-          "url": "/blog"
-        },
-        {
-          "page": "write for us",
-          "url": "/write-for-us"
-        },
-        {
-          "page": "contact",
-          "url": "/contact"
-        },
-        {
-          "page": "disclaimer",
+          "page": "Disclaimer",
           "url": "/disclaimer"
-        },
-        {
-          "page": "Sponsors",
-          "url": "/sponsors"
         }
       ]
     },
@@ -55,56 +56,56 @@
       "name": "Themes",
       "pages": [
         {
-          "page": "astro themes",
+          "page": "Astro Themes",
           "url": "/astro-themes"
         },
         {
-          "page": "hugo themes",
+          "page": "Hugo Themes",
           "url": "/hugo-themes"
         },
         {
-          "page": "nextjs templates",
+          "page": "Nexts Templates",
           "url": "/nextjs-templates"
         },
         {
-          "page": "gatsby themes",
+          "page": "Gatsby Themes",
           "url": "/gatsby-themes"
         },
         {
-          "page": "jekyll themes",
+          "page": "Jekyll Themes",
           "url": "/jekyll-themes"
         },
         {
-          "page": "hexo themes",
+          "page": "Hexo Themes",
           "url": "/hexo-themes"
         },
         {
-          "page": "nuxtjs themes",
+          "page": "Nuxtjs Themes",
           "url": "/nuxtjs-themes"
         },
         {
-          "page": "eleventy themes",
+          "page": "Eleventy Themes",
           "url": "/eleventy-themes"
         }
       ]
     },
     {
-      "name": "Tools",
+      "name": "Help And Support",
       "pages": [
         {
-          "page": "chat",
+          "page": "Documentaion",
           "url": "/jamstack-chat"
         },
         {
-          "page": "ecommerce",
+          "page": "Frequently Asked Questions",
           "url": "/jamstack-ecommerce"
         },
         {
-          "page": "cms",
+          "page": "Re Download",
           "url": "/jamstack-cms"
         },
         {
-          "page": "feedback",
+          "page": "Contact",
           "url": "/jamstack-feedback"
         },
         {

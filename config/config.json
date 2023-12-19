@@ -8,7 +8,8 @@
     "logo_width": "164",
     "logo_height": "32",
     "logo_text": "Statichunt",
-    "footer_logo": "/images/logo-light.svg"
+    "footer_logo": "/images/logo-light.svg",
+    "other_text": "Other Brands"
   },
 
   "settings": {
@@ -16,7 +17,7 @@
     "default_theme": "system",
     "pagination": 4,
     "summary_length": 200,
-    "discord_widget": false
+    "discord_widget": true
   },
 
   "announcement": {
@@ -28,7 +29,7 @@
 
   "params": {
     "tag_manager_id": "GTM-PWJBVR2",
-    "copyright": "Copyright © 2023 Statichunt"
+    "copyright": "MAINTAINER @ZEON STUDIO TEAM"
   },
 
   "metadata": {
