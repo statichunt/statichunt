@@ -1,7 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
 import Examples from "@/layouts/Examples";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
-import Image from "next/image";
 import {
   TbBrandGithub,
   TbBrandTwitter,
@@ -37,7 +37,7 @@ const ExampleTaxonomy = ({ data, currentPage, showIntro }) => {
             }`}
           >
             <div className="mb-5 flex">
-              <Image
+              <img
                 className={`${
                   darkIconList.includes(slugify(title))
                     ? "dark:brightness-0 dark:invert"

@@ -2,7 +2,6 @@
 import ToolsIcon from "@/components/ToolsIcon";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
@@ -92,8 +91,6 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
               <Link href={`/themes/${theme.slug}`}>
                 <img
                   src={`https://statichunt-images.netlify.app/themes/thumbnails/${theme.slug}.webp`}
-                  // fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
-                  // fallback={`/images/theme-placeholder.png`}
                   height={240}
                   width={360}
                   alt={theme.frontmatter?.title}
@@ -122,7 +119,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                   >
                     {theme.type === "price" ? (
                       githubDataChange(theme) !== 0 && (
-                        <Image
+                        <img
                           className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                           src={`/images/icons/${
                             theme.frontmatter.price > 0 &&
@@ -138,7 +135,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                         />
                       )
                     ) : (
-                      <Image
+                      <img
                         className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                         src={`/images/icons/${
                           theme.frontmatter.price > 0 && theme.type != "update"

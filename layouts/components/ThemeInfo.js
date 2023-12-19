@@ -1,8 +1,7 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
+/* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { useTheme } from "next-themes";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import "react-discord-invite/dist/style.css";
@@ -13,6 +12,7 @@ const ThemeInfo = ({ theme, slug }) => {
   const { discord_widget } = config.settings;
   const [mounted, setMounted] = useState(false);
   const { uiTheme, resolvedTheme } = useTheme();
+
   useEffect(() => setMounted(true), []);
   const {
     title,
@@ -72,7 +72,7 @@ const ThemeInfo = ({ theme, slug }) => {
           <div className="flex items-center py-[6px]">
             <span className="min-w-[120px]">Stars : </span>
             <span className="flex items-center">
-              <Image
+              <img
                 className="mr-2 dark:invert"
                 src="/images/icons/star.svg"
                 alt="github star"
@@ -87,7 +87,7 @@ const ThemeInfo = ({ theme, slug }) => {
           <div className="flex items-center py-[6px]">
             <span className="min-w-[120px]">Forks : </span>
             <span className="flex items-center">
-              <Image
+              <img
                 className="mr-2 dark:invert"
                 src="/images/icons/fork.svg"
                 alt="github fork"
@@ -137,7 +137,7 @@ const ThemeInfo = ({ theme, slug }) => {
 
       <div className="widget mt-10">
         <div className="flex items-center">
-          <Image
+          <img
             src={
               github
                 ? `https://www.github.com/${

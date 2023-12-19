@@ -33,8 +33,6 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
           <div className="relative rounded-md shadow">
             <img
               src={`https://statichunt-images.netlify.app/themes/thumbnails/${theme.slug}.webp`}
-              // fallback={`https://teamosis-sg.vercel.app/api/img?url=${theme.frontmatter.demo}`}
-              // fallback={`/images/theme-placeholder.png`}
               height={130}
               width={230}
               alt={theme.frontmatter?.title}

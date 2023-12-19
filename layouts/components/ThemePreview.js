@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
-import ImageFallback from "./ImageFallback";
 
 const ThemePreview = ({ theme, slug }) => {
   const { demo } = theme.frontmatter;
@@ -105,7 +104,6 @@ const ThemePreview = ({ theme, slug }) => {
             <span className="browser-preview-thumbnail">
               <img
                 src={`https://statichunt-images.netlify.app/themes/${slug}.png`}
-                // fallback={`/images/theme-placeholder.png`}
                 height={250}
                 width={750}
                 alt={theme.frontmatter.title}
@@ -116,10 +114,8 @@ const ThemePreview = ({ theme, slug }) => {
 
         {/* mobile thumbnail */}
         <div className="md:hidden">
-          <ImageFallback
-            src={`https://statichunt-images.netlify.app/themes/${slug}.png`}
-            // fallback={`https://teamosis-sg.vercel.app/api/img?url=${demo}`}
-            fallback={`/images/theme-placeholder.png`}
+          <img
+            src={`https://statichunt-images.netlify.app/themes/thumbnails/${slug}.webp`}
             height="340"
             width="510"
             alt={theme.frontmatter.title}

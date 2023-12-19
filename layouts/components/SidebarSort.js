@@ -1,8 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import usePricingFilter from "@/hooks/usePricingFilter";
 import useWindow from "@/hooks/useWindow";
 import { humanize } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
@@ -43,7 +43,7 @@ const SidebarSort = ({ sortValue, handleSortThemes }) => {
             value={button.value}
             onClick={(e) => handleSortThemes(e, button.type)}
           >
-            <Image
+            <img
               src={button.icon}
               alt={button.value}
               height="17"
@@ -58,7 +58,7 @@ const SidebarSort = ({ sortValue, handleSortThemes }) => {
           className={`sidebar-radio ${!sortAsc ? "active" : undefined}`}
           onClick={() => setSortAsc(false)}
         >
-          <Image
+          <img
             src="/images/icons/descending.svg"
             alt="Descending"
             height="17"
@@ -71,7 +71,7 @@ const SidebarSort = ({ sortValue, handleSortThemes }) => {
           className={`sidebar-radio ${sortAsc ? "active" : undefined}`}
           onClick={() => setSortAsc(true)}
         >
-          <Image
+          <img
             src="/images/icons/ascending.svg"
             alt="Ascending"
             height="17"

@@ -1,4 +1,3 @@
-import ImageFallback from "@/components/ImageFallback";
 import Share from "@/components/Share";
 import Base from "@/layouts/Baseof";
 import { dateFormat } from "@/lib/utils/dateFormat";
@@ -34,7 +33,7 @@ const PostSingle = ({
           <div className="row justify-center lg:items-center">
             <div className="col-12 mb-6 md:col-5 lg:col-4 md:order-2 md:mb-0">
               {image ? (
-                <ImageFallback
+                <Image
                   className="w-full rounded object-cover"
                   src={image}
                   alt={title}
@@ -143,7 +142,7 @@ const PostSingle = ({
                     <div key={`post-${i}`} className="mb-8">
                       <div className="mb-5">
                         {post.frontmatter.image ? (
-                          <ImageFallback
+                          <Image
                             className="w-full rounded object-cover"
                             src={post.frontmatter.image}
                             alt={post.frontmatter.title}

@@ -1,4 +1,4 @@
-import ImageFallback from "@/components/ImageFallback";
+/* eslint-disable @next/next/no-img-element */
 import { humanize } from "@/lib/utils/textConverter";
 
 const Tools = ({ tools }) => {
@@ -7,14 +7,13 @@ const Tools = ({ tools }) => {
       {tools.map((tool) => (
         <div className="mb-10 xl:col-10" key={tool.slug}>
           <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
-            <ImageFallback
-              loading="lazy"
+            <img
+              className="mr-8 max-w-[160px] rounded-[4px]"
               src={`https://statichunt-images.netlify.app/tools/${tool.slug}.png`}
-              fallback={`https://teamosis-sg.vercel.app/api/img?url=${tool.frontmatter.website}`}
-              alt="{tools.frontmatter.title}"
+              alt={tool.frontmatter.title}
               width={160}
               height={100}
-              className="mr-8 max-w-[160px] rounded-[4px]"
+              loading="lazy"
             />
             <div className="mt-4 bg-transparent sm:mt-0">
               <h3 className="h5 mb-[4px] flex items-center pt-2 font-medium">

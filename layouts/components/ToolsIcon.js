@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
 import { slugify } from "@/lib/utils/textConverter";
-import Image from "next/image";
 import tools from "../../.json/theme-tools.json";
 
 const ToolsIcon = ({
@@ -55,7 +55,7 @@ const ToolsIcon = ({
                   data-tooltip={icon.frontmatter.title}
                   key={`icon-${i}`}
                 >
-                  <Image
+                  <img
                     width={size ? size : 18}
                     height={size ? size : 18}
                     alt={icon.frontmatter.title}
@@ -79,7 +79,7 @@ const ToolsIcon = ({
                     data-tooltip={icon.frontmatter.title}
                     key={`icon-${i}`}
                   >
-                    <Image
+                    <img
                       width={size ? size : 18}
                       height={size ? size : 18}
                       alt={icon.frontmatter.title}
@@ -100,7 +100,7 @@ const ToolsIcon = ({
                 data-tooltip={icon.frontmatter.title}
                 key={`icon-${i}`}
               >
-                <Image
+                <img
                   width={size ? size : 18}
                   height={size ? size : 18}
                   alt={icon.frontmatter.title}

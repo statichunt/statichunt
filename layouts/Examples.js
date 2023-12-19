@@ -1,4 +1,4 @@
-import ImageFallback from "@/components/ImageFallback";
+/* eslint-disable @next/next/no-img-element */
 import ToolsIcon from "@/components/ToolsIcon";
 import { simplifyURL } from "@/lib/utils/textConverter";
 import Link from "next/link";
@@ -52,9 +52,8 @@ const Examples = ({ examples, customRowClass, customColClass }) => {
             key={example.slug}
           >
             <div className="theme-card relative">
-              <ImageFallback
+              <img
                 src={`https://statichunt-images.netlify.app/examples/${example.slug}.png`}
-                fallback={`https://teamosis-sg.vercel.app/api/img?url=${example.frontmatter.website}`}
                 height={240}
                 width={360}
                 alt={example.frontmatter?.title}

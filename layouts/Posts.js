@@ -1,4 +1,3 @@
-import ImageFallback from "@/components/ImageFallback";
 import config from "@/config/config.json";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
@@ -22,7 +21,7 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
           <div className="row lg:items-center">
             <div className="mb-5 md:col-6 lg:col-5 md:mb-0">
               {post.frontmatter.image ? (
-                <ImageFallback
+                <Image
                   className="w-full rounded object-cover"
                   src={post.frontmatter.image}
                   alt={post.frontmatter.title}

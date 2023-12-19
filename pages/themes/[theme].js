@@ -32,7 +32,7 @@ const SingleTheme = ({ slug, theme }) => {
         description ? plainify(description) : plainify(content.slice(0, 120))
       }
       meta_title={plainify(meta_title)}
-      image={`/themes/${slug}.png`}
+      image={`https://statichunt-images.netlify.app/themes/${slug}.png`}
       noindex={noindex}
       canonical={canonical}
     >

@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import useWindow from "@/hooks/useWindow";
 import { useFilterContext } from "context/filterContext";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
@@ -41,7 +41,7 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
                   arrayFree.length > 0 ? "active" : undefined
                 }`}
               >
-                <Image
+                <img
                   src="/images/icons/free.svg"
                   alt="free"
                   height="18"
@@ -62,7 +62,7 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
                   arrayPremium.length > 0 ? "active" : undefined
                 }`}
               >
-                <Image
+                <img
                   src="/images/icons/premium.svg"
                   alt="premium"
                   height="18"

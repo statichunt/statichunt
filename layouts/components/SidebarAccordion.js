@@ -1,8 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
 import useTaxonomyHandler from "@/hooks/useAccordionHandler";
 import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const SidebarAccordion = ({
@@ -178,16 +178,16 @@ const SidebarAccordion = ({
                 )} ${item.selected ? "active" : ""}`}
                 style={{ order: item.frontmatter.weight || "100" }}
               >
-                <Image
+                <img
                   className={`ml-2 max-h-[18px] ${
                     darkIconList.includes(slugify(item.frontmatter.title))
                       ? "dark:brightness-0 dark:invert"
                       : ""
                   }`}
                   src={item.frontmatter.icon}
+                  alt={item.frontmatter.title}
                   height={18}
                   width={18}
-                  alt={item.frontmatter.title}
                 />
                 <span className="ml-2 block">{item.frontmatter.title}</span>
                 {parameter && [...new Set(taxonomyArray)][0] === params ? (

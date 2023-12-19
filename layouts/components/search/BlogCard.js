@@ -1,6 +1,6 @@
 import { useSearchContext } from "context/searchContext";
+import Image from "next/image";
 import Link from "next/link";
-import ImageFallback from "../ImageFallback";
 
 const BlogCard = ({ blogs, themes, tools, setSearchModal }) => {
   const { isTheme, isTool } = useSearchContext();
@@ -18,12 +18,12 @@ const BlogCard = ({ blogs, themes, tools, setSearchModal }) => {
             <div className="rounded sm:flex">
               <div className="flex w-full items-center rounded p-3">
                 {blog.frontmatter.image ? (
-                  <ImageFallback
+                  <Image
+                    className="mr-4 block h-[80px] max-w-[120px] rounded object-cover lg:mr-8"
                     src={blog.frontmatter.image}
                     alt={blog.frontmatter.title}
                     width={120}
                     height={80}
-                    className="mr-4 block h-[80px] max-w-[120px] rounded object-cover lg:mr-8"
                   />
                 ) : (
                   <span className="mr-4 flex h-[80px] max-h-full w-full max-w-[120px] items-center justify-center rounded bg-theme-light text-[4rem] text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark lg:mr-8">

@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { humanize } from "@/lib/utils/textConverter";
 import { useSearchContext } from "context/searchContext";
-import ImageFallback from "../ImageFallback";
 
 const ToolCard = ({ tools, themes, blogs }) => {
   const { isTheme, isBlog } = useSearchContext();
@@ -17,10 +17,9 @@ const ToolCard = ({ tools, themes, blogs }) => {
           <div className="relative rounded shadow">
             <div className="rounded sm:flex">
               <div className="flex w-full items-center rounded p-3">
-                <ImageFallback
+                <img
                   loading="lazy"
                   src={`https://statichunt-images.netlify.app/tools/${tool.slug}.png`}
-                  fallback={`https://teamosis-sg.vercel.app/api/img?url=${tool.frontmatter.website}`}
                   alt={tool.frontmatter.title}
                   width={93}
                   height={60}
