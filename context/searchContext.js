@@ -10,11 +10,8 @@ export const SearchContext = ({ children }) => {
   const [isTheme, setIsTheme] = useState(false);
   const [isTool, setIsTool] = useState(false);
   const [isBlog, setIsBlog] = useState(false);
-  const [searchModal, setSearchModal] = useState(false);
 
   const state = {
-    searchModal,
-    setSearchModal,
     themeTools,
     searchKey,
     setSearchKey,
@@ -27,8 +24,6 @@ export const SearchContext = ({ children }) => {
     isTool,
     isTheme,
     isBlog,
-    searchModal,
-    setSearchModal,
   };
 
   return (

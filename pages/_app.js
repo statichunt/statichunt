@@ -1,13 +1,11 @@
 import config from "@/config/config.json";
 import { JsonContext } from "context/filterContext";
-import { SearchContext } from "context/searchContext";
 import { ThemeProvider } from "next-themes";
+import { Oxygen } from "next/font/google";
 import Head from "next/head";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
-
-import { Oxygen } from "next/font/google";
 
 const oxygen = Oxygen({
   weight: ["400", "700"],
@@ -44,22 +42,20 @@ const App = ({ Component, pageProps }) => {
   }, []);
 
   return (
-    <SearchContext>
-      <JsonContext>
-        <Head>
-          {/* responsive meta */}
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=5"
-          />
-        </Head>
-        <ThemeProvider attribute="class" defaultTheme={default_theme}>
-          <main className={`${oxygen.className}`}>
-            <Component {...pageProps} />
-          </main>
-        </ThemeProvider>
-      </JsonContext>
-    </SearchContext>
+    <JsonContext>
+      <Head>
+        {/* responsive meta */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=5"
+        />
+      </Head>
+      <ThemeProvider attribute="class" defaultTheme={default_theme}>
+        <main className={`${oxygen.className}`}>
+          <Component {...pageProps} />
+        </main>
+      </ThemeProvider>
+    </JsonContext>
   );
 };
 

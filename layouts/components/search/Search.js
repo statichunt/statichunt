@@ -96,9 +96,15 @@ const Search = ({ setSearchModal, searchModal }) => {
               </h4>
             )}
 
+          {searchKey.length > 0 && searchKey.length < 3 && (
+            <h4 className="py-5 text-center">
+              Type at least 3 characters to search
+            </h4>
+          )}
+
           {/* no search found screen */}
           {themes.length + tools.length + blogs.length === 0 &&
-            searchKey !== "" && (
+            searchKey.length > 2 && (
               <h4 className="py-5 text-center">No Search Found!</h4>
             )}
 
