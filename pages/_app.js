@@ -7,6 +7,15 @@ import { useEffect } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
 
+import { Oxygen } from "next/font/google";
+
+const oxygen = Oxygen({
+  weight: ["400", "700"],
+  style: ["normal"],
+  subsets: ["latin"],
+  display: "swap",
+});
+
 const App = ({ Component, pageProps }) => {
   // default theme setup
   const { default_theme } = config.settings;
@@ -45,7 +54,9 @@ const App = ({ Component, pageProps }) => {
           />
         </Head>
         <ThemeProvider attribute="class" defaultTheme={default_theme}>
-          <Component {...pageProps} />
+          <main className={`${oxygen.className}`}>
+            <Component {...pageProps} />
+          </main>
         </ThemeProvider>
       </JsonContext>
     </SearchContext>

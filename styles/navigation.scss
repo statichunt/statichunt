@@ -29,7 +29,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .navbar-nav {
-  @apply text-center font-secondary md:text-left;
+  @apply text-center md:text-left;
 }
 
 .nav-link {
