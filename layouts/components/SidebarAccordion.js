@@ -185,7 +185,7 @@ const SidebarAccordion = ({
                       : ""
                   }`}
                   src={item.frontmatter.icon}
-                  alt={item.frontmatter.title}
+                  alt={`${item.frontmatter.title} icon`}
                   height={18}
                   width={18}
                 />

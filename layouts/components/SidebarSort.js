@@ -45,7 +45,7 @@ const SidebarSort = ({ sortValue, handleSortThemes }) => {
           >
             <img
               src={button.icon}
-              alt={button.value}
+              alt={`${button.value} Icon`}
               height="17"
               width="17"
               className="mx-2 max-h-[17px] dark:invert"
@@ -60,7 +60,7 @@ const SidebarSort = ({ sortValue, handleSortThemes }) => {
         >
           <img
             src="/images/icons/descending.svg"
-            alt="Descending"
+            alt="Descending Icon"
             height="17"
             width="17"
             className="mx-2 max-h-[17px] dark:invert"
@@ -73,7 +73,7 @@ const SidebarSort = ({ sortValue, handleSortThemes }) => {
         >
           <img
             src="/images/icons/ascending.svg"
-            alt="Ascending"
+            alt="Ascending Icon"
             height="17"
             width="17"
             className="mx-2 max-h-[17px] dark:invert"

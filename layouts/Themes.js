@@ -93,7 +93,7 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                   src={`https://statichunt-images.netlify.app/themes/thumbnails/${theme.slug}.webp`}
                   height={240}
                   width={360}
-                  alt={theme.frontmatter?.title}
+                  alt={`Screenshot of ${theme.frontmatter?.title}`}
                   className="w-full rounded-t object-cover"
                 />
               </Link>

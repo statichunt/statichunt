@@ -62,7 +62,11 @@ const Search = ({ setSearchModal, searchModal }) => {
             onChange={handleChange}
             placeholder="Search anything..."
             ref={searchInputRef}
+            id="searchInput"
           />
+          <label htmlFor="searchInput" className="sr-only">
+            Search
+          </label>
           <span
             className="cursor-pointer rounded-sm border-border font-medium sm:text-lg"
             onClick={() => setSearchModal(false)}

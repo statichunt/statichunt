@@ -35,7 +35,7 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
               src={`https://statichunt-images.netlify.app/themes/thumbnails/${theme.slug}.webp`}
               height={130}
               width={230}
-              alt={theme.frontmatter?.title}
+              alt={`Screenshot of ${theme.frontmatter?.title}`}
               className="mb-4 block h-auto w-full rounded-t"
             />
 

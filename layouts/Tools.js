@@ -10,7 +10,7 @@ const Tools = ({ tools }) => {
             <img
               className="mr-8 max-w-[160px] rounded-[4px]"
               src={`https://statichunt-images.netlify.app/tools/${tool.slug}.png`}
-              alt={tool.frontmatter.title}
+              alt={`${tool.frontmatter.title} Icon`}
               width={160}
               height={100}
               loading="lazy"

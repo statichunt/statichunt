@@ -58,7 +58,7 @@ const ToolsIcon = ({
                   <img
                     width={size ? size : 18}
                     height={size ? size : 18}
-                    alt={icon.frontmatter.title}
+                    alt={`${icon.frontmatter.title} Icon`}
                     src={icon.frontmatter.icon}
                     style={{ maxHeight: size ? size : "18px" }}
                     className={
@@ -82,7 +82,7 @@ const ToolsIcon = ({
                     <img
                       width={size ? size : 18}
                       height={size ? size : 18}
-                      alt={icon.frontmatter.title}
+                      alt={`${icon.frontmatter.title} Icon`}
                       src={icon.frontmatter.icon}
                       style={{ maxHeight: size ? size : "18px" }}
                       className={
@@ -103,7 +103,7 @@ const ToolsIcon = ({
                 <img
                   width={size ? size : 18}
                   height={size ? size : 18}
-                  alt={icon.frontmatter.title}
+                  alt={`${icon.frontmatter.title} Icon`}
                   src={icon.frontmatter.icon}
                   style={{ maxHeight: size ? size : "18px" }}
                   className={
