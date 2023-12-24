@@ -1,7 +1,7 @@
 ---
 title: Hugo Paper
 github: https://github.com/nanxiaobei/hugo-paper
-demo: https://nanxiaobei.github.io/hugo-paper/
+demo: https://hugo-paper.vercel.app/
 author: nanxiaobei
 author_link: https://github.com/nanxiaobei
 date: 2023-11-29T09:06:12.558Z
