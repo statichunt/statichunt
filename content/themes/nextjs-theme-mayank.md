@@ -12,10 +12,11 @@ ssg:
   - Nextjs
 css: []
 cms: []
-category: ["Boilerplate"]
+category:
+  - Boilerplate
 draft: false
 publish_date: '2023-08-04T13:34:08Z'
-update_date: '2023-12-09T00:46:53Z'
+update_date: '2024-02-05T00:46:24Z'
 github_star: 5
 github_fork: 1
 ---

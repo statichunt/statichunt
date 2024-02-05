@@ -12,6 +12,6 @@ description: A Jekyll version of the 'Forty' theme by HTML5 UP.
 draft: false
 publish_date: '2016-08-23T00:53:06Z'
 update_date: '2022-12-10T02:59:31Z'
-github_star: 1000
-github_fork: 2072
+github_star: 1008
+github_fork: 2081
 ---

@@ -12,7 +12,7 @@ css:
   - Tailwind
 cms:
   - Markdown
-category: 
+category:
   - Boilerplate
 draft: false
 publish_date: '2021-10-29T17:25:24Z'

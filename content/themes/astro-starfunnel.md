@@ -19,9 +19,9 @@ category:
   - Business
 draft: false
 publish_date: '2023-11-19T14:35:58Z'
-update_date: '2024-01-15T14:13:35Z'
-github_star: 31
-github_fork: 12
+update_date: '2024-01-23T15:44:16Z'
+github_star: 41
+github_fork: 13
 ---
 ## Key Features
 

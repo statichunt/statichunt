@@ -1,13 +1,13 @@
 ---
-title: Nextjs 13 Starter Template
-github: https://github.com/raihanhosen011/nextjs-13-starter-template
-demo: https://nextjs13starter.online/
-author: raihanhosen011
-author_link: https://github.com/raihanhosen011
-date: 2023-11-30T06:35:57.775Z
+title: Nextjs13 Starter Template
+github: https://github.com/Bhanu1776/Nextjs13-Starter-Template
+demo: https://starter-website-sigma.vercel.app/
+author: Bhanu1776
+author_link: https://github.com/Bhanu1776
+date: 2023-11-26T10:29:42.492Z
 description: >-
-  A clean and structured starter template for Next.js 13. Build scalable and
-  maintainable web applications with ease.
+  Npm package: Latest Next.js 13 starter template with Typescript + Tailwindcss
+  + Eslint (airbnb) + Prettier + Husky + cz-git + pnpm + PWA
 ssg:
   - Nextjs
 css:
@@ -16,8 +16,8 @@ css:
 cms: []
 category: []
 draft: false
-publish_date: '2023-06-21T22:08:51Z'
-update_date: '2023-11-13T23:10:37Z'
-github_star: 29
-github_fork: 9
+publish_date: '2023-06-21T10:41:36Z'
+update_date: '2024-01-26T06:19:38Z'
+github_star: 7
+github_fork: 1
 ---

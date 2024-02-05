@@ -18,8 +18,8 @@ description: Vex product landing page template (Hugo version)
 draft: false
 publish_date: '2018-01-09T21:59:07Z'
 update_date: '2023-06-21T06:48:06Z'
-github_star: 185
-github_fork: 275
+github_star: 187
+github_fork: 273
 ---
 
 ## Key Features
