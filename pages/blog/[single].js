@@ -1,4 +1,4 @@
-import posts from "@/.json/blog.json";
+import posts from "@/json/blog.json";
 import PostSingle from "@/layouts/PostSingle";
 import { parseMDX } from "@/lib/utils/mdxParser";
 import { getMultiPageServer, getSinglePageServer } from "lib/contentParser";

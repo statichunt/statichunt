@@ -1,8 +1,8 @@
-import authors from "@/.json/authors.json";
-import themes from "@/.json/themes.json";
 import Share from "@/components/Share";
 import ThemeInfo from "@/components/ThemeInfo";
 import ThemePreview from "@/components/ThemePreview";
+import authors from "@/json/authors.json";
+import themes from "@/json/themes.json";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { markdownify, plainify } from "@/lib/utils/textConverter";

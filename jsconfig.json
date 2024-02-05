@@ -5,7 +5,7 @@
       "@/components/*": ["layouts/components/*"],
       "@/shortcodes/*": ["layouts/shortcodes/*"],
       "@/partials/*": ["layouts/partials/*"],
-      "@/.json/*": [".json/*"],
+      "@/json/*": [".json/*"],
       "@/*": ["/*"]
     }
   }

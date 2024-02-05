@@ -1,4 +1,4 @@
-import sponsors from "@/.json/sponsors.json";
+import sponsors from "@/json/sponsors.json";
 import Link from "next/link";
 import { useState } from "react";
 

@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import tools from "@/.json/theme-tools.json";
 import config from "@/config/config.json";
+import tools from "@/json/theme-tools.json";
 import { slugify } from "@/lib/utils/textConverter";
 
 const ToolsIcon = ({
