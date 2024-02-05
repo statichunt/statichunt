@@ -1,5 +1,5 @@
 ---
-title: Bexer
+title: Bexer Hugo
 download: https://gethugothemes.com/products/bexer
 price: 79
 demo: https://demo.gethugothemes.com/bexer/site/

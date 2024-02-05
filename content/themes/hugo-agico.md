@@ -1,5 +1,5 @@
 ---
-title: Agico
+title: Agico Hugo
 download: https://gethugothemes.com/products/agico
 github:
 price: 79

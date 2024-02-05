@@ -95,6 +95,10 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
                   width={360}
                   alt={`Screenshot of ${theme.frontmatter?.title}`}
                   className="w-full rounded-t object-cover"
+                  onError={({ currentTarget }) => {
+                    currentTarget.onerror = null;
+                    currentTarget.src = "/images/theme-placeholder.png";
+                  }}
                 />
               </Link>
               <div className="theme-card-body">

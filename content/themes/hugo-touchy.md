@@ -1,5 +1,5 @@
 ---
-title: Touchy
+title: Touchy Hugo
 github: https://github.com/gethugothemes/touchy-hugo
 demo: https://demo.gethugothemes.com/touchy/site/
 author: Gethugothemes

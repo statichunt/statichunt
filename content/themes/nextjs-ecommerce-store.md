@@ -1,23 +1,20 @@
 ---
-title: Ecommerce Store
-github: https://github.com/eraydmrcoglu/ecommerce-store
-demo: https://react-e-commerce-store.vercel.app/
-author: eraydmrcoglu
-author_link: https://github.com/eraydmrcoglu
-date: 2023-11-28T02:07:55.233Z
-description: Full Stack E-Commerce Store + Dashboard Created with Next JS
+title: Ecommerce Store Next13
+github: https://github.com/demitraps/ecommerce-store-next13
+demo: https://ecommerce-store-next13.vercel.app/
+author: demitraps
+author_link: https://github.com/demitraps
+date: 2023-11-27T06:04:50.444Z
+description: Ecommerce Store
 ssg:
   - Nextjs
-css:
-  - Tailwind
-  - PostCSS
+css: []
 cms: []
 category:
   - Ecommerce
-  - Dashboard
 draft: false
-publish_date: '2023-06-30T07:40:57Z'
-update_date: '2023-06-30T07:41:07Z'
-github_star: 0
-github_fork: 0
+publish_date: '2023-08-11T09:34:41Z'
+update_date: '2023-08-26T15:59:43Z'
+github_star: 6
+github_fork: 1
 ---

@@ -1,5 +1,5 @@
 ---
-title: Biztrox
+title: Biztrox Hugo
 download: https://gethugothemes.com/products/biztrox
 github:
 price: 79

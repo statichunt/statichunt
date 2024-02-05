@@ -1,7 +1,6 @@
 ---
-title: Dtox
+title: Dtox Hugo
 download: https://gethugothemes.com/products/dtox
-github:
 price: 79
 demo: https://demo.gethugothemes.com/dtox/site/
 author: Gethugothemes

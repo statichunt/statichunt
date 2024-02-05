@@ -1,5 +1,5 @@
 ---
-title: Pinwheel
+title: Pinwheel Astro
 github: https://github.com/themefisher/pinwheel-astro
 demo: https://pinwheel-astro.vercel.app/
 author: Themefisher
@@ -19,8 +19,8 @@ category:
 draft: false
 publish_date: '2023-05-01T09:48:28Z'
 update_date: '2023-05-16T05:04:44Z'
-github_star: 73
-github_fork: 55
+github_star: 95
+github_fork: 70
 weight: 2
 ---
 

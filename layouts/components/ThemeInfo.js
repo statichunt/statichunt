@@ -48,7 +48,7 @@ const ThemeInfo = ({ theme, slug }) => {
               className="btn btn-primary w-1/2 sm:px-10 lg:px-7 xl:px-10"
               href={`${github ? github : download}?ref=statichunt.com`}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel={`noopener ${price ? "sponsor" : "nofollow"}`}
             >
               Download
             </a>

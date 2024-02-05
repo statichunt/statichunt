@@ -1,5 +1,5 @@
 ---
-title: Kross
+title: Kross Hugo
 github: https://github.com/themefisher/kross-hugo/
 demo: https://demo.gethugothemes.com/kross/site/
 author: Themefisher

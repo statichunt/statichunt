@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
   const { isBlog, Tool } = useSearchContext();
-  const { darkIconList } = config;
+  const { dark_icon_list } = config;
 
   const toolsIcon = (theme) => {
     const ssgIcon = theme.frontmatter?.ssg?.map((item) => item) || [];
@@ -61,7 +61,7 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
                           height={15}
                           width={15}
                           className={`max-h-[15px] ${
-                            darkIconList.includes(slugify(icon))
+                            dark_icon_list.includes(slugify(icon))
                               ? "dark:brightness-0 dark:invert"
                               : ""
                           }`}

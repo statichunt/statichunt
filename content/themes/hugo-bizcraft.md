@@ -1,5 +1,5 @@
 ---
-title: Bizcraft
+title: Bizcraft Hugo
 download: https://gethugothemes.com/products/bizcraft
 price: 79
 demo: https://demo.gethugothemes.com/bizcraft/site/

@@ -1,5 +1,5 @@
 ---
-title: Andromeda Light
+title: Andromeda Light Hugo
 github: https://github.com/gethugothemes/andromeda-light
 demo: https://demo.gethugothemes.com/andromeda-light/site/
 author: Gethugothemes

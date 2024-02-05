@@ -19,7 +19,7 @@ const ToolCard = ({ tools, themes, blogs }) => {
               <div className="flex w-full items-center rounded p-3">
                 <img
                   loading="lazy"
-                  src={`https://statichunt-images.netlify.app/tools/${tool.slug}.png`}
+                  src={`https://statichunt-images.netlify.app/tools/thumbnails/${tool.slug}.webp`}
                   alt={`Screenshot of ${tool.frontmatter.title}`}
                   width={93}
                   height={60}

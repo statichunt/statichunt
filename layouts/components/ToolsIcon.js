@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import tools from "@/.json/theme-tools.json";
 import config from "@/config/config.json";
 import { slugify } from "@/lib/utils/textConverter";
-import tools from "../../.json/theme-tools.json";
 
 const ToolsIcon = ({
   item,
@@ -12,7 +12,7 @@ const ToolsIcon = ({
   cms = true,
   category = true,
 }) => {
-  const { darkIconList } = config;
+  const { dark_icon_list } = config;
 
   let ssgArray = [];
   let cssArray = [];
@@ -62,7 +62,7 @@ const ToolsIcon = ({
                     src={icon.frontmatter.icon}
                     style={{ maxHeight: size ? size : "18px" }}
                     className={
-                      darkIconList.includes(slugify(icon.frontmatter.title))
+                      dark_icon_list.includes(slugify(icon.frontmatter.title))
                         ? "dark:brightness-0 dark:invert"
                         : ""
                     }
@@ -86,7 +86,7 @@ const ToolsIcon = ({
                       src={icon.frontmatter.icon}
                       style={{ maxHeight: size ? size : "18px" }}
                       className={
-                        darkIconList.includes(slugify(icon.frontmatter.title))
+                        dark_icon_list.includes(slugify(icon.frontmatter.title))
                           ? "dark:brightness-0 dark:invert"
                           : ""
                       }
@@ -107,7 +107,7 @@ const ToolsIcon = ({
                   src={icon.frontmatter.icon}
                   style={{ maxHeight: size ? size : "18px" }}
                   className={
-                    darkIconList.includes(slugify(icon.frontmatter.title))
+                    dark_icon_list.includes(slugify(icon.frontmatter.title))
                       ? "dark:brightness-0 dark:invert"
                       : ""
                   }

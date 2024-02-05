@@ -1,5 +1,5 @@
 ---
-title: Reader
+title: Reader Hugo
 download: https://gethugothemes.com/products/reader
 price: 79
 demo: https://demo.gethugothemes.com/reader/site/

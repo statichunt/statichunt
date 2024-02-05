@@ -2,28 +2,23 @@ import Share from "@/components/Share";
 import Base from "@/layouts/Baseof";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { readingTime } from "@/lib/utils/readingTime";
-import { similarPosts } from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
 import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Link from "next/link";
 import Gravatar from "react-gravatar";
-import MobileSidebar from "./partials/MobileSidebar";
 
 const PostSingle = ({
   frontmatter,
   content,
   mdxContent,
-  post,
-  posts,
   authors,
-  slug,
+  similarPosts,
 }) => {
   let { description, title, meta_title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
-
-  const relatedPosts = similarPosts(post, posts, slug).slice(0, 2);
 
   return (
     <Base title={title} meta_title={meta_title} description={description}>
@@ -91,54 +86,47 @@ const PostSingle = ({
               {/* author widget */}
               <div className="widget">
                 <h4 className="mb-8">About Author :</h4>
-                {authors
-                  .filter((author) =>
-                    frontmatter.authors
-                      .map((author) => slugify(author))
-                      .includes(slugify(author.frontmatter.title)),
-                  )
-                  .map((author, i) => (
-                    <div
-                      className="border-b border-border pb-6 dark:border-darkmode-border"
-                      key={i}
-                    >
-                      {author.frontmatter.image ? (
-                        <Image
-                          src={author.frontmatter.image}
-                          alt={author.frontmatter.title}
-                          height={100}
-                          width={100}
-                          className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
-                        />
-                      ) : (
-                        <Gravatar
-                          email={author.frontmatter.email}
-                          size={100}
-                          className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
-                        />
-                      )}
-                      <h5 className="mb-4">
-                        <Link
-                          href={`/blog/authors/${slugify(
-                            author.frontmatter.title,
-                          )}`}
-                          className="hover:text-primary dark:hover:text-darkmode-primary"
-                        >
-                          {author.frontmatter.title}
-                        </Link>
-                      </h5>
-                      <p>
-                        {markdownify(author.content.slice(0, 90))}
-                        {author.content.length > 90 && "..."}
-                      </p>
-                    </div>
-                  ))}
+                {authors.map((author, i) => (
+                  <div
+                    className="border-b border-border pb-6 dark:border-darkmode-border"
+                    key={i}
+                  >
+                    {author.frontmatter.image ? (
+                      <Image
+                        src={author.frontmatter.image}
+                        alt={author.frontmatter.title}
+                        height={100}
+                        width={100}
+                        className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
+                      />
+                    ) : (
+                      <Gravatar
+                        email={author.frontmatter.email}
+                        size={100}
+                        className="mb-6 rounded border-2 border-border dark:border-darkmode-border"
+                      />
+                    )}
+                    <h5 className="mb-4">
+                      <Link
+                        href={`/blog/authors/${author.slug}`}
+                        className="hover:text-primary dark:hover:text-darkmode-primary"
+                      >
+                        {author.frontmatter.title}
+                      </Link>
+                    </h5>
+                    <p>
+                      {markdownify(author.content.slice(0, 90))}
+                      {author.content.length > 90 && "..."}
+                    </p>
+                  </div>
+                ))}
               </div>
+
               {/* related posts widget */}
-              {relatedPosts.length > 0 && (
+              {similarPosts.length > 0 && (
                 <div className="widget">
                   <h4 className="mb-8">Related Posts :</h4>
-                  {relatedPosts.map((post, i) => (
+                  {similarPosts.map((post, i) => (
                     <div key={`post-${i}`} className="mb-8">
                       <div className="mb-5">
                         {post.frontmatter.image ? (
@@ -165,38 +153,30 @@ const PostSingle = ({
                       </h5>
                       <ul className="text-text">
                         <li className="mb-2 mr-4 inline-block">
-                          {authors
-                            .filter((author) =>
-                              post.frontmatter.authors
-                                .map((author) => slugify(author))
-                                .includes(slugify(author.frontmatter.title)),
-                            )
-                            .map((author, i) => (
-                              <Link
-                                href={`/blog/authors/${slugify(
-                                  author.frontmatter.title,
-                                )}`}
-                                key={`author-${i}`}
-                                className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
-                              >
-                                {author.frontmatter.image ? (
-                                  <Image
-                                    src={author.frontmatter.image}
-                                    alt={author.frontmatter.title}
-                                    height="40px"
-                                    width="40px"
-                                    className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
-                                  />
-                                ) : (
-                                  <Gravatar
-                                    email={author.frontmatter.email}
-                                    size={40}
-                                    className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
-                                  />
-                                )}
-                                <span>{author.frontmatter.title}</span>
-                              </Link>
-                            ))}
+                          {authors.map((author, i) => (
+                            <Link
+                              href={`/blog/authors/${slugify(author.slug)}`}
+                              key={`author-${i}`}
+                              className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"
+                            >
+                              {author.frontmatter.image ? (
+                                <Image
+                                  src={author.frontmatter.image}
+                                  alt={author.frontmatter.title}
+                                  height={40}
+                                  width={40}
+                                  className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                                />
+                              ) : (
+                                <Gravatar
+                                  email={author.frontmatter.email}
+                                  size={40}
+                                  className="mr-2 h-9 w-9 rounded-full border-2 border-border dark:border-darkmode-border"
+                                />
+                              )}
+                              <span>{author.frontmatter.title}</span>
+                            </Link>
+                          ))}
                         </li>
                       </ul>
                     </div>

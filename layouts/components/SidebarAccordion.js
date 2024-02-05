@@ -14,7 +14,7 @@ const SidebarAccordion = ({
   SetShowIntro,
 }) => {
   const [taxonomy, setTaxonomy] = useState(type);
-  const { darkIconList } = config;
+  const { dark_icon_list } = config;
   const {
     arraySSG,
     arrayCMS,
@@ -180,7 +180,7 @@ const SidebarAccordion = ({
               >
                 <img
                   className={`ml-2 max-h-[18px] ${
-                    darkIconList.includes(slugify(item.frontmatter.title))
+                    dark_icon_list.includes(slugify(item.frontmatter.title))
                       ? "dark:brightness-0 dark:invert"
                       : ""
                   }`}

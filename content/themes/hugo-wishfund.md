@@ -1,7 +1,6 @@
 ---
-title: Wishfund
+title: Wishfund Hugo
 download: https://gethugothemes.com/products/wishfund
-github:
 price: 79
 demo: https://demo.gethugothemes.com/wishfund/site/
 author: Gethugothemes

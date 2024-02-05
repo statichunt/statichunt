@@ -9,7 +9,7 @@ const Tools = ({ tools }) => {
           <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
             <img
               className="mr-8 max-w-[160px] rounded-[4px]"
-              src={`https://statichunt-images.netlify.app/tools/${tool.slug}.png`}
+              src={`https://statichunt-images.netlify.app/tools/thumbnails/${tool.slug}.webp`}
               alt={`${tool.frontmatter.title} Icon`}
               width={160}
               height={100}

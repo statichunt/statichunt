@@ -1,5 +1,5 @@
 ---
-title: Agen
+title: Agen Hugo
 download: https://gethugothemes.com/products/agen
 github:
 price: 79

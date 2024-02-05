@@ -1,5 +1,5 @@
 ---
-title: Timeframe
+title: Timeframe Hugo
 download: https://gethugothemes.com/products/timeframe
 price: 79
 demo: https://demo.gethugothemes.com/timeframe/site/

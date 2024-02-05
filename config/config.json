@@ -45,7 +45,7 @@
     { "type": "tools-category", "title": "Category" }
   ],
 
-  "darkIconList": [
+  "dark_icon_list": [
     "astro",
     "nextjs",
     "markdown",

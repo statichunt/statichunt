@@ -1,5 +1,5 @@
 ---
-title: Infinity
+title: Infinity Hugo
 github: https://github.com/gethugothemes/infinity-hugo
 demo: https://demo.gethugothemes.com/infinity/site/
 author: Themefisher
@@ -22,7 +22,7 @@ github_star: 38
 github_fork: 51
 ---
 
-## Key Features :
+## Key Features
 
 - Onepage template
 - Google analytics support

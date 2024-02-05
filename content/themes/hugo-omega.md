@@ -1,5 +1,5 @@
 ---
-title: Omega
+title: Omega Hugo
 github: https://github.com/gethugothemes/omega-hugo
 demo: https://demo.gethugothemes.com/omega/site/
 author: Gethugothemes

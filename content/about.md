@@ -21,6 +21,8 @@ Statichunt is an open-source JAMStack directory that enlists hundreds of themes,
 <Event date="" title=" 🏆 1,000 Monthly Users Milestone - 29th January 2023 "> We were thrilled to reach the milestone of having 1000 monthly active users. It was a testament to the hard work of our team and the value that Statichunt provides. </Event>
 <Event date="" title=" 🏆 3,000 Monthly Users Milestone - 25th May 2023 "> Statichunt has reached a major milestone of 3,000 monthly active users! Thank you to our dedicated team and incredible users. We'll continue working hard to exceed your expectations and deliver even more value in the future.</Event>
 <Event date="" title=" 🏆 4,500 Monthly Users Milestone - 20th September 2023 "> We are thrilled to announce that Statichunt has reached a new milestone of 4,500 monthly active users! Thank you for being a part of our journey!</Event>
+<Event date="" title=" 🚀 3500+ Themes Listed - 29th November 2023 "> Statichunt now has over 3500 themes, making it the largest directory of Jamstack themes on the web. Browse our curated collections and find your perfect match!</Event>
+<Event date="" title=" 🏆 6,000 Monthly Users Milestone - 27th December 2023 "> Statichunt celebrates a new milestone, welcoming 6,000+ monthly users who are building amazing things with static sites. Thank you for being part of the journey!</Event>
 <Event date="" title=" 🎯 10,000 Monthly Users Milestone (Loading....)  ">We're currently working towards the goal of reaching 10,000 monthly active users. It's an ambitious target, but we're excited about the challenge and the opportunities that it will bring. Stay tuned for updates!</Event>
 
 </Timeline>

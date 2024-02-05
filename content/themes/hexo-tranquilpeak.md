@@ -16,6 +16,6 @@ description: A gorgeous responsive theme for Hexo blog framework.
 draft: false
 publish_date: '2015-04-22T17:22:28Z'
 update_date: '2023-11-12T03:47:18Z'
-github_star: 1828
+github_star: 1833
 github_fork: 488
 ---

@@ -98,6 +98,7 @@ const Header = () => {
               <li className="nav-item" key={`menu-${i}`}>
                 <Link
                   href={menu.url}
+                  prefetch={false}
                   className={`nav-link nav-${slugify(menu.name)} block ${
                     router.asPath === menu.url &&
                     "pointer-events-none text-primary dark:text-darkmode-primary"

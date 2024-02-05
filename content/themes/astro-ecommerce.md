@@ -16,8 +16,8 @@ category:
 draft: false
 publish_date: '2022-10-17T08:57:59Z'
 update_date: '2023-07-26T13:23:01Z'
-github_star: 227
-github_fork: 246
+github_star: 244
+github_fork: 268
 ---
 
 ## Key Features
