@@ -13,11 +13,11 @@ You can support and involved with this project by becoming a sponsor. Please rea
 
 ## Numbers
 
-- Visitors in July on Statichunt → 3,779
+- Visitors in December,2023 on Statichunt → 6,000+
 
-- Page views in July on Statichunt → 26,004
+- Page views in December,2023 on Statichunt → 40,000+
 
-- Number of JAMStack Themes → 390+
+- Number of JAMStack Themes → 3500+
 
 - Number of Tools → 100+
 
