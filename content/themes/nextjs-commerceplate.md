@@ -1,7 +1,7 @@
 ---
 title: Commerceplate
 github: https://github.com/zeon-studio/commerceplate
-demo: https://zeon.studio/preview?project=commerceplate
+demo: https://commerceplate.netlify.app/
 author: Zeon Studio
 author_link: https://github.com/zeon-studio
 date: 2023-11-28T10:02:51.646Z
