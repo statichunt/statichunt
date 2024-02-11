@@ -18,9 +18,9 @@ category:
   - Blog
   - Portfolio
 publish_date: '2024-01-11T15:23:14Z'
-update_date: '2024-01-22T11:05:40Z'
-github_star: 32
-github_fork: 20
+update_date: '2024-02-09T10:36:50Z'
+github_star: 42
+github_fork: 24
 ---
 
 
