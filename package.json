@@ -34,7 +34,7 @@
     "react-infinite-scroll-component": "^6.1.0",
     "react-use-cookie": "^1.4.0",
     "rehype-slug": "^6.0.0",
-    "remark-gfm": "^4.0.0",
+    "remark-gfm": "3.0.1",
     "tailwind-scrollbar": "^3.0.5",
     "typewriter-effect": "^2.21.0"
   },

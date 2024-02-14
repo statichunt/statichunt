@@ -9,7 +9,8 @@ import { useFilterContext } from "context/filterContext";
 const ToolsList = ({ toolsCategory, tools, indexPage }) => {
   const toolsSortedByDate = sortByDate(tools);
   const toolsSortedByWeight = sortByWeight(toolsSortedByDate);
-  const { title, meta_title, page_title, image, description } = indexPage;
+  const { title, meta_title, page_title, image, description } =
+    indexPage.frontmatter;
   const { arrayToolsCategory } = useFilterContext();
   const filterTool = toolsSortedByWeight.filter((tool) =>
     arrayToolsCategory.length
@@ -45,19 +46,18 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
   );
 };
 
-export default ToolsList;
-
 export const getStaticProps = async () => {
-  const toolsList = await getListPage("content/tools/_index.md");
-  const { frontmatter } = toolsList;
+  const toolsIndex = await getListPage("content/tools/_index.md");
   const toolsCategory = getSinglePage("content/tools-category");
   const tools = getSinglePage("content/tools");
 
   return {
     props: {
-      toolsCategory: toolsCategory,
+      indexPage: toolsIndex,
       tools: tools,
-      indexPage: frontmatter,
+      toolsCategory: toolsCategory,
     },
   };
 };
+
+export default ToolsList;

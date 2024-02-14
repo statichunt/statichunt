@@ -9,7 +9,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { FaDiscord, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa6";
 import { FiSearch } from "react-icons/fi";
 const SearchWrapper = dynamic(
   () => import("@/components/search/SearchWrapper"),
@@ -79,16 +79,16 @@ const Header = () => {
               width={164}
             />
             <a
-              className="ml-3 mt-1 hidden rounded-full bg-[#6480D1] px-3 py-1 text-center text-xs text-white transition dark:bg-[#f5f7f9] dark:text-dark sm:ml-5 md:inline lg:hidden xl:inline"
-              href="https://discord.com/"
+              className="ml-3 mt-1 hidden rounded-full bg-[#21262e] px-3 py-1 text-center text-xs text-white transition dark:bg-[#f5f7f9] dark:text-dark sm:ml-5 md:inline lg:hidden xl:inline"
+              href="https://github.com/statichunt/statichunt"
               target="_blank"
               rel="nofollow noreferrer"
             >
               <span>
                 <span className="mr-1 inline-block">
-                  <FaDiscord className="mb-0.5" />
+                  <FaStar className="mb-0.5" />
                 </span>
-                Community
+                Give a Star
               </span>
             </a>
           </div>
@@ -105,35 +105,32 @@ const Header = () => {
                   }`}
                 >
                   {menu.name}
-                  {menu.badge && 
-                  <span className="text-[#FF3440] text-[10px] ml-1">{menu.badge}</span>
-                  }
+                  {menu.badge && (
+                    <span className="text-white bg-accent rounded-2xl px-2 text-[10px] xl:inline-block ml-0.5 align-super hidden">
+                      {menu.badge}
+                    </span>
+                  )}
                 </Link>
               </li>
             ))}
           </ul>
 
+          {/* header action buttons */}
           <div className="ml-auto flex items-center lg:ml-0">
-            {/* <button
+            <button
               className="mr-4 hidden sm:block"
               title="Search"
               onClick={() => setSearchModal(!searchModal)}
             >
               <FiSearch className="-mt-1 text-xl" />
-              <span className="mr-2">Search</span>
-              <span
-                className={`bg-theme-light dark:bg-darkmode-theme-light rounded-[40px] text-xs py-1 px-2  ${mounted ? "opacity-1" : "opacity-0"}`}
-              >
-                {key}
-              </span>
-            </button> */}
+            </button>
             <ThemeSwitcher />
             <a
               className="btn btn-primary nav-hire-expert origin-right scale-90 md:scale-100 lg:ml-0"
               href="https://zeon.studio/?ref=statichunt.com"
               target="_blank"
             >
-              Submit 
+              Need Jamstack Expert?
             </a>
           </div>
         </nav>

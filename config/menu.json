@@ -1,7 +1,7 @@
 {
   "main": [
     {
-      "name": " Themes",
+      "name": "Themes",
       "url": "/"
     },
     {
@@ -9,7 +9,7 @@
       "url": "/authors/statichunt"
     },
     {
-      "name": "Resources",
+      "name": "Tools",
       "url": "/tools"
     },
     {
@@ -20,10 +20,6 @@
       "name": "Bundles",
       "url": "/bundles",
       "badge": "New"
-    },
-    {
-      "name": "About",
-      "url": "/about"
     }
   ],
   "footer": [
@@ -31,20 +27,20 @@
       "name": "Statichunt",
       "pages": [
         {
-          "page": "Themes",
-          "url": "/"
-        },
-        {
-          "page": "Resources",
-          "url": "/tools"
-        },
-        {
-          "page": "Examples",
-          "url": "/examples"
-        },
-        {
           "page": "About",
           "url": "/about"
+        },
+        {
+          "page": "Contact",
+          "url": "/contact"
+        },
+        {
+          "page": "Blog",
+          "url": "/blog"
+        },
+        {
+          "page": "Write for us",
+          "url": "/write-for-us"
         },
         {
           "page": "Disclaimer",
@@ -90,22 +86,22 @@
       ]
     },
     {
-      "name": "Help And Support",
+      "name": "Tools",
       "pages": [
         {
-          "page": "Documentaion",
+          "page": "Chat",
           "url": "/jamstack-chat"
         },
         {
-          "page": "Frequently Asked Questions",
+          "page": "E-commerce",
           "url": "/jamstack-ecommerce"
         },
         {
-          "page": "Re Download",
+          "page": "CMS",
           "url": "/jamstack-cms"
         },
         {
-          "page": "Contact",
+          "page": "Feedback",
           "url": "/jamstack-feedback"
         },
         {

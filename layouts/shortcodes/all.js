@@ -1,4 +1,5 @@
 import Button from "./Button";
+import CopyButton from "./CopyButton";
 import Demo from "./Demo";
 import Download from "./Download";
 import Event from "./Event";
@@ -14,6 +15,7 @@ const shortcodes = {
   Event,
   Mockup,
   Sponsor,
+  CopyButton,
 };
 
 export default shortcodes;

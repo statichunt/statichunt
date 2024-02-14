@@ -27,8 +27,8 @@ const Footer = () => {
                 {item.name}
               </h3>
 
-              <hr className="mb-8 w-[30px]"/>
-              
+              <hr className="mb-8 w-[30px]" />
+
               <ul className={i != 0 ? "mr-4 columns-2" : undefined}>
                 {item.pages.map((page, i) => (
                   <li key={`page-${i}`} className="mb-2">
@@ -53,7 +53,9 @@ const Footer = () => {
       {/* footer bottom */}
       <div className="row items-center lg:justify-center">
         <div className="hidden lg:col-3 lg:block relative">
-        <p className="absolute -top-9 left-2 text-sm text-white">{site.other_text}</p>
+          {/* <p className="absolute -top-9 left-2 text-sm text-white">
+            Other Brands
+          </p> */}
           <Link href="/" className="inline-block">
             <Image src={site.footer_logo} width={180} height={35} alt="logo" />
           </Link>

@@ -8,8 +8,7 @@
     "logo_width": "164",
     "logo_height": "32",
     "logo_text": "Statichunt",
-    "footer_logo": "/images/logo-light.svg",
-    "other_text": "Other Brands"
+    "footer_logo": "/images/logo-light.svg"
   },
 
   "settings": {
@@ -29,7 +28,7 @@
 
   "params": {
     "tag_manager_id": "GTM-PWJBVR2",
-    "copyright": "MAINTAINER @ZEON STUDIO TEAM"
+    "copyright": "MAINTAINER [@ZEON STUDIO](https://zeon.studio/?ref=statichunt.com) TEAM"
   },
 
   "metadata": {

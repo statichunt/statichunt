@@ -506,9 +506,9 @@ select:required:invalid {
   @apply prose-hr:border-border prose-hr:dark:border-darkmode-border;
   @apply prose-p:text-base prose-p:text-text prose-p:dark:text-light;
   @apply prose-blockquote:rounded prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:px-4 prose-blockquote:py-1 prose-blockquote:shadow prose-blockquote:dark:bg-theme-dark;
-  @apply prose-code:px-1 prose-code:text-primary dark:prose-code:text-darkmode-primary;
+  @apply prose-code:px-1 prose-code:text-primary prose-code:before:hidden prose-code:after:hidden dark:prose-code:text-darkmode-primary;
   @apply prose-pre:rounded-none;
-  @apply prose-strong:text-dark prose-strong:dark:text-light;
+  @apply prose-strong:text-dark prose-strong:dark:text-darkmode-dark;
   @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline dark:prose-a:text-darkmode-primary;
   @apply prose-li:text-text prose-li:dark:text-light;
   @apply prose-table:overflow-hidden prose-table:border prose-table:border-border prose-table:dark:border-darkmode-border;
