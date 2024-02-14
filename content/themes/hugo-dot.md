@@ -1,33 +1,23 @@
 ---
-title: Dot
-github: https://github.com/themefisher/dot-hugo/
-demo: https://demo.gethugothemes.com/dot/site/
-author: Themefisher
-author_link: https://themefisher.com
+title: Dot Hugo
+github: https://github.com/gethugothemes/dot-hugo
+demo: >-
+  https://gethugothemes.com/products/dot/?utm_source=dot_github&utm_medium=referral&utm_campaign=github_theme_about
+author: gethugothemes
+author_link: https://github.com/gethugothemes
+date: 2023-11-28T03:47:22.290Z
+description: Dot - Hugo Documentation Theme
 ssg:
   - Hugo
+css:
+  - PostCSS
 cms:
   - Markdown
-css:
-  - Bootstrap
 category:
   - Documentation
-date: 2019-01-05T09:42:06.000Z
-description: Dot - Hugo Documentation Theme
+draft: false
 publish_date: '2019-01-05T09:42:06Z'
 update_date: '2023-07-13T09:26:13Z'
-github_star: 249
+github_star: 251
 github_fork: 151
-draft: false
 ---
-
-## Key Features :
-
-- Multiple language support (Fr, En)
-- Google analytics support
-- CSS and Js bundle with hugo pipe
-- Color and fonts variable in config file
-- Contact form Support
-- Google page speed optimized ( 96% )
-- Open graph meta tag
-- Twitter card meta tag

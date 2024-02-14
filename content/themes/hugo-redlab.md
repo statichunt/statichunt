@@ -1,5 +1,5 @@
 ---
-title: Redlab
+title: Redlab Hugo
 download: https://gethugothemes.com/products/redlab
 github:
 price: 79

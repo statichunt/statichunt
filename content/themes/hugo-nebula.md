@@ -1,7 +1,6 @@
 ---
-title: Nebula
+title: Nebula Hugo
 download: https://gethugothemes.com/products/nebula
-github:
 price: 79
 demo: https://demo.gethugothemes.com/nebula/site/
 author: Gethugothemes
@@ -19,7 +18,7 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 97/100 (Desktop)
 - Google analytics support

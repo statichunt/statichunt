@@ -1,5 +1,5 @@
 ---
-title: LogBook
+title: LogBook Hugo
 download: https://gethugothemes.com/products/logbook
 github:
 price: 79

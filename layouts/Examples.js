@@ -53,7 +53,7 @@ const Examples = ({ examples, customRowClass, customColClass }) => {
           >
             <div className="theme-card relative">
               <img
-                src={`https://statichunt-images.netlify.app/examples/${example.slug}.png`}
+                src={`https://statichunt-images.netlify.app/examples/thumbnails/${example.slug}.webp`}
                 height={240}
                 width={360}
                 alt={example.frontmatter?.title}

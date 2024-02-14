@@ -1,7 +1,6 @@
 ---
-title: Phantom
+title: Phantom Hugo
 download: https://gethugothemes.com/products/phantom
-github:
 price: 79
 demo: https://demo.gethugothemes.com/phantom/site/
 author: Gethugothemes

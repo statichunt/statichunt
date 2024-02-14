@@ -1,5 +1,5 @@
 ---
-title: GoFolium
+title: GoFolium Hugo
 download: https://gethugothemes.com/products/gofolium
 price: 79
 demo: https://demo.gethugothemes.com/gofolium/site/

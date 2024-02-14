@@ -5,7 +5,7 @@ const useSearchTheme = () => {
 
   let searchTheme = themes.filter((theme) => {
     const searchString = searchKey.toLowerCase();
-    if (searchString === "") {
+    if (searchString.length < 3) {
       return "";
     } else if (theme.frontmatter.title?.toLowerCase().includes(searchString)) {
       return theme;

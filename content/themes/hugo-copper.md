@@ -1,5 +1,5 @@
 ---
-title: Copper
+title: Copper Hugo
 download: https://gethugothemes.com/products/copper
 price: 79
 demo: https://demo.gethugothemes.com/copper/site/

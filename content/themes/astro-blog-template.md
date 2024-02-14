@@ -1,20 +1,25 @@
 ---
-title: Astro Blog Template
-github: https://github.com/adwinmbd/astro-blog-template
-demo: https://astro-blog-template.pages.dev/
-author: adwinmbd
-author_link: https://github.com/adwinmbd
-date: 2023-11-26T08:04:17.009Z
-description: A simple Astro.js starter blog template.
+title: Openblog
+github: https://github.com/danielcgilibert/blog-template
+demo: https://blog-template-gray.vercel.app/
+author: Daniel Gilibert
+author_link: https://github.com/danielcgilibert
+date: 2023-10-15T00:00:00.000Z
+description: >-
+  Openblog is an elegant, simple, and user-friendly blog. Focused on
+  accessibility, SEO and performance.
 ssg:
   - Astro
-css: []
-cms: []
+css:
+  - Tailwind
+cms:
+  - Markdown
 category:
   - Blog
+  - Portfolio
 draft: false
-publish_date: '2021-11-19T20:53:32Z'
-update_date: '2022-08-21T15:25:58Z'
-github_star: 16
-github_fork: 7
+publish_date: '2023-07-05T18:32:43Z'
+update_date: '2024-01-16T22:28:10Z'
+github_star: 267
+github_fork: 84
 ---

@@ -1,5 +1,5 @@
 ---
-title: Kross
+title: Kross Hugo
 github: https://github.com/themefisher/kross-hugo/
 demo: https://demo.gethugothemes.com/kross/site/
 author: Themefisher
@@ -17,8 +17,8 @@ description: Kross Creative Portfolio Template
 draft: false
 publish_date: '2019-05-13T08:18:18Z'
 update_date: '2023-06-21T06:56:11Z'
-github_star: 279
-github_fork: 384
+github_star: 280
+github_fork: 381
 ---
 
 ## Key Features

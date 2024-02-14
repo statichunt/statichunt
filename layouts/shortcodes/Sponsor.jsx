@@ -1,6 +1,6 @@
+import sponsors from "@/json/sponsors.json";
 import Link from "next/link";
 import { useState } from "react";
-import sponsors from "../../.json/sponsors.json";
 
 const Sponsor = ({ title, paddle, price, type, children }) => {
   const [openModal, setOpenModal] = useState(false);

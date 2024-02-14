@@ -6,7 +6,7 @@ const useSearchTool = () => {
   // search filtering
   let searchTools = tools.filter((tool) => {
     const searchString = searchKey.toLowerCase();
-    if (searchString === "") {
+    if (searchString.length < 3) {
       return "";
     } else if (tool.frontmatter.title?.toLowerCase().includes(searchString)) {
       return tool;

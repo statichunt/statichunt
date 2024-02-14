@@ -6,7 +6,7 @@ const useSearchBlog = () => {
   // search filtering
   let searchBlog = blogs.filter((blog) => {
     const searchString = searchKey.toLowerCase();
-    if (searchString === "") {
+    if (searchString.length < 3) {
       return "";
     } else if (blog.frontmatter.title?.toLowerCase().includes(searchString)) {
       return blog;

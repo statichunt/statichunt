@@ -104,9 +104,9 @@ const ThemePreview = ({ theme, slug }) => {
             <span className="browser-preview-thumbnail">
               <img
                 src={`https://statichunt-images.netlify.app/themes/${slug}.png`}
+                alt={`Screenshot of ${theme.frontmatter.title}`}
                 height={250}
                 width={750}
-                alt={theme.frontmatter.title}
               />
             </span>
           </div>
@@ -116,10 +116,10 @@ const ThemePreview = ({ theme, slug }) => {
         <div className="md:hidden">
           <img
             src={`https://statichunt-images.netlify.app/themes/thumbnails/${slug}.webp`}
+            alt={`Screenshot of ${theme.frontmatter.title}`}
+            className="w-full rounded shadow"
             height="340"
             width="510"
-            alt={theme.frontmatter.title}
-            className="w-full rounded shadow"
           />
         </div>
       </div>

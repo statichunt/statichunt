@@ -1,5 +1,5 @@
 ---
-title: The Article
+title: The Article Hugo
 download: https://gethugothemes.com/products/the-article
 price: 79
 demo: https://demo.gethugothemes.com/the-article/site/

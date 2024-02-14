@@ -1,5 +1,5 @@
 ---
-title: Touchy
+title: Touchy Hugo
 github: https://github.com/gethugothemes/touchy-hugo
 demo: https://demo.gethugothemes.com/touchy/site/
 author: Gethugothemes
@@ -17,7 +17,7 @@ description: >-
   mobile responsive.
 draft: false
 publish_date: '2021-01-06T10:05:54Z'
-update_date: '2023-06-21T07:43:37Z'
+update_date: '2024-01-21T06:07:20Z'
 github_star: 6
 github_fork: 12
 ---

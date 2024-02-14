@@ -1,6 +1,8 @@
 import Share from "@/components/Share";
 import ThemeInfo from "@/components/ThemeInfo";
 import ThemePreview from "@/components/ThemePreview";
+import authors from "@/json/authors.json";
+import themes from "@/json/themes.json";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
@@ -8,8 +10,6 @@ import Themes from "layouts/Themes";
 import { getSinglePageServer } from "lib/contentParser";
 import { similarThemes } from "lib/utils/similarItems";
 import Script from "next/script";
-import authors from "../../.json/authors.json";
-import themes from "../../.json/themes.json";
 
 const SingleTheme = ({ slug, theme }) => {
   const { frontmatter, content } = theme;
@@ -116,7 +116,7 @@ const SingleTheme = ({ slug, theme }) => {
 
 export default SingleTheme;
 
-// use server side rendering
+// get single page on server side
 export const getServerSideProps = async ({ params }) => {
   const { theme } = params;
 

@@ -1,5 +1,5 @@
 ---
-title: Bookworm Light
+title: Bookworm Light Hugo
 github: https://github.com/gethugothemes/bookworm-light
 demo: https://demo.gethugothemes.com/bookworm/site/
 author: Gethugothemes
@@ -17,10 +17,10 @@ draft: false
 publish_date: '2021-02-07T03:55:28Z'
 update_date: '2023-09-12T02:57:56Z'
 github_star: 98
-github_fork: 69
+github_fork: 70
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - CSS and Js bundle with hugo pipe

@@ -1,5 +1,5 @@
 ---
-title: Delta
+title: Delta Hugo
 download: https://gethugothemes.com/products/delta
 github:
 price: 79

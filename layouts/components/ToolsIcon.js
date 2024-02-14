@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
+import tools from "@/json/theme-tools.json";
 import { slugify } from "@/lib/utils/textConverter";
-import tools from "../../.json/theme-tools.json";
 
 const ToolsIcon = ({
   item,
@@ -12,7 +12,7 @@ const ToolsIcon = ({
   cms = true,
   category = true,
 }) => {
-  const { darkIconList } = config;
+  const { dark_icon_list } = config;
 
   let ssgArray = [];
   let cssArray = [];
@@ -58,11 +58,11 @@ const ToolsIcon = ({
                   <img
                     width={size ? size : 18}
                     height={size ? size : 18}
-                    alt={icon.frontmatter.title}
+                    alt={`${icon.frontmatter.title} Icon`}
                     src={icon.frontmatter.icon}
                     style={{ maxHeight: size ? size : "18px" }}
                     className={
-                      darkIconList.includes(slugify(icon.frontmatter.title))
+                      dark_icon_list.includes(slugify(icon.frontmatter.title))
                         ? "dark:brightness-0 dark:invert"
                         : ""
                     }
@@ -82,11 +82,11 @@ const ToolsIcon = ({
                     <img
                       width={size ? size : 18}
                       height={size ? size : 18}
-                      alt={icon.frontmatter.title}
+                      alt={`${icon.frontmatter.title} Icon`}
                       src={icon.frontmatter.icon}
                       style={{ maxHeight: size ? size : "18px" }}
                       className={
-                        darkIconList.includes(slugify(icon.frontmatter.title))
+                        dark_icon_list.includes(slugify(icon.frontmatter.title))
                           ? "dark:brightness-0 dark:invert"
                           : ""
                       }
@@ -103,11 +103,11 @@ const ToolsIcon = ({
                 <img
                   width={size ? size : 18}
                   height={size ? size : 18}
-                  alt={icon.frontmatter.title}
+                  alt={`${icon.frontmatter.title} Icon`}
                   src={icon.frontmatter.icon}
                   style={{ maxHeight: size ? size : "18px" }}
                   className={
-                    darkIconList.includes(slugify(icon.frontmatter.title))
+                    dark_icon_list.includes(slugify(icon.frontmatter.title))
                       ? "dark:brightness-0 dark:invert"
                       : ""
                   }

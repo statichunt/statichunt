@@ -4,7 +4,7 @@
 
 ## Submission Guides
 
-Hey there! We welcome anyone to submit their awesome Jamstack theme, tool, or example website on Statichunt. Before submitting, please take a quick look at our process and guidelines. We'll reveiw your submission before accept your pull request.
+Hey there! We welcome anyone to submit their awesome Jamstack theme, tool, or example website on Statichunt. Before submitting, please take a quick look at our process and guidelines. We'll review your submission before accept your pull request.
 If you need any help or have any questions, don't hesitate to [Contact Us](https://statichunt.com/contact).
 
 ### Submit a Theme

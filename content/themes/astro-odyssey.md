@@ -1,19 +1,24 @@
 ---
-title: Astro Odyssey
-github: https://github.com/app-generator/astro-odyssey
-demo: https://appseed.us/
-author: app-generator
-author_link: https://github.com/app-generator
-date: 2023-11-26T09:26:58.793Z
-description: Astro Odyssey - Open-Source | AppSeed
+title: Astro shopify
+github: https://github.com/littlesticks/odyssey-theme
+demo: https://odyssey-theme.littlesticks.dev/
+author: Jaydan Urwin
+author_link: https://github.com/jaydanurwin
+date: 2023-10-15T00:00:00.000Z
+description: >-
+  A modern business marketing website theme/starter built with Astro 
 ssg:
   - Astro
-css: []
-cms: []
-category: []
-draft: false
-publish_date: '2022-12-29T13:48:10Z'
-update_date: '2022-12-29T15:17:08Z'
+css:
+  - Tailwind
+cms: 
+  - Markdown
+category:
+  - Ecommerce
+  - Starter
+draft: true
+publish_date: '2023-09-25T16:59:25Z'
+update_date: '2023-10-01T22:53:40Z'
 github_star: 0
-github_fork: 0
+github_fork: 2
 ---

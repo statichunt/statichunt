@@ -1,5 +1,5 @@
 ---
-title: Saasis
+title: Saasis Hugo
 download: https://gethugothemes.com/products/saasis
 price: 79
 demo: https://demo.gethugothemes.com/saasis/site/

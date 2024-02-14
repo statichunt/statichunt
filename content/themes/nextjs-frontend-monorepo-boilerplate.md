@@ -18,7 +18,7 @@ category:
   - Boilerplate
 draft: false
 publish_date: '2022-08-22T19:53:24Z'
-update_date: '2023-11-28T14:58:02Z'
-github_star: 121
+update_date: '2024-02-10T20:19:17Z'
+github_star: 131
 github_fork: 23
 ---

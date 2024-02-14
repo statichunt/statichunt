@@ -10,7 +10,7 @@ import {
   TbLicense,
 } from "react-icons/tb";
 
-const { darkIconList } = config;
+const { dark_icon_list } = config;
 
 const ThemeTaxonomy = ({ data, currentPage, showIntro, authors }) => {
   const { frontmatter, content } = currentPage[0];
@@ -38,7 +38,7 @@ const ThemeTaxonomy = ({ data, currentPage, showIntro, authors }) => {
             <div className="mb-5 flex">
               <img
                 className={`${
-                  darkIconList.includes(slugify(title))
+                  dark_icon_list.includes(slugify(title))
                     ? "dark:brightness-0 dark:invert"
                     : ""
                 } mr-3`}

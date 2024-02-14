@@ -1,7 +1,7 @@
 ---
 title: Hugo Paper
 github: https://github.com/nanxiaobei/hugo-paper
-demo: https://nanxiaobei.github.io/hugo-paper/
+demo: https://hugo-paper.vercel.app/
 author: nanxiaobei
 author_link: https://github.com/nanxiaobei
 date: 2023-11-29T09:06:12.558Z
@@ -15,7 +15,7 @@ category:
   - Blog
 draft: false
 publish_date: '2018-01-08T16:26:30Z'
-update_date: '2023-11-07T09:35:00Z'
-github_star: 1796
-github_fork: 416
+update_date: '2024-01-17T20:10:23Z'
+github_star: 1892
+github_fork: 435
 ---

@@ -1,9 +1,9 @@
 ---
 title: Parsa Hugo
-github: https://github.com/themefisher/parsa-hugo/
+github: https://github.com/gethugothemes/parsa-hugo/
 demo: https://demo.gethugothemes.com/parsa/site/
-author: Themefisher
-author_link: https://themefisher.com
+author: gethugothemes
+author_link: https://gethugothemes.com
 ssg:
   - Hugo
 cms:
@@ -20,8 +20,8 @@ description: >-
 draft: false
 publish_date: '2019-05-15T08:33:57Z'
 update_date: '2023-06-21T06:45:50Z'
-github_star: 155
-github_fork: 323
+github_star: 154
+github_fork: 322
 ---
 
 ## Key Features

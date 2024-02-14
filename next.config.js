@@ -8,25 +8,16 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "statichunt-images.netlify.app",
-        port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "www.github.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "teamosis-sg.vercel.app",
-        port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "t1.gstatic.com",
-        port: "",
         pathname: "/**",
       },
     ],

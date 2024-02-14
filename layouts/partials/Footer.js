@@ -34,6 +34,7 @@ const Footer = () => {
                   <li key={`page-${i}`} className="mb-2">
                     <Link
                       href={page.url}
+                      prefetch={false}
                       className={`text-sm capitalize text-light hover:text-white footer-${slugify(
                         page.page,
                       )}`}

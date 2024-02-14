@@ -1,7 +1,6 @@
 ---
-title: Editor
+title: Editor Hugo
 download: https://gethugothemes.com/products/editor
-github:
 price: 79
 demo: https://demo.gethugothemes.com/editor/site/
 author: Gethugothemes
