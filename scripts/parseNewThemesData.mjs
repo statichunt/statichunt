@@ -73,11 +73,23 @@ const updateFrontmatter = (slug, update = {}) => {
   delete frontmatter.__content;
 
   Object.keys(update).forEach((key) => {
-    frontmatter[key] = update[key];
+    // if demo already exists, then don't update the demo value
+    if (key === "demo" && frontmatter.demo) {
+      return;
+    } else {
+      frontmatter[key] = update[key];
+    }
   });
 
-  const frontmatterWrite = `---\n${yaml.dump(frontmatter)}---${content}`;
-  fs.writeFileSync(filePath, frontmatterWrite);
+  if (
+    (!update.demo && !frontmatter.demo) ||
+    frontmatter.github === update.demo
+  ) {
+    fs.unlinkSync(filePath);
+  } else {
+    const frontmatterWrite = `---\n${yaml.dump(frontmatter)}---${content}`;
+    fs.writeFileSync(filePath, frontmatterWrite);
+  }
 };
 
 // fetch github data
@@ -92,6 +104,7 @@ const updateGithubData = async (githubURL, slug) => {
     });
     const lastCommit = await getLastCommit(repo, res.data.default_branch);
     updateFrontmatter(slug, {
+      demo: res.data.homepage,
       publish_date: res.data.created_at,
       update_date: lastCommit,
       github_star: res.data.stargazers_count,
