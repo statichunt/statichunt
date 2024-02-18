@@ -1,5 +1,5 @@
 ---
-title: JS Portfolio
+title: CyberBoy
 github: https://github.com/CyberBoyAyush/JS-Portfolio
 demo: https://js-portfolio-demo.netlify.app/
 author: CyberBoyAyush

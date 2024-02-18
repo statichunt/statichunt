@@ -1,5 +1,5 @@
 ---
-title: Blogging Website Template
+title: Techipedia
 github: https://github.com/thekamalkashyap/blogging-website-template
 demo: https://techipedia.vercel.app/
 author: thekamalkashyap

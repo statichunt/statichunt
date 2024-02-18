@@ -1,5 +1,5 @@
 ---
-title: React Portfolio
+title: Chetan
 github: https://github.com/chetanverma16/react-portfolio-template
 demo: https://react-portfolio-template.netlify.app/
 author: Chetan Verma

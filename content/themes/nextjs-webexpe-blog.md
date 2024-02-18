@@ -1,5 +1,5 @@
 ---
-title: Blog Template Using Nextjs Typescript Tailwindcss
+title: Webexpe Blog Template
 github: https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss
 demo: https://nextjs-simple-blog-template.web.app/
 author: webexpe13

@@ -1,5 +1,5 @@
 ---
-title: Landingpage Pr01
+title: Landingpage Fintech
 github: https://github.com/ratheo1/landingpage-pr01
 demo: https://landingpage-pr01.netlify.app/
 author: ratheo1
