@@ -2,6 +2,7 @@ import HomeCategory from "@/components/HomeCategory";
 import Intro from "@/components/Intro";
 import Sidebar from "@/components/Sidebar";
 import config from "@/config/config.json";
+import sponsors from "@/config/sponsor.json";
 import useFilterData from "@/hooks/useFilterData";
 import usePricingFilter from "@/hooks/usePricingFilter";
 import useThemesSort from "@/hooks/useThemesSort";
@@ -104,7 +105,7 @@ const Home = ({
             <Intro
               data={intro}
               themeCount={themes.length}
-              toggleClass={showIntro ? "block" : "hidden"}
+              className={showIntro ? "block" : "hidden"}
             />
             <div className="mb-8 block justify-between md:flex lg:sticky top-[74px] bg-body dark:bg-darkmode-body pt-2 z-20 px-2">
               <HomeCategory
@@ -119,10 +120,10 @@ const Home = ({
                 handleSortThemes={handleSortThemes}
               />
             </div>
-
             <Themes
               themes={sortOrder(filteredThemes, sortAsc)}
               authors={authors}
+              sponsors={sponsors.themes}
             />
           </div>
         </main>

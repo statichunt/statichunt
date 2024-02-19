@@ -3,13 +3,13 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
-const Intro = ({ data, themeCount, toggleClass }) => {
+const Intro = ({ data, themeCount, className }) => {
   const description = data.description.replace(
     "<themes>",
     `${Math.floor(themeCount / 50) * 50}+`,
   );
   return (
-    <div className={`mt-4 mb-10 px-2 md:mb-16 ${toggleClass}`}>
+    <div className={`mt-4 mb-10 px-2 md:mb-16 ${className}`}>
       <h1 className="mb-3">
         {data.title_start}{" "}
         <Typewriter

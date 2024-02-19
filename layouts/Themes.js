@@ -2,6 +2,7 @@
 import ToolsIcon from "@/components/ToolsIcon";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { TbDownload, TbEye } from "react-icons/tb";
@@ -40,7 +41,13 @@ const githubDataChange = (theme) => {
   }
 };
 
-const Themes = ({ themes, authors, customRowClass, customColClass }) => {
+const Themes = ({
+  themes,
+  authors,
+  sponsors,
+  customRowClass,
+  customColClass,
+}) => {
   const [item, setItem] = useState(8);
   const [page, setPage] = useState(themes.slice(0, item));
 
@@ -81,6 +88,41 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
           : "row !overflow-hidden px-2 py-4 sm:row-cols-2 xl:row-cols-3 2xl:row-cols-4 3xl:row-cols-5"
       }
     >
+      {sponsors &&
+        sponsors?.map((sponsor, index) => (
+          <div className="mb-8" key={`sponsor-${index}`}>
+            <div className="bg-primary/10 dark:bg-darkmode-primary/10 h-full rounded relative shadow">
+              <Image
+                src={sponsor.image}
+                alt={sponsor.name}
+                height={290}
+                width={400}
+                className="w-full rounded-t object-cover"
+              />
+              <div className="p-4">
+                <h4 className="h6 mb-3">
+                  {sponsor.link.startsWith("http") ? (
+                    <Link
+                      href={`${sponsor.link}?ref=statichunt.com`}
+                      target="_blank"
+                      rel="noopener sponsor"
+                      className="stretched-link"
+                    >
+                      {sponsor.name}
+                    </Link>
+                  ) : (
+                    <Link href={sponsor.link} className="stretched-link">
+                      {sponsor.name}
+                    </Link>
+                  )}
+                </h4>
+                <p className="text-sm text-dark dark:text-darkmode-light">
+                  {sponsor.description}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
       {page.length > 0 ? (
         page.map((theme) => (
           <div
@@ -103,14 +145,14 @@ const Themes = ({ themes, authors, customRowClass, customColClass }) => {
               </Link>
               <div className="theme-card-body">
                 <div className="flex justify-between">
-                  <h2 className="h6 mb-0 text-lg font-medium">
+                  <h4 className="h6 mb-0 text-lg font-medium">
                     <Link
                       href={`/themes/${theme.slug}`}
                       className="line-clamp-1 hover:underline"
                     >
                       {theme.frontmatter?.title}
                     </Link>
-                  </h2>
+                  </h4>
                   <span
                     className="tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
                     data-tooltip={humanize(
