@@ -1,9 +1,10 @@
 ---
 title: Themes By Themefisher
 email: themefisher@gmail.com
-image: "/images/profile.svg"
+website: https://themefisher.com
+twitter: https://twitter.com/themefisher
+github: https://github.com/themefisher
 description: ""
-social:
-  twitter: https://twitter.com/themefisher/
-  github: https://github.com/themefisher/
 ---
+
+Themefisher offers over 120 premium and free website templates built with modern technologies like Astro, NextJs, Hugo, Tailwind, and Bootstrap.

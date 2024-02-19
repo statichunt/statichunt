@@ -1,7 +1,6 @@
 ---
 title: Author Name
 email: user@mail.com
-image: ""
 description: this is meta description
 social:
   facebook: https://www.facebook.com/
