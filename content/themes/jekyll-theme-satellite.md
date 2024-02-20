@@ -1,11 +1,13 @@
 ---
-title: "Jekyll-theme-Satellite"
+title: Jekyll-theme-Satellite
 github: https://github.com/byanko55/jekyll-theme-satellite
 demo: https://byanko55.github.io
 author: Yankos
 author_link: https://github.com/byanko55
 date: 2024-02-20T00:00:00.000Z
-description: A feature-rich, responsive, and visually appealing blog template powered by Jekyll.
+description: >-
+  A feature-rich, responsive, and visually appealing blog template powered by
+  Jekyll.
 ssg:
   - Jekyll
 css:
@@ -15,6 +17,10 @@ cms:
 category:
   - Blog
 draft: false
+publish_date: '2023-07-12T00:09:12Z'
+update_date: '2024-02-12T03:57:50Z'
+github_star: 4
+github_fork: 4
 ---
 
 ## Key Features
