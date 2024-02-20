@@ -45,7 +45,7 @@ Submit a Jamstack example website by adding a markdown file to the `content/exam
 
 ## Sponsors
 
-Support and involved with this project by [becoming a sponsor.](https://statichunt.com/become-a-sponsor)
+Support and be involved with this project by [becoming a sponsor.](https://statichunt.com/)
 
 ## Feedback
 
