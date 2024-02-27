@@ -1,5 +1,5 @@
 ---
 title: "Ecommerce"
 icon: /images/icons/ecommerce.svg
-weight: 4
+weight: 7
 ---
