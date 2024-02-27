@@ -1,6 +1,6 @@
 ---
 title: WrapPixel
-email: user@mail.com
+email: ""
 website: https://wrappixel.com
 twitter: https://twitter.com/wrappixel
 github: https://github.com/wrappixel
