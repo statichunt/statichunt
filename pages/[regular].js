@@ -50,10 +50,11 @@ const RegularPages = ({
 
   const themesWithOthersCategory = setOthersCategory(data);
 
-  const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
-    themesWithOthersCategory,
-    slug,
-  );
+  const { sortedThemes, handleSortThemes, sortValue } = useThemesSort({
+    themes: themesWithOthersCategory,
+    weightType: "weight",
+    slug: slug,
+  });
 
   const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
     useFilterContext();

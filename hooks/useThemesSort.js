@@ -3,10 +3,10 @@ import { reducer } from "@/lib/utils/sortReducer";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useReducer, useState } from "react";
 
-const useThemesSort = (themes, slug) => {
+const useThemesSort = ({ themes, weightType, slug }) => {
   const { allReset } = useFilterContext();
   const themesSortedByDate = sortByDate(themes);
-  const defaultSortedThemes = sortByWeight(themesSortedByDate);
+  const defaultSortedThemes = sortByWeight(themesSortedByDate, weightType);
   const [sortValue, setSortValue] = useState("default");
   const [sortedThemes, dispatch] = useReducer(reducer, defaultSortedThemes);
 
