@@ -28,9 +28,10 @@ const Home = ({
 }) => {
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
-  const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
-    themesWithOthersCategory,
-  );
+  const { sortedThemes, handleSortThemes, sortValue } = useThemesSort({
+    themes: themesWithOthersCategory,
+    weightType: "home_weight",
+  });
 
   const {
     arraySSG,
