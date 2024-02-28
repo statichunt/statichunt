@@ -2,7 +2,7 @@
 title: Flexy Admin Nextjs Free
 github: https://github.com/wrappixel/Flexy-admin-Nextjs-Free
 demo: https://flexy-admin-nextjs-free.vercel.app/
-author: wrappixel
+author: WrapPixel
 author_link: https://github.com/wrappixel
 date: 2023-11-30T16:27:05.822Z
 description: >-
