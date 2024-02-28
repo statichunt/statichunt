@@ -1,6 +1,5 @@
 ---
-title: Themes By Gethugothemes
-image: "/images/profile.svg"
+title: Gethugothemes
 email: ""
 website: https://gethugothemes.com
 twitter: https://twitter.com/gethugothemes

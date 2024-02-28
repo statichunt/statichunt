@@ -1,5 +1,5 @@
 ---
-title: Themes By Themefisher
+title: Themefisher
 email: themefisher@gmail.com
 website: https://themefisher.com
 twitter: https://twitter.com/themefisher

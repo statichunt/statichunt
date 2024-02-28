@@ -5,10 +5,6 @@
       "url": "/"
     },
     {
-      "name": "Themes By Us",
-      "url": "/authors/statichunt"
-    },
-    {
       "name": "Tools",
       "url": "/tools"
     },
@@ -19,7 +15,7 @@
     {
       "name": "Bundles",
       "url": "/bundles",
-      "badge": "New"
+      "badge": "offer"
     }
   ],
   "footer": [

@@ -2,7 +2,7 @@
 title: Xtreme Admin Nextjs Free
 github: https://github.com/wrappixel/xtreme-admin-nextjs-free
 demo: https://xtreme-admin-nextjs-free.vercel.app/
-author: wrappixel
+author: WrapPixel
 author_link: https://github.com/wrappixel
 date: 2023-11-30T16:27:37.874Z
 description: Free next js admin template.

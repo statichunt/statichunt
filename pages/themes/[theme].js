@@ -1,6 +1,7 @@
 import Share from "@/components/Share";
 import ThemeInfo from "@/components/ThemeInfo";
 import ThemePreview from "@/components/ThemePreview";
+import sponsor from "@/config/sponsor.json";
 import authors from "@/json/authors.json";
 import themes from "@/json/themes.json";
 import Base from "@/layouts/Baseof";
@@ -9,6 +10,8 @@ import { markdownify, plainify } from "@/lib/utils/textConverter";
 import Themes from "layouts/Themes";
 import { getSinglePageServer } from "lib/contentParser";
 import { similarThemes } from "lib/utils/similarItems";
+import Image from "next/image";
+import Link from "next/link";
 import Script from "next/script";
 
 const SingleTheme = ({ slug, theme }) => {
@@ -22,8 +25,13 @@ const SingleTheme = ({ slug, theme }) => {
     canonical,
     ssg,
     price,
+    author,
   } = frontmatter;
   const similarProducts = similarThemes(theme, themes, slug);
+
+  const promotion_widget = sponsor.theme_single.filter((d) =>
+    d.author.includes(author),
+  )[0];
 
   return (
     <Base
@@ -57,14 +65,26 @@ const SingleTheme = ({ slug, theme }) => {
 
             <div className="mt-lg-0 mt-4 lg:col-4 lg:mt-0">
               <ThemeInfo theme={theme} slug={slug} />
+              {promotion_widget && (
+                <div className="widget">
+                  <Link rel="noopener noreferrer" href={promotion_widget.link}>
+                    <Image
+                      src={promotion_widget.image}
+                      width={300}
+                      height={300}
+                      alt="sponsor promotion"
+                      className="rounded shadow"
+                    />
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
           {similarProducts.length > 0 && (
             <div className="mt-24">
               <h2 className="mb-8 text-center">Similar Themes To Consider</h2>
               <Themes
-                customRowClass="row justify-center !overflow-hidden"
-                customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"
+                className="sm:row-cols-2 lg:row-cols-4 justify-center"
                 themes={similarProducts.slice(0, 4)}
                 authors={authors}
               />

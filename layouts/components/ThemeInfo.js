@@ -1,19 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import config from "@/config/config.json";
 import { dateFormat } from "@/lib/utils/dateFormat";
-import { useTheme } from "next-themes";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import "react-discord-invite/dist/style.css";
 import { TbGitFork } from "react-icons/tb";
 import ToolsIcon from "./ToolsIcon";
 
 const ThemeInfo = ({ theme, slug }) => {
-  const { discord_widget } = config.settings;
-  const [mounted, setMounted] = useState(false);
-  const { uiTheme, resolvedTheme } = useTheme();
-
-  useEffect(() => setMounted(true), []);
   const {
     title,
     author,
@@ -176,32 +168,6 @@ const ThemeInfo = ({ theme, slug }) => {
           </div>
         </div>
       </div>
-
-      {discord_widget && (
-        <div className="widget sticky top-20 mt-16 hidden lg:block">
-          <div className="overflow-hidden rounded-md shadow">
-            <iframe
-              src={`https://discord.com/widget?id=916578016149245972&theme=${
-                mounted && (uiTheme === "dark" || resolvedTheme === "dark")
-                  ? "dark"
-                  : "light"
-              }`}
-              width="100%"
-              height="500"
-              allowtransparency="true"
-              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-            />
-            <a
-              className="relative z-10 -mt-12 block rounded-b bg-[#5865f2] p-4 text-center text-white"
-              href="https://discord.gg/ph9z267TBZ"
-              target="_blank"
-              rel="nofollow noreferrer"
-            >
-              Join Discord
-            </a>
-          </div>
-        </div>
-      )}
     </>
   );
 };

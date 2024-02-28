@@ -85,4 +85,4 @@ We have only 4 slot for Bronze Sponsorship.
 
 Make a custom one-time or recurring contribution - <a href="https://www.buymeacoffee.com/statichunt" target="_blank" rel="nofollow noopener noreferrer"> Contribute</a>
 
-For general inquiries please get in touch at [hey@statichunt.com](hey@statichunt.com)
+For general inquiries please get in touch at [hey.statichunt@gmail.com](hey.statichunt@gmail.com)

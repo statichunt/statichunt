@@ -15,8 +15,7 @@
     "theme_switcher": true,
     "default_theme": "system",
     "pagination": 4,
-    "summary_length": 200,
-    "discord_widget": false
+    "summary_length": 200
   },
 
   "announcement": {

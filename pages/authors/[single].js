@@ -42,7 +42,7 @@ const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
         <div className="container">
           <div className="row justify-center">
             <div className="col-10 text-center">
-              {markdownify(title, "h1", "mb-8")}
+              {markdownify(`Themes By ${title}`, "h1", "mb-8")}
               <div className="content mb-8">
                 <MDXRemote {...mdxContent} components={shortcodes} />
               </div>
@@ -84,7 +84,11 @@ const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
       </section>
       <section className="section">
         <div className="container">
-          <Themes themes={filterThemeByAuthor} authors={authors} />
+          <Themes
+            className="sm:row-cols-2 xl:row-cols-3 2xl:row-cols-4 justify-center"
+            themes={filterThemeByAuthor}
+            authors={authors}
+          />
         </div>
       </section>
     </Base>

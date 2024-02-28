@@ -35,7 +35,7 @@ const Sponsor = ({ title, paddle, price, type, children }) => {
     setLoader(true);
 
     fetch(
-      "https://formsubmit.co/ajax/hey@statichunt.com", // https://formsubmit.co/ajax/hey@statichunt.com
+      "https://formsubmit.co/ajax/hey.statichunt@gmail.com", // https://formsubmit.co/ajax/hey.statichunt@gmail.com
       {
         method: "POST",
         headers: { "Content-type": "application/json" },

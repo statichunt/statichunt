@@ -25,5 +25,12 @@
       "description": "Showcase your products in front of 6000+ users every month. Limited sponsorship slots available!"
     }
   ],
+  "theme_single": [
+    {
+      "author": "WrapPixel",
+      "image": "/sponsors/wrappixel-promotion.png",
+      "link": "https://www.wrappixel.com/templates/big-bundle/"
+    }
+  ],
   "tools": []
 }
