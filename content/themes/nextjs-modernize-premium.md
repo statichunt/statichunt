@@ -18,6 +18,8 @@ category:
   - Dashboard
 draft: false
 weight: 1
+home_weight: 3
+
 ---
 
 ## Key Features
