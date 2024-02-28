@@ -6,6 +6,6 @@ description: Looking for a quick and easy way to create beautiful blog, portfoli
 icon: /images/icons/mui.svg
 website: https://mui.com/
 url: "/mui-templates"
-draft: true
+draft: false
 page_draft: true
 ---
