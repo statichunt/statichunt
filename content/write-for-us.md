@@ -21,7 +21,7 @@ We're always on the lookout for informative, well-researched, and engaging conte
 
 ## How to Submit
 
-Please email your post as a Google Doc or Word document to hey@statichunt.com . If your article meets our editorial standards, we'll get in touch with you within a week.
+Please email your post as a Google Doc or Word document to hey.statichunt@gmail.com . If your article meets our editorial standards, we'll get in touch with you within a week.
 
 We look forward to reading your submissions and sharing your expertise with our readers.
 

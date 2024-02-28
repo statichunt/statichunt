@@ -15,6 +15,7 @@ import setOthersCategory from "@/lib/setOthersCategory";
 import { sortOrder } from "@/lib/utils/sortFunctions";
 import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
+import SponsorCards from "layouts/SponsorCards";
 import { useState } from "react";
 
 const Home = ({
@@ -108,6 +109,27 @@ const Home = ({
               themeCount={themes.length}
               className={showIntro ? "block" : "hidden"}
             />
+
+            {/* themes by authors */}
+            {/* <div className="pt-2 z-20 px-2 mb-8 flex">
+              <strong>Themes By Some Best Authors:</strong>
+              <ul className="ml-2">
+                {authors.map((author) => (
+                  <li
+                    className="inline-block mx-2"
+                    key={author.frontmatter.title}
+                  >
+                    <Link
+                      className="rounded border border-primary dark:border-darkmode-primary px-2 py-1 text-primary dark:text-darkmode-dark"
+                      href={`/authors/${author.slug}`}
+                    >
+                      {author.frontmatter.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div> */}
+
             <div className="mb-8 block justify-between md:flex lg:sticky top-[74px] bg-body dark:bg-darkmode-body pt-2 z-20 px-2">
               <HomeCategory
                 themes={finalThemes}
@@ -121,10 +143,13 @@ const Home = ({
                 handleSortThemes={handleSortThemes}
               />
             </div>
+            <SponsorCards
+              sponsors={sponsors.themes}
+              className={showIntro ? "" : "hidden"}
+            />
             <Themes
               themes={sortOrder(filteredThemes, sortAsc)}
               authors={authors}
-              sponsors={sponsors.themes}
             />
           </div>
         </main>

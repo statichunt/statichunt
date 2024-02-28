@@ -17,4 +17,4 @@ All trademarks, logos, and brand names are the property of their respective owne
 
 If you have any questions related to the disclaimer, please contact us. We will take the necessary steps.
 
-hey@statichunt.com
+hey.statichunt@gmail.com

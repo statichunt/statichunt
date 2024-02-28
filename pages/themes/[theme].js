@@ -63,8 +63,7 @@ const SingleTheme = ({ slug, theme }) => {
             <div className="mt-24">
               <h2 className="mb-8 text-center">Similar Themes To Consider</h2>
               <Themes
-                customRowClass="row justify-center !overflow-hidden"
-                customColClass="col-12 mb-8 sm:col-6 md:col-4 2xl:col-3 2xl:last:block sm:last:block md:last:hidden last:hidden"
+                className="sm:row-cols-2 lg:row-cols-4 justify-center"
                 themes={similarProducts.slice(0, 4)}
                 authors={authors}
               />

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 
-const Examples = ({ examples, customRowClass, customColClass }) => {
+const Examples = ({ examples, className }) => {
   const [item, setItem] = useState(4);
   const [page, setPage] = useState(examples.slice(0, item));
 
@@ -39,18 +39,11 @@ const Examples = ({ examples, customRowClass, customColClass }) => {
       dataLength={page.length}
       next={fetchData}
       hasMore={true}
-      className={customRowClass ? customRowClass : "row !overflow-hidden py-4"}
+      className={`row !overflow-hidden py-4 ${className ? className : "sm:row-cols-2 xl:row-cols-3 2xl:row-cols-4 3xl:row-cols-5"}`}
     >
       {page.length > 0 ? (
         page.map((example) => (
-          <div
-            className={
-              customColClass
-                ? customColClass
-                : "mb-8 sm:col-6 xl:col-4 2xl:col-3"
-            }
-            key={example.slug}
-          >
+          <div className="mb-8 sm:col-6 xl:col-4 2xl:col-3" key={example.slug}>
             <div className="theme-card relative">
               <img
                 src={`https://statichunt-images.netlify.app/examples/thumbnails/${example.slug}.webp`}

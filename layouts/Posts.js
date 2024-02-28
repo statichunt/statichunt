@@ -5,18 +5,16 @@ import Image from "next/image";
 import Link from "next/link";
 import Gravatar from "react-gravatar";
 
-const Posts = ({ posts, authors, customRowClass, customColClass }) => {
+const Posts = ({ posts, authors, className }) => {
   const { summary_length } = config.settings;
   return (
     <div
-      className={customRowClass ? customRowClass : "row justify-center px-4"}
+      className={`row justify-center px-4 ${className ? className : "col-12"}`}
     >
       {posts.map((post, i) => (
         <div
           key={`post-${i}`}
-          className={`border-b border-border px-0 py-8 last:border-0 dark:border-darkmode-border ${
-            customColClass ? customColClass : "col-12"
-          }`}
+          className="border-b border-border px-0 py-8 last:border-0 dark:border-darkmode-border"
         >
           <div className="row lg:items-center">
             <div className="mb-5 md:col-6 lg:col-5 md:mb-0">

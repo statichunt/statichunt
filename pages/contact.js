@@ -38,7 +38,7 @@ const Contact = ({ data }) => {
     e.preventDefault();
     setLoader(true);
 
-    fetch("https://formsubmit.co/ajax/hey@statichunt.com", {
+    fetch("https://formsubmit.co/ajax/hey.statichunt@gmail.com", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({

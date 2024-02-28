@@ -1,5 +1,5 @@
 ---
-title: Themes By Statichunt
+title: Statichunt
 email: hey.statichunt@gmail.com
 website: https://statichunt.com
 twitter: https://twitter.com/heyStatichunt
