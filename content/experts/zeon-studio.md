@@ -20,6 +20,43 @@ css:
   
 cms:
 
+projects:
+  - title: Supernova Docs
+    categories: 
+      - "SAAS Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/supernova-docs.png"
+
+  - title: Fleetwiser Docs
+    categories: 
+      - "Business Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/fleetwiser-docs.png"
+
+  - title: Supernova Docs
+    categories: 
+      - "SAAS Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/supernova-docs.png"
+
+  - title: Fleetwiser Docs
+    categories: 
+      - "Business Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/supernova-docs.png"
+
 ---
 
 ## Overview

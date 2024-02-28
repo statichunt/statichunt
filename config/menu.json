@@ -20,6 +20,10 @@
       "name": "Bundles",
       "url": "/bundles",
       "badge": "New"
+    },
+    {
+      "name": "Experts",
+      "url": "/experts"
     }
   ],
   "footer": [

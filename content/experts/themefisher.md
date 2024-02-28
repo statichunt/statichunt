@@ -1,10 +1,10 @@
 ---
-title: Bejamas
+title: Themefisher
 link: "https://zeon.studio/"
-banner: "/experts/bejamas.png"
-logo: "/experts/bejamas-author.png"
-description: "Zeon Studio is a JAMStack agency specializing in Hugo & NextJs  development.  We build Future-Proof..."
-date: 2024-02-15
+banner: "/experts/themefisher.png"
+logo: "/experts/zeon-studio-author.png"
+description: "Themefisher is a JAMStack agency specializing in Hugo & NextJs  development.  We build Future-Proof..."
+date: 2024-02-18
 services:
   - Hugo Development
   - Hugo Migration
@@ -17,9 +17,47 @@ ssg:
   - Astro
   - Hugo
 css:
-  - Bootstrap
+  - Tailwind
+  
 cms:
- 
+
+projects:
+  - title: Supernova Docs
+    categories: 
+      - "SAAS Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/supernova-docs.png"
+
+  - title: Fleetwiser Docs
+    categories: 
+      - "Business Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/fleetwiser-docs.png"
+
+  - title: Supernova1 Docs
+    categories: 
+      - "SAAS Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/supernova-docs.png"
+
+  - title: Fleetwiser1 Docs
+    categories: 
+      - "Business Website"
+    button:
+      enable: true
+      label: "View project"
+      link: "#"
+    banner: "/experts/supernova-docs.png"
+
 ---
 
 ## Overview
