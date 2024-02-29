@@ -16,6 +16,7 @@ category:
   - Ecommerce
   - Starter
 draft: false
+home_weight: 12
 publish_date: '2021-10-03T20:49:50Z'
 update_date: '2021-11-03T22:54:02Z'
 github_star: 6
