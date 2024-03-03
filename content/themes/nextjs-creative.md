@@ -16,4 +16,5 @@ cms:
 category:
   - Portfolio
 draft: false
+home_weight: 15
 ---
