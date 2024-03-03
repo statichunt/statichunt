@@ -67,7 +67,7 @@ const SingleTheme = ({ slug, theme }) => {
               <ThemeInfo theme={theme} slug={slug} />
               {promotion_widget && (
                 <div className="widget">
-                  <Link rel="noopener noreferrer" href={promotion_widget.link}>
+                  <Link rel="noopener noreferrer nofollow" href={promotion_widget.link} className="block" >
                     <Image
                       src={promotion_widget.image}
                       width={300}
