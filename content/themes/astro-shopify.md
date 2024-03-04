@@ -18,6 +18,8 @@ category:
   - Ecommerce
   - Starter
 draft: false
+home_weight: 33
+weight: 
 publish_date: '2023-01-18T19:23:55Z'
 update_date: '2023-08-02T02:58:51Z'
 github_star: 212

@@ -14,6 +14,8 @@ css: []
 cms: []
 category: []
 draft: false
+home_weight: 5
+weight: 5
 publish_date: '2022-01-20T09:54:11Z'
 update_date: '2023-12-15T09:21:01Z'
 github_star: 22

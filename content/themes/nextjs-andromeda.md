@@ -18,9 +18,11 @@ category:
   - Business
   - Saas
 draft: false
+home_weight: 16
+weight: 13
 ---
 
-## Key Features :
+## Key Features
 
 - 16+ Unique Pages
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

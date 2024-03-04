@@ -22,10 +22,11 @@ update_date: '2024-02-04T09:53:56Z'
 github_star: 53
 github_fork: 33
 home_weight: 4
+weight: 7
 
 ---
 
-## Key Features :
+## Key Features
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 - Fast by default (95+ Google PageSpeed Score)

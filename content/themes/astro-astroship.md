@@ -18,6 +18,7 @@ category:
   - Business
 draft: false
 home_weight: 22
+weight: 4
 publish_date: '2022-11-01T10:14:05Z'
 update_date: '2023-12-16T10:13:14Z'
 github_star: 931
