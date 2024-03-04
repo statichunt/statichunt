@@ -1,6 +1,6 @@
 ---
 title: WrapPixel Big Bundle
-image: "/bundles/wrappixel-big-bundle.png"
+image: "/bundles/Wrappixel-big-bundle.png"
 author: WrapPixel
 author_link: "https://www.wrappixel.com/"
 description: " "
@@ -14,6 +14,6 @@ features:
 -	"6 React Templates"
 -	"5 Vuejs Template"
 -	"4 Nextjs Template"
--	2 Nuxtjs Template
+-	"2 Nuxtjs Template"
 -	"WrapKit Complete UI Kit"
 ---
