@@ -1,6 +1,6 @@
 ---
 title: Spike NextJs Admin Template
-download: https://www.wrappixel.com/templates/spike-nextjs-admin-template/
+download: https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=317
 price: 49
 demo: https://spike-nextjs-pro-main.vercel.app/
 author: wrappixel

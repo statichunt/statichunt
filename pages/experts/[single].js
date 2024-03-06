@@ -109,7 +109,7 @@ const ExpertSingle = ({ post, mdxContent, successMessage }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {`${website}?ref=statichunt.com`}
+                        {website}
                       </Link>
                     </div>
                   </div>

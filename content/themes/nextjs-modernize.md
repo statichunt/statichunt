@@ -2,7 +2,7 @@
 title: Modernize Free NextJs MUI Admin Template
 github: https://github.com/adminmart/Modernize-Nextjs-Free
 demo: https://modernize-nextjs-free.netlify.app/?ref=5
-author: AdminMart.com
+author: AdminMart
 author_link: https://github.com/adminmart
 date: 2023-03-13T00:00:00.000Z
 description: Modernize Free Next 13 Admin Template with Material Ui + Typescript.

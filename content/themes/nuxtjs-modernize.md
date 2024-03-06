@@ -1,6 +1,6 @@
 ---
 title: Modernize Nuxt Js Admin Dashboard
-download: https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/
+download: https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/?ref=28
 price: 59
 demo: https://modernize-nuxt.adminmart.com/dashboards/modern
 author: Adminmart

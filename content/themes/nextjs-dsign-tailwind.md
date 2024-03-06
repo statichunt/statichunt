@@ -1,6 +1,6 @@
 ---
 title: Dsign Tailwind
-download: https://adminmart.com/product/dsign-free-nextjs-landing-page-template/
+download: https://adminmart.com/product/dsign-free-nextjs-landing-page-template/?ref=28
 price: 0
 demo: https://dsign-tailwind-nextjs-free.vercel.app/
 author: Adminmart

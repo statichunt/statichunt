@@ -117,7 +117,7 @@ const DemoHeader = ({
             </a>
             <a
               className="btn btn-outline-primary btn-sm svg-align-bottom tooltip tooltip-bottom text-lg !leading-none"
-              href={`${github ? github : download}?ref=statichunt.com`}
+              href={`${github ? github : download}${download?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
               target="_blank"
               rel="nofollow noopener noreferrer"
               data-tooltip="Download"

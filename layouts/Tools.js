@@ -19,7 +19,7 @@ const Tools = ({ tools }) => {
               <h3 className="h5 mb-[4px] flex items-center pt-2 font-medium">
                 {tool.frontmatter.title}
                 <a
-                  href={`${tool.frontmatter.website}?ref=statichunt.com`}
+                  href={`${tool.frontmatter.website}${tool.frontmatter.website?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                 >

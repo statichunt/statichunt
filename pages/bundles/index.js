@@ -83,7 +83,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
                         </p>
                         <Link
                           className="btn btn-outline-primary whitespace-nowrap"
-                          href={`${bundle.frontmatter.purchase_link}?ref=statichunt.com`}
+                          href={`${bundle.frontmatter.purchase_link}${bundle.frontmatter.purchase_link?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
                           target="_blank"
                           rel="noopener"
                         >

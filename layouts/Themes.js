@@ -198,7 +198,7 @@ const Themes = ({ themes, authors, className }) => {
                       theme.frontmatter.github
                         ? theme.frontmatter.github
                         : theme.frontmatter.download
-                    }?ref=statichunt.com`}
+                    }${theme.frontmatter.download?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
                     className="btn btn-sm btn-download svg-align-bottom mb-2 pr-2 leading-none"
                     target="_blank"
                     rel={`noopener ${

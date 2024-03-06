@@ -1,6 +1,6 @@
 ---
 title: Si Educational
-download: https://adminmart.com/product/si-educational-next-js/
+download: https://adminmart.com/product/si-educational-next-js/?ref=28
 price: 0
 demo: https://si-educational-nextjs.netlify.app/
 author: Adminmart

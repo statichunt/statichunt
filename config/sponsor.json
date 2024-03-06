@@ -15,7 +15,7 @@
     {
       "name": "WrapPixel",
       "image": "/sponsors/wrappixel-card.png",
-      "link": "https://www.wrappixel.com/templates/category/admin-dashboard-templates/",
+      "link": "https://www.wrappixel.com/templates/category/admin-dashboard-templates/?ref=317",
       "description": "80+ premium and free admin dashboard templates built with modern technologies like React, Vue, Angular, and Bootstrap."
     },
     {
@@ -29,7 +29,7 @@
     {
       "author": "WrapPixel",
       "image": "/sponsors/wrappixel-promotion.png",
-      "link": "https://www.wrappixel.com/templates/big-bundle/"
+      "link": "https://www.wrappixel.com/templates/big-bundle/?ref=317"
     }
   ],
   "tools": []
