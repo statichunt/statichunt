@@ -7,7 +7,7 @@ description: " "
 date: 2024-02-14
 price: $99
 regular_price: $896
-purchase_link: "https://www.wrappixel.com/templates/big-bundle/ref=317"
+purchase_link: "https://www.wrappixel.com/templates/big-bundle/?ref=317"
 features:
 - "8+ Bootstrap Templates"
 - "10 Angular Templates"

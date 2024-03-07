@@ -120,11 +120,12 @@ const ExpertSingle = ({ post, mdxContent, successMessage }) => {
         </div>
       </section>
 
+      {projects?.length > 0 && (
       <section className="section pt-0">
         <div className="container">
           <h2 className="mb-6">Some Projects By {title}</h2>
           <div className="row mt-4">
-            {projects.map((project, i) => (
+            {projects?.map((project, i) => (
               <div
                 key={`${project.title}-${i}`}
                 className="md:col-6 lg:col-4 mb-6"
@@ -160,6 +161,7 @@ const ExpertSingle = ({ post, mdxContent, successMessage }) => {
           </div>
         </div>
       </section>
+      )}
 
       <ExpertContact
         title={title}

@@ -39,16 +39,20 @@ projects:
 
 ## Overview
 
-Experts not only understand theoretical concepts but also have extensive practical
-experience. They apply their knowledge in real-world scenarios.
+Zeon Studio is a Jamstack agency that provides website development, web application development, and UI/UX design services. We use Jamstack technology to create fast, secure, and scalable websites and web apps.
 
-It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.
+We are passionate about creating beautiful, user-friendly websites and web apps that help our clients achieve their business goals. Our team of experienced developers and designers has a deep understanding of Jamstack and its principles.
 
-## About
+Our services include:
 
-Experts not only understand theoretical concepts but also have extensive practical
-experience. They apply their knowledge in real-world scenarios.
+- Website development using Jamstack frameworks
 
-It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.
+- UI/UX design
 
-When referring to Lorem ipsum, different expressions are used, namely fill text , fictitious text , blind text or placeholder text : in short, its meaning can also be zero, but its usefulness is so clear as to go through the centuries and resist the ironic and modern versions that came with the arrival of the web.
+- Migration to Jamstack
+
+- Website maintenance
+
+Whether you're a startup looking to establish your online presence or an established enterprise seeking to enhance your digital presence, we have the expertise and resources to meet your needs.
+
+Contact us to learn more about our services.
