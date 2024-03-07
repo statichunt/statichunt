@@ -14,7 +14,7 @@ cms:
 category: []
 draft: false
 home_weight: 28
-weight: 
+weight: null
 publish_date: '2022-08-12T22:18:22Z'
 update_date: '2023-12-11T21:42:47Z'
 github_star: 23

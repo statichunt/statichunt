@@ -18,8 +18,8 @@ category:
 draft: false
 publish_date: '2023-06-23T04:26:31Z'
 update_date: '2024-01-24T07:22:15Z'
-github_star: 24
-github_fork: 7
+github_star: 29
+github_fork: 8
 ---
 
 This Hugo theme is ideal for powering the website of a small organization or project. It was built initially by [CNCF.io](https://www.cncf.io) (part of [The Linux Foundation](https://www.linuxfoundation.org)) for the [TODO Group](https://todogroup.org)

@@ -19,12 +19,11 @@ date: 2018-09-12T09:09:05.000Z
 description: Meghna Hugo Template
 publish_date: '2018-09-12T09:09:05Z'
 update_date: '2023-07-13T09:59:30Z'
-github_star: 421
-github_fork: 1243
+github_star: 426
+github_fork: 1235
 draft: false
 home_weight: 19
 weight: 3
-
 ---
 
 ## Key Features
