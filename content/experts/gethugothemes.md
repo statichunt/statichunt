@@ -1,15 +1,14 @@
 ---
 title: Gethugothemes
-image: "/experts/gethugothemes/cover.jpg"
+image: "/experts/gethugothemes/gethugothemes-cover.jpg"
 email: "gethugothemes@gmail.com"
-price: 10000
+price: 1000
 website: "https://gethugothemes.com"
 description: "Experts not only understand theoretical concepts but also have extensive practical
 experience. They apply their knowledge in real-world scenarios."
 services:
   - Hugo Development
   - Hugo Migration
-  - Next.js Development
   - UI/UX Design
   - Development
   
@@ -19,19 +18,19 @@ ssg:
   - Hugo
 
 projects:
-  - title: Supernova Docs
-    image: "/experts/gethugothemes/supernova-docs.png"
-    link: "#"
-    category: "SAAS Website"
-
-  - title: Fleetwiser Docs
-    image: "/experts/gethugothemes/fleetwiser-docs.png"
-    link: "#"
+  - title: Runtime Recruitment
+    image: "/experts/gethugothemes/runtime.png"
+    link: "https://runtimerec.com/"
     category: "Business Website"
 
-  - title: Supernova Docs
-    image: "/experts/gethugothemes/supernova-docs.png"
-    link: "#"
+  - title: Pascom Documentation
+    image: "/experts/gethugothemes/pascom-documentation.png"
+    link: "https://www.pascom.net/doc/en/"
+    category: "SAAS Website"
+
+  - title: Grand Hotel & Kurhaus
+    image: "/experts/gethugothemes/grand-hotel.png"
+    link: "https://www.grandhotelkurhaus.com/"
     category: "SAAS Website"
 
 
@@ -39,16 +38,22 @@ projects:
 
 ## Overview
 
-Experts not only understand theoretical concepts but also have extensive practical
-experience. They apply their knowledge in real-world scenarios.
+Gethugothemes.com is a platform that provides premium Hugo themes, templates, and plugins. We use Hugo, the world’s fastest framework for building websites, to create stunning, blazing-fast, and SEO-friendly websites.
 
-It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.
+We are passionate about delivering high-quality, elegant, and affordable Hugo themes and products that help our clients create amazing websites. Our team of skilled developers and designers has a wealth of experience in Hugo and Jamstack.
 
-## About
+Our services include:
 
-Experts not only understand theoretical concepts but also have extensive practical
-experience. They apply their knowledge in real-world scenarios.
+- Website development using Hugo frameworks
 
-It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.
+- UI/UX design
 
-When referring to Lorem ipsum, different expressions are used, namely fill text , fictitious text , blind text or placeholder text : in short, its meaning can also be zero, but its usefulness is so clear as to go through the centuries and resist the ironic and modern versions that came with the arrival of the web.
+- Theme customization
+
+- Migration to Wordpress to Hugo
+
+- Website maintenance
+
+Whether you're a startup looking to establish your online presence or an established enterprise seeking to enhance your digital presence, we have the expertise and resources to meet your needs.
+
+Contact us to learn more about our services.

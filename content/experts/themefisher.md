@@ -2,7 +2,7 @@
 title: Themefisher
 image: "/experts/themefisher/cover.jpg"
 email: "themefisher@gmail.com"
-price: 10000
+price: 1000
 website: "https://themefisher.com"
 description: "Experts not only understand theoretical concepts but also have extensive practical
 experience. They apply their knowledge in real-world scenarios."
@@ -18,21 +18,7 @@ ssg:
   - Astro
   - Hugo
 
-projects:
-  - title: Supernova Docs
-    image: "/experts/themefisher/supernova-docs.png"
-    link: "#"
-    category: "SAAS Website"
 
-  - title: Fleetwiser Docs
-    image: "/experts/themefisher/fleetwiser-docs.png"
-    link: "#"
-    category: "Business Website"
-
-  - title: Supernova Docs
-    image: "/experts/themefisher/supernova-docs.png"
-    link: "#"
-    category: "SAAS Website"
 
 
 
@@ -40,16 +26,20 @@ projects:
 
 ## Overview
 
-Experts not only understand theoretical concepts but also have extensive practical
-experience. They apply their knowledge in real-world scenarios.
+Themefisher.com is a plateform that offers exclusive website templates for startups and developers. We use modern web technologies, such as Bootstrap, Tailwind, Astro, and Next.js, to create beautiful, responsive, and fast websites.
 
-It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.
+We are dedicated to providing high-quality, stylish, and affordable website templates and themes that help our customers build amazing websites. Our team of expert developers and designers has a lot of experience in web development and design.
 
-## About
+Our services include:
 
-Experts not only understand theoretical concepts but also have extensive practical
-experience. They apply their knowledge in real-world scenarios.
+- Website development using Jamstack frameworks
 
-It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.
+- UI/UX design
 
-When referring to Lorem ipsum, different expressions are used, namely fill text , fictitious text , blind text or placeholder text : in short, its meaning can also be zero, but its usefulness is so clear as to go through the centuries and resist the ironic and modern versions that came with the arrival of the web.
+- Migration to Jamstack
+
+- Website maintenance
+
+No matter what kind of website you need, we have the ideal website template and theme for you.
+
+Explore our collection of website templates and themes and find the one that fits your requirements.

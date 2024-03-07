@@ -1,15 +1,15 @@
 ---
 title: Zeon Studio
-image: "/experts/zeon-studio/cover.jpg"
+image: "/experts/zeon-studio/zeon-studio-cover.jpg"
 email: "hey@zeon.studio"
-price: 10000
+price: 1000
 website: "https://zeon.studio"
-description: "Experts not only understand theoretical concepts but also have extensive practical
-experience. They apply their knowledge in real-world scenarios."
+description: "Experts not only understand theoretical concepts but also have extensive practical experience. They apply their knowledge in real-world scenarios."
 services:
   - Hugo Development
   - Hugo Migration
   - Next.js Development
+  - Astro Development
   - UI/UX Design
   - Development
   
@@ -19,19 +19,19 @@ ssg:
   - Hugo
 
 projects:
-  - title: Supernova Docs
-    image: "/experts/zeon-studio/supernova-docs.png"
-    link: "#"
+  - title: Supernova 
+    image: "/experts/zeon-studio/supernova.png"
+    link: "https://zeon.studio/case-studies/supernova"
     category: "SAAS Website"
 
-  - title: Fleetwiser Docs
-    image: "/experts/zeon-studio/fleetwiser-docs.png"
-    link: "#"
+  - title: Pascom
+    image: "/experts/zeon-studio/pascom.png"
+    link: "https://zeon.studio/case-studies/pascom"
     category: "Business Website"
 
-  - title: Supernova Docs
-    image: "/experts/zeon-studio/supernova-docs.png"
-    link: "#"
+  - title: Neuromore
+    image: "/experts/zeon-studio/neuromore.png"
+    link: "https://zeon.studio/case-studies/neuromore"
     category: "SAAS Website"
 
 
