@@ -48,8 +48,10 @@ const getThemesGithub = () => {
 // get custom data
 const getCustomData = () => {
   const getAllData = getSinglePageData("content/themes", false);
-  const customData = getAllData.map((item) => item.slug);
-  return customData;
+  const customData = getAllData.map((item) => item.frontmatter.author);
+  // unique authors
+  const uniqueAuthors = [...new Set(customData)];
+  return uniqueAuthors;
 };
 
 // get all data
@@ -84,6 +86,10 @@ try {
   fs.writeFileSync(
     `${jsonDir}/themes-github.json`,
     JSON.stringify(getThemesGithub()),
+  );
+  fs.writeFileSync(
+    `${jsonDir}/custom-data.json`,
+    JSON.stringify(getCustomData()),
   );
 
   // public data
