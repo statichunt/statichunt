@@ -3,7 +3,7 @@ title: MaterialPro NextJs Admin Dashboard (App Directory)
 download: https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=317
 price: 49
 demo: https://materialpro-nextjs-pro.vercel.app/
-author: wrappixel
+author: WrapPixel
 author_link: https://www.wrappixel.com/
 date: 2023-02-13T00:00:00.000Z
 description: By combining the power of Next.js and Redux, this template transforms your WebApps into mesmerizing experiences.

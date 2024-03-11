@@ -3,7 +3,7 @@ title: Spike NextJs Admin Template
 download: https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=317
 price: 49
 demo: https://spike-nextjs-pro-main.vercel.app/
-author: wrappixel
+author: WrapPixel
 author_link: https://www.wrappixel.com/
 date: 2023-02-13T00:00:00.000Z
 description: Spike Next.Js Admin Dashboard is a pre-built, ready-to-use, highly customizable and developer friendly admin template.

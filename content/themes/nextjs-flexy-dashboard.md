@@ -3,7 +3,7 @@ title: Flexy NextJs Dashboard – MUI (App Directory)
 download: https://www.wrappixel.com/templates/flexy-nextjs-dashboard-material-ui/?ref=317
 price: 49
 demo: https://flexy-next-js-dashboard.vercel.app/
-author: wrappixel
+author: WrapPixel
 author_link: https://www.wrappixel.com/
 date: 2023-02-13T00:00:00.000Z
 description: Flexy is built with Most Popular Framework React Material-UI.
@@ -19,7 +19,7 @@ category:
   - Dashboard
 draft: false
 weight: 6
-home_weight: 9
+home_weight: 5
 
 
 ---
