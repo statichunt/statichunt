@@ -1,6 +1,6 @@
 ---
 title: Biztrox Astro
-download:  https://themefisher.com/products/biztrox-astro
+download: https://themefisher.com/products/biztrox-astro
 price: 79
 demo: https://biztrox-astro.vercel.app/ 
 author: Themefisher

@@ -19,8 +19,8 @@ category:
   - Portfolio
 publish_date: '2024-01-11T15:23:14Z'
 update_date: '2024-02-21T07:56:49Z'
-github_star: 64
-github_fork: 33
+github_star: 74
+github_fork: 35
 ---
 
 

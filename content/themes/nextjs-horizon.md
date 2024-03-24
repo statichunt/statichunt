@@ -19,7 +19,7 @@ category:
   - Dashboard
 draft: false
 publish_date: '2022-11-29T16:58:56Z'
-update_date: '2024-02-07T19:34:35Z'
-github_star: 39
-github_fork: 28
+update_date: '2024-03-21T18:45:52Z'
+github_star: 43
+github_fork: 33
 ---

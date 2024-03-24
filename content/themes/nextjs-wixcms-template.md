@@ -18,8 +18,8 @@ cms:
 category:
   - Business
 publish_date: '2023-03-28T13:48:29Z'
-update_date: '2024-03-03T07:28:54Z'
-github_star: 19
+update_date: '2024-03-17T08:05:25Z'
+github_star: 20
 github_fork: 17
 draft: false
 ---

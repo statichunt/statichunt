@@ -10,7 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
-cms: 
+cms:
   - Markdown
 category:
   - Ecommerce
@@ -18,8 +18,8 @@ category:
 draft: false
 home_weight: 12
 weight: 8
-publish_date: '2021-10-03T20:49:50Z'
-update_date: '2021-11-03T22:54:02Z'
-github_star: 6
-github_fork: 2
+publish_date: '2023-12-24T08:47:58Z'
+update_date: '2024-03-20T06:43:08Z'
+github_star: 29
+github_fork: 10
 ---

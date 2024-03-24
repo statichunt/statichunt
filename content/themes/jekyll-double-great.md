@@ -1,5 +1,5 @@
 ---
-title: Theme
+title: Double Great
 github: https://github.com/double-great/theme
 demo: https://doublegreat.dev/theme/
 author: double-great

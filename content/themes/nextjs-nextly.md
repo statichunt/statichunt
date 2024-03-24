@@ -20,9 +20,9 @@ category:
   - Landing
 draft: false
 publish_date: '2021-06-08T10:28:37Z'
-update_date: '2023-04-27T06:19:17Z'
-github_star: 561
-github_fork: 213
+update_date: '2024-03-21T06:57:42Z'
+github_star: 611
+github_fork: 231
 ---
 
 ## Key Features
