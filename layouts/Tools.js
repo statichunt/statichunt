@@ -14,6 +14,10 @@ const Tools = ({ tools }) => {
               width={160}
               height={100}
               loading="lazy"
+              onError={({ currentTarget }) => {
+                currentTarget.onerror = null;
+                currentTarget.src = "/images/theme-placeholder.png";
+              }}
             />
             <div className="mt-4 bg-transparent sm:mt-0">
               <h3 className="h5 mb-[4px] flex items-center pt-2 font-medium">
