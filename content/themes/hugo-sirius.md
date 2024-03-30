@@ -2,7 +2,7 @@
 title: Sirius 
 download: https://gethugothemes.com/products/sirius
 price: 79
-demo: https://gethugothemes.com/demo?theme=sirius
+demo: https://demo.gethugothemes.com/sirius/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com/
 date: 2024-03-28T00:00:00.000Z
