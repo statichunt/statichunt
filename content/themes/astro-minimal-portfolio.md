@@ -1,26 +1,26 @@
 ---
 title: Minimal Portfolio
 github: https://github.com/TimWitzdam/astro-minimal-portfolio-template
-price: 0 # only for premium theme
+price: 0
 demo: https://minimal-portfolio.witzdam.com/
-author: Tim Witzdam # author name
-author_link: https://witzdam.com/ # if any
-date: 2024-04-01T00:00:00.000Z # submit date
+author: Tim Witzdam
+author_link: https://witzdam.com/
+date: 2024-04-01T00:00:00.000Z
 description: Share your work with SEO optimized minimalistic design
-ssg: # ssg name
+ssg:
   - Astro
-
-css: # css name
+css:
   - Tailwind
-
-cms: # you can choose multiple if applicable
+cms:
   - Markdown
-
-category: # you can choose multiple if applicable
+category:
   - Blog
   - Portfolio
-
 draft: false
+publish_date: '2024-03-27T08:45:58Z'
+update_date: '2024-03-31T16:29:40Z'
+github_star: 0
+github_fork: 0
 ---
 
 ## Key Features
