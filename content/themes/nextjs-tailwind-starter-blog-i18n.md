@@ -11,7 +11,7 @@ description: >-
   breeze. Easily configurable and customizable. Perfect as a replacement to
   existing Jekyll and Hugo individual blogs.
 ssg:
-  - Hugo
+  - Nextjs
 css:
   - Tailwind
   - PostCSS
