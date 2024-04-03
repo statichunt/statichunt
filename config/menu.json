@@ -56,7 +56,7 @@
           "url": "/hugo-themes"
         },
         {
-          "page": "Nexts Templates",
+          "page": "Nextjs Templates",
           "url": "/nextjs-templates"
         },
         {
@@ -110,7 +110,7 @@
         },
         {
           "page": "hosting",
-          "url": "/jamstack-hosting"
+          "url": "/static-website-hosting"
         },
         {
           "page": "search",
