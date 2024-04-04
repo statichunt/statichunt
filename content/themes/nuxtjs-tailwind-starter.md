@@ -7,7 +7,7 @@ author_link: https://github.com/Createitv
 date: 2024-02-18T08:07:48.258Z
 description: nuxt3-tailwind-starter
 ssg:
-  - Nextjs
+  - Nuxtjs
 css:
   - Tailwind
 cms: []
