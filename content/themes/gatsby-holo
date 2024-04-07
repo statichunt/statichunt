@@ -1,0 +1,33 @@
+---
+title: Gatsby Holo
+github: https://github.com/lilxyzz/holo-theme
+demo: https://holo-theme.netlify.app
+author: Travis Lord
+author_link: https://travislord.xyz
+date: 2024-04-07T00:00:00.000Z 
+description: A stunning and minimal starter theme for Portfolio's, Blog's, and more.
+  
+ssg:
+  - Gatsby
+  
+css: # css name
+  - Tailwind
+    
+cms:
+  - Decap
+
+category:
+  - Business
+  - Blog
+  - Portfolio
+  - Boilerplate
+
+draft: false
+---
+
+## Key Features
+  
+- Gatsby 5+
+- React 18+
+- Tailwind CSS 3+
+- Decap CMS (formerly Netlify CMS) 4+
