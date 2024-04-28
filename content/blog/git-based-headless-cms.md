@@ -19,7 +19,6 @@ But what if there was a way to combine the speed and security of static sites wi
 
 This article will explore the top Git-based headless CMS options for static sites and how they can make content management a breeze for both developers and editors.
 
-
 ## Advantages of Git-Based Headless CMS
 
 - **Version Control:** Git-based headless CMS provides a robust version control system, allowing developers to track changes, collaborate, and roll back to previous versions if needed.
@@ -48,7 +47,7 @@ TinaCMS is a free and open-source headless CMS focused on providing the best dev
 **Supported Site Generators:**
  All <br/>
 
-#### Key Features:
+#### Key Features
 
 - Real-time editing
 - Git-based
@@ -73,7 +72,7 @@ Decap CMS is a lightweight, Git-based Headless CMS that empowers developers and 
 **License:** Open Source <br/>
 **Supported Site Generators:** All
 
-#### Key Features:
+#### Key Features
 
 - Platform agnostic
 - Easy installation
@@ -94,7 +93,7 @@ CloudCannon is a powerful, Git-based Headless CMS designed for static site gener
 **License:**  Closed Source <br/>
 **Supported Site Generators:** Jekyll, Hugo, 11ty, SvelteKit, Next.js, Gatsby, Nuxt, Astro, MkDocs
 
-#### Key Features:
+#### Key Features
 
 - User roles and permissions
 - Authentication
@@ -117,7 +116,7 @@ Contentrain is a modern, Git-based Headless CMS that streamlines content managem
 **License:** Closed Source <br/>
 **Supported Site Generators:** NuxtJs, NextJs, Gatsby, 11ty, Jekyll, Gridsome, Hugo, React, Vue, Astro, VietPress, Angular, Svelte, Docusaurus, All
 
-#### Key Features:
+#### Key Features
 
 - Plug and play Headless CMS for a structured content workflow.
 - Master your content architecture and collaborate with your Developer and Content Teams.
@@ -141,7 +140,7 @@ Usecue CMS is a Git-based headless CMS specifically designed for Hugo static web
 **License:** Closed Source <br/>
 **Supported Site Generators:** Hugo
 
-#### Key Features:
+#### Key Features
 
 - Zero config
 - Multi user support
@@ -168,7 +167,7 @@ Spinal boasts a sleek and minimalist interface that puts your content front and 
 **License:** Closed Source <br/>
 **Supported Site Generators:** Astro, 11ty, Hugo, Jekyll, Middleman, Bridgetown, Next.js, Gatsby, VuePress, VitePress, Nuxt, Hexo, Zola
 
-#### Key Features:
+#### Key Features
 
 - Platform-agnostic
 - Easy installation

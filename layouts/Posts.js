@@ -1,6 +1,7 @@
 import config from "@/config/config.json";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
+import { plainify } from "lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 import Gravatar from "react-gravatar";
@@ -94,7 +95,7 @@ const Posts = ({ posts, authors, className }) => {
                 </li>
               </ul>
               <p className="mb-0">
-                {post.content.slice(0, Number(summary_length))}...
+                {plainify(post.content).slice(0, Number(summary_length))}...
               </p>
             </div>
           </div>
