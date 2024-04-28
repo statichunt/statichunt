@@ -19,9 +19,9 @@ description: >-
   secure, fast, and SEO-ready — by default.
 draft: false
 publish_date: '2020-04-15T13:37:31Z'
-update_date: '2024-03-02T09:24:50Z'
-github_star: 1932
-github_fork: 347
+update_date: '2024-04-23T10:50:54Z'
+github_star: 1946
+github_fork: 349
 ---
 
 ## Key Features :
