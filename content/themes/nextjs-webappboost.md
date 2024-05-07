@@ -2,9 +2,10 @@
 title: WEBAPPBOOST
 price: 150
 demo: https://webappboost-pro.vercel.app
+download: https://webappboost.com
 author: Ilya Gru
 author_link: https://ilyagru.com
-date: 2023-05-07T00:00:00.000Z # submit date
+date: 2023-05-07T00:00:00.000Z
 description: >-
   Minimalistic yet powerful Next.js monorepo boilerplate with all the latest tech preconfigured. Build your next SaaS project, save weeks of work and launch what your customers will love.
 ssg:
