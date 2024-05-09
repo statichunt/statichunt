@@ -1,7 +1,7 @@
 ---
-title: VisVrs
-github: https://github.com/isooosi/VisVrs
-demo: https://visvrs.vercel.app/
+title: AstroVerse
+github: https://github.com/isooosi/astroverse
+demo: https://astroverse.inote.xyz/
 author: isooosi
 author_link: https://github.com/isooosi
 date: 2023-11-28T05:46:23.276Z
