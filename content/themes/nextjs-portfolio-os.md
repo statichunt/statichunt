@@ -2,6 +2,7 @@
 title: PortfolioOS
 price: 14.99
 demo: https://paul.koeck.dev
+download: https://poeck.gumroad.com/l/portfolio-os
 author: Paul Koeck
 author_link: https://paul.koeck.dev/
 date: 2024-05-16T00:00:00.000Z
