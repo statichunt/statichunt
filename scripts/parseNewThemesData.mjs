@@ -1,16 +1,16 @@
 import axios from "axios";
 import rateLimit from "axios-rate-limit";
 import dotenv from "dotenv";
-import fs from "fs";
+import fs, { readFileSync } from "fs";
 import yaml from "js-yaml";
 import ora from "ora";
 import parseGithubUrl from "parse-github-url";
 import path from "path";
 import yamlFront from "yaml-front-matter";
-import getThemes from "../.json/themes.json" assert { type: "json" };
 
 dotenv.config();
 
+const getThemes = JSON.parse(readFileSync(".json/themes.json"));
 const spinner = ora("Loading");
 const themesFolder = path.join(process.cwd(), "/content/themes");
 const token = process.env.GITHUB_TOKEN;
