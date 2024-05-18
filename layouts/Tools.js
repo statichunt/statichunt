@@ -6,7 +6,7 @@ const Tools = ({ tools }) => {
     <div className="row justify-center">
       {tools.map((tool) => (
         <div className="mb-10 xl:col-10" key={tool.slug}>
-          <div className="group rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
+          <div className="group relative rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
             <img
               className="mr-8 max-w-[160px] rounded-[4px]"
               src={`https://statichunt-images.netlify.app/tools/thumbnails/${tool.slug}.webp`}
@@ -23,6 +23,7 @@ const Tools = ({ tools }) => {
               <h3 className="h5 mb-[4px] flex items-center pt-2 font-medium">
                 {tool.frontmatter.title}
                 <a
+                  className="stretched-link"
                   href={`${tool.frontmatter.website}${tool.frontmatter.website?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
                   rel="noopener noreferrer nofollow"
                   target="_blank"
