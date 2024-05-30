@@ -2,7 +2,7 @@
 title: Starry Heavens - Jewelry Ecommerce Website Template Next.js
 download: https://webbytemplate.com/product/starry-heavens-jewelry-tailwind-with-next-js-template 
 price: 49 
-demo: hhttps://preview.webbytemplate.com/53
+demo: https://starryheavens.webbytemplate.com/
 author: WebbyTemplate 
 author_link: https://webbytemplate.com
 date: 2024-05-29T11:55:20.500Z 
