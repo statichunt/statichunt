@@ -108,24 +108,24 @@ CloudCannon is a powerful, Git-based Headless CMS designed for static site gener
 
 ### Contentrain
 
-Contentrain is a modern, Git-based Headless CMS that streamlines content management for static site generators and modern web applications. With its intuitive interface, flexible content modeling, and automated workflows, Contentrain enables developers and content creators to collaborate seamlessly, delivering fast, scalable, and omnichannel content experiences.
+Contentrain is a technical-debt-free, scalable content management platform that combines Git for static content and Serverless technologies for dynamic content needs. It simplifies content management and collaboration across various digital platforms for developers and content creators. Any level of developer can integrate Contentrain, eliminating the need to hire specialized CMS developers.
 
 <Mockup src="/blog/contentrain-cms.png" alt="Contentrain headless cms" />
 
 **Pricing :** Free Plan available.Premium plans starts from $79 <br/>
 **License:** Closed Source <br/>
-**Supported Site Generators:** NuxtJs, NextJs, Gatsby, 11ty, Jekyll, Gridsome, Hugo, React, Vue, Astro, VietPress, Angular, Svelte, Docusaurus, All
+**Supported Site Generators:** Astro, Angular, Docusaurus, Eleventy (11ty), Gatsby, Gridsome, Hugo, Jekyll, Next.js, Nuxt.js, React, Svelte, VitePress, Vue, and all modern JavaScript frameworks.
 
 #### Key Features
 
-- Plug and play Headless CMS for a structured content workflow.
-- Master your content architecture and collaborate with your Developer and Content Teams.
-- Markdown file support.
-- Customize your Content Team with granular roles.
-- Gain granular control over collaboration dynamics.
-- In-app Merge Management options.
-- Webhooks to connect and create automations with your favourite 3rd party marketing tools.
-- No-code Content Schema tool.
+- Serverless Collections for dynamic content management needs
+No-code Content Modeling tool.
+- Open source Community Content Models and model repurposing across projects.
+- JSON, Markdown and MDX file support.
+- Managing the internal or external members with custom roles & permissions.
+- In App Git Branch Management
+- Webhooks to connect and create automations with your favorite 3rd party marketing tools.
+- Multilanguage content managing in single panel.
 
 <Button href="https://contentrain.io/" >Learn More </Button>
 

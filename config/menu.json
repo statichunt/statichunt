@@ -16,6 +16,10 @@
       "name": "Bundles",
       "url": "/bundles",
       "badge": "offer"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog" 
     }
   ],
   "footer": [
