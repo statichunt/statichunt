@@ -5,7 +5,7 @@ price: 22
 demo: https://lifestyle-eta.vercel.app/
 author: WebbyTemplate
 author_link: https://webbytemplate.com/
-date: 2024-06-04T00:00:00.000Z
+date: 2024-06-05T11:55:20.500Z
 description: Lifestyle: E-commerce Website Next.js Template is a modern, fully responsive template designed for fashion and lifestyle online stores. Built with Next.js, it ensures fast loading times and optimized performance.
 
 ssg: 
