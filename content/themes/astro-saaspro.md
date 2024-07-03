@@ -30,7 +30,7 @@ draft: false
 - Taxonomy support
 - Support OG image
 - Support Disqus Comments
-- Write and update content in Markdown / MDX
+- Write and update content in Markdown/MDX
 - MDX components auto-import
 - Fully responsive on desktops, tablets, and smartphones
 - SEO Friendly
