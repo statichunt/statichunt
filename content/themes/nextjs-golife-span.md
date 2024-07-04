@@ -1,3 +1,4 @@
+---
 title: Golife: Fundraiser Website Template Next.js
 download: https://webbytemplate.com/product/golife-fundraiser-website-template 
 price: 25 
@@ -20,6 +21,7 @@ category:
   - Portfolio
 
 draft: false
+---
 
 ## Key Features
 
