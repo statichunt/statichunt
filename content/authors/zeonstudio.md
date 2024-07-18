@@ -1,5 +1,5 @@
 ---
-title: Zeonstudio
+title: Zeon Studio
 email: hey@zeon.studio
 website: https://zeon.studio/
 twitter: ""
