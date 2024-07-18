@@ -1,4 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
+
 const config = {
   siteUrl: "https://statichunt.com/",
   generateRobotsTxt: false,
