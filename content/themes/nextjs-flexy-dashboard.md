@@ -18,7 +18,7 @@ category:
   - Saas
   - Dashboard
 draft: false
-weight: 6
+weight: 5
 home_weight: 5
 
 

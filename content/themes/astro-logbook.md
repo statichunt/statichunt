@@ -1,12 +1,12 @@
 ---
-title: Biztrox Astro
-download: https://themefisher.com/products/biztrox-astro
+title: Logbook Astro
+download: https://themefisher.com/products/logbook-astro
 price: 79
-demo: https://biztrox-astro.vercel.app/ 
+demo: https://logbook-astro.vercel.app/ 
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-03-30T00:00:00.000Z
-description: Biztrox Astro is multipurpose business theme designed for SaaS, startups, and agencies.
+description: Logbook Astro is a sleek, minimal template for bloggers and writers. It has 16+ pre-designed pages and uses Tailwind CSS for easy customization.
 ssg:
   - Astro
 css:
@@ -15,20 +15,22 @@ cms:
   - Markdown
 category:
   - Business
-  - Saas
+  - Blog
+  - Portfolio
 draft: false
-weight: 4
+weight: 16
 ---
 
 ## Key Features
 
-- Google PageSpeed Score 93/100 (Desktop)
+- Google PageSpeed Score 100/100 (Desktop)
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
-- 17 Unique Pages
-- Built with Tailwind CSS framework
-- Integrated Swiper JS for slider
-- Netlify Settings Predefine
+- 16+ Unique Pages
+- Built with Tailwind
+- Netlify & Vercel Configured
 - Google Map integrated
+- Multilingual Feature
+- Search Feature
 - Taxonomy support
 - Contact form support
 - Disqus Comments available

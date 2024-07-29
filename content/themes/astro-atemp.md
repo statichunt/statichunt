@@ -17,13 +17,14 @@ category:
   - Business
   - Saas
 draft: false
+weight: 10
 ---
 
 ## Key Features
 
 - 15+ Unique Pages
 - 100/100 Google PageSpeed Score on Desktop
-- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags,   etc.)
 - Built with Tailwind CSS framework
 - Netlify & Vercel setting pre-configured
 - Mega Menu

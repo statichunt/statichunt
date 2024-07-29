@@ -1,11 +1,13 @@
 ---
 title: Stellar Astro Dev Portfolio
-github: https://github.com/vinitshahdeo/portfolio 
+github: https://github.com/vinitshahdeo/portfolio
 demo: https://vinitshahdeo.com/
 author: Vinit Shahdeo
-author_link: https://x.com/vinit_shahdeo 
+author_link: https://x.com/vinit_shahdeo
 date: 2024-07-21T00:00:00.000Z
-description: Minimal Portfolio theme for Developers using Astro and Tailwind CSS, optimized for accessibility, performance, and SEO.
+description: >-
+  Minimal Portfolio theme for Developers using Astro and Tailwind CSS, optimized
+  for accessibility, performance, and SEO.
 ssg:
   - Astro
 css:
@@ -14,6 +16,11 @@ cms: []
 category:
   - Portfolio
 draft: false
+weight: 
+publish_date: '2024-06-28T14:27:57Z'
+update_date: '2024-07-28T05:41:47Z'
+github_star: 16
+github_fork: 4
 ---
 
 ## Key Features
