@@ -16,9 +16,9 @@ cms: null
 category:
   - Saas
 publish_date: '2023-07-10T03:39:19Z'
-update_date: '2023-12-26T09:01:55Z'
-github_star: 74
-github_fork: 31
+update_date: '2024-07-14T04:45:59Z'
+github_star: 92
+github_fork: 37
 draft: false
 ---
 

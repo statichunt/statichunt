@@ -20,7 +20,7 @@ category:
   - Boilerplate
 draft: false
 publish_date: '2024-01-03T17:08:53Z'
-update_date: '2024-04-16T13:53:54Z'
+update_date: '2024-06-27T18:51:29Z'
 github_star: 1
 github_fork: 0
 ---

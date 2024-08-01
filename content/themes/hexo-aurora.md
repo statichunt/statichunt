@@ -17,9 +17,9 @@ description: >-
   give you the feel of smooth flow of colours and a futuristic feeling.
 draft: false
 publish_date: '2021-03-12T09:08:24Z'
-update_date: '2023-12-19T17:19:48Z'
-github_star: 1273
-github_fork: 206
+update_date: '2024-05-25T22:58:04Z'
+github_star: 1341
+github_fork: 214
 ---
 
 ## Key Features:

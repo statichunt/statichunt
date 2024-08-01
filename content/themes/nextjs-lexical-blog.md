@@ -20,7 +20,7 @@ category:
   - Blog
 draft: false
 publish_date: '2023-12-12T15:12:05Z'
-update_date: '2024-04-17T04:57:32Z'
-github_star: 7
-github_fork: 1
+update_date: '2024-06-10T14:34:39Z'
+github_star: 11
+github_fork: 2
 ---

@@ -15,8 +15,8 @@ cms: []
 category:
   - Boilerplate
 draft: false
-publish_date: '2023-08-04T13:34:08Z'
-update_date: '2024-04-27T00:46:27Z'
-github_star: 7
-github_fork: 1
+publish_date: '2024-06-24T21:12:49Z'
+update_date: '2024-06-28T01:13:24Z'
+github_star: 1
+github_fork: 0
 ---
