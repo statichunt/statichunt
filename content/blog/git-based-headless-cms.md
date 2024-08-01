@@ -91,7 +91,7 @@ CloudCannon is a powerful, Git-based Headless CMS designed for static site gener
 
 **Pricing :** Start from $45/month (14 days Free trial available)<br/>
 **License:**  Closed Source <br/>
-**Supported Site Generators:** Jekyll, Hugo, 11ty, SvelteKit, Next.js, Gatsby, Nuxt, Astro, MkDocs
+**Supported Site Generators:** Jekyll,<a href="https://gethugothemes.com/benefits-of-hugo" target="_blank"> Hugo </a>, 11ty, SvelteKit, Next.js, Gatsby, Nuxt, Astro, MkDocs
 
 #### Key Features
 
