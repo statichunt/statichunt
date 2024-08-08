@@ -26,7 +26,7 @@ weight: 25
 - Google PageSpeed Score 98/100 (Desktop)
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 - 20+ Unique Pages
-- Built with Tailwind 
+- Built with Tailwind
 - Netlify & Vercel  Configured
 - Google Map integrated
 - Multilingual Feature
