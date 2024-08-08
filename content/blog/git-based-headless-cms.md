@@ -31,6 +31,21 @@ This article will explore the top Git-based headless CMS options for static site
 
 - **Reduced Vendor Lock-in:** A Git-based headless CMS decouples content from the presentation layer, reducing vendor lock-in and allowing for easier migration to new platforms.
 
+## Git-based CMS vs. API-first CMS
+
+| Feature           | Git-based Headless CMS              | API-first Headless CMS            |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| **Core Architecture**    | Utilizes Git for content storage, managing files directly in a repository. | Relies on a centralized database with an API for content management. |
+| **Version Control**     | Offers robust version control through Git, allowing easy tracking and rollback of changes. | Limited version control capabilities; often requires manual backups. |
+| **Collaboration**      | Facilitates seamless collaboration with Git's branching and merging features, ideal for teams. | Collaboration can be complex; may require additional tools for effective teamwork. |
+| **Flexibility**       | Limited to Git-compatible frontends, which can restrict technology choices. | Highly flexible, allowing integration with various frontends and external systems. |
+| **Scalability**       | Best suited for smaller projects; may struggle with scaling for larger applications. | Designed for scalability, capable of handling high traffic and large content volumes. |
+| **User Experience**     | More developer-centric; non-technical users may find it challenging to navigate. | Generally more intuitive for non-developers, with user-friendly interfaces for content management. |
+| **Cost Implications**    | Typically lower costs due to minimal infrastructure requirements and no resource limitations. | Higher costs associated with infrastructure, API usage, and ongoing maintenance. |
+| **Deployment Process**    | Manual deployment processes can slow down updates and iterations. | Often supports automated deployment, enabling faster updates and continuous integration. |
+| **Data Ownership**      | Users maintain complete control over their data stored in Git repositories, reducing vendor lock-in. | Content is stored on third-party servers, which can raise concerns about data ownership and accessibility. |
+| **Use Cases**        | Ideal for smaller, simpler projects requiring strong version control and collaboration. | Best for large-scale projects that need customized technology and multiple frontends. |
+
 ## Top Git-Based Headless CMS Options
 
 ### Tina CMS
