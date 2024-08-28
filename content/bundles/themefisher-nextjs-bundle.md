@@ -9,7 +9,7 @@ price: $99
 regular_price: $199
 purchase_link: "https://themefisher.com/bundles/nextjs-bundle/"
 features:
-- "3+ Themes"
+- "5+ Themes"
 - "Premium Support"
 - "Unlimited Projects"
 - "Upcoming Themes"

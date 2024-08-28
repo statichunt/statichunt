@@ -9,7 +9,7 @@ price: $59
 regular_price: $149
 purchase_link: "https://themefisher.com/bundles/bootstrap-bundle/"
 features:
-- "13+ Themes"
+- "14+ Themes"
 - "Premium Support"
 - "Unlimited Projects"
 - "Upcoming Themes"
