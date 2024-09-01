@@ -16,6 +16,8 @@ cms:
 category:
   - Business
 draft: false
+weight: 7 
+home_weight: 18
 ---
 
 ## Key Features

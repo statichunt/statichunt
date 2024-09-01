@@ -13,7 +13,7 @@ cms: []
 category:
   - Blog
 draft: false
-home_weight: 13
+home_weight: 
 weight: null
 publish_date: '2020-02-13T17:17:32Z'
 update_date: '2022-03-28T16:08:23Z'

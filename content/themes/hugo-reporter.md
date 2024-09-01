@@ -1,12 +1,13 @@
 ---
-title: GoFolium Hugo
-download: https://gethugothemes.com/products/gofolium
+title: Reporter Hugo
+download: https://gethugothemes.com/products/reporter
+github:
 price: 79
-demo: https://demo.gethugothemes.com/gofolium/site/
+demo: https://demo.gethugothemes.com/reporter/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
-date: 2023-04-03T00:00:00.000Z
-description: Gofolium is a responsive and blazing fast-loading Hugo theme optimized to provide a portfolio site for scientists and researchers.
+date: 2024-09-01T00:00:00.000Z
+description: The reporter is a blazing fast and lightweight Hugo theme perfect for creating any kind of personal blog website.
 ssg:
   - Hugo
 css:
@@ -14,17 +15,21 @@ css:
 cms:
   - Markdown
 category:
+  - Blog
   - Portfolio
 draft: false
-weight: 35
+weight: 25
 ---
 
 ## Key Features
 
 - Google PageSpeed Score 97/100 (Desktop)
-- Supports Contact Form (Formspree)
-- 100% Responsive Design
+- Multilingual and i18n support
 - Netlify Settings Predefine
+- Supports Contact Form (Formspree)
+- Supports Disqus Comments
+- Search Functionality With Fues.js
+- 100% Responsive Design
 - Semantic HTML Document Structure
 - Compatible With Modern Browsers
 - Custom Logo Support
@@ -36,3 +41,5 @@ weight: 35
 - Image Optimized With Hugo Pipe
 - Google Font Loads From Webfont Loader
 - Clean and Modern Code
+- Supports Google, Matomo, Baidu etc. Analytics
+

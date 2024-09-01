@@ -16,7 +16,7 @@ category:
   - Ecommerce
   - Boilerplate
 draft: false
-home_weight: 12
+home_weight: 
 weight: 11
 publish_date: '2023-12-24T08:47:58Z'
 update_date: '2024-05-12T10:33:43Z'

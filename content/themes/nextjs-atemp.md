@@ -1,13 +1,13 @@
 ---
-title: Andromeda NextJs
-download: https://themefisher.com/products/andromeda-nextjs
-demo: https://andromeda-nextjs.vercel.app/
+title: Atemp NextJs
+download: https://themefisher.com/products/atemp-nextjs
+demo: https://atemp-nextjs.vercel.app/
 price: 79
 author: Themefisher
 author_link: https://themefisher.com
 date: 2023-07-11T00:00:00.000Z
 description: >-
-  Andromeda Nextjs is a multipurpose SaaS landing page theme designed to showcase any SaaS product with elegance and functionality.
+  Atemp Nextjs is a Versatile SaaS theme for startups & agencies. 15+ pages, multilingual, customizable.
 ssg:
   - Nextjs
 css:
@@ -18,8 +18,8 @@ category:
   - Business
   - Saas
 draft: false
-home_weight: 11
-weight: 6
+home_weight: 13
+weight: 10
 ---
 
 ## Key Features

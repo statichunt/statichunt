@@ -18,7 +18,7 @@ cms:
 category:
   - Boilerplate
 draft: false
-weight: 10
+weight: 
 publish_date: '2023-05-18T06:57:50Z'
 update_date: '2024-07-29T16:49:27Z'
 github_star: 371
