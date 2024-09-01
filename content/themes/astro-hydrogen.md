@@ -17,7 +17,7 @@ cms:
 category:
   - Blog
 draft: false
-home_weight: 6
+home_weight: 12
 weight: 17
 publish_date: '2024-02-27T10:13:55Z'
 update_date: '2024-02-27T10:13:25Z'

@@ -20,9 +20,9 @@
 
   "announcement": {
     "enable": true,
-    "name": "Spydea Astro Announcement",
-    "link": "https://statichunt.com/themes/astro-spydea?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
-    "content": "👉 Checkout **Spydea Astro** - Newly added Astro SaaS theme built with Astro & TailwindCSS 🔥"
+    "name": "Darkrise Astro Announcement",
+    "link": "https://statichunt.com/themes/astro-darkrise?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
+    "content": "👉 Checkout **DarkRise Astro** - Newly added Astro dark SaaS theme built with Astro & TailwindCSS 🔥"
   },
 
   "params": {

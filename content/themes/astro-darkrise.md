@@ -1,7 +1,7 @@
 ---
 title: Darkrise Astro
 download: https://themefisher.com/products/darkrise-astro
-price: 79
+price: 99
 demo: https://darkrise-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
@@ -17,7 +17,8 @@ category:
   - Business
   - Saas
 draft: false
-weight: 25
+weight: 1
+home_weight: 1
 ---
 
 ## Key Features

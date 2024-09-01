@@ -19,7 +19,7 @@ category:
   - Boilerplate
 draft: false
 home_weight: 17
-weight: 1
+weight: 3
 publish_date: '2023-04-17T06:50:06Z'
 update_date: '2024-07-31T07:46:16Z'
 github_star: 490

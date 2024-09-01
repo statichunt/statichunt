@@ -1,7 +1,7 @@
 ---
 title: Fortify Astro
 download: https://themefisher.com/products/fortify-astro
-price: 79
+price: 99
 demo: https://fortify-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
@@ -17,7 +17,8 @@ category:
   - Business
   - Saas
 draft: false
-weight: 21
+weight: 2
+home_weight: 2
 ---
 
 ## Key Features
