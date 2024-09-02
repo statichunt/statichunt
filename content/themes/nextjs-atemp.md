@@ -18,7 +18,7 @@ category:
   - Business
   - Saas
 draft: false
-home_weight: 13
+home_weight: 10
 weight: 10
 ---
 
