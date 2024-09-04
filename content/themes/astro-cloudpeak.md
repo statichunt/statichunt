@@ -1,7 +1,7 @@
 ---
 title: Cloudpeak Astro
 download: https://themefisher.com/products/cloudpeak-astro
-price: 79
+price: 99
 demo: https://cloudpeak-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
