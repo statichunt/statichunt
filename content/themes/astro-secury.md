@@ -31,9 +31,6 @@ home_weight: 6
 - Sleek Design
 - Built with Tailwind
 - Netlify & Vercel Configured
-- Google Map Integrated
-- Search Feature
-- Taxonomy support
 - Contact form support
 - Disqus Comments available
 - Support OG image

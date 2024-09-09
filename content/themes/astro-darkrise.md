@@ -28,9 +28,6 @@ home_weight: 1
 - 10+ Unique Pages
 - Built with Tailwind
 - Netlify & Vercel Configured
-- Google Map integrated
-- Search Feature
-- Taxonomy support
 - Contact form support
 - Disqus Comments available
 - Support OG image
