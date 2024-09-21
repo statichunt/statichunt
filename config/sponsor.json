@@ -25,6 +25,12 @@
       "description": "Largest premium Hugo themes provider. It has a collection of 58+ high-quality themes for users to choose from."
     },
     {
+      "name": "Tremor Labs, Inc.",
+      "image": "/sponsors/tremor-card.png",
+      "link": "https://tremor.so/?utm_campaign=statichunt",
+      "description": "250+ blocks and templates built with Tremor, Tailwind CSS, and React.js to build charts, dashboards, and beyond."
+    },
+    {
       "name": "Sponsor Slot",
       "image": "/sponsors/sponsor-card.png",
       "link": "/contact",

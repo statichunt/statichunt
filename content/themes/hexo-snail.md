@@ -14,7 +14,7 @@ cms:
   - Markdown
 category: []
 draft: false
-home_weight: 27
+home_weight: 
 weight: null
 publish_date: '2019-10-15T15:11:37Z'
 update_date: '2024-05-20T03:43:51Z'
