@@ -20,7 +20,7 @@ const SponsorCards = ({ sponsors, className }) => {
               <h4 className="h6 mb-3">
                 {sponsor.link.startsWith("http") ? (
                   <Link
-                    href={`${sponsor.link}${sponsor.link?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
+                    href={`${sponsor.link}${sponsor.link?.includes("?") ? "" : "?ref=statichunt.com"}`}
                     target="_blank"
                     rel="noopener sponsor"
                     className="stretched-link"

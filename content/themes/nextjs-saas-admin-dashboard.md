@@ -1,7 +1,7 @@
 ---
 title: SaaS Admin Dashboard
-download: https://blocks.tremor.so/templates
-demo: https://dashboard.tremor.so/
+download: https://blocks.tremor.so/templates?utm_campaign=statichunt
+demo: https://dashboard.tremor.so/?utm_campaign=statichunt
 author: Tremor Labs, Inc.
 author_link: https://tremor.so/
 date: 2024-09-18T00:00:00.000Z

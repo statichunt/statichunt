@@ -24,7 +24,7 @@ const Tools = ({ tools }) => {
                 {tool.frontmatter.title}
                 <a
                   className="stretched-link"
-                  href={`${tool.frontmatter.website}${tool.frontmatter.website?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
+                  href={`${tool.frontmatter.website}${tool.frontmatter.website?.includes("?") ? "" : "?ref=statichunt.com"}`}
                   rel="noopener noreferrer nofollow"
                   target="_blank"
                 >
