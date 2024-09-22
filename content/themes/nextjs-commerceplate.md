@@ -16,10 +16,10 @@ category:
   - Ecommerce
   - Boilerplate
 draft: false
-home_weight: 
+home_weight: null
 weight: 11
 publish_date: '2023-12-24T08:47:58Z'
-update_date: '2024-05-12T10:33:43Z'
-github_star: 63
-github_fork: 60
+update_date: '2024-08-08T10:39:35Z'
+github_star: 83
+github_fork: 87
 ---

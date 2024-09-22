@@ -16,6 +16,6 @@ description: A Gatsby theme for artists, photographers and other creative folks.
 draft: false
 publish_date: '2019-07-24T06:20:23Z'
 update_date: '2021-12-03T06:00:11Z'
-github_star: 137
-github_fork: 34
+github_star: 138
+github_fork: 35
 ---

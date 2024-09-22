@@ -18,11 +18,11 @@ cms:
 category:
   - Boilerplate
 draft: false
-weight: 
+weight: null
 publish_date: '2023-05-18T06:57:50Z'
-update_date: '2024-07-29T16:49:27Z'
-github_star: 371
-github_fork: 240
+update_date: '2024-08-06T10:36:01Z'
+github_star: 397
+github_fork: 250
 ---
 
 ## Key Features

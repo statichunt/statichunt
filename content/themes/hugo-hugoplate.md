@@ -18,12 +18,12 @@ description: >-
   providing everything you need to jumpstart your Hugo project and save valuable
   time.
 home_weight: 26
-weight: 
+weight: null
 draft: false
 publish_date: '2023-05-25T10:41:33Z'
-update_date: '2024-07-11T03:07:20Z'
-github_star: 725
-github_fork: 207
+update_date: '2024-09-16T10:47:55Z'
+github_star: 811
+github_fork: 222
 ---
 
 ## Key Features
