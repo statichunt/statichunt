@@ -39,7 +39,7 @@ Submit a Jamstack example website by adding a markdown file to the `content/exam
 
 ## Contribution Guidelines
 
-- Any Jamstack themes can be submitted.
+- Any Composable themes can be submitted.
 - Please make sure the theme demo URL links to a demo of the theme and not your personal or business site.
 - Don't submit any affiliate links.
 

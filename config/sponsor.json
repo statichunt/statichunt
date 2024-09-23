@@ -7,28 +7,28 @@
       "description": "Themefisher offers over 120 premium and free website templates built with modern technologies like Astro, NextJs, Hugo, Tailwind, and Bootstrap."
     },
     {
-      "name": "Zeon Studio",
-      "image": "/sponsors/zeonstudio-card.png",
-      "link": "https://zeon.studio/",
-      "description": "Zeon Studio is a composable web agency offering modern web development, UI/UX design, and website migration services."
-    },
-    {
       "name": "WrapPixel",
       "image": "/sponsors/wrappixel-card.png",
       "link": "https://www.wrappixel.com/templates/category/admin-dashboard-templates/?ref=317",
       "description": "80+ premium and free admin dashboard templates built with modern technologies like React, Vue, Angular, and Bootstrap."
     },
     {
-      "name": "Gethugothemes",
-      "image": "/sponsors/gethugothemes-card.png",
-      "link": "https://gethugothemes.com/",
-      "description": "Largest premium Hugo themes provider. It has a collection of 58+ high-quality themes for users to choose from."
-    },
-    {
       "name": "Tremor Labs, Inc.",
       "image": "/sponsors/tremor-card.png",
       "link": "https://tremor.so/?utm_campaign=statichunt",
       "description": "250+ blocks and templates built with Tremor, Tailwind CSS, and React.js to build charts, dashboards, and beyond."
+    },
+    {
+      "name": "Zeon Studio",
+      "image": "/sponsors/zeonstudio-card.png",
+      "link": "https://zeon.studio/",
+      "description": "Zeon Studio is a composable web agency offering modern web development, UI/UX design, and website migration services."
+    },
+    {
+      "name": "Gethugothemes",
+      "image": "/sponsors/gethugothemes-card.png",
+      "link": "https://gethugothemes.com/",
+      "description": "Largest premium Hugo themes provider. It has a collection of 58+ high-quality themes for users to choose from."
     },
     {
       "name": "Sponsor Slot",

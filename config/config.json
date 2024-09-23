@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Statichunt - <themes> Jamstack Themes, Templates & Tools Directory",
+    "title": "Statichunt - <themes> Composable Themes, Templates & Tools Directory",
     "base_url": "https://statichunt.com",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
@@ -33,7 +33,7 @@
   "metadata": {
     "meta_author": "Statichunt",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Statichunt is a directory of themes, templates, and tools exclusively designed for JAMStack sites. Browse through hundreds of options and find the perfect fit for your JAMStack project!"
+    "meta_description": "Statichunt is a directory of themes, templates, and tools exclusively designed for Composable sites. Browse through hundreds of options and find the perfect fit for your Composable project!"
   },
 
   "sidebar": [
