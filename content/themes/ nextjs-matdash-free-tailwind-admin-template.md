@@ -1,7 +1,7 @@
 ---
 title: MatDash Free Tailwind Next.js Admin Template
 download: https://adminmart.com/product/matdash-free-next-js-admin-template/?ref=317
-demo: https://demos.adminmart.com/free/nextjs/matdash-nextjs-free/landingpage/index.html
+demo: https://matdash-nextjs-free.vercel.app/
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2024-09-24T00:00:00.000Z
