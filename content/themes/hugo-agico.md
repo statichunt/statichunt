@@ -18,7 +18,7 @@ category:
   - Business
 draft: false
 weight: 6
-home_weight: 17
+home_weight: 31
 ---
 
 ## Key Features
