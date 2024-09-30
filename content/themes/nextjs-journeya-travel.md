@@ -17,7 +17,6 @@ cms: []
 
 category:
   - Business
-  - Travel
   - Blog
   - Portfolio
   - Dashboard
