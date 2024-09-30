@@ -9,7 +9,7 @@ price: $149
 regular_price: $299
 purchase_link: "https://themefisher.com/bundles/astro-bundle/"
 features:
-- "15+ Themes"
+- "21+ Themes"
 - "Premium Support"
 - "Unlimited Projects"
 - "Upcoming Themes"
