@@ -13,11 +13,10 @@ ssg:
 css:
   - Tailwind
 
-cms: []
+cms: 
 
 category:
   - Business
-  - Travel
   - Blog
   - Portfolio
   - Dashboard

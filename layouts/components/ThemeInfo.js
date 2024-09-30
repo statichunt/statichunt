@@ -30,7 +30,7 @@ const ThemeInfo = ({ theme, slug }) => {
             <a
               className="btn btn-demo mr-4 w-1/2 sm:px-10 lg:px-7 xl:px-10"
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener nofollow"
               href={`/demo/${slug}`}
             >
               Live Demo
@@ -38,11 +38,11 @@ const ThemeInfo = ({ theme, slug }) => {
 
             <a
               className="btn btn-primary w-1/2 sm:px-10 lg:px-7 xl:px-10"
-              href={`${github ? github : download}${download?.includes("?ref=") ? "" : "?ref=statichunt.com"}`}
+              href={`${github ? github : download}${download?.includes("?") ? "" : "?ref=statichunt.com"}`}
               target="_blank"
               rel={`noopener ${price ? "sponsor" : "nofollow"}`}
             >
-              Download
+              More Info
             </a>
           </div>
           {github && (

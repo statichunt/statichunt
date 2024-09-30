@@ -16,10 +16,10 @@ category:
   - Saas
 draft: false
 publish_date: '2022-12-17T12:03:07Z'
-update_date: '2024-06-28T11:31:50Z'
-github_star: 226
-github_fork: 77
-home_weight: 11
+update_date: '2024-09-21T16:53:02Z'
+github_star: 247
+github_fork: 85
+home_weight: null
 weight: null
 ---
 

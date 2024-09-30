@@ -1,5 +1,5 @@
 ---
-title: Visionex Astro
+title: Dexler Astro
 download: https://themefisher.com/products/dexler-astro
 price: 79
 demo: https://dexler-astro.vercel.app/
@@ -17,7 +17,7 @@ category:
   - Business
   - Saas
 draft: false
-weight: 14
+weight: 21
 ---
 
 ## Key Features

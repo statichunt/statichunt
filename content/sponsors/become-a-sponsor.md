@@ -7,7 +7,7 @@ draft: false
 
 **Statichunt is now open to sponsorship opportunities!**
 
-Statichunt is the largest and fastest-growing JAMStack themes and resources directory.
+Statichunt is the largest and fastest-growing Composable themes and resources directory.
 
 You can support and involved with this project by becoming a sponsor. Please read on to see the available sponsorship options.
 
@@ -17,7 +17,7 @@ You can support and involved with this project by becoming a sponsor. Please rea
 
 - Page views in December,2023 on Statichunt → 40,000+
 
-- Number of JAMStack Themes → 3500+
+- Number of Composable Themes → 3500+
 
 - Number of Tools → 100+
 

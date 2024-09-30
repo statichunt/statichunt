@@ -130,7 +130,7 @@ const Header = () => {
               href="https://zeon.studio/?ref=statichunt.com"
               target="_blank"
             >
-              Need Jamstack Expert?
+              Need Custom Development?
             </a>
           </div>
         </nav>

@@ -16,6 +16,6 @@ cms:
 category:
   - Saas
 draft: false
-home_weight: 21
-weight: 14
+home_weight: 
+weight: 
 ---

@@ -9,7 +9,7 @@ price: $139
 regular_price: $499
 purchase_link: "https://gethugothemes.com/bundle"
 features:
-- "58+ Themes"
+- "60+ Themes"
 - "Premium Support"
 - "Unlimited Projects"
 - "Upcoming Themes"
