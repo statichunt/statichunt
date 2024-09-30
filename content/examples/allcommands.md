@@ -10,6 +10,6 @@ css:
 cms:
   - Markdown
 category:
-  - Reference
+  - Documentation
 draft: false
 ---
