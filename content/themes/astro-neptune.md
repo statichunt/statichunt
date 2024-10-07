@@ -1,7 +1,7 @@
 ---
 title: Neptune Astro
 download: https://themefisher.com/products/neptune-astro
-price: 79
+price: 99
 demo: https://neptune-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

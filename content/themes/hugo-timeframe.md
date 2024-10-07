@@ -1,7 +1,7 @@
 ---
 title: Timeframe Hugo
 download: https://gethugothemes.com/products/timeframe
-price: 79
+price: 99
 demo: https://demo.gethugothemes.com/timeframe/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

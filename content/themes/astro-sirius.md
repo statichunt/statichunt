@@ -1,7 +1,7 @@
 ---
 title: Sirius Astro
 download: https://themefisher.com/products/sirius-astro
-price: 79
+price: 99
 demo: https://sirius-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

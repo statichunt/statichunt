@@ -2,7 +2,7 @@
 title: Professors Hugo
 download: https://gethugothemes.com/products/professors
 github:
-price: 79
+price: 99
 demo: https://demo.gethugothemes.com/professors/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

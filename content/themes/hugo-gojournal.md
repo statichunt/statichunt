@@ -1,7 +1,7 @@
 ---
 title: Gojournal Hugo
 download: https://gethugothemes.com/products/gojournal
-price: 79
+price: 99
 demo: https://demo.gethugothemes.com/gojournal/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

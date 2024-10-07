@@ -2,7 +2,7 @@
 title: LogBook Hugo
 download: https://gethugothemes.com/products/logbook
 github:
-price: 79
+price: 99
 demo: https://demo.gethugothemes.com/logbook/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

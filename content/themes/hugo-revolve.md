@@ -2,7 +2,7 @@
 title: Revolve Hugo
 download: https://gethugothemes.com/products/revolve
 github:
-price: 79
+price: 99
 demo: https://demo.gethugothemes.com/revolve/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
