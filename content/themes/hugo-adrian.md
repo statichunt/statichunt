@@ -1,7 +1,7 @@
 ---
 title: Adrian Hugo
 download: https://gethugothemes.com/products/adrian
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/adrian/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

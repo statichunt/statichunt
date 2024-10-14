@@ -2,7 +2,7 @@
 title: Atemp NextJs
 download: https://themefisher.com/products/atemp-nextjs
 demo: https://atemp-nextjs.vercel.app/
-price: 99
+price: 79
 author: Themefisher
 author_link: https://themefisher.com
 date: 2023-07-11T00:00:00.000Z

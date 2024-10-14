@@ -1,7 +1,7 @@
 ---
 title: Wallet Hugo
 download: https://gethugothemes.com/products/wallet
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/wallet/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

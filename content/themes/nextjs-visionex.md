@@ -1,7 +1,7 @@
 ---
 title: Visionex Nextjs
 download: https://themefisher.com/products/visionex-nextjs
-price: 99
+price: 79
 demo: https://visionex-nextjs.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

@@ -1,7 +1,7 @@
 ---
 title: Gosaas Hugo
 download: https://gethugothemes.com/products/gosaas
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/gosaas/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

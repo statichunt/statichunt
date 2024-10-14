@@ -1,7 +1,7 @@
 ---
 title: Icelab Hugo
 download: https://gethugothemes.com/products/icelab
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/icelab/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

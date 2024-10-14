@@ -1,7 +1,7 @@
 ---
 title: Galaxy Hugo
 download: https://gethugothemes.com/products/galaxy
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/galaxy/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

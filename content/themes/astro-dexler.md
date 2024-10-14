@@ -1,7 +1,7 @@
 ---
 title: Dexler Astro
 download: https://themefisher.com/products/dexler-astro
-price: 99
+price: 79
 demo: https://dexler-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

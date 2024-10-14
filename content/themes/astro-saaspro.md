@@ -1,7 +1,7 @@
 ---
 title: Saaspro Astro
 download: https://themefisher.com/products/saaspro-astro
-price: 99
+price: 79
 demo: https://saaspro-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

@@ -2,7 +2,7 @@
 title: Biztrox Hugo
 download: https://gethugothemes.com/products/biztrox
 github:
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/biztrox/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

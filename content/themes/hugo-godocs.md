@@ -1,7 +1,7 @@
 ---
 title: Godocs Hugo
 download: https://gethugothemes.com/products/godocs
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/godocs/site/style-1/
 author: Gethugothemes
 author_link: https://gethugothemes.com

@@ -1,7 +1,7 @@
 ---
 title: Spydea Astro
 download: https://themefisher.com/products/spydea-astro
-price: 99
+price: 79
 demo: https://spydea-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

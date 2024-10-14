@@ -2,7 +2,7 @@
 title: Andromeda NextJs
 download: https://themefisher.com/products/andromeda-nextjs
 demo: https://andromeda-nextjs.vercel.app/
-price: 99
+price: 79
 author: Themefisher
 author_link: https://themefisher.com
 date: 2023-07-11T00:00:00.000Z

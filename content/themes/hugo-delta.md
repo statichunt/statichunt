@@ -2,7 +2,7 @@
 title: Delta Hugo
 download: https://gethugothemes.com/products/delta
 github:
-price: 99
+price: 79
 demo: https://demo.gethugothemes.com/delta/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
