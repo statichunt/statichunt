@@ -21,9 +21,9 @@ home_weight: 26
 weight: null
 draft: false
 publish_date: '2023-05-25T10:41:33Z'
-update_date: '2024-09-16T10:47:55Z'
-github_star: 811
-github_fork: 222
+update_date: '2024-10-02T07:26:41Z'
+github_star: 843
+github_fork: 233
 ---
 
 ## Key Features

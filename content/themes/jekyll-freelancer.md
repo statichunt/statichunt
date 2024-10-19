@@ -14,6 +14,6 @@ description: Jekyll theme based on Freelancer Start Bootstrap theme
 draft: false
 publish_date: '2014-07-19T15:13:08Z'
 update_date: '2023-06-23T13:24:34Z'
-github_star: 1447
-github_fork: 2254
+github_star: 1448
+github_fork: 2285
 ---

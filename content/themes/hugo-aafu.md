@@ -16,7 +16,7 @@ category:
   - Portfolio
 draft: false
 publish_date: '2019-03-10T23:26:13Z'
-update_date: '2024-03-01T04:56:18Z'
-github_star: 47
+update_date: '2024-10-13T22:51:28Z'
+github_star: 48
 github_fork: 58
 ---

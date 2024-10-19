@@ -14,7 +14,7 @@ category:
   - Blog
 draft: false
 publish_date: '2015-06-15T23:10:12Z'
-update_date: '2024-08-19T19:11:32Z'
-github_star: 59
+update_date: '2024-10-16T14:29:07Z'
+github_star: 60
 github_fork: 57
 ---
