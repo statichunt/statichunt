@@ -20,9 +20,9 @@
 
   "announcement": {
     "enable": true,
-    "name": "Darkrise Astro Announcement",
-    "link": "https://statichunt.com/themes/astro-darkrise?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
-    "content": "👉 Checkout **DarkRise Astro** - Newly added Astro dark SaaS theme built with Astro & TailwindCSS 🔥"
+    "name": "BlazeX Astro Announcement",
+    "link": "https://statichunt.com/themes/astro-blazex?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
+    "content": "👉 Checkout **BlazeX Astro** - Newly added Astro dark SaaS theme built with Astro & TailwindCSS 🔥"
   },
 
   "params": {
