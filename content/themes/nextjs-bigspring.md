@@ -1,10 +1,11 @@
 ---
-title: Bigspring Nextjs
-github: https://github.com/themefisher/bigspring-nextjs
+title:  Bigspring NextJs
+download: https://themefisher.com/products/bigspring-nextjs
 demo: https://bigspring-nextjs.vercel.app/
+price: 79
 author: Themefisher
 author_link: https://themefisher.com
-date: 2024-7-29T00:00:00.000Z
+date: 2023-07-11T00:00:00.000Z
 description: >-
   Bigspring is a modern, responsive business template built with Nextjs. It features a clean, minimal design and includes pre-designed pages such as a homepage, pricing, blog, blog single, contact and FAQs. This theme is ideal for SaaS and marketing websites.
 ssg:
@@ -17,12 +18,9 @@ category:
   - Business
   - Saas
 draft: false
-publish_date: '2022-12-09T10:30:16Z'
-update_date: '2023-05-20T03:56:28Z'
-github_star: 177
-github_fork: 113
 weight: 3
 home_weight: 12
+
 ---
 
 ## Key Features
@@ -42,3 +40,4 @@ home_weight: 12
 - Free Google fonts
 - Font Awesome icons
 - Clean code
+
