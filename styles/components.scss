@@ -516,3 +516,33 @@ select:required:invalid {
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:px-3 prose-td:py-4 prose-td:dark:text-light;
 }
+
+// black friday
+
+.black-friday-gradient {
+  background: linear-gradient(
+    91deg,
+    #059669 0.53%,
+    #25b1c8 56.58%,
+    #fff 118.79%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  animation: gradient 20s ease infinite;
+}
+
+.hook-line {
+  opacity: 0.7;
+  background: linear-gradient(
+    90deg,
+    #059669,
+    #57cbdd 31.01%,
+    #57cbdd 72.4%,
+    #fff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -13,13 +13,13 @@
       "url": "/examples"
     },
     {
-      "name": "Bundles",
-      "url": "/bundles",
+      "name": "Friday",
+      "url": "/deals",
       "badge": "offer"
     },
     {
       "name": "Blog",
-      "url": "/blog" 
+      "url": "/blog"
     },
     {
       "name": "Contact",
