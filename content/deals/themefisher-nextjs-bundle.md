@@ -7,7 +7,7 @@ description: ""
 date: 2024-02-14
 price: $89
 regular_price: $199
-purchase_link: "https://themefisher.com/bundles/nextjs-bundle/"
+purchase_link: "https://themefisher.com/deals"
 features:
 - "5+ Themes"
 - "Premium Support"

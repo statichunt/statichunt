@@ -7,7 +7,7 @@ description: ""
 date: 2024-08-28
 price: $139
 regular_price: $299
-purchase_link: "https://themefisher.com/bundles/astro-bundle/"
+purchase_link: "https://themefisher.com/deals"
 features:
 - "23+ Themes"
 - "Premium Support"

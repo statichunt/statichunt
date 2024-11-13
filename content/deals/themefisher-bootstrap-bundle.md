@@ -7,7 +7,7 @@ description: ""
 date: 2024-02-14
 price: $39
 regular_price: $199
-purchase_link: "https://themefisher.com/bundles/bootstrap-bundle/"
+purchase_link: "https://themefisher.com/deals"
 features:
 - "14+ Themes"
 - "Premium Support"
