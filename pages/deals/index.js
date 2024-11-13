@@ -4,11 +4,27 @@ import MobileSidebar from "@/partials/MobileSidebar";
 import { parseMDX } from "lib/utils/mdxParser";
 import Image from "next/image";
 import Link from "next/link";
+import { useRef } from "react";
 import { FaRegCircleCheck } from "react-icons/fa6";
 
 const Bundles = ({ indexPage, mdxContent, bundles }) => {
   const { content, frontmatter } = indexPage;
   const { title, meta_title, description, image } = frontmatter;
+  const ref = useRef(null);
+
+  const handleScroll = () => {
+    if (ref.current) {
+      const offsetTop = 74;
+      const elementPosition =
+        ref.current.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - offsetTop;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <Base
@@ -36,7 +52,10 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
               Supercharge your web development workflow with handpicked Jamstack
               theme bundles!
             </p>
-            <button className="btn w-48 font-bold h-12 btn-primary">
+            <button
+              onClick={handleScroll}
+              className="btn w-48 font-bold h-12 btn-primary"
+            >
               <Image
                 className="absolute -top-[75px] -right-[133px]"
                 alt="discount"
@@ -48,8 +67,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
             </button>
           </div>
         </div>
-
-        <div className="container mt-5">
+        <div ref={ref} className="container mt-16" id="bundles">
           <div className="row mb-8 justify-center">
             <div className="col-10 text-center">
               {/* {markdownify(title, "h1", "mb-8")} */}

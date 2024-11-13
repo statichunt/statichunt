@@ -1,3 +1,7 @@
+html {
+  @apply scroll-smooth;
+}
+
 // theme switcher
 .theme-switcher {
   @apply relative inline-flex h-[28px] w-[52px] cursor-pointer items-center justify-center rounded-full bg-theme-light text-dark dark:bg-darkmode-theme-dark dark:text-white;
