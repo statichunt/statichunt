@@ -42,7 +42,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
             </div>
             <h1 className="my-5 text-balance dark:text-white mb-3 text-3xl sm:text-5xl lg:text-7xl font-primary leading-relaxed lg:leading-[92px]">
               <div>
-                <span className="black-friday-gradient relative">
+                <span className="text-gradient-primary relative">
                   Friday Sale!
                 </span>
               </div>

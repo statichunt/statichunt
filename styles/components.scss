@@ -521,9 +521,7 @@ select:required:invalid {
   @apply prose-td:px-3 prose-td:py-4 prose-td:dark:text-light;
 }
 
-// black friday
-
-.black-friday-gradient {
+.text-gradient-primary {
   background: linear-gradient(91deg, #059669 0.53%, #25b1c8 56.58%);
   background-clip: text;
   -webkit-background-clip: text;
