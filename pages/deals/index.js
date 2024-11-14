@@ -36,7 +36,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
       <MobileSidebar />
       <section className="section">
         <div className="container">
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="max-w-2xl w-full mx-auto text-center">
             <div className="flex space-x-2 items-center justify-center">
               <p className="hook-line">Friday Exclusive!</p>
             </div>
@@ -56,13 +56,6 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
               onClick={handleScroll}
               className="btn w-48 font-bold h-12 btn-primary"
             >
-              <Image
-                className="absolute -top-[75px] -right-[133px]"
-                alt="discount"
-                src={"/black-friday/discount-down.svg"}
-                width={170}
-                height={170}
-              />
               Explore Deals!
             </button>
           </div>
