@@ -40,7 +40,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
             <div className="flex space-x-2 items-center justify-center">
               <p className="hook-line">Friday Exclusive!</p>
             </div>
-            <h1 className="my-5 text-balance text-white mb-3 text-3xl sm:text-5xl lg:text-7xl font-primary leading-relaxed lg:leading-[92px]">
+            <h1 className="my-5 text-balance dark:text-white mb-3 text-3xl sm:text-5xl lg:text-7xl font-primary leading-relaxed lg:leading-[92px]">
               <div>
                 <span className="black-friday-gradient relative">
                   Friday Sale!
@@ -48,7 +48,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
               </div>
               Up to 80% OFF!
             </h1>
-            <p className="lg:text-xl font-normal text-white pb-8">
+            <p className="lg:text-xl font-normal dark:text-white pb-8">
               Supercharge your web development workflow with handpicked Jamstack
               theme bundles!
             </p>

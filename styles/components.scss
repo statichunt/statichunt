@@ -524,12 +524,7 @@ select:required:invalid {
 // black friday
 
 .black-friday-gradient {
-  background: linear-gradient(
-    91deg,
-    #059669 0.53%,
-    #25b1c8 56.58%,
-    #fff 118.79%
-  );
+  background: linear-gradient(91deg, #059669 0.53%, #25b1c8 56.58%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -539,13 +534,7 @@ select:required:invalid {
 
 .hook-line {
   opacity: 0.7;
-  background: linear-gradient(
-    90deg,
-    #059669,
-    #57cbdd 31.01%,
-    #57cbdd 72.4%,
-    #fff 100%
-  );
+  background: linear-gradient(90deg, #059669, #57cbdd 100%, #57cbdd 72.4%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
