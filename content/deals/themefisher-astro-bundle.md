@@ -1,6 +1,6 @@
 ---
 title: Themefisher Astro Bundle
-image: "/bundles/themefisher-astro-bundle.png"
+image: "/bundles/themefisher-astro-big-friday-bundle.png"
 author: Themefisher
 author_link: "https://themefisher.com/"
 description: ""

@@ -1,6 +1,6 @@
 ---
 title: Gethugothemes Hugo Bundle
-image: "/bundles/gethugothemes-hugo-bundle.png"
+image: "/bundles/gethugothemes-hugo-big-friday-bundle.png"
 author: Gethugothemes
 author_link: "https://gethugothemes.com/"
 description: ""

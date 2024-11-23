@@ -1,6 +1,6 @@
 ---
 title: Themefisher NextJs Bundle
-image: "/bundles/themefisher-nextjs-bundle.png"
+image: "/bundles/themefisher-nextjs-big-friday-bundle.png"
 author: Themefisher
 author_link: "https://themefisher.com/"
 description: ""

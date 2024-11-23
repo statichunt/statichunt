@@ -1,6 +1,6 @@
 ---
 title: Themefisher Bootstrap Bundle
-image: "/bundles/themefisher-bootstrap-bundle.png"
+image: "/bundles/themefisher-bootstrap-big-friday-bundle.png"
 author: Themefisher
 author_link: "https://themefisher.com/"
 description: ""
