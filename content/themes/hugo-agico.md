@@ -17,7 +17,7 @@ cms:
 category:
   - Business
 draft: false
-weight: 6
+weight: 
 home_weight: 
 ---
 
