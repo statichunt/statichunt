@@ -1,6 +1,6 @@
 ---
 title: Biztrox Hugo
-download: https://gethugothemes.com/products/biztrox
+download: https://gethugothemes.com/products/biztrox?aff=statichunt
 github:
 price: 79
 demo: https://demo.gethugothemes.com/biztrox/site/

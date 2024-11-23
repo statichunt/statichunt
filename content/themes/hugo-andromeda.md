@@ -1,6 +1,6 @@
 ---
 title: Andromeda Hugo
-download: https://gethugothemes.com/products/andromeda
+download: https://gethugothemes.com/products/andromeda?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/andromeda/site/
 author: Gethugothemes

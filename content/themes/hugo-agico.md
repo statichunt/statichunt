@@ -1,7 +1,6 @@
 ---
 title: Agico Hugo
-download: https://gethugothemes.com/products/agico
-github:
+download: https://gethugothemes.com/products/agico?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/agico/site/
 author: Gethugothemes

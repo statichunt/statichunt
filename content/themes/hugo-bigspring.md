@@ -1,6 +1,6 @@
 ---
 title: Bigspring Hugo
-download: https://gethugothemes.com/products/bigspring
+download: https://gethugothemes.com/products/bigspring?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/bigspring/site/
 author: Gethugothemes
