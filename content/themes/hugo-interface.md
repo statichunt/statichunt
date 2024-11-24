@@ -1,6 +1,6 @@
 ---
 title: Interface Hugo
-download: https://gethugothemes.com/products/interface
+download: https://gethugothemes.com/products/interface?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/interface/site/
 author: Gethugothemes

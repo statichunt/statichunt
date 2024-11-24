@@ -1,6 +1,6 @@
 ---
 title: Gojournal Hugo
-download: https://gethugothemes.com/products/gojournal
+download: https://gethugothemes.com/products/gojournal?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/gojournal/site/
 author: Gethugothemes

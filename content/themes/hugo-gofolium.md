@@ -1,6 +1,6 @@
 ---
 title: GoFolium Hugo
-download: https://gethugothemes.com/products/gofolium
+download: https://gethugothemes.com/products/gofolium?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/gofolium/site/
 author: Gethugothemes

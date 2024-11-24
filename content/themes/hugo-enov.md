@@ -1,6 +1,6 @@
 ---
 title: Enov Hugo
-download: https://gethugothemes.com/products/enov
+download: https://gethugothemes.com/products/enov?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/enov/site/
 author: Gethugothemes

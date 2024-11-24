@@ -1,6 +1,6 @@
 ---
 title: Eventre Hugo
-download: https://gethugothemes.com/products/eventre
+download: https://gethugothemes.com/products/eventre?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/eventre/site/
 author: Gethugothemes

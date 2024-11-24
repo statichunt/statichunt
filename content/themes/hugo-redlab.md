@@ -1,6 +1,6 @@
 ---
 title: Redlab Hugo
-download: https://gethugothemes.com/products/redlab
+download: https://gethugothemes.com/products/redlab?aff=statichunt
 github:
 price: 79
 demo: https://demo.gethugothemes.com/redlab/site/

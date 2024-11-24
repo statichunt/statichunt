@@ -1,6 +1,6 @@
 ---
 title: Editor Hugo
-download: https://gethugothemes.com/products/editor
+download: https://gethugothemes.com/products/editor?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/editor/site/
 author: Gethugothemes

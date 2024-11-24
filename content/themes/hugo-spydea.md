@@ -1,6 +1,6 @@
 ---
 title: Spydea Hugo
-download: https://gethugothemes.com/products/spydea
+download: https://gethugothemes.com/products/spydea?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/spydea/site/
 author: Gethugothemes

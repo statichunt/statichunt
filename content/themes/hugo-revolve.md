@@ -1,6 +1,6 @@
 ---
 title: Revolve Hugo
-download: https://gethugothemes.com/products/revolve
+download: https://gethugothemes.com/products/revolve?aff=statichunt
 github:
 price: 79
 demo: https://demo.gethugothemes.com/revolve/site/

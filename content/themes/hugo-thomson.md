@@ -1,6 +1,6 @@
 ---
 title: Thomson Hugo
-download: https://gethugothemes.com/products/thomson
+download: https://gethugothemes.com/products/thomson?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/thomson/site/
 author: Gethugothemes

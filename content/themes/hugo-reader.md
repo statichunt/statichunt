@@ -1,6 +1,6 @@
 ---
 title: Reader Hugo
-download: https://gethugothemes.com/products/reader
+download: https://gethugothemes.com/products/reader?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/reader/site/
 author: Gethugothemes

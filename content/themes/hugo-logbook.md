@@ -1,6 +1,6 @@
 ---
 title: LogBook Hugo
-download: https://gethugothemes.com/products/logbook
+download: https://gethugothemes.com/products/logbook?aff=statichunt
 github:
 price: 79
 demo: https://demo.gethugothemes.com/logbook/site/

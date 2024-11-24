@@ -1,6 +1,6 @@
 ---
 title: Reporter Hugo
-download: https://gethugothemes.com/products/reporter
+download: https://gethugothemes.com/products/reporter?aff=statichunt
 github:
 price: 79
 demo: https://demo.gethugothemes.com/reporter/site/

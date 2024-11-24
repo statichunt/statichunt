@@ -1,6 +1,6 @@
 ---
 title: Saasis Hugo
-download: https://gethugothemes.com/products/saasis
+download: https://gethugothemes.com/products/saasis?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/saasis/site/
 author: Gethugothemes

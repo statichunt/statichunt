@@ -1,6 +1,6 @@
 ---
 title: Small Apps Hugo
-download: https://gethugothemes.com/products/small-apps
+download: https://gethugothemes.com/products/small-apps?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/small-apps/site/
 author: Gethugothemes

@@ -1,6 +1,6 @@
 ---
 title: Vixcon Hugo
-download: https://gethugothemes.com/products/vixcon
+download: https://gethugothemes.com/products/vixcon?aff=statichunt
 price: 79
 demo: https://demo.gethugothemes.com/vixcon/site/
 author: Gethugothemes
