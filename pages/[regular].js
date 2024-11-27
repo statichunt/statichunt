@@ -27,6 +27,7 @@ const RegularPages = ({
   slug,
   ssgSlug,
   cssSlug,
+  uiSlug,
   toolsCategorySlug,
   currentPage,
   data,
@@ -99,7 +100,9 @@ const RegularPages = ({
       noindex={noindex}
       canonical={canonical}
     >
-      {ssgSlug.includes(slug) || cssSlug.includes(slug) ? (
+      {ssgSlug.includes(slug) ||
+      cssSlug.includes(slug) ||
+      uiSlug.includes(slug) ? (
         <div className="flex">
           <Sidebar
             themes={
@@ -179,12 +182,14 @@ export const getStaticProps = async ({ params }) => {
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
+  const ui = getSinglePage("content/ui");
   const category = getSinglePage("content/category");
   const toolsCategory = getSinglePage("content/tools-category");
 
   // get taxonomies slug
   const ssgSlug = getSinglePageSlug("content/ssg");
   const cssSlug = getSinglePageSlug("content/css");
+  const uiSlug = getSinglePageSlug("content/ui");
   const toolsCategorySlug = getSinglePageSlug("content/tools-category");
 
   // ssg page
@@ -207,6 +212,15 @@ export const getStaticProps = async ({ params }) => {
         : page.slug === regular,
     );
 
+  // ui page
+  const uiPage =
+    ui.length &&
+    ui.filter((page) =>
+      page.frontmatter?.url
+        ? page.frontmatter.url === `/${regular}`
+        : page.slug === regular,
+    );
+
   // toolsCategory page
   const toolsCategoryPage =
     toolsCategory.length &&
@@ -221,9 +235,11 @@ export const getStaticProps = async ({ params }) => {
     ? slugify(ssgPage[0]?.frontmatter.title)
     : cssPage.length
       ? slugify(cssPage[0]?.frontmatter.title)
-      : toolsCategoryPage.length
-        ? slugify(toolsCategoryPage[0]?.frontmatter.title)
-        : regular;
+      : uiPage.length
+        ? slugify(uiPage[0]?.frontmatter.title)
+        : toolsCategoryPage.length
+          ? slugify(toolsCategoryPage[0]?.frontmatter.title)
+          : regular;
 
   const currentPageData = await getRegularPage(getCurrentPage, regular);
 
@@ -239,9 +255,11 @@ export const getStaticProps = async ({ params }) => {
       ? ssgPage
       : cssPage.length
         ? cssPage
-        : toolsCategoryPage.length
-          ? toolsCategoryPage
-          : defaultPage;
+        : uiPage.length
+          ? uiPage
+          : toolsCategoryPage.length
+            ? toolsCategoryPage
+            : defaultPage;
 
   // current page MDXContent
   const mdxContent = await parseMDX(currentPageData[0]?.content);
@@ -251,6 +269,7 @@ export const getStaticProps = async ({ params }) => {
       slug: regular,
       ssgSlug: ssgSlug,
       cssSlug: cssSlug,
+      uiSlug: uiSlug,
       toolsCategorySlug: toolsCategorySlug,
       currentPage: currentPage,
       data: currentPageData,

@@ -39,8 +39,8 @@
   "sidebar": [
     { "type": "ssg", "title": "Static Site Generator" },
     { "type": "css", "title": "CSS Framework" },
-    { "type": "cms", "title": "Jamstack CMS" },
     { "type": "ui", "title": "UI Library" },
+    { "type": "cms", "title": "Jamstack CMS" },
     { "type": "category", "title": "Category" },
     { "type": "tools-category", "title": "Category" }
   ],
