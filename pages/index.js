@@ -22,6 +22,7 @@ const Home = ({
   frontmatter: { intro },
   cms,
   css,
+  ui,
   ssg,
   category,
   themes,
@@ -38,6 +39,7 @@ const Home = ({
     arraySSG,
     arrayCMS,
     arrayCSS,
+    arrayUI,
     arrayCategory,
     arrayFree,
     arrayPremium,
@@ -60,7 +62,8 @@ const Home = ({
   const filterSSG = filterFunction(sortedThemes, arraySSG, "ssg");
   const filterCMS = filterFunction(filterSSG, arrayCMS, "cms");
   const filterCSS = filterFunction(filterCMS, arrayCSS, "css");
-  const filterCategory = filterFunction(filterCSS, arrayCategory, "category");
+  const filterUI = filterFunction(filterCSS, arrayUI, "ui");
+  const filterCategory = filterFunction(filterUI, arrayCategory, "category");
 
   //  button for sorting
   const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
@@ -98,6 +101,7 @@ const Home = ({
           ssg={ssg}
           cms={cms}
           css={css}
+          ui={ui}
           themes={finalThemes}
           SetShowIntro={SetShowIntro}
         />
@@ -167,6 +171,7 @@ export const getStaticProps = async () => {
   const ssg = getSinglePage("content/ssg");
   const cms = getSinglePage("content/cms");
   const css = getSinglePage("content/css");
+  const ui = getSinglePage("content/ui");
   const category = getSinglePage("content/category");
   const themes = getSinglePage("content/themes");
   const authors = getSinglePage("content/authors");
@@ -177,6 +182,7 @@ export const getStaticProps = async () => {
       ssg: ssg,
       cms: cms,
       css: css,
+      ui: ui,
       category: category,
       themes: themes,
       authors: authors,

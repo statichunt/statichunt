@@ -12,6 +12,7 @@ const Sidebar = ({
   ssg,
   cms,
   css,
+  ui,
   category,
   toolsCategory,
   themes,
@@ -44,6 +45,12 @@ const Sidebar = ({
       taxonomy: "css",
     };
   });
+  const uiData = ui?.map((data) => {
+    return {
+      ...data,
+      taxonomy: "ui",
+    };
+  });
 
   useEffect(() => {
     const filterAddition = sidebar.map((item) => ({
@@ -56,9 +63,11 @@ const Sidebar = ({
             ? cmsData
             : item.type == "css"
               ? cssData
-              : item.type == "category"
-                ? category
-                : toolsCategory,
+              : item.type == "ui"
+                ? uiData
+                : item.type == "category"
+                  ? category
+                  : toolsCategory,
     }));
     setSidebarData(filterAddition);
     // eslint-disable-next-line react-hooks/exhaustive-deps

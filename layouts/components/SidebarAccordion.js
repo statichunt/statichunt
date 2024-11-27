@@ -19,6 +19,7 @@ const SidebarAccordion = ({
     arraySSG,
     arrayCMS,
     arrayCSS,
+    arrayUI,
     arrayCategory,
     allReset,
     parameter,
@@ -53,6 +54,9 @@ const SidebarAccordion = ({
       case "css":
         handleTaxonomyArray(arrayCSS);
         break;
+      case "ui":
+        handleTaxonomyArray(arrayUI);
+        break;
       case "cms":
         handleTaxonomyArray(arrayCMS);
         break;
@@ -63,7 +67,7 @@ const SidebarAccordion = ({
         break;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [parameter, arraySSG, arrayCMS, arrayCSS, arrayCategory]);
+  }, [parameter, arraySSG, arrayCMS, arrayCSS, arrayUI, arrayCategory]);
 
   // add value inside it`s type array
   const handleOnClick = (label, type) => {
@@ -88,7 +92,8 @@ const SidebarAccordion = ({
       if (
         arraySSG?.length > 0 ||
         arrayCMS?.length > 0 ||
-        arrayCSS?.length > 0
+        arrayCSS?.length > 0 ||
+        arrayUI?.length > 0
       ) {
         SetShowIntro(false);
       } else {
@@ -101,6 +106,7 @@ const SidebarAccordion = ({
     arrayCategory?.length,
     arrayCMS?.length,
     arrayCSS?.length,
+    arrayUI?.length,
   ]);
 
   // filter content by taxonomy
@@ -110,6 +116,7 @@ const SidebarAccordion = ({
         filteringTaxonomy(
           { array: arraySSG, params: "ssg" },
           { array: arrayCSS, params: "css" },
+          { array: arrayUI, params: "ui" },
           { array: arrayCMS, params: "cms" },
           { array: arrayCategory, params: "category" },
         );
@@ -117,6 +124,7 @@ const SidebarAccordion = ({
       case "css":
         filteringTaxonomy(
           { array: arrayCSS, params: "css" },
+          { array: arrayUI, params: "ui" },
           { array: arraySSG, params: "ssg" },
           { array: arrayCMS, params: "cms" },
           { array: arrayCategory, params: "category" },
@@ -127,6 +135,7 @@ const SidebarAccordion = ({
           { array: arrayCMS, params: "cms" },
           { array: arraySSG, params: "ssg" },
           { array: arrayCSS, params: "css" },
+          { array: arrayUI, params: "ui" },
           { array: arrayCategory, params: "category" },
         );
         break;
@@ -135,7 +144,17 @@ const SidebarAccordion = ({
           { array: arrayCategory, params: "category" },
           { array: arraySSG, params: "ssg" },
           { array: arrayCSS, params: "css" },
+          { array: arrayUI, params: "ui" },
           { array: arrayCMS, params: "cms" },
+        );
+        break;
+      case "ui":
+        filteringTaxonomy(
+          { array: arrayUI, params: "ui" },
+          { array: arraySSG, params: "ssg" },
+          { array: arrayCSS, params: "css" },
+          { array: arrayCMS, params: "cms" },
+          { array: arrayCategory, params: "category" },
         );
         break;
       default:
@@ -145,6 +164,7 @@ const SidebarAccordion = ({
   }, [
     arrayCMS,
     arrayCSS,
+    arrayUI,
     arraySSG,
     arrayCategory,
     taxonomyArray,

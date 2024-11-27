@@ -21,11 +21,23 @@ css: # css name
   - Tailwind
   - Bootstrap
   - Bulma
-  - Chakra
   - SCSS
   - PostCSS
-  - Mui
   - Stylus
+
+ui: # ui library
+  - Mui
+  - Chakra
+  - Headless
+  - Shadcn
+  - Ant
+  - Vuetify
+  - Radix
+  - Flowbite
+  - Mantine
+  - Semantic
+  - Next
+  - Daisy
 
 cms: # you can choose multiple if applicable
   - Tina

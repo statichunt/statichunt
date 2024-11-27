@@ -7,6 +7,7 @@ export const JsonContext = ({ children }) => {
   const [arraySSG, setArraySSG] = useState([]);
   const [arrayCMS, setArrayCMS] = useState([]);
   const [arrayCSS, setArrayCSS] = useState([]);
+  const [arrayUI, setArrayUI] = useState([]);
   const [arrayCategory, setArrayCategory] = useState([]);
   const [arrayFree, setArrayFree] = useState([]);
   const [arrayPremium, setArrayPremium] = useState([]);
@@ -21,6 +22,7 @@ export const JsonContext = ({ children }) => {
     setArraySSG([]);
     setArrayCMS([]);
     setArrayCSS([]);
+    setArrayUI([]);
     setArrayCategory([]);
     setArrayPremium([]);
     setArrayFree([]);
@@ -32,6 +34,7 @@ export const JsonContext = ({ children }) => {
     setArraySSG([]);
     setArrayCMS([]);
     setArrayCSS([]);
+    setArrayUI([]);
     setArrayCategory([]);
     setArrayPremium([]);
     setArrayFree([]);
@@ -45,6 +48,8 @@ export const JsonContext = ({ children }) => {
     setArrayCMS,
     setArrayCSS,
     arrayCSS,
+    arrayUI,
+    setArrayUI,
     setArraySSG,
     arraySSG,
     arrayCategory,

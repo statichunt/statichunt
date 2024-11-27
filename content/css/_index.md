@@ -1,5 +1,5 @@
 ---
 title: CSS
-weight: 3
+weight: 2
 noindex: true
 ---
