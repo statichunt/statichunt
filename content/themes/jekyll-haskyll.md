@@ -9,6 +9,7 @@ description: Beginner's guide to Haskell
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -9,6 +9,7 @@ description: Porting Grav Learn theme to Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -7,5 +7,4 @@ social:
   twitter: https://www.twitter.com/
   instagram: https://www.instagram.com/
 ---
-
 Author bio

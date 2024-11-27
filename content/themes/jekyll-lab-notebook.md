@@ -9,6 +9,7 @@ description: A full-featured electronic lab notebook theme (with plugins!) for J
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A simple theme based on NexT-Gemini for hexo. 一款基于NexT-Gemi
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

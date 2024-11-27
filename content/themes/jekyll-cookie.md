@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
+ui: []
 category:
   - Business
   - Blog
@@ -23,8 +24,7 @@ update_date: '2023-07-26T07:07:15Z'
 github_star: 97
 github_fork: 100
 ---
-
-## Key Features :
+## Key Features
 
 - Well-designed landing page
 - Responsive and mobile friendly

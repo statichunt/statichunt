@@ -9,6 +9,7 @@ description: This is a simple blog template
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

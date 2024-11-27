@@ -9,6 +9,7 @@ description: Begin building your very own Notion Blog with Astro.
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category:
   - Blog

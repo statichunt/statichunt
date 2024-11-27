@@ -9,6 +9,7 @@ description: An extremely simple, pluggable static site generator.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

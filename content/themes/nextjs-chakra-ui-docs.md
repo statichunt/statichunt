@@ -8,7 +8,8 @@ date: 2024-02-18T07:23:42.148Z
 description: Documentation website for chakra ui
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

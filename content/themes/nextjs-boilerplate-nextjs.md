@@ -9,6 +9,7 @@ description: biolerplate do nextjs usando ts, prettier, eslint, jest, storybook 
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

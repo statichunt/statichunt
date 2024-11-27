@@ -12,6 +12,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms: []
 category: []
 draft: false

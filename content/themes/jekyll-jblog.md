@@ -9,6 +9,7 @@ description: JBlog is a simple jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: A Jekyll collaborative documentation theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Documentation

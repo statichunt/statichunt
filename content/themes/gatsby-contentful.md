@@ -8,7 +8,8 @@ date: 2023-02-20T00:00:00.000Z
 description: Gatsby Starter Contentful Homepage
 ssg:
   - Gatsby
-css: null
+css: []
+ui: []
 cms:
   - Contentful
 category:

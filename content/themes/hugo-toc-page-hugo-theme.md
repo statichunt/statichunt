@@ -9,6 +9,7 @@ description: Table of Contents Page (toc-page) is a minimal, single-page theme f
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

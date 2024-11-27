@@ -8,7 +8,8 @@ date: 2024-02-18T07:44:07.538Z
 description: An opinionated, dark-themed Nuxt.js & Chakra UI Vue GitHub repository template
 ssg:
   - Nuxtjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

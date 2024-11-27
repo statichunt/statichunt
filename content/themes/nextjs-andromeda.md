@@ -7,11 +7,13 @@ author: Themefisher
 author_link: https://themefisher.com
 date: 2023-07-11T00:00:00.000Z
 description: >-
-  Andromeda Nextjs is a multipurpose SaaS landing page theme designed to showcase any SaaS product with elegance and functionality.
+  Andromeda Nextjs is a multipurpose SaaS landing page theme designed to
+  showcase any SaaS product with elegance and functionality.
 ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -21,7 +23,6 @@ draft: false
 home_weight: 11
 weight: 6
 ---
-
 ## Key Features
 
 - 16+ Unique Pages

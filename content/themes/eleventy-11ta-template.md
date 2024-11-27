@@ -12,6 +12,7 @@ cms:
   - Decap
 css:
   - Tailwind
+ui: []
 category:
   - Blog
 description: >-

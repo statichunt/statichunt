@@ -9,6 +9,7 @@ description: 基于Hugo开发的主题 hueman
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

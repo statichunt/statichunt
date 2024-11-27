@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Ecommerce
   - Business
@@ -21,7 +22,6 @@ update_date: '2024-03-30T05:08:34Z'
 github_star: 211
 github_fork: 275
 ---
-
 ## Key Features
 
 - Multiple language support (Fr, En)

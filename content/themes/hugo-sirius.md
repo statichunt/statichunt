@@ -1,27 +1,29 @@
 ---
-title: Sirius 
+title: Sirius
 download: https://gethugothemes.com/products/sirius
 price: 79
 demo: https://demo.gethugothemes.com/sirius/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com/
 date: 2024-03-28T00:00:00.000Z
-description: Sirius is a stylish Hugo theme suitable for various businesses, including SaaS, startups, and agencies. It comes with 15 well-designed pages, allowing you to create an impressive website that stands out from the competition.
+description: >-
+  Sirius is a stylish Hugo theme suitable for various businesses, including
+  SaaS, startups, and agencies. It comes with 15 well-designed pages, allowing
+  you to create an impressive website that stands out from the competition.
 ssg:
   - Hugo
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Business
   - Saas
 draft: false
-home_weight: 
+home_weight: null
 weight: 23
-
 ---
-
 ## Key Features
 
 - 15 Premium Pages

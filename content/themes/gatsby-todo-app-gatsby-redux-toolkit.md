@@ -9,6 +9,7 @@ description: A Gatsby Crud with ReduxJs-Toolkit and Firebase-Api
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
-
 Gatsby is a static site generator that lets you build websites and apps with speed. It offers the control of dynamically rendered sites with scalability - all in a free open source framework!

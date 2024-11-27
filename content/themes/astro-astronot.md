@@ -9,6 +9,7 @@ description: A starter astro build with astronot css template themes
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category:
   - Blog

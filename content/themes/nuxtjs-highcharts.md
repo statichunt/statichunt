@@ -9,6 +9,7 @@ description: Highcharts for Nuxt
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

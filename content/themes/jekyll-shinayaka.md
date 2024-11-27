@@ -9,6 +9,7 @@ description: '[Unmaintained] Jekyll blog theme'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

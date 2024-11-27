@@ -9,6 +9,7 @@ description: Docsy for CloudCannon
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

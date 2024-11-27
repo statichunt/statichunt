@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 category:
   - Ecommerce
 draft: false
@@ -20,7 +21,6 @@ update_date: '2024-09-19T08:26:28Z'
 github_star: 12
 github_fork: 12
 ---
-
 ## Key Features
 
 - Shopify Storefront API

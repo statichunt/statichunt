@@ -26,7 +26,7 @@ css: # css name
   - Stylus
 
 ui: # ui library
-  - Mui
+  - Material
   - Chakra
   - Headless
   - Shadcn
@@ -63,7 +63,6 @@ category: # you can choose multiple if applicable
 
 draft: false
 ---
-
 ## Key Features
 
 - Feature 1

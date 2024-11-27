@@ -6,18 +6,19 @@ demo: https://new.axilthemes.com/demo/react/blogar
 author: Axilthemes
 author_link: https://themeforest.net/user/axilthemes
 date: 2023-01-03T00:00:00.000Z
-description: Blogar is a premium and trendy blog, Magazine, and Blog React Next JS template with super flexibility and a fully responsive design.
+description: >-
+  Blogar is a premium and trendy blog, Magazine, and Blog React Next JS template
+  with super flexibility and a fully responsive design.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - Fast, Lightweight & Powerful

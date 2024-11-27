@@ -9,6 +9,7 @@ description: A carefully crafted Org exporter back-end for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

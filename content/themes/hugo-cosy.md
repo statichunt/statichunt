@@ -9,6 +9,7 @@ description: A personal adaptation of the Cupper Hugo theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

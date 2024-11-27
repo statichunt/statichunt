@@ -9,6 +9,7 @@ description: Shadocs Theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

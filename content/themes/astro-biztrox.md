@@ -2,15 +2,18 @@
 title: Biztrox Astro
 download: https://themefisher.com/products/biztrox-astro
 price: 79
-demo: https://biztrox-astro.vercel.app/ 
+demo: https://biztrox-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-03-30T00:00:00.000Z
-description: Biztrox Astro is multipurpose business theme designed for SaaS, startups, and agencies.
+description: >-
+  Biztrox Astro is multipurpose business theme designed for SaaS, startups, and
+  agencies.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ category:
 draft: false
 weight: 4
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 93/100 (Desktop)

@@ -9,6 +9,7 @@ description: A fast, clean Hugo theme | 一个简单而优雅的 hugo 主题
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

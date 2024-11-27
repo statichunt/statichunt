@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - StaticCMS
 category:
@@ -22,7 +23,6 @@ update_date: '2024-01-23T15:44:29Z'
 github_star: 240
 github_fork: 115
 ---
-
 ## Key Features
 
 - Chart Your Path with a Blog

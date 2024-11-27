@@ -9,6 +9,7 @@ description: A fast & minimal Jekyll blog theme with clean dark mode
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

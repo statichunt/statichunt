@@ -9,6 +9,7 @@ description: Open Data, Open Potential -Bringing the national open data communit
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

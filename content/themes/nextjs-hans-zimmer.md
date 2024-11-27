@@ -8,7 +8,8 @@ date: 2024-02-18T08:40:17.802Z
 description: An Award-Winning German Composer & Music Producer
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

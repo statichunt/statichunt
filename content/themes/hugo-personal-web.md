@@ -9,6 +9,7 @@ description: Hugo Template for Freelancer Portfolio and Blog
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

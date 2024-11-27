@@ -9,6 +9,7 @@ description: A bootstrap based minimal hugo theme based on webjeda-cards
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

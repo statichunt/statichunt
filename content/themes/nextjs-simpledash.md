@@ -11,7 +11,8 @@ description: >-
   view and understand.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

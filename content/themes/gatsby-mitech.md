@@ -6,18 +6,19 @@ demo: https://mitech.jamstacktemplates.dev/
 author: BootXperts
 author_link: https://hasthemes.com/
 date: 2022-12-22T00:00:00.000Z
-description: Mitech – IT Solutions And Services Company React Gatsby Template is a super-smooth and creative Website design.
+description: >-
+  Mitech – IT Solutions And Services Company React Gatsby Template is a
+  super-smooth and creative Website design.
 ssg:
   - Gatsby
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest React (v18.2.0)

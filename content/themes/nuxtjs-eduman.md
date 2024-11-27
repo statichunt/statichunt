@@ -6,19 +6,19 @@ demo: https://nuxt-eduman.vercel.app/
 author: BDevs
 author_link: https://themeforest.net/user/bdevs
 date: 2023-02-13T00:00:00.000Z
-description: Eduman – Education & Online Courses Vue Nuxt Template is a clean and modern Vue, Nuxt, Bootstrap5 Education Template.
+description: >-
+  Eduman – Education & Online Courses Vue Nuxt Template is a clean and modern
+  Vue, Nuxt, Bootstrap5 Education Template.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - others
-
 draft: false
 ---
-
 ## Key Features
 
 - Based on Bootstrap (latest Version 5)

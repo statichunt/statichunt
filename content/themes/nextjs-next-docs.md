@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Stylus
+ui: []
 cms:
   - Markdown
 category: []

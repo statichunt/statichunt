@@ -10,6 +10,7 @@ description: Next 13+ snippets
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

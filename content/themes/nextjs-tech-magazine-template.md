@@ -9,6 +9,7 @@ description: Clean, modern Next.js template for magazines, news and blogs.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

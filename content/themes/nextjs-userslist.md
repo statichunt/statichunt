@@ -9,6 +9,7 @@ description: Displays list of users made using Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

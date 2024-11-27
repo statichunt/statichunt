@@ -8,7 +8,8 @@ date: 2024-02-18T06:59:15.472Z
 description: TacoDAO [UI] - Una DAO desarrollada para decidir sobre los tacos.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: Gatsby and Snipcart Starter
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

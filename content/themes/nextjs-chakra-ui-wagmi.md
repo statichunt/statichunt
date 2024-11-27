@@ -8,7 +8,8 @@ date: 2024-02-19T06:28:53.654Z
 description: Web3.0 starter template optimized to start building dApps
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: A Jekyll blog with medical articles in French
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

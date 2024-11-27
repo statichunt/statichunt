@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
+ui: []
 category:
   - Boilerplate
 date: 2023-05-27T00:00:00.000Z
@@ -25,7 +26,6 @@ update_date: '2024-10-02T07:26:41Z'
 github_star: 843
 github_fork: 233
 ---
-
 ## Key Features
 
 - Multi-Authors Support

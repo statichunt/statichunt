@@ -9,6 +9,7 @@ description: A minimal opinionated theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

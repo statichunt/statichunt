@@ -9,6 +9,7 @@ description: ':beers: Event marketing template for Jekyll'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

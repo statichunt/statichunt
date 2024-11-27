@@ -9,6 +9,7 @@ description: ':book: Paper is a Jekyll theme for project documentation'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

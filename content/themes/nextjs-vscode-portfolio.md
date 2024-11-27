@@ -9,6 +9,7 @@ description: A VSCode themed developer portfolio built using Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

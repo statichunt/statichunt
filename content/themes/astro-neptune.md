@@ -6,11 +6,15 @@ demo: https://neptune-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-07-08T00:00:00.000Z
-description: Neptune is a flexible Astro template suitable for businesses of all sizes. Its 15 diverse page layouts empower you to create a professional online presence that effectively showcases your brand and captivates your audience.
+description: >-
+  Neptune is a flexible Astro template suitable for businesses of all sizes. Its
+  15 diverse page layouts empower you to create a professional online presence
+  that effectively showcases your brand and captivates your audience.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +24,6 @@ category:
 draft: false
 weight: 25
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 98/100 (Desktop)

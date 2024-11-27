@@ -8,7 +8,8 @@ date: 2024-02-18T09:06:01.958Z
 description: Convert tweets to beautiful images
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

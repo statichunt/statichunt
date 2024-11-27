@@ -9,6 +9,7 @@ description: A fully responsive Hugo theme featuring a minimalist and user-frien
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

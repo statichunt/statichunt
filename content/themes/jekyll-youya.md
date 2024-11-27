@@ -9,6 +9,7 @@ description: Yōuyǎ is an elegant Jekyll portfolio theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

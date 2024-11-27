@@ -9,6 +9,7 @@ description: The elegant and lightweight full stack JavaScript boilerplate.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

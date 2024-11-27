@@ -6,18 +6,19 @@ demo: https://furns-react.netlify.app/
 author: codecarnival
 author_link: https://themeforest.net/user/codecarnival
 date: 2023-05-01T00:00:00.000Z
-description: Furns – React eCommerce Template will be an ideal website building template based on React Nextjs framework & Shopify Storefront API
+description: >-
+  Furns – React eCommerce Template will be an ideal website building template
+  based on React Nextjs framework & Shopify Storefront API
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Ecommerce
 draft: false
 ---
-
 ## Key Features
 
 - Jamstack eCommerce (Headless)

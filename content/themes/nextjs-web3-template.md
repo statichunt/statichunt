@@ -9,6 +9,7 @@ description: Next.js + Material UI + dark mode + web3 starter template
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

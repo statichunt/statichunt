@@ -9,6 +9,7 @@ description: Reactive library and components for building web user interface
 ssg:
   - Astro
 css: []
+ui: []
 cms:
   - Markdown
 category: []

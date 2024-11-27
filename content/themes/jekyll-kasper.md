@@ -9,6 +9,7 @@ description: Ghost's default theme (Casper v1.0) on Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Ghost
 category: []

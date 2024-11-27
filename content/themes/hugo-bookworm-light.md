@@ -7,6 +7,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 category:
   - Blog
 date: 2021-08-29T16:08:35.000Z
@@ -19,7 +20,6 @@ update_date: '2024-03-28T07:09:02Z'
 github_star: 100
 github_fork: 76
 ---
-
 ## Key Features
 
 - Google analytics support

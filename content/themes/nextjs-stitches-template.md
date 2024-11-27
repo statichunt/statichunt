@@ -9,6 +9,7 @@ description: Template para inicialização de aplicações TypeScript + Next.js 
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

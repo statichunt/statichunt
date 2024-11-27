@@ -9,6 +9,7 @@ description: Start your own digital garden using this Jekyll template
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Documentation for Continuum Design System
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Documentation

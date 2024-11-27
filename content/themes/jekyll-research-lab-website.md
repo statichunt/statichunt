@@ -9,6 +9,7 @@ description: A template for a Research Lab website, built with Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

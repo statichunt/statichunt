@@ -9,6 +9,7 @@ description: Hugo theme based on the Jekyll chowdown theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

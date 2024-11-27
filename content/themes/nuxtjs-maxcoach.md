@@ -6,18 +6,19 @@ demo: https://maxcoach.vuejstemplate.com/
 author: BootXperts
 author_link: https://themeforest.net/user/bootxperts
 date: 2023-02-18T00:00:00.000Z
-description: Maxcoach Vue education website template is an excellent choice if you’re opting for an ideal Vue education website template.
+description: >-
+  Maxcoach Vue education website template is an excellent choice if you’re
+  opting for an ideal Vue education website template.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest Vue

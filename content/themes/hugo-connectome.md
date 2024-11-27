@@ -9,6 +9,7 @@ description: A Hugo theme with backlinks for online communities
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

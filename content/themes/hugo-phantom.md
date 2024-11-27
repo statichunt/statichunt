@@ -6,18 +6,20 @@ demo: https://demo.gethugothemes.com/phantom/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: Phantom is a Hugo portfolio theme ideal for creating a professional portfolio site.
+description: >-
+  Phantom is a Hugo portfolio theme ideal for creating a professional portfolio
+  site.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)

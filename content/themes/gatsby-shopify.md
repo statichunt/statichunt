@@ -9,6 +9,7 @@ description: Gatsby Shopify starter template
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

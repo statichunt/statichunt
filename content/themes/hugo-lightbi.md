@@ -9,6 +9,7 @@ description: Lightbi is a minimal and clean blog theme for Hugo.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

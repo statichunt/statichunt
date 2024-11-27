@@ -15,6 +15,7 @@ ssg:
   - Nextjs
 css:
   - Bootstrap
+ui: []
 cms: null
 category:
   - Saas
@@ -25,7 +26,6 @@ update_date: '2024-10-15T05:30:26Z'
 github_star: 142
 github_fork: 105
 ---
-
 ## Key Features
 
 - Framework - Next.js 13

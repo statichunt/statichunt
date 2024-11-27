@@ -9,6 +9,7 @@ description: A simple and clean jekyll theme without javascript
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

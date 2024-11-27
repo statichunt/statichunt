@@ -9,6 +9,7 @@ description: A Gatsby Theme with JSONResume to host your Resume in HTML and PDF
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

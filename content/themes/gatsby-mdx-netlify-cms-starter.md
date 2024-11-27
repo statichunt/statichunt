@@ -9,6 +9,7 @@ description: Gatsby-MDX with Netlify CMS. Support React components in your CMS e
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

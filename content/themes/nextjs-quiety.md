@@ -6,18 +6,20 @@ demo: https://quiety-next.themetags.com/
 author: ThemeTags
 author_link: https://themeforest.net/user/themetags
 date: 2023-01-01T00:00:00.000Z
-description: Quiety – Nextjs Software & IT Solutions Template is a powerful Easy to use, Mobile friendly, highly customizable SEO friendly IT solutions and SAAS template, built with Bootstrap 5 CSS framework.
+description: >-
+  Quiety – Nextjs Software & IT Solutions Template is a powerful Easy to use,
+  Mobile friendly, highly customizable SEO friendly IT solutions and SAAS
+  template, built with Bootstrap 5 CSS framework.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Saas
 draft: false
 ---
-
 ## Key Features
 
 - No jQuery Dependency

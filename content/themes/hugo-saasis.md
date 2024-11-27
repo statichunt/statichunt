@@ -6,18 +6,21 @@ demo: https://demo.gethugothemes.com/saasis/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2022-12-17T00:00:00.000Z
-description: Saasis is a Hugo SaaS theme that is an output of unique and trending design ideas. It offers more than 10 different pages to represent your SaaS theme effectively.
+description: >-
+  Saasis is a Hugo SaaS theme that is an output of unique and trending design
+  ideas. It offers more than 10 different pages to represent your SaaS theme
+  effectively.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Saas
 draft: false
 ---
-
 ## Key Features
 
 - Page Speed (97/100)

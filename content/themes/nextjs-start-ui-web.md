@@ -10,7 +10,8 @@ description: >-
   TanStack Query & Formiz — From the BearStudio Team
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

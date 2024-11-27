@@ -9,6 +9,7 @@ description: Install a Cosmic-powered React app in seconds
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

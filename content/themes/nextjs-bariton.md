@@ -6,18 +6,19 @@ demo: https://bariton-react.envytheme.com/index-6/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
-description: Bariton is a Clean and Responsive React Next template. It is built with ReactJS, NextJS, Bootstrap, and Sass with Firebase hosting setup.
+description: >-
+  Bariton is a Clean and Responsive React Next template. It is built with
+  ReactJS, NextJS, Bootstrap, and Sass with Firebase hosting setup.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - RTL Version Included for Arabic and Hebrew Language

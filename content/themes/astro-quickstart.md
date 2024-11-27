@@ -9,6 +9,7 @@ description: A bare-bones Astro template to get you deployed to Netlify fast!
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

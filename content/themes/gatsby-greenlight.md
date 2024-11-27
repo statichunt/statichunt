@@ -11,6 +11,7 @@ ssg:
 css:
   - Bulma
   - SCSS
+ui: []
 cms:
   - Markdown
 category: []

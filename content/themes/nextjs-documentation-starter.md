@@ -9,6 +9,7 @@ description: Documentation starter site made with Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category:

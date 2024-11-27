@@ -9,6 +9,7 @@ description: A super simple starting point for Hugo websites.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

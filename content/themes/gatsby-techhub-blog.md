@@ -9,6 +9,7 @@ description: A complete blog website using sanity.io + gatsby.js
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Sanity
 category:

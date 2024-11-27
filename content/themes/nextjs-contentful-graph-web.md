@@ -9,6 +9,7 @@ description: Simple web interface to contentful-graph
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Contentful
 category: []

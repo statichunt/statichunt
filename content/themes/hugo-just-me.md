@@ -9,6 +9,7 @@ description: A minimal and fancy theme for Hugo to create Personal Pages.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

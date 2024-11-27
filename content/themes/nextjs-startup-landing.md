@@ -9,10 +9,9 @@ date: 2023-05-02T00:00:00.000Z
 description: Absolutely free landing pages built with React, Next JS & Gatsby JS.
 ssg:
   - Nextjs
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Business
 draft: false

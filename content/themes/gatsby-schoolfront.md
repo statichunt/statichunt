@@ -9,6 +9,7 @@ description: Frontend for School Website - open source starter build with Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

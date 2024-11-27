@@ -9,6 +9,7 @@ description: ':ramen: Minimalist Jekyll Template, dark and light themes'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

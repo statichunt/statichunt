@@ -9,6 +9,7 @@ description: ':earth_americas: Embed maps with filterable locations in Jekyll'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

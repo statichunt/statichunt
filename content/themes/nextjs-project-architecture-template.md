@@ -9,6 +9,7 @@ description: This is a NextJs project architecture template .
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

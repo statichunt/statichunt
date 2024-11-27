@@ -8,7 +8,8 @@ date: 2024-02-18T14:08:09.761Z
 description: Boilerplate written in Next.js, Chakra UI, Jotai, and Typescript
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

@@ -9,6 +9,7 @@ description: Gatsby starter with i18n/l10n support using js-lingui.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

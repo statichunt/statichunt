@@ -8,7 +8,8 @@ date: 2023-11-29T07:08:00.005Z
 description: NextJS TypeScript starter with ChakraUI + Helpful scripts
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

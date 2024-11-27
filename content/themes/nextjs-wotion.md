@@ -8,7 +8,8 @@ date: 2024-02-19T04:34:57.718Z
 description: An open-source library of useful notion widgets
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

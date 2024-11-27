@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: true
 draft: false
 ---
-
 Eleventy is a fast web site builder. Initially marketed as a JavaScript alternative to Jekyll, it has now become a widely used modern web generator. Creating a website, with a predefined design and structure that can be easily customized to suit the needs of the user.

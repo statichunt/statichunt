@@ -9,6 +9,7 @@ description: Simple UI Blog Template
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

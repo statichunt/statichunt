@@ -9,6 +9,7 @@ description: Command to create a new Eleventy site with the Pack11ty starter
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

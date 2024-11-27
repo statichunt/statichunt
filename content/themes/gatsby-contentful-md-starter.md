@@ -14,6 +14,7 @@ ssg:
 css:
   - Tailwind
   - PostCSS
+ui: []
 cms:
   - Contentful
 category:

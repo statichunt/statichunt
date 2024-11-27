@@ -9,6 +9,7 @@ description: Jekyll based framework for minimal exhibitions with IIIF
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Ghost
 category:

@@ -11,7 +11,8 @@ ssg:
 css:
   - Tailwind
   - SCSS
-  - Mui
+ui:
+  - Material
 cms: []
 category: []
 draft: false

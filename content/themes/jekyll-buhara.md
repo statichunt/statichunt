@@ -9,6 +9,7 @@ description: jekyll-theme-buhara
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A dark version of the default theme Minima of Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

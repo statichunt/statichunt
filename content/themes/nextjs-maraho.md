@@ -13,6 +13,7 @@ ssg:
 css:
   - Tailwind
   - PostCSS
+ui: []
 cms:
   - Markdown
 category:

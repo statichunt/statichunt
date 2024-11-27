@@ -9,6 +9,7 @@ description: A fast, simple, and privacy-respecting Jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

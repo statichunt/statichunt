@@ -10,7 +10,8 @@ description: >-
   and Dev.to api.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Markdown

@@ -9,6 +9,7 @@ description: ':briefcase: A modern Jekyll template for businesses'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

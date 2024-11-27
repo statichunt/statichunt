@@ -35,7 +35,6 @@ projects:
 
 
 ---
-
 ## Overview
 
 Gethugothemes.com is a platform that provides premium Hugo themes, templates, and plugins. We use Hugo, the world’s fastest framework for building websites, to create stunning, blazing-fast, and SEO-friendly websites.

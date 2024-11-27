@@ -9,6 +9,7 @@ description: An easy to use, minimal, text focused Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

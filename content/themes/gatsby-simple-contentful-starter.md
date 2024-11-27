@@ -9,6 +9,7 @@ description: A simple Gatsby Starter that talks to Contentful.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

@@ -9,6 +9,7 @@ description: A Casper blog starter for Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Ghost
 category: []

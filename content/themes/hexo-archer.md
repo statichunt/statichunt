@@ -12,6 +12,7 @@ css:
   - SCSS
   - PostCSS
   - Stylus
+ui: []
 cms:
   - Markdown
 category: []

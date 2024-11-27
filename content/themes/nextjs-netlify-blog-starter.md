@@ -9,6 +9,7 @@ description: A lightweight markdown blog starter built with Next.js 12+ and Netl
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

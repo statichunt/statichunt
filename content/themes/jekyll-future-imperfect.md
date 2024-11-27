@@ -10,6 +10,7 @@ ssg:
   - Jekyll
 css:
   - Scss
+ui: []
 cms:
   - Markdown
 category:

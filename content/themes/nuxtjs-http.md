@@ -9,6 +9,7 @@ description: Universal HTTP Module for Nuxt.js
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

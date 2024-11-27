@@ -9,6 +9,7 @@ description: Jekyll theme inspired by Swiss design
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

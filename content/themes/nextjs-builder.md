@@ -9,6 +9,7 @@ description: Drag and drop headless CMS for React, Vue, Svelte, Qwik, and more
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

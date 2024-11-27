@@ -10,6 +10,7 @@ ssg:
   - Eleventy
 css:
   - PostCSS
+ui: []
 cms:
   - Markdown
 category: []

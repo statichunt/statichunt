@@ -6,11 +6,14 @@ demo: https://sirius-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-03-30T00:00:00.000Z
-description: Sirius Astro is a modern, customizable Astro & Tailwind CSS theme with 17+ pre-built pages for effortless branding and customization.
+description: >-
+  Sirius Astro is a modern, customizable Astro & Tailwind CSS theme with 17+
+  pre-built pages for effortless branding and customization.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ category:
 draft: false
 weight: 19
 ---
-
 ## Key Features
 
 - 17+ Premium Pages

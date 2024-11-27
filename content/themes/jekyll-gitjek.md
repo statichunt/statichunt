@@ -10,6 +10,7 @@ description: Github Pages for jekyll blogger
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

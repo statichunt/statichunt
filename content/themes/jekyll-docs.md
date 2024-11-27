@@ -6,18 +6,18 @@ demo: https://jekyll-theme-docs.netlify.app/
 author: UnboundStudio
 author_link: https://themeforest.net/user/unboundstudio
 date: 2023-04-04T00:00:00.000Z
-description: Docs is fully responsive Jekyll theme for creating customer online documentation help site.
+description: >-
+  Docs is fully responsive Jekyll theme for creating customer online
+  documentation help site.
 ssg:
   - Jekyll
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Documentation
 draft: false
 ---
-
 ## Key Features
 
 - Live Search

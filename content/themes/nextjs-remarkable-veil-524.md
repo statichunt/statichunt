@@ -10,7 +10,8 @@ description: >-
   women's garments and accessories and this is clone of yepme website
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

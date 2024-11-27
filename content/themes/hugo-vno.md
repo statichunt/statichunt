@@ -9,6 +9,7 @@ description: Vno on Hugo.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

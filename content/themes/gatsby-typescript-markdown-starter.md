@@ -10,6 +10,7 @@ ssg:
   - Gatsby
 css:
   - SCSS
+ui: []
 cms:
   - Markdown
 category: []

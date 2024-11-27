@@ -9,6 +9,7 @@ description: A blog starter template with Astro and Simple.css.
 ssg:
   - Astro
 css: []
+ui: []
 cms:
   - Markdown
 category: []

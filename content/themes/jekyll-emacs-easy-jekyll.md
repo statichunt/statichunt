@@ -9,6 +9,7 @@ description: Emacs major mode for managing jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

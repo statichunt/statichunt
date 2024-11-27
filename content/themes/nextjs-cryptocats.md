@@ -10,7 +10,8 @@ description: >-
   with all EVM chains. (Hardhat - Next.js - TypeScript - Wagmi - ChakhraUI)
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

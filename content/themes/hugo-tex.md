@@ -9,6 +9,7 @@ description: LaTeX style hugo theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

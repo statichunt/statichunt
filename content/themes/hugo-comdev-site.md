@@ -9,6 +9,7 @@ description: Website sources for the Apache Community Development Website
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Documentation

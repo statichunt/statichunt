@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/the-article/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-04-03T00:00:00.000Z
-description: The Article is a perfect Hugo blog theme that will give you a unique personal blogging experience.
+description: >-
+  The Article is a perfect Hugo blog theme that will give you a unique personal
+  blogging experience.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 26
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 94/100 (Desktop)

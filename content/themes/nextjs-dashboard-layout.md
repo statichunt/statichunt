@@ -9,6 +9,7 @@ description: The classic dashboard layout built with Nextjs and Styled component
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

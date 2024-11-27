@@ -9,6 +9,7 @@ description: Create Blogs and Websites with R Markdown
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

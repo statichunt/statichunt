@@ -10,7 +10,8 @@ description: >-
   testing, linting, and more.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

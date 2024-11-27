@@ -9,6 +9,7 @@ description: Create beautiful modern documentation websites.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

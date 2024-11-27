@@ -6,18 +6,19 @@ demo: https://bostami-next.vercel.app/home-box-layout/home
 author: ib-themes
 author_link: https://themeforest.net/user/ib-themes
 date: 2023-05-01T00:00:00.000Z
-description: ostami – Personal Portfolio Tailwind CSS React NextJS Template can be used for many purposes. It’s a creative, minimal, and clean design.
+description: >-
+  ostami – Personal Portfolio Tailwind CSS React NextJS Template can be used for
+  many purposes. It’s a creative, minimal, and clean design.
 ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - 2 Separate (NextJS + React) File (2023 Update)

@@ -9,6 +9,7 @@ description: 轻松创建一个完全可定制的个人简介链接网页。将�
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

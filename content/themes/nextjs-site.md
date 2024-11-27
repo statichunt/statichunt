@@ -8,7 +8,8 @@ date: 2024-02-18T10:40:38.459Z
 description: Guillermo's portfolio and blog. Built with Next.js, Notion API and Chakra UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Markdown

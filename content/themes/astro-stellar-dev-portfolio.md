@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms: []
 category:
   - Portfolio
@@ -22,7 +23,6 @@ update_date: '2024-09-25T17:36:41Z'
 github_star: 26
 github_fork: 6
 ---
-
 ## Key Features
 
 - Fully Responsive: Optimized for all screen sizes, ensuring a seamless user experience across devices.
@@ -32,4 +32,3 @@ github_fork: 6
 - Self-Host Ready: Easily deployable on platforms like Netlify or Vercel.
 - Google Analytics Integration: Simple setup for insightful analytics.
 - Automated SEO Tools: Automatic generation of robots.txt and Sitemap for better search engine indexing and navigation.
-

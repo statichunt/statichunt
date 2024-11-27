@@ -9,6 +9,7 @@ description: Sendit Template on NextJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Business

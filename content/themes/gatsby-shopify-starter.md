@@ -9,6 +9,7 @@ description: 🛍 Simple starter to build a blazing fast Shopify store with Gats
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

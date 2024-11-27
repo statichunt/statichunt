@@ -9,6 +9,7 @@ description: A Hugo theme to publish technical content (docs, news, blog, articl
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

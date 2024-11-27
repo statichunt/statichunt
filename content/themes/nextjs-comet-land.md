@@ -9,6 +9,7 @@ description: 'Blog and Resume template :comet:'
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

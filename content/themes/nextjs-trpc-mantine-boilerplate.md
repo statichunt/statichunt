@@ -9,6 +9,7 @@ description: An advanced boilerplate written in Typescript using Next.js, tRPC a
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

@@ -9,6 +9,7 @@ description: Demo for a Snipcart powered e-commerce store built with Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

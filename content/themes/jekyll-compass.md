@@ -9,6 +9,7 @@ description: The Jekyll theme for your personal landing page.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -8,7 +8,8 @@ date: 2024-02-18T10:08:35.786Z
 description: The Most Powerful Discord bot Dashboard Template
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

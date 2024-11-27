@@ -9,6 +9,7 @@ description: A Gatsby starter the way I like it.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,15 +9,13 @@ date: 2023-02-12T00:00:00.000Z
 description: Creative and high-speed performance portfolio theme for Jekyll.
 ssg:
   - Jekyll
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - Dark and light mode user can select themself

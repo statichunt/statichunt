@@ -9,6 +9,7 @@ description: Multi-SSG theme
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

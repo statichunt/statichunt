@@ -9,6 +9,7 @@ description: Materialize Theme for Jekyll, Github Pages
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

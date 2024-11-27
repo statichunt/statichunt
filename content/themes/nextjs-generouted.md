@@ -9,6 +9,7 @@ description: Generated file-based routes for Vite
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

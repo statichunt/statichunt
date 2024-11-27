@@ -9,6 +9,7 @@ description: An 11ty boilerplate with Visual Framework component integration
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

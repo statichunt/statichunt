@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Bulma
+ui: []
 cms:
   - Markdown
 category:

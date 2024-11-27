@@ -9,6 +9,7 @@ description: Jekyll theme inspired by L'Ami du peuple
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

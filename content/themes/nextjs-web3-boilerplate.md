@@ -10,7 +10,8 @@ description: >-
   perfect starting point for your next web3 project.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

@@ -9,6 +9,7 @@ description: An unopinionated, minimal 11ty starter with TypeScript templates.
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

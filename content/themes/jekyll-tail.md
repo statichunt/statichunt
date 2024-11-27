@@ -9,6 +9,7 @@ description: Jekyll blog theme, designed for better writing workflow
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

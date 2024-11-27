@@ -6,18 +6,19 @@ demo: https://sergio-react.vercel.app/
 author: CodeeFly
 author_link: https://themeforest.net/user/codeefly
 date: 2023-01-01T00:00:00.000Z
-description: Sergio – Personal Portfolio Template is a highly creative, modern, visually stunning and Bootstrap 4 React NextJS responsive portfolio template
+description: >-
+  Sergio – Personal Portfolio Template is a highly creative, modern, visually
+  stunning and Bootstrap 4 React NextJS responsive portfolio template
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - Clean And Modern Design

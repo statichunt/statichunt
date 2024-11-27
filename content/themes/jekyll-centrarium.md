@@ -9,6 +9,7 @@ description: A simple yet classy theme for your Jekyll website or blog.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

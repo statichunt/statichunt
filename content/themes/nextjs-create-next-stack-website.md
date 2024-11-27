@@ -10,7 +10,8 @@ description: >-
   boilerplate of new Next.js apps.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: Next.js Boilerplate
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category:

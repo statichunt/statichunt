@@ -9,6 +9,7 @@ description: A Gatsby starter for creating blogs from headless Ghost CMS.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Ghost
 category: []

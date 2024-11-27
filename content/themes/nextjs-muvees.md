@@ -8,7 +8,8 @@ date: 2024-02-19T07:27:19.101Z
 description: Movie, TV Shows, Person library. Powered by themoviedb.org
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

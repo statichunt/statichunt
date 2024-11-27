@@ -9,6 +9,7 @@ description: A minimalist, responsive hugo theme inspired by terminal ricing aes
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

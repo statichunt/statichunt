@@ -9,6 +9,7 @@ description: A Gatsby theme for your knowledge base or help center
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

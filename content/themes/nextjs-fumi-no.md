@@ -10,7 +10,8 @@ description: >-
   is live!
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: Wordpress 2016 theme in Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

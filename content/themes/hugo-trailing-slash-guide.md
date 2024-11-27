@@ -9,6 +9,7 @@ description: Understand and fix your static website trailing slash issues!
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category: []

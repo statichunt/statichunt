@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Ecommerce
@@ -19,7 +20,6 @@ update_date: '2023-07-26T13:23:01Z'
 github_star: 351
 github_fork: 390
 ---
-
 ## Key Features
 
 - 70+ fully coded elements

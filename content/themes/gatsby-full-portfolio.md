@@ -9,6 +9,7 @@ description: Full Portfolio For Creators and Writers Made with @gatsbyjs
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

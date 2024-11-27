@@ -9,6 +9,7 @@ description: A Gatsby theme for creating docs from a folder full of Markdown fil
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -8,7 +8,8 @@ date: 2024-02-18T05:39:43.918Z
 description: Chakra UI Admin Dashboard
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

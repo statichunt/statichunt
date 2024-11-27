@@ -6,18 +6,19 @@ demo: https://superio-next.vercel.app/
 author: ib-themes
 author_link: https://themeforest.net/user/ib-themes
 date: 2023-05-01T00:00:00.000Z
-description: Superio – Job Board React Next JS Template. It’s a High-Quality and well organized Job Board NextJS Template.
+description: >-
+  Superio – Job Board React Next JS Template. It’s a High-Quality and well
+  organized Job Board NextJS Template.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - Build with Latest Next JS (v13+)

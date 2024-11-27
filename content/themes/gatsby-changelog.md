@@ -9,6 +9,7 @@ description: Changelog Gatsby theme starter
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

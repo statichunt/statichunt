@@ -9,6 +9,7 @@ description: Not todo Gatsby app for my talk
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

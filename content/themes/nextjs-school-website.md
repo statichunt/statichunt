@@ -10,7 +10,8 @@ description: >-
   built on fun and modern stack.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

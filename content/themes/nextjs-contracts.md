@@ -9,6 +9,7 @@ description: Smart contracts for FutúSho Marketplace
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

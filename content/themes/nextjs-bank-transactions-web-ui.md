@@ -9,6 +9,7 @@ description: A simple dashboard to view monthly analytics of my bank transaction
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

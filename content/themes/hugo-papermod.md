@@ -19,8 +19,9 @@ publish_date: '2020-07-21T04:45:10Z'
 update_date: '2024-09-15T08:11:52Z'
 github_star: 9819
 github_fork: 2648
+css: []
+ui: []
 ---
-
 ## Key Features
 
 - Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.

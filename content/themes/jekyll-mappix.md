@@ -1,25 +1,28 @@
 ---
 title: Mappix
 download: https://1.envato.market/x9V0dx
-github:
+github: null
 price: 33
 demo: https://mappix-jekyll.netlify.app/
 author: Froxtheme
 author_link: https://themeforest.net/user/froxtheme
 date: 2023-02-19T00:00:00.000Z
-description: Mappix – SaaS, Startup and Multi-Purpose Theme powered by Jekyll is crafted with love and can be used for ALL types of Software, App, SaaS, Startup or other related areas of business.
+description: >-
+  Mappix – SaaS, Startup and Multi-Purpose Theme powered by Jekyll is crafted
+  with love and can be used for ALL types of Software, App, SaaS, Startup or
+  other related areas of business.
 ssg:
   - Jekyll
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Business
 draft: false
 ---
-
-## Key Features :
+## Key Features
 
 - Based on Bootstrap 5.x
 - Discus Commnet Intregrated

@@ -9,6 +9,7 @@ description: Scientific and Technical Information Exchange (STIX) theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

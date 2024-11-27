@@ -9,6 +9,7 @@ description: 'demo:'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

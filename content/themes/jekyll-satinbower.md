@@ -9,6 +9,7 @@ description: study blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

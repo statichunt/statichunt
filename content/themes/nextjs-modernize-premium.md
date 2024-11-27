@@ -6,22 +6,22 @@ demo: https://modernize-nextjs.adminmart.com/dashboards/modern
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2023-04-12T00:00:00.000Z
-description: Modernize Next Js Admin Dashboard is highly customizable and easy to use dashboard template based on Next.js - The React Framework.
+description: >-
+  Modernize Next Js Admin Dashboard is highly customizable and easy to use
+  dashboard template based on Next.js - The React Framework.
 ssg:
   - Nextjs
-css:
-  - MUI
-cms:
-
+css: []
+ui:
+  - Material
+cms: null
 category:
   - Saas
   - Dashboard
 draft: false
 weight: 1
 home_weight: 3
-
 ---
-
 ## Key Features
 
 - Easy Folder Structure

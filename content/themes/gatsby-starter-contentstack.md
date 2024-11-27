@@ -9,6 +9,7 @@ description: A starter kit for building a websites using Gatsby and Contentstack
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

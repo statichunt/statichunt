@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Boilerplate
@@ -21,7 +22,6 @@ update_date: '2024-09-06T14:46:57Z'
 github_star: 538
 github_fork: 109
 ---
-
 ## Key Features
 
 - Next.js 13 with async components

@@ -11,7 +11,8 @@ description: >-
   geography, history and science.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

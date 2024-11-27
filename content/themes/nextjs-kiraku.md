@@ -8,7 +8,8 @@ date: 2024-02-19T06:27:29.803Z
 description: 気楽に使えるファッション系SNS「Kiraku」
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

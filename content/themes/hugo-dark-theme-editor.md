@@ -9,6 +9,7 @@ description: Hugo Theme - dark theme editor
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

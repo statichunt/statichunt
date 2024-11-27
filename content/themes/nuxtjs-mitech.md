@@ -6,19 +6,19 @@ demo: https://mitech.vuejstemplate.com/
 author: BootXperts
 author_link: https://themeforest.net/user/bootxperts
 date: 2023-02-13T00:00:00.000Z
-description: Mitech – Vue Nuxt JS Technology & Blog Template is an exclusive vuejs website template for IT solutions and services company websites.
+description: >-
+  Mitech – Vue Nuxt JS Technology & Blog Template is an exclusive vuejs website
+  template for IT solutions and services company websites.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
-
 draft: false
 ---
-
 ## Key Features
 
 - Built with latest Nuxt

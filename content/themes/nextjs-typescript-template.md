@@ -9,6 +9,7 @@ description: A simple template for NextJS, powered by Typescript
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

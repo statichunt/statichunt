@@ -10,6 +10,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - cloudcannon
 category:
@@ -20,8 +21,7 @@ update_date: '2022-12-05T02:39:03Z'
 github_star: 12
 github_fork: 12
 ---
-
-## Key Features :
+## Key Features
 
 - Pre-built pages
 - Pre-styled components

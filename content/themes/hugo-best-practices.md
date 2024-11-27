@@ -9,6 +9,7 @@ description: Best practices and ideas for Hugo the open-source static site gener
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

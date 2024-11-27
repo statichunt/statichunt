@@ -10,7 +10,8 @@ description: >-
   and for sale.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

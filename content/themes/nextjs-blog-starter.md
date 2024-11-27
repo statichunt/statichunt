@@ -9,6 +9,7 @@ description: A blog built with Next.js that includes Markdown, image loading, si
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -9,6 +9,7 @@ description: A Foundation for Public Code jekyll theme for use with GitHub pages
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

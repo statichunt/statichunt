@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +21,6 @@ update_date: '2022-10-10T20:28:48Z'
 github_star: 1372
 github_fork: 597
 ---
-
 ## Key Features
 
 - Modern Stack (Next.js + TailwindCSS)

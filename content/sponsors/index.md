@@ -58,5 +58,4 @@ bronze:
     logo_darkmode: ""
     website: ""
 ---
-
 Statichunt is an open source JAMStack Directory made possible by these wonderful sponsors

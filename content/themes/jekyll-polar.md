@@ -9,6 +9,7 @@ description: White, clean, no JavaScript Jekyll Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A right-to-left theme for Jekyll with Jalali support and some other
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

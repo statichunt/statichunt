@@ -9,6 +9,7 @@ description: Seiheki, a simple Hugo blog theme.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

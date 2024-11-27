@@ -4,7 +4,6 @@ meta_title: "Become a Sponsor - Statichunt"
 description: ""
 draft: false
 ---
-
 **Statichunt is now open to sponsorship opportunities!**
 
 Statichunt is the largest and fastest-growing Composable themes and resources directory.

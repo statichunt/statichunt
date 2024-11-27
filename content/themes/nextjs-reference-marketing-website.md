@@ -8,7 +8,8 @@ date: 2023-11-28T04:07:58.912Z
 description: Next.js starter for creating a SaaS Marketing Website with Hygraph ️
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

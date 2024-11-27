@@ -9,6 +9,7 @@ description: 'Learn Gatsby: SSG, GraphQL,Images, Template'
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

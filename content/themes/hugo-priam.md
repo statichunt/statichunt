@@ -9,6 +9,7 @@ description: ️ A fast, clean, responsive Hugo theme.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

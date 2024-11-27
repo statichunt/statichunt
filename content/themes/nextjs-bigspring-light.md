@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -23,7 +24,6 @@ update_date: '2024-09-01T10:18:15Z'
 github_star: 225
 github_fork: 149
 ---
-
 ## Key Features
 
 - Simple and Minimal

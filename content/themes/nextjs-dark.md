@@ -8,7 +8,8 @@ date: 2023-11-28T08:20:02.476Z
 description: An opinionated, dark-themed Next.js & Chakra UI GitHub repository template.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

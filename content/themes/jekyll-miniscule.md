@@ -9,6 +9,7 @@ description: a custom jekyll theme i'm writing for my own github pages based on 
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

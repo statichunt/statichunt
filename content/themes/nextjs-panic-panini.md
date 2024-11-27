@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 category:
   - Others
 draft: false
@@ -20,7 +21,6 @@ update_date: '2024-09-19T08:03:58Z'
 github_star: 9
 github_fork: 15
 ---
-
 ## Key Features
 
 - Next.js / TailwindCSS / React

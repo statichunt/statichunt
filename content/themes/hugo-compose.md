@@ -9,6 +9,7 @@ description: A Hugo theme for documentation sites.
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

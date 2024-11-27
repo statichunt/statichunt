@@ -14,6 +14,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms: []
 category: []
 draft: false

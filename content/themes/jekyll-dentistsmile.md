@@ -9,6 +9,7 @@ description: Single page Jekyll theme for dental clinics
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

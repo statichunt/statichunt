@@ -9,6 +9,7 @@ description: JuiceBar is a concise, elegan blog theme powered by Hugo.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

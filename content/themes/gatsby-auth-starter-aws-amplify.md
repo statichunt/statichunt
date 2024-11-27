@@ -9,6 +9,7 @@ description: Starter Project with Authentication with Gatsby & AWS Amplify
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Boilerplate
@@ -21,7 +22,6 @@ update_date: '2024-08-26T05:40:37Z'
 github_star: 331
 github_fork: 129
 ---
-
 Key Features:
 
 - Integration with Tailwind CSS supporting Dark mode.

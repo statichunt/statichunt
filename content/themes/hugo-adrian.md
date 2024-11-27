@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/adrian/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-04-03T00:00:00.000Z
-description: Adrian is a Hugo eCommerce theme with a lot of functionality for your online business.
+description: >-
+  Adrian is a Hugo eCommerce theme with a lot of functionality for your online
+  business.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 10
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 87/100 (Desktop)

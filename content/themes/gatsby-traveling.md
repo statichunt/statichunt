@@ -9,6 +9,7 @@ description: A blog to share travels around the world
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

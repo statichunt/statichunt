@@ -9,6 +9,7 @@ description: Anubis2 is another simple minimalist theme for Hugo blog engine
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

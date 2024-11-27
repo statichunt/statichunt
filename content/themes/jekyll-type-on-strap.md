@@ -9,6 +9,7 @@ description: Simplistic, responsive jekyll based open source theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

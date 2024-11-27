@@ -9,6 +9,7 @@ description: Next.js starter for creating a corporate site with Strapi.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

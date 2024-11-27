@@ -9,6 +9,7 @@ description: A starter site for Jekyll + Prose
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

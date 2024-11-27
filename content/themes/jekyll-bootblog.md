@@ -9,6 +9,7 @@ description: A jekyll blog theme powered by bootstrap.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

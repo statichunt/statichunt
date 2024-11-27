@@ -9,6 +9,7 @@ description: A repository for a jekyll site to support the nursery in residence 
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

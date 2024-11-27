@@ -9,6 +9,7 @@ description: Astro starter powered by MPA view transitions
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

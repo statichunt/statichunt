@@ -6,18 +6,20 @@ demo: https://thern.rainbowit.net/index-banner/
 author: Rainbow Themes
 author_link: https://themeforest.net/user/rainbow-themes
 date: 2023-04-17T00:00:00.000Z
-description: TheRN specially built for Creative Agency, Corporate website, Portfolio website, Photographer, Personal Portfolio and all kinds of Personal Portfolio & Business and others.
+description: >-
+  TheRN specially built for Creative Agency, Corporate website, Portfolio
+  website, Photographer, Personal Portfolio and all kinds of Personal Portfolio
+  & Business and others.
 ssg:
   - Gatsby
-css:
-
+css: []
+ui: []
 cms:
   - Markdown
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Build On latest React and Gatsby

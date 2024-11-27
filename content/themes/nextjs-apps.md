@@ -9,6 +9,7 @@ description: Evmos Apps Monorepo
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

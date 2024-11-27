@@ -9,6 +9,7 @@ description: Eko's website and blog built with Jamstack
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

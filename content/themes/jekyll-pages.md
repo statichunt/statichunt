@@ -9,6 +9,7 @@ description: Build website in minutes.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

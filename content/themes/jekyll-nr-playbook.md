@@ -9,6 +9,7 @@ description: NRM Containerization Playbook
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -9,6 +9,7 @@ description: jekll blog theme template next-预览
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

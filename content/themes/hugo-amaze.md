@@ -9,6 +9,7 @@ description: a base of AmazeUI hugo blog theme，一个基于AmazeUI的Hugo博�
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -10,7 +10,8 @@ description: >-
   Frontend Mentor.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

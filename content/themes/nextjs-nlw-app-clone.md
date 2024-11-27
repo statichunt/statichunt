@@ -8,7 +8,8 @@ date: 2023-11-26T08:36:22.304Z
 description: 'Clone da aplicação de inscrição da Next Level Week #05'
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

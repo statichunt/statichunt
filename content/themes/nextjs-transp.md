@@ -6,21 +6,22 @@ demo: https://transp-nextjs.vercel.app/
 author: alithemes
 author_link: https://themeforest.net/user/alithemes
 date: 2023-05-04T00:00:00.000Z
-description: Transp is a NextJS template with a unique style and clean design. It is focused on building websites in the Transport, Courier, Transportation, Logistic company niches.
+description: >-
+  Transp is a NextJS template with a unique style and clean design. It is
+  focused on building websites in the Transport, Courier, Transportation,
+  Logistic company niches.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
-home_weight: 
-weight: 
-
+home_weight: null
+weight: null
 ---
-
 ## Key Features
 
 - 04 Home pages

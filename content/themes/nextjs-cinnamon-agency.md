@@ -10,7 +10,8 @@ description: >-
   access and usage.
 ssg:
   - Nextjs
-css: null
+css: []
+ui: []
 cms: null
 category:
   - Business

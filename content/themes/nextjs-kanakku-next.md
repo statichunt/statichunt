@@ -9,6 +9,7 @@ description: Full scale Dashboard application written in Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

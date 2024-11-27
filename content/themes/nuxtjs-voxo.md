@@ -11,13 +11,12 @@ ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Ecommerce
 draft: false
 ---
-
 ## Key Features
 
 - Create with nuxt/vue

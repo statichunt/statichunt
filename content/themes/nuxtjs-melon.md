@@ -9,6 +9,7 @@ description: Melon is a Nuxt.js starter for creative development. ️ |
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

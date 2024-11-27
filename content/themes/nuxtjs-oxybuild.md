@@ -6,18 +6,19 @@ demo: https://oxybuild.vuejstemplate.com/
 author: codecarnival
 author_link: https://themeforest.net/user/codecarnival
 date: 2023-02-18T00:00:00.000Z
-description: OxyBuild – Construction Vue Nuxt JS Template is a modern web template based on Vue JS for building and construction company websites.
+description: >-
+  OxyBuild – Construction Vue Nuxt JS Template is a modern web template based on
+  Vue JS for building and construction company websites.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest Vue

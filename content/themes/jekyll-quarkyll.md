@@ -9,6 +9,7 @@ description: ':gem: A Jekyll theme based on Quark the Grav CMS default theme.'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

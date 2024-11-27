@@ -9,6 +9,7 @@ description: A light documentation and book template based on Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

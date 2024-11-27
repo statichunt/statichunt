@@ -9,6 +9,7 @@ description: Next.js example blog powered by Notion Public API
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

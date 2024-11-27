@@ -6,20 +6,20 @@ demo: https://modernize-nuxt.adminmart.com/dashboards/modern
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2023-04-12T00:00:00.000Z
-description: Modernize Nuxt Js Admin Dashboard is the most powerful and developer-friendly admin dashboard template based on Nuxt.js Framework.
+description: >-
+  Modernize Nuxt Js Admin Dashboard is the most powerful and developer-friendly
+  admin dashboard template based on Nuxt.js Framework.
 ssg:
   - Nuxtjs
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Saas
   - Dashboard
 draft: false
 weight: 3
 ---
-
 ## Key Features
 
 - Easy Folder Structure

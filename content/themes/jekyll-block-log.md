@@ -9,6 +9,7 @@ description: block-log , A Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

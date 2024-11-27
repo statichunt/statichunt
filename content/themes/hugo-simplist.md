@@ -9,6 +9,7 @@ description: Content focused, minimal theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

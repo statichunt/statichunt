@@ -9,6 +9,7 @@ description: Evaluate and strip JS in your website ahead of time
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

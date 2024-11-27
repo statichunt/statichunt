@@ -9,6 +9,7 @@ description: A Gatsby theme for shared logic between all the websites from itera
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

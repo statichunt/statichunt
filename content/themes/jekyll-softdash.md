@@ -6,18 +6,20 @@ demo: https://softdash-multiple-saas.vercel.app/
 author: Ducor
 author_link: https://themeforest.net/user/ducor
 date: 2023-02-13T00:00:00.000Z
-description: Creative SaaS and Software Jekyll (Blog page + landing page + Multiple page) template.
+description: >-
+  Creative SaaS and Software Jekyll (Blog page + landing page + Multiple page)
+  template.
 ssg:
   - Jekyll
 css:
   - Bootstrap
+ui: []
 cms:
   - Decap
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Clean & Simple Design

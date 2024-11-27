@@ -9,6 +9,7 @@ description: My perso website
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -6,11 +6,16 @@ demo: https://blazex-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-10-17T00:00:00.000Z
-description: BlazeX is a specialized solution for SaaS and startup companies. It features a clean, minimalist design, powered by Tailwind CSS, that delivers a smooth user experience. Its modern layout and fast loading times make it ideal for improving website performance and user engagement.
+description: >-
+  BlazeX is a specialized solution for SaaS and startup companies. It features a
+  clean, minimalist design, powered by Tailwind CSS, that delivers a smooth user
+  experience. Its modern layout and fast loading times make it ideal for
+  improving website performance and user engagement.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,8 +25,6 @@ draft: false
 Home_weight: 35
 weight: 3
 ---
-
-
 ## Key Features
 
 - 13+ Complete SaaS Pages
@@ -40,4 +43,3 @@ weight: 3
 - Free Google fonts
 - Lifetime free updates
 - Detail Documentation
-

@@ -10,7 +10,8 @@ description: >-
   with NextJS it runs a Supabase as BaaS and React-query as data caching.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

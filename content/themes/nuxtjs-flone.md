@@ -6,18 +6,19 @@ demo: https://flone.vuejstemplate.com/
 author: codecarnival
 author_link: https://themeforest.net/user/codecarnival
 date: 2023-04-17T00:00:00.000Z
-description: Flone – VueJS eCommerce Template is a new responsive e-commerce template powered with VueJS and Nuxt JS
+description: >-
+  Flone – VueJS eCommerce Template is a new responsive e-commerce template
+  powered with VueJS and Nuxt JS
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Ecommerce
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest Vue

@@ -9,6 +9,7 @@ description: JDox open source jekyll theme powered by Github Pages
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

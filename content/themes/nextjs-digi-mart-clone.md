@@ -12,7 +12,8 @@ description: >-
   page, checkout page.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

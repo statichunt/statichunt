@@ -9,6 +9,7 @@ description: Dockerized @spree application starter template
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

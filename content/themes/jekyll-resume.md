@@ -9,6 +9,7 @@ description: A minimalist resume template for Jekyll and Hexo
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

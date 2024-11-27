@@ -9,6 +9,7 @@ description: A Jekyll version of the 'Spectral' theme by HTML5 UP.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

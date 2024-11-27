@@ -9,6 +9,7 @@ description: Iffrit.com example website using Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

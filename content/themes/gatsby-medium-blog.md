@@ -13,6 +13,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:

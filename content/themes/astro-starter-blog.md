@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - SCSS
+ui: []
 cms:
   - Markdown
 category:

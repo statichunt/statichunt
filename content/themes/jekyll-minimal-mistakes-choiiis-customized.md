@@ -9,6 +9,7 @@ description: GitHub Blog Minimal Mistakes Theme Customized by choiiis
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

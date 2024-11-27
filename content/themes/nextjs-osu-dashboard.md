@@ -9,6 +9,7 @@ description: A complete dashboard for the osu! player
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

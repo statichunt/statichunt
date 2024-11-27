@@ -9,6 +9,7 @@ description: Gatsby 2.0 starter with typescript and many cools dev tools
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

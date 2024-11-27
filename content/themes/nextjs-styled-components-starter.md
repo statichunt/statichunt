@@ -10,6 +10,7 @@ description: Server side rendering Styled-Components with NextJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

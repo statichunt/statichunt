@@ -9,6 +9,7 @@ description: A boilerplate for publishing books as Jekyll blogs
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

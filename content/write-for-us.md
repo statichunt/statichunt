@@ -4,7 +4,6 @@ meta_title: Write For Us - Statichunt
 description: "Are you passionate about Jamstack, modern web development and want to share your knowledge with a wider audience? Submit your post to Statichunt."
 draft: false
 ---
-
 Are you passionate about Jamstack, modern web development and want to share your knowledge with a wider audience? Submit your post to Statichunt.
 At Statichunt.com, we welcome guest contributors who are interested in writing about Jamstack.
 

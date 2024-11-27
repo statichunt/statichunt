@@ -9,6 +9,7 @@ description: listed tools for webdev (focus on frontend)
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Contentful
 category: []

@@ -10,7 +10,8 @@ description: >-
   React project.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

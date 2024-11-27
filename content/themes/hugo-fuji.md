@@ -9,6 +9,7 @@ description: A minimal Hugo theme with nice theme color. | 一个主题色极简
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

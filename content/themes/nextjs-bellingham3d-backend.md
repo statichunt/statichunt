@@ -9,6 +9,7 @@ description: Keystone.js backend for ecommerce store
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

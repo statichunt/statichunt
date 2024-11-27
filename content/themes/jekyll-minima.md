@@ -9,6 +9,7 @@ description: Minima is a one-size-fits-all Jekyll theme for writers.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

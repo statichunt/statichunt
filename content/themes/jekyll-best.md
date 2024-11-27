@@ -9,6 +9,7 @@ description: Best blog theme. Fork it, use it.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

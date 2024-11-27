@@ -6,18 +6,19 @@ demo: https://edublink.vue.devsblink.com/
 author: DevsBlink
 author_link: https://themeforest.net/user/devsblink
 date: 2023-02-18T00:00:00.000Z
-description: EduBlink Vue template is the best choice when you need to build an education website.
+description: >-
+  EduBlink Vue template is the best choice when you need to build an education
+  website.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - 8 Unique Home Pages

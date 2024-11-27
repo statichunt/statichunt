@@ -13,6 +13,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -23,7 +24,6 @@ update_date: '2024-10-17T14:23:16Z'
 github_star: 8710
 github_fork: 2028
 ---
-
 ## Key Features
 
 - High resolution

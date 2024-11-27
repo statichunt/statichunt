@@ -6,18 +6,19 @@ demo: https://eurtech-react.vercel.app/
 author: BDevs
 author_link: https://themeforest.net/user/bdevs
 date: 2023-01-03T00:00:00.000Z
-description: Eurtech – IT Solutions React NextJS Template for IT Solutions & Technology sites.
+description: >-
+  Eurtech – IT Solutions React NextJS Template for IT Solutions & Technology
+  sites.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Based on Bootstrap 5.x

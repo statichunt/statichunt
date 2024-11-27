@@ -10,6 +10,7 @@ ssg:
   - Hugo
 css:
   - Bulma
+ui: []
 cms: []
 category: []
 draft: false

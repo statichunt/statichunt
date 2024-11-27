@@ -9,6 +9,7 @@ description: A very lightweight & responsive theme for Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

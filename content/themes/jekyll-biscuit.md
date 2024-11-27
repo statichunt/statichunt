@@ -9,6 +9,7 @@ description: Single-page responsive Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

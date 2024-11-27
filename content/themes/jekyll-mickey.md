@@ -9,6 +9,7 @@ description: A minimal one-column theme for Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

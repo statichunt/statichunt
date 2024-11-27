@@ -9,6 +9,7 @@ description: OAS-driven Frondend-NoCode Administration Console
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

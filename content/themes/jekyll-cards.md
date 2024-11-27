@@ -9,6 +9,7 @@ description: A bootstrap based minimal jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

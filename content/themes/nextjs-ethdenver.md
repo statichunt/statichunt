@@ -10,7 +10,8 @@ description: >-
   Project at ETHDenver 2022.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

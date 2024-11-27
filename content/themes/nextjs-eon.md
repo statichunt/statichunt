@@ -9,6 +9,7 @@ description: Headless Shopify store built with NextJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

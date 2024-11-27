@@ -9,6 +9,7 @@ description: Start blogging in just 3 clicks...
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

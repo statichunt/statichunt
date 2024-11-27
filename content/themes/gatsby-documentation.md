@@ -9,6 +9,7 @@ description: A minimalist Gatsby Theme for documentation sites built with MDX an
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Documentation

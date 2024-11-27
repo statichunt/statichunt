@@ -9,6 +9,7 @@ description: Marlin Firmware Documentation Project
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

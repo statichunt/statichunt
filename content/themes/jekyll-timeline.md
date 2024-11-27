@@ -9,6 +9,7 @@ description: Timeline / Résumé Theme with Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

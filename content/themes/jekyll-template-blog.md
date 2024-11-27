@@ -9,6 +9,7 @@ description: Template for Jekyll blog sites
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,10 +9,9 @@ date: 2022-12-22T00:00:00.000Z
 description: React Gatsby JS Landing Page Templates.
 ssg:
   - Gatsby
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Business
 draft: false

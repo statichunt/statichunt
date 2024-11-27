@@ -9,6 +9,7 @@ description: File system based routing for React using Vite
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

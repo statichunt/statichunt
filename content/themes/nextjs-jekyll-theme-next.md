@@ -9,6 +9,7 @@ description: Elegant theme for Jekyll.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

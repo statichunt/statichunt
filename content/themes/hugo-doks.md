@@ -11,6 +11,7 @@ cms:
 css:
   - Bootstrap
   - SCSS
+ui: []
 category:
   - Blog
   - Documentation
@@ -23,8 +24,7 @@ update_date: '2024-08-23T12:43:21Z'
 github_star: 2084
 github_fork: 360
 ---
-
-## Key Features :
+## Key Features
 
 - Get 100 scores on Google Lighthouse by default. Doks removes unused css, prefetches links, and lazy loads images.
 

@@ -8,7 +8,8 @@ date: 2023-11-30T09:25:28.718Z
 description: Minimal Next.js Chakra UI Typescript Template
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

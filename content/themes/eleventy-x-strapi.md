@@ -9,6 +9,7 @@ description: An 11ty Blog powered by Strapi
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

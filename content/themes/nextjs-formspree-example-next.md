@@ -9,6 +9,7 @@ description: An example of using Formspree with Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

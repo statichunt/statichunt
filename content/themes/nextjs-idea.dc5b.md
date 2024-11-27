@@ -9,6 +9,7 @@ description: Imagination aids for present and future ages
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

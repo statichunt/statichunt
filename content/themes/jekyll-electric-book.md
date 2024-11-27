@@ -9,6 +9,7 @@ description: A Jekyll template for creating books in multiple formats
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

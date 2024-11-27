@@ -9,6 +9,7 @@ description: A demo of generating an JAMstack site from an RSS feed
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

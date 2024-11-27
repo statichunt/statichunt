@@ -1,6 +1,7 @@
 ---
 title: Nftpo
-download: https://www.templatemonster.com/landing-page-template/nftpo-react-nft-project-landing-page-nextjs-tailwindcss-277709.html
+download: >-
+  https://www.templatemonster.com/landing-page-template/nftpo-react-nft-project-landing-page-nextjs-tailwindcss-277709.html
 price: 21
 demo: https://nftpo.vercel.app/
 author: softivus
@@ -11,13 +12,12 @@ ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Built with ReactJS (no jQuery)

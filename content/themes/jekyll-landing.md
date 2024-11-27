@@ -9,6 +9,7 @@ description: Landing page for stillu.cc - based on Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

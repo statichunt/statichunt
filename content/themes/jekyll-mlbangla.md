@@ -9,6 +9,7 @@ description: a fastai blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

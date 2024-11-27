@@ -10,7 +10,8 @@ description: >-
   and Chakra UI.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Markdown

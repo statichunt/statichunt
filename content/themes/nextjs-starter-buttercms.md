@@ -12,7 +12,8 @@ description: >-
   functionality.
 ssg:
   - Nextjs
-css: null
+css: []
+ui: []
 cms:
   - ButterCMS
 category:

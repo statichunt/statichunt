@@ -9,6 +9,7 @@ description: A simple starter kit for a static blog created with Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

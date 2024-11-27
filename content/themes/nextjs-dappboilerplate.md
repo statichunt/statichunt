@@ -11,7 +11,8 @@ description: >-
   contribute
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

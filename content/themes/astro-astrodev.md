@@ -9,6 +9,7 @@ description: A beautiful astro template for developers.
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

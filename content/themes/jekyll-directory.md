@@ -9,6 +9,7 @@ description: Plugins and Themes discovery for Jekyll, built with Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

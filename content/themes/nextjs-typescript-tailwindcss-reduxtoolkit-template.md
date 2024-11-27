@@ -12,6 +12,7 @@ ssg:
 css:
   - Tailwind
   - PostCSS
+ui: []
 cms: []
 category: []
 draft: false

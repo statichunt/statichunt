@@ -9,6 +9,7 @@ description: Simple Jekyll-based documentation site for APIs.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

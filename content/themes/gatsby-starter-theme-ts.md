@@ -9,6 +9,7 @@ description: A starter for creating a Gatsby Theme with TypeScript.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

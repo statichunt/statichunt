@@ -6,18 +6,21 @@ demo: https://raxr-react.envytheme.com/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
-description: Raxr is a new modern React template for AI, Data Science, and Big Data Analytics startups. This is created for individuals and companies who want to publish their startups, such as Machine Learning, Big Data, Data Science, and Data Analytics, Data-centric Applications and services initiatives online.
+description: >-
+  Raxr is a new modern React template for AI, Data Science, and Big Data
+  Analytics startups. This is created for individuals and companies who want to
+  publish their startups, such as Machine Learning, Big Data, Data Science, and
+  Data Analytics, Data-centric Applications and services initiatives online.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Based on React 18+, Next.js, Bootstrap 5.1.3 & Sass

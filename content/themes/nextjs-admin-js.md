@@ -9,6 +9,7 @@ description: A personalized application to manage work and finances
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

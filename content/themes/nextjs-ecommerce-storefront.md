@@ -9,6 +9,7 @@ description: Jamstack eCommerce Storefront using Crystallize & Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

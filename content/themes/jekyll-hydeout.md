@@ -9,6 +9,7 @@ description: A refreshed version of Hyde for Jekyll 3.x and 4.x
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

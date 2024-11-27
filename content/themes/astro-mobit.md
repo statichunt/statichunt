@@ -6,11 +6,14 @@ demo: https://mobit-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-11-26T00:00:00.000Z
-description: Mobit Astro is multipurpose SaaS theme designed to showcase any SaaS product or solution.
+description: >-
+  Mobit Astro is multipurpose SaaS theme designed to showcase any SaaS product
+  or solution.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ category:
 draft: false
 weight: 7
 ---
-
 ## Key Features
 
 - 11+ Premium Pages

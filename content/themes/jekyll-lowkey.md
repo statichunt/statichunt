@@ -9,6 +9,7 @@ description: ':key: boring thoughts from my life'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

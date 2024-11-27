@@ -9,6 +9,7 @@ description: A modern, highly customizable, responsive Jekyll template for cours
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

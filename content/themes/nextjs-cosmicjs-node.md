@@ -9,6 +9,7 @@ description: '*API v2 JavaScript client for Cosmic. See important message in REA
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

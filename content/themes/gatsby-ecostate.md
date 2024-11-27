@@ -11,13 +11,12 @@ ssg:
   - Gatsby
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest React (v18.0.2)

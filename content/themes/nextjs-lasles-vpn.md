@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Business
@@ -21,7 +22,6 @@ update_date: '2022-10-12T15:14:37Z'
 github_star: 515
 github_fork: 305
 ---
-
 ## Key Features
 
 - Using NextJS Image for Image Optimization

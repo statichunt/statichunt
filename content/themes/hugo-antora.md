@@ -9,6 +9,7 @@ description: A Hugo theme based on the Antora default UI, with full support for 
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

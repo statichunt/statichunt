@@ -9,6 +9,7 @@ description: Online Shopping for Men
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

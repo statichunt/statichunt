@@ -9,6 +9,7 @@ description: A gatsby starter using Google Sheets
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

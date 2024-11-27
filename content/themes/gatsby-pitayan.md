@@ -12,6 +12,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -22,8 +23,7 @@ update_date: '2023-02-23T12:49:18Z'
 github_star: 30
 github_fork: 11
 ---
-
-## Key Features :
+## Key Features
 
 - Gatsby V4 ready
 - SEO ready (site structured data & meta tags)

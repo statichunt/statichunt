@@ -8,7 +8,8 @@ date: 2024-02-18T10:40:16.717Z
 description: Rocketseat Skylab Homepage UI clone made with Next.js and Chakra UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

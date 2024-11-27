@@ -9,6 +9,7 @@ description: Colorie - Single column blog and portfolio Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

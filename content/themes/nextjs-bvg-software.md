@@ -9,6 +9,7 @@ description: Benjamin Brooke | Web Development Blog + Courses
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

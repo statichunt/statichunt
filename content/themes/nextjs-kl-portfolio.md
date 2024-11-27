@@ -8,7 +8,8 @@ date: 2024-02-18T12:50:31.895Z
 description: KL's Portfolio v2. Made with Love using NextJS, ChakraUI and Framer motion.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

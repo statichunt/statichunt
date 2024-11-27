@@ -12,7 +12,8 @@ description: >-
   are also there with will help full for users to tack date and month pl...
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

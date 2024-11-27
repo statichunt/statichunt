@@ -9,6 +9,7 @@ description: Hugo Theme for my Braindump
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

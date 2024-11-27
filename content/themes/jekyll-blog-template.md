@@ -9,6 +9,7 @@ description: Template for the Jekyll-powered elementary blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

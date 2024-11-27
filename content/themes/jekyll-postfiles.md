@@ -9,6 +9,7 @@ description: A Jekyll plugin that copies static files from the _posts to the _si
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category: []

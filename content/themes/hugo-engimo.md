@@ -12,6 +12,7 @@ ssg:
   - Hugo
 css:
   - SCSS
+ui: []
 cms: []
 category: []
 draft: false

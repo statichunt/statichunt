@@ -9,6 +9,7 @@ description: A single accent, single column Jekyll Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: simple-electron-ui
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

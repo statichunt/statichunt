@@ -9,6 +9,7 @@ description: A sample dashboard app
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

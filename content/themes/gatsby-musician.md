@@ -9,6 +9,7 @@ description: A Gatsby theme for bands and music artists 🎙
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

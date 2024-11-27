@@ -9,6 +9,7 @@ description: A demo site for the jekyll-theme-console theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

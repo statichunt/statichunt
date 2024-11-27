@@ -9,6 +9,7 @@ description: Gatsby Contentful starter for creating a portfolio website with a b
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category:

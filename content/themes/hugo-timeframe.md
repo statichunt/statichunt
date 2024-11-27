@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/timeframe/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-04-03T00:00:00.000Z
-description: The Timeframe theme has a solid layout for just about any type of photo or video website.
+description: >-
+  The Timeframe theme has a solid layout for just about any type of photo or
+  video website.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 29
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 91/100 (Desktop)

@@ -8,7 +8,8 @@ date: 2024-02-19T05:32:30.630Z
 description: Verbosely Documented, Minimal Starknet Contract Examples.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

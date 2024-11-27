@@ -9,6 +9,7 @@ description: Simple and minimal project home page theme for Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

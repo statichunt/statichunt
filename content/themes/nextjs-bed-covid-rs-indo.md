@@ -10,7 +10,8 @@ description: >-
   tidur rumah sakit untuk pasien covid-19 ataupun non-covid di Indonesia.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -10,6 +10,7 @@ description: GraphQL + TypeScript boilerplate for NextJS.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

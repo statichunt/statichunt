@@ -9,6 +9,7 @@ description: A Gatsby starter with infinite scroll and pagination.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

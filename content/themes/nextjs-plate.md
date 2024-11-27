@@ -8,7 +8,8 @@ date: 2023-11-28T04:16:48.115Z
 description: 🦸‍ A super template for Next.js with a pack of incredible tools
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

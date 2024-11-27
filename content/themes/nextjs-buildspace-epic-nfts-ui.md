@@ -10,7 +10,8 @@ description: >-
   NFT, podrás revender el NFT en OpenSea. El NFT en sí se puede personalizar
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

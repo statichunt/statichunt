@@ -9,6 +9,7 @@ description: Jekyll plugin to retrieve content from any Strapi API.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Documentation

@@ -9,6 +9,7 @@ description: A reusable basic theme for any website.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

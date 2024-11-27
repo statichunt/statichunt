@@ -9,6 +9,7 @@ description: Starter files for simple Gatsby site w/ Netlify CMS
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

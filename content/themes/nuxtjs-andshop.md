@@ -11,14 +11,13 @@ ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
   - Saas
 draft: false
 ---
-
 ## Key Features
 
 - Build on Latest Vue Js Platform

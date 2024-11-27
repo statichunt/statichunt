@@ -9,6 +9,7 @@ description: Strapi Starter Next.js E-commerce
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

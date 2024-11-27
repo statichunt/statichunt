@@ -9,6 +9,7 @@ description: Unofficial Next.js + Typescript + PWA starter with a latest package
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

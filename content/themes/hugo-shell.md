@@ -9,6 +9,7 @@ description: 'Hugo Shell theme : Terminal-like theme with selectable color schem
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

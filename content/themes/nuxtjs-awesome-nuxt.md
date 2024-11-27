@@ -9,6 +9,7 @@ description: A curated list of awesome things related to Nuxt.js
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

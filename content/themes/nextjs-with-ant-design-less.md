@@ -9,6 +9,7 @@ description: Next.js App with Ant-Design and Less configured out of the box
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

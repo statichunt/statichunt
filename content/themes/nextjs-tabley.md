@@ -8,7 +8,8 @@ date: 2024-02-18T05:10:06.206Z
 description: Using React-Table and Chakra UI to create powerful table
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

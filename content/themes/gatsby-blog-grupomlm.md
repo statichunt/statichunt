@@ -14,6 +14,7 @@ ssg:
 css:
   - Bulma
   - SCSS
+ui: []
 cms: []
 category:
   - Blog

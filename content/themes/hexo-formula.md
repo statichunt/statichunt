@@ -9,6 +9,7 @@ description: Hexo theme base on jade and less.
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A solid marketing site for Hugo using CloudCannon CMS
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Business

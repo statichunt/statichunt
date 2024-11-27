@@ -6,18 +6,21 @@ demo: https://qurno-nextjs.vercel.app/
 author: Platol
 author_link: https://themeforest.net/user/platol
 date: 2022-12-21T00:00:00.000Z
-description: Qurno – Minimal React Nextjs Blog Template managed with Markdown. It has all the required elements and features to create a responsive personal blog template with amazing experience.
+description: >-
+  Qurno – Minimal React Nextjs Blog Template managed with Markdown. It has all
+  the required elements and features to create a responsive personal blog
+  template with amazing experience.
 ssg:
   - Nextjs
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - Made with Bootstarp v5.x

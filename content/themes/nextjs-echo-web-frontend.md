@@ -8,7 +8,8 @@ date: 2024-02-18T09:13:01.431Z
 description: Frontend til nettsiden til echo – Linjeforeningen for informatikk.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

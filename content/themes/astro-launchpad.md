@@ -13,6 +13,7 @@ ssg:
   - Astro
 css:
   - Bootstrap
+ui: []
 cms: []
 category: []
 draft: false

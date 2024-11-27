@@ -12,6 +12,7 @@ ssg:
   - Jekyll
 css:
   - Bulma
+ui: []
 cms: []
 category:
   - Blog

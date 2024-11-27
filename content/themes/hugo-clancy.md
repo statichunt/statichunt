@@ -6,18 +6,19 @@ demo: https://clancy-hugo.netlify.app/
 author: AnvodStudio
 author_link: https://anvodstudio.com/
 date: 2023-01-29T00:00:00.000Z
-description: Elegant portfolio Hugo theme for photographers, designers, illustrators, creatives, etc.
+description: >-
+  Elegant portfolio Hugo theme for photographers, designers, illustrators,
+  creatives, etc.
 ssg:
   - Hugo
 css:
   - SCSS
-cms:
-
+ui: []
+cms: null
 category:
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - Dark and light mode user can select themself

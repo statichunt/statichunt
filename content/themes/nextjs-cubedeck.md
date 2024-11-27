@@ -8,7 +8,8 @@ date: 2024-02-18T07:17:38.570Z
 description: Take your cubing skills to the moon
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -13,6 +13,7 @@ ssg:
   - Jekyll
 css:
   - Tailwind
+ui: []
 cms: []
 category:
   - Blog

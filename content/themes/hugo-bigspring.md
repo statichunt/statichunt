@@ -6,11 +6,16 @@ demo: https://demo.gethugothemes.com/bigspring/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com/
 date: 2024-09-24T00:00:00.000Z
-description: Bigspring is a modern theme for SaaS businesses with a clean design, multilingual support, and dark mode. It has 17+ pre-designed pages and is ideal for showcasing products, sharing information, and connecting with customers.
+description: >-
+  Bigspring is a modern theme for SaaS businesses with a clean design,
+  multilingual support, and dark mode. It has 17+ pre-designed pages and is
+  ideal for showcasing products, sharing information, and connecting with
+  customers.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -19,9 +24,7 @@ category:
 draft: false
 home_weight: 21
 weight: 2
-
 ---
-
 ## Key Features
 
 - 17+ Pre-designed Pages

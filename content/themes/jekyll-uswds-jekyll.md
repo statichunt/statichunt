@@ -9,6 +9,7 @@ description: A Jekyll theme showcasing the U.S. Web Design System
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

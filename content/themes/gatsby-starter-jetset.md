@@ -9,6 +9,7 @@ description: Jetset - A Gatsby.js 'Coming Soon' Page Starter
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

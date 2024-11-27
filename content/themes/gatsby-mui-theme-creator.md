@@ -13,7 +13,8 @@ ssg:
   - Gatsby
 css:
   - Tailwind
-  - Mui
+ui:
+  - Material
 cms: []
 category: []
 draft: false

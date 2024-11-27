@@ -9,6 +9,7 @@ description: A clean dark theme for Jekyll based on Millidocs
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

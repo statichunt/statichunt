@@ -9,6 +9,7 @@ description: ️ Opininated boilerplate for a NextJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category: []

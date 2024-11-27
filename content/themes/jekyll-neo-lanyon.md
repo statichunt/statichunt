@@ -9,6 +9,7 @@ description: 'just a jekyll theme: neo-lanyon'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

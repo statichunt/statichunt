@@ -8,7 +8,8 @@ date: 2024-02-18T06:05:51.819Z
 description: Starting point for a Next.JS app with TypeScript and Chakra UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

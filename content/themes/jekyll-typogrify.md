@@ -9,6 +9,7 @@ description: A Jekyll plugin that improves the typography of your Liquid templat
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

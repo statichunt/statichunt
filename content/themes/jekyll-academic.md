@@ -9,6 +9,7 @@ description: A Jekyll theme for academia
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

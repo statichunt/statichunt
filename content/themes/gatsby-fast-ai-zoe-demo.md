@@ -9,6 +9,7 @@ description: React Web application with S-Analytics
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

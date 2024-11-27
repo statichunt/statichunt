@@ -9,6 +9,7 @@ description: 一个为Arcylic主题开发的简洁，强大，高效的Hexo后�
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

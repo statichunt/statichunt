@@ -9,6 +9,7 @@ description: This is a test bench for me to see the features of Eleventy.
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

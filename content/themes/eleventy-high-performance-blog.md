@@ -9,6 +9,7 @@ description: A high performance blog template for the 11ty static site generator
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

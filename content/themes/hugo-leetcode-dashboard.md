@@ -9,6 +9,7 @@ description: A LeetCode dashboard for hugo website
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -14,6 +14,7 @@ ssg:
 css:
   - Bootstrap
   - SCSS
+ui: []
 cms:
   - Markdown
 category:

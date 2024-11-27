@@ -9,6 +9,7 @@ description: Nadya is a Jekyll theme, a heavily modified version of minima.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

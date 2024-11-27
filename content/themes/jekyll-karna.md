@@ -9,6 +9,7 @@ description: Karna is a responsive jekyll theme which includes pinterest like pi
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

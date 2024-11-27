@@ -6,11 +6,14 @@ demo: https://darkrise-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-08-21T00:00:00.000Z
-description: DarkRise is a fast, stylish Astro theme for SaaS and startups. It offers flexible layouts and a modern design to create stunning websites.
+description: >-
+  DarkRise is a fast, stylish Astro theme for SaaS and startups. It offers
+  flexible layouts and a modern design to create stunning websites.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +23,6 @@ draft: false
 weight: 2
 home_weight: 4
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)

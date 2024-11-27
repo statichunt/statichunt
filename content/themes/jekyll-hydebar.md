@@ -9,6 +9,7 @@ description: Jekyll sidebar template, Reveal.js integration, online in 5 minutes
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

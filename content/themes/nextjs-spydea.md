@@ -7,11 +7,13 @@ author: Themefisher
 author_link: https://themefisher.com
 date: 2023-07-11T00:00:00.000Z
 description: >-
-  Spydea is a beautiful NextJs template that is perfect for a wide variety of businesses, including SaaS, startups, and agencies.
+  Spydea is a beautiful NextJs template that is perfect for a wide variety of
+  businesses, including SaaS, startups, and agencies.
 ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,10 +22,8 @@ category:
 draft: false
 weight: 13
 home_weight: 11
-
 ---
-
-## Key Features :
+## Key Features
 
 - 17+ Unique Pages
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

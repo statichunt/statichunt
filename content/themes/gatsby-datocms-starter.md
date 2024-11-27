@@ -9,6 +9,7 @@ description: My preferred configuration for Gatsby DatoCMS projects
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Datocms
 category: []

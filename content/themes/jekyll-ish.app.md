@@ -9,6 +9,7 @@ description: The iSH website
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

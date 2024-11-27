@@ -10,7 +10,8 @@ ssg:
   - Nextjs
 cms:
   - Tina
-css: null
+css: []
+ui: []
 category:
   - Landing
 description: >-
@@ -24,7 +25,6 @@ update_date: '2024-01-30T11:06:25Z'
 github_star: 1403
 github_fork: 331
 ---
-
 ## Key Features
 
 - Best SEO setup - Meta Tags, JSON-LD and Open Graph Tags

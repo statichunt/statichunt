@@ -10,7 +10,8 @@ description: >-
   Internationalization, SEO, Components, Theme (dark/light) and more...
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

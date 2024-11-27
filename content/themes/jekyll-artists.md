@@ -9,6 +9,7 @@ description: A free Jekyll Theme developed by the DevTips Community
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

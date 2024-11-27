@@ -9,6 +9,7 @@ description: A hugo theme made in imitation of the wordpress theme Allium
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

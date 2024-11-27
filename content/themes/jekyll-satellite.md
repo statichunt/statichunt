@@ -12,6 +12,7 @@ ssg:
   - Jekyll
 css:
   - SCSS
+ui: []
 cms:
   - Markdown
 category:
@@ -22,7 +23,6 @@ update_date: '2024-05-20T06:52:49Z'
 github_star: 27
 github_fork: 37
 ---
-
 ## Key Features
 
 - Comment System using giscus

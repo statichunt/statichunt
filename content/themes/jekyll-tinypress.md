@@ -9,6 +9,7 @@ description: Tinypress Powered Blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

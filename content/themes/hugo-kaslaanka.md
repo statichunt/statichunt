@@ -9,6 +9,7 @@ description: A minimalist and text oriented blog/personal website theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

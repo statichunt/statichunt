@@ -62,10 +62,11 @@ const authors = getSinglePageData("content/authors", false);
 const blog = getSinglePageData("content/blog", false);
 const ssg = getSinglePageData("content/ssg", true);
 const css = getSinglePageData("content/css", true);
+const ui = getSinglePageData("content/ui", true);
 const cms = getSinglePageData("content/cms", true);
 const category = getSinglePageData("content/category", true);
 const sponsors = getListPageData("content/sponsors", "index.md");
-const themeTools = [...ssg, ...css, ...cms, ...category];
+const themeTools = [...ssg, ...css, ...ui, ...cms, ...category];
 
 try {
   if (!fs.existsSync(jsonDir)) {

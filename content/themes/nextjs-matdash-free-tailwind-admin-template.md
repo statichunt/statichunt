@@ -5,15 +5,18 @@ demo: https://matdash-nextjs-free.vercel.app/
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2024-09-24T00:00:00.000Z
-description: 
-  MatDash Next.js admin, a free next.js admin template with several additional features that is eye-catching and elegantly designed. With its sleek design, MatDash next.js admin gives your next project a professional and engaging look. It has everything you need to create an amazing web app.
-
+description: >-
+  MatDash Next.js admin, a free next.js admin template with several additional
+  features that is eye-catching and elegantly designed. With its sleek design,
+  MatDash next.js admin gives your next project a professional and engaging
+  look. It has everything you need to create an amazing web app.
 ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
-  - 
+  - null
 category:
   - Saas
   - Dashboard
@@ -21,7 +24,6 @@ draft: false
 home_weight: 9
 weight: 5
 ---
-
 ## Key Features
 
 - 1 Basic Dashboard

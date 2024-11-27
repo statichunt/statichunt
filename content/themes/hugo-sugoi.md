@@ -9,6 +9,7 @@ description: Hugo-Sugoi - An Ultra Minimal Hugo Theme based on Skeleton
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

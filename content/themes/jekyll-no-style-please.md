@@ -9,6 +9,7 @@ description: A (nearly) no-CSS, fast, minimalist Jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

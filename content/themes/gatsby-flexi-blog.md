@@ -6,18 +6,18 @@ demo: https://flexiblog-agency.netlify.app/
 author: ElegantStack
 author_link: https://github.com/ElegantStack
 date: 2022-12-22T00:00:00.000Z
-description: FlexiBlog is a fully functional multi-purpose blog theme powered by React and Gatsby JS v4 and packed with various page layouts.
+description: >-
+  FlexiBlog is a fully functional multi-purpose blog theme powered by React and
+  Gatsby JS v4 and packed with various page layouts.
 ssg:
   - Gatsby
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Multiple homepage layouts

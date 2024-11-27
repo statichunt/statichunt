@@ -9,6 +9,7 @@ description: The Casper theme v1.4 ported to Gatsby v2
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

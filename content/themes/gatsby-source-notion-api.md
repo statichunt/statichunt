@@ -9,6 +9,7 @@ description: Gatsby plugin for Notion API
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

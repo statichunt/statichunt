@@ -12,6 +12,7 @@ ssg:
   - Hugo
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:

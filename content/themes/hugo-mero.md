@@ -9,6 +9,7 @@ description: Hugo theme for personal blogs
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

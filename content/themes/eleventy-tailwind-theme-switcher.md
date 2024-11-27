@@ -12,6 +12,7 @@ ssg:
   - Eleventy
 css:
   - Tailwind
+ui: []
 cms: []
 category: []
 draft: false

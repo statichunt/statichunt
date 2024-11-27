@@ -9,6 +9,7 @@ description: Gatsby Theme to add a Cloudinary Image Gallery to your Gatsby site.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

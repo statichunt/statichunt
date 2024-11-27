@@ -9,6 +9,7 @@ description: Arabic theme for blogging
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

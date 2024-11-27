@@ -9,6 +9,7 @@ description: hands-on code for https://codewithme.muzamint.com/
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

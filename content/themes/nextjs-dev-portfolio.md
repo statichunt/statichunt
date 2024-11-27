@@ -9,6 +9,7 @@ description: Your Personal Portfolio Website - Showcase Your Journey
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

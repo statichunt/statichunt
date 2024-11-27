@@ -6,22 +6,26 @@ demo: https://optimize-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-09-29T00:00:00.000Z
-description: Optimize Astro is tailored for SaaS and startup businesses. Utilizing the Astro framework and styled with Tailwind CSS, it features a sleek, minimalist design that delivers an intuitive user experience from the first interaction. Its modern layout and fast loading performance make it an excellent choice for high-conversion SaaS websites.
+description: >-
+  Optimize Astro is tailored for SaaS and startup businesses. Utilizing the
+  Astro framework and styled with Tailwind CSS, it features a sleek, minimalist
+  design that delivers an intuitive user experience from the first interaction.
+  Its modern layout and fast loading performance make it an excellent choice for
+  high-conversion SaaS websites.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Business
   - Saas
 draft: false
-weight: 
+weight: null
 home_weight: 19
 ---
-
-
 ## Key Features
 
 - 13+ Complete SaaS Pages

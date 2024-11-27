@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -22,13 +23,11 @@ update_date: '2024-10-16T05:57:45Z'
 github_star: 256
 github_fork: 122
 ---
-
-
 # 🚀 Dante - Astro.js & Tailwind CSS Theme
 
 Dante is a single-author blog and portfolio theme for Astro.js + Tailwind CSS. Featuring a minimal, straightforward, responsive and content-focused design. For more Astro.js themes please check [justgoodui.com](https://justgoodui.com/).
 
-## Theme Features:
+## Theme Features
 
 - ✅ Dark and light color mode
 - ✅ Hero section with bio
@@ -51,6 +50,7 @@ Dante is a single-author blog and portfolio theme for Astro.js + Tailwind CSS. F
 - @astrojs/mdx - https://docs.astro.build/en/guides/markdown-content/
 - @astrojs/rss - https://docs.astro.build/en/guides/rss/
 └── tsconfig.json
+
 ```
 
 ## Project Structure

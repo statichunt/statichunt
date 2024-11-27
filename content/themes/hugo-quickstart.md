@@ -9,6 +9,7 @@ description: A bare-bones Hugo template to get you deployed to Netlify fast!
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

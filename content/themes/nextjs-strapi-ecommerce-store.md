@@ -9,6 +9,7 @@ description: Next.js Strapi Ecommerce Store
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

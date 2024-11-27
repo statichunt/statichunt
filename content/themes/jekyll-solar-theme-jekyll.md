@@ -9,6 +9,7 @@ description: A stylish theme for Jekyll blogs, based on the Solarized color pale
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

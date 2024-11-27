@@ -9,6 +9,7 @@ description: 'Nēnē: A no-frills static site generator'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

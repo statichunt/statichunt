@@ -9,6 +9,7 @@ description: 'My older Jekyll blog, based on the So Simple theme :link:'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

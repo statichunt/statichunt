@@ -9,6 +9,7 @@ description: Firelayer Template - Landing (Nuxt.js Website)
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

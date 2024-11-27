@@ -12,7 +12,8 @@ description: >-
   personal care items, and more.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

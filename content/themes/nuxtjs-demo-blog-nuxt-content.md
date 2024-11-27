@@ -9,6 +9,7 @@ description: Demo of how to create a blog with the Nuxt.js content module
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms:
   - Markdown
 category:

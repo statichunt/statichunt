@@ -9,6 +9,7 @@ description: My thoughts on life, astronomy, code and more!
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

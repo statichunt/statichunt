@@ -10,6 +10,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms:
   - Decap
 category:
@@ -20,8 +21,7 @@ update_date: '2021-10-12T20:01:59Z'
 github_star: 30
 github_fork: 22
 ---
-
-## Key Features :
+## Key Features
 
 - Gatsby v3
 - Netlify CMS (incl. Admin live preview for all pages)

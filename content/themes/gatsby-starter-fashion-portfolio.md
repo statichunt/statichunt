@@ -9,6 +9,7 @@ description: A Gatsby starter for a professional and minimal fashion portfolio.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

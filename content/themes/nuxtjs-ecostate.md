@@ -6,19 +6,19 @@ demo: https://ecostate-vue.pages.dev/
 author: BootXperts
 author_link: https://themeforest.net/user/bootxperts
 date: 2023-04-13T00:00:00.000Z
-description: With Ecostate the Real Estate Property Listing Nuxt JS Template, you can craft your desired single property real estate listing website in little to no time.
+description: >-
+  With Ecostate the Real Estate Property Listing Nuxt JS Template, you can craft
+  your desired single property real estate listing website in little to no time.
 ssg:
   - Nuxtjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
-
 draft: false
 ---
-
 ## Key Features
 
 - Build with Nuxt Js

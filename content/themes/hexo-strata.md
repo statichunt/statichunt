@@ -9,6 +9,7 @@ description: Hexo version of the Strata theme from html5up
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

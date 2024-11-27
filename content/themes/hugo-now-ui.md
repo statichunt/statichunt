@@ -9,6 +9,7 @@ description: ':globe_with_meridians: Hugo adaptation of Now-UI from Creative Tim
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

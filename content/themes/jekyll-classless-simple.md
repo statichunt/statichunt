@@ -9,6 +9,7 @@ description: Jekyll theme with simple.css, classless CSS framework.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

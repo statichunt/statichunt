@@ -14,6 +14,7 @@ css:
   - Bootstrap
   - Bulma
   - SCSS
+ui: []
 cms: []
 category: []
 draft: false

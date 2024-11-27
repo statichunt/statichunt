@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - SCSS
+ui: []
 cms: []
 category:
   - Dashboard

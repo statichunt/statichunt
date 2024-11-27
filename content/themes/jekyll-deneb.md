@@ -6,18 +6,19 @@ demo: https://deneb-jekyll.tortoizthemes.com/
 author: Tortoiz Themes
 author_link: https://jekyllthemes.io/developers/tortoiz-themes
 date: 2023-02-13T00:00:00.000Z
-description: Deneb is a digital agency Jekyll theme designed keeping in mind all types of agencies such as SEO agency, web design agency, web dev agency etc.
+description: >-
+  Deneb is a digital agency Jekyll theme designed keeping in mind all types of
+  agencies such as SEO agency, web design agency, web dev agency etc.
 ssg:
   - Jekyll
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Supports Netlify

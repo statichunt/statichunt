@@ -9,6 +9,7 @@ description: A basic React/NextJS project showing how to use the Flow Client Lib
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

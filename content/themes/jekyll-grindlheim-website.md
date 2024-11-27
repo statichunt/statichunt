@@ -9,6 +9,7 @@ description: Website for my Planet Coaster project 'Grindlheim'.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

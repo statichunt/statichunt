@@ -9,6 +9,7 @@ description: Blogging seems easy with github actions
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

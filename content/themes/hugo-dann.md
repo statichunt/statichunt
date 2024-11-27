@@ -6,18 +6,19 @@ demo: https://dann-hugo.netlify.app/
 author: AnvodStudio
 author_link: https://themeforest.net/user/anvodstudio
 date: 2023-01-29T00:00:00.000Z
-description: A powerful multi-purpose Hugo theme with a unique design. Perfect for your blog or personal website.
+description: >-
+  A powerful multi-purpose Hugo theme with a unique design. Perfect for your
+  blog or personal website.
 ssg:
   - Hugo
 css:
   - SCSS
-cms:
-
+ui: []
+cms: null
 category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - No jQuery, only vanilla JS

@@ -9,6 +9,7 @@ description: Source code for New Relic's Gatsby site theme.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

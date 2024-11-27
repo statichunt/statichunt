@@ -6,11 +6,14 @@ demo: https://arun-gatsby.netlify.app/
 author: GBJsolution
 author_link: https://gbjsolution.com/
 date: 2023-01-01T00:00:00.000Z
-description: Arun is a personal Gatsby React template. It comes with Netlify CMS already configured. The post, page contents and data are saved in Markdown
+description: >-
+  Arun is a personal Gatsby React template. It comes with Netlify CMS already
+  configured. The post, page contents and data are saved in Markdown
 ssg:
   - Gatsby
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
   - Decap
@@ -18,7 +21,6 @@ category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - 100% responsive, looks nice in any size of device.

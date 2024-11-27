@@ -9,6 +9,7 @@ description: An example submission for the Gatsby Theme Jam.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

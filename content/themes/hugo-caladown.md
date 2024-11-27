@@ -9,6 +9,7 @@ description: R package designed to work with the 'calade' theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

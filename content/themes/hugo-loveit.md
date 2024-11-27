@@ -9,6 +9,7 @@ description: A clean, elegant but advanced blog theme for Hugo 一个简洁、�
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

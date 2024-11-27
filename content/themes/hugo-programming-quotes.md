@@ -9,6 +9,7 @@ description: A demo presentation for the reveal-hugo Reveal.js Hugo theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

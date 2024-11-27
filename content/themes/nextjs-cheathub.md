@@ -10,7 +10,8 @@ description: >-
   React/Typescript frontend
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

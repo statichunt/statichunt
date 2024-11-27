@@ -10,7 +10,8 @@ description: >-
   (w)right way
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Markdown

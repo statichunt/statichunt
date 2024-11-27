@@ -9,6 +9,7 @@ description: Next.js template for programmatic video apps
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Documentation

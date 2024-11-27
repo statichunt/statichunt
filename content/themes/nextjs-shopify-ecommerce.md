@@ -9,6 +9,7 @@ description: Jamstack e-commerce shop template
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

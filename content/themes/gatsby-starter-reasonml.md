@@ -9,6 +9,7 @@ description: Gatsby starter to create static sites using type-safe ReasonML
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

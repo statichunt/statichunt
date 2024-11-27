@@ -9,6 +9,7 @@ description: All The Documentation
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -6,18 +6,19 @@ demo: https://pringo-react.pages.dev/
 author: Code Carnival
 author_link: https://themeforest.net/user/codecarnival
 date: 2023-04-16T00:00:00.000Z
-description: Pringo – React JS Digital Marketing Website Template with Gatsby Detailed Description
+description: >-
+  Pringo – React JS Digital Marketing Website Template with Gatsby Detailed
+  Description
 ssg:
   - Gatsby
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest React (v18.2.0)

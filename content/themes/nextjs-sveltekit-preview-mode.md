@@ -9,6 +9,7 @@ description: Easily enable preview mode for your CMS with SvelteKit
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

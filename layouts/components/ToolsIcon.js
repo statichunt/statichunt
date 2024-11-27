@@ -9,6 +9,7 @@ const ToolsIcon = ({
   size = 18,
   ssg = true,
   css = true,
+  ui = true,
   cms = true,
   category = true,
 }) => {
@@ -16,6 +17,7 @@ const ToolsIcon = ({
 
   let ssgArray = [];
   let cssArray = [];
+  let uiArray = [];
   let cmsArray = [];
   let categoryArray = [];
 
@@ -25,6 +27,9 @@ const ToolsIcon = ({
   if (css && item?.frontmatter?.css) {
     cssArray = item?.frontmatter?.css;
   }
+  if (ui && item?.frontmatter?.ui) {
+    uiArray = item?.frontmatter?.ui;
+  }
   if (cms && item?.frontmatter?.cms) {
     cmsArray = item?.frontmatter?.cms;
   }
@@ -32,7 +37,13 @@ const ToolsIcon = ({
     categoryArray = item?.frontmatter?.category;
   }
 
-  const allTools = [...ssgArray, ...cssArray, ...cmsArray, ...categoryArray];
+  const allTools = [
+    ...ssgArray,
+    ...cssArray,
+    ...uiArray,
+    ...cmsArray,
+    ...categoryArray,
+  ];
 
   const filteredTools = tools.filter((data) =>
     allTools
@@ -41,8 +52,6 @@ const ToolsIcon = ({
   );
 
   const toolsLength = filteredTools.length;
-
-  // useTooltip();
 
   return (
     <>

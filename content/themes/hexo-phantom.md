@@ -9,6 +9,7 @@ description: Hexo implementation of Phantom (http://html5up.net/phantom)
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

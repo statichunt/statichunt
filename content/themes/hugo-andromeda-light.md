@@ -8,6 +8,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -23,7 +24,6 @@ update_date: '2024-04-05T03:46:17Z'
 github_star: 76
 github_fork: 64
 ---
-
 ## Key Features
 
 - Google analytics support

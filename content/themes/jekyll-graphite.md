@@ -9,6 +9,7 @@ description: A jekyll theme focusing on typography.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: A modular Hugo theme to build your next documentation site
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

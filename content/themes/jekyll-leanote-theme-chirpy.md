@@ -9,6 +9,7 @@ description: Chirpy Jekyll Theme 在 Leanote 上的移植
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

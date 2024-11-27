@@ -9,6 +9,7 @@ description: Dashboard-ul destinat adminilor, care administreaza site-ul ROMDIG
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

@@ -9,6 +9,7 @@ description: A template project for creating AsciiDoc-based websites using Jekyl
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

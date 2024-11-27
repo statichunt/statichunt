@@ -9,6 +9,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Blog
 date: 2021-08-29T16:05:35.000Z
@@ -21,7 +22,6 @@ update_date: '2024-04-10T23:54:03Z'
 github_star: 103
 github_fork: 158
 ---
-
 ## Key Features
 
 - Google analytics support

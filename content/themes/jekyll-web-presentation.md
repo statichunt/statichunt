@@ -9,6 +9,7 @@ description: Jekyll theme template to create web presentation
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

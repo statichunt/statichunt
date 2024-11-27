@@ -6,19 +6,21 @@ demo: https://outstock-vue.vercel.app/
 author: Theme_Pure
 author_link: https://themeforest.net/user/theme_pure
 date: 2023-04-13T00:00:00.000Z
-description: Outstock – Clean, Minimal eCommerce Vue Nuxt 3 Template for multipurpose (Fashion, apparel, sunglasses, accessories, mega store, watch, cosmetic, clothes, bag, bag store, cosmetic, fashion template, Multipurpose template, watch store).
+description: >-
+  Outstock – Clean, Minimal eCommerce Vue Nuxt 3 Template for multipurpose
+  (Fashion, apparel, sunglasses, accessories, mega store, watch, cosmetic,
+  clothes, bag, bag store, cosmetic, fashion template, Multipurpose template,
+  watch store).
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Ecommerce
-
 draft: false
 ---
-
 ## Key Features
 
 - Vue JS 3

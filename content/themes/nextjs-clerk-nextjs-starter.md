@@ -9,6 +9,7 @@ description: Official starter repo for Clerk and Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

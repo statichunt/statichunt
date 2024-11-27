@@ -9,6 +9,7 @@ description: Hugo 个人博客 hugo-theme-stack 带教程
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

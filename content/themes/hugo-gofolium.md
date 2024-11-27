@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/gofolium/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-04-03T00:00:00.000Z
-description: Gofolium is a responsive and blazing fast-loading Hugo theme optimized to provide a portfolio site for scientists and researchers.
+description: >-
+  Gofolium is a responsive and blazing fast-loading Hugo theme optimized to
+  provide a portfolio site for scientists and researchers.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 35
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 97/100 (Desktop)

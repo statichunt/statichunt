@@ -11,6 +11,7 @@ ssg:
   - Nextjs
 css:
   - SCSS
+ui: []
 cms:
   - Markdown
 category:

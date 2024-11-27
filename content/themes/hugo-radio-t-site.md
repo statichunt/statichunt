@@ -9,6 +9,7 @@ description: Сайт подкаста Радио-Т
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

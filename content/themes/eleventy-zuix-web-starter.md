@@ -9,6 +9,7 @@ description: Multi-purspose web starter project powered by zuix.js
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

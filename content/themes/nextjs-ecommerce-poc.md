@@ -10,7 +10,8 @@ description: >-
   API for content delivery
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Contentful

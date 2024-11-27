@@ -2,15 +2,18 @@
 title: Logbook Astro
 download: https://themefisher.com/products/logbook-astro
 price: 79
-demo: https://logbook-astro.vercel.app/ 
+demo: https://logbook-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-03-30T00:00:00.000Z
-description: Logbook Astro is a sleek, minimal template for bloggers and writers. It has 16+ pre-designed pages and uses Tailwind CSS for easy customization.
+description: >-
+  Logbook Astro is a sleek, minimal template for bloggers and writers. It has
+  16+ pre-designed pages and uses Tailwind CSS for easy customization.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +23,6 @@ category:
 draft: false
 weight: 16
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)

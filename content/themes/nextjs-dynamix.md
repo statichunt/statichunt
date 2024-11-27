@@ -9,6 +9,7 @@ description: dynamix - The missing bridge for web / webview / apps for UI/UX dev
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

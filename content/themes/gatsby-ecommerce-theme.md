@@ -9,6 +9,7 @@ description: A Gatsby-based starter theme with e-commerce styled components
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

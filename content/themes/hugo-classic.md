@@ -9,6 +9,7 @@ description: A simple and text-centric theme for Hugo.io
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -8,7 +8,8 @@ date: 2023-02-22T00:00:00.000Z
 description: Landing page for any SaaS company, using Nextjs and NextUI
 ssg:
   - Nextjs
-css: null
+css: []
+ui: []
 cms: null
 category:
   - Saas
@@ -18,7 +19,6 @@ update_date: '2023-07-11T21:18:20Z'
 github_star: 320
 github_fork: 85
 ---
-
 ## Key Features
 
 - Hero Section

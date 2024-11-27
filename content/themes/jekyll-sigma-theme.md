@@ -9,6 +9,7 @@ description: Website theme for Jekyll v4.0.0
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

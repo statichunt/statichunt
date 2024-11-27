@@ -9,6 +9,7 @@ description: Developing gatsby-theme-kb, a Gatsby theme for publishing Knowledge
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

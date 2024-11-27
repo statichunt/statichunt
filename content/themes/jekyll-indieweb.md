@@ -9,6 +9,7 @@ description: A Jekyll quick start to getting up and going with the IndieWeb
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

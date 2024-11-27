@@ -6,19 +6,19 @@ demo: https://busino-vue.pages.dev/
 author: HasTech
 author_link: https://themeforest.net/user/hastech
 date: 2023-04-13T00:00:00.000Z
-description: Busino is a Digital Agency Website Template by Vue JS that is perfect for Creative Marketing & SEO Agencies, Advertising & Consulting agencies
+description: >-
+  Busino is a Digital Agency Website Template by Vue JS that is perfect for
+  Creative Marketing & SEO Agencies, Advertising & Consulting agencies
 ssg:
   - Nuxtjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
-
 draft: false
 ---
-
 ## Key Features
 
 - Build on VueJS Platform

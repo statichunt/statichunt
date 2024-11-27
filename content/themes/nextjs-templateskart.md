@@ -10,7 +10,8 @@ description: >-
   and projects list
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

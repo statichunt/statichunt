@@ -9,6 +9,7 @@ description: A retro dark theme for Hugo. Mirror of After Dark on Codeberg.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

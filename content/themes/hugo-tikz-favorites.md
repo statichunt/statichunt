@@ -9,6 +9,7 @@ description: collection of favorite TikZ graphics
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -14,6 +14,7 @@ css:
   - Bootstrap
   - SCSS
   - PostCSS
+ui: []
 cms:
   - Markdown
 category: []

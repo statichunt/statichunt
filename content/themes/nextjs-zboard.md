@@ -10,7 +10,8 @@ description: >-
   status, delivery progress and more...
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

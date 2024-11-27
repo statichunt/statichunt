@@ -9,6 +9,7 @@ description: Pet-project Blog built with Gatsby v3 and MDX
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

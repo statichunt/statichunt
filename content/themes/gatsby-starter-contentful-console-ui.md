@@ -8,7 +8,8 @@ date: 2023-11-26T09:43:15.663Z
 description: A starter template inspired by modern consoles' UIs
 ssg:
   - Gatsby
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Contentful

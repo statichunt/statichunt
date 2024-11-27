@@ -9,6 +9,7 @@ description: Official Javascript repository for Clerk authentication
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

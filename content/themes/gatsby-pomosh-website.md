@@ -9,6 +9,7 @@ description: Static website for Pomosh app w/ Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

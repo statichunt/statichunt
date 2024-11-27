@@ -9,6 +9,7 @@ description: A minimal and beautiful Jekyll theme best for writing and note-taki
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

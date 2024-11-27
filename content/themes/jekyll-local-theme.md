@@ -9,6 +9,7 @@ description: ':art: Jekyll plugin for building Jekyll sites with any local theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Hugo port of cfpb/docter
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

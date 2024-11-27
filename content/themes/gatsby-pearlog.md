@@ -9,6 +9,7 @@ description: Hyeoncheol's Tech Blog since 2023
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

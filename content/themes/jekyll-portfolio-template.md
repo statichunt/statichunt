@@ -9,6 +9,7 @@ description: . Jekyll portfolio website template to showcase your work using Git
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

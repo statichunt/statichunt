@@ -8,7 +8,8 @@ date: 2023-11-28T09:05:45.074Z
 description: A responsive dashboard UI built using Chakra UI and Next.js.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

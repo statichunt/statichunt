@@ -9,6 +9,7 @@ description: 一个jekyll主题 a jekyll template
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

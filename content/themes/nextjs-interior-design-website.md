@@ -10,7 +10,8 @@ description: >-
   Next.js | Chakra UI.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

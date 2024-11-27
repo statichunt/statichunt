@@ -9,6 +9,7 @@ description: php-powered blog starter... for vercel.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

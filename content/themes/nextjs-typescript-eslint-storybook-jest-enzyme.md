@@ -10,6 +10,7 @@ description: The software development power tools.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Feature-rich and easy-to-use Jekyll website template for academic c
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

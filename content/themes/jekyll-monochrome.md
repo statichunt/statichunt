@@ -9,6 +9,7 @@ description: Minimal, responsive, SEO ready blogging template built for Jekyll. 
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

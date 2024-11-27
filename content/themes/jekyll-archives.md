@@ -9,6 +9,7 @@ description: ':books: Archive pages for your Jekyll tags and categories.'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

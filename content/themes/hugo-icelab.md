@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/icelab/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: IceLab Hugo theme is ideal to represent any business as well as a lucrative portfolio.
+description: >-
+  IceLab Hugo theme is ideal to represent any business as well as a lucrative
+  portfolio.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 31
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 91/100 (Desktop)

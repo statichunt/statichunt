@@ -6,18 +6,19 @@ demo: https://waxon.netlify.app/
 author: Rainbow-Themes
 author_link: https://themeforest.net/user/rainbow-themes
 date: 2023-04-16T00:00:00.000Z
-description: It’s built with react gatsby. It’s fully responsive and looks well. It is a modern design and high-speed performance react template.
+description: >-
+  It’s built with react gatsby. It’s fully responsive and looks well. It is a
+  modern design and high-speed performance react template.
 ssg:
   - Gatsby
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Build On latest React

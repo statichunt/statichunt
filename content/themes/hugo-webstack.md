@@ -9,6 +9,7 @@ description: Hugo版 WebStack 主题 Demo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

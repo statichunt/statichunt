@@ -9,6 +9,7 @@ description: A starter template for spinning up a Gatsby+ ButterCMS site
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

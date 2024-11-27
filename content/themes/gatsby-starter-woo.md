@@ -9,6 +9,7 @@ description: StyleShout's Woo template ported to GatsbyJS
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

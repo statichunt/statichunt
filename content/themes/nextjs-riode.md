@@ -6,18 +6,19 @@ demo: https://d-themes.com/react/riode/demo-4/
 author: Don-themes
 author_link: https://themeforest.net/user/don-themes
 date: 2023-01-01T00:00:00.000Z
-description: Riode ReactJS/NextJS/Graphql eCommerce template is an ultimate ecommerce solution. It is built with ReactJS, NextJS and Apollo Graphql.
+description: >-
+  Riode ReactJS/NextJS/Graphql eCommerce template is an ultimate ecommerce
+  solution. It is built with ReactJS, NextJS and Apollo Graphql.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Ecommerce
 draft: false
 ---
-
 ## Key Features
 
 - ReactJS, NextJS, Graphql, Apollo Server

@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/spydea/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com/
 date: 2023-06-21T00:00:00.000Z
-description: Spydea is a beautiful Hugo theme that is perfect for a wide variety of businesses, including SaaS, startups, and agencies
+description: >-
+  Spydea is a beautiful Hugo theme that is perfect for a wide variety of
+  businesses, including SaaS, startups, and agencies
 ssg:
   - Hugo
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ category:
 draft: false
 weight: 1
 ---
-
 ## Key Features
 
 - 17+ Unique Pages

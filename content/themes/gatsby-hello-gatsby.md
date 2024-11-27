@@ -9,6 +9,7 @@ description: Gatsby Hello Starter
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

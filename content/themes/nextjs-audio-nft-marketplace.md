@@ -8,7 +8,8 @@ date: 2024-02-19T07:21:46.920Z
 description: Audio NFT Marketplace
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

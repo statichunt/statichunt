@@ -9,6 +9,7 @@ description: Content of the Bazel blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

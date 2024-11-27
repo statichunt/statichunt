@@ -9,6 +9,7 @@ description: Clean starter template with Astro
 ssg:
   - Astro
 css: []
+ui: []
 cms:
   - Sanity
 category: []

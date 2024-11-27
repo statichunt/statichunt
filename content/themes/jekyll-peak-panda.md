@@ -9,6 +9,7 @@ description: A modern, responsive landing page theme for business, built in Jeky
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

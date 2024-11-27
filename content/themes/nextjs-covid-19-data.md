@@ -8,7 +8,8 @@ date: 2024-02-19T07:27:16.505Z
 description: COVID-19 Data PWA built with NextJS, SWR, and Chakra-UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

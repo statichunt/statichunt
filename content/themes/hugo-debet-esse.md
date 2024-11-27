@@ -9,6 +9,7 @@ description: A minimal, responsive Hugo theme for personal websites.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

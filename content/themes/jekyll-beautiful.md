@@ -17,9 +17,10 @@ publish_date: '2015-03-02T20:04:26Z'
 update_date: '2024-09-21T04:49:14Z'
 github_star: 5369
 github_fork: 16202
+css: []
+ui: []
 ---
-
-## Key Features :
+## Key Features
 
 - The primary goal of Beautiful Jekyll is to allow literally anyone to create a website in a few minutes.
 - Uses the latest best practices and technologies to achieve nearly perfect scores on Google Chrome's Audit.

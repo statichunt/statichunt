@@ -10,6 +10,7 @@ ssg:
   - Eleventy
 css:
   - Bootstrap
+ui: []
 cms:
   - CloudCannon
 category:
@@ -20,8 +21,7 @@ update_date: '2024-07-15T22:02:30Z'
 github_star: 24
 github_fork: 18
 ---
-
-## Key Features :
+## Key Features
 
 - Pre-built pages
 - Pre-styled components

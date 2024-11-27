@@ -9,6 +9,7 @@ description: A gatsby starter for a technical documentation website
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

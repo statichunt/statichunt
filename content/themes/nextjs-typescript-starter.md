@@ -9,6 +9,7 @@ description: Unofficial Next.js + Typescript stater with a latest package
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

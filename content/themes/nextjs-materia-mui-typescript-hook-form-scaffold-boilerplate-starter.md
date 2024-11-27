@@ -15,7 +15,8 @@ ssg:
 css:
   - Tailwind
   - PostCSS
-  - Mui
+ui:
+  - Material
 cms: []
 category:
   - Boilerplate

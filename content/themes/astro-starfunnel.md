@@ -11,6 +11,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - StaticCMS
 category:

@@ -8,7 +8,8 @@ date: 2024-02-18T13:08:15.600Z
 description: This is a real estate web application created using NextJS and ChakraUI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

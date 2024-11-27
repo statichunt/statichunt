@@ -9,6 +9,7 @@ description: 'hugo: theme<yinwang> yinwang.org 样式 hugo主题 work'
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

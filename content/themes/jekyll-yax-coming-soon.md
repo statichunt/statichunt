@@ -10,6 +10,7 @@ description: Free HTML5 CSS3 Coming Soon Jekyll Template
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -7,26 +7,24 @@ author: Ilya Gru
 author_link: https://ilyagru.com
 date: 2023-05-07T00:00:00.000Z
 description: >-
-  Minimalistic yet powerful Next.js monorepo boilerplate with all the latest tech preconfigured. Build your next SaaS project, save weeks of work and launch what your customers will love.
+  Minimalistic yet powerful Next.js monorepo boilerplate with all the latest
+  tech preconfigured. Build your next SaaS project, save weeks of work and
+  launch what your customers will love.
 ssg:
   - Nextjs
-
 css:
   - Tailwind
   - PostCSS
-
+ui: []
 cms:
   - Sanity
-
 category:
   - Blog
   - Boilerplate
   - Saas
   - Dashboard
-
 draft: false
 ---
-
 ## Key Features
 
 - Superfast - Preconfigured TypeScript monorepo project using truly best in class Next.js and Turborepo, following modular structure.

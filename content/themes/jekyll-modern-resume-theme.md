@@ -9,6 +9,7 @@ description: A modern static resume template and theme. Powered by Jekyll and Gi
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

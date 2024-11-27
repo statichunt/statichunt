@@ -9,6 +9,7 @@ description: A theme for hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

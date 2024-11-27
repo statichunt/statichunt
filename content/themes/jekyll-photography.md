@@ -10,6 +10,7 @@ ssg:
   - Jekyll
 css:
   - SCSS
+ui: []
 cms: []
 category:
   - Portfolio

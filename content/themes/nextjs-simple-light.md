@@ -14,6 +14,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Saas

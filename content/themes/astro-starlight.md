@@ -8,7 +8,8 @@ date: 2023-06-11T00:00:00.000Z
 description: Build beautiful, high-performance documentation websites with Astro.
 ssg:
   - Astro
-css: null
+css: []
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +21,6 @@ github_star: 4784
 github_fork: 514
 weight: 25
 ---
-
 ## Key Features
 
 - site navigation

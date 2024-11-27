@@ -9,6 +9,7 @@ description: Gatsby + Firebase =
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

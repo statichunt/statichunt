@@ -1,3 +1,7 @@
+---
+css: []
+ui: []
+---
 --
 title: Nexsum
 github: <https://github.com/jaamaalxyz/nexsum>

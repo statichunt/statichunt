@@ -9,6 +9,7 @@ description: A minimal demonstration of how to integrate 11ty with the WordPress
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,6 +9,7 @@ description: 🌎 Responsive travel agency website built with Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

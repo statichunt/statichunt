@@ -6,18 +6,18 @@ demo: https://glax-react.vercel.app/
 author: TrendyCoder
 author_link: https://themeforest.net/user/trendycoder
 date: 2023-05-01T00:00:00.000Z
-description: Glax is designed & developed in React with Nextjs for single page application for all types of modern industry and construction websites.
+description: >-
+  Glax is designed & developed in React with Nextjs for single page application
+  for all types of modern industry and construction websites.
 ssg:
   - Nextjs
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Pixel Perfect Design

@@ -9,6 +9,7 @@ description: Jekyll theme with beautiful LaTeX typography
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

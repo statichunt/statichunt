@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/nebula/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: Nebula is a personal portfolio theme with a lot of image-based pages as well as cover images.
+description: >-
+  Nebula is a personal portfolio theme with a lot of image-based pages as well
+  as cover images.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 32
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 97/100 (Desktop)

@@ -9,6 +9,7 @@ description: A simple and elegant Jekyll theme for an academic personal homepage
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

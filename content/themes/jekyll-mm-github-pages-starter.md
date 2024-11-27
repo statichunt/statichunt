@@ -9,6 +9,7 @@ description: Minimal Mistakes GitHub Pages site starter.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

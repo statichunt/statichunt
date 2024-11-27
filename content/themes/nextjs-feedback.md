@@ -10,7 +10,8 @@ description: >-
   issues, ideas, and compliments.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

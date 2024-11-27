@@ -9,6 +9,7 @@ description: Open source 11ty theme with personality
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

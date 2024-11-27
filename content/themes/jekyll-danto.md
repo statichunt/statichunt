@@ -9,15 +9,13 @@ date: 2023-02-12T00:00:00.000Z
 description: Danto is a fast, modern, optimized, and mobile-friendly Jekyll theme.
 ssg:
   - Jekyll
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - Dark and light mode

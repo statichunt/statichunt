@@ -9,6 +9,7 @@ description: EigenLayer Dashboard
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

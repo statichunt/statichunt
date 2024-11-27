@@ -9,6 +9,7 @@ description: Digital clock with dark mode powered by React, Next.JS e Styled Com
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A Jekyll theme for JasonGaylord.com
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

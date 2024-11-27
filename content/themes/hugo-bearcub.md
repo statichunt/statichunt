@@ -9,6 +9,7 @@ description: A lightweight Hugo theme based on Bear Blog and Hugo Bear Blog
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: A boutique Jekyll theme for hackers, nerds, and academics
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

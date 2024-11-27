@@ -8,7 +8,8 @@ date: 2023-11-30T08:02:16.027Z
 description: The static website built for the web extension Link Roamer.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

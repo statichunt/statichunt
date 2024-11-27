@@ -9,6 +9,7 @@ description: A Jekyll theme for photographers and photo bloggers.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

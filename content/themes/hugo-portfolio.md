@@ -9,6 +9,7 @@ description: Easily create your own portfolio website with Hugo.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

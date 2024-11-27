@@ -9,6 +9,7 @@ description: obsidian-compatible notes theme for hugo, built from quartz and hug
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

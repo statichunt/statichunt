@@ -8,7 +8,8 @@ date: 2023-11-30T13:29:17.557Z
 description: Batteries included Next.js template with Chakra UI & Typescript
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

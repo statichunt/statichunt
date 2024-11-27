@@ -2,15 +2,18 @@
 title: Bigspring Astro
 download: https://themefisher.com/products/bigspring-astro
 price: 79
-demo: https://bigspring-astro.vercel.app/ 
+demo: https://bigspring-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-07-28T00:00:00.000Z
-description: Bigspring is a simple, modern website template for SaaS and marketing businesses. It includes basic pages and looks great on all devices.
+description: >-
+  Bigspring is a simple, modern website template for SaaS and marketing
+  businesses. It includes basic pages and looks great on all devices.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -18,9 +21,8 @@ category:
   - Saas
 draft: false
 weight: 5
-home_weight: 
+home_weight: null
 ---
-
 ## Key Features
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

@@ -9,6 +9,7 @@ description: A starter blogging template powered by nextjs, windicss and typescr
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

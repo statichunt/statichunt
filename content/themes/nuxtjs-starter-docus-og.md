@@ -9,6 +9,7 @@ description: ''
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms:
   - Markdown
 category:

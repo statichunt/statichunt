@@ -12,6 +12,7 @@ ssg:
   - Jekyll
 css:
   - Bootstrap
+ui: []
 cms: []
 category: []
 draft: false

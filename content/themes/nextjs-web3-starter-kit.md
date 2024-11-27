@@ -8,7 +8,8 @@ date: 2024-02-18T13:02:40.602Z
 description: Forkable Ethereum & Polygon dev stack focused on fast product iterations
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

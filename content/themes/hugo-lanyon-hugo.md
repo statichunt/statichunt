@@ -9,6 +9,7 @@ description: Port of poole/lanyon, to spf13/hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

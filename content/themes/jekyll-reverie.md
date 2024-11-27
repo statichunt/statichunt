@@ -9,6 +9,7 @@ description: ':art: A ridiculously elegant Jekyll theme.'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

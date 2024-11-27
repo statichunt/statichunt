@@ -9,6 +9,7 @@ description: Build Jekyll site with GitBook style!
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

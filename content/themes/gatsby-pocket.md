@@ -9,6 +9,7 @@ description: A Gatsby theme that adds a pocket to your website.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

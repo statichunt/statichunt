@@ -9,6 +9,7 @@ description: 'A Jekyll theme for minimal editions :book:'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

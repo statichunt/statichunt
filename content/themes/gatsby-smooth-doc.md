@@ -9,7 +9,8 @@ date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby
 cms: null
-css: null
+css: []
+ui: []
 category:
   - Documentation
 description: Ready to use documentation theme for Gatsby.

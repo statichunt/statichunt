@@ -9,6 +9,7 @@ description: Next.js + Fomantic-UI + Styled Components
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Clean and Minimal Jekyll theme based on Jekyll's Minima Layout
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

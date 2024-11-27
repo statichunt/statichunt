@@ -9,6 +9,7 @@ description: An accessible design system for React.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

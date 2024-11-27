@@ -1,27 +1,28 @@
 ---
 title: MatDash Tailwind Next.js Admin Template
-download: https://adminmart.com/product/matdash-next-js-admin-dashboard-template/?ref=317
+download: >-
+  https://adminmart.com/product/matdash-next-js-admin-dashboard-template/?ref=317
 price: 49
 demo: https://matdash-nextjs-main.vercel.app/
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2024-09-24T00:00:00.000Z
-description: MatDash Next.js Admin Dashboard Template is developer friendly and multipurpose admin panel template build on top of Flowbite.
-
+description: >-
+  MatDash Next.js Admin Dashboard Template is developer friendly and
+  multipurpose admin panel template build on top of Flowbite.
 ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
-  - 
+  - null
 category:
   - Saas
   - Dashboard
 draft: false
 weight: 4
 home_weight: 7
-
-
 ---
 ## Key Features
 
@@ -49,4 +50,3 @@ home_weight: 7
 - Tons of Table Example
 - Variety of Forms Included
 - Easy to Customize
-

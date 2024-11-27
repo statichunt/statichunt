@@ -1,17 +1,20 @@
 ---
 title: Delta Hugo
 download: https://gethugothemes.com/products/delta
-github:
+github: null
 price: 79
 demo: https://demo.gethugothemes.com/delta/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-12T00:00:00.000Z
-description: Delta is packed with many essential features to create a SaaS website for business, mobile applications, online products, and services
+description: >-
+  Delta is packed with many essential features to create a SaaS website for
+  business, mobile applications, online products, and services
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +23,6 @@ category:
 draft: false
 weight: 19
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 96/100 (Desktop)

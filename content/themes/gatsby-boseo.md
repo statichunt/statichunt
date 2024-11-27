@@ -6,11 +6,16 @@ demo: https://boseo.jamstacktemplates.dev/
 author: BootXperts
 author_link: https://hasthemes.com/
 date: 2023-01-01T00:00:00.000Z
-description: BoSEO – Digital Marketing Agency Gatsby Theme is a fantastic and awe-inspiring Digital Marketing web template based on the latest version of React JS and Gatsby that facilitates the development of your digital marketing agency website
+description: >-
+  BoSEO – Digital Marketing Agency Gatsby Theme is a fantastic and awe-inspiring
+  Digital Marketing web template based on the latest version of React JS and
+  Gatsby that facilitates the development of your digital marketing agency
+  website
 ssg:
   - Gatsby
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
   - Strapi
@@ -18,7 +23,6 @@ category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Build on React Platform

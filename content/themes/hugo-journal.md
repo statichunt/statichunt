@@ -9,6 +9,7 @@ description: A minimal hugo theme for blogs
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

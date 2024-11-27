@@ -9,6 +9,7 @@ description: A lightweight theme for Jekyll featuring a minimalist, content-firs
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

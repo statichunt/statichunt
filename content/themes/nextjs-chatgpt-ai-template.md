@@ -10,7 +10,8 @@ description: >-
   Kit for React, NextJS & Chakra UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

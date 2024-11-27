@@ -34,6 +34,12 @@ const useSearchTheme = () => {
     ) {
       return theme;
     } else if (
+      theme.frontmatter?.ui
+        ?.map((el) => el?.toLowerCase())
+        .includes(searchString)
+    ) {
+      return theme;
+    } else if (
       theme.frontmatter?.cms
         ?.map((el) => el?.toLowerCase())
         .includes(searchString)

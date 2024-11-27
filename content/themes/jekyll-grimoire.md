@@ -9,6 +9,7 @@ description: A jekyll quasi-wiki for RPG-oriented worldbuilding.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

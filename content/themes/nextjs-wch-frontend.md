@@ -9,8 +9,9 @@ description: Frontend for the Williams Custom Homes website
 ssg:
   - Nextjs
 css:
-  - Chakra
   - SCSS
+ui:
+  - Chakra
 cms: []
 category:
   - Business

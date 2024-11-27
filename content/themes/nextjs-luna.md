@@ -9,6 +9,7 @@ description: 'Luna - a React Native + Next.js template. Built with TypeScript :h
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

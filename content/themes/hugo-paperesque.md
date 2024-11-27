@@ -9,6 +9,7 @@ description: A lightweight theme for Hugo (gohugo.io)
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

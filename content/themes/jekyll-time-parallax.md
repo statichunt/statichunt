@@ -9,6 +9,7 @@ description: Time Parallax - Responsive Image Full Page
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

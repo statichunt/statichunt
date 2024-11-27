@@ -9,6 +9,7 @@ description: My first GitHub Pages Repository
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

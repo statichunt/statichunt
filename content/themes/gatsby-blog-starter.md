@@ -9,6 +9,7 @@ description: A Gatsby Blog Starter with Styled Components
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

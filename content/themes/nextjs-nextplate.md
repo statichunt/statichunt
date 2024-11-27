@@ -13,6 +13,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -24,7 +25,6 @@ update_date: '2024-08-06T10:36:01Z'
 github_star: 410
 github_fork: 251
 ---
-
 ## Key Features
 
 - Multi-Authors

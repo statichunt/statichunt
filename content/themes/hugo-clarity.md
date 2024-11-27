@@ -9,6 +9,7 @@ description: A theme for Hugo based on VMware Clarity
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

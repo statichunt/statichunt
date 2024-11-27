@@ -9,6 +9,7 @@ description: Landing Page Jekyll theme built with Pico.css
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

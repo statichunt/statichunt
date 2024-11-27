@@ -9,6 +9,7 @@ description: A highly customizable and mobile first Hugo template for personal p
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

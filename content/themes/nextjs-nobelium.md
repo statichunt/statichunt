@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Blog
@@ -19,7 +20,6 @@ update_date: '2024-03-25T11:06:12Z'
 github_star: 2958
 github_fork: 1949
 ---
-
 ## Key Features
 
 - Fast page render and responsive design

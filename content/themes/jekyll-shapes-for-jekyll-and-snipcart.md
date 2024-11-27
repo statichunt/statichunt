@@ -9,6 +9,7 @@ description: Jekyll theme for e-commerce with Snipcart
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

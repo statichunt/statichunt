@@ -1,26 +1,29 @@
 ---
 title: Journeya Tours & Travel Agency React Next JS Template
-download: https://webbytemplate.com/product/journeya-tours-travel-agency-react-next-js-template
+download: >-
+  https://webbytemplate.com/product/journeya-tours-travel-agency-react-next-js-template
 price: 21
 demo: https://journea-travel-agency.vercel.app/
 author: WebbyTemplate
 author_link: https://webbytemplate.com/
 date: 2024-09-25T00:00:00.000Z
-description: Journeya Travel Agency Template for React NextJS is suitable for travel agencies, tour operators, vacation planners, and similar businesses.  Its sleek, minimal design with creative animations makes it stylish and attractive, ideal for showcasing your travel skills and making a strong impression in the industry.
+description: >-
+  Journeya Travel Agency Template for React NextJS is suitable for travel
+  agencies, tour operators, vacation planners, and similar businesses.  Its
+  sleek, minimal design with creative animations makes it stylish and
+  attractive, ideal for showcasing your travel skills and making a strong
+  impression in the industry.
 ssg:
   - Nextjs
-
 css:
   - Tailwind
-
-cms: 
-
+ui: []
+cms: null
 category:
   - Business
   - Blog
   - Portfolio
   - Dashboard
-
 draft: false
 ---
 ## Key Features

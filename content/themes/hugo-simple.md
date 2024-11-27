@@ -9,6 +9,7 @@ description: A Hugo-theme based on Simple.css and Bear Blog
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

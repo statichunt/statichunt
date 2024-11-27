@@ -9,6 +9,7 @@ description: An heavily opinionated Eleventy template project with Sass
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,6 +9,7 @@ description: Gatsby theme for generating slide decks from markdown
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Hugo theme for documenting One-Day-Only projects
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

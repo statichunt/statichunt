@@ -9,6 +9,7 @@ description: Powerful, pliable pixel perfection. An advanced Hugo theme.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: A simple starting point for nodeshool chapters wanting to have gats
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

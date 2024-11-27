@@ -9,6 +9,7 @@ description: Worry-free deploying to GitHub Pages using Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

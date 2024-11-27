@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Bootstrap
+ui: []
 cms: null
 category:
   - Portfolio

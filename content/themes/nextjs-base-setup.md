@@ -11,7 +11,8 @@ description: >-
   prettier
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

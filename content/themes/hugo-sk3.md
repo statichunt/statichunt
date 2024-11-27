@@ -9,6 +9,7 @@ description: Hugo Theme - SK3 (Skeleton 3)
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

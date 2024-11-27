@@ -9,6 +9,7 @@ description: Easy Minimal GraphQL client integration with Nuxt.js.
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -6,18 +6,20 @@ demo: https://sala-nextjs.vercel.app/home/home-startup
 author: alithemes
 author_link: https://alithemes.com/
 date: 2023-04-12T00:00:00.000Z
-description: Sala is a Technology & Startup, SaaS NextJS 13 template for modern Startups and Tech companies who want to create outstanding digital experiences for their visitors.
+description: >-
+  Sala is a Technology & Startup, SaaS NextJS 13 template for modern Startups
+  and Tech companies who want to create outstanding digital experiences for
+  their visitors.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Saas
 draft: false
 ---
-
 ## Key Features
 
 - +27 unique home pages and landing pages

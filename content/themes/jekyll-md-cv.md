@@ -9,6 +9,7 @@ description: markdown cv / résumé built with jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

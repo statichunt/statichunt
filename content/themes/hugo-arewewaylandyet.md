@@ -9,6 +9,7 @@ description: Sources for https://arewewaylandyet.com
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

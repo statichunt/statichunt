@@ -9,6 +9,7 @@ description: Reusable code patterns which you can use as reference or copy to yo
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

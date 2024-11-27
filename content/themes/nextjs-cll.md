@@ -9,6 +9,7 @@ description: React Component Library Library
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

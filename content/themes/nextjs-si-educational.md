@@ -6,18 +6,19 @@ demo: https://si-educational-nextjs.netlify.app/
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2023-04-12T00:00:00.000Z
-description: Look no further than Si Educational Next js template, a free next.js template with several additional features that is eye-catching and elegantly designed.
+description: >-
+  Look no further than Si Educational Next js template, a free next.js template
+  with several additional features that is eye-catching and elegantly designed.
 ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - React 18+

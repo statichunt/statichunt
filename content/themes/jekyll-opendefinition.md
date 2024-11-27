@@ -9,6 +9,7 @@ description: Open Definition source
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

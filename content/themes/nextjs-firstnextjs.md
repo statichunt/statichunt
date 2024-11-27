@@ -9,6 +9,7 @@ description: A simple blog project based in NextJS (ReactJS); Next.js Crash Cour
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

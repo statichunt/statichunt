@@ -9,6 +9,7 @@ description: A Gatsby Starter Blog using Airtable as backend
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

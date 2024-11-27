@@ -9,6 +9,7 @@ description: Jekyll template for documentation
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

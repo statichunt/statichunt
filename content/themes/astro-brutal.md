@@ -9,6 +9,7 @@ description: A neobrutalism Astro starter theme
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A Jekyll theme for API documentation
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

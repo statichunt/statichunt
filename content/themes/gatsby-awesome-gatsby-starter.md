@@ -8,7 +8,8 @@ date: 2023-11-30T10:56:03.129Z
 description: A starter for Gatsby 4 with TypeScript, Chakra UI, ESLint and Prettier
 ssg:
   - Gatsby
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

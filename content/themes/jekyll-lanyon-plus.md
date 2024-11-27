@@ -9,6 +9,7 @@ description: Based on lanyon - A content-first, sliding sidebar theme for Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Landing Page 11ty
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,6 +9,7 @@ description: ':sparkles: Docs for Charm UI'
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

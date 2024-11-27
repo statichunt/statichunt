@@ -9,6 +9,7 @@ description: A configurable minimal gatsby portfolio theme for open source devel
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

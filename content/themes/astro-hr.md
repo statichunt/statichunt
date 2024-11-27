@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Bulma
+ui: []
 category:
   - Business
 draft: false
@@ -18,7 +19,6 @@ update_date: '2024-05-02T01:26:52Z'
 github_star: 36
 github_fork: 15
 ---
-
 ## Key Features
 
 - Astro v1.x

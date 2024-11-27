@@ -9,6 +9,7 @@ description: A simple, basic site template built using Eleventy
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

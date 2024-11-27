@@ -9,6 +9,7 @@ description: 'Documentation made easy with Gatsby. :tada:'
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

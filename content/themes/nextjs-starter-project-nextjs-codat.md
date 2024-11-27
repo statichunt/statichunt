@@ -9,6 +9,7 @@ description: Next.js starter with an example of fetching a list of companies fro
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

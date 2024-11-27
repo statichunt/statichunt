@@ -6,19 +6,20 @@ demo: https://exomac.vuejstemplate.com/
 author: codecarnival
 author_link: https://themeforest.net/user/codecarnival
 date: 2023-02-18T00:00:00.000Z
-description: Exomac is a unique and exclusive web template for Corporate businesses powered with the latest version of the popular Vue Nuxt JS framework.
+description: >-
+  Exomac is a unique and exclusive web template for Corporate businesses powered
+  with the latest version of the popular Vue Nuxt JS framework.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
   - Saas
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest Vue

@@ -8,7 +8,8 @@ date: 2023-11-30T17:03:27.790Z
 description: Personalized NextJS + TS + Chakra UI starter template
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -6,11 +6,14 @@ demo: https://saaspro-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-07-03T00:00:00.000Z
-description: A cutting-edge, customizable template for SaaS, startups & agencies to build stunning, high-performing websites.
+description: >-
+  A cutting-edge, customizable template for SaaS, startups & agencies to build
+  stunning, high-performing websites.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,11 +22,10 @@ category:
 draft: false
 weight: 13
 ---
-
 ## Key Features
 
 - 15+ Unique Pages
-- Highly customizable 
+- Highly customizable
 - Fast by default (95+ Google PageSpeed Score)
 - Built with Tailwind CSS framework
 - Netlify & Vercel setting pre-configured
@@ -43,4 +45,3 @@ weight: 13
 - Free Google fonts
 - Font Awesome icons
 - Lifetime free updates
-

@@ -9,6 +9,7 @@ description: Create rich HTML-based presentations with Hugo and Reveal.js
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

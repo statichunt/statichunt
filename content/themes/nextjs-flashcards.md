@@ -8,7 +8,8 @@ date: 2024-02-19T03:49:55.088Z
 description: Demo flashcards app built with Next.js 13, Prisma and Chakra UI.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

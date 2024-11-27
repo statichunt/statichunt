@@ -10,7 +10,8 @@ description: >-
   using Next.js, Chakra-UI and RapidAPI.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

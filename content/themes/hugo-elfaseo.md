@@ -9,6 +9,7 @@ description: Fast and SEO optimized Hugo Theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Gatsby theme for api documentation
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

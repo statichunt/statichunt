@@ -8,7 +8,8 @@ date: 2024-02-18T11:40:36.297Z
 description: Frontend for the LatinDiachronicDatabase
 ssg:
   - Gatsby
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

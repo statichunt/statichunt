@@ -8,7 +8,8 @@ date: 2024-02-18T13:37:41.777Z
 description: Airbnb home page built by using Nextjs, Typescript and ChakraUI.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

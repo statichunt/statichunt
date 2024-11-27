@@ -9,6 +9,7 @@ description: Workshop In The Woods - A photography workshop in beautiful Lake Ta
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

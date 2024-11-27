@@ -8,7 +8,8 @@ date: 2023-11-26T09:10:18.544Z
 description: website template (christmas theme using Next js with source code)
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

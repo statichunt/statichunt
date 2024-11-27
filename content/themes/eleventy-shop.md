@@ -9,6 +9,7 @@ description: Eleventy 11ty e-commerce online shop ecwid free download
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

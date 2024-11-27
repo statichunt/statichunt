@@ -9,6 +9,7 @@ description: An easy-to-use, flexible website template for labs
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

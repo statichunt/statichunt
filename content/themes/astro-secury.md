@@ -6,21 +6,25 @@ demo: https://secury-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-09-09T00:00:00.000Z
-description: Secury is a versatile Astro template for SaaS, startups, and agencies. It has 10+ pages, many features, and is easy to develop. Build stunning, professional, and high-performing websites that match your brand. Secury is perfect for Web3 projects, including crypto exchanges and mining.
+description: >-
+  Secury is a versatile Astro template for SaaS, startups, and agencies. It has
+  10+ pages, many features, and is easy to develop. Build stunning,
+  professional, and high-performing websites that match your brand. Secury is
+  perfect for Web3 projects, including crypto exchanges and mining.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Business
   - Saas
 draft: false
-weight: 
+weight: null
 home_weight: 6
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)
@@ -40,4 +44,3 @@ home_weight: 6
 - Simple and easy development environment setup
 - Free Update and Lifetime Priority Support
 - Detail Documentation.
-

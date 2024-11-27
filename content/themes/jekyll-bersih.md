@@ -9,6 +9,7 @@ description: Just Ordinary Jekyll Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -8,7 +8,8 @@ date: 2024-02-19T07:37:05.387Z
 description: A web app for users to collaborate while solving a coding problem :)
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

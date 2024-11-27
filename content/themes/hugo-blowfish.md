@@ -13,6 +13,7 @@ ssg:
   - Hugo
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -23,8 +24,7 @@ update_date: '2024-10-04T15:01:50Z'
 github_star: 1438
 github_fork: 404
 ---
-
-## Key Features :
+## Key Features
 
 - Fully responsive layout built with Tailwind CSS 3.0
 - Multiple colour schemes (or fully customise your own)

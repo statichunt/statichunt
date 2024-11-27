@@ -9,6 +9,7 @@ description: A Gatsby Theme for adding Firebase to your application.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

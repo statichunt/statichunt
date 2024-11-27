@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 category:
   - Blog
 draft: false

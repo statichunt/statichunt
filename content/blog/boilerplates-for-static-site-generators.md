@@ -9,7 +9,6 @@ categories: ["Boilerplate"]
 sponsored: false
 draft: false
 ---
-
 Static site generators have become popular for creating fast, secure, and maintainable websites. Starting a project from scratch can be time-consuming, which is where boilerplates come in. These pre-configured setups provide a head start, allowing developers to focus on their design and content. In this article, we will explore the best boilerplates available for popular static site generators, saving you time and effort while ensuring adherence to industry standards.
 
 ## Hugoplate - Hugo + Tailwind CSS Starter and Boilerplate

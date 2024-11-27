@@ -9,6 +9,7 @@ description: A minimal porfolio template in Astro
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

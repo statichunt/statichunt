@@ -9,6 +9,7 @@ description: Firebase application toolkit
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

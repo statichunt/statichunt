@@ -9,6 +9,7 @@ description: a single-page speed-dial theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

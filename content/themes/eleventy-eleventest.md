@@ -10,6 +10,7 @@ ssg:
   - Eleventy
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category: []

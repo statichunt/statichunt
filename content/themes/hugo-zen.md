@@ -9,6 +9,7 @@ description: A fast and clean Hugo base theme with css-grid and Hugo pipes suppo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

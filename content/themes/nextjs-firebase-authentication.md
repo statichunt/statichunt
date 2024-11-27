@@ -9,6 +9,7 @@ description: Next.js + Firebase Starter
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category: []

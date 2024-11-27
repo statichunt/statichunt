@@ -9,6 +9,7 @@ description: A collection of some data analytics methods
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

@@ -9,6 +9,7 @@ description: The dashboard for dagpi. Built with nextjs!
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

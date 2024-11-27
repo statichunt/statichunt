@@ -9,6 +9,7 @@ description: A Modern, Clean, Jekyll Blog Layout based from codedrops
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

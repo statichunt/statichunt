@@ -9,6 +9,7 @@ description: Index is a hugo theme inspired by @GTFOBins
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

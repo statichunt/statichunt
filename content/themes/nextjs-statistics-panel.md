@@ -9,6 +9,7 @@ description: Industry statistics panel
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

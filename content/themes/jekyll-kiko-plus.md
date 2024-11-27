@@ -9,6 +9,7 @@ description: '[DEPRECATED!!!] Please redirect to the new and easier version, kik
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

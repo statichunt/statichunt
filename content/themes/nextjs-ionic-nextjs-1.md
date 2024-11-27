@@ -9,6 +9,7 @@ description: Sample Application w NextJS & Ionic Framework
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

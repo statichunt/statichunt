@@ -9,6 +9,7 @@ description: A website that showcases interesting projects, using Angular JS.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

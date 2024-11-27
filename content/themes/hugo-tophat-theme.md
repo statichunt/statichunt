@@ -9,6 +9,7 @@ description: Top Hat it's a simple Hugo theme just for blogging.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

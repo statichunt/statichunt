@@ -9,6 +9,7 @@ description: Minimal is the new cool.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

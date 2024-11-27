@@ -9,6 +9,7 @@ description: ':seedling: A starter site for building a mind garden with eleventy
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

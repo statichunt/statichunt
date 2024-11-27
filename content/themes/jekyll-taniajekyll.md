@@ -9,6 +9,7 @@ description: A beautiful personal Jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

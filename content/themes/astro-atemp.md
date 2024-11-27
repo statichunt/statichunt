@@ -6,11 +6,14 @@ demo: https://atemp-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-07-03T00:00:00.000Z
-description: This cutting-edge website template is perfect for SaaS companies, startups, and agencies looking to build high-performing websites that impress.
+description: >-
+  This cutting-edge website template is perfect for SaaS companies, startups,
+  and agencies looking to build high-performing websites that impress.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ category:
 draft: false
 weight: 10
 ---
-
 ## Key Features
 
 - 15+ Unique Pages
@@ -43,4 +45,3 @@ weight: 10
 - Free Google fonts
 - Lifetime free updates
 - Detail Documentation
-

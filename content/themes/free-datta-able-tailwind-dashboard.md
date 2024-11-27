@@ -4,7 +4,10 @@ publish_date: '2024-10-16T06:18:41Z'
 update_date: '2024-10-23T06:01:13Z'
 github_star: 1
 github_fork: 0
-------
+css: []
+ui: []
+---
+---
 title: Free Datta Able Tailwind Dashboard
 github: https://github.com/codedthemes/datta-able-free-tailwind-admin-template 
 demo: https://codedthemes.com/demos/admin-templates/datta-able/tailwind/free/

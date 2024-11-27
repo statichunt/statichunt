@@ -9,6 +9,7 @@ description: '[NOT MAINTAINED] Use https://github.com/netlify-templates/victor-h
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

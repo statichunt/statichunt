@@ -9,6 +9,7 @@ description: Easy Ghost content API integration with Nuxt.js.
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms:
   - Ghost
 category: []

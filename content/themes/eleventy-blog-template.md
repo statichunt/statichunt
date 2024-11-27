@@ -9,6 +9,7 @@ description: Eleventy blog template
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

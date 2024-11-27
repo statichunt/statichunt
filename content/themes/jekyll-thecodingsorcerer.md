@@ -9,6 +9,7 @@ description: A potential blog where I like to sometimes write about things.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

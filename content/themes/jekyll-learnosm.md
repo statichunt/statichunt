@@ -12,6 +12,7 @@ description: >-
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

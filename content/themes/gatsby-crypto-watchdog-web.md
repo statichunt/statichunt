@@ -9,6 +9,7 @@ description: Web app of crypto-watchdog
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Make websites with hugo and RMarkdown
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,6 +9,7 @@ description: Self Portofolio - Responsive Online CV
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A minimal setup gatsby theme to show locations on a map
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

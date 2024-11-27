@@ -9,6 +9,7 @@ description: This is a blog site made using Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

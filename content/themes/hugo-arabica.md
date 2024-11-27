@@ -9,6 +9,7 @@ description: A port of the Ghost arabica theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Ghost
 category: []

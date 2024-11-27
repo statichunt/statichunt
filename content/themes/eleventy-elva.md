@@ -9,6 +9,7 @@ description: A multilingual, clean, green 11ty starter theme.
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

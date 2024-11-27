@@ -9,6 +9,7 @@ description: Examples for using Connect with various TypeScript web frameworks a
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

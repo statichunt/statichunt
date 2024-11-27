@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Saas
@@ -21,7 +22,6 @@ github_star: 109
 github_fork: 41
 draft: false
 ---
-
 ## Key Features
 
 - Minimal styling (make it your own!)

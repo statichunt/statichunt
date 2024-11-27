@@ -9,6 +9,7 @@ description: Next.js + Mantine + Reatom
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

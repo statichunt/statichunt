@@ -9,6 +9,7 @@ description: A blog template with minimal interfaces based on Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

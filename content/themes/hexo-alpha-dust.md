@@ -9,6 +9,7 @@ description: Original Futuristic Hexo Theme
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

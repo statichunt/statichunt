@@ -9,6 +9,7 @@ description: 'Workshop: Create your personal image blog with Gatsby and Contenfu
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category:

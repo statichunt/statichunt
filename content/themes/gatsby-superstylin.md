@@ -9,6 +9,7 @@ description: A Gatsby Theme with styled-components
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

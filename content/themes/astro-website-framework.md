@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Contentful
 category: []

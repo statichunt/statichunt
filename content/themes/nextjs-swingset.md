@@ -9,6 +9,7 @@ description: drop-in component library for next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

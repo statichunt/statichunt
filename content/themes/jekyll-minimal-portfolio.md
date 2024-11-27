@@ -9,6 +9,7 @@ description: Minimal Portfolio for my Data Science projects.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

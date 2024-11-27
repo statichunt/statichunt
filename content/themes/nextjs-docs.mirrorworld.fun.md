@@ -9,8 +9,9 @@ description: Documentation Website For Mirror World SDKs
 ssg:
   - Nextjs
 css:
-  - Chakra
   - SCSS
+ui:
+  - Chakra
 cms:
   - Markdown
 category:

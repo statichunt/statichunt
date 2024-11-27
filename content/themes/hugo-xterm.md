@@ -9,6 +9,7 @@ description: Hugo theme designed for reading and printing text with dark and lig
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

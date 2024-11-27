@@ -9,6 +9,7 @@ description: A fresh looking and responsive theme for Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

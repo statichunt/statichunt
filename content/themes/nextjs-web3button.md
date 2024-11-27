@@ -9,6 +9,7 @@ description: Learn how to use the Web3Button component from the thirdweb React S
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

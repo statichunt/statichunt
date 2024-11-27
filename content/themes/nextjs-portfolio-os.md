@@ -6,11 +6,14 @@ download: https://poeck.gumroad.com/l/portfolio-os
 author: Paul Koeck
 author_link: https://paul.koeck.dev/
 date: 2024-05-16T00:00:00.000Z
-description: "PortfolioOS: The Ultimate NextJS Portfolio Template that feels like an Operating System"
+description: >-
+  PortfolioOS: The Ultimate NextJS Portfolio Template that feels like an
+  Operating System
 ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
   - Boilerplate
 draft: false
 ---
-
 ## Key Features
 
 - Fully customizable from a yaml config file (config.yml)

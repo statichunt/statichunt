@@ -9,6 +9,7 @@ description: Summer is a simple Jekyll theme with a photo sidebar.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

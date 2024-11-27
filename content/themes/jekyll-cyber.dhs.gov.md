@@ -9,6 +9,7 @@ description: A site for CISA directives
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

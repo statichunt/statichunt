@@ -9,6 +9,7 @@ description: Boilerplate using Prismic, Gatsby, Typescript on React and Netlify.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

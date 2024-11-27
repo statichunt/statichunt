@@ -9,6 +9,7 @@ description: ':office: Law firm themed business template for Jekyll'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

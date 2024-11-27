@@ -9,6 +9,7 @@ description: This is a super simple starter build on Gatsby using Prismic as a C
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

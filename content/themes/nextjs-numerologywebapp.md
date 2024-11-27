@@ -8,7 +8,8 @@ date: 2024-02-19T03:06:49.803Z
 description: Look up numerology (Tra cứu thần số học)
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

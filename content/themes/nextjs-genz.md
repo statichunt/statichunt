@@ -6,18 +6,20 @@ demo: https://genz-next.vercel.app/
 author: Alithemes
 author_link: https://alithemes.com/
 date: 2023-01-01T00:00:00.000Z
-description: Genz is a Clean, Modern and Creative new generation personal blog React NextJS template. This template dedicated to Technology, Lifestyle, Fashion, Beauty and Travel.
+description: >-
+  Genz is a Clean, Modern and Creative new generation personal blog React NextJS
+  template. This template dedicated to Technology, Lifestyle, Fashion, Beauty
+  and Travel.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - 04 Homepages layout

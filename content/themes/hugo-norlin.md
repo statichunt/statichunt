@@ -6,18 +6,20 @@ demo: https://norlin-hugo.netlify.app/
 author: AnvodStudio
 author_link: https://anvodstudio.com/
 date: 2023-01-29T00:00:00.000Z
-description: The Norlin theme is fully responsive, looks great on mobile devices, and has a beautiful and modern design that is best suited for your personal or corporate blog.
+description: >-
+  The Norlin theme is fully responsive, looks great on mobile devices, and has a
+  beautiful and modern design that is best suited for your personal or corporate
+  blog.
 ssg:
   - Hugo
 css:
   - SCSS
-cms:
-
+ui: []
+cms: null
 category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - 100% responsive and clean theme

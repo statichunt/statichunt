@@ -9,6 +9,7 @@ description: A lightweight Hugo theme leveraging CSS Flexbox.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

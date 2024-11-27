@@ -9,6 +9,7 @@ description: Simple, clean, and fast one-page Hugo portfolio theme accompanied b
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

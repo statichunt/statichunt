@@ -9,6 +9,7 @@ description: Gatsby starter with Firebase hosting configuration
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -14,6 +14,7 @@ ssg:
 css:
   - SCSS
   - PostCSS
+ui: []
 cms:
   - Markdown
 category:

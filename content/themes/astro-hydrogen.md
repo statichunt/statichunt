@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -24,7 +25,6 @@ update_date: '2024-02-27T10:13:25Z'
 github_star: 5
 github_fork: 4
 ---
-
 ## Key Features
 
 - Supports Contact Form

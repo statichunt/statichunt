@@ -13,6 +13,7 @@ ssg:
 css:
   - Bootstrap
   - Stylus
+ui: []
 cms:
   - Markdown
 category:

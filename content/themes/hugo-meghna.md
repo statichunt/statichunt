@@ -11,6 +11,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Portfolio
   - Blog
@@ -25,7 +26,6 @@ draft: false
 home_weight: 32
 weight: 11
 ---
-
 ## Key Features
 
 - Multilingual support. (with language selector)

@@ -9,6 +9,7 @@ description: An example of creating blog application using NextJS and Contentful
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Contentful
 category: []

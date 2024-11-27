@@ -10,7 +10,8 @@ description: >-
   from MongoDB
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

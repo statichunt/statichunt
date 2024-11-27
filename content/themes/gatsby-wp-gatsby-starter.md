@@ -9,6 +9,7 @@ description: A full theme + Gatsby project that supports Gutenberg and local ima
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

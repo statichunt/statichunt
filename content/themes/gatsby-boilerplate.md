@@ -9,6 +9,7 @@ description: 🏗 Minimal Gatsby.js project boilerplate
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

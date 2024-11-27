@@ -9,6 +9,7 @@ description: Soho vibes for Hugo Sites
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

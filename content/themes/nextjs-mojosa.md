@@ -6,18 +6,19 @@ demo: https://mojosa-react.envytheme.com/agency/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
-description: Mojosa is a React Next Landing Page Templates. The template is built with React, Next.js, ES6+, and Bootstrap. This purely developed without jQuery.
+description: >-
+  Mojosa is a React Next Landing Page Templates. The template is built with
+  React, Next.js, ES6+, and Bootstrap. This purely developed without jQuery.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Built on Pure React v18.2.0, NextJS v12.3.0, Bootstrap v5.2.1 & Sass without jQuery

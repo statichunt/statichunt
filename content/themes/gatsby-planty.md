@@ -10,6 +10,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms:
   - Flotiq
 category:
@@ -20,8 +21,7 @@ github_star: 22
 github_fork: 14
 update_date: '2024-10-10T07:16:14Z'
 ---
-
-## Key Features :
+## Key Features
 
 - Responsive design using TailwindCSS
 - Responsive navigation

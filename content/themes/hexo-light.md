@@ -9,6 +9,7 @@ description: A simple theme for Hexo
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

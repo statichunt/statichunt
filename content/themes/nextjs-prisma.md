@@ -8,7 +8,8 @@ date: 2024-02-18T13:10:56.868Z
 description: Static site with Next.js 9.4 and Prisma.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

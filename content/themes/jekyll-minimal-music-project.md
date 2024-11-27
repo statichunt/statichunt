@@ -9,6 +9,7 @@ description: Jekyll theme for music projects/bands
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

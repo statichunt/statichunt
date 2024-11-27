@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
-
 Astro is an all-in-one web framework for building fast, content-focused websites. Astro was designed for building content-rich websites. This includes most marketing sites, publishing sites, documentation sites, blogs, portfolios, and some ecommerce sites.

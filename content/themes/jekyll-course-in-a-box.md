@@ -9,6 +9,7 @@ description: An open-source project for creating online courses, built by P2PU
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

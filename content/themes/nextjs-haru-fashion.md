@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Ecommerce
@@ -19,7 +20,6 @@ github_star: 100
 github_fork: 51
 draft: false
 ---
-
 ## Key Features
 
 - Progressive Web App (PWA)

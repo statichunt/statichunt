@@ -9,6 +9,7 @@ description: i18n support and language switcher for Contentful starter repo
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

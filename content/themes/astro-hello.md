@@ -13,6 +13,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -23,8 +24,7 @@ update_date: '2024-03-31T08:48:37Z'
 github_star: 162
 github_fork: 54
 ---
-
-## Key Features :
+## Key Features
 
 - Full-featured blog with frontmatter (title, description, author, date, image, tags)
 - High performance low overhead with minimal Javascript

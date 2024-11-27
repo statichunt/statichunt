@@ -9,6 +9,7 @@ description: A Hugo theme built using the Hugo Alabaster theme as base
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

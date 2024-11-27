@@ -9,6 +9,7 @@ description: Dashboard starter using NextUI V2 and Nextjs.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

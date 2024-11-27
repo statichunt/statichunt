@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
-
 Nuxtjs is a static site generator built on top of Vue.js that allows you to create static websites and applications using Vue.js. Static sites are faster and more secure than dynamic websites, and with Nuxt, you can create them without anyomplicated setup process.

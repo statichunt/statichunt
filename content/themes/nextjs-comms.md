@@ -9,8 +9,9 @@ description: Full Stack Chat Application made using NextJS, Chakra UI, SCSS, and
 ssg:
   - Nextjs
 css:
-  - Chakra
   - SCSS
+ui:
+  - Chakra
 cms: []
 category: []
 draft: false

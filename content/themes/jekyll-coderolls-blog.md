@@ -9,6 +9,7 @@ description: A blog about Java Programming Language and related technologies.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

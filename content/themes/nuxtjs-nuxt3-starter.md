@@ -9,6 +9,7 @@ description: A Better Nuxt 3 Starter Template，generate by nuxi.
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

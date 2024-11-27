@@ -9,6 +9,7 @@ description: An minimalist Hugo theme for Academics
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

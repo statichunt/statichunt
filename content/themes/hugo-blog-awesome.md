@@ -9,6 +9,7 @@ description: Fast, minimal blog with dark mode support.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

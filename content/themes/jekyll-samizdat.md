@@ -9,6 +9,7 @@ description: 'Russian: самиздат, lit. “self-publishing”'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

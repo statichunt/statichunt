@@ -6,18 +6,20 @@ demo: https://agon-nextjs-13.vercel.app/
 author: Alithemes
 author_link: https://alithemes.com/
 date: 2023-01-01T00:00:00.000Z
-description: Agon is a mulipurpose SASS, Agency, Startup template based on NextJS. This template includes a lot of pre-designed layouts for home page and inner pages to give you best selections in customization.
+description: >-
+  Agon is a mulipurpose SASS, Agency, Startup template based on NextJS. This
+  template includes a lot of pre-designed layouts for home page and inner pages
+  to give you best selections in customization.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - React, NextJs 12, NextJs 13

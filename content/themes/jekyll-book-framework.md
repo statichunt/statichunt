@@ -9,6 +9,7 @@ description: A Jekyll framework for publishing book in multiple format (HTML, PD
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

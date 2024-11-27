@@ -9,6 +9,7 @@ description: A blog starter template with 11ty and Simple.css.
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

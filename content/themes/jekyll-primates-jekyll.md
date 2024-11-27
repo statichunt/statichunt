@@ -9,6 +9,7 @@ description: Open-source website for sharing knowledge using Jekyll - Old Versio
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

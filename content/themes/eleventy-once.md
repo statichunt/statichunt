@@ -10,6 +10,7 @@ ssg:
   - Eleventy
 css:
   - Bulma
+ui: []
 cms:
   - Markdown
 category: []

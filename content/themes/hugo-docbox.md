@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/docbox/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com/
 date: 2024-09-24T00:00:00.000Z
-description: Docbox is a modern documentation theme for Hugo and Tailwind CSS. It's perfect for software documentation, fast, easy to use, and highly customizable.
+description: >-
+  Docbox is a modern documentation theme for Hugo and Tailwind CSS. It's perfect
+  for software documentation, fast, easy to use, and highly customizable.
 ssg:
   - Hugo
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ draft: false
 weight: 3
 home_weight: 22
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 95+ (Desktop)

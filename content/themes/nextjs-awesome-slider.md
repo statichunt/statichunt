@@ -14,6 +14,7 @@ ssg:
   - Nextjs
 css:
   - SCSS
+ui: []
 cms: []
 category: []
 draft: false

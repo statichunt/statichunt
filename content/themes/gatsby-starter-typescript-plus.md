@@ -9,6 +9,7 @@ description: A starter kit for TypeScript-based Gatsby projects with sensible de
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

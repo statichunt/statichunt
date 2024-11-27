@@ -10,7 +10,8 @@ description: >-
   UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

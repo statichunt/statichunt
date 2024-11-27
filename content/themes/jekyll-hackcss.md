@@ -9,6 +9,7 @@ description: Dead simple CSS framework now with Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

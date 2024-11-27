@@ -9,6 +9,7 @@ description: A Content First Jekyll Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

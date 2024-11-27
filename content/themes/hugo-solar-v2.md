@@ -9,6 +9,7 @@ description: Redesign of solar.lowtechmagazine.com in Hugo engine
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

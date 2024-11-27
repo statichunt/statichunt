@@ -9,6 +9,7 @@ description: Job Listing Page
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

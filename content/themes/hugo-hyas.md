@@ -12,6 +12,7 @@ ssg:
   - Hugo
 css:
   - PostCSS
+ui: []
 cms: []
 category:
   - Documentation

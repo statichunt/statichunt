@@ -9,6 +9,7 @@ description: The Onassis Theme for Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

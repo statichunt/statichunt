@@ -9,6 +9,7 @@ description: Port of Aigars Silkalns's Wordpress theme Travelify to Hugo. Demo -
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

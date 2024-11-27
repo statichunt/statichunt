@@ -9,6 +9,7 @@ description: A minimal responsive jekyll template.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

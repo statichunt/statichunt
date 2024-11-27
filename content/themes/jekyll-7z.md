@@ -9,6 +9,7 @@ description: 7-Zip Official Chinese Simplified Repository (Homepage and 7z Extra
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

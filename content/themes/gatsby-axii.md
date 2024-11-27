@@ -9,6 +9,7 @@ description: AXII - A Gatsby blog theme.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -7,21 +7,22 @@ author: Themefisher
 author_link: https://themefisher.com
 date: 2023-07-11T00:00:00.000Z
 description: >-
-  Atemp Nextjs is a Versatile SaaS theme for startups & agencies. 15+ pages, multilingual, customizable.
+  Atemp Nextjs is a Versatile SaaS theme for startups & agencies. 15+ pages,
+  multilingual, customizable.
 ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Business
   - Saas
 draft: false
-home_weight: 
+home_weight: null
 weight: 10
 ---
-
 ## Key Features
 
 - 16+ Unique Pages

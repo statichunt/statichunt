@@ -9,6 +9,7 @@ description: ':crystal_ball: Violet Jekyll Template'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

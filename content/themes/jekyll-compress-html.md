@@ -9,6 +9,7 @@ description: A Jekyll layout that compresses HTML in pure Liquid
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

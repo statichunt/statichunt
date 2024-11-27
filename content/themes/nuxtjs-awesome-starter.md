@@ -12,6 +12,7 @@ ssg:
   - Nuxtjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Boilerplate
@@ -21,7 +22,6 @@ update_date: '2023-11-01T17:08:27Z'
 github_star: 1681
 github_fork: 358
 ---
-
 ## Key Features
 
 - Tailwind CSS v3 with Windicss

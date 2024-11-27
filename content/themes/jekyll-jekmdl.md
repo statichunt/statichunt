@@ -9,6 +9,7 @@ description: ':+1: Jekyll themes use Material Design Lite'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

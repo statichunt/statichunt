@@ -8,7 +8,8 @@ date: 2023-11-26T13:41:49.683Z
 description: Hotel reservation app
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

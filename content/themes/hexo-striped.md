@@ -9,6 +9,7 @@ description: Port of striped to hexo
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

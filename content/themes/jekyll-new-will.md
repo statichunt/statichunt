@@ -9,6 +9,7 @@ description: 一個乾淨簡單的 Jekyll 部落格主題
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

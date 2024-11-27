@@ -9,6 +9,7 @@ description: A starter project for Astro and Netlify!
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

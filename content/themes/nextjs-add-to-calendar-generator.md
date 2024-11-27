@@ -8,7 +8,8 @@ date: 2024-02-19T07:27:13.984Z
 description: Add to Calendar link / button generator
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

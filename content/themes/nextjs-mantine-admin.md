@@ -9,6 +9,7 @@ description: A Modern Admin Dashboard with Mantine7/React/NextJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

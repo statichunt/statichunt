@@ -9,6 +9,7 @@ description: TinaTheme - 一个简洁的、轻盈的、快速的Typecho主题，
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Tina
 category: []

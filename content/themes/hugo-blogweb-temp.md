@@ -9,6 +9,7 @@ description: This website is based on Hugo created personal blog site, welcome y
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

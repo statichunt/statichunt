@@ -9,6 +9,7 @@ description: A starter pack for creating WCAG conformance reports with Eleventy
 ssg:
   - Eleventy
 css: []
+ui: []
 cms: []
 category: []
 draft: false

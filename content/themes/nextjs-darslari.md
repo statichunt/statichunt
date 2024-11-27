@@ -11,8 +11,9 @@ description: >-
 ssg:
   - Nextjs
 css:
-  - Chakra
   - SCSS
+ui:
+  - Chakra
 cms: []
 category: []
 draft: false

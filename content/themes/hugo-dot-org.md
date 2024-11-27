@@ -12,6 +12,7 @@ ssg:
 css:
   - SCSS
   - PostCSS
+ui: []
 category:
   - Business
   - Blog
@@ -21,16 +22,15 @@ update_date: '2024-10-16T11:41:38Z'
 github_star: 43
 github_fork: 14
 ---
-
 This Hugo theme is ideal for powering the website of a small organization or project. It was built initially by [CNCF.io](https://www.cncf.io) (part of [The Linux Foundation](https://www.linuxfoundation.org)) for the [TODO Group](https://todogroup.org)
 
-## Key Features:
+## Key Features
 
 - **Modern** - simple yet effective modern design
 - **Responsive** - works on mobile through to desktop, mobile first design
 - **Accessible** - design and markup comply with WCAG 2.1 AA guidelines
 - **Fast** - HTML/CSS/JS written from scratch to be as fast as possible without relying on frameworks or libraries
-- **Performance** - perfect 100 Lighthouse/[PageSpeed Insight](https://pagespeed.web.dev/) scores :rocket: 
+- **Performance** - perfect 100 Lighthouse/[PageSpeed Insight](https://pagespeed.web.dev/) scores :rocket:
 - **Multilingual** - ready to support multiple languages of content
 - **Mega Menu** - large menu with dropdown sections, custom footer menu
 - **Blog** - blog posts ready to go
@@ -39,7 +39,7 @@ This Hugo theme is ideal for powering the website of a small organization or pro
 - **Social links** - Insert URLs to activate
 - **Much more** - Google Analytics, insert custom JS and CSS, Open Graph OG content, favicons, Blog post authors linked to Twitter, Edit page link.
 
-#### Custom Shortcodes Included:
+#### Custom Shortcodes Included
 
 - Buttons
 - Cards

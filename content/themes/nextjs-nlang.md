@@ -8,7 +8,8 @@ date: 2024-02-18T13:07:11.176Z
 description: Prototype of the Nlang Scripting Language with Intellisense Code Editor
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

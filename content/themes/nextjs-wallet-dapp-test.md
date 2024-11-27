@@ -9,6 +9,7 @@ description: A boilerplate template for wallet dApp | Next.js - Ethers.js - Type
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

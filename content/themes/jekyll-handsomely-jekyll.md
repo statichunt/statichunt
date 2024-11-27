@@ -9,6 +9,7 @@ description: Handsomely Theme for Jekyll - Minimal
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

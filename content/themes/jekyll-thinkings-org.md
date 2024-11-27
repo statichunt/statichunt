@@ -9,6 +9,7 @@ description: 朕的blog。
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

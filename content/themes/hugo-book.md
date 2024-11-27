@@ -9,6 +9,7 @@ description: hugo themes
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

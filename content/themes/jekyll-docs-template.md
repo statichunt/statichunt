@@ -9,6 +9,7 @@ description: Jekyll template for documentation-based sites
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

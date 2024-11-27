@@ -6,18 +6,19 @@ demo: https://gardomia.vercel.app/
 author: BDevs
 author_link: https://themeforest.net/user/bdevs
 date: 2023-01-03T00:00:00.000Z
-description: Gardomia – Landscape and Gardening React Next js Template for Landscape and Gardening sites.
+description: >-
+  Gardomia – Landscape and Gardening React Next js Template for Landscape and
+  Gardening sites.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - Based on Bootstrap 5.x

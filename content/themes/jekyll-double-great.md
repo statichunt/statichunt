@@ -9,6 +9,7 @@ description: Jekyll theme for doublegreat.dev
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

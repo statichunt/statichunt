@@ -1,26 +1,31 @@
 ---
 title: Fortify Hugo
 download: https://gethugothemes.com/products/fortify
-github:
+github: null
 price: 79
 demo: https://demo.gethugothemes.com/fortify/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2024-11-23T00:00:00.000Z
-description: Introducing Fortify - a trendy and modern template tailored for security SaaS & Startup .This premium template offers a trendy and visually stunning design, perfect for showcasing your SaaS or Startup products and services. With 13 ready-to-use pages, Fortify provides a comprehensive solution for creating a captivating online presence.
+description: >-
+  Introducing Fortify - a trendy and modern template tailored for security SaaS
+  & Startup .This premium template offers a trendy and visually stunning design,
+  perfect for showcasing your SaaS or Startup products and services. With 13
+  ready-to-use pages, Fortify provides a comprehensive solution for creating a
+  captivating online presence.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Business
 draft: false
 weight: 6
-home_weight: 
+home_weight: null
 ---
-
 ## Key Features
 
 - 100/100 Google PageSpeed Score on Desktop

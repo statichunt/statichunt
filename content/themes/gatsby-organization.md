@@ -9,6 +9,7 @@ description: Create a landing page for your Github Organization
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

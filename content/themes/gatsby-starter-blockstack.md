@@ -9,6 +9,7 @@ description: Make decentralized apps with Gatsby + Blockstack
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

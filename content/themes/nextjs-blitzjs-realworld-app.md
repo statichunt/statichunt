@@ -8,7 +8,8 @@ date: 2024-02-18T05:00:47.580Z
 description: Content Sharing App
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

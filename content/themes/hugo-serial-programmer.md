@@ -9,6 +9,7 @@ description: A Hugo theme for serial programmers (-.-)
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

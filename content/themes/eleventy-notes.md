@@ -9,6 +9,7 @@ description: A template for Eleventy to publish your personal notes or docs.
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,6 +9,7 @@ description: A Jekyll theme for organizations & non-profits
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

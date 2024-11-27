@@ -9,6 +9,7 @@ description: Flexible Jekyll theme using bootstrap 5 as CSS framework.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

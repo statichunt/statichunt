@@ -9,6 +9,7 @@ description: A minimalist Gatsby Theme for a glossary built with MDX and Theme U
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

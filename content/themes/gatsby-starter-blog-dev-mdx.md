@@ -9,6 +9,7 @@ description: A starter for a dev blog powered by Gatsby and MDX.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -9,6 +9,7 @@ description: HTML5UP's Multiverse theme for Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

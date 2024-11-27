@@ -9,6 +9,7 @@ description: The official Nord website and documentation
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

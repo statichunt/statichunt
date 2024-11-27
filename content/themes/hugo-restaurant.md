@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Business
   - Blog

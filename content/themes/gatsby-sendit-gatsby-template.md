@@ -9,6 +9,7 @@ description: Sendit Template on Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Business

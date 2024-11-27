@@ -9,6 +9,7 @@ description: sample using gatsby-starter-morning-dew theme
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

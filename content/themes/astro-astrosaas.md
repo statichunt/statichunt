@@ -11,6 +11,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 category:
   - Business
   - Saas
@@ -22,7 +23,6 @@ github_fork: 90
 home_weight: null
 weight: null
 ---
-
 ## Key Features
 
 - 6 Demo Pages

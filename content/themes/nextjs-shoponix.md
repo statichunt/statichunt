@@ -6,18 +6,19 @@ demo: https://shoponix.envytheme.com/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-21T00:00:00.000Z
-description: Shoponix is a React and Next.js powered multi-vendor eCommerce template that is fully functional and ready to use. This API-based template is built using React & NextJS, MongoDB, and semantic UI react.
+description: >-
+  Shoponix is a React and Next.js powered multi-vendor eCommerce template that
+  is fully functional and ready to use. This API-based template is built using
+  React & NextJS, MongoDB, and semantic UI react.
 ssg:
   - Nextjs
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Ecommerce
 draft: false
 ---
-
 ## Key Features
 
 - API-based Multi-Vendor eCommerce Template

@@ -9,6 +9,7 @@ description: Conference website template built using Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

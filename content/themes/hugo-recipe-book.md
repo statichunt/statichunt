@@ -9,6 +9,7 @@ description: Recipes Book - Made with Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Kusa-Jekyll - A Clean Simple Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: JamStack Project.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Datocms
 category: []

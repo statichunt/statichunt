@@ -9,7 +9,8 @@ date: 2024-04-13T00:00:00.000Z
 description: A blog created with Next.js and Chakra UI and mdx.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Markdown
@@ -21,7 +22,6 @@ update_date: '2024-09-19T04:54:09Z'
 github_star: 4
 github_fork: 4
 ---
-
 ## Key Features
 
 - Next.js 13

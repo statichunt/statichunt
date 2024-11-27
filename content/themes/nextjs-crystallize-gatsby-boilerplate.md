@@ -9,6 +9,7 @@ description: Get up and running on Crystallize with Gatsby
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

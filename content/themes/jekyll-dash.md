@@ -9,6 +9,7 @@ description: Light and dark blog theme for Jekyll, inspired by Dash UI for Atom.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

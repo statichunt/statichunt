@@ -9,6 +9,7 @@ description: Chelia – Simple & Responsive Portfolio Theme for Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

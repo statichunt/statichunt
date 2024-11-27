@@ -9,6 +9,7 @@ description: Hugo notepadium theme modify & module
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

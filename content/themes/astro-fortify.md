@@ -6,11 +6,14 @@ demo: https://fortify-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-07-31T00:00:00.000Z
-description: This cutting-edge website template is perfect for SaaS companies, startups, and agencies looking to build high-performing websites that impress.
+description: >-
+  This cutting-edge website template is perfect for SaaS companies, startups,
+  and agencies looking to build high-performing websites that impress.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +23,6 @@ draft: false
 weight: 1
 home_weight: 2
 ---
-
 ## Key Features
 
 - 13 Unique Pages
@@ -43,4 +45,3 @@ home_weight: 2
 - Free Google fonts
 - Lifetime free updates
 - Detail Documentation
-

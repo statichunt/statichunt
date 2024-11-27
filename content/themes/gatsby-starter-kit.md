@@ -9,6 +9,7 @@ description: A set of starters for Gatsby.js
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

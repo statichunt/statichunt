@@ -5,12 +5,15 @@ price: 79
 demo: https://visionex-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
-date: 2023-12-4T00:00:00.000Z
-description: Visionex Astro is multipurpose SaaS theme designed to showcase any SaaS product or solution.
+date: 2023-12-04T00:00:00.000Z
+description: >-
+  Visionex Astro is multipurpose SaaS theme designed to showcase any SaaS
+  product or solution.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ category:
 draft: false
 weight: 15
 ---
-
 ## Key Features
 
 - 15+ Unique Pages

@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -23,7 +24,6 @@ github_star: 188
 github_fork: 74
 weight: 9
 ---
-
 ## Key Features
 
 - Multi-Author support

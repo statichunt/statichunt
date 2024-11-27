@@ -9,6 +9,7 @@ description: Template for an app using Dossier, Next.js and SQLite
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

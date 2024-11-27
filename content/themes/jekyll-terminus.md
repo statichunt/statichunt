@@ -9,6 +9,7 @@ description: 一分钟搭网站和博客
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

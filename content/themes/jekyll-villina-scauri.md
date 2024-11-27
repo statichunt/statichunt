@@ -9,6 +9,7 @@ description: My holiday house website.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

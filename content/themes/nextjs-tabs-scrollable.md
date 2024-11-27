@@ -9,6 +9,7 @@ description: a react scrollable tabs component with many additional features
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

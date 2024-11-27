@@ -9,6 +9,7 @@ description: A minimal Jekyll Theme to host your resume (CV) on GitHub with few 
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

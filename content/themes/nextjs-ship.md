@@ -9,6 +9,7 @@ description: A toolkit for makers to ship better products faster
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

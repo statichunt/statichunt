@@ -9,6 +9,7 @@ description: A simple starter to build a design system website with Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

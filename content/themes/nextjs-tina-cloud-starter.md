@@ -11,6 +11,7 @@ ssg:
 css:
   - Tailwind
   - PostCSS
+ui: []
 cms:
   - Tina
 category: []

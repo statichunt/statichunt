@@ -10,7 +10,8 @@ description: >-
   template
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

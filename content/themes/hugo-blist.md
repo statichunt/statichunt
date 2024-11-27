@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
+ui: []
 category:
   - Blog
 description: Blist is a clean and fast blog theme for your Hugo site.
@@ -19,8 +20,7 @@ update_date: '2024-06-18T07:09:46Z'
 github_star: 335
 github_fork: 166
 ---
-
-## Key Features :
+## Key Features
 
 - Responsive content / Mobile-optimized
 - Blog pagination

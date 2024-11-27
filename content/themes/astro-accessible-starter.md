@@ -14,6 +14,7 @@ ssg:
 css:
   - Tailwind
   - SCSS
+ui: []
 cms: []
 category:
   - Blog

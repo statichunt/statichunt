@@ -9,6 +9,7 @@ description: Content-first eleventy blog template with basic layout and various 
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

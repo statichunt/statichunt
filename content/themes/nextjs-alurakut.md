@@ -9,6 +9,7 @@ description: a retro app based on Orkut social media
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Datocms
 category: []

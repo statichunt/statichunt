@@ -9,6 +9,7 @@ description: A simple documentation theme for Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

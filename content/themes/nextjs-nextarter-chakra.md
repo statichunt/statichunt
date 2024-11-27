@@ -10,7 +10,8 @@ description: >-
   & Typescript setup
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

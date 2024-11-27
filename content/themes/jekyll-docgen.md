@@ -9,6 +9,7 @@ description: Document generation using Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -6,11 +6,17 @@ demo: https://clarity-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-09-30T00:00:00.000Z
-description: Clarity Astro is designed specifically for SaaS and startup companies. Developed using Astro and enhanced with Tailwind CSS, it offers a clean, minimalist design that ensures a smooth user experience right from the start. With its contemporary layout and fast loading times, it's an ideal choice for increasing conversions on SaaS websites.
+description: >-
+  Clarity Astro is designed specifically for SaaS and startup companies.
+  Developed using Astro and enhanced with Tailwind CSS, it offers a clean,
+  minimalist design that ensures a smooth user experience right from the start.
+  With its contemporary layout and fast loading times, it's an ideal choice for
+  increasing conversions on SaaS websites.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,8 +26,6 @@ draft: false
 weight: 14
 home_weight: 31
 ---
-
-
 ## Key Features
 
 - 14+ Complete SaaS Pages

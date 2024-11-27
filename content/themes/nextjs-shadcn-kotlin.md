@@ -9,6 +9,7 @@ description: shadcn/ui, but for KotlinJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

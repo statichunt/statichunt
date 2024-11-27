@@ -9,6 +9,7 @@ description: the book jekyll template themes
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

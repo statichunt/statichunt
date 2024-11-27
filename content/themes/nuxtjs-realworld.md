@@ -9,6 +9,7 @@ description: 🛠 Built a Example App of RealWorld with Nuxt & Composition API
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

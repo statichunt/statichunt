@@ -10,7 +10,8 @@ description: >-
   default but also can be made public and shared
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

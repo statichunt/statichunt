@@ -9,6 +9,7 @@ description: Strapi Starter Next Blog
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

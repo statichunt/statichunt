@@ -9,6 +9,7 @@ description: Effortless blogging on the Decentralized Web
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

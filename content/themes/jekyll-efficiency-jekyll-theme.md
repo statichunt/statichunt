@@ -9,6 +9,7 @@ description: 一个极高效率的Jekyll主题，比同类项目快18%，遵守M
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

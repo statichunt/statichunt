@@ -9,6 +9,7 @@ description: Free admin dashboard template based on Gatsby with @paljs/ui compon
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

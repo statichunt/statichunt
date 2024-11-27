@@ -9,6 +9,7 @@ description: Minimal Jekyll theme for storytellers
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

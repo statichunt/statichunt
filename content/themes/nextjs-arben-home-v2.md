@@ -9,6 +9,7 @@ description: Arben home ecommerce website v2
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Sanity
 category:

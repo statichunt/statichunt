@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,8 +21,7 @@ update_date: '2024-10-15T11:54:05Z'
 github_star: 2428
 github_fork: 509
 ---
-
-## Key Features :
+## Key Features
 
 - Super fast performance
 - Accessible (Keyboard/VoiceOver)

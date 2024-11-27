@@ -9,6 +9,7 @@ description: A starter blog for TypeScript-based Gatsby projects with minimal se
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: A 11ty static site template using Ghost as the content management s
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Ghost
   - Markdown

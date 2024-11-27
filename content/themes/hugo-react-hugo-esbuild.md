@@ -9,6 +9,7 @@ description: Minimal Hugo based React ESbuild example
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

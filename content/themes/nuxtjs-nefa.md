@@ -10,6 +10,7 @@ ssg:
   - Nuxtjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Business

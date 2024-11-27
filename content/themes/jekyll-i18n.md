@@ -9,6 +9,7 @@ description: A Jekyll boilerplate for internationalization (i18n) without plugin
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

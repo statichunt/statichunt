@@ -6,18 +6,19 @@ demo: https://shifter.cssninja.io/
 author: cssninja
 author_link: https://cssninja.io/
 date: 2023-02-26T00:00:00.000Z
-description: Shifter is an elegant and cleanly coded Real Estate HTML template that has been handcrafted with care and patience.
+description: >-
+  Shifter is an elegant and cleanly coded Real Estate HTML template that has
+  been handcrafted with care and patience.
 ssg:
   - Astro
 css:
   - Bulma
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Astro v1.x

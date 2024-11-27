@@ -9,6 +9,7 @@ description: Port of aksakalli's jekyll-doc-theme to Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

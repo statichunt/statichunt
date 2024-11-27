@@ -8,7 +8,8 @@ date: 2024-02-18T08:11:54.018Z
 description: No-Code System
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

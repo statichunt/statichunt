@@ -10,6 +10,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 category:
   - Business
 draft: false
@@ -18,7 +19,6 @@ update_date: '2023-09-12T11:49:58Z'
 github_star: 132
 github_fork: 79
 ---
-
 ## Key Features
 
 - Responsive Ready.

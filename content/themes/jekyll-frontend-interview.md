@@ -9,6 +9,7 @@ description: Front-end interview questions and answers
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

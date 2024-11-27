@@ -9,6 +9,7 @@ description: Personal Blog Demo - Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

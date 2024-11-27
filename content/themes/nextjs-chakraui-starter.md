@@ -8,7 +8,8 @@ date: 2023-11-27T09:12:56.850Z
 description: Next.js ♥ Chakra UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

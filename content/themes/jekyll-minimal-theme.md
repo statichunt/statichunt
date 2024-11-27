@@ -9,6 +9,7 @@ description: jekyll minimal theme (for blog posts with archive and feed)
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

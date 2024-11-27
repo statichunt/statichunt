@@ -9,6 +9,7 @@ description: Tocas UI for Hexo Theme, best and beautiful.
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Emacs Redux is a blog dedicated to the One True Editor
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

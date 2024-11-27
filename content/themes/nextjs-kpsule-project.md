@@ -9,6 +9,7 @@ description: ': => Project to add some products to cart'
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

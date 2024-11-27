@@ -9,6 +9,7 @@ description: A Jekyll template for a simple CV & portfolio website
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

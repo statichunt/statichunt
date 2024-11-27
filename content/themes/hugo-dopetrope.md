@@ -9,6 +9,7 @@ description: Dopetrope theme for Hugo static site generator
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

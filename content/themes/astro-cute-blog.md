@@ -12,6 +12,7 @@ description: >-
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -6,18 +6,19 @@ demo: https://crypto-nextjs.netlify.app/
 author: Adminmart
 author_link: https://adminmart.com/
 date: 2023-04-12T00:00:00.000Z
-description: The Crypto Next.js Tailwind template provides a starting point for developers who want to build websites quickly and efficiently.
+description: >-
+  The Crypto Next.js Tailwind template provides a starting point for developers
+  who want to build websites quickly and efficiently.
 ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - React 18+

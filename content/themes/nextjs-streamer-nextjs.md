@@ -9,6 +9,7 @@ description: React NextJS Streamer Website Landing Page
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

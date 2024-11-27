@@ -9,6 +9,7 @@ description: gatsby starter spicycookie
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

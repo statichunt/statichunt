@@ -9,6 +9,7 @@ description: A Jekyll theme inspired by Netflix.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: 基于hugo主题Tony开发的一款简洁强大的hugo主题
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

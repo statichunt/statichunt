@@ -9,6 +9,7 @@ description: A Carbon inspired Gatsby theme
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

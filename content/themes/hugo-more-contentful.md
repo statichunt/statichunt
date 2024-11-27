@@ -9,6 +9,7 @@ description: A revamped batteries-included version of the Hugo theme Contentful.
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Contentful
 category: []

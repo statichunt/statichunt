@@ -9,6 +9,7 @@ description: Use This Templateからforkできます
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

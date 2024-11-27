@@ -9,6 +9,7 @@ description: A minimalist, text-oriented, and performant theme for Hugo/blogdown
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

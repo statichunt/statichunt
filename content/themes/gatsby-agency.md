@@ -9,6 +9,7 @@ description: A simple Gatsby theme for your services consultancy or Agency.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

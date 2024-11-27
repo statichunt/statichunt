@@ -9,6 +9,7 @@ description: Gatsby RTL blog starter with Strapi CMS
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

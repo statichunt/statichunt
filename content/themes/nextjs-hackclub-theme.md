@@ -9,6 +9,7 @@ description: Hack Club’s theme + React components for Theme UI
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

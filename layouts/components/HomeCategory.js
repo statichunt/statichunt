@@ -19,6 +19,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
     parameter,
     arrayCMS,
     arrayCSS,
+    arrayUI,
     arraySSG,
   } = useFilterContext();
 
@@ -75,6 +76,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       { array: arrayCategory, params: "category" },
       { array: arraySSG, params: "ssg" },
       { array: arrayCSS, params: "css" },
+      { array: arrayUI, params: "ui" },
       { array: arrayCMS, params: "cms" },
     );
 

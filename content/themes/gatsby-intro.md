@@ -9,6 +9,7 @@ description: Personal branding theme for developers
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

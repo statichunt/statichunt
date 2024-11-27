@@ -9,6 +9,7 @@ description: A site generator in OCaml 🐫 (OCurrent pipelines too)
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category: []

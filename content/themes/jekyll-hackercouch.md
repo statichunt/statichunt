@@ -9,6 +9,7 @@ description: Hospitality for Hackers
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A Next JS template for deploy in GitHub Pages
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: ':octocat: Github style replication for gatsby theme https://hiitea
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

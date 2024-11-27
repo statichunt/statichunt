@@ -6,19 +6,19 @@ demo: https://torkgo.thetork.com/
 author: TheTork
 author_link: https://themeforest.net/user/thetork
 date: 2023-02-13T00:00:00.000Z
-description: TorkGo is built with Vue Js , Nuxt Js , Pinia and this is build for Crypto DeFi token launchpad marketplace Website
+description: >-
+  TorkGo is built with Vue Js , Nuxt Js , Pinia and this is build for Crypto
+  DeFi token launchpad marketplace Website
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
-
 draft: false
 ---
-
 ## Key Features
 
 - Modern Design

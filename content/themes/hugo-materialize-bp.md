@@ -9,6 +9,7 @@ description: MaterializeCSS based Hugo theme which provides out of the box best 
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

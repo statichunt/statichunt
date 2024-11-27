@@ -16,6 +16,7 @@ cms:
   - Prisma
 css:
   - Tailwind
+ui: []
 category:
   - Boilerplate
 draft: false
@@ -24,7 +25,6 @@ update_date: '2024-03-21T05:54:52Z'
 github_star: 1076
 github_fork: 198
 ---
-
 ## Key Features
 
 - Authentication

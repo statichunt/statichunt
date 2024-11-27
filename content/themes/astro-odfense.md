@@ -6,22 +6,25 @@ demo: https://odfense-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-09-29T00:00:00.000Z
-description: Odfense Astro is tailored for IT and software companies, offering a modern and elegant design powered by Tailwind CSS. Its smooth user experience and streamlined layout make it perfect for IT businesses aiming to establish a strong online presence with optimal performance.
-
+description: >-
+  Odfense Astro is tailored for IT and software companies, offering a modern and
+  elegant design powered by Tailwind CSS. Its smooth user experience and
+  streamlined layout make it perfect for IT businesses aiming to establish a
+  strong online presence with optimal performance.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Business
   - Saas
 draft: false
-weight: 
+weight: null
 home_weight: 17
 ---
-
 ## Key Features
 
 - 13+ Premium Pages

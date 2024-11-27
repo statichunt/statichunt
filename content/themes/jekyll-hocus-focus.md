@@ -9,6 +9,7 @@ description: A keyboard navigation horror game.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

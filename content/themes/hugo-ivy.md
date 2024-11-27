@@ -9,6 +9,7 @@ description: A two-column Hugo theme ported from Ivy
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

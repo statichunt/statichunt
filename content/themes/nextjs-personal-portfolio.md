@@ -9,6 +9,7 @@ description: react next.js app for personal portfolio
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Contentful
 category:

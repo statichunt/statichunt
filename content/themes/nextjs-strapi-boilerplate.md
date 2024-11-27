@@ -9,6 +9,7 @@ description: ':art: Boilerplate for building applications using Strapi and Next.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

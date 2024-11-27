@@ -8,7 +8,8 @@ date: 2023-02-23T00:00:00.000Z
 description: An easy-to-use portfolio website template for all developers out there!
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: null
 category:
@@ -19,7 +20,6 @@ update_date: '2021-08-08T19:07:27Z'
 github_star: 60
 github_fork: 28
 ---
-
 ## Key Features
 
 - Landing Page - greeting

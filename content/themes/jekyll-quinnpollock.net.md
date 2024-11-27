@@ -9,6 +9,7 @@ description: Website for Quinn
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

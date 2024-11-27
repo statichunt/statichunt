@@ -9,6 +9,7 @@ description: Gatsby starter for creating notes organised by subject and topic
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A minimal yet feature-rich Jekyll theme made for personal websites 
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

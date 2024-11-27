@@ -9,6 +9,7 @@ description: Hugo theme Purity.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

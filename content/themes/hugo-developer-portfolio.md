@@ -9,6 +9,7 @@ description: A theme for a developer portfolio made with Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

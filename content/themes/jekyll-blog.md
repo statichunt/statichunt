@@ -9,6 +9,7 @@ description: Just testing making a blog here
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -8,7 +8,8 @@ date: 2023-11-26T08:24:51.350Z
 description: Next.js + Chakra UI + TypeScript starter template
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

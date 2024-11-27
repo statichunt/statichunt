@@ -9,6 +9,7 @@ description: シンプルなHugo用ブログテーマ「Salt」
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

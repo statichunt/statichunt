@@ -9,6 +9,7 @@ description: 'Jekyll theme: DIARY'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

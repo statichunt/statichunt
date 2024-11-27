@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - SCSS
+ui: []
 cms:
   - Contentful
 category: []

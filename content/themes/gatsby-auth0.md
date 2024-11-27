@@ -9,6 +9,7 @@ description: A Gatsby Theme for adding Auth0 to your application.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

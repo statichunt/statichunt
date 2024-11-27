@@ -9,6 +9,7 @@ description: Minimal theme for blog and portfolio
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

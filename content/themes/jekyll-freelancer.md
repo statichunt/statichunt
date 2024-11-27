@@ -9,6 +9,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 date: 2014-07-19T15:13:08.000Z
 description: Jekyll theme based on Freelancer Start Bootstrap theme
 draft: false

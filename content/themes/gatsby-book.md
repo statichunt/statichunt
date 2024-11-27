@@ -9,6 +9,7 @@ description: 『Webサイト高速化のための 静的サイトジェネレー
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category:

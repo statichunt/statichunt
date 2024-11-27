@@ -9,6 +9,7 @@ description: course website for Programming for Visual Artists
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

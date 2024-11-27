@@ -9,6 +9,7 @@ description: Dark and elegant blog theme for goHugo static site generator.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

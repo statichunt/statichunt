@@ -12,6 +12,7 @@ css:
   - Tailwind
   - Bootstrap
   - SCSS
+ui: []
 cms: []
 category:
   - Portfolio

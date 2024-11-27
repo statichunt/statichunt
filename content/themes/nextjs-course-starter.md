@@ -9,6 +9,7 @@ description: Starter kit for making courses for Frontend Masters
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

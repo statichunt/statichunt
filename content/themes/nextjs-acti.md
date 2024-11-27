@@ -10,7 +10,8 @@ description: >-
   in Quebec in this case)
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

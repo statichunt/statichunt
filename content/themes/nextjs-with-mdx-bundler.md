@@ -9,6 +9,7 @@ description: Example Next.js app with mdx-bundler
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,6 +9,7 @@ description: A Jekyll version of the 'Prologue' theme by HTML5 UP
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

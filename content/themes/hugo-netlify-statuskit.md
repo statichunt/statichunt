@@ -9,6 +9,7 @@ description: Netlify StatusKit is a template to deploy your own Status pages on 
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

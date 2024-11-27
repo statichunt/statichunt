@@ -6,18 +6,20 @@ demo: https://demo.gethugothemes.com/dtox/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-12T00:00:00.000Z
-description: Dtox is a one-of-a-kind Hugo SaaS theme with lucrative visuals effective for a business-centric mindset.
+description: >-
+  Dtox is a one-of-a-kind Hugo SaaS theme with lucrative visuals effective for a
+  business-centric mindset.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Saas
 draft: false
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 82/100 (Desktop)

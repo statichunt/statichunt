@@ -8,7 +8,8 @@ date: 2024-02-19T05:33:19.360Z
 description: The Feed App Boilerplate - built on Blitz.js
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

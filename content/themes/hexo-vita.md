@@ -9,6 +9,7 @@ description: A simple and minimal Hexo resume theme
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

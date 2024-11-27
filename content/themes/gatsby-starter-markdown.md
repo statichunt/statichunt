@@ -9,6 +9,7 @@ description: boilerplate for markdown-based website
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

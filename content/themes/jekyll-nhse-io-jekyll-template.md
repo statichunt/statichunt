@@ -9,6 +9,7 @@ description: Ruby, Jekyll and Bundle simple starting point for io pages
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

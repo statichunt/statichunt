@@ -9,6 +9,7 @@ description: Nuxt.js + Django REST Framework (auth, email verify, password reset
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

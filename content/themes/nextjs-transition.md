@@ -8,7 +8,8 @@ date: 2024-02-19T06:28:48.536Z
 description: Audio and Video transcription with whisper API and Next.js
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

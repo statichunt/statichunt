@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
-
 Nextjs is one of the most popular static site generators right now. It offers a simple interface with powerful features, making it the perfect tool for creating high-performance static sites. Nextjs offers built-in features such as asset management, routing, and server-side rendering.

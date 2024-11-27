@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Bootstrap
+ui: []
 cms: []
 category:
   - Ecommerce

@@ -9,8 +9,8 @@ date: 2023-05-02T00:00:00.000Z
 description: It’s a React Gatsby based E-commerce Template that uses two Headless API.
 ssg:
   - Gatsby
-css:
-
+css: []
+ui: []
 cms:
   - Prismic
 category:

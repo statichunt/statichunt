@@ -6,18 +6,21 @@ demo: https://demo.gethugothemes.com/enov/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-12T00:00:00.000Z
-description: Enov is a multi-purpose Hugo business theme that ensures an amazing user experience. You can establish your corporate or business agency website effectively with it.
+description: >-
+  Enov is a multi-purpose Hugo business theme that ensures an amazing user
+  experience. You can establish your corporate or business agency website
+  effectively with it.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 94/100 (Desktop)

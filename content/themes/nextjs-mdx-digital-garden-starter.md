@@ -9,6 +9,7 @@ description: An opinionated starting point for Digital Garden content authoring.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category: []

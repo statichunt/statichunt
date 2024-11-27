@@ -9,6 +9,7 @@ description: A simple PWA build with Astro SSR and Strapi CMS.
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

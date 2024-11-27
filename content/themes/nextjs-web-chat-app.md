@@ -8,7 +8,8 @@ date: 2024-02-18T08:21:55.071Z
 description: An app made with NextJs to help each other communicate fastly and securely
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

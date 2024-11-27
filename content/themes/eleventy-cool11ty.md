@@ -9,6 +9,7 @@ description: Cool11ty new modern eleventy 11ty blog themes template
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

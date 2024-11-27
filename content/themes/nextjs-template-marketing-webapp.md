@@ -9,6 +9,7 @@ description: Next.js marketing website starter template
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Contentful
 category: []

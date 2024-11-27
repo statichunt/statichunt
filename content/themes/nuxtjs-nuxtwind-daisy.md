@@ -13,6 +13,7 @@ ssg:
   - Nuxtjs
 css:
   - Tailwind
+ui: []
 cms: []
 category: []
 draft: false

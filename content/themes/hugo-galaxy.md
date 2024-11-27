@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/galaxy/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-12T00:00:00.000Z
-description: Galaxy is a dark-themed Blog theme. The theme comes with a lot of unique functionalities
+description: >-
+  Galaxy is a dark-themed Blog theme. The theme comes with a lot of unique
+  functionalities
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 33
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 92/100 (Desktop)

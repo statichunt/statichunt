@@ -9,6 +9,7 @@ description: This repo conatain all the template of Dev.UI
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A minimalist yet exciting jekyll theme based on action comics.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

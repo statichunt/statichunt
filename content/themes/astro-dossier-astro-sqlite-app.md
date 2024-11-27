@@ -9,6 +9,7 @@ description: Template for an app using Dossier, Astro and SQLite
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

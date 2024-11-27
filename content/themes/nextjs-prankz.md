@@ -9,6 +9,7 @@ description: A project showing how to fake a news website to rick roll people.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

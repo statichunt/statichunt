@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Documentation
@@ -19,7 +20,6 @@ update_date: '2023-10-02T15:40:56Z'
 github_star: 39
 github_fork: 9
 ---
-
 ## Key Features
 
 - Astro - Blazingly fast static site generation & type-safe frontmatter

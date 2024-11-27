@@ -1,24 +1,27 @@
 ---
 title: Revolve Hugo
 download: https://gethugothemes.com/products/revolve?aff=statichunt
-github:
+github: null
 price: 79
 demo: https://demo.gethugothemes.com/revolve/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: Revolve is a Hugo theme ideal for crafting a blog site with a lucrative color combination. It is perfect for professional photographers and journalists who want to showcase their work online.
+description: >-
+  Revolve is a Hugo theme ideal for crafting a blog site with a lucrative color
+  combination. It is perfect for professional photographers and journalists who
+  want to showcase their work online.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 80/100 (Desktop)

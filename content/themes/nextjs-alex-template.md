@@ -9,6 +9,7 @@ description: NextJS starter project with TS/ESLint/Prettier/Jest and others...
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

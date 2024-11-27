@@ -9,6 +9,7 @@ description: A Hugo theme for a photo album. This theme is an evolution of a pre
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

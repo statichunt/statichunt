@@ -9,6 +9,7 @@ description: A Simple Wedding Theme for Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

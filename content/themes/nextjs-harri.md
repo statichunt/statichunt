@@ -6,18 +6,20 @@ demo: https://hamart-shop.vercel.app/
 author: Theme_Pure
 author_link: https://themeforest.net/user/theme_pure
 date: 2023-05-01T00:00:00.000Z
-description: Harri – Clean, Minimal eCommerce React next js Template for multipurpose (Mobile, Laptop, Monitor, Hub, Kittle, watch Multipurpose template, watch store).
+description: >-
+  Harri – Clean, Minimal eCommerce React next js Template for multipurpose
+  (Mobile, Laptop, Monitor, Hub, Kittle, watch Multipurpose template, watch
+  store).
 ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Ecommerce
 draft: false
 ---
-
 ## Key Features
 
 - React JS

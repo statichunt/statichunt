@@ -5,12 +5,17 @@ price: 79
 demo: https://dexler-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
-date: 2024-7-29T00:00:00.000Z
-description: Dexler is a modern SaaS template built with Astro and Tailwind CSS. It offers a strong foundation for creating professional SaaS websites with its 12+ pre-designed pages. The template is highly customizable, allowing you to tailor the colors, fonts, and layout to match your brand identity.
+date: 2024-07-29T00:00:00.000Z
+description: >-
+  Dexler is a modern SaaS template built with Astro and Tailwind CSS. It offers
+  a strong foundation for creating professional SaaS websites with its 12+
+  pre-designed pages. The template is highly customizable, allowing you to
+  tailor the colors, fonts, and layout to match your brand identity.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +24,6 @@ category:
 draft: false
 weight: 21
 ---
-
 ## Key Features
 
 - 12+ Unique Pages

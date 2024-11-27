@@ -6,18 +6,19 @@ demo: https://banter.tailwindawesome.com/
 author: Tailwind Awesome
 author_link: https://www.tailwindawesome.com/
 date: 2023-04-08T00:00:00.000Z
-description: Banter is a multipurpose, modern Tailwind CSS template for any blog, magazine, or news site available in React Next.js and HTML.
+description: >-
+  Banter is a multipurpose, modern Tailwind CSS template for any blog, magazine,
+  or news site available in React Next.js and HTML.
 ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - 9 fully responsive and pre-assembled pages (available in HTML and React Next.js)

@@ -10,7 +10,8 @@ description: >-
   and Authorization services from Kong CE and Keycloak.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

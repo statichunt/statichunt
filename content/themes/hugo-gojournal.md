@@ -6,11 +6,15 @@ demo: https://demo.gethugothemes.com/gojournal/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-12T00:00:00.000Z
-description: GoJournal is a Hugo magazine theme that comes with minimal design. The readability of this theme was improved significantly with a simple but effective site structure.
+description: >-
+  GoJournal is a Hugo magazine theme that comes with minimal design. The
+  readability of this theme was improved significantly with a simple but
+  effective site structure.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +22,6 @@ category:
 draft: false
 weight: 34
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 95/100 (Desktop)

@@ -9,6 +9,7 @@ description: 博客主题 A Jekyll theme with Chinese UI and document
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

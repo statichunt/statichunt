@@ -9,6 +9,7 @@ description: A simple and noble theme based on Noderce for hexo
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

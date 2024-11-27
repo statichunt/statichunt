@@ -8,8 +8,9 @@ date: 2023-03-13T00:00:00.000Z
 description: Modernize Free Next 13 Admin Template with Material Ui + Typescript.
 ssg:
   - Nextjs
-css:
-  - MUI
+css: []
+ui:
+  - Material
 cms: null
 category:
   - Saas

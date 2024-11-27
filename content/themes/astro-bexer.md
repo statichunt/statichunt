@@ -6,11 +6,16 @@ demo: https://bexer-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-07-08T00:00:00.000Z
-description: Bexer Astro - Elevate your online presence with our cutting-edge, versatile theme designed for businesses. Enjoy a sleek design, extensive page collection, and seamless responsiveness, perfect for SaaS, startups, and agencies.
+description: >-
+  Bexer Astro - Elevate your online presence with our cutting-edge, versatile
+  theme designed for businesses. Enjoy a sleek design, extensive page
+  collection, and seamless responsiveness, perfect for SaaS, startups, and
+  agencies.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +25,6 @@ category:
 draft: false
 weight: 20
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 98/100 (Desktop)

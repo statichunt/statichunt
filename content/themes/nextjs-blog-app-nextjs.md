@@ -11,7 +11,8 @@ description: >-
   or contact also to the site owner.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

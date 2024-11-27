@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Boilerplate
@@ -23,7 +24,6 @@ github_fork: 2573
 home_weight: null
 weight: null
 ---
-
 ## Key Features
 
 - New /app dir,

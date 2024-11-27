@@ -8,7 +8,8 @@ date: 2024-02-18T09:27:56.522Z
 description: A Simple School portal made with NextJs
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

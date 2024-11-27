@@ -9,6 +9,7 @@ description: Gatsby Theme for UltronEle - the Fastest Elearning Engine in the wo
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

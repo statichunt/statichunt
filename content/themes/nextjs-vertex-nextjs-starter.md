@@ -9,6 +9,7 @@ description: Template repository for NextJS-based Vertex applications.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Minimalist Hugo theme with a penchant for accessibility
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

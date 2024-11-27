@@ -11,8 +11,8 @@ ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false

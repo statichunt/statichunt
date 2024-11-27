@@ -9,6 +9,7 @@ description: A template for really easy blogging with GitHub Pages
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

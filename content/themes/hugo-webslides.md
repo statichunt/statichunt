@@ -9,6 +9,7 @@ description: This is a Hugo template to create WebSlides presentation using mark
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

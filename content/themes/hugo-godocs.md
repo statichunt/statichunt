@@ -6,11 +6,14 @@ demo: https://demo.gethugothemes.com/godocs/site/style-1/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-04-03T00:00:00.000Z
-description: Godocs is Bootstrap-based premium Hugo Documentation theme With 4 included layout
+description: >-
+  Godocs is Bootstrap-based premium Hugo Documentation theme With 4 included
+  layout
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +21,6 @@ category:
 draft: false
 weight: 5
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 90/100 (Desktop)

@@ -9,6 +9,7 @@ description: A material theme for Jekyll built with Polymer
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

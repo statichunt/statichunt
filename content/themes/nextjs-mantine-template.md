@@ -9,6 +9,7 @@ description: Template for NextJS with Mantine UI
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

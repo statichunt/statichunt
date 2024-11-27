@@ -9,6 +9,7 @@ description: Use pico css with nextjs
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

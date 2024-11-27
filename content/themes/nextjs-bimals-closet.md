@@ -8,7 +8,8 @@ date: 2023-11-30T11:04:29.185Z
 description: This is an e-commerce web app built with Next.js
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

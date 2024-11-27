@@ -9,6 +9,7 @@ description: A Feature rich Gatsby theme plugin for creating blogs from Ghost.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Ghost
 category: []

@@ -9,6 +9,7 @@ description: Create custom landing pages using Gatsby and Contentful
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

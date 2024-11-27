@@ -10,7 +10,8 @@ description: >-
   nft and collection viewer.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

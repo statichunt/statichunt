@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +21,6 @@ update_date: '2024-02-10T06:33:54Z'
 github_star: 15
 github_fork: 14
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100 (Desktop)

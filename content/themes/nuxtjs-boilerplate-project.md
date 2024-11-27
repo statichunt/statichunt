@@ -12,6 +12,7 @@ ssg:
   - Nuxtjs
 css:
   - SCSS
+ui: []
 cms:
   - Markdown
 category:

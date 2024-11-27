@@ -11,15 +11,14 @@ ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
   - Blog
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest Vue

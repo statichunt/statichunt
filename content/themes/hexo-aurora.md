@@ -10,6 +10,7 @@ ssg:
 cms: null
 css:
   - Tailwind
+ui: []
 category:
   - others
 description: >-
@@ -21,8 +22,7 @@ update_date: '2024-05-25T22:58:04Z'
 github_star: 1392
 github_fork: 219
 ---
-
-## Key Features:
+## Key Features
 
 - Featured section - Can add a feature meta to any post, those will be pinned into the feature section on the home page.
 - Multi-language support - Can dynamically switch the language of the main texts in the application.

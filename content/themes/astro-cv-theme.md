@@ -9,6 +9,7 @@ description: CV theme for Astro
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

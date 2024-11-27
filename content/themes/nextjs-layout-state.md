@@ -9,6 +9,7 @@ description: PoC on how to omit state from different pages in a Next.js applicat
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

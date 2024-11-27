@@ -9,6 +9,7 @@ description: A Hugo theme with multiple color schemes
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

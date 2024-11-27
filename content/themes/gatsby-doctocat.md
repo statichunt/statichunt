@@ -9,6 +9,7 @@ description: A Gatsby theme for building Primer documentation sites
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

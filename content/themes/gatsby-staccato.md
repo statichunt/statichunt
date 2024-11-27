@@ -9,6 +9,7 @@ description: staccato music blog
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

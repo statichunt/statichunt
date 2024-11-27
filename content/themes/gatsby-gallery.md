@@ -9,6 +9,7 @@ description: 🏞 A Gatsby Theme for adding a gallery to your site.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Gatsby Starter for Blog with MDX
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

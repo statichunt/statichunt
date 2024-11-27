@@ -9,6 +9,7 @@ description: A super concise theme for Hugo https://hugo-theme-even.netlify.app
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

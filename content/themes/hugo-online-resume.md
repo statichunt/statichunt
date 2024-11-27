@@ -9,6 +9,7 @@ description: A minimalist Hugo theme for your resume.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

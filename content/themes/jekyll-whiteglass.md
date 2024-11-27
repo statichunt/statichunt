@@ -9,6 +9,7 @@ description: Minimal, responsive Jekyll theme for hackers
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -14,6 +14,7 @@ css:
   - Tailwind
   - SCSS
   - PostCSS
+ui: []
 cms:
   - Markdown
 category: []

@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Builderio
 category:
@@ -20,7 +21,6 @@ update_date: '2024-04-25T23:23:47Z'
 github_star: 443
 github_fork: 215
 ---
-
 ## Key Features
 
 - Ultra high performance

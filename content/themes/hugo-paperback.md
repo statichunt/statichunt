@@ -9,6 +9,7 @@ description: Theme for Hugo static website engine
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

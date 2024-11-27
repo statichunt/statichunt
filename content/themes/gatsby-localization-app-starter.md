@@ -9,6 +9,7 @@ description: A Gatsby localization website powered by Cosmic JS
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

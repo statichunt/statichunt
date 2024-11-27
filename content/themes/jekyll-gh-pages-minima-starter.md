@@ -9,6 +9,7 @@ description: A minimal example for running Github Pages with the minima theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

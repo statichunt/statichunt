@@ -9,6 +9,7 @@ description: A port of the HTML5UP Landed theme to Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Create a deck (with mdx-deck) and a blog post from the same MDX
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

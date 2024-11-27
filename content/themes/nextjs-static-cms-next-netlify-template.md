@@ -9,6 +9,7 @@ description: Next template with Static CMS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

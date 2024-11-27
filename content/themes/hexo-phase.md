@@ -9,6 +9,7 @@ description: Feel the flow of time with Phase, the most beautiful theme for Hexo
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

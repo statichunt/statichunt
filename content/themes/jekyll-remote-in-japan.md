@@ -9,6 +9,7 @@ description: Tech companies in Japan that hire remote workers.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

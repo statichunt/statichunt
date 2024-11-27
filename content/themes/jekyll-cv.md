@@ -9,6 +9,7 @@ description: Lightweight jekyll theme for your CV with dark mode support
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Ego is a one page portfolio site template developed with Gatsby + T
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Tina
 category: []

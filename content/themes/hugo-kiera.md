@@ -9,6 +9,7 @@ description: Kiera - A Hugo Theme for writing
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

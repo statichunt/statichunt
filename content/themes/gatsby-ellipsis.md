@@ -9,6 +9,7 @@ description: Blog for ellipsis.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

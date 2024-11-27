@@ -9,6 +9,7 @@ description: Your new Jekyll default theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -8,7 +8,8 @@ date: 2024-02-19T07:32:47.247Z
 description: Chat App Created Using Next.js, Chakra UI & Firebase.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -6,18 +6,19 @@ demo: https://new.axilthemes.com/demo/react/papr
 author: Axilthemes
 author_link: https://themeforest.net/user/axilthemes
 date: 2023-01-03T00:00:00.000Z
-description: Papr is a premium and trendy News, Magazine, and Blog React Next JS Template with a flexible and fully responsive design.
+description: >-
+  Papr is a premium and trendy News, Magazine, and Blog React Next JS Template
+  with a flexible and fully responsive design.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - others
 draft: false
 ---
-
 ## Key Features
 
 - Fast, Lightweight & Powerful

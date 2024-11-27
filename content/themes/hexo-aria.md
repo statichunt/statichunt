@@ -9,6 +9,7 @@ description: A Hexo theme inspired by Kalafina's song ARIA.
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

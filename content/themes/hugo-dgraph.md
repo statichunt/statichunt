@@ -9,6 +9,7 @@ description: Hugo theme used for our blog
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

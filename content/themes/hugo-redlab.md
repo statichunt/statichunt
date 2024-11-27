@@ -1,17 +1,21 @@
 ---
 title: Redlab Hugo
 download: https://gethugothemes.com/products/redlab?aff=statichunt
-github:
+github: null
 price: 79
 demo: https://demo.gethugothemes.com/redlab/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: ReadLab is yet another Hugo blog theme to showcase your portfolio effectively. It contains a variety of web pages, including Home, About, Portfolio, Blog, Career, and Contact pages.
+description: >-
+  ReadLab is yet another Hugo blog theme to showcase your portfolio effectively.
+  It contains a variety of web pages, including Home, About, Portfolio, Blog,
+  Career, and Contact pages.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +24,6 @@ category:
 draft: false
 weight: 14
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)

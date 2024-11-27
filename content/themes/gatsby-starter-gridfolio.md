@@ -9,6 +9,7 @@ description: A GatsbyJs port of Christine Cha's Gridfolio.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

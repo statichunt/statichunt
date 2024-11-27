@@ -9,6 +9,7 @@ description: An opinionated Gatsby v2 starter for state-of-the-art marketing sit
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

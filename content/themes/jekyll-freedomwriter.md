@@ -9,6 +9,7 @@ description: My Persian blog to share my thoughts.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

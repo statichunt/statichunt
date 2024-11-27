@@ -10,6 +10,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms:
   - Decap
 category:
@@ -23,7 +24,6 @@ update_date: '2024-10-15T10:41:12Z'
 github_star: 24
 github_fork: 17
 ---
-
 ## Key Features
   
 - Gatsby 5+

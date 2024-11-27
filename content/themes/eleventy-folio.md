@@ -10,6 +10,7 @@ ssg:
   - Eleventy
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category: []

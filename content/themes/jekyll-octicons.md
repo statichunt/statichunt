@@ -9,6 +9,7 @@ description: A scalable set of icons handcrafted with <3 by GitHub
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

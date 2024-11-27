@@ -9,6 +9,7 @@ description: A simple Hugo theme suitable for a portfolio, documentation library
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

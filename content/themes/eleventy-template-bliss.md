@@ -12,6 +12,7 @@ ssg:
   - Eleventy
 css:
   - SCSS
+ui: []
 cms:
   - Markdown
 category:

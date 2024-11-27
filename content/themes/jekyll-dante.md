@@ -12,6 +12,7 @@ ssg:
   - Jekyll
 css:
   - Bootstrap
+ui: []
 cms:
   - cloudcannon
 category:
@@ -22,8 +23,7 @@ update_date: '2024-06-12T05:45:53Z'
 github_star: 3
 github_fork: 3
 ---
-
-## Key Features :
+## Key Features
 
 - Live editing with CloudCannon
 - Component library for website building

@@ -13,8 +13,9 @@ ssg:
   - Nextjs
 css:
   - Tailwind
-  - Chakra
   - PostCSS
+ui:
+  - Chakra
 cms: []
 category: []
 draft: false

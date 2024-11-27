@@ -9,6 +9,7 @@ description: A Flask template for Vercel
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

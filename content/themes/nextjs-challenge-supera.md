@@ -8,7 +8,8 @@ date: 2023-11-30T06:29:18.916Z
 description: React Challenge for a interview
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

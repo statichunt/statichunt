@@ -8,7 +8,8 @@ date: 2024-02-18T11:10:14.101Z
 description: GUI Client for vnStat Network Monitor for Linux or GNU/Linux
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

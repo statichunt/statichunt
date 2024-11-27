@@ -9,6 +9,7 @@ description: React Hook for System Theme
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

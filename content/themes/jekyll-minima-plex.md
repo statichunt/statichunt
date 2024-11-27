@@ -9,6 +9,7 @@ description: Fork of Jekyll Minima theme using IBM Plex family of fonts
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

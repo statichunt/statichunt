@@ -9,6 +9,7 @@ description: ️ Blazing fast blog built with Gatsby and the Cosmic Headless CMS
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

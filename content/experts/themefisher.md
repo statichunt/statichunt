@@ -23,7 +23,6 @@ ssg:
 
 
 ---
-
 ## Overview
 
 Themefisher.com is a plateform that offers exclusive website templates for startups and developers. We use modern web technologies, such as Bootstrap, Tailwind, Astro, and Next.js, to create beautiful, responsive, and fast websites.

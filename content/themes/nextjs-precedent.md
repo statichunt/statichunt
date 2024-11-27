@@ -10,7 +10,8 @@ description: >-
   project.
 ssg:
   - Nextjs
-css: null
+css: []
+ui: []
 cms: null
 category:
   - Boilerplate

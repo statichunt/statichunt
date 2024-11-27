@@ -9,6 +9,7 @@ description: A minimal and beautiful Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

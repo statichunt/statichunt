@@ -9,6 +9,7 @@ description: ️ Pretty GatsbyJS blog starter template
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

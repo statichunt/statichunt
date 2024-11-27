@@ -9,6 +9,7 @@ description: Gatsby starter using styled components with a sticky footer
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

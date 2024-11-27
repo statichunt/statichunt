@@ -9,6 +9,7 @@ description: Port of SMPL template by BlackTie to Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

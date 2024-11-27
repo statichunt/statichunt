@@ -9,6 +9,7 @@ description: A quickstart template to create a Hugo blog using hugo-theme-stack
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

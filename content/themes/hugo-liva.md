@@ -8,6 +8,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 category:
   - Blog
 date: 2021-08-29T16:18:21.000Z
@@ -19,8 +20,7 @@ github_star: 275
 github_fork: 235
 weight: 18
 ---
-
-## Key Features :
+## Key Features
 
 - Google analytics support
 - CSS and JS bundle with hugo pipe

@@ -9,6 +9,7 @@ description: News from the openSUSE Land
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

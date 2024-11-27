@@ -9,6 +9,7 @@ description: A demo app built with JavaScript SSG 11ty
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

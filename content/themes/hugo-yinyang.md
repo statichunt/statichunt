@@ -9,6 +9,7 @@ description: A black-white theme for Hugo.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

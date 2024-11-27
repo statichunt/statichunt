@@ -9,6 +9,7 @@ description: A port of the WordPress Twenty Twenty theme to Gatsby.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

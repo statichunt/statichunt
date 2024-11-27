@@ -9,6 +9,7 @@ description: This is a jekyll Grape-Theme. It is good for a portfolio as well as
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

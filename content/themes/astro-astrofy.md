@@ -13,6 +13,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms: []
 category:
   - Blog

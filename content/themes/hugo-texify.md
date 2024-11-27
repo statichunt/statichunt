@@ -9,6 +9,7 @@ description: A minimal, latex-style hugo theme for personal blogging
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

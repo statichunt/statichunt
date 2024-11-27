@@ -9,6 +9,7 @@ description: Jekyll Jupyter Notebook plugin
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category: []

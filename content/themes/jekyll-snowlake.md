@@ -6,18 +6,20 @@ demo: https://snowlake.tortoizthemes.com/
 author: Tortoiz Themes
 author_link: https://jekyllthemes.io/developers/tortoiz-themes
 date: 2023-02-13T00:00:00.000Z
-description: Snowlake is a versatile and flawless Jekyll site template that includes various UI elements and countless features, basically everything you need to create your next professional website.
+description: >-
+  Snowlake is a versatile and flawless Jekyll site template that includes
+  various UI elements and countless features, basically everything you need to
+  create your next professional website.
 ssg:
   - Jekyll
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - 27 Different Demos

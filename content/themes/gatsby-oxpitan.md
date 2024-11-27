@@ -6,18 +6,20 @@ demo: https://oxpitan-gatsby.vercel.app/
 author: Layerdrops
 author_link: https://themeforest.net/user/layerdrops
 date: 2023-04-16T00:00:00.000Z
-description: Oxpitan is a clean professional Gatsby React Charity Template which fits for all kind of charity, fundraising, nonprofit, NGO, donations, church, Mosque and all other non-profit charity website, businesses and NGO.
+description: >-
+  Oxpitan is a clean professional Gatsby React Charity Template which fits for
+  all kind of charity, fundraising, nonprofit, NGO, donations, church, Mosque
+  and all other non-profit charity website, businesses and NGO.
 ssg:
   - Gatsby
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Includes 2 Home versions

@@ -9,6 +9,7 @@ description: ':black_nib: Jekyll in Haskell (feat. LaTeX)'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category: []

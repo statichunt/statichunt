@@ -6,11 +6,17 @@ demo: https://automatepro-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-10-12T00:00:00.000Z
-description: AutomatePro Astro is tailored for SaaS and startup businesses. Developed with the Astro framework and styled with Tailwind CSS, it offers a simple, clean design that guarantees a smooth user experience from the first interaction. Its modern layout and fast load times make it an excellent choice for driving conversions on SaaS websites.
+description: >-
+  AutomatePro Astro is tailored for SaaS and startup businesses. Developed with
+  the Astro framework and styled with Tailwind CSS, it offers a simple, clean
+  design that guarantees a smooth user experience from the first interaction.
+  Its modern layout and fast load times make it an excellent choice for driving
+  conversions on SaaS websites.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -18,9 +24,8 @@ category:
   - Saas
 draft: false
 Home_weight: 10
-weight: 
+weight: null
 ---
-
 ## Key Features
 
 - 17+ Complete SaaS Pages
@@ -40,4 +45,3 @@ weight:
 - Free Google fonts
 - Lifetime free updates
 - Detail Documentation
-

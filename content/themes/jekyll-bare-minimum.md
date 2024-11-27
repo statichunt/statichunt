@@ -9,6 +9,7 @@ description: A minimal theme for long text posts.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

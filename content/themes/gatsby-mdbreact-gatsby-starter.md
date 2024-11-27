@@ -12,6 +12,7 @@ ssg:
   - Gatsby
 css:
   - Bootstrap
+ui: []
 cms: []
 category: []
 draft: false

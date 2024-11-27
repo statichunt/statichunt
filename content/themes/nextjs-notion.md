@@ -8,7 +8,8 @@ date: 2023-02-02T00:00:00.000Z
 description: Deploy your own Notion-powered website in minutes with Next.js and Vercel.
 ssg:
   - Nextjs
-css: null
+css: []
+ui: []
 cms: null
 category:
   - Blog
@@ -18,7 +19,6 @@ update_date: '2023-12-17T05:39:08Z'
 github_star: 6207
 github_fork: 5250
 ---
-
 ## Key Features
 
 - Setup only takes a few minutes (single config file) 💪

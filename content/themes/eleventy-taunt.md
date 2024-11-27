@@ -9,6 +9,7 @@ description: Custom 11ty portfolio theme for designer & developer blogs.
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

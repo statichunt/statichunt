@@ -11,6 +11,7 @@ description: >-
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

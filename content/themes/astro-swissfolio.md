@@ -13,6 +13,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 category:
   - Portfolio
 draft: false
@@ -21,7 +22,6 @@ update_date: '2024-09-07T23:08:25Z'
 github_star: 152
 github_fork: 68
 ---
-
 ## Key Features
 
 - Stylish

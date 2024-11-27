@@ -9,6 +9,7 @@ description: Template for the React for Designers course
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

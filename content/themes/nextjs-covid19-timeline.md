@@ -9,6 +9,7 @@ description: A COVID-19 dashboard that allows you to view historical data in tim
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

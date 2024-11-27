@@ -9,6 +9,7 @@ description: Website for DecaUI
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category: []

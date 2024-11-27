@@ -9,6 +9,7 @@ description: Docs of neumorphic-ui
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

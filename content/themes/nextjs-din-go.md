@@ -8,7 +8,8 @@ date: 2023-11-27T02:03:12.303Z
 description: admin dashboard
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

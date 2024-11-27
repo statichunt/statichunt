@@ -7,10 +7,12 @@ const useTaxonomyHandler = (themes) => {
     arraySSG,
     arrayCMS,
     arrayCSS,
+    arrayUI,
     arrayCategory,
     arrayToolsCategory,
     setArraySSG,
     setArrayCSS,
+    setArrayUI,
     setArrayCMS,
     setArrayCategory,
     setArrayToolsCategory,
@@ -35,6 +37,9 @@ const useTaxonomyHandler = (themes) => {
         break;
       case "css":
         handleTaxonomyChange(arrayCSS, setArrayCSS, label);
+        break;
+      case "ui":
+        handleTaxonomyChange(arrayUI, setArrayUI, label);
         break;
       case "cms":
         handleTaxonomyChange(arrayCMS, setArrayCMS, label);
@@ -69,6 +74,7 @@ const useTaxonomyHandler = (themes) => {
     second_params,
     third_params,
     fourth_params,
+    fifth_params,
   ) => {
     if (taxonomyArray[0] === first_params.params) {
       setFilterState(
@@ -103,13 +109,26 @@ const useTaxonomyHandler = (themes) => {
           fourth_params.array,
           fourth_params.params,
         );
-
-        setFilterState(
-          filterArray_three.length
-            ? filterArray_three
+        const filterArray_four = filterStateFunction(
+          filterArray_one.length
+            ? filterArray_one
             : filterArray_two.length
               ? filterArray_two
-              : filterArray_one,
+              : filterArray_three.length
+                ? filterArray_three
+                : themes,
+          fifth_params.array,
+          fifth_params.params,
+        );
+
+        setFilterState(
+          filterArray_four.length
+            ? filterArray_four
+            : filterArray_three.length
+              ? filterArray_three
+              : filterArray_two.length
+                ? filterArray_two
+                : filterArray_one,
         );
       }
     }

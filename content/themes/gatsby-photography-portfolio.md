@@ -9,6 +9,7 @@ description: A gatsby theme featuring a minimalistic design based on a bold imag
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

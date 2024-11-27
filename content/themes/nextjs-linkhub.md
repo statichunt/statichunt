@@ -8,7 +8,8 @@ date: 2023-11-26T07:48:41.883Z
 description: Share all your links with just one link <3
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

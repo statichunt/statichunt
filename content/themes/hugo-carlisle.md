@@ -9,6 +9,7 @@ description: A minimal template for a Hugo site
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

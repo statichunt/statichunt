@@ -9,6 +9,7 @@ description: Gatsby starter project with mdx pages
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

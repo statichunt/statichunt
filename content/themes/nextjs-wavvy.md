@@ -6,18 +6,19 @@ demo: https://wavvy-next-preview.vercel.app/
 author: Tailwind Awesome
 author_link: https://www.tailwindawesome.com/
 date: 2023-04-08T00:00:00.000Z
-description: Wavvy is a beautiful SaaS Tailwind CSS template available in both HTML and Next.js.
+description: >-
+  Wavvy is a beautiful SaaS Tailwind CSS template available in both HTML and
+  Next.js.
 ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - 8 fully responsive and pre-assembled pages (available in HTML and React/Next.js)

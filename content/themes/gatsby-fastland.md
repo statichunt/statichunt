@@ -6,18 +6,19 @@ demo: https://fastland-gatsby.netlify.app/
 author: Grayic
 author_link: https://themeforest.net/user/grayic
 date: 2022-12-22T00:00:00.000Z
-description: Fastland React Gatsby Landing Page, built with React, Gatsby JS. NO jQuery included or used in Fastland.
+description: >-
+  Fastland React Gatsby Landing Page, built with React, Gatsby JS. NO jQuery
+  included or used in Fastland.
 ssg:
   - Gatsby
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Reusable Components

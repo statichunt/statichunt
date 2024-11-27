@@ -4,7 +4,6 @@ meta_title: Disclaimer - Statichunt
 description:
 noindex: true
 ---
-
 The information contained on this website is for general information purposes only. While we endeavor to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
 This website could include inaccuracies or typographical errors. Each individual document published on this website may contain other proprietary notices and copyright information relating to that specific document.

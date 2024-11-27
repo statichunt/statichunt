@@ -9,6 +9,7 @@ description: The Small Sticker store for sticker and other programmer goodies.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

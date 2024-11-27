@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - PostCSS
+ui: []
 cms: []
 category: []
 draft: false

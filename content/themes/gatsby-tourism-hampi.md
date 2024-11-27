@@ -9,6 +9,7 @@ description: 'Hampi Tourism site: React, Gatsby, Node, GraphQL, Contentful CMS, 
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

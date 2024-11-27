@@ -9,6 +9,7 @@ description: Static site generator which is semi-compatible with Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

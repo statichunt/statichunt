@@ -9,6 +9,7 @@ description: A Jekyll theme for serial programmers (-.-)
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

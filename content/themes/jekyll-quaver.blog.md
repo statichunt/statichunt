@@ -9,6 +9,7 @@ description: Keep up-to-date with Quaver's development by reading the official b
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -11,7 +11,8 @@ description: >-
   frontend
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

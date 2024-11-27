@@ -9,6 +9,7 @@ description: Employee payments with crypto made easy,
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Business

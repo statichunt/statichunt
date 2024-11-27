@@ -12,6 +12,7 @@ css:
   - Bootstrap
   - SCSS
   - PostCSS
+ui: []
 cms: []
 category:
   - Blog

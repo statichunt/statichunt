@@ -9,6 +9,7 @@ description: A starter template to build websites with Ghost & Eleventy
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Ghost
   - Markdown

@@ -9,6 +9,7 @@ description: A Jekyll theme based on tufte-css, in the style of Edward Tufte
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

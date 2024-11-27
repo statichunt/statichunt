@@ -9,6 +9,7 @@ description: A free and open source local CMS for static site generators
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category:

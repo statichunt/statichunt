@@ -9,6 +9,7 @@ description: A simple jekyll theme for journal, news etc.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

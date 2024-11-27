@@ -9,6 +9,7 @@ description: A Hugo theme wtih Github appearance.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

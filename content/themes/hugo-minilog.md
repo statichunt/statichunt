@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Blog
   - Portfolio
@@ -29,7 +30,6 @@ github_star: 10
 github_fork: 3
 draft: false
 ---
-
 ## Key Features
 
 - Image optimize with Hugo pipe

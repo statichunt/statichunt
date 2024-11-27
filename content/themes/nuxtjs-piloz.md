@@ -6,18 +6,20 @@ demo: https://piloz-vue.vercel.app/
 author: Bracket-web
 author_link: https://themeforest.net/user/bracket-web
 date: 2023-04-17T00:00:00.000Z
-description: Piloz is a flat colorful app landing page HTML Template. It is specially designed for any kind of mobile app, software, sass, startup, marketing, one page and other online businesses.
+description: >-
+  Piloz is a flat colorful app landing page HTML Template. It is specially
+  designed for any kind of mobile app, software, sass, startup, marketing, one
+  page and other online businesses.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Sass
 draft: false
 ---
-
 ## Key Features
 
 - Includes 1 Home versions

@@ -9,6 +9,7 @@ description: BlogBox is a minimal, clean and responsive Jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

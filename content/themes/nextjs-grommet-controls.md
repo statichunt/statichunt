@@ -9,6 +9,7 @@ description: grommet 2 controls
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

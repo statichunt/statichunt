@@ -9,6 +9,7 @@ description: How to build an e-commerce store using NextJS and Stripe
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

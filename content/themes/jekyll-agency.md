@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Business
 date: 2023-01-19T00:00:00.000Z
@@ -22,8 +23,7 @@ update_date: '2024-02-28T00:03:28Z'
 github_star: 347
 github_fork: 689
 ---
-
-## Key Features :
+## Key Features
 
 - GitHub Pages support
 - Template repo to get up and running in minutes

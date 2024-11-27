@@ -9,6 +9,7 @@ description: A red portfolio theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

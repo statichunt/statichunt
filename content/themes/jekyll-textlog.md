@@ -9,6 +9,7 @@ description: Minimalist, lefty-style Jekyll theme designed for documentation bas
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

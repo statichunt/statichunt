@@ -9,6 +9,7 @@ description: A modern jekyll theme for semantically inclined digital gardeners.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

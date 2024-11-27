@@ -11,6 +11,7 @@ description: >-
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Documentation

@@ -9,6 +9,7 @@ description: Jekyll Atom Theme is a Jekyll theme based on the Atom text editor.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

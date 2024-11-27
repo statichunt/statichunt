@@ -9,6 +9,7 @@ description: My opinionated Next.js starter
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

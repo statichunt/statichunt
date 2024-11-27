@@ -13,6 +13,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -25,7 +26,6 @@ update_date: '2024-09-08T06:46:37Z'
 github_star: 566
 github_fork: 173
 ---
-
 ## Key Features
 
 - Syntax Highlighting

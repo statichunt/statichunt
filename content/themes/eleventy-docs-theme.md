@@ -13,6 +13,7 @@ ssg:
   - Eleventy
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
   - Spinal
@@ -24,7 +25,6 @@ update_date: '2023-01-24T13:48:36Z'
 github_star: 26
 github_fork: 5
 ---
-
 ## Key Features
 
 - Tailwind CSS + Typography plugin

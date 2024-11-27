@@ -9,6 +9,7 @@ description: Blazing Fast & Minimalist Blog Hugo Themes for Developer
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

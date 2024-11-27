@@ -9,6 +9,7 @@ description: An opinionated Gatsby theme for writing technical documentation.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

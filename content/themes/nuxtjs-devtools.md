@@ -9,6 +9,7 @@ description: Unleash Nuxt Developer Experience
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,13 +21,11 @@ update_date: '2024-10-11T07:55:41Z'
 github_star: 83
 github_fork: 24
 ---
-
-
 # 🚀 Ovidius - Astro.js & Tailwind CSS Theme
 
 Ovidius is a single-author blog theme for Astro.js. Featuring a minimal, slick, responsive and content-focused design. For more Astro.js themes please check [justgoodui.com](https://justgoodui.com/).
 
-## Theme Features:
+## Theme Features
 
 - ✅ Featured post support
 - ✅ Tailwind CSS

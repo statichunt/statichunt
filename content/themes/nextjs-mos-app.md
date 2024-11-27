@@ -10,6 +10,7 @@ cms:
   - Markdown
 css:
   - Tailwind
+ui: []
 archetype:
   - Blog
   - Portfolio
@@ -22,7 +23,6 @@ github_star: 6
 github_fork: 0
 draft: false
 ---
-
 # A simple starter kit for Mosque Websites
 
 This one page fully, responsive theme is for moques to display salah times and other activities

@@ -9,6 +9,7 @@ description: the fastest way to export wordpress site as a static site
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

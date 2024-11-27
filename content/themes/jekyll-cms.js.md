@@ -9,6 +9,7 @@ description: Client-Side JavaScript Site Generator
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category: []

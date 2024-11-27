@@ -9,6 +9,7 @@ description: A gatsby theme for putting up a short bio
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

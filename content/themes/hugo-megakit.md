@@ -10,6 +10,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - cloudcannon
 category:
@@ -20,8 +21,7 @@ update_date: '2024-03-27T02:11:43Z'
 github_star: 27
 github_fork: 16
 ---
-
-## Key Features :
+## Key Features
 
 - Contact form
 - Pre-built pages

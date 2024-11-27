@@ -6,23 +6,27 @@ demo: https://safeshield-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-11-23T00:00:00.000Z
-description: SafeShield Astro is designed specifically for IT and Software businesses. Built with the power of Tailwind CSS, it features a sleek and contemporary design that delivers a seamless user experience. Its clean layout and optimized performance make it an ideal choice for IT companies looking to create a high-impact online presence.
+description: >-
+  SafeShield Astro is designed specifically for IT and Software businesses.
+  Built with the power of Tailwind CSS, it features a sleek and contemporary
+  design that delivers a seamless user experience. Its clean layout and
+  optimized performance make it an ideal choice for IT companies looking to
+  create a high-impact online presence.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Business
   - Saas
 draft: false
-Home_weight: 
-weight: 
+Home_weight: null
+weight: null
 ---
-
-
-## Key-Features:
+## Key-Features
 
 - 13+ Premium Pages
 - Highly customizable
@@ -41,6 +45,3 @@ weight:
 - Free Google fonts
 - Lifetime free updates
 - Detail Documentation
-
-
-

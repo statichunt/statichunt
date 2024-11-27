@@ -9,6 +9,7 @@ description: Framework for building editable websites on the JAMStack
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Documentation

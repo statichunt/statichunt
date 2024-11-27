@@ -9,6 +9,7 @@ description: A hugo theme for building codelabs website.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A simple starter blog built with Next.js & TinaCMS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Tina
   - Markdown

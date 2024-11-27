@@ -4,7 +4,6 @@ meta_title: About - Statichunt
 description:
 draft: false
 ---
-
 Statichunt is an open-source Composable directory that enlists hundreds of themes, starters, and tools for static site generators submitted by the community.
 
 <br/>

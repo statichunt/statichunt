@@ -9,6 +9,7 @@ description: 'Jekyll theme for developers! :computer:'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

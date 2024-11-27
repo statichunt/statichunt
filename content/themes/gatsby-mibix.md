@@ -6,18 +6,19 @@ demo: https://mibix-react.envytheme.com/index-8/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-22T00:00:00.000Z
-description: Mibix is a responsive modern Gatsby React-based template for SEO & Digital Business Startups including IT Companies, SEO Agency & SaaS startup websites!
+description: >-
+  Mibix is a responsive modern Gatsby React-based template for SEO & Digital
+  Business Startups including IT Companies, SEO Agency & SaaS startup websites!
 ssg:
   - Gatsby
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Built on React 17+, Gatsby.js v4.4+, Sass, and Bootstrap 5.1.3+

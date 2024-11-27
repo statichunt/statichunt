@@ -9,6 +9,7 @@ description: A Gatsby starter for holy fools, with tinaCMS integration and custo
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Tina
   - Markdown

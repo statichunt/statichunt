@@ -9,6 +9,7 @@ description: A minimalistic, responsive and friendly Jekyllrb theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

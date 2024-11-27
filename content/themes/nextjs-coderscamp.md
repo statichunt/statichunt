@@ -10,7 +10,8 @@ description: >-
   development resources created around them.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: Minima, but with the missing functionality added
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

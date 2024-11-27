@@ -9,6 +9,7 @@ description: Make static Hugo sites dyanmic with htmx and Go
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

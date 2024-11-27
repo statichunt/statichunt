@@ -9,6 +9,7 @@ description: 一个简单的Astro博客主题
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

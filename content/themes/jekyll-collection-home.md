@@ -9,6 +9,7 @@ description: Layout that lists named collection when compiled to HTML
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Material theme based on Materialize.css for jekyll sites
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

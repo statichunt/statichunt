@@ -9,6 +9,7 @@ description: A health dashboard for users to enhance their lifestyle
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

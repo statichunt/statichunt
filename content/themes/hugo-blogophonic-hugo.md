@@ -9,6 +9,7 @@ description: Blogophonic – a Hugo blog theme by Formspree
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

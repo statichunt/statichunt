@@ -10,6 +10,7 @@ description: jekyll-minimal-theme的中文简体化，一款极简(风格)的 je
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

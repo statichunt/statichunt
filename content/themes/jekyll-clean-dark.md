@@ -9,6 +9,7 @@ description: Dark clean theme for jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

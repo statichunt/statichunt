@@ -9,6 +9,7 @@ description: Example Next.js app that uses Molasses
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

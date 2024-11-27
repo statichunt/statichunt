@@ -9,6 +9,7 @@ description: 一款综合了 ivy-hugo-theme 和 cupper-hugo-theme 特点的简�
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

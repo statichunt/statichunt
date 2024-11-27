@@ -9,6 +9,7 @@ description: A full screen dashboard with clock, weather and other widgets.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

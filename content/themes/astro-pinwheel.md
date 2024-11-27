@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -24,7 +25,6 @@ update_date: '2024-04-03T05:30:57Z'
 github_star: 164
 github_fork: 126
 ---
-
 ## Key Features
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

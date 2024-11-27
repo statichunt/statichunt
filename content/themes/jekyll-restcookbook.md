@@ -9,6 +9,7 @@ description: Jekyll cms site for restcookbook.com
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

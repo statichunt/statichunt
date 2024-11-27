@@ -9,6 +9,7 @@ description: 🧅 theOnion Gatsby Starter Theme for your next awesome product!
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

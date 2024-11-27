@@ -9,6 +9,7 @@ description: A pure and elegant theme for Hexo.
 ssg:
   - Hexo
 css: []
+ui: []
 cms:
   - Markdown
 category: []

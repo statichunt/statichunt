@@ -9,6 +9,7 @@ description: A jekyll template for courses
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

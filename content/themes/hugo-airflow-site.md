@@ -9,6 +9,7 @@ description: Apache Airflow Website
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

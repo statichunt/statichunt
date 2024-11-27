@@ -11,7 +11,8 @@ description: >-
   GitHub.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Datocms

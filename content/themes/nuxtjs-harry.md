@@ -6,19 +6,19 @@ demo: https://harry-nuxt.vercel.app/
 author: Theme_Pure
 author_link: https://themeforest.net/user/theme_pure
 date: 2023-04-13T00:00:00.000Z
-description: Harry – Creative Agency & Portfolio Template is a clean and modern Vue Nuxt 3 , Bootstrap Creative Portfolio Template.
+description: >-
+  Harry – Creative Agency & Portfolio Template is a clean and modern Vue Nuxt 3
+  , Bootstrap Creative Portfolio Template.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Portfolio
-
 draft: false
 ---
-
 ## Key Features
 
 - Vue JS 3

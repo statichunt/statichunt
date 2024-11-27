@@ -9,6 +9,7 @@ description: Papyrus Jekyll Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

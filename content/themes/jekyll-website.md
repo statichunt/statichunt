@@ -9,6 +9,7 @@ description: My Jekyll website
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

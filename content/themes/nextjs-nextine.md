@@ -9,6 +9,7 @@ description: Admin Dashboard made with NextJS, Mantine and NextAuth
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

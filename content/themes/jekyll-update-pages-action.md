@@ -9,6 +9,7 @@ description: Update multiple gh-pages without generating new commit
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

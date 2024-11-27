@@ -9,6 +9,7 @@ description: A Jamstack kit for Contentful, Hugo and Netlify.
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Contentful
 category: []

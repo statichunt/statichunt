@@ -6,20 +6,23 @@ demo: https://demo.gethugothemes.com/bexer/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2022-12-17T00:00:00.000Z
-description: Bexer is a sleek and contemporary Hugo business theme to create the perfect website for any service. You will get Home, About, service, blog, and contact pages in this excellent theme.
+description: >-
+  Bexer is a sleek and contemporary Hugo business theme to create the perfect
+  website for any service. You will get Home, About, service, blog, and contact
+  pages in this excellent theme.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Business
 draft: false
-weight: 7 
+weight: 7
 home_weight: 18
 ---
-
 ## Key Features
 
 - Page Speed (90/100)

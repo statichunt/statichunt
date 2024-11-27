@@ -9,6 +9,7 @@ description: Cobalt is a simple, minimalistic Jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

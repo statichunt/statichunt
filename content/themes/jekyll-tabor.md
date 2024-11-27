@@ -9,6 +9,7 @@ description: Port of Tabor WordPress theme to Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

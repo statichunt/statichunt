@@ -9,6 +9,7 @@ description: Share private posts with Hugo. Theme based on Papermod
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

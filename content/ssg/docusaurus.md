@@ -22,5 +22,4 @@ themes_draft: true
 examples_draft: true
 draft: true
 ---
-
 Build optimized websites quickly, focus on your content. Simply write docs and blog posts with Markdown/MDX and Docusaurus will publish a set of static HTML files ready to serve.

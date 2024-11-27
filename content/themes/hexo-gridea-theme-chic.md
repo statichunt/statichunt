@@ -9,6 +9,7 @@ description: 这个主题出自Hexo中的-Chic....我移植到了Gridea，喜欢
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category:
   - Blog

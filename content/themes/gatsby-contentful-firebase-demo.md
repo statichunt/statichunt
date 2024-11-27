@@ -11,6 +11,7 @@ description: >-
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

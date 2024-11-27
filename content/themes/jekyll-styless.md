@@ -9,6 +9,7 @@ description: A modern, highly customizable, and unstyled Jekyll theme with dark 
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

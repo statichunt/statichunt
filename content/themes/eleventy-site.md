@@ -9,6 +9,7 @@ description: Simple eleventy starter site
 ssg:
   - Eleventy
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Our technology blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

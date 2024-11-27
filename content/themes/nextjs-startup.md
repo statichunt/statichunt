@@ -13,6 +13,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Business
@@ -23,7 +24,6 @@ update_date: '2024-03-11T05:55:07Z'
 github_star: 1205
 github_fork: 369
 ---
-
 ## Key Features
 
 - Crafted for Startup and SaaS Business

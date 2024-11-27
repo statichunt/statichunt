@@ -9,6 +9,7 @@ description: A Gatsby starter with powerful built-in accessibility tools.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

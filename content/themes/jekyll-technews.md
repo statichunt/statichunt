@@ -13,6 +13,7 @@ ssg:
 css:
   - Bootstrap
   - SCSS
+ui: []
 cms: []
 category:
   - Blog

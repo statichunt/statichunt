@@ -9,6 +9,7 @@ description: ':blue_book: Knowledge base template for Jekyll'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

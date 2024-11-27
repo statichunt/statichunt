@@ -9,6 +9,7 @@ description: A clean and responsive jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

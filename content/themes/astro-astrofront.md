@@ -5,11 +5,16 @@ demo: https://astrofront.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-11-24T00:00:00.000Z
-description: A free, ready-to-use Astro template built with Tailwind CSS and TypeScript. Optimized for Shopify, it leverages the Shopify Storefront API through GraphQL. This template provides all the essential tools to quickly start your Astro project.
+description: >-
+  A free, ready-to-use Astro template built with Tailwind CSS and TypeScript.
+  Optimized for Shopify, it leverages the Shopify Storefront API through
+  GraphQL. This template provides all the essential tools to quickly start your
+  Astro project.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -17,13 +22,11 @@ category:
 draft: false
 publish_date: '2024-11-24T05:16:34Z'
 update_date: '2024-11-24T03:02:50Z'
-github_star: 
-github_fork: 
+github_star: null
+github_fork: null
 weight: 24
 ---
-
-
-## Key Features:
+## Key Features
 
 - 10+ Pre-designed Pages
 - Dynamic Products from Shopify Storefront API

@@ -9,6 +9,7 @@ description: Build a Blog from Scratch with Eleventy
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -8,7 +8,8 @@ date: 2023-11-26T11:04:35.048Z
 description: A lil docs template for lil projects.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms:
   - Markdown

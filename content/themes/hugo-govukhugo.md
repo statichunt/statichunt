@@ -9,6 +9,7 @@ description: GOV.UK style theme for Hugo site builder
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

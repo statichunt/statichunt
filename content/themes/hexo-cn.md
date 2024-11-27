@@ -15,6 +15,7 @@ ssg:
 css:
   - SCSS
   - Stylus
+ui: []
 cms:
   - Markdown
 category: []

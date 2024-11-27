@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: true
 draft: false
 ---
-
 Hexo is a fast, simple, and powerful static site generator. They provide a quick and easy way to customize the look and feel of a website without having to build everything from scratch. With a wide range of styles and features, Hexo themes allow users to create a unique and professional website with ease.

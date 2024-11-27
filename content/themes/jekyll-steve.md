@@ -9,6 +9,7 @@ description: A charming and fun blog theme for Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

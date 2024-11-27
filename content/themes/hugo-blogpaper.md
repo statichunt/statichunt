@@ -9,6 +9,7 @@ description: A graphical newspaper like blog theme for Hugo.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

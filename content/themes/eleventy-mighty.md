@@ -9,6 +9,7 @@ description: Mighty is a simple Eleventy starter
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

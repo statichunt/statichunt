@@ -9,6 +9,7 @@ description: Business theme for Hugo using CloudCannon CMS
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Business

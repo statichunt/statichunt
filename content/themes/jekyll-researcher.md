@@ -9,6 +9,7 @@ description: A jekyll based resume template
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: Template for a minimum viable API developer portal, based in Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

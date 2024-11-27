@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - PostCSS
+ui: []
 cms: []
 category:
   - Dashboard

@@ -9,6 +9,7 @@ description: A minimal hugo theme focus for blogging made with bootstrap
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

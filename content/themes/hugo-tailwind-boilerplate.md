@@ -10,6 +10,7 @@ ssg:
   - Hugo
 css:
   - Tailwind
+ui: []
 cms: []
 category:
   - Boilerplate

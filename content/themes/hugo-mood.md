@@ -9,6 +9,7 @@ description: A lightweight, JavaScript-free Hugo theme for moodboarding.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

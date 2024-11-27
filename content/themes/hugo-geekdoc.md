@@ -10,6 +10,7 @@ ssg:
   - Hugo
 css:
   - SCSS
+ui: []
 cms:
   - Markdown
 category:

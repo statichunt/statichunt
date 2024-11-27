@@ -6,18 +6,20 @@ demo: https://bunzo-react.pages.dev/
 author: EnvyTheme
 author_link: https://envytheme.com/
 date: 2022-12-22T00:00:00.000Z
-description: Spet is a responsive clean React GatsbyJS with Strapi template for IT, Business & Digital Startup Company website.
+description: >-
+  Spet is a responsive clean React GatsbyJS with Strapi template for IT,
+  Business & Digital Startup Company website.
 ssg:
   - Gatsby
 css:
   - Bootstrap
+ui: []
 cms:
   - Strapi
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - For IT, Business, and Digital Startup Agency & Company website

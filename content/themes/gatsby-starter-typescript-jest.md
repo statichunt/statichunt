@@ -9,6 +9,7 @@ description: The default Gatsby starter with Typescript and Jest
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

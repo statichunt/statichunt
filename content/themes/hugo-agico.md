@@ -6,20 +6,22 @@ demo: https://demo.gethugothemes.com/agico/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2022-12-17T00:00:00.000Z
-description: Agico is a modern Multipurpose Landing Page Template. This premium Hugo theme is a Bootstrap framework-based landing page with neat and clean coding.
+description: >-
+  Agico is a modern Multipurpose Landing Page Template. This premium Hugo theme
+  is a Bootstrap framework-based landing page with neat and clean coding.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Business
 draft: false
-weight: 
-home_weight: 
+weight: null
+home_weight: null
 ---
-
 ## Key Features
 
 - Bootstrap Based

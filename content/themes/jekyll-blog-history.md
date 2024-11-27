@@ -9,6 +9,7 @@ description: Jekyll (w/Minima) repo for my Internet History blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

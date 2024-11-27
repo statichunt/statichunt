@@ -9,6 +9,7 @@ description: Ephesus is a minimalist Jekyll theme, designed for personal blog us
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

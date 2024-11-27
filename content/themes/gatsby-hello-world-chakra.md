@@ -8,7 +8,8 @@ date: 2023-11-30T11:59:02.925Z
 description: A boilerplate with clean Gatsby project and Chakra-UI component
 ssg:
   - Gatsby
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

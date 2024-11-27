@@ -9,6 +9,7 @@ description: A Gatsby theme for serial programmers (-.-)
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

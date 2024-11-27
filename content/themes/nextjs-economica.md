@@ -9,6 +9,7 @@ description: The Best New Discord Economy Bot
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

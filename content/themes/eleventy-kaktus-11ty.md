@@ -9,6 +9,7 @@ description: 11ty theme for personal micro-blog
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

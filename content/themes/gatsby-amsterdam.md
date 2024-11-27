@@ -10,7 +10,8 @@ ssg:
   - Gatsby
 cms:
   - Decap
-css: null
+css: []
+ui: []
 category: null
 description: A Gatsby theme for artists, photographers and other creative folks.
 draft: false

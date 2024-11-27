@@ -8,7 +8,8 @@ date: 2024-02-19T04:08:23.258Z
 description: Compare GitHub changelogs across multiple releases in a single view.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

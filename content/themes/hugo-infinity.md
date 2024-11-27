@@ -11,6 +11,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Portfolio
 date: 2018-07-04T11:01:47.000Z
@@ -21,7 +22,6 @@ update_date: '2023-06-21T07:41:50Z'
 github_star: 40
 github_fork: 50
 ---
-
 ## Key Features
 
 - Onepage template

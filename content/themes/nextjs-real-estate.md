@@ -8,7 +8,8 @@ date: 2024-02-18T08:15:40.691Z
 description: NextJS application showcasing a template real estate platform
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

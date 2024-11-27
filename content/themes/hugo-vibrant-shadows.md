@@ -14,6 +14,7 @@ css:
   - Bootstrap
   - SCSS
   - PostCSS
+ui: []
 cms:
   - Markdown
 category:
@@ -24,7 +25,6 @@ update_date: '2023-12-10T20:31:22Z'
 github_star: 13
 github_fork: 7
 ---
-
 ## Features
 
 * Pagination

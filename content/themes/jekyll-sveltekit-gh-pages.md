@@ -9,6 +9,7 @@ description: Minimal SvelteKit set-up made deployable to GitHub Pages.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Resume/CV page - Gatsby starter which uses Prismic as a headless CM
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

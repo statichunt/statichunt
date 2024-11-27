@@ -9,6 +9,7 @@ description: 一款jekyll主题，简洁纯净，支持自适应，支持夜间�
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

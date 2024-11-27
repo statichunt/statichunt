@@ -9,6 +9,7 @@ description: An Jekyll theme called 'Mewpassant'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

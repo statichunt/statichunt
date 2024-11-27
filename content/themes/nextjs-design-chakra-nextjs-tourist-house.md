@@ -8,7 +8,8 @@ date: 2024-02-18T05:43:24.582Z
 description: NextJS Tourist House Design - Open-Source Project | AppSeed
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

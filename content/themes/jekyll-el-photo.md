@@ -9,6 +9,7 @@ description: A jekyll powered photography website.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

@@ -9,6 +9,7 @@ description: Quickly create, mint and transfer Solana tokens from your browser
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

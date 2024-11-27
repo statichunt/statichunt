@@ -9,6 +9,7 @@ description: A blog theme for the Jekyll static site generator
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

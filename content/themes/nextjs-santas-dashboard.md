@@ -9,6 +9,7 @@ description: Dashboard for Santa. Created by responses from Chat GPT
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

@@ -9,6 +9,7 @@ description: Portfolio website template for Pod 3.1.3, Practically Pi!
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

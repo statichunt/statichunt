@@ -9,6 +9,7 @@ description: Live Demo
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -9,6 +9,7 @@ description: Next.js + Ruby on Rails API
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

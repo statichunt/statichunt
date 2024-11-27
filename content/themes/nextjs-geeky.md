@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -20,7 +21,6 @@ update_date: '2023-07-05T03:07:09Z'
 github_star: 215
 github_fork: 240
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100 (Desktop)

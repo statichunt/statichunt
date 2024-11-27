@@ -9,6 +9,7 @@ description: A Jekyll theme for taking note (based on matjek theme)
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Gatsby contributing test site
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

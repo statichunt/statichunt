@@ -9,6 +9,7 @@ description: GatsbyJS 3 pet-project with Strapi API
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

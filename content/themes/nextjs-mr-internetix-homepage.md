@@ -8,7 +8,8 @@ date: 2024-02-19T03:21:10.156Z
 description: Mr-Internetix's portfolio website using Next Js
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: Serverless monorepo stack powering all Purple Apps and your apps
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

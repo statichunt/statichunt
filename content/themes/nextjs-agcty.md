@@ -12,6 +12,7 @@ css:
   - Tailwind
   - SCSS
   - PostCSS
+ui: []
 cms:
   - Sanity
 category:

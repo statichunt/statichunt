@@ -10,6 +10,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Saas
@@ -19,7 +20,6 @@ update_date: '2024-04-20T01:42:30Z'
 github_star: 534
 github_fork: 196
 ---
-
 ## Key Features
 
 - Tailwind CSS for styling

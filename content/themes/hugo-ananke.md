@@ -9,6 +9,7 @@ description: 'Ananke: A theme for Hugo Sites'
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

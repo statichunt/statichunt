@@ -8,7 +8,8 @@ date: 2023-11-29T09:17:18.328Z
 description: Build NextJS Blog with Charaka UI and Notion
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

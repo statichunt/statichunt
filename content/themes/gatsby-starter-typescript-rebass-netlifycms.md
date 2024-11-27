@@ -9,6 +9,7 @@ description: My default Gatsby setup. Includes rich MDX support.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -9,6 +9,7 @@ description: Templates for rendering JSON feeds for your Jekyll blog
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

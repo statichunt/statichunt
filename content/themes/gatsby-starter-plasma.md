@@ -9,6 +9,7 @@ description: A modern and clean starter to get up and developing quickly with Ga
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

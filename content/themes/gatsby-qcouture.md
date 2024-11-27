@@ -9,6 +9,7 @@ description: Repo for qcouture.netlify.app
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

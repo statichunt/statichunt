@@ -6,20 +6,20 @@ demo: https://html.plurk.sbthemes.com/
 author: Sbthemes
 author_link: https://sbthemes.com/
 date: 2023-02-13T00:00:00.000Z
-description: Plurk – Tailwind CSS Multipurpose Landing Templates is a powerful multipurpose landing templates based on Tailwind CSS framework.
+description: >-
+  Plurk – Tailwind CSS Multipurpose Landing Templates is a powerful multipurpose
+  landing templates based on Tailwind CSS framework.
 ssg:
   - Nuxtjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
   - Portfolio
-
 draft: false
 ---
-
 ## Key Features
 
 - Pure HTML 5, Angular 15, Vue 3, Nuxt 3, React 18, Next 13, No jQuery Dependency

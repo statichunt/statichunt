@@ -9,6 +9,7 @@ description: a jekyll powered blog theme specially designed to take notes, not j
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

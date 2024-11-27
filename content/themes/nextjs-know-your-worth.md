@@ -10,7 +10,8 @@ description: >-
   hard to know how the Web3 industry compares against these trends
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

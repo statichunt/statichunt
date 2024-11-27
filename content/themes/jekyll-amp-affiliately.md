@@ -9,6 +9,7 @@ description: An AMP-Ready Jekyll Blog Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

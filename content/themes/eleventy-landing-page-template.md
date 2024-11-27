@@ -9,6 +9,7 @@ description: Plantilla para Landing Page en Eleventy
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

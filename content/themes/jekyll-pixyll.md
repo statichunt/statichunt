@@ -9,6 +9,7 @@ description: A simple, beautiful Jekyll theme that's mobile first
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

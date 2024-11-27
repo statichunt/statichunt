@@ -13,6 +13,7 @@ description: >-
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

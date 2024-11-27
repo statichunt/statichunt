@@ -9,6 +9,7 @@ description: This repo has moved to better place - the_minimum theme for jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A minimalist blog template for eleventy with Netlify CMS built in
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -13,6 +13,7 @@ ssg:
   - Astro
 css:
   - SCSS
+ui: []
 cms: []
 category: []
 draft: false

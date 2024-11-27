@@ -9,6 +9,7 @@ description: Use Hugo to build a presentation, powered by RevealJS
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

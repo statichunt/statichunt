@@ -9,6 +9,7 @@ description: smooth-doc in Nextjs implementation
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Markdown
 category:

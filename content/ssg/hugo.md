@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
-
 Hugo is a popular static site generator written in Go. It's simple to use and easy to learn, making it a popular choice for developers who want to build a website without having to learn complex coding languages. Hugo is open source and free to use.

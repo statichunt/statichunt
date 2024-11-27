@@ -9,6 +9,7 @@ description: Yet another minimal hugo theme, built-in styles are modified upon a
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

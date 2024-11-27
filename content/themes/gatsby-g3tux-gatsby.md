@@ -9,6 +9,7 @@ description: my simple gatsby.js theme for personal blog & portfolio (WIP)
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

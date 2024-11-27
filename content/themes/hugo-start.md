@@ -9,6 +9,7 @@ description: Hugo theme for building your own start page.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

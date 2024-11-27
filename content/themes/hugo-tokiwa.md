@@ -11,6 +11,7 @@ ssg:
 css:
   - Tailwind
   - SCSS
+ui: []
 cms: []
 category: []
 draft: false

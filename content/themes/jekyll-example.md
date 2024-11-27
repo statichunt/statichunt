@@ -9,6 +9,7 @@ description: Example Jekyll site with basic defaults and Sass enabled.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

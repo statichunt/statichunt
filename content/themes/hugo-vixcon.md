@@ -11,6 +11,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +19,6 @@ category:
 draft: false
 weight: 21
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 97/100 (Desktop)

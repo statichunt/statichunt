@@ -6,22 +6,26 @@ demo: https://glasto-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-09-16T00:00:00.000Z
-description: Glasto Astro theme is crafted specifically for SaaS and startup businesses. Powered by the Astro framework and styled with Tailwind CSS, it offers a sleek, minimalist design that ensures an intuitive user experience from the very first interaction. Glasto Astro’s modern layout and fast-loading performance make it the perfect solution for high-conversion websites.
+description: >-
+  Glasto Astro theme is crafted specifically for SaaS and startup businesses.
+  Powered by the Astro framework and styled with Tailwind CSS, it offers a
+  sleek, minimalist design that ensures an intuitive user experience from the
+  very first interaction. Glasto Astro’s modern layout and fast-loading
+  performance make it the perfect solution for high-conversion websites.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Business
   - Saas
 draft: false
-weight: 
+weight: null
 home_weight: 27
-
 ---
-
 ## Key Features
 
 - 15 Complete SaaS Pages

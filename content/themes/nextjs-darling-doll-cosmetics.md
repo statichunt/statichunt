@@ -9,6 +9,7 @@ description: A full stack ecommerce solo project for Darling Doll Cosmetics
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

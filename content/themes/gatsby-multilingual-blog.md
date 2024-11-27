@@ -9,6 +9,7 @@ description: Multilingual blog starter
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

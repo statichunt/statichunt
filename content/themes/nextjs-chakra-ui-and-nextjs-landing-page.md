@@ -8,7 +8,8 @@ date: 2024-02-18T11:07:04.929Z
 description: A template for creating a Next.js and Chakra UI landing page.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

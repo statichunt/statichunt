@@ -9,6 +9,7 @@ description: Personal resume powered by Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

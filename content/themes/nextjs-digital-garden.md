@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - others
@@ -19,7 +20,6 @@ update_date: '2024-01-22T18:14:55Z'
 github_star: 261
 github_fork: 26
 ---
-
 ## Key Features
 
 - Basic functionality of reading pages and posts

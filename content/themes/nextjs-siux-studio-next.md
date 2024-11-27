@@ -9,6 +9,7 @@ description: SIUX Studio + Next.js integration.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

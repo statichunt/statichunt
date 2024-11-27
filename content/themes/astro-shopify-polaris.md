@@ -9,6 +9,7 @@ description: Astro template for Shopify's Polaris Design System
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

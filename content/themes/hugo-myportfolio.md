@@ -9,6 +9,7 @@ description: Adaptation of the HUGO Creative Theme to support several portfolios
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

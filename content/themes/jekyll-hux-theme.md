@@ -9,6 +9,7 @@ description: Jekyll Hux Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

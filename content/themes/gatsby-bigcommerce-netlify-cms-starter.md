@@ -13,6 +13,7 @@ ssg:
 css:
   - Bulma
   - SCSS
+ui: []
 cms: []
 category:
   - Ecommerce

@@ -9,6 +9,7 @@ description: The website made for the Coinz Discord bot
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

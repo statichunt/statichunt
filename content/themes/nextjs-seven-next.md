@@ -9,6 +9,7 @@ description: nextjs template using seven free template
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

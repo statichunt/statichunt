@@ -6,18 +6,19 @@ demo: https://linoor-nuxt.netlify.app/
 author: Layerdrops
 author_link: https://themeforest.net/user/layerdrops
 date: 2023-02-18T00:00:00.000Z
-description: Linoor is a multipurpose and powerful Digital Services Agency Vue Nuxt Template.
+description: >-
+  Linoor is a multipurpose and powerful Digital Services Agency Vue Nuxt
+  Template.
 ssg:
   - Nuxtjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Includes 3 Home versions

@@ -12,6 +12,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -22,8 +23,7 @@ update_date: '2023-09-08T00:57:13Z'
 github_star: 5
 github_fork: 2
 ---
-
-## Key Features :
+## Key Features
 
 - Full-featured blog with frontmatter (title, description, author, date, image, tags)
 - Tags index page and individual tag pages

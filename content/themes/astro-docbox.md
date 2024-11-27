@@ -6,11 +6,15 @@ demo: https://docbox-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-11-22T00:00:00.000Z
-description: Docbox is a modern documentation theme built with Astro, a blazing-fast and SEO-friendly framework, and TailwindCSS, a utility-first CSS framework that gives you complete control over your styling.
+description: >-
+  Docbox is a modern documentation theme built with Astro, a blazing-fast and
+  SEO-friendly framework, and TailwindCSS, a utility-first CSS framework that
+  gives you complete control over your styling.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -18,7 +22,6 @@ category:
 draft: false
 weight: 8
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100! (Desktop)

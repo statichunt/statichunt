@@ -9,6 +9,7 @@ description: Webapp to display collection of photographs
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

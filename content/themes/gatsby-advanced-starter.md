@@ -9,6 +9,7 @@ description: gatsby-advanced-starter for creating blog
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

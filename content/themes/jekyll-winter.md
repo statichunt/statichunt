@@ -9,6 +9,7 @@ description: Winter is a Jekyll theme built for documentation.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Business
@@ -21,7 +22,6 @@ update_date: '2023-07-10T05:02:00Z'
 github_star: 9
 github_fork: 15
 ---
-
 ## Key Features
 
 - Responsive design that adapts to different screen sizes.

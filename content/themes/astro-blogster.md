@@ -9,6 +9,7 @@ description: A collection of beautiful, accessible and performant Astro blog tem
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category:
   - Blog

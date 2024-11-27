@@ -9,6 +9,7 @@ description: A readable & concise theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: The Next Website Builder for High-Performance Marketing
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

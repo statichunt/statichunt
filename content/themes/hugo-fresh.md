@@ -9,6 +9,7 @@ description: Hugo Fresh Theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

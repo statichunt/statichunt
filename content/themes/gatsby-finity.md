@@ -6,19 +6,20 @@ demo: https://finity-gatsby.netlify.app/
 author: Grayic
 author_link: https://themeforest.net/user/grayic
 date: 2023-01-01T00:00:00.000Z
-description: Finity React Gatsby Landing Page, built with React, Gatsby JS. NO jQuery included or used in Finity.
+description: >-
+  Finity React Gatsby Landing Page, built with React, Gatsby JS. NO jQuery
+  included or used in Finity.
 ssg:
   - Gatsby
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
-
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - The easiest and fastest way to create a React app with server-side rendering.

@@ -9,6 +9,7 @@ description: Web3 Shopping Cart in BSC
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

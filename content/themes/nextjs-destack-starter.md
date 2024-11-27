@@ -9,6 +9,7 @@ description: Starter template for Destack - the visual page builder for Next.js.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

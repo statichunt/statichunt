@@ -9,6 +9,7 @@ description: A markdown driven, single page CV for developers.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

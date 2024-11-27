@@ -10,7 +10,8 @@ description: >-
   Wetherspoons pub
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: A Hugo theme created by ertuil.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

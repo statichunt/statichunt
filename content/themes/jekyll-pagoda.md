@@ -9,6 +9,7 @@ description: 'Zen-like blogging interface for Jekyll (login: admin/admin)'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

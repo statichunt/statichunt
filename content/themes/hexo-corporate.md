@@ -9,6 +9,7 @@ description: A professional Hexo theme based on Metronic's 'Corporate Frontend' 
 ssg:
   - Hexo
 css: []
+ui: []
 cms:
   - Markdown
 category:

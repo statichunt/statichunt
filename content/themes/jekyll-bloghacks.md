@@ -9,6 +9,7 @@ description: Jekyll demo blog for '256 Bloghacks' book
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

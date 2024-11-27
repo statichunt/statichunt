@@ -10,7 +10,8 @@ description: >-
   jugar un juego donde tendrás que derrotar al Jefe del contrato.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

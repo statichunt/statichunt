@@ -13,8 +13,9 @@ ssg:
 css:
   - Tailwind
   - Bootstrap
-  - Chakra
   - PostCSS
+ui:
+  - Chakra
 cms: []
 category:
   - Ecommerce

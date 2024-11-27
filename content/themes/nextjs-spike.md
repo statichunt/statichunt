@@ -6,27 +6,26 @@ demo: https://spike-nextjs-pro-main.vercel.app/
 author: WrapPixel
 author_link: https://www.wrappixel.com/
 date: 2023-02-13T00:00:00.000Z
-description: Spike Next.Js Admin Dashboard is a pre-built, ready-to-use, highly customizable and developer friendly admin template.
-
+description: >-
+  Spike Next.Js Admin Dashboard is a pre-built, ready-to-use, highly
+  customizable and developer friendly admin template.
 ssg:
   - Nextjs
-css:
-  - MUI
-cms:
-
+css: []
+ui:
+  - Material
+cms: null
 category:
   - Saas
   - Dashboard
 draft: false
-weight: 
+weight: null
 home_weight: 30
-
 ---
-
 ## Key Features
 
 - RTL Dashboard version
-- Mui & Typescript & NextJs
+- Material & Typescript & NextJs
 - 5 unique demos
 - Figma Files for most of Pages
 - 2+ unique dashboards

@@ -9,6 +9,7 @@ description: ':droplet: API Documentation template for Jekyll'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Documentation

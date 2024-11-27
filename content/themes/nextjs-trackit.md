@@ -10,7 +10,8 @@ description: >-
   Check out the demo below, feel free to play around✔
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

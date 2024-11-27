@@ -9,6 +9,7 @@ description: A clean theme inspired from hugo-paper.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

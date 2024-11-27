@@ -10,7 +10,8 @@ description: >-
   https://www.youtube.com/watch?v=fiqdtIQzIVo
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

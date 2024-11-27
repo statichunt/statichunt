@@ -9,6 +9,7 @@ description: Sicily Hugo Theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

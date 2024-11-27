@@ -10,6 +10,7 @@ ssg:
   - Hugo
 css:
   - SCSS
+ui: []
 category:
   - Blog
 draft: false
@@ -18,8 +19,7 @@ update_date: '2024-10-16T16:50:33Z'
 github_star: 658
 github_fork: 360
 ---
-
-## Key Features :
+## Key Features
 
 - Dark mode
 - Multilingual

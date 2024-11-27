@@ -9,6 +9,7 @@ description: An extensible and Jekyll-compatible PHP static website generator
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

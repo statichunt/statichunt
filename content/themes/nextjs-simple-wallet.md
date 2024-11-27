@@ -10,7 +10,8 @@ description: >-
   Ethers and ChakraUI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

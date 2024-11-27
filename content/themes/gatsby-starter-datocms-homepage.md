@@ -9,6 +9,7 @@ description: ''
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Datocms
 category: []

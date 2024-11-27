@@ -6,18 +6,21 @@ demo: https://maxdi.vercel.app/
 author: Alimasha
 author_link: https://themeforest.net/user/alimasha
 date: 2023-01-03T00:00:00.000Z
-description: Maxdi is a modern Responsive Multi-Purpose Multi-Page React, Nextjs template for startup digital agencies, corporate businesses, and SEO agencies that offers design, development, business consulting and online marketing services to its client.
+description: >-
+  Maxdi is a modern Responsive Multi-Purpose Multi-Page React, Nextjs template
+  for startup digital agencies, corporate businesses, and SEO agencies that
+  offers design, development, business consulting and online marketing services
+  to its client.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Based on React Bootstrap

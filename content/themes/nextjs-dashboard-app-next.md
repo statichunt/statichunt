@@ -9,6 +9,7 @@ description: Sample dashboard web application using static json data. Built with
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

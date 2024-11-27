@@ -9,6 +9,7 @@ description: The zen theme for Hugo demo site.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

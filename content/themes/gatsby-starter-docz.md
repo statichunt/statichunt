@@ -9,6 +9,7 @@ description: Gatsby starter with Docz and a blog for your documentation
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

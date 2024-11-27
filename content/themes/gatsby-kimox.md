@@ -6,18 +6,20 @@ demo: https://gatsby-kimox.vercel.app/
 author: BDevs
 author_link: https://themeforest.net/user/bdevs
 date: 2023-04-15T00:00:00.000Z
-description: The template is highly suitable template for companies that offer web design, web development, internet services, digital marketing, SEO services and all other internet marketing and services related agencies and businesses.
+description: >-
+  The template is highly suitable template for companies that offer web design,
+  web development, internet services, digital marketing, SEO services and all
+  other internet marketing and services related agencies and businesses.
 ssg:
   - Gatsby
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Based on Bootstrap 5.x

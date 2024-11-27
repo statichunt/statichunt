@@ -9,6 +9,7 @@ description: A Gatsby Theme for WooCommerce E-commerce site Gatsby WooCommerce W
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

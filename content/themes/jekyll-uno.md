@@ -9,6 +9,7 @@ description: Jekyll-Uno - a minimal, responsive theme for Jekyll based on Uno fo
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Ghost
 category: []

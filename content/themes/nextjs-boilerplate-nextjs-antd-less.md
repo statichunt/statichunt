@@ -9,6 +9,7 @@ description: A boilerplate for Reactjs app using nextjs, redux, antd, less
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

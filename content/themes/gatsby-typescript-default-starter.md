@@ -9,6 +9,7 @@ description: The default stater gatsby starter with typescript & latest package
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

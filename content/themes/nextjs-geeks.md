@@ -1,34 +1,30 @@
 ---
-title: Geeks-NextJs-LMS-Courses-Theme # only for free theme
-price: 49 # only for premium theme
+title: Geeks-NextJs-LMS-Courses-Theme
+price: 49
 demo: https://geeks-nextjs.vercel.app/marketing/landings/home-academy
 download: https://themes.getbootstrap.com/product/geeks-admin-dashboard-template-react/
-author: Codescandy # author name
-author_link: https://codescandy.com/ # if any
-date: 2023-08-19T00:00:00.000Z # submit date
-description: Geeks Nextjs LMS courses theme built for school, online courses, education, and courses creator, with an admin dashboard also. 
-ssg: # ssg name
+author: Codescandy
+author_link: https://codescandy.com/
+date: 2023-08-19T00:00:00.000Z
+description: >-
+  Geeks Nextjs LMS courses theme built for school, online courses, education,
+  and courses creator, with an admin dashboard also.
+ssg:
   - Nextjs
-
-css: # css name
+css:
   - Bootstrap
   - SCSS
-
-
-cms: # you can choose multiple if applicable
-
-
-category: # you can choose multiple if applicable
+ui: []
+cms: null
+category:
   - Business
   - Blog
   - Documentation
   - Ecommerce
   - Saas
   - Dashboard
-
 draft: false
 ---
-
 ## Geeks NextJs LMS Courses Theme Features
 
 - 160+ Components

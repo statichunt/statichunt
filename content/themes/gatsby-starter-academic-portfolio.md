@@ -9,6 +9,7 @@ description: A Simple Portfolio Suitable for Professors and Grad Students
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

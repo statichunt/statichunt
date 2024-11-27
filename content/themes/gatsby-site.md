@@ -9,6 +9,7 @@ description: This is a Portfolio site created using Gatsby.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -9,6 +9,7 @@ description: JavaScript Mastery Portfolio Next js Model
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

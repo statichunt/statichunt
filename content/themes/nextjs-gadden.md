@@ -6,18 +6,20 @@ demo: https://gadden-react.vercel.app/index
 author: Webtend
 author_link: https://webtend.net/
 date: 2023-04-11T00:00:00.000Z
-description: Gadden is a modern Garden & Landscaping React NextJs Template designed for Landscaping, Gardening, Groundskeeping, Lawn Services, Florists, Flower Shops, and companies that offer related services.
+description: >-
+  Gadden is a modern Garden & Landscaping React NextJs Template designed for
+  Landscaping, Gardening, Groundskeeping, Lawn Services, Florists, Flower Shops,
+  and companies that offer related services.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - 03 Unique Homepage Version

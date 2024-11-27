@@ -9,6 +9,7 @@ description: Generate GitBook style modern docs/tutorial websites using Gatsby +
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

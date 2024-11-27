@@ -11,6 +11,7 @@ ssg:
   - Hugo
 css:
   - PostCSS
+ui: []
 cms:
   - Markdown
 category:

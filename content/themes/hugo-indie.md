@@ -9,6 +9,7 @@ description: The Indie Academy hugo theme.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

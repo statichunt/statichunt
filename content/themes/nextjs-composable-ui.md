@@ -11,7 +11,8 @@ description: >-
   best practices.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

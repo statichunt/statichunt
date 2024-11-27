@@ -6,18 +6,19 @@ demo: https://gbay-react.envytheme.com/index-digital-marketing/
 author: envytheme
 author_link: https://envytheme.com/
 date: 2023-05-09T00:00:00.000Z
-description: Gbay is a New Modern Responsive React Next template. This is built with ReactJS, NextJS, Bootstrap, and Sass.
+description: >-
+  Gbay is a New Modern Responsive React Next template. This is built with
+  ReactJS, NextJS, Bootstrap, and Sass.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - React 17+ and Next.js 12+

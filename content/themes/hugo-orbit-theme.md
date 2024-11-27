@@ -9,6 +9,7 @@ description: Great looking resume/CV theme designed for developers.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: e-commerce website for 'by maruja'
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Sanity
 category:

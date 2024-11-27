@@ -10,7 +10,8 @@ description: >-
   art marketplace.
 ssg:
   - Nextjs
-css: null
+css: []
+ui: []
 cms:
   - Cosmic CMS
 category:

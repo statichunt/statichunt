@@ -12,6 +12,7 @@ ssg:
   - Hugo
 css:
   - Tailwind
+ui: []
 category:
   - others
 draft: false

@@ -7,6 +7,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 category:
   - Ecommerce
 date: 2021-08-29T16:14:21.000Z
@@ -19,8 +20,7 @@ update_date: '2023-06-21T07:15:34Z'
 github_star: 97
 github_fork: 82
 ---
-
-## Key Features :
+## Key Features
 
 - Google analytics support
 - Onepage template

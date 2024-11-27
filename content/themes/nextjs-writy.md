@@ -8,7 +8,8 @@ date: 2024-02-18T10:23:53.565Z
 description: Generate beautiful HTML files without writing any code. Still in beta!
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

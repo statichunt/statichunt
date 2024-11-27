@@ -9,6 +9,7 @@ description: ':rocket: A Gatsby theme/starter to build lightning-fast blog/websi
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

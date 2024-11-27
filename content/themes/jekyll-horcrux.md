@@ -9,6 +9,7 @@ description: Generate you own online gallery easily. Photo is the horcrux of mem
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

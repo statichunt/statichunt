@@ -9,6 +9,7 @@ description: Jekyll theme for documentation built with material web components
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

@@ -1,17 +1,20 @@
 ---
 title: Agen Hugo
 download: https://gethugothemes.com/products/agen?aff=statichunt
-github:
+github: null
 price: 79
 demo: https://demo.gethugothemes.com/agen/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-12T00:00:00.000Z
-description: Agen is a responsive Hugo theme that offers bold colors and spaces. This theme is ideal for online businesses, agencies, and enterprises.
+description: >-
+  Agen is a responsive Hugo theme that offers bold colors and spaces. This theme
+  is ideal for online businesses, agencies, and enterprises.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
@@ -19,7 +22,6 @@ category:
 draft: false
 weight: 13
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 95/100 (Desktop)

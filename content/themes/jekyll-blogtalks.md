@@ -9,6 +9,7 @@ description: A static blog customized Jekyll template owned by KingFelix.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

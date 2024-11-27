@@ -9,6 +9,7 @@ description: A Tutorial to Bundle Cockpit CMS & Nuxt.js in a full JAMstack
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

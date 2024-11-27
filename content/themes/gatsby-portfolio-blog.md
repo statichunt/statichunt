@@ -9,6 +9,7 @@ description: Portfolio and blog template for Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

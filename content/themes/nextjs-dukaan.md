@@ -9,6 +9,7 @@ description: Dukaan - An E-commerce Store
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

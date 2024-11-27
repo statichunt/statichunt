@@ -9,6 +9,7 @@ description: A port of liquid template engine for python
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

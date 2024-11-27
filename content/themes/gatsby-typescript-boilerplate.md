@@ -10,6 +10,7 @@ ssg:
   - Gatsby
 css:
   - SCSS
+ui: []
 cms: []
 category:
   - Boilerplate

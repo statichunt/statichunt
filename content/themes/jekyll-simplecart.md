@@ -9,6 +9,7 @@ description: Toko Online simpleCart, checkout via Whatsapp.. Mirip Tokopedia
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

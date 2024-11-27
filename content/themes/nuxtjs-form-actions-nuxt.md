@@ -9,6 +9,7 @@ description: Nuxt Module that implements Form Actions
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

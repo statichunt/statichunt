@@ -8,7 +8,8 @@ date: 2024-02-18T12:19:05.316Z
 description: Homepage to easy access
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

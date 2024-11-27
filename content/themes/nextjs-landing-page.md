@@ -13,6 +13,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Business
@@ -22,7 +23,6 @@ update_date: '2022-02-25T10:35:20Z'
 github_star: 451
 github_fork: 247
 ---
-
 ## Key Features
 
 - Responsive design

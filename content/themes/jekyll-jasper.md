@@ -9,6 +9,7 @@ description: Full-featured Jekyll port of Ghost's default theme Casper
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Ghost
 category: []

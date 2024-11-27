@@ -9,6 +9,7 @@ description: static website use contentful CMS
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

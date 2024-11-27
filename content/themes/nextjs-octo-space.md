@@ -1,6 +1,7 @@
 ---
 title: Octo Space
-download: https://www.templatemonster.com/landing-page-template/octo-space-react-nft-project-landing-page-nextjs-tailwindcss-235681.html
+download: >-
+  https://www.templatemonster.com/landing-page-template/octo-space-react-nft-project-landing-page-nextjs-tailwindcss-235681.html
 price: 24
 demo: https://octospace.vercel.app/
 author: maskdev
@@ -11,13 +12,12 @@ ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Built with ReactJS (no jQuery)

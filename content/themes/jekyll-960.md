@@ -9,6 +9,7 @@ description: Jekyll blog template using 960.gs css framework
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

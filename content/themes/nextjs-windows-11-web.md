@@ -8,7 +8,8 @@ date: 2024-02-18T09:15:45.282Z
 description: Windows 11 clone made with Nextjs & Chakra UI
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

@@ -9,6 +9,7 @@ description: IT Solutions & Services Company Template build with Vue.js & Nuxt.j
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

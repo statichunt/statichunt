@@ -10,7 +10,8 @@ description: >-
   React-hook-form
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

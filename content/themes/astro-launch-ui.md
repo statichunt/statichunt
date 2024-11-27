@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Business
@@ -21,8 +22,7 @@ update_date: '2023-09-27T14:47:25Z'
 github_star: 72
 github_fork: 91
 ---
-
-## Key Features:
+## Key Features
 
 - 70+ fully coded elements
 - 3 fully coded example pages

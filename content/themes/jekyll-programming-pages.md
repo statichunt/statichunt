@@ -9,6 +9,7 @@ description: a jekyll theme for publishing code documentation to GitHub pages
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

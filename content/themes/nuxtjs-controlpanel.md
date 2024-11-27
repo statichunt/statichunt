@@ -10,6 +10,7 @@ ssg:
   - Nuxtjs
 css:
   - Bootstrap
+ui: []
 cms: []
 category:
   - Dashboard

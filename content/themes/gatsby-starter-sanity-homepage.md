@@ -9,6 +9,7 @@ description: Create a homepage with Gatsby and Sanity
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Sanity
 category: []

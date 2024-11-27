@@ -9,6 +9,7 @@ description: one-click template to use just-the-docs on GitHub Pages
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

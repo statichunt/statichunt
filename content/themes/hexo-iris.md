@@ -10,6 +10,7 @@ ssg:
   - Hexo
 css:
   - SCSS
+ui: []
 cms: []
 category: []
 draft: false

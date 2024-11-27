@@ -15,6 +15,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui:
   - Chakra
 cms:
   - Sanity

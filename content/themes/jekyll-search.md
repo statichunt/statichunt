@@ -9,6 +9,7 @@ description: a search interface for any user account or organization
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

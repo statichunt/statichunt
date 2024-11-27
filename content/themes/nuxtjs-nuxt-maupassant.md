@@ -9,6 +9,7 @@ description: A minimalist blog theme for Nuxt.js website
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

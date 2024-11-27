@@ -9,6 +9,7 @@ description: 'Next.js template with TypeScript :green_book:'
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

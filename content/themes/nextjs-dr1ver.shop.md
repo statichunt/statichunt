@@ -9,6 +9,7 @@ description: Full-stack e-commerce app built with Next.js, React, Redux, Strapi
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

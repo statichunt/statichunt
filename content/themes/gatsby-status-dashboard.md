@@ -9,6 +9,7 @@ description: Dashboard showing the statuses of my Netlify builds & CircleCI test
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

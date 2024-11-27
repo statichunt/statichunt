@@ -9,6 +9,7 @@ description: tRPC starter repo with E2E-testing
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

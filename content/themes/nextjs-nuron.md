@@ -6,18 +6,19 @@ demo: https://nuron-nextjs.vercel.app/
 author: Rainbow Themes
 author_link: https://themeforest.net/user/rainbow-themes
 date: 2023-01-02T00:00:00.000Z
-description: Meet Nuron, a fully-featured React Next JS template for NFT Marketplace, We just released the fully coded version in latest React Next JS.
+description: >-
+  Meet Nuron, a fully-featured React Next JS template for NFT Marketplace, We
+  just released the fully coded version in latest React Next JS.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Build with latest React/NextJS

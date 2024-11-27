@@ -9,6 +9,7 @@ description: A directory of direct links to get your personal data from web serv
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

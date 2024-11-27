@@ -9,6 +9,7 @@ description: Simple and convenient profile & project theme based on Jekyll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

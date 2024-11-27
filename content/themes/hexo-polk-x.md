@@ -9,6 +9,7 @@ description: 极简 Hexo 博客主题 polk-x
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

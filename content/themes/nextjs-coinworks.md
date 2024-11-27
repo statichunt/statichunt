@@ -10,7 +10,8 @@ description: >-
   login or registration is needed, comes with many cool features.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

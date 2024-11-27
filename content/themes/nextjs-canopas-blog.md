@@ -9,6 +9,7 @@ description: Feature-Rich blogs platform built with strapi and next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Blog

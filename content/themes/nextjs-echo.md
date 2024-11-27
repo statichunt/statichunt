@@ -9,6 +9,7 @@ description: NextJs - A dashboard Template based on Youtube. (Under Development)
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

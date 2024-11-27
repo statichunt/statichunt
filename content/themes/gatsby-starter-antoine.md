@@ -9,6 +9,7 @@ description: My opinionated Gatsby.js starter
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

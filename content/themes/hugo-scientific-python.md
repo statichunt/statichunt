@@ -9,6 +9,7 @@ description: Hugo theme based on the design for numpy.org
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

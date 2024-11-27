@@ -9,6 +9,7 @@ description: A React components library with Win95 UI
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

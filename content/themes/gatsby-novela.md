@@ -9,6 +9,7 @@ description: Welcome to Novela, the simplest way to start publishing with Gatsby
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

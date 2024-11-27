@@ -36,7 +36,6 @@ projects:
 
 
 ---
-
 ## Overview
 
 Zeon Studio is a Jamstack agency that provides website development, web application development, and UI/UX design services. We use Jamstack technology to create fast, secure, and scalable websites and web apps.

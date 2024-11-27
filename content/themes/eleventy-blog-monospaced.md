@@ -9,6 +9,7 @@ description: '[WIP] Simple is more!'
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category:

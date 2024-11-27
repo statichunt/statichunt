@@ -8,7 +8,8 @@ date: 2024-02-19T03:23:14.996Z
 description: ''
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

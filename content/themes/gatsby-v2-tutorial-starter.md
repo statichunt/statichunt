@@ -9,6 +9,7 @@ description: Gatsby V2 Starter - product of step by step tutorial
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

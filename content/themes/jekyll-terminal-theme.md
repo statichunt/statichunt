@@ -9,6 +9,7 @@ description: terminal theme for me
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

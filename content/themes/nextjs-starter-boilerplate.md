@@ -9,6 +9,7 @@ cms:
   - Markdown
 css:
   - Tailwind
+ui: []
 category:
   - Boilerplate
 date: 2020-11-11T10:23:28.000Z
@@ -21,7 +22,6 @@ update_date: '2024-10-17T02:24:54Z'
 github_star: 9097
 github_fork: 1744
 ---
-
 ## Key Features
 
 - Nextjs.js for Static Site Generator

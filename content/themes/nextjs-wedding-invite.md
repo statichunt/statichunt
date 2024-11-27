@@ -9,6 +9,7 @@ description: Wedding invitation web app built using NextJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

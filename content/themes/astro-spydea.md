@@ -6,11 +6,14 @@ demo: https://spydea-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2023-06-05T00:00:00.000Z
-description: Spydea is a beautiful Astro theme that is perfect for a wide variety of businesses, including SaaS, startups, and agencies.
+description: >-
+  Spydea is a beautiful Astro theme that is perfect for a wide variety of
+  businesses, including SaaS, startups, and agencies.
 ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -19,9 +22,7 @@ category:
 draft: false
 home_weight: 28
 weight: 14
-
 ---
-
 ## Key Features
 
 - 17+ Unique Pages

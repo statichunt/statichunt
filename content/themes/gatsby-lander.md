@@ -12,6 +12,7 @@ ssg:
   - Gatsby
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -22,8 +23,7 @@ update_date: '2021-11-05T02:32:00Z'
 github_star: 134
 github_fork: 73
 ---
-
-## Key Features :
+## Key Features
 
 - Styles using tailwindcss with purgeCSS
 - Features section

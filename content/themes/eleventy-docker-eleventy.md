@@ -9,6 +9,7 @@ description: Static site generator - Docker image (multiarch)
 ssg:
   - Eleventy
 css: []
+ui: []
 cms: []
 category: []
 draft: false

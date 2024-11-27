@@ -9,6 +9,7 @@ description: A minimal developer blog and portfolio starter.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

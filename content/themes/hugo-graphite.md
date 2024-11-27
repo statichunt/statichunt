@@ -9,6 +9,7 @@ description: A Hugo theme for teams
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

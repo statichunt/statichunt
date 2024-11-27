@@ -9,6 +9,7 @@ description: Cuteblog template for gatsby js for gatsby blogger
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

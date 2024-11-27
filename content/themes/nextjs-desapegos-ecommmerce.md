@@ -9,6 +9,7 @@ description: A simple scalable ecommerce.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

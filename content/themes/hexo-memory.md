@@ -9,6 +9,7 @@ description: A minimal hexo theme.
 ssg:
   - Hexo
 css: []
+ui: []
 cms:
   - Ghost
 category: []

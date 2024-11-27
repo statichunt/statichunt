@@ -10,6 +10,7 @@ description: 🧪A (lightly) opinionated Jekyll starter designed to replace jeky
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

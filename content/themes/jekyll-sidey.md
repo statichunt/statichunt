@@ -9,6 +9,7 @@ description: Sidey is a simple and minimalistic jekyll blogging theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

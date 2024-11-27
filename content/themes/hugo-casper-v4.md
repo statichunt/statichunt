@@ -9,6 +9,7 @@ description: Hugo Casper V4 themes porting from Casper V4
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -10,6 +10,7 @@ ssg:
   - Gatsby
 css:
   - PostCSS
+ui: []
 cms: []
 category:
   - Blog

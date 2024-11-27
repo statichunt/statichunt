@@ -9,6 +9,7 @@ description: Template to (deliberate) practice your test-driven development skil
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

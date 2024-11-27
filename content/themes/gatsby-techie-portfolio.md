@@ -9,6 +9,7 @@ description: 'A portfolio template created using Gatsby.js :beginner:'
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

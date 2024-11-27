@@ -9,6 +9,7 @@ description: a fast gohugo theme, 100% JavaScript-free.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

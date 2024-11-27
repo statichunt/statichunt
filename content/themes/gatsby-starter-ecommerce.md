@@ -9,6 +9,7 @@ description: Gatsby starter for creating an eCommerce site using the Moltin eCom
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

@@ -11,6 +11,7 @@ ssg:
 css:
   - Bootstrap
   - SCSS
+ui: []
 cms:
   - Contentful
 category:

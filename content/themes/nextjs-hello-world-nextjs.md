@@ -9,6 +9,7 @@ description: A Hello World plugin for Dashibase, built with NextJS
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Dashboard

@@ -9,6 +9,7 @@ description: Gridsome starter kit with Forestry (CMS)
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

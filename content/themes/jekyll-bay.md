@@ -9,6 +9,7 @@ description: A simple theme for Jekyll. Live at https://eliottvincent.github.io/
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

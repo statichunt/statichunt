@@ -9,6 +9,7 @@ description: mnml thm fr Jkll
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A sample GatsbyJS website using the Agility CMS Gatsby source plugi
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

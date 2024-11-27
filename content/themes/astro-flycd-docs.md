@@ -9,6 +9,7 @@ description: Documentation for FlyCD
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category:
   - Documentation

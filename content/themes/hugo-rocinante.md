@@ -9,6 +9,7 @@ description: Minimal and very lightweight hugo theme.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

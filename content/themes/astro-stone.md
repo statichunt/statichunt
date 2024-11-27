@@ -12,6 +12,7 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms: null
 category:
   - Business
@@ -21,8 +22,7 @@ update_date: '2023-08-24T15:09:35Z'
 github_star: 147
 github_fork: 83
 ---
-
-## Key Features:
+## Key Features
 
 - Built with Tailwind CSS & Alpine.js
 - 5+ Pages

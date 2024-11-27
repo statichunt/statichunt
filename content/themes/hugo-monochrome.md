@@ -9,6 +9,7 @@ description: Monochrome is a fast, clean and responsive hugo theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

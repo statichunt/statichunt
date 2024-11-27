@@ -9,6 +9,7 @@ description: Gatsby Theme that sources from MercadoLibre creating a showcase of 
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

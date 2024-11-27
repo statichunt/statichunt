@@ -9,6 +9,7 @@ description: Novela, the simplest way to start publishing with Hugo and Forestry
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

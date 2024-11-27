@@ -9,6 +9,7 @@ description: A boilerplate for creating your own custom style guide
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

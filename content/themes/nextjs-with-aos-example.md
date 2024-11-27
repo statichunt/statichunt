@@ -9,6 +9,7 @@ description: NEXT.JS - Example project using Next.js with Animate On Scroll Libr
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

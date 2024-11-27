@@ -13,6 +13,7 @@ ssg:
   - Nuxtjs
 css:
   - SCSS
+ui: []
 cms: []
 category: []
 draft: false

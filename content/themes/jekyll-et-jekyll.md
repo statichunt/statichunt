@@ -9,6 +9,7 @@ description: A minimal Jekyll theme inspired by Tufte CSS
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

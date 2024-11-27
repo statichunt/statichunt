@@ -23,5 +23,4 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
-
 Jekyll is a simple and easy-to-use blog-aware static site generator for personal, project, or organization websites.

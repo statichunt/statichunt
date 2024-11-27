@@ -17,9 +17,10 @@ publish_date: '2017-07-18T20:18:32Z'
 update_date: '2022-07-17T20:24:37Z'
 github_star: 1564
 github_fork: 404
+css: []
+ui: []
 ---
-
-## Key Features :
+## Key Features
 
 - Gatsby v4 support
 - First class TypeScript support

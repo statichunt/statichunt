@@ -9,6 +9,7 @@ description: A grid portfolio theme for Jekyll.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

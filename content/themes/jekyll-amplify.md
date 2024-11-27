@@ -10,6 +10,7 @@ description: A Jekyll html theme in the vague style of Medium.com built using Go
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

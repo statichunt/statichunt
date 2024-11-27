@@ -9,6 +9,7 @@ description: A minimal and bold blog theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -8,7 +8,8 @@ date: 2024-02-18T09:48:37.437Z
 description: A CV Generator
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

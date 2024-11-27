@@ -9,6 +9,7 @@ description: A simple Hexo theme. Inspired (a lot) by V2EX.
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

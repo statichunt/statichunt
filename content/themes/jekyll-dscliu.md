@@ -9,6 +9,7 @@ description: A Jekyll theme that is used by the DSC LIU Yemen Chapter 2020/21
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ cms:
   - Markdown
 css:
   - Bootstrap
+ui: []
 category:
   - Portfolio
 date: 2018-07-08T10:28:35.000Z
@@ -19,8 +20,7 @@ github_star: 157
 github_fork: 156
 draft: false
 ---
-
-## Key Features :
+## Key Features
 
 - Multiple homepage (2)
 - Multiple language support (Fr, En)

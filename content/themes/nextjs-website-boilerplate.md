@@ -9,6 +9,7 @@ description: A Next.js website boilerplate that satisfies some common website re
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Boilerplate

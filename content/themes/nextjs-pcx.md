@@ -10,7 +10,8 @@ description: >-
   Next.js, Typescript, Chakra UI, React hook form and yup.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

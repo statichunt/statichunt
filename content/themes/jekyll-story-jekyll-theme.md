@@ -9,6 +9,7 @@ description: Story theme from html5up.net with jekyll blogging engine
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

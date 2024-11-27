@@ -9,6 +9,7 @@ description: SIUX Studio + Tauri integration.
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

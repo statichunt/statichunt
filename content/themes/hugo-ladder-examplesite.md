@@ -9,6 +9,7 @@ description: A example site for https://github.com/guangzhengli/hugo-theme-ladde
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

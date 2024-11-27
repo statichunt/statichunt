@@ -9,6 +9,7 @@ description: An example of a Sanity powered frontend using Next.js
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Sanity
 category: []

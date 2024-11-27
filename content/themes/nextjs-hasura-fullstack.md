@@ -9,6 +9,7 @@ description: A boilerplate which combine Next.js and Hasura to quickly develop a
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -6,18 +6,19 @@ demo: https://resumo-react.vercel.app/
 author: TrendyCoder
 author_link: https://themeforest.net/user/trendycoder
 date: 2023-05-01T00:00:00.000Z
-description: Resumo – Personal Portfolio React, NextJS Template is for many purpose like minimal portfolios, agencies, personal portfolio, photography, freelancer portfolios etc.
+description: >-
+  Resumo – Personal Portfolio React, NextJS Template is for many purpose like
+  minimal portfolios, agencies, personal portfolio, photography, freelancer
+  portfolios etc.
 ssg:
   - Nextjs
-css:
-
-cms:
-
+css: []
+ui: []
+cms: null
 category:
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - Pixel Perfect Design

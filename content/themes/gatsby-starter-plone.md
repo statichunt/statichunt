@@ -9,6 +9,7 @@ description: Gatsby starter for Plone
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

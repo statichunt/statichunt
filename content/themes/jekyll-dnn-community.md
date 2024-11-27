@@ -9,6 +9,7 @@ description: Jekyll theme for DNN (formerly DotNetNuke) Community project docume
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: 'Responsive Hugo blog theme (note: not actively worked on)'
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

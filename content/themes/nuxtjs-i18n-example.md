@@ -9,6 +9,7 @@ description: nuxt-i18n showcase project based on nuxt-starter template
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

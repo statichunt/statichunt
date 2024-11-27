@@ -13,6 +13,7 @@ ssg:
   - Jekyll
 css:
   - SCSS
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: One page portfolio site.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category: []

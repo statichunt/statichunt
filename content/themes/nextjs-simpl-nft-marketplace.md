@@ -9,8 +9,9 @@ description: NFT marketplace sederhana dangan staking dan reward
 ssg:
   - Nextjs
 css:
-  - Chakra
   - SCSS
+ui:
+  - Chakra
 cms: []
 category: []
 draft: false

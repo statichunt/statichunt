@@ -9,6 +9,7 @@ description: Arsha Theme published as a Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

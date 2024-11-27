@@ -9,6 +9,7 @@ description: A minimalist portfolio template for developers
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

@@ -10,6 +10,7 @@ description: A Gatsby Starter to create a clean one-page portfolio with Markdown
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

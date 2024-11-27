@@ -9,6 +9,7 @@ description: A Jekyll theme with a minimal design inspired by typewriters.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

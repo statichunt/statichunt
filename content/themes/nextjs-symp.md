@@ -12,6 +12,7 @@ css:
   - Tailwind
   - Bootstrap
   - PostCSS
+ui: []
 cms:
   - Markdown
 category: []

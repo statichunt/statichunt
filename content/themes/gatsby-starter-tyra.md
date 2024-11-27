@@ -9,6 +9,7 @@ description: Tyra - Feminine Gatsby Starter optimized for SEO
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -8,7 +8,8 @@ date: 2024-02-18T12:41:04.969Z
 description: Get insight into british parliamentary petition data
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

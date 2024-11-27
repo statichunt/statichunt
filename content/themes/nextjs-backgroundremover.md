@@ -9,6 +9,7 @@ description: Remove the background from your headshots!
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

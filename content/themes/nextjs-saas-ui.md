@@ -8,7 +8,8 @@ date: 2023-02-23T00:00:00.000Z
 description: A free Next.js landing page template.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: null
 category:
@@ -19,7 +20,6 @@ update_date: '2024-10-05T09:38:16Z'
 github_star: 285
 github_fork: 107
 ---
-
 ## Key Features
 
 - Feature blocks

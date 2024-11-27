@@ -9,6 +9,7 @@ description: A Nuxt application with SSR on the edge, authentication and a SQLit
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

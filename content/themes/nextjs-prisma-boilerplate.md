@@ -16,6 +16,7 @@ css:
   - Tailwind
   - SCSS
   - PostCSS
+ui: []
 cms: []
 category:
   - Boilerplate

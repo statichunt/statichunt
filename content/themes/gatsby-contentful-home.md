@@ -9,6 +9,7 @@ description: This repository was created by Gatsby Cloud
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Contentful
 category: []

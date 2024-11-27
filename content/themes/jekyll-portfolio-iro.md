@@ -9,6 +9,7 @@ description: A Jekyll-based Portfolio Theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

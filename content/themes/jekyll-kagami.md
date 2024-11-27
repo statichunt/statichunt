@@ -9,6 +9,7 @@ description: Simple and clean Jekyll theme compatible with GitHub Pages.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

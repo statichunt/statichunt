@@ -9,6 +9,7 @@ description: Soil Data Access Scripts
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

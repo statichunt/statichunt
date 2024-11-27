@@ -9,6 +9,7 @@ description: ChanzoHuru
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: A Gatsby starter template that uses @geocine/gatsby-theme-organizat
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

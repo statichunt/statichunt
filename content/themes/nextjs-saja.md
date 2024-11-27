@@ -6,19 +6,21 @@ demo: https://saja-react.vercel.app/
 author: BDevs
 author_link: https://themeforest.net/user/bdevs
 date: 2023-01-03T00:00:00.000Z
-description: Saja – Agency & Portfolio Template is fully-featured React Next JS template for Digital Services, We just released the fully coded version in latest React Next JS.
+description: >-
+  Saja – Agency & Portfolio Template is fully-featured React Next JS template
+  for Digital Services, We just released the fully coded version in latest React
+  Next JS.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
   - Portfolio
 draft: false
 ---
-
 ## Key Features
 
 - Based on Bootstrap 5.x

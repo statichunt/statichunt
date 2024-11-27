@@ -9,6 +9,7 @@ description: A plugin to push to Algolia based on graphQl queries
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

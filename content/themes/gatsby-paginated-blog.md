@@ -9,6 +9,7 @@ description: Gatsby starter blog with pagination
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Blog

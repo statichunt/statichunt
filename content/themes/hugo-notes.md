@@ -9,6 +9,7 @@ description: A Hugo theme for storing notes
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

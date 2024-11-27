@@ -9,6 +9,7 @@ description: A simple material theme for blogger
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

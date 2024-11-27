@@ -9,6 +9,7 @@ description: Hurley's Soul | Built with Hugo via theme Stack
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

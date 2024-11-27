@@ -9,6 +9,7 @@ description: Hexo migration of React theme. http://react.pimmey.com/
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

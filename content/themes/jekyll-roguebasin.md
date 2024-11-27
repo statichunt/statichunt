@@ -9,6 +9,7 @@ description: A backup version of Roguebasin.com (WIP)
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

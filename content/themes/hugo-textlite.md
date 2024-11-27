@@ -9,6 +9,7 @@ description: Lightweight Port of Jekyll TeXt Theme to Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

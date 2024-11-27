@@ -9,6 +9,7 @@ description: 配色借鉴与 https://bear.app/ 主题
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

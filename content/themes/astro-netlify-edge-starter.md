@@ -9,6 +9,7 @@ description: An Astro app with the Netlify adapter using Edge Functions
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

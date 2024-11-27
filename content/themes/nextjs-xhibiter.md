@@ -6,18 +6,19 @@ demo: https://xhibiter-nextjs.vercel.app/
 author: Ib-themes
 author_link: https://themeforest.net/user/ib-themes
 date: 2023-01-01T00:00:00.000Z
-description: Xhibiter is a light and fast NFT marketplace platform React template. It’s Built with the most modern tools – Tailwind CSS, React, Redux, Next JS.
+description: >-
+  Xhibiter is a light and fast NFT marketplace platform React template. It’s
+  Built with the most modern tools – Tailwind CSS, React, Redux, Next JS.
 ssg:
   - Nextjs
 css:
   - Tailwind
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - 11 Trending Home Demos

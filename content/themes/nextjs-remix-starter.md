@@ -9,6 +9,7 @@ description: Starter for @remix-run with localized routing and i18n
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

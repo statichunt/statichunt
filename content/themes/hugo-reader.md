@@ -6,18 +6,21 @@ demo: https://demo.gethugothemes.com/reader/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-04-03T00:00:00.000Z
-description: Reader is a modern and responsive multi-author Hugo blog theme. It is perfect for every blog type, but the color- and playful design make it perfect for food or fashion blogs.
+description: >-
+  Reader is a modern and responsive multi-author Hugo blog theme. It is perfect
+  for every blog type, but the color- and playful design make it perfect for
+  food or fashion blogs.
 ssg:
   - Hugo
 css:
   - Bootstrap
+ui: []
 cms:
   - Markdown
 category:
   - Blog
 draft: false
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 87/100 (Desktop)

@@ -9,6 +9,7 @@ description: ':cake: Food/baking blog template for Jekyll'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

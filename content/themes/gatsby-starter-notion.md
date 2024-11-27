@@ -9,6 +9,7 @@ description: Gatsby starter for notion
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

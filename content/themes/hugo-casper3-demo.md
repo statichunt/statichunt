@@ -9,6 +9,7 @@ description: Demo site for casper3 hugo theme
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: milon27.com portfolio application with NEXT JS and contentful
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Contentful
 category:

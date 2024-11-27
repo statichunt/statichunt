@@ -9,6 +9,7 @@ description: Minimalist personal static site generator
 ssg:
   - Hugo
 css: []
+ui: []
 cms:
   - Markdown
 category: []

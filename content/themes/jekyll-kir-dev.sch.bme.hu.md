@@ -9,6 +9,7 @@ description: A Kir-Dev blog tartalma
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

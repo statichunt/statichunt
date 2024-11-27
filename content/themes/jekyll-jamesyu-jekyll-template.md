@@ -9,6 +9,7 @@ description: The Jekyll Template for jamesyu.org
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

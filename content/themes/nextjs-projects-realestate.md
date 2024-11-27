@@ -8,7 +8,8 @@ date: 2024-02-18T04:47:47.700Z
 description: Build and Deploy a Real Estate React & Next.js Application
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

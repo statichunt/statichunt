@@ -9,6 +9,7 @@ description: A Jekyll version of the beautiful Docsy!
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

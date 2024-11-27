@@ -10,6 +10,7 @@ description: Example to deploy Next.js app to AWS Elastic Beanstalk via Travis
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

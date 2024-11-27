@@ -9,6 +9,7 @@ description: Our software manuals are maintained as open source on GitHub.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -8,7 +8,8 @@ date: 2024-02-18T07:10:19.708Z
 description: A unified repository for the code-sharing platform Bytecrowds
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

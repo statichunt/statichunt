@@ -9,6 +9,7 @@ description: A very minimal developer blog theme using Eleventy.
 ssg:
   - Eleventy
 css: []
+ui: []
 cms: []
 category: []
 draft: false

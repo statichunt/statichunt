@@ -9,6 +9,7 @@ description: An example of using Formspree with Eleventy
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

@@ -11,6 +11,7 @@ description: >-
 ssg:
   - Astro
 css: []
+ui: []
 cms: []
 category: []
 draft: false

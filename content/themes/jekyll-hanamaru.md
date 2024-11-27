@@ -9,6 +9,7 @@ description: hanamaru - another blog for datenshi portal
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -10,6 +10,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Sanity
 category:
@@ -20,7 +21,6 @@ update_date: '2022-12-28T22:41:25Z'
 github_star: 1385
 github_fork: 172
 ---
-
 ## Key Features
 
 - Utility-first CSS with Tailwind CSS

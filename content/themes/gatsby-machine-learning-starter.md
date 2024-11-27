@@ -9,6 +9,7 @@ description: Gatsby machine learning starter kit
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

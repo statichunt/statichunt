@@ -8,7 +8,8 @@ date: 2023-11-27T04:06:09.330Z
 description: Dashboard starter build react, nextjs and chakra-ui
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category:

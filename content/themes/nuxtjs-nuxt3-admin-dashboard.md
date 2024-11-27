@@ -12,6 +12,7 @@ ssg:
   - Nuxtjs
 css:
   - Tailwind
+ui: []
 cms: []
 category:
   - Dashboard

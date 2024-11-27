@@ -9,6 +9,7 @@ description: E-commerce online clothing store. Made with Next.js, Firebase and S
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce

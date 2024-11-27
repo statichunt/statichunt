@@ -9,6 +9,7 @@ description: A simple Jekyll Template Card Based.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -9,6 +9,7 @@ description: Another minimalistic template for the eleventy static site generato
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

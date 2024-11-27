@@ -9,6 +9,7 @@ description: All-in-one skeleton blog
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

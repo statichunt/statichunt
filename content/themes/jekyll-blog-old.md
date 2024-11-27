@@ -9,6 +9,7 @@ description: a blog for the nova project
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

@@ -8,7 +8,8 @@ date: 2023-11-30T07:10:34.443Z
 description: A template dapp using nextjs and chakra-ui.
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

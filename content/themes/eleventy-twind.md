@@ -9,6 +9,7 @@ description: 11ty + Twind Starter
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Markdown
 category: []

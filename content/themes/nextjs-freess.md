@@ -8,7 +8,8 @@ date: 2024-02-18T06:12:39.420Z
 description: A tool to generate screenshot of the given web page URL
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

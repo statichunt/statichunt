@@ -9,6 +9,7 @@ description: A wholesome, flat, sunshiny Jekyll theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

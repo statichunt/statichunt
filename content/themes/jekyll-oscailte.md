@@ -9,6 +9,7 @@ description: Oscailte — A powerful light, clean, and responsive Jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

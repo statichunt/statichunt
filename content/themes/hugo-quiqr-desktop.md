@@ -9,6 +9,7 @@ description: Hugo CMS and Publishing Application
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

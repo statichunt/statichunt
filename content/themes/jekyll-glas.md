@@ -9,6 +9,7 @@ description: ':mortar_board: Glas - Ruby on Rails - Jekyll'
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

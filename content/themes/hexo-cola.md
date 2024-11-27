@@ -9,6 +9,7 @@ description: 一个基于Hexo引擎的博客主题。
 ssg:
   - Hexo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

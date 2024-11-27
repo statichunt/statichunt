@@ -9,6 +9,7 @@ description: clean simple documentation theme for hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

@@ -9,6 +9,7 @@ description: Professional Hugo theme for dev bloggers. Based on Mdo's classic Hy
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category:
   - Blog

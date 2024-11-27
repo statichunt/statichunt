@@ -9,6 +9,7 @@ description: Minimalist is a Jekyll theme inspired by the Minimal theme
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

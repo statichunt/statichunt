@@ -1,23 +1,26 @@
 ---
 title: NOVA
-download: https://www.templatemonster.com/website-templates/nova-multipurpose-listing-directory-theme-nextjs-amp-react-template-232036.html
+download: >-
+  https://www.templatemonster.com/website-templates/nova-multipurpose-listing-directory-theme-nextjs-amp-react-template-232036.html
 price: 51
 demo: https://nova-template.vercel.app/home
 author: hyperidx
 author_link: https://www.templatemonster.com/authors/hyperidx/
 date: 2023-04-29T00:00:00.000Z
-description: Multipurpose Listing Template with great landing pages. Responsive & cross-platform, browser-compatible components! Also can be used as Real Estate, Hotel Booking, Travel, Listing Directory.
+description: >-
+  Multipurpose Listing Template with great landing pages. Responsive &
+  cross-platform, browser-compatible components! Also can be used as Real
+  Estate, Hotel Booking, Travel, Listing Directory.
 ssg:
   - Nextjs
 css:
   - Bootstrap
-cms:
-
+ui: []
+cms: null
 category:
   - Business
 draft: false
 ---
-
 ## Key Features
 
 - Skeleton, Waffle loading components React Lazy & Suspense

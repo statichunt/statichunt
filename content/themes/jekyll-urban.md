@@ -9,6 +9,7 @@ description: Minimal jekyll theme for visual artists
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

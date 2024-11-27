@@ -9,6 +9,7 @@ description: A simple blog site created with NextJs
 ssg:
   - Nextjs
 css: []
+ui: []
 cms:
   - Contentful
   - Markdown

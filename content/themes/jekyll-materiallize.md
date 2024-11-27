@@ -9,6 +9,7 @@ description: A jekyll blog theme based on materiallize
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

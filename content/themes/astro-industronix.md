@@ -1,6 +1,7 @@
 ---
 title: Industronix
-download: https://mcstech.lemonsqueezy.com/checkout/buy/e1b2fbf8-9838-466d-8695-0b80a1793cb6
+download: >-
+  https://mcstech.lemonsqueezy.com/checkout/buy/e1b2fbf8-9838-466d-8695-0b80a1793cb6
 price: 21
 demo: https://industronix.mcstech.dev/demo
 author: McsTechMy
@@ -11,13 +12,13 @@ ssg:
   - Astro
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
   - Blog
 draft: false
 ---
-
 ## Theme features
 
 - Astro v2.x

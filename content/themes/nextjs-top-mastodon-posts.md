@@ -8,7 +8,8 @@ date: 2024-02-19T04:39:07.632Z
 description: 🦣 See a Mastodon account’s most-favo(u)rited posts
 ssg:
   - Nextjs
-css:
+css: []
+ui:
   - Chakra
 cms: []
 category: []

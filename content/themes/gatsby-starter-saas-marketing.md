@@ -9,6 +9,7 @@ description: A simple one page marketing site starter for SaaS companies and ind
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Saas

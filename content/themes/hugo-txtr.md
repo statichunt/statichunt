@@ -9,6 +9,7 @@ description: A clean and minimal theme for Hugo with AMP support.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

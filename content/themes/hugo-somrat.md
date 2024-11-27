@@ -9,6 +9,7 @@ description: A Hugo portfolio theme (archived)
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

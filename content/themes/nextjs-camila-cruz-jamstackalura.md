@@ -9,6 +9,7 @@ description: 🤿 Projeto final do módulo 1 do Bootcamp Alura Front-end JAMStac
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

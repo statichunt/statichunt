@@ -9,6 +9,7 @@ description: Wisdom is a fast, minimalist, monospace theme for Hugo
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

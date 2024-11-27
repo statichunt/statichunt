@@ -9,6 +9,7 @@ description: My first JEKYLL-THEME
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category: []
 draft: false

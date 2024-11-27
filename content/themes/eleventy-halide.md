@@ -9,6 +9,7 @@ description: Customizable image portfolio template, built with Eleventy and Tina
 ssg:
   - Eleventy
 css: []
+ui: []
 cms:
   - Tina
   - Markdown

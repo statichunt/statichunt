@@ -9,6 +9,7 @@ description: My simple portfolio site showing some apps and a blog using gatsby-
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category:
   - Portfolio

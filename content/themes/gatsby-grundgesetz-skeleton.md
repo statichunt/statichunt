@@ -9,6 +9,7 @@ description: You have a documentation. I turn it into a website. Any questions?
 ssg:
   - Gatsby
 css: []
+ui: []
 cms:
   - Markdown
 category:

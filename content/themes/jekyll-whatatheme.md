@@ -9,6 +9,7 @@ description: A customizable Jekyll Portfolio theme which supports blogging.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

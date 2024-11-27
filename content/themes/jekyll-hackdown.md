@@ -9,6 +9,7 @@ description: A pure black and white responsive markdown blog generator
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

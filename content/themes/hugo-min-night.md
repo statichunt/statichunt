@@ -9,6 +9,7 @@ description: An easy on the eyes Hugo blog theme with dark mode.
 ssg:
   - Hugo
 css: []
+ui: []
 cms: []
 category: []
 draft: false

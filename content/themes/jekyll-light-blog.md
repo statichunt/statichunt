@@ -9,6 +9,7 @@ description: A light and responsive Jekyll theme.
 ssg:
   - Jekyll
 css: []
+ui: []
 cms: []
 category:
   - Blog

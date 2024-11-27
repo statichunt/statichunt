@@ -9,6 +9,7 @@ description: Universal way to take care of data flow, server or client side
 ssg:
   - Nuxtjs
 css: []
+ui: []
 cms: []
 category: []
 draft: false

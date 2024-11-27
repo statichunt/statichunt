@@ -9,6 +9,7 @@ description: A Gatsby starter for creating blogs from headless WordPress CMS.
 ssg:
   - Gatsby
 css: []
+ui: []
 cms: []
 category: []
 draft: false

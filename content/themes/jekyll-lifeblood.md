@@ -9,6 +9,7 @@ description: a hyperfocused Jekyll theme for documentation
 ssg:
   - Jekyll
 css: []
+ui: []
 cms:
   - Markdown
 category:

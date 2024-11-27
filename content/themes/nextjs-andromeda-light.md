@@ -12,6 +12,7 @@ ssg:
   - Nextjs
 css:
   - Tailwind
+ui: []
 cms:
   - Markdown
 category:
@@ -24,7 +25,6 @@ github_star: 79
 github_fork: 49
 weight: 8
 ---
-
 ## Key Features
 
 - Google PageSpeed Score 100 (Desktop)

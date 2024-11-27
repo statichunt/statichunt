@@ -9,6 +9,7 @@ description: A ecommerce site for Country Gardens greengrocers
 ssg:
   - Nextjs
 css: []
+ui: []
 cms: []
 category:
   - Ecommerce
