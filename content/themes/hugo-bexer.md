@@ -1,7 +1,7 @@
 ---
 title: Bexer Hugo
 download: https://gethugothemes.com/products/bexer?aff=statichunt
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/bexer/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

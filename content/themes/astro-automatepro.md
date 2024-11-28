@@ -1,7 +1,7 @@
 ---
 title: AutomatePro Astro
 download: https://themefisher.com/products/automatepro-astro
-price: 99
+price: 97
 demo: https://automatepro-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

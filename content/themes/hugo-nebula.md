@@ -1,7 +1,7 @@
 ---
 title: Nebula Hugo
 download: https://gethugothemes.com/products/nebula
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/nebula/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

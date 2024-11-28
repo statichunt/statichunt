@@ -1,7 +1,7 @@
 ---
 title: Secury Astro
 download: https://themefisher.com/products/secury-astro
-price: 99
+price: 97
 demo: https://secury-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

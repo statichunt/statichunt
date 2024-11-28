@@ -1,7 +1,7 @@
 ---
 title: Logbook Astro
 download: https://themefisher.com/products/logbook-astro
-price: 79
+price: 77
 demo: https://logbook-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

@@ -1,7 +1,7 @@
 ---
 title: Atemp Astro
 download: https://themefisher.com/products/atemp-astro
-price: 79
+price: 77
 demo: https://atemp-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

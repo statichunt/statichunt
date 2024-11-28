@@ -1,7 +1,7 @@
 ---
 title: BlazeX Astro
 download: https://themefisher.com/products/blazex-astro
-price: 99
+price: 97
 demo: https://blazex-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

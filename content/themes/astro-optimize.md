@@ -1,7 +1,7 @@
 ---
 title: Optimize Astro
 download: https://themefisher.com/products/optimize-astro
-price: 99
+price: 97
 demo: https://optimize-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

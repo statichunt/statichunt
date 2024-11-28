@@ -2,7 +2,7 @@
 title: Agen Hugo
 download: https://gethugothemes.com/products/agen?aff=statichunt
 github: null
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/agen/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

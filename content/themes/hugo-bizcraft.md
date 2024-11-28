@@ -1,7 +1,7 @@
 ---
 title: Bizcraft Hugo
 download: https://gethugothemes.com/products/bizcraft?aff=statichunt
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/bizcraft/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

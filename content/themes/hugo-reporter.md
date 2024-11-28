@@ -2,7 +2,7 @@
 title: Reporter Hugo
 download: https://gethugothemes.com/products/reporter?aff=statichunt
 github: null
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/reporter/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

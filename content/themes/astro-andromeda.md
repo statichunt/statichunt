@@ -1,7 +1,7 @@
 ---
 title: Andromeda Astro
 download: https://themefisher.com/products/andromeda-astro
-price: 79
+price: 77
 demo: https://andromeda-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

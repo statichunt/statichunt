@@ -1,7 +1,7 @@
 ---
 title: Clarity Astro
 download: https://themefisher.com/products/clarity-astro
-price: 99
+price: 97
 demo: https://clarity-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

@@ -1,7 +1,7 @@
 ---
 title: SafeShield Astro
 download: https://themefisher.com/products/safeshield-astro
-price: 99
+price: 97
 demo: https://safeshield-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

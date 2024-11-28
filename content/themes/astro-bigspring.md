@@ -1,7 +1,7 @@
 ---
 title: Bigspring Astro
 download: https://themefisher.com/products/bigspring-astro
-price: 79
+price: 77
 demo: https://bigspring-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

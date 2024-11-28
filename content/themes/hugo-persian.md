@@ -1,7 +1,7 @@
 ---
 title: Persian
 download: https://gethugothemes.com/products/persian?aff=statichunt
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/persian/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

@@ -2,7 +2,7 @@
 title: Fortify Hugo
 download: https://gethugothemes.com/products/fortify
 github: null
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/fortify/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com

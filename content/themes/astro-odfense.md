@@ -1,7 +1,7 @@
 ---
 title: Odfense Astro
 download: https://themefisher.com/products/odfense-astro
-price: 99
+price: 97
 demo: https://odfense-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/

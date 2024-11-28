@@ -2,7 +2,7 @@
 title: Bigspring NextJs
 download: https://themefisher.com/products/bigspring-nextjs
 demo: https://bigspring-nextjs.vercel.app/
-price: 79
+price: 77
 author: Themefisher
 author_link: https://themefisher.com
 date: 2023-07-11T00:00:00.000Z

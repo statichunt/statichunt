@@ -1,7 +1,7 @@
 ---
 title: Orbitor Hugo
 download: https://gethugothemes.com/products/orbitor?aff=statichunt
-price: 79
+price: 77
 demo: https://demo.gethugothemes.com/orbitor/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
