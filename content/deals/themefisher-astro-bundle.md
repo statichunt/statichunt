@@ -5,8 +5,8 @@ author: Themefisher
 author_link: "https://themefisher.com/"
 description: ""
 date: 2024-11-13
-price: $139
-regular_price: $299
+price: $137
+regular_price: $297
 purchase_link: "https://themefisher.com/deals"
 features:
 - "23+ Themes"
