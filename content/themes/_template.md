@@ -2,6 +2,7 @@
 title: Theme Name
 github: https://github.com/theme-url # only for free theme
 price: 0 # only for premium theme
+download: # only for themes that does not have github repo
 demo: https://example.com/theme-demo
 author: Author # author name
 author_link: https://examplesite.com/ # if any
