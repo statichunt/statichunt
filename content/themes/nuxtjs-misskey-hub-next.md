@@ -1,7 +1,7 @@
 ---
 title: Misskey Hub Next
 github: https://github.com/misskey-dev/misskey-hub-next
-demo: https://misskey-hub.net/
+demo: https://statichunt.com/demo/astro-cody
 author: misskey-dev
 author_link: https://github.com/misskey-dev
 date: 2024-11-28T05:31:24.964Z
