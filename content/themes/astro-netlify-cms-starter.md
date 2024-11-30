@@ -11,7 +11,7 @@ ssg:
 css: []
 ui: []
 cms:
-  - NetlifyCMS
+  - Decap
 category:
   - Blog
 draft: false

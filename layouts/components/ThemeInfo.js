@@ -153,7 +153,7 @@ const ThemeInfo = ({ theme, slug }) => {
                   ? author_link
                   : github
                     ? `https://${github.match(/github\.com\/([^\/]+)/, "")[0]}`
-                    : ""
+                    : "#"
               }
               target="_blank"
               rel="nofollow noopener noreferrer"
