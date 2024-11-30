@@ -9,7 +9,7 @@ description: >-
   Basic starter template for nuxt3 with firebase authentication based on service
   workers and cookies
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms:

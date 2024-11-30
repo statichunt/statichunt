@@ -7,7 +7,7 @@ author_link: https://github.com/reiallenramos
 date: 2024-11-28T15:16:28.287Z
 description: NuxtJS boilerplate with JWT authentication
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

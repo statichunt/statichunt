@@ -7,7 +7,7 @@ author_link: https://github.com/larbish
 date: 2024-11-28T02:26:24.134Z
 description: Nuxt3 example to create PWA application
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

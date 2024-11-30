@@ -7,7 +7,7 @@ author_link: https://github.com/mucahitnezir
 date: 2024-11-28T06:10:48.855Z
 description: Awesome Nuxt.js project.
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

@@ -7,7 +7,7 @@ author_link: https://github.com/jurassicjs
 date: 2024-11-28T01:05:17.362Z
 description: Full Stack Nuxt App Tutorial
 ssg:
-  - Nuxt
+  - Nuxtjs
 css:
   - Tailwind
 ui: []

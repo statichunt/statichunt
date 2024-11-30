@@ -7,7 +7,7 @@ author_link: https://github.com/damien-hl
 date: 2024-11-27T16:21:33.825Z
 description: Example of a simple authentication system using Nuxt3
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

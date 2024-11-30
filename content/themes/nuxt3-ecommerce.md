@@ -9,7 +9,7 @@ description: >-
   The project utilizes Nuxt3 to create a scalable, efficient, and modern web
   application.
 ssg:
-  - Nuxt
+  - Nuxtjs
 css:
   - Tailwind
   - SCSS

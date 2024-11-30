@@ -7,7 +7,7 @@ author_link: https://github.com/darioTecchia
 date: 2024-11-27T16:34:58.232Z
 description: Nuxt3 app template for github pages deploy
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

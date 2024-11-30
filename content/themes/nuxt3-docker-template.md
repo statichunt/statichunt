@@ -7,7 +7,7 @@ author_link: https://github.com/maciejpedzich
 date: 2024-11-28T03:44:09.083Z
 description: Nuxt 3 x Pinia project template with a Dockerfile
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

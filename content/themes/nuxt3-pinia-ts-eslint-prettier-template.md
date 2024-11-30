@@ -7,7 +7,7 @@ author_link: https://github.com/laoer536
 date: 2024-11-28T02:20:00.177Z
 description: 这是一个nuxt3-pinia-ts-eslint-prettier-template
 ssg:
-  - Nuxt
+  - Nuxtjs
 css:
   - SCSS
 ui: []

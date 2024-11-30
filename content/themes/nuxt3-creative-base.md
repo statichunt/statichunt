@@ -10,7 +10,7 @@ description: >-
   scroll, a native webgl setting (the cursor) and some three.js settings /
   example components
 ssg:
-  - Nuxt
+  - Nuxtjs
 css:
   - SCSS
 ui: []

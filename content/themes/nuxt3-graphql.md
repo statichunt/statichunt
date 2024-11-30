@@ -7,7 +7,7 @@ author_link: https://github.com/lewebsimple
 date: 2024-11-28T02:47:50.889Z
 description: ''
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

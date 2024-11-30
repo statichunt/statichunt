@@ -7,7 +7,7 @@ author_link: https://github.com/czbone
 date: 2024-11-27T16:14:32.488Z
 description: Nuxt3 authentication demo
 ssg:
-  - Nuxt
+  - Nuxtjs
 css:
   - Tailwind
   - SCSS

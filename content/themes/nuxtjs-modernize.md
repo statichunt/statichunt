@@ -27,7 +27,7 @@ weight: 3
 - The Hassle-free Setup Process
 - Vuetify
 - Vue 3
-- Nuxt 3
+- Nuxtjs 3
 - 2+ Stunning Dashboards
 - 9+ ready to use applications
 - Code Splitting

@@ -7,7 +7,7 @@ author_link: https://github.com/jahidanowar
 date: 2024-11-27T23:34:44.805Z
 description: ''
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []

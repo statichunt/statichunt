@@ -22,7 +22,7 @@ draft: false
 ## Key Features
 
 - Vue JS 3
-- Nuxt 3
+- Nuxtjs 3
 - Based on Bootstrap 5.x
 - 100% Responsive
 - Flat, modern and clean design.

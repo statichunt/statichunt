@@ -7,7 +7,7 @@ author_link: https://github.com/manniL
 date: 2024-11-28T03:59:04.297Z
 description: How to integrate Sentry into your Nuxt 3 app
 ssg:
-  - Nuxt
+  - Nuxtjs
 css: []
 ui: []
 cms: []
