@@ -12,7 +12,7 @@ css:
   - SCSS
 ui: []
 cms:
-  - NetlifyCMS
+  - Decap
 category: []
 draft: false
 publish_date: '2020-10-01T15:44:47Z'

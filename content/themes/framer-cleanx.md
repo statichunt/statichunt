@@ -1,0 +1,15 @@
+---
+title: CleanX — Cleaning Services Template
+download: https://finestdevs.com/buy-cleanx
+demo: https://cleanx.framer.website/?via=framerbite
+price: 39
+author: "Framerbite"
+date: 2024-11-30T08:41:26.886Z
+description: "Introducing the CleanX template, purpose-built for Cleaning Services & Local Businesses to shine in the digital realm. With 14 meticulously crafted complete pages, this template helps you build an awesome small business website."
+ssg: ["Framer"]
+css: []
+ui: []
+cms: []
+category: [Business]
+draft: false
+---
