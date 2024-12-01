@@ -60,6 +60,14 @@
           "url": "/astro-themes"
         },
         {
+          "page": "Framer Templates",
+          "url": "/framer-templates"
+        },
+        {
+          "page": "Webflow Templates",
+          "url": "/webflow-templates"
+        },
+        {
           "page": "Hugo Themes",
           "url": "/hugo-themes"
         },

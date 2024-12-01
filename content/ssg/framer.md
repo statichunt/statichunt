@@ -8,9 +8,9 @@ icon: "/images/icons/framer.svg"
 website: https://framer.com/
 github_path: framer
 twitter_username: framer
-license: PRIVATE
+license: 
 license_url: 
-language: JavaScript
+language: 
 url: "/framer-templates"
 
 examples_page_title: Framer Examples
