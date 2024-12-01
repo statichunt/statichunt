@@ -1,0 +1,14 @@
+---
+title: Hito blog
+github: https://github.com/damenordev/astro-hito-blog
+demo: https://astro-hito-blog.damenor.site/
+author: "damenordev"
+date: 2024-12-01T09:50:25.554Z
+description: "The template perfect solution for anyone looking to start their online journey. Build a professional-looking personal website, blog, or portfolio with ease and speed using our lightweight and minimalist template, designed to provide a seamless user experience"
+ssg: ["Astro"]
+css: []
+ui: []
+cms: []
+category: []
+draft: false
+---

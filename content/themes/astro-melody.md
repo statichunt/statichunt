@@ -1,0 +1,14 @@
+---
+title: Melody
+github: https://github.com/ouranoshong/astro-melody-starter
+demo: https://subtle-rugelach-637941.netlify.app/
+author: "Hong"
+date: 2024-12-01T09:48:31.057Z
+description: "A simple personal blog theme"
+ssg: ["Astro"]
+css: []
+ui: []
+cms: []
+category: []
+draft: false
+---

@@ -1,0 +1,14 @@
+---
+title: Typography
+github: https://github.com/moeyua/astro-theme-typography
+demo: https://astro-theme-typography.vercel.app/
+author: "Moeyua"
+date: 2024-12-01T09:49:14.177Z
+description: "Rediscover the beauty of typography."
+ssg: ["Astro"]
+css: []
+ui: []
+cms: []
+category: []
+draft: false
+---
