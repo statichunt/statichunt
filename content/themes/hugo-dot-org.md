@@ -1,7 +1,6 @@
 ---
 title: Dot-Org
 github: https://github.com/cncf/dot-org-hugo-theme
-price: 0
 demo: https://dot-org-hugo-theme-demo.netlify.app
 author: CNCF
 author_link: https://www.cncf.io

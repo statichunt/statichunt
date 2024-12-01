@@ -1,7 +1,6 @@
 ---
 title: Minimal Portfolio
 github: https://github.com/TimWitzdam/astro-minimal-portfolio-template
-price: 0
 demo: https://minimal-portfolio.witzdam.com/
 author: Tim Witzdam
 author_link: https://witzdam.com/

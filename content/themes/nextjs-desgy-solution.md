@@ -1,7 +1,6 @@
 ---
 title: Desgy Solution
 download: https://adminmart.com/product/desgy-solution-free-next-js-template/?ref=28
-price: 0
 demo: https://desgy-solutions-nextjs.netlify.app/
 author: Adminmart
 author_link: https://adminmart.com/
