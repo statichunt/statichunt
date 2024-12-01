@@ -2,13 +2,20 @@
 title: AstroSphere
 github: https://github.com/markhorn-dev/astro-sphere
 demo: https://astro-sphere-demo.vercel.app/
-author: "Mark Horn"
+author: Mark Horn
 date: 2024-12-01T09:49:24.304Z
-description: "Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog."
-ssg: ["Astro"]
+description: >-
+  Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio
+  and blog.
+ssg:
+  - Astro
 css: []
 ui: []
 cms: []
 category: []
 draft: false
+publish_date: '2024-03-18T13:54:42Z'
+update_date: '2024-07-17T17:01:40Z'
+github_star: 335
+github_fork: 97
 ---
