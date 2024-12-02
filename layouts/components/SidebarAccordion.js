@@ -21,6 +21,8 @@ const SidebarAccordion = ({
     arrayCSS,
     arrayUI,
     arrayCategory,
+    arrayFree,
+    arrayPremium,
     allReset,
     parameter,
     setParameter,
@@ -93,7 +95,10 @@ const SidebarAccordion = ({
         arraySSG?.length > 0 ||
         arrayCMS?.length > 0 ||
         arrayCSS?.length > 0 ||
-        arrayUI?.length > 0
+        arrayUI?.length > 0 ||
+        arrayCategory?.length > 0 ||
+        arrayFree?.length > 0 ||
+        arrayPremium?.length > 0
       ) {
         SetShowIntro(false);
       } else {
@@ -107,6 +112,8 @@ const SidebarAccordion = ({
     arrayCMS?.length,
     arrayCSS?.length,
     arrayUI?.length,
+    arrayFree?.length,
+    arrayPremium?.length,
   ]);
 
   // filter content by taxonomy

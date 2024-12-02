@@ -24,7 +24,7 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
           onClick={() => setOpen(!open)}
           className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"
         >
-          Filter by
+          Price
           <span className="mr-2 inline-block align-middle">
             {open ? <IoChevronDownOutline /> : <IoChevronForwardOutline />}
           </span>
