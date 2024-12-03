@@ -3,14 +3,14 @@ title: Framer
 page_title: Framer Templates
 meta_title: <themes> Framer Themes & Templates (Free & Premium) | Statichunt
 weight: "3"
-description: Discover free and premium Framer templates to jumpstart your next project.
+description: Discover free and premium Framer templates to jumpstart your next project.Design beautiful responsive sites with an intuitive interface.
 icon: "/images/icons/framer.svg"
 website: https://framer.com/
 github_path: framer
 twitter_username: framer
-license: 
-license_url: 
-language: 
+license:
+license_url:
+language:
 url: "/framer-templates"
 
 examples_page_title: Framer Examples
@@ -23,4 +23,3 @@ themes_draft: false
 examples_draft: true
 draft: false
 ---
-

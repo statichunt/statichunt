@@ -3,14 +3,14 @@ title: Webflow
 page_title: Webflow Templates
 meta_title: <themes> Webflow Themes & Templates (Free & Premium) | Statichunt
 weight: "3"
-description: Discover free and premium Webflow templates to jumpstart your next project.
+description: Discover free and premium Webflow templates to jumpstart your next project.Pick a template and then customize it in Webflow without code.
 icon: "/images/icons/webflow.svg"
 website: https://webflow.com/
 github_path: webflow
 twitter_username: webflow
-license: 
-license_url: 
-language: 
+license:
+license_url:
+language:
 url: "/webflow-templates"
 
 examples_page_title: Webflow Examples
@@ -23,4 +23,3 @@ themes_draft: false
 examples_draft: true
 draft: false
 ---
-
