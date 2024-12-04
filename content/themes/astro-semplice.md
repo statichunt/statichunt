@@ -1,7 +1,7 @@
 ---
 title: Semplice
 download: https://lexingtonthemes.com/info/semplice/
-demo: https://lexingtonthemes.com/viewports/semplice/
+demo: https://semplice.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:39.141Z

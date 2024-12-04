@@ -1,7 +1,7 @@
 ---
 title: Carbon
 download: https://lexingtonthemes.com/info/carbon/
-demo: https://lexingtonthemes.com/viewports/carbon
+demo: https://carbon.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:33.258Z

@@ -1,7 +1,7 @@
 ---
 title: Dusk
 download: https://lexingtonthemes.com/info/dusk/
-demo: https://lexingtonthemes.com/viewports/dusk
+demo: https://dusk.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:38.230Z

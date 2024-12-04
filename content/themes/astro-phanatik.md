@@ -1,7 +1,7 @@
 ---
 title: Phanatik
 download: https://lexingtonthemes.com/info/phanatik/
-demo: https://lexingtonthemes.com/viewports/phanatik/
+demo: https://phanatik.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:37.330Z

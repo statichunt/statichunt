@@ -1,7 +1,7 @@
 ---
 title: Hemingway
 download: https://lexingtonthemes.com/info/hemingway/
-demo: https://lexingtonthemes.com/viewports/hemingway/
+demo: https://hemingway.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:07.844Z

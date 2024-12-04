@@ -1,7 +1,7 @@
 ---
 title: SuperStore
 download: https://lexingtonthemes.com/info/superstore/
-demo: https://lexingtonthemes.com/viewports/superstore/
+demo: https://superstore.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:50:02.110Z

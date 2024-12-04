@@ -1,7 +1,7 @@
 ---
 title: ProFolioX
 download: https://lexingtonthemes.com/info/profoliox
-demo: https://lexingtonthemes.com/viewports/profoliox
+demo: https://profoliox.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:50:08.983Z

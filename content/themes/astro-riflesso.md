@@ -1,7 +1,7 @@
 ---
 title: Riflesso
 download: https://lexingtonthemes.com/info/riflesso
-demo: https://lexingtonthemes.com/viewports/riflesso
+demo: https://riflesso.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:48:29.288Z

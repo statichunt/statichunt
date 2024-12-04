@@ -1,7 +1,7 @@
 ---
 title: Enlightr
 download: https://lexingtonthemes.com/info/enlightr/
-demo: https://lexingtonthemes.com/viewports/enlightr
+demo: https://enlightr.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:50:10.637Z

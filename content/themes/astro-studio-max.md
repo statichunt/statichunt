@@ -1,7 +1,7 @@
 ---
 title: Studio MAx
 download: https://lexingtonthemes.com/info/studiomax/
-demo: https://lexingtonthemes.com/viewport/studiomax/
+demo: https://studiomax.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:58.561Z

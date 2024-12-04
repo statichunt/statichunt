@@ -1,7 +1,7 @@
 ---
 title: Carriera
 download: https://lexingtonthemes.com/info/carriera/
-demo: https://lexingtonthemes.com/viewports/carriera
+demo: https://carriera.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:50:08.446Z

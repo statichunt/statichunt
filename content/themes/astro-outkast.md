@@ -1,7 +1,7 @@
 ---
 title: Outkast
 download: https://lexingtonthemes.com/info/outkast/
-demo: https://lexingtonthemes.com/viewports/outkast/
+demo: https://outkast.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:45.005Z

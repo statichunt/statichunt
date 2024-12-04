@@ -1,7 +1,7 @@
 ---
 title: Snowpeak
 download: https://lexingtonthemes.com/info/snowpeak/
-demo: https://lexingtonthemes.com/viewports/snowpeak/
+demo: https://snowpeak.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:58.604Z

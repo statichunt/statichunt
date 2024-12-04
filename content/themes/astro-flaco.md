@@ -1,7 +1,7 @@
 ---
 title: Flaco
 download: https://lexingtonthemes.com/info/flaco/
-demo: https://lexingtonthemes.com/viewports/flaco/
+demo: https://flaco.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:35.790Z

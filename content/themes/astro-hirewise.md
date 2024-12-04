@@ -1,7 +1,7 @@
 ---
 title: Hirewise
 download: https://lexingtonthemes.com/info/hirewise
-demo: https://lexingtonthemes.com/viewports/hirewise
+demo: https://hirewise.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:49:47.728Z

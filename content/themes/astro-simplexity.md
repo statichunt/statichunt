@@ -1,7 +1,7 @@
 ---
 title: Simplexity
 download: https://lexingtonthemes.com/info/simplexity/
-demo: https://lexingtonthemes.com/viewports/simplexity/
+demo: https://simplexity.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"
 date: 2024-12-01T09:50:00.275Z
