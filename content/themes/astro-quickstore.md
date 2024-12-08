@@ -1,7 +1,6 @@
 ---
 title: QuickStore
 github: https://github.com/michael-andreuzza/quickstore
-price: 0
 demo: https://quickstorre.vercel.app/
 author: Lexington Themes
 author_link: https://lexingtonthemes.com/

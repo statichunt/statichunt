@@ -24,7 +24,7 @@ draft: false
 ## Key Features
 
 - Vue JS 3
-- Nuxt 3
+- Nuxtjs 3
 - TypeScript
 - Pinia
 - VeeValidate

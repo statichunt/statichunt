@@ -1,7 +1,6 @@
 ---
 title: nextjs-chakra-starter-blog
 github: https://github.com/kingchun1991/nextjs-chakra-starter-blog
-price: 0
 demo: https://nextjs-chakra-starter-blog.vercel.app/blog/get-started
 author: Author
 author_link: https://github.com/kingchun1991/

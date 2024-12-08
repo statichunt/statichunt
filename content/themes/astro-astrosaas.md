@@ -1,7 +1,6 @@
 ---
 title: AstroSaas
 github: https://github.com/michael-andreuzza/astrosaas
-price: 0
 demo: https://astrosaas.vercel.app/
 author: Lexington Themes
 author_link: https://lexingtonthemes.com/

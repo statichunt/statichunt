@@ -1,5 +1,6 @@
 import HomeCategory from "@/components/HomeCategory";
 import Intro from "@/components/Intro";
+import PricingFilter from "@/components/PricingFilter";
 import Sidebar from "@/components/Sidebar";
 import config from "@/config/config.json";
 import sponsors from "@/config/sponsor.json";
@@ -98,13 +99,26 @@ const Home = ({
     <Base title={title}>
       <div className="flex">
         <Sidebar
+          SetShowIntro={SetShowIntro}
           ssg={ssg}
           cms={cms}
           css={css}
           ui={ui}
-          themes={finalThemes}
-          SetShowIntro={SetShowIntro}
-        />
+          themes={
+            arrayPremium.length && arrayFree.length
+              ? finalThemes
+              : arrayFree.length
+                ? filterFree
+                : arrayPremium.length
+                  ? filterPremium
+                  : finalThemes
+          }
+        >
+          <PricingFilter
+            filterFree={filterFree}
+            filterPremium={filterPremium}
+          />
+        </Sidebar>
         <main className="main">
           <div className="container-home container">
             <Announcement />

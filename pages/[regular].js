@@ -1,14 +1,14 @@
+import PricingFilter from "@/components/PricingFilter";
 import Sidebar from "@/components/Sidebar";
+import SidebarSort from "@/components/SidebarSort";
 import useFilterData from "@/hooks/useFilterData";
 import useThemesSort from "@/hooks/useThemesSort";
 import Base from "@/layouts/Baseof";
 import Default from "@/layouts/Default";
 import ExampleTaxonomy from "@/layouts/ExampleTaxonomy";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import ThemeTaxonomy from "@/layouts/ThemeTaxonomy";
 import ToolTaxonomy from "@/layouts/ToolTaxonomy";
-import PricingFilter from "@/layouts/components/PricingFilter";
-import SidebarSort from "@/layouts/components/SidebarSort";
-import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import {
   getRegularPage,
   getRegularPageSlug,

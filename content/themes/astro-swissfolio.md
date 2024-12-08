@@ -1,7 +1,6 @@
 ---
 title: SwissFolio
 github: https://github.com/michael-andreuzza/quickstore
-price: 0
 demo: https://swissfolio.vercel.app/
 author: Lexington Themes
 author_link: https://lexingtonthemes.com/

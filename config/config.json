@@ -37,7 +37,7 @@
   },
 
   "sidebar": [
-    { "type": "ssg", "title": "Static Site Generator" },
+    { "type": "ssg", "title": "Technology" },
     { "type": "css", "title": "CSS Framework" },
     { "type": "ui", "title": "UI Library" },
     { "type": "cms", "title": "Jamstack CMS" },
@@ -58,6 +58,8 @@
     "cloudcannon",
     "ghost",
     "wix",
-    "buttercms"
+    "buttercms",
+    "shadcn",
+    "framer"
   ]
 }

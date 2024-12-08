@@ -1,7 +1,6 @@
 ---
 title: Crypto
 download: https://adminmart.com/product/crypto-free-next-js-template/?ref=28
-price: 0
 demo: https://crypto-nextjs.netlify.app/
 author: Adminmart
 author_link: https://adminmart.com/

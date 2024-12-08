@@ -94,7 +94,7 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
 
   return (
     <ul className="category-list flex flex-wrap">
-      <li
+      {/* <li
         onClick={() =>
           setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
         }
@@ -113,8 +113,8 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       >
         Free
         <span>{filterFree.length}</span>
-      </li>
-      <li className="!mb-0 mt-1 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" />
+      </li> 
+      <li className="!mb-0 mt-1 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" /> */}
 
       {taxonomy.map((item, i) => (
         <li

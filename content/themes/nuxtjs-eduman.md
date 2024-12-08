@@ -23,7 +23,7 @@ draft: false
 
 - Based on Bootstrap (latest Version 5)
 - Vue JS (latest Version 3)
-- Nuxt Js (latest Version 3)
+- Nuxtjs Js (latest Version 3)
 - Vue js without jQuery
 - Free Premium Quality Support
 - Logo Slider Integration
