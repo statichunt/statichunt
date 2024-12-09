@@ -23,3 +23,5 @@ themes_draft: false
 examples_draft: true
 draft: false
 ---
+
+Webflow is a powerful website design and development platform that combines the flexibility of custom coding with the ease of a visual editor. Ideal for creating dynamic, responsive websites, Webflow offers tools for designing, building, and launching without the need for complex code.

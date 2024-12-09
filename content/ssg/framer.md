@@ -23,3 +23,5 @@ themes_draft: false
 examples_draft: true
 draft: false
 ---
+
+Framer is a modern web design and prototyping tool that lets you create visually stunning, responsive websites with ease. With its drag-and-drop interface, interactive animations, and real-time collaboration features, Framer is perfect for building portfolios, landing pages, and engaging user experiences—all without writing code.
