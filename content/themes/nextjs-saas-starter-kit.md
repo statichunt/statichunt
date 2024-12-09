@@ -19,7 +19,7 @@ category:
   - Saas
 draft: false
 publish_date: '2022-07-13T12:41:52Z'
-update_date: '2024-10-16T10:55:29Z'
-github_star: 3365
-github_fork: 760
+update_date: '2024-12-06T13:47:31Z'
+github_star: 3494
+github_fork: 813
 ---

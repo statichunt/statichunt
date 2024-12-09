@@ -12,8 +12,8 @@ description: A starter template to build lightning fast websites with Ghost & Ga
 draft: false
 publish_date: '2018-11-13T05:04:05Z'
 update_date: '2024-08-05T02:13:26Z'
-github_star: 1076
-github_fork: 873
+github_star: 1083
+github_fork: 877
 css: []
 ui: []
 ---

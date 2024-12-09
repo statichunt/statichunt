@@ -1,7 +1,7 @@
 import axios from "axios";
 import rateLimit from "axios-rate-limit";
 import dotenv from "dotenv";
-import fs, { readFileSync } from "fs";
+import fs from "fs";
 import yaml from "js-yaml";
 import ora from "ora";
 import parseGithubUrl from "parse-github-url";
@@ -10,38 +10,58 @@ import yamlFront from "yaml-front-matter";
 
 dotenv.config();
 
-const getThemes = JSON.parse(readFileSync(".json/themes.json"));
+const getThemes = JSON.parse(fs.readFileSync(".json/themes.json"));
 const spinner = ora("Loading");
 const themesFolder = path.join(process.cwd(), "/content/themes");
 const crawlerLogPath = "./crawler-log.json";
 const token = process.env.GITHUB_TOKEN;
 
-// check github token
+// Check GitHub token
 if (!token) {
   throw new Error(
-    'Cannot access Github API - environment variable "GITHUB_TOKEN" is missing',
+    'Cannot access GitHub API - environment variable "GITHUB_TOKEN" is missing',
   );
 }
 
-// Check if the log file exists
-fs.access(crawlerLogPath, fs.constants.F_OK, (err) => {
-  if (err) {
-    fs.writeFile(crawlerLogPath, JSON.stringify([]), "utf8", (err) => {
-      if (err) {
-        console.error("Error creating file:", err);
-        return;
-      }
-    });
-  }
-});
+// Ensure the crawler log file exists
+if (!fs.existsSync(crawlerLogPath)) {
+  fs.writeFileSync(crawlerLogPath, JSON.stringify([]), "utf8");
+}
 
-// axios limit
+// Rate-limited Axios instance
 const axiosLimit = rateLimit(axios.create(), {
   maxRequests: 2,
   perMilliseconds: 200,
 });
 
-// get all github themes
+// Check rate limit
+const checkRateLimit = async () => {
+  try {
+    const res = await axios.get("https://api.github.com/rate_limit", {
+      headers: {
+        Authorization: `Token ${token}`,
+      },
+    });
+
+    const remaining = res.data.rate.remaining;
+    const reset = res.data.rate.reset;
+
+    if (remaining === 0) {
+      const resetTime = new Date(reset * 1000);
+      const waitTime = resetTime - Date.now();
+      console.log(
+        `Rate limit reached. Waiting until ${resetTime.toLocaleString()}...`,
+      );
+
+      // Pause execution until the reset time
+      await new Promise((resolve) => setTimeout(resolve, waitTime));
+    }
+  } catch (err) {
+    console.error("Error checking rate limit:", err.message);
+  }
+};
+
+// Filter GitHub themes
 const filterGithubTheme = getThemes.filter(
   (theme) => theme.frontmatter.github && !theme.frontmatter.price,
 );
@@ -51,12 +71,12 @@ const themes = filterGithubTheme.map((data) => ({
   slug: data.slug,
 }));
 
-// get github repo name
+// Get repository name from URL
 const getRepoName = (repoUrl) => {
   return parseGithubUrl(repoUrl).repo;
 };
 
-// get last commit
+// Get the last commit date
 const getLastCommit = async (repo, branch) => {
   try {
     const res = await axiosLimit.get(
@@ -67,14 +87,13 @@ const getLastCommit = async (repo, branch) => {
         },
       },
     );
-    const lastCommit = res.data.commit.commit.author.date;
-    return lastCommit;
+    return res.data.commit.commit.author.date;
   } catch (err) {
     return null;
   }
 };
 
-// update frontmatter
+// Update frontmatter of a theme file
 const updateFrontmatter = (slug, update = {}) => {
   const filePath = path.resolve(themesFolder, slug + ".md");
   const fileData = fs.existsSync(filePath) ? fs.readFileSync(filePath) : null;
@@ -90,10 +109,35 @@ const updateFrontmatter = (slug, update = {}) => {
   fs.writeFileSync(filePath, frontmatterWrite);
 };
 
-// fetch github data
+// Read crawler log
+const getCrawlerLog = () => {
+  try {
+    const logData = fs.readFileSync(crawlerLogPath, "utf8");
+    return JSON.parse(logData);
+  } catch (err) {
+    console.error("Error reading or parsing crawler-log.json:", err.message);
+    return [];
+  }
+};
+
+// Write crawler log
+const saveCrawlerLog = (logs) => {
+  try {
+    const stringifyLogs = JSON.stringify(logs, null, 2); // Pretty formatting
+    fs.writeFileSync(crawlerLogPath, stringifyLogs, "utf8");
+  } catch (err) {
+    console.error("Error writing to crawler-log.json:", err.message);
+  }
+};
+
+// Fetch and update GitHub data
 const updateGithubData = async (githubURL, slug) => {
   try {
     const repo = getRepoName(githubURL);
+
+    // Check rate limit before proceeding
+    await checkRateLimit();
+
     spinner.text = `${slug} => updating`;
     const res = await axiosLimit.get(`https://api.github.com/repos/${repo}`, {
       headers: {
@@ -101,6 +145,7 @@ const updateGithubData = async (githubURL, slug) => {
       },
     });
     const lastCommit = await getLastCommit(repo, res.data.default_branch);
+
     updateFrontmatter(slug, {
       publish_date: res.data.created_at,
       update_date: lastCommit,
@@ -108,53 +153,43 @@ const updateGithubData = async (githubURL, slug) => {
       github_fork: res.data.forks_count,
     });
 
-    // Read the crawler log file
-    fs.readFile(crawlerLogPath, "utf8", (err, result) => {
-      if (err) {
-        console.log("Error reading file from disk:", err);
-        return;
-      }
-      try {
-        const logs = JSON.parse(result);
-        logs.push(slug);
-        const stringifyLogs = JSON.stringify(logs);
-
-        // Write the crawler log to the file
-        fs.writeFile(crawlerLogPath, stringifyLogs, "utf8", (err) => {
-          if (err) {
-            console.error("Error writing file:", err);
-            return;
-          }
-        });
-      } catch (err) {
-        console.log("Error parsing JSON string:", err);
-      }
-    });
+    // Update the crawler log
+    const logs = getCrawlerLog();
+    logs.push(slug);
+    saveCrawlerLog(logs);
   } catch (err) {
     spinner.text = `${slug} => update failed`;
-    // updateFrontmatter(slug, {
-    //   draft: true,
-    //   disabled_reason: "Github repo not found",
-    // });
+    updateFrontmatter(slug, {
+      draft: true,
+      disabled_reason: "Github repo not found",
+    });
   }
 };
 
-// update all github data
+// Update all GitHub data with concurrency
 const updateAllGithubData = async (themes) => {
-  spinner.start("Updating github data");
+  spinner.start("Updating GitHub data");
 
-  // filter crawler log themes
-  const crawlerLog = fs.readFileSync(crawlerLogPath, "utf8");
+  // Filter themes not in the crawler log
+  const crawlerLog = getCrawlerLog();
   themes = themes.filter((theme) => !crawlerLog.includes(theme.slug));
-  themes = themes.slice(0, 2500);
 
-  for (const theme of themes) {
-    await updateGithubData(theme.github, theme.slug);
+  const chunkSize = 10; // Number of concurrent updates
+  for (let i = 0; i < themes.length; i += chunkSize) {
+    const chunk = themes.slice(i, i + chunkSize);
+
+    // Check rate limit before processing each chunk
+    await checkRateLimit();
+
+    await Promise.all(
+      chunk.map((theme) => updateGithubData(theme.github, theme.slug)),
+    );
   }
-  spinner.stop("Success - Updating github data");
+
+  spinner.stop("Success - Updating GitHub data");
 };
 
-// main function delay 1s for create crawler log file
+// Main function with a delay to ensure the crawler log file exists
 setTimeout(() => {
   updateAllGithubData(themes);
 }, 1000);

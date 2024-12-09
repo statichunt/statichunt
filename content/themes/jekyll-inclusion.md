@@ -18,6 +18,6 @@ category: []
 draft: false
 publish_date: '2015-01-16T20:25:41Z'
 update_date: '2019-08-18T17:39:24Z'
-github_star: 38
+github_star: 37
 github_fork: 48
 ---

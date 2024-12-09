@@ -19,8 +19,8 @@ category:
 draft: false
 weight: null
 publish_date: '2024-06-28T14:27:57Z'
-update_date: '2024-09-25T17:36:41Z'
-github_star: 26
+update_date: '2024-11-11T14:04:23Z'
+github_star: 25
 github_fork: 6
 ---
 ## Key Features
