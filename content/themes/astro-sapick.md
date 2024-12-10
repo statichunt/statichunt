@@ -6,8 +6,7 @@ demo: https://sapick-astro.vercel.app/
 author: Themefisher
 author_link: https://themefisher.com/
 date: 2024-07-31T00:00:00.000Z
-description: >-
-Sapick Astro is a versatile SaaS website template ideal for tech businesses. Its 12+ pre-designed pages make it easy to build stunning, professional websites.
+description: "Sapick Astro is a versatile SaaS website template ideal for tech businesses. Its 12+ pre-designed pages make it easy to build stunning, professional websites."
 ssg:
   - Astro
 css:
