@@ -6,40 +6,40 @@ import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { useState } from "react";
 
-const Home = ({ frontmatter, content, examples }) => {
-  const [selectedSsg, setSelectedSsg] = useState("all");
+const getSortedSsg = (examples) => {
+  // Extract and slugify all SSGs
+  const allSsg = examples
+    .flatMap((item) => item.frontmatter.ssg.map(slugify))
+    .filter((value, index, self) => self.indexOf(value) === index); // Remove duplicates
 
-  const examplesSortedByDate = sortByDate(examples);
-  const examplesSortedByWeight = sortByWeight(examplesSortedByDate);
-
-  const getAllSsg = examplesSortedByWeight.map((item) => item.frontmatter.ssg);
-  let ssgArray = [];
-  for (let i = 0; i < getAllSsg.length; i++) {
-    const ssgItem = getAllSsg[i];
-    for (let j = 0; j < ssgItem.length; j++) {
-      ssgArray.push(slugify(ssgItem[j]));
-    }
-  }
-  const allSsg = [...new Set(ssgArray)];
-
-  // sort allSsg by length of examples
-  const sortedSg = allSsg.sort((a, b) => {
-    const aLength = examplesSortedByWeight.filter((item) =>
-      item.frontmatter.ssg.map((data) => slugify(data)).includes(a),
+  // Sort by number of occurrences in examples
+  return allSsg.sort((a, b) => {
+    const aLength = examples.filter((item) =>
+      item.frontmatter.ssg.map(slugify).includes(a),
     ).length;
-    const bLength = examplesSortedByWeight.filter((item) =>
-      item.frontmatter.ssg.map((data) => slugify(data)).includes(b),
+    const bLength = examples.filter((item) =>
+      item.frontmatter.ssg.map(slugify).includes(b),
     ).length;
     return bLength - aLength;
   });
+};
 
+const Home = ({ frontmatter, content, examples }) => {
+  const [selectedSsg, setSelectedSsg] = useState("all");
+
+  // Sort examples by weight and date
+  const examplesSortedByDate = sortByDate(examples);
+  const examplesSortedByWeight = sortByWeight(examplesSortedByDate);
+
+  // Get sorted SSGs
+  const sortedSg = getSortedSsg(examplesSortedByWeight);
+
+  // Filter examples based on selected SSG
   const filteredExamples =
     selectedSsg === "all"
       ? examplesSortedByWeight
       : examplesSortedByWeight.filter((item) =>
-          item.frontmatter.ssg
-            .map((data) => slugify(data))
-            .includes(selectedSsg),
+          item.frontmatter.ssg.map(slugify).includes(selectedSsg),
         );
 
   return (
@@ -59,7 +59,7 @@ const Home = ({ frontmatter, content, examples }) => {
           <ul className="category-list mb-8">
             <li
               onClick={() => setSelectedSsg("all")}
-              className={`${selectedSsg === "all" ? "active" : undefined}`}
+              className={`${selectedSsg === "all" ? "active" : ""}`}
             >
               All
               <span>{examplesSortedByWeight.length}</span>
@@ -68,13 +68,13 @@ const Home = ({ frontmatter, content, examples }) => {
               <li
                 onClick={() => setSelectedSsg(item)}
                 key={`item-${i}`}
-                className={`${selectedSsg === item ? "active" : undefined}`}
+                className={`${selectedSsg === item ? "active" : ""}`}
               >
                 {humanize(item)}
                 <span>
                   {
                     examplesSortedByWeight.filter((a) =>
-                      a.frontmatter.ssg.map((b) => slugify(b)).includes(item),
+                      a.frontmatter.ssg.map(slugify).includes(item),
                     ).length
                   }
                 </span>
@@ -100,7 +100,7 @@ const Home = ({ frontmatter, content, examples }) => {
 
 export default Home;
 
-// for example page data
+// Fetch data for the example page
 export const getStaticProps = async () => {
   const examplePage = await getListPage("content/examples/_index.md");
   const { frontmatter, content } = examplePage;
@@ -108,9 +108,9 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      frontmatter: frontmatter,
-      content: content,
-      examples: examples,
+      frontmatter,
+      content,
+      examples,
     },
   };
 };

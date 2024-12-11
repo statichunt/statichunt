@@ -21,5 +21,7 @@ module.exports = {
     "react/no-unescaped-entities": "off",
     "@next/next/no-before-interactive-script-outside-document": "off",
     "no-useless-escape": "off",
+    "no-unsafe-optional-chaining": "off",
+    "no-case-declarations": "off",
   },
 };
