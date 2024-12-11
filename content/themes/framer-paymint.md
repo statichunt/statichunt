@@ -1,6 +1,6 @@
 ---
 title: Paymint — Ultimate Fintech Framer Template
-download: https://weboth.lemonsqueezy.com/checkout/buy/865e8a7a-4a67-4840-96d8-2c99e32898e2
+download: https://weboth.lemonsqueezy.com/checkout/buy/865e8a7a-4a67-4840-96d8-2c99e32898e2?aff=YGGpO5
 demo: https://paymint-template.framer.website/
 price: 59
 author: "WeBoth"

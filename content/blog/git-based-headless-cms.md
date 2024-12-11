@@ -165,8 +165,7 @@ Spinal boasts a sleek and minimalist interface that puts your content front and 
 **Type:** Git-based <br/>
 **License:** Closed Source <br/>
 **Supported Site Generators:** Astro, 11ty, Hugo, Jekyll, Middleman, Bridgetown, Next.js, Gatsby, VuePress, VitePress, Nuxt, Hexo, Zola
-
-#### Key Features
+### Key Features
 
 - Platform-agnostic
 - Easy installation

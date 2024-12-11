@@ -1,6 +1,6 @@
 ---
 title: Orca — Ecommerce Template
-download: https://weboth.lemonsqueezy.com/buy/f3794885-2e2f-4c4a-9116-c2e969398a2d
+download: https://weboth.lemonsqueezy.com/buy/f3794885-2e2f-4c4a-9116-c2e969398a2d?aff=YGGpO5
 demo: https://orca-template.framer.website/
 price: 39
 author: "WeBoth"

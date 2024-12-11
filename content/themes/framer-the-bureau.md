@@ -1,6 +1,6 @@
 ---
 title: The Bureau — Template For Agencies
-download: https://pixsellz.lemonsqueezy.com/buy/cf0af484-7960-46f3-84c4-9aedd93dcb6d
+download: https://pixsellz.lemonsqueezy.com/buy/cf0af484-7960-46f3-84c4-9aedd93dcb6d?aff=YGGpO5
 demo: https://the-bureau.framer.website/
 price: 28
 author: "Pixsellz"

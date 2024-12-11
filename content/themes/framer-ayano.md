@@ -1,6 +1,6 @@
 ---
 title: Ayano — Architecture Template
-download: https://gola.lemonsqueezy.com/buy/3fc6ceae-053a-4a38-8d84-e4e1e34efed0
+download: https://gola.lemonsqueezy.com/buy/3fc6ceae-053a-4a38-8d84-e4e1e34efed0?aff=YGGpO5
 demo: https://ayano-template.framer.website/
 price: 59
 author: "Pawel Gola"

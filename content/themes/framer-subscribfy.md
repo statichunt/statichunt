@@ -1,6 +1,6 @@
 ---
 title: Subscribfy — Design Subscription Template
-download: https://framer.com/projects/new?duplicate=ZHfnlTGSkrYmhZdki1ru&duplicateType=siteTemplate
+download: https://framer.com/projects/new?duplicate=ZHfnlTGSkrYmhZdki1ru&duplicateType=siteTemplate?aff=YGGpO5
 demo: https://subscribfy.framer.website/
 author: "Slava Burian"
 date: 2024-11-30T08:42:20.851Z

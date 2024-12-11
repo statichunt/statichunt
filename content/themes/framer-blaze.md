@@ -1,6 +1,6 @@
 ---
 title: Blaze — Digital Agency Portfolio
-download: https://wize.lemonsqueezy.com/checkout/buy/f3ef3a65-66e4-4edc-a84d-dcd2463f112c
+download: https://wize.lemonsqueezy.com/checkout/buy/f3ef3a65-66e4-4edc-a84d-dcd2463f112c?aff=YGGpO5
 demo: https://blazetemplate.framer.website/
 price: 69
 author: "Wize"

@@ -1,6 +1,6 @@
 ---
 title: Conto — SaaS Framer Template
-download: https://gola.lemonsqueezy.com/buy/d356c267-3eb8-40b7-8320-b9f8721b7434
+download: https://gola.lemonsqueezy.com/buy/d356c267-3eb8-40b7-8320-b9f8721b7434?aff=YGGpO5
 demo: https://conto-template.framer.website/?via=pawelgola
 price: 59
 author: "Pawel Gola"

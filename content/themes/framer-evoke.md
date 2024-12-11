@@ -1,6 +1,6 @@
 ---
 title: Evoke — Agency Template
-download: https://wize.lemonsqueezy.com/buy/45faafce-7ed6-460b-ab3d-acc16cf29729
+download: https://wize.lemonsqueezy.com/buy/45faafce-7ed6-460b-ab3d-acc16cf29729?aff=YGGpO5
 demo: https://evoketemplate.framer.website/
 price: 79
 author: "Wize"

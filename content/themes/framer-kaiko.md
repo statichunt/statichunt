@@ -1,6 +1,6 @@
 ---
 title: Kaiko — Modern Saas Template
-download: https://gola.lemonsqueezy.com/buy/beacad57-1cc5-4d38-935a-638de0c1b7d3
+download: https://gola.lemonsqueezy.com/buy/beacad57-1cc5-4d38-935a-638de0c1b7d3?aff=YGGpO5
 demo: https://kaiko-template.framer.website/
 price: 59
 author: "Pawel Gola"

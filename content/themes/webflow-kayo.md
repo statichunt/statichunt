@@ -1,6 +1,6 @@
 ---
 title: Kayo
-download: https://preview.webflow.com/preview/kayo-template?utm_medium=preview_link&utm_source=designer&utm_content=kayo-template&preview=b8e199050632d82e875506c6a12c2047&pageId=6704f0a83f4efadc40b0bdf1&locale=en&workflow=preview
+download: https://preview.webflow.com/preview/kayo-template?utm_medium=preview_link&utm_source=designer&utm_content=kayo-template&preview=b8e199050632d82e875506c6a12c2047&pageId=6704f0a83f4efadc40b0bdf1&locale=en&workflow=preview?aff=YGGpO5
 demo: https://kayo-template.webflow.io/
 author: "Pawel Gola"
 date: 2024-12-01T04:58:15.118Z

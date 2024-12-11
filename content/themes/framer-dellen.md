@@ -1,6 +1,6 @@
 ---
 title: Dellen — Minimalist Videography Portfolio
-download: https://sidebaysupply.lemonsqueezy.com/buy/e954ff6d-99b4-4dc9-8e18-c965fe096f2f
+download: https://sidebaysupply.lemonsqueezy.com/buy/e954ff6d-99b4-4dc9-8e18-c965fe096f2f?aff=YGGpO5
 demo: https://dellen-template.framer.website/
 price: 59
 author: "Sidebay Supply"

@@ -1,6 +1,6 @@
 ---
 title: RUN — Minimal SaaS & Ai Template
-download: https://shop.slavaburian.com/buy/c83b5a3c-198d-4453-ad40-224d67bad2f0
+download: https://shop.slavaburian.com/buy/c83b5a3c-198d-4453-ad40-224d67bad2f0?aff=YGGpO5
 demo: https://run.framer.website/?via=vebn_
 price: 99
 author: "Slava Burian"

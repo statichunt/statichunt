@@ -1,6 +1,6 @@
 ---
 title: Tyne — Digital Agency Landing Page
-download: https://wize.lemonsqueezy.com/checkout/buy/1d8e342a-03ee-4b7d-ba08-1b1d504696d5
+download: https://wize.lemonsqueezy.com/checkout/buy/1d8e342a-03ee-4b7d-ba08-1b1d504696d5?aff=YGGpO5
 demo: https://tyne.framer.website/
 price: 69
 author: "Wize"

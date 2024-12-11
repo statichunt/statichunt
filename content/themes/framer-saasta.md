@@ -1,6 +1,6 @@
 ---
 title: Saasta — SaaS, AI & Startup Template
-download: https://framer.com/projects/new?duplicate=YI6QUgwX3dAQkad97tpm&via=tanjim38&duplicateType=siteTemplate
+download: https://framer.com/projects/new?duplicate=YI6QUgwX3dAQkad97tpm&via=tanjim38&duplicateType=siteTemplate?aff=YGGpO5
 demo: https://saasta.framer.ai/
 author: "Tanjim Islam"
 date: 2024-11-30T08:08:23.812Z

@@ -1,6 +1,6 @@
 ---
 title: Agenxy — Marketing Agencie Website
-download: https://wize.lemonsqueezy.com/checkout/buy/e11b12bc-ee46-4048-a4b8-0884a2b81d18
+download: https://wize.lemonsqueezy.com/checkout/buy/e11b12bc-ee46-4048-a4b8-0884a2b81d18?aff=YGGpO5
 demo: https://agenxy.framer.website/
 price: 79
 author: "Wize"

@@ -1,6 +1,6 @@
 ---
 title: Amidj
-download: https://preview.webflow.com/preview/amidj-template?utm_medium=preview_link&utm_source=designer&utm_content=amidj-template&preview=873456c6d1baf5dd5962b4a6bc87e406&locale=en&workflow=preview
+download: https://preview.webflow.com/preview/amidj-template?utm_medium=preview_link&utm_source=designer&utm_content=amidj-template&preview=873456c6d1baf5dd5962b4a6bc87e406&locale=en&workflow=preview?aff=YGGpO5
 demo: https://amidj-template.webflow.io/
 price: 129
 author: "Sidebay Supply"

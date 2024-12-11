@@ -1,6 +1,6 @@
 ---
 title: Educate — Digital Course Template
-download: https://wize.lemonsqueezy.com/buy/d6bff7ce-2f12-4b77-ae20-30dccc4a0a29
+download: https://wize.lemonsqueezy.com/buy/d6bff7ce-2f12-4b77-ae20-30dccc4a0a29?aff=YGGpO5
 demo: https://educate.framer.website/
 price: 69
 author: "Wize"

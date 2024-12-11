@@ -1,6 +1,6 @@
 ---
 title: Kjell — Portfolio Template
-download: https://gola.lemonsqueezy.com/checkout/buy/2a5cda39-af00-4832-9e32-69fade19adf5
+download: https://gola.lemonsqueezy.com/checkout/buy/2a5cda39-af00-4832-9e32-69fade19adf5?aff=YGGpO5
 demo: https://kjell-template.framer.website/
 price: 59
 author: "Pawel Gola"

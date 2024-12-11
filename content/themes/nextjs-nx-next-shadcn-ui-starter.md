@@ -10,7 +10,8 @@ description: Starter repository for integrating shadcn/ui with Next.js in an Nx 
 ssg:
   - Nextjs
 css: []
-ui: []
+ui:
+  - Shadcn
 cms: []
 category: []
 draft: false

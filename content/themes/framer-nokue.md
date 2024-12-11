@@ -1,6 +1,6 @@
 ---
 title: Nokue — Minimal Agency Portfolio
-download: https://sidebaysupply.lemonsqueezy.com/buy/36d57eeb-3497-4de3-8ae4-d4538e5ff479
+download: https://sidebaysupply.lemonsqueezy.com/buy/36d57eeb-3497-4de3-8ae4-d4538e5ff479?aff=YGGpO5
 demo: https://nokue-template.framer.website/
 price: 59
 author: "Sidebay Supply"

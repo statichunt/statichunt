@@ -1,6 +1,6 @@
 ---
 title: Jurri — Law Firm Template
-download: https://gola.lemonsqueezy.com/buy/accda6a9-9bc0-44ee-80fe-62c941022a16
+download: https://gola.lemonsqueezy.com/buy/accda6a9-9bc0-44ee-80fe-62c941022a16?aff=YGGpO5
 demo: https://jurri-template.framer.website/
 price: 59
 author: "Pawel Gola"

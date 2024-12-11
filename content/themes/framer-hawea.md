@@ -1,6 +1,6 @@
 ---
 title: Hawea — Brutalist Photography Portfolio
-download: https://sidebaysupply.lemonsqueezy.com/buy/9f8a3a45-00a5-43fe-8ffe-60241ef2ec1b
+download: https://sidebaysupply.lemonsqueezy.com/buy/9f8a3a45-00a5-43fe-8ffe-60241ef2ec1b?aff=YGGpO5
 demo: https://hawea-template.framer.website/
 price: 29
 author: "Sidebay Supply"

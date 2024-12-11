@@ -1,6 +1,6 @@
 ---
 title: Hanssen — Minimal Portfolio Template
-download: https://framer.com/projects/new?duplicate=BUG1xfKUw9A6bQCh2SO3&via=pawelgola&duplicateType=siteTemplate
+download: https://framer.com/projects/new?duplicate=BUG1xfKUw9A6bQCh2SO3&via=pawelgola&duplicateType=siteTemplate?aff=YGGpO5
 demo: https://hanssen-template.framer.website/?via=pawelgola
 author: "Pawel Gola"
 date: 2024-11-30T08:39:04.457Z

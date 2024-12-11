@@ -1,6 +1,6 @@
 ---
 title: ArchEstate — Real Estate Template
-download: https://pixsellz.lemonsqueezy.com/buy/81aebc5b-222c-42f6-8acd-279b5e2026bd
+download: https://pixsellz.lemonsqueezy.com/buy/81aebc5b-222c-42f6-8acd-279b5e2026bd?aff=YGGpO5
 demo: https://archestate.framer.ai/
 price: 38
 author: "Pixsellz"

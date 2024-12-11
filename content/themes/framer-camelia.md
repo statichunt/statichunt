@@ -1,6 +1,6 @@
 ---
 title: Camelia — Beauty Professional Website
-download: https://vebn.lemonsqueezy.com/checkout/buy/109c465e-929f-46bd-81ed-6c057e5508ab
+download: https://vebn.lemonsqueezy.com/checkout/buy/109c465e-929f-46bd-81ed-6c057e5508ab?aff=YGGpO5
 demo: https://camelia.framer.website/
 price: 59
 author: "Slava Burian"

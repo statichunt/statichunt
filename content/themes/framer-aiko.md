@@ -1,6 +1,6 @@
 ---
 title: Aiko — Portfolio Framer Template
-download: https://gola.lemonsqueezy.com/buy/e5d98929-a097-417f-a539-631e7a478609
+download: https://gola.lemonsqueezy.com/buy/e5d98929-a097-417f-a539-631e7a478609?aff=YGGpO5
 demo: https://aiko-template.framer.website/
 price: 59
 author: "Pawel Gola"

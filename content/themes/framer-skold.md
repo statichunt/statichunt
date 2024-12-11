@@ -1,6 +1,6 @@
 ---
 title: Skold — Minimal Agency Template
-download: https://gola.lemonsqueezy.com/buy/74d4cc29-c1c1-4d69-8f09-aa1ced0de0f7
+download: https://gola.lemonsqueezy.com/buy/74d4cc29-c1c1-4d69-8f09-aa1ced0de0f7?aff=YGGpO5
 demo: https://skold-template.framer.website/
 price: 59
 author: "Pawel Gola"

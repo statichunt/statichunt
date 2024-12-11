@@ -1,6 +1,6 @@
 ---
 title: Whanga — Minimalist Portfolio Canvas
-download: https://sidebaysupply.lemonsqueezy.com/buy/29b6011c-b853-44d1-98bb-53188160ed0d
+download: https://sidebaysupply.lemonsqueezy.com/buy/29b6011c-b853-44d1-98bb-53188160ed0d?aff=YGGpO5
 demo: https://whanga-template.framer.website/
 price: 39
 author: "Sidebay Supply"

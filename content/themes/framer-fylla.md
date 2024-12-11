@@ -1,6 +1,6 @@
 ---
 title: Fylla — Modern Portfolio Template
-download: https://gola.lemonsqueezy.com/buy/a2dfcf32-263f-4918-b34d-461a6a652337
+download: https://gola.lemonsqueezy.com/buy/a2dfcf32-263f-4918-b34d-461a6a652337?aff=YGGpO5
 demo: https://fylla-template.framer.website/?via=pawelgola
 price: 59
 author: "Pawel Gola"

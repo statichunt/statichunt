@@ -1,6 +1,6 @@
 ---
 title: Kista — Agency Template
-download: https://gola.lemonsqueezy.com/checkout/buy/cee44781-d9f4-4fed-9883-1882b3fdc7fe
+download: https://gola.lemonsqueezy.com/checkout/buy/cee44781-d9f4-4fed-9883-1882b3fdc7fe?aff=YGGpO5
 demo: https://kista-template.framer.website/
 price: 59
 author: "Pawel Gola"

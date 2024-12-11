@@ -1,6 +1,6 @@
 ---
 title: LUMO — Portfolio Website
-download: https://tanjim.lemonsqueezy.com/checkout/buy/455bd820-ed74-40ca-bfd0-3940adf44f81
+download: https://tanjim.lemonsqueezy.com/checkout/buy/455bd820-ed74-40ca-bfd0-3940adf44f81?aff=YGGpO5
 demo: https://lumo.framer.website/
 price: 39
 author: "Tanjim Islam"

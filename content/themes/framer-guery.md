@@ -1,6 +1,6 @@
 ---
 title: Guery — Minimal Portfolio Showcase
-download: https://sidebaysupply.lemonsqueezy.com/buy/4ab8145a-90d0-405e-8140-81e24e252e71
+download: https://sidebaysupply.lemonsqueezy.com/buy/4ab8145a-90d0-405e-8140-81e24e252e71?aff=YGGpO5
 demo: https://guery-template.framer.website/
 price: 69
 author: "Sidebay Supply"

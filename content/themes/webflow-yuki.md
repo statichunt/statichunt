@@ -1,6 +1,6 @@
 ---
 title: Yuki
-download: https://preview.webflow.com/preview/yuki-template?utm_medium=preview_link&utm_source=designer&utm_content=yuki-template&preview=2f3b55d12cbb1c52181a893b4f593ec3&locale=en&workflow=preview
+download: https://preview.webflow.com/preview/yuki-template?utm_medium=preview_link&utm_source=designer&utm_content=yuki-template&preview=2f3b55d12cbb1c52181a893b4f593ec3&locale=en&workflow=preview?aff=YGGpO5
 demo: https://yuki-template.webflow.io/
 price: 79
 author: "Pawel Gola"

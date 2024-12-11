@@ -1,6 +1,6 @@
 ---
 title: Nile — Agency Landing Page
-download: https://framer.com/projects/new?duplicate=chNPLfyn6EVgKm8xard4&via=the0teo&duplicateType=siteTemplate
+download: https://framer.com/projects/new?duplicate=chNPLfyn6EVgKm8xard4&via=the0teo&duplicateType=siteTemplate?aff=YGGpO5
 demo: https://nile.framer.website/
 author: "Wize"
 date: 2024-11-30T08:11:50.455Z

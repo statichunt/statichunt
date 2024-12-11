@@ -1,6 +1,6 @@
 ---
 title: Aspect — Personal portfolio template
-download: https://pixsellz.lemonsqueezy.com/buy/078f8bec-aa17-4900-8de3-7831f2cfb5b2
+download: https://pixsellz.lemonsqueezy.com/buy/078f8bec-aa17-4900-8de3-7831f2cfb5b2?aff=YGGpO5
 demo: https://aspect.framer.ai/
 price: 38
 author: "Pixsellz"

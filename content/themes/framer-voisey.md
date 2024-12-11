@@ -1,6 +1,6 @@
 ---
 title: Voisey — Minimalist Ecommerce Template
-download: https://sidebaysupply.lemonsqueezy.com/buy/1ecfadb0-ff9b-45f3-ba9f-a045ed0688dd
+download: https://sidebaysupply.lemonsqueezy.com/buy/1ecfadb0-ff9b-45f3-ba9f-a045ed0688dd?aff=YGGpO5
 demo: https://voisey-template.framer.website/
 price: 59
 author: "Sidebay Supply"

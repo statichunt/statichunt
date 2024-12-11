@@ -1,6 +1,6 @@
 ---
 title: Salesrocket — SaaS, AI, & Startup Template
-download: https://tanjim.lemonsqueezy.com/buy/2eeb20c5-68ee-4d06-987a-2b27c7bf4efb
+download: https://tanjim.lemonsqueezy.com/buy/2eeb20c5-68ee-4d06-987a-2b27c7bf4efb?aff=YGGpO5
 demo: https://salesrocket.framer.ai/
 price: 49
 author: "Tanjim Islam"

@@ -1,6 +1,6 @@
 ---
 title: Nikka — Minimal Framer Template
-download: https://gola.lemonsqueezy.com/buy/a49b0463-7fa3-4b7a-9cbb-5703c3257985
+download: https://gola.lemonsqueezy.com/buy/a49b0463-7fa3-4b7a-9cbb-5703c3257985?aff=YGGpO5
 demo: https://nikka-template.framer.website/?via=pawelgola
 price: 59
 author: "Pawel Gola"

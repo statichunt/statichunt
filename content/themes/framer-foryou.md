@@ -1,6 +1,6 @@
 ---
 title: FORYOU — Agency Template
-download: https://wize.lemonsqueezy.com/checkout/buy/0d41d0ae-c6f0-45d7-9886-9593b68604c2
+download: https://wize.lemonsqueezy.com/checkout/buy/0d41d0ae-c6f0-45d7-9886-9593b68604c2?aff=YGGpO5
 demo: https://foryoutemplate.framer.website/
 price: 69
 author: "Wize"

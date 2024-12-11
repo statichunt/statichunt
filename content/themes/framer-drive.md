@@ -1,6 +1,6 @@
 ---
 title: Drive — Ai & SaaS Template
-download: https://shop.slavaburian.com/buy/54577ba9-2ad7-4ee4-8eda-b833d750a89b
+download: https://shop.slavaburian.com/buy/54577ba9-2ad7-4ee4-8eda-b833d750a89b?aff=YGGpO5
 demo: https://drive.framer.website/?via=vebn_
 price: 99
 author: "Slava Burian"

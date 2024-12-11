@@ -1,6 +1,6 @@
 ---
 title: Qitchen — Restaurant Template
-download: https://framer.com/projects/new?duplicate=r4djQioLH3urbPVcB0vL&via=pawelgola&duplicateType=siteTemplate
+download: https://framer.com/projects/new?duplicate=r4djQioLH3urbPVcB0vL&via=pawelgola&duplicateType=siteTemplate?aff=YGGpO5
 demo: https://qitchen-template.framer.website/?via=pawelgola
 author: "Pawel Gola"
 date: 2024-11-30T08:19:13.506Z

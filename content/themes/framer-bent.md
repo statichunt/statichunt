@@ -1,6 +1,6 @@
 ---
 title: Bent — Minimal Portfolio
-download: https://gola.lemonsqueezy.com/buy/b437de29-2f95-4523-a819-e524987e4a3f
+download: https://gola.lemonsqueezy.com/buy/b437de29-2f95-4523-a819-e524987e4a3f?aff=YGGpO5
 demo: https://bent-template.framer.website/
 price: 59
 author: "Pawel Gola"

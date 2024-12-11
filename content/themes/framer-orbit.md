@@ -1,6 +1,6 @@
 ---
 title: Orbit — Saas Template
-download: https://wize.lemonsqueezy.com/buy/5fa19ac4-4e21-4eb4-bf68-c51e3f3821c9
+download: https://wize.lemonsqueezy.com/buy/5fa19ac4-4e21-4eb4-bf68-c51e3f3821c9?aff=YGGpO5
 demo: https://orbit-template.framer.website/
 price: 49
 author: "Wize"

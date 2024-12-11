@@ -13,7 +13,8 @@ ssg:
 css:
   - Tailwind
   - PostCSS
-ui: []
+ui:
+  - Shadcn
 cms: []
 category: []
 draft: false

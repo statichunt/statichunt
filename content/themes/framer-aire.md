@@ -1,6 +1,6 @@
 ---
 title: Aire — Modern Startup Template
-download: https://sidebaysupply.lemonsqueezy.com/buy/a953b425-6de0-456e-a86b-b16a2d6c763d
+download: https://sidebaysupply.lemonsqueezy.com/buy/a953b425-6de0-456e-a86b-b16a2d6c763d?aff=YGGpO5
 demo: https://aire-template.framer.website/
 price: 49
 author: "Sidebay Supply"

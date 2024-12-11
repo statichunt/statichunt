@@ -1,6 +1,6 @@
 ---
 title: Solveig — Portfolio Template
-download: https://framer.com/projects/new?duplicate=aEq5tuFYQegt8loMBmIc&via=pawelgola&duplicateType=siteTemplate
+download: https://framer.com/projects/new?duplicate=aEq5tuFYQegt8loMBmIc&via=pawelgola&duplicateType=siteTemplate?aff=YGGpO5
 demo: https://solveig.framer.website/?via=pawelgola
 author: "Pawel Gola"
 date: 2024-11-30T08:43:30.949Z

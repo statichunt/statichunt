@@ -1,6 +1,6 @@
 ---
 title: Glacier — Email Marketing Agency Template
-download: https://wize.lemonsqueezy.com/buy/1c5ce779-7698-4a71-b07c-3d0fc2293ec6
+download: https://wize.lemonsqueezy.com/buy/1c5ce779-7698-4a71-b07c-3d0fc2293ec6?aff=YGGpO5
 demo: https://glaciertemplate.framer.website/
 price: 39
 author: "Wize"

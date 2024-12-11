@@ -1,6 +1,6 @@
 ---
 title: Eyasi — Dark Saas Template
-download: https://sidebaysupply.lemonsqueezy.com/buy/7d38232e-182d-42c9-a956-4736897d77af
+download: https://sidebaysupply.lemonsqueezy.com/buy/7d38232e-182d-42c9-a956-4736897d77af?aff=YGGpO5
 demo: https://eyasi-template.framer.website/
 price: 59
 author: "Sidebay Supply"

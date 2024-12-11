@@ -1,6 +1,6 @@
 ---
 title: Forge — Consultant/Agency Template
-download: https://wize.lemonsqueezy.com/buy/92efa437-a668-4e91-844b-2004c74d5a22
+download: https://wize.lemonsqueezy.com/buy/92efa437-a668-4e91-844b-2004c74d5a22?aff=YGGpO5
 demo: https://forgetemplate.framer.website/
 price: 49
 author: "Wize"
