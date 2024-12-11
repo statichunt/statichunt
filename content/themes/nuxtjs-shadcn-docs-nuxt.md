@@ -9,7 +9,8 @@ description: A nuxt content docs theme built with shadcn-vue
 ssg:
   - Nuxtjs
 css: []
-ui: []
+ui:
+  - Shadcn
 cms: []
 category: []
 draft: false
