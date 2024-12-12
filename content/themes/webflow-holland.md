@@ -1,6 +1,6 @@
 ---
 title: Holland
-download: https://preview.webflow.com/preview/holland-template?utm_medium=preview_link&utm_source=designer&utm_content=holland-template&preview=43a958a1255a6f0a911011ec7902a64c&workflow=preview
+download: https://fouroom.lemonsqueezy.com/buy/d91a4586-cccd-488a-b33f-d08e13de1b12?aff=YGGpO5
 demo: https://holland-template.webflow.io/
 price: 79
 author: "Fouroom"

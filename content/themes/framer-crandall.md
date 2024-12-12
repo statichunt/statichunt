@@ -1,6 +1,6 @@
 ---
 title: Crandall — Website Designer Template
-download: https://fouroom.lemonsqueezy.com/checkout/buy/8e0c8eed-ac54-428d-8d6e-07bc461a47e4
+download: https://fouroom.lemonsqueezy.com/buy/0adc74d1-a554-40e2-a412-c510cbd596fa?aff=YGGpO5
 demo: https://crandall.framer.website/?via=fouroom
 price: 49
 author: "Fouroom"

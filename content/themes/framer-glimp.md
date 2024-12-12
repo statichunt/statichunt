@@ -1,6 +1,6 @@
 ---
 title: Glimp — Saas & Startup Framer Template
-download: https://framerdevs.lemonsqueezy.com/buy/fed86a24-bc8d-443c-b940-967d30a3711d
+download: https://framerdevs.lemonsqueezy.com/buy/fed86a24-bc8d-443c-b940-967d30a3711d?aff=YGGpO5
 demo: https://glimp.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

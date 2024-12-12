@@ -1,6 +1,6 @@
 ---
 title: StudioFour
-download: https://preview.webflow.com/preview/studio4template?utm_medium=preview_link&utm_source=designer&utm_content=studio4template&preview=4d07a019de41e658c4ab95aad9189ada&locale=en&workflow=preview
+download: https://fouroom.lemonsqueezy.com/buy/f4bfc494-1636-41a8-957e-950c89b49836?aff=YGGpO5
 demo: https://studio4template.webflow.io/
 price: 49
 author: "Fouroom"

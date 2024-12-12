@@ -1,6 +1,6 @@
 ---
 title: Arcline — Modern Architecture template
-download: https://framerdevs.lemonsqueezy.com/buy/ae81847d-6a45-444a-abf1-2b66b978be32
+download: https://framerdevs.lemonsqueezy.com/buy/ae81847d-6a45-444a-abf1-2b66b978be32?aff=YGGpO5
 demo: https://arcline.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

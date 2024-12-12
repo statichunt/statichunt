@@ -1,6 +1,6 @@
 ---
 title: GymPro — Gym and Fitness Template
-download: https://framerdevs.lemonsqueezy.com/buy/1af144e1-3719-4f0f-9b05-ad6f3170a5d5
+download: https://framerdevs.lemonsqueezy.com/buy/1af144e1-3719-4f0f-9b05-ad6f3170a5d5?aff=YGGpO5
 demo: https://gympro.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

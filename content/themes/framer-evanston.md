@@ -1,6 +1,6 @@
 ---
 title: Evanston — Minimalist Portfolio
-download: https://fouroom.lemonsqueezy.com/checkout/buy/ead66701-382c-4890-a433-2860fbc0665f
+download: https://fouroom.lemonsqueezy.com/buy/ead66701-382c-4890-a433-2860fbc0665f?aff=YGGpO5
 demo: https://evanston.framer.website/?via=fouroom
 price: 29
 author: "Fouroom"

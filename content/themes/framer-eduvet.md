@@ -1,6 +1,6 @@
 ---
 title: Eduvet — Education and University Template
-download: https://framerdevs.lemonsqueezy.com/buy/8b335f9e-359c-43c9-8f42-2d39bb3344a6
+download: https://framerdevs.lemonsqueezy.com/buy/8b335f9e-359c-43c9-8f42-2d39bb3344a6?aff=YGGpO5
 demo: https://eduvet.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

@@ -1,6 +1,6 @@
 ---
 title: RARE — Music Professionals Template
-download: https://framecreate.lemonsqueezy.com/buy/096473e4-7ded-45bd-8827-e69ecd39ba6b
+download: https://framecreate.lemonsqueezy.com/buy/096473e4-7ded-45bd-8827-e69ecd39ba6b?aff=YGGpO5
 demo: https://rarestudio.framer.website/
 price: 59
 author: "frame.create"

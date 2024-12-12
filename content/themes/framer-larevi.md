@@ -1,6 +1,6 @@
 ---
 title: LaRevi — Restaurant and Cafe Template
-download: https://framerdevs.lemonsqueezy.com/buy/c46b26a1-888f-483a-810a-3348407a5e21
+download: https://framerdevs.lemonsqueezy.com/buy/c46b26a1-888f-483a-810a-3348407a5e21?aff=YGGpO5
 demo: https://larevi.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

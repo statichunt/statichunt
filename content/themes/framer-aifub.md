@@ -1,6 +1,6 @@
 ---
 title: AiFub — Ai Business Agency Template
-download: https://framerdevs.lemonsqueezy.com/buy/2a934033-00c5-4a7b-b7d2-d7a1c7c7036d
+download: https://framerdevs.lemonsqueezy.com/buy/2a934033-00c5-4a7b-b7d2-d7a1c7c7036d?aff=YGGpO5
 demo: https://aifub.framer.ai/?via=framerdevs
 price: 39
 author: "FramerDevs"

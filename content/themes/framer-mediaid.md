@@ -1,6 +1,6 @@
 ---
 title: MediAid — Medical & Health Care Template
-download: https://framerdevs.lemonsqueezy.com/buy/06af40c6-33a2-4574-8afe-d1d7b0031570
+download: https://framerdevs.lemonsqueezy.com/buy/06af40c6-33a2-4574-8afe-d1d7b0031570?aff=YGGpO5
 demo: https://mediaid.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

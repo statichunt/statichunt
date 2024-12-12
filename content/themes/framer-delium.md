@@ -1,6 +1,6 @@
 ---
 title: Delium — Saas Website
-download: https://delani.lemonsqueezy.com/buy/c049a064-2220-4d39-b371-11d625b3ce2f
+download: https://delani.lemonsqueezy.com/buy/c049a064-2220-4d39-b371-11d625b3ce2f?aff=YGGpO5
 demo: https://brilliant-updates-910356.framer.app/
 price: 50
 author: "Delani"

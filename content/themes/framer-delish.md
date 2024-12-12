@@ -1,6 +1,6 @@
 ---
 title: Delish — Marketing & Seo Agency
-download: https://delani.lemonsqueezy.com/buy/bcd9a59b-25eb-44c7-ab7a-319f18b2d9d3
+download: https://delani.lemonsqueezy.com/buy/bcd9a59b-25eb-44c7-ab7a-319f18b2d9d3?aff=YGGpO5
 demo: https://wonderful-pattern-157577.framer.app/
 price: 30
 author: "Delani"

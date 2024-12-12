@@ -1,6 +1,6 @@
 ---
 title: WRLD — Agency Profile
-download: https://framecreate.lemonsqueezy.com/buy/2011447a-2782-483b-bb36-3a3a64d1b46b
+download: https://framecreate.lemonsqueezy.com/buy/2011447a-2782-483b-bb36-3a3a64d1b46b?aff=YGGpO5
 demo: https://worldwide.framer.website/
 price: 50
 author: "frame.create"

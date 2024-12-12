@@ -1,6 +1,6 @@
 ---
 title: Exxus — Business & Startup Template
-download: https://enesates.lemonsqueezy.com/checkout/buy/ee1e1d8d-c4ee-4542-9ab0-3a2b0f83044b
+download: https://statichunt.com/themes/framer-exxus?aff=YGGpO5
 demo: https://exxus.framer.website/
 price: 59
 author: "Enes Ates"

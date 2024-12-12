@@ -1,6 +1,6 @@
 ---
 title: Comet — Saas & Startup Website
-download: https://enesates.lemonsqueezy.com/checkout/buy/3e8be8e8-d604-47a6-a818-888cfa2558ca
+download: https://enesates.lemonsqueezy.com/buy/3e8be8e8-d604-47a6-a818-888cfa2558ca?aff=YGGpO5
 demo: https://usecomet.framer.website/
 price: 79
 author: "Enes Ates"

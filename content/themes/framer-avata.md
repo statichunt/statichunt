@@ -1,6 +1,6 @@
 ---
 title: Avata — Digital Agency Template
-download: https://framerdevs.lemonsqueezy.com/checkout/buy/c582d816-9b4c-4784-8aff-03b511c09563
+download: https://framerdevs.lemonsqueezy.com/buy/c582d816-9b4c-4784-8aff-03b511c09563?aff=YGGpO5
 demo: https://avata.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

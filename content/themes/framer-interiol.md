@@ -1,6 +1,6 @@
 ---
 title: Interiol — Modern Interior Service Template
-download: https://framerdevs.lemonsqueezy.com/buy/28d69a8c-1d04-4bda-a5dd-e10105423ce2
+download: https://framerdevs.lemonsqueezy.com/buy/28d69a8c-1d04-4bda-a5dd-e10105423ce2?aff=YGGpO5
 demo: https://interiol.framer.website/?via=framerdevs
 price: 29
 author: "FramerDevs"

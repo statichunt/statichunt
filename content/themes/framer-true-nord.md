@@ -1,6 +1,6 @@
 ---
 title: True Nord — Sport Agency Template
-download: https://framecreate.lemonsqueezy.com/buy/bc238d7b-e812-4707-a91d-87c2a23f11d8
+download: https://framecreate.lemonsqueezy.com/buy/bc238d7b-e812-4707-a91d-87c2a23f11d8?aff=YGGpO5
 demo: https://truenord.framer.website/
 price: 50
 author: "frame.create"

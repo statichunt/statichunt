@@ -1,6 +1,6 @@
 ---
 title: AstroStudios — Creative Studio Template
-download: https://framecreate.lemonsqueezy.com/buy/1a722687-f476-41f0-b6b8-1d1d6b7b74b6
+download: https://framecreate.lemonsqueezy.com/buy/1a722687-f476-41f0-b6b8-1d1d6b7b74b6?aff=YGGpO5
 demo: https://astrostudios.framer.website/
 price: 50
 author: "frame.create"
