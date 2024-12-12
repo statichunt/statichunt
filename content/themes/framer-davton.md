@@ -1,6 +1,6 @@
 ---
 title: Davton — Multi-layout SaaS Startup Template
-download: https://finestdevs.com/buy-davton
+download: https://framerbite.com/product/davton?aff=YGGpO5
 demo: https://davton.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

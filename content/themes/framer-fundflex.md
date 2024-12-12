@@ -1,6 +1,6 @@
 ---
 title: FundFlex — Saas & Startup Template
-download: https://finestdevs.com/get-fundflexlite?duplicateType=siteTemplate
+download: https://framerbite.com/product/fundflex?aff=YGGpO5
 demo: https://fundflexlite.framer.website/
 author: "Framerbite"
 date: 2024-11-30T08:38:05.775Z

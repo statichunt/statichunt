@@ -1,6 +1,6 @@
 ---
 title: Abstract — For Architecture & Interior Firm
-download: https://finestdevs.com/buy-abstract
+download: https://framerbite.com/product/abstract?aff=YGGpO5
 demo: https://abstraact.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

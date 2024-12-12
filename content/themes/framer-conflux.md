@@ -1,6 +1,6 @@
 ---
 title: Conflux — Event & Conference Template
-download: https://finestdevs.com/buy-conflux
+download: https://framerbite.com/product/conflux?aff=YGGpO5
 demo: https://conflux.framer.ai/?via=framerbite
 price: 29
 author: "Framerbite"

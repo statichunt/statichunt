@@ -1,6 +1,6 @@
 ---
 title: Turbox — Multi-layout SaaS Startup Template
-download: https://finestdevs.com/buy-turbox
+download: https://framerbite.com/product/turbox?aff=YGGpO5
 demo: https://turbox.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

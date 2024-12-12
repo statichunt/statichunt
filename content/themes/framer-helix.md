@@ -1,6 +1,6 @@
 ---
 title: Helix — Business Website
-download: https://finestdevs.com/buy-helix
+download: https://framerbite.com/product/helix?aff=YGGpO5
 demo: https://helix.framer.website/
 price: 29
 author: "Framerbite"

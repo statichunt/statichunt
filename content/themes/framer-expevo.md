@@ -1,6 +1,6 @@
 ---
 title: Expevo — For SaaS & Startup Website
-download: https://finestdevs.com/buy-expevo
+download: https://framerbite.com/product/expevo?aff=YGGpO5
 demo: https://expevo.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

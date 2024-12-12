@@ -1,6 +1,6 @@
 ---
 title: Cuisine — Restaurants And Food Template
-download: https://finestdevs.com/buy-cuisine
+download: https://framerbite.com/product/cuisine?aff=YGGpO5
 demo: https://cuisine.framer.website/
 price: 29
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Thrive — Multi-layout SaaS Startup Template
-download: https://finestdevs.com/buy-thrive
+download: https://framerbite.com/product/thrive?aff=YGGpO5
 demo: https://thrive.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Lawyer — Law Firm Website
-download: https://finestdevs.com/buy-lawyer
+download: https://framerbite.com/product/lawyer?aff=YGGpO5
 demo: https://lawyer.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

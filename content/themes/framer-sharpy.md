@@ -1,6 +1,6 @@
 ---
 title: Sharpy — Saas Template
-download: https://finestdevs.com/get-sharpy?duplicateType=siteTemplate
+download: https://framerbite.com/product/sharpyx?aff=YGGpO5
 demo: https://sharpy.framer.website/?via=framerbite
 author: "Framerbite"
 date: 2024-11-30T08:57:52.409Z

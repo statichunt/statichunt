@@ -1,6 +1,6 @@
 ---
 title: CloudPeak — Free SaaS & Startup Template
-download: https://framer.com/projects/new?duplicate=BVnICkIJgOLRY0WtW9yy&via=framerbite&duplicateType=siteTemplate
+download: https://framerbite.com/product/cloudpeak?aff=YGGpO5
 demo: https://cloudpeak.framer.website/
 author: "Framerbite"
 date: 2024-11-30T08:08:03.523Z

@@ -1,6 +1,6 @@
 ---
 title: Mubly — Software & Mobile App Template
-download: https://finestdevs.com/buy-mubly
+download: https://framerbite.com/product/mubly?aff=YGGpO5
 demo: https://mubly.framer.ai/
 price: 49
 author: "Framerbite"

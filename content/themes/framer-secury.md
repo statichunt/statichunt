@@ -1,6 +1,6 @@
 ---
 title: Secury — Blockchain & Web3 Template
-download: https://finestdevs.com/buy-secury
+download: https://framerbite.com/product/secury?aff=YGGpO5
 demo: https://secury.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

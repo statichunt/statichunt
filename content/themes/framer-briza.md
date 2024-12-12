@@ -1,6 +1,6 @@
 ---
 title: Briza — Interior Design Firm Template
-download: https://finestdevs.com/buy-briza
+download: https://framerbite.com/product/briza?aff=YGGpO5
 demo: https://briza.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

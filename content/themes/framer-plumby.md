@@ -1,6 +1,6 @@
 ---
 title: Plumby — Local Business Template
-download: https://finestdevs.com/buy-plumby
+download: https://framerbite.com/product/plumby?aff=YGGpO5
 demo: https://plumby.framer.website/
 price: 29
 author: "Framerbite"

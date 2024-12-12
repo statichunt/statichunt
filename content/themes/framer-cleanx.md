@@ -1,6 +1,6 @@
 ---
 title: CleanX — Cleaning Services Template
-download: https://finestdevs.com/buy-cleanx
+download: https://framerbite.com/product/cleanx?aff=YGGpO5
 demo: https://cleanx.framer.website/?via=framerbite
 price: 39
 author: "Framerbite"

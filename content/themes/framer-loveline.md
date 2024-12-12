@@ -1,6 +1,6 @@
 ---
 title: Loveline — Weddings Event Website
-download: https://finestdevs.com/buy-loveline
+download: https://framerbite.com/product/loveline?aff=YGGpO5
 demo: https://loveline.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

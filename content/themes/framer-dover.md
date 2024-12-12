@@ -1,6 +1,6 @@
 ---
 title: Dover — Multi-layout SaaS Template
-download: https://finestdevs.com/buy-dover
+download: https://framerbite.com/product/dover?aff=YGGpO5
 demo: https://dover.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

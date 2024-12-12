@@ -1,6 +1,6 @@
 ---
 title: Simplly — Multi-layout SaaS & Startup
-download: https://finestdevs.com/buy-simplly
+download: https://framerbite.com/product/simplly?aff=YGGpO5
 demo: https://simplly.framer.website/
 price: 49
 author: "Framerbite"

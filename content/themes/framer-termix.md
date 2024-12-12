@@ -1,6 +1,6 @@
 ---
 title: Termix — Startup Website Template
-download: https://finestdevs.com/buy-termix
+download: https://framerbite.com/product/termix?aff=YGGpO5
 demo: https://termix.framer.website/
 price: 49
 author: "Framerbite"

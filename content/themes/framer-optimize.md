@@ -1,6 +1,6 @@
 ---
 title: Optimize — SaaS And Startup Template
-download: https://finestdevs.com/buy-optimize
+download: https://framerbite.com/product/optimize?aff=YGGpO5
 demo: https://optimize.framer.website/
 price: 79
 author: "Framerbite"

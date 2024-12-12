@@ -1,6 +1,6 @@
 ---
 title: Nexo — For Multi-layout SaaS & Startup
-download: https://finestdevs.com/nexo-main
+download: https://framerbite.com/product/nexo?aff=YGGpO5
 demo: https://nexo.framer.website/
 price: 49
 author: "Framerbite"

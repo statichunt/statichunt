@@ -1,6 +1,6 @@
 ---
 title: Shifter — Job Board Template
-download: https://finestdevs.com/buy-shifter?duplicateType=siteTemplate
+download: https://framerbite.com/product/shifter?aff=YGGpO5
 demo: https://jobshifter.framer.website/
 author: "Framerbite"
 date: 2024-11-30T08:14:05.926Z

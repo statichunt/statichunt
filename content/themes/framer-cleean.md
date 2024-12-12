@@ -1,6 +1,6 @@
 ---
 title: Cleean — Cleaning Services Template
-download: https://finestdevs.com/buy-cleean
+download: https://framerbite.com/product/cleean?aff=YGGpO5
 demo: https://cleean.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Clowd — Multi-layout SaaS Startup Template
-download: https://finestdevs.com/clowd-main
+download: https://framerbite.com/product/clowd?aff=YGGpO5
 demo: https://clowd.framer.website/
 price: 49
 author: "Framerbite"

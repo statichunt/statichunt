@@ -1,6 +1,6 @@
 ---
 title: Hook — Digital Agency Template
-download: https://finestdevs.com/buy-hook
+download: https://framerbite.com/product/hook?aff=YGGpO5
 demo: https://hook.framer.website/
 price: 29
 author: "Framerbite"

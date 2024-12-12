@@ -1,6 +1,6 @@
 ---
 title: Zaply — Multi-layout Startup Template
-download: https://finestdevs.com/zaply-main
+download: https://framerbite.com/product/zaply?aff=YGGpO5
 demo: https://zaply.framer.website/
 price: 49
 author: "Framerbite"

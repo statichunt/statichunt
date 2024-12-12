@@ -1,6 +1,6 @@
 ---
 title: Strivo — Multi-layout SaaS Startup Template
-download: https://finestdevs.com/buy-strivo
+download: https://framerbite.com/product/strivo?aff=YGGpO5
 demo: https://strivo.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

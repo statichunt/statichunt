@@ -1,6 +1,6 @@
 ---
 title: Snapy — Multi-layout SaaS Startup Template
-download: https://finestdevs.com/buy-snapy
+download: https://framerbite.com/product/snapy?aff=YGGpO5
 demo: https://snapy.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

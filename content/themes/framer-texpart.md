@@ -1,6 +1,6 @@
 ---
 title: Texpart — It & Technology Website
-download: https://finestdevs.com/buy-texpart
+download: https://framerbite.com/product/texpart?aff=YGGpO5
 demo: https://texpart.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

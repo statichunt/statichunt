@@ -1,6 +1,6 @@
 ---
 title: QuickFix — For Local Business Websites
-download: https://finestdevs.com/buy-quickfix
+download: https://framerbite.com/product/quickfix?aff=YGGpO5
 demo: https://quickfix.framer.website/?via=framerbite
 price: 39
 author: "Framerbite"

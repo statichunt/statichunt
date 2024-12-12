@@ -1,6 +1,6 @@
 ---
 title: Savi — Software & Mobile App Template
-download: https://finestdevs.com/buy-savi
+download: https://framerbite.com/product/savi?aff=YGGpO5
 demo: https://savi.framer.ai/?via=framerbite
 price: 49
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Glasto — Multi-layout SaaS Template
-download: https://finestdevs.com/buy-glasto
+download: https://framerbite.com/product/glasto?aff=YGGpO5
 demo: https://glasto.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

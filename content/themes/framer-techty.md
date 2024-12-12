@@ -1,6 +1,6 @@
 ---
 title: Techty — Modern It Webstie
-download: https://finestdevs.com/techty-main
+download: https://framerbite.com/product/techty?aff=YGGpO5
 demo: https://techty.framer.website/?via=framerbite
 price: 27
 author: "Framerbite"

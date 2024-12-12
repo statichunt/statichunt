@@ -1,6 +1,6 @@
 ---
 title: Krafty — Digital Agency & Studio Template
-download: https://finestdevs.com/buy-krafty
+download: https://framerbite.com/product/krafty?aff=YGGpO5
 demo: https://krafty.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

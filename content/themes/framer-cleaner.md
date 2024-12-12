@@ -1,6 +1,6 @@
 ---
 title: Cleaner — Cleaning Services Website
-download: https://framerbite.lemonsqueezy.com/checkout/buy/81b04fd7-447b-4774-be2a-2f8937c1d8d8
+download: https://framerbite.com/product/cleaner?aff=YGGpO5
 demo: https://cleaner.framer.website/?via=framerbite
 price: 39
 author: "Framerbite"

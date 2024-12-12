@@ -1,6 +1,6 @@
 ---
 title: Insurancy — Insurance Website
-download: https://framerbite.lemonsqueezy.com/checkout/buy/0d7cfc42-d6aa-4296-b06d-b71fe9156805
+download: https://framerbite.com/product/insurancy?aff=YGGpO5
 demo: https://insurancy.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Crafto — Saas Website
-download: https://finestdevs.com/buy-crafto
+download: https://framerbite.com/product/crafto?aff=YGGpO5
 demo: https://crafto.framer.website/
 price: 29
 author: "Framerbite"

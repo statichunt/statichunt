@@ -1,6 +1,6 @@
 ---
 title: InnovaAI — Multi-Layout AI Marketing Template
-download: https://finestdevs.com/buy-innovaai
+download: https://framerbite.com/product/innovaai?aff=YGGpO5
 demo: https://innovaai.framer.website/?via=framerbite
 price: 49
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: CharityX — Charity Website
-download: https://finestdevs.com/buy-charityx
+download: https://framerbite.com/product/charityx?aff=YGGpO5
 demo: https://charityx.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

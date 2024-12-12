@@ -1,6 +1,6 @@
 ---
 title: Cloze — Saas & Startup Website
-download: https://finestdevs.com/buy-cloze
+download: https://framerbite.com/product/cloze?aff=YGGpO5
 demo: https://cloze.framer.website/
 price: 49
 author: "Framerbite"

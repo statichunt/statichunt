@@ -1,6 +1,6 @@
 ---
 title: Homez — Real Estate Template
-download: https://finestdevs.com/buy-homez
+download: https://framerbite.com/product/homez?aff=YGGpO5
 demo: https://homez.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"

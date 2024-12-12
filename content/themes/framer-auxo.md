@@ -1,6 +1,6 @@
 ---
 title: Auxo — Multi-layout Web3 Template
-download: https://finestdevs.com/buy-auxo
+download: https://framerbite.com/product/auxo?aff=YGGpO5
 demo: https://auxo.framer.ai/
 price: 49
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Smily — Dentistry Website
-download: https://finestdevs.com/buy-smily
+download: https://framerbite.com/product/smily?aff=YGGpO5
 demo: https://smily.framer.website/?via=framerbite
 price: 29
 author: "Framerbite"
