@@ -10,7 +10,8 @@ ssg:
   - Nextjs
 css:
   - Tailwind
-ui: []
+ui:
+  - Shadcn
 cms: null
 category:
   - others

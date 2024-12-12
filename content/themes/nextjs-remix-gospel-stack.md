@@ -13,7 +13,8 @@ ssg:
   - Nextjs
 css:
   - Tailwind
-ui: []
+ui:
+  - Shadcn
 cms: []
 category: []
 draft: false

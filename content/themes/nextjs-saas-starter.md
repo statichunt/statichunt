@@ -11,7 +11,8 @@ ssg:
 cms:
   - Tina
 css: []
-ui: []
+ui:
+  - Shadcn
 category:
   - Landing
 description: >-

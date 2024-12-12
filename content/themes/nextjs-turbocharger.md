@@ -9,7 +9,8 @@ description: A monorepo app built with Turborepo, Next.js 14, shadcn-ui, stripe,
 ssg:
   - Nextjs
 css: []
-ui: []
+ui:
+  - Shadcn
 cms:
   - Markdown
 category: []
