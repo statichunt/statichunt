@@ -1,6 +1,6 @@
 ---
 title: Teanau — Agency Portfolio Template
-download: https://framer.com/projects/new?duplicate=jhfR1KSudqDveupbggfF&duplicateType=siteTemplate?aff=YGGpO5
+download: https://sidebaysupply.lemonsqueezy.com/buy/d40e36bf-b952-4596-b688-9062d485a5a2?aff=YGGpO5
 demo: https://teanau-template.framer.website/
 author: "Sidebay Supply"
 date: 2024-11-30T08:25:56.046Z

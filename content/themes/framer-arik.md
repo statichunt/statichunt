@@ -1,6 +1,6 @@
 ---
 title: Arik — Modern Portfolio Template
-download: https://framer.com/projects/new?duplicate=iiFfvJLYu04LmePB4wxl&via=pawelgola&duplicateType=siteTemplate?aff=YGGpO5
+download: https://gola.lemonsqueezy.com/buy/86bc085a-8168-47b3-b0bb-203cd9934ab0?aff=YGGpO5
 demo: https://arik-template.framer.website/?via=pawelgola
 author: "Pawel Gola"
 date: 2024-11-30T08:05:47.537Z

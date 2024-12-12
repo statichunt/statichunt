@@ -1,6 +1,6 @@
 ---
 title: Estetiq — Portfolio Template
-download: https://framer.com/projects/new?duplicate=wCgHxdcrNlNZSeQHL75R&duplicateType=siteTemplate?aff=YGGpO5
+download: https://shop.slavaburian.com/buy/5636328f-24cb-4299-8953-59a5070b701c?aff=YGGpO5
 demo: https://estetiq.framer.website/?via=vebn_
 author: "Slava Burian"
 date: 2024-11-30T09:04:15.560Z

@@ -1,6 +1,6 @@
 ---
 title: Kajo — Portfolio & Agency Template
-download: https://framer.com/projects/new?duplicate=Nfz2F9CtycHreTo86h6N&via=pawelgola&duplicateType=siteTemplate?aff=YGGpO5
+download: https://gola.lemonsqueezy.com/buy/16675db3-d2a1-43ea-a9de-a8d3031095f8?aff=YGGpO5
 demo: https://kajo-template.framer.website/?via=pawelgola
 author: "Pawel Gola"
 date: 2024-11-30T08:33:38.925Z
