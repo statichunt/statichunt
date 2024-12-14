@@ -4,6 +4,7 @@ meta_title: "Become a Sponsor - Statichunt"
 description: ""
 draft: false
 ---
+
 **Statichunt is now open to sponsorship opportunities!**
 
 Statichunt is the largest and fastest-growing Composable themes and resources directory.
@@ -12,11 +13,11 @@ You can support and involved with this project by becoming a sponsor. Please rea
 
 ## Numbers
 
-- Visitors in December,2023 on Statichunt → 6,000+
+- StaticHunt total visitors from July to December 2024 → 30,000+
 
-- Page views in December,2023 on Statichunt → 40,000+
+- Total Page views from July to December 2024 → 220,000+
 
-- Number of Composable Themes → 3500+
+- Number of Composable Themes → 7450+
 
 - Number of Tools → 100+
 
