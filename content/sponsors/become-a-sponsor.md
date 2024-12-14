@@ -13,7 +13,7 @@ You can support and involved with this project by becoming a sponsor. Please rea
 
 ## Numbers
 
-- StaticHunt total visitors from July to December 2024 → 30,000+
+- Statichunt total visitors from July to December 2024 → 30,000+
 
 - Total Page views from July to December 2024 → 220,000+
 
