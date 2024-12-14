@@ -1,6 +1,6 @@
 ---
 title: ThomasScott — Resume Template
-download: https://nutsdev.lemonsqueezy.com/buy/6f051f17-d4e3-40e2-80e5-9f3c1ecb9899?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/6f051f17-d4e3-40e2-80e5-9f3c1ecb9899?aff=YGGpO5
 demo: https://thomas-scott.framer.website/
 price: 39
 author: "NutsDev"

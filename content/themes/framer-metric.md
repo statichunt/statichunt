@@ -1,6 +1,6 @@
 ---
 title: Metric — Agency Framer Template
-download: https://onmix.lemonsqueezy.com/buy/a2e0e7cd-0a5a-49bd-af22-553047a3ce47
+download: https://onmix.lemonsqueezy.com/buy/a2e0e7cd-0a5a-49bd-af22-553047a3ce47?aff=YGGpO5
 demo: https://metric-template.framer.website/?via=onmix
 price: 49
 author: "Onmix"

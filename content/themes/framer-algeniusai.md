@@ -1,6 +1,6 @@
 ---
 title: AlgeniusAI — Modern Ai Landing Page
-download: https://nutsdev.lemonsqueezy.com/buy/b08cb0df-78e0-4f7e-bd1e-9f06e7cfe76a?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/b08cb0df-78e0-4f7e-bd1e-9f06e7cfe76a?aff=YGGpO5
 demo: https://algenius-solutions.framer.website/
 price: 49
 author: "NutsDev"

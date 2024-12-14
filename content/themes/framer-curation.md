@@ -1,6 +1,6 @@
 ---
 title: Curation — Ecommerce Template
-download: https://alicorak.lemonsqueezy.com/buy/77a1f747-1eaf-413e-960f-85c0c6df1b5b
+download: https://alicorak.lemonsqueezy.com/buy/dc353325-b24a-4612-b3ea-aa578c4b4048?aff=YGGpO5
 demo: https://curation.framer.website/?via=aliicorak
 price: 49
 author: "Ali Çorak"

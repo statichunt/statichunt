@@ -1,6 +1,6 @@
 ---
 title: Virudo — Real Estate Template
-download: https://coastalthemes.lemonsqueezy.com/buy/6cd6479d-3f14-4951-9083-16e15b28a931
+download: https://coastalthemes.lemonsqueezy.com/buy/6cd6479d-3f14-4951-9083-16e15b28a931?aff=YGGpO5
 demo: https://virudo-theme.framer.website/
 price: 49
 author: "Coastal Themes"

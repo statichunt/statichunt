@@ -1,6 +1,6 @@
 ---
 title: Squash — Modern Showcase Template
-download: https://nutsdev.lemonsqueezy.com/buy/fbd1ca08-4791-4ecc-8c93-9c67ea07761a?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/fbd1ca08-4791-4ecc-8c93-9c67ea07761a?aff=YGGpO5
 demo: https://squash.framer.website/
 price: 39
 author: "NutsDev"

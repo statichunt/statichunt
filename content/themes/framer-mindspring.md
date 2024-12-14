@@ -1,6 +1,6 @@
 ---
 title: MindSpring — School Website
-download: https://nutsdev.lemonsqueezy.com/buy/f65aaec7-de6a-4609-afc4-13de1bf6290b
+download: https://nutsdev.lemonsqueezy.com/buy/f65aaec7-de6a-4609-afc4-13de1bf6290b?aff=YGGpO5
 demo: https://mind-spring.framer.website/
 price: 59
 author: "NutsDev"

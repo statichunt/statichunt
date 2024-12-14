@@ -1,6 +1,6 @@
 ---
 title: Circuit — Development Agency Website
-download: https://nutsdev.lemonsqueezy.com/buy/a7b004f2-32a5-462f-bc79-f4fbf6496cce
+download: https://nutsdev.lemonsqueezy.com/buy/a7b004f2-32a5-462f-bc79-f4fbf6496cce?aff=YGGpO5
 demo: https://circuit-dev.framer.website/
 price: 49
 author: "NutsDev"

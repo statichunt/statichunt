@@ -1,6 +1,6 @@
 ---
 title: Snowpeak
-download: https://lexingtonthemes.com/info/snowpeak/
+download: https://lexingtonthemes.lemonsqueezy.com/buy/e2d91f04-5944-495e-a679-b3df5c08b196?aff=YGGpO5
 demo: https://snowpeak.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"

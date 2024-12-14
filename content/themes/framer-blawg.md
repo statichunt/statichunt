@@ -1,6 +1,6 @@
 ---
 title: Blawg — Most Powerful Blog Template
-download: https://kayodesasona.lemonsqueezy.com/buy/f43898e8-0801-4939-ba5b-716af377a506
+download: https://kablackstudio.lemonsqueezy.com/buy/f43898e8-0801-4939-ba5b-716af377a506?aff=YGGpO5
 demo: https://blawg.framer.website/
 price: 79
 author: "Kablack Studio"

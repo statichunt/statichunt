@@ -1,6 +1,6 @@
 ---
 title: Dynamiq — Versatile Saas Template
-download: https://laurilllll.lemonsqueezy.com/buy/ef8bd978-afa4-4e2e-a770-15a8eab867c3
+download: https://laurilllll.lemonsqueezy.com/buy/ef8bd978-afa4-4e2e-a770-15a8eab867c3?aff=YGGpO5
 demo: https://dynamiq.framer.website/
 price: 59
 author: "Lauri Lännenmäki"

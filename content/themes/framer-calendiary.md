@@ -1,6 +1,6 @@
 ---
 title: Calendiary — Framer Portfolio & Blog template
-download: https://astranity.lemonsqueezy.com/buy/967ee3fd-5588-42e5-959f-e7df9b5f7039
+download: https://astranity.lemonsqueezy.com/buy/967ee3fd-5588-42e5-959f-e7df9b5f7039?aff=YGGpO5
 demo: https://calendiary.framer.website/
 price: 49
 author: "Astranity"

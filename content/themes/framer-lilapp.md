@@ -1,6 +1,6 @@
 ---
 title: lilapp — Mobile Apps Template
-download: https://nomandoesui.lemonsqueezy.com/checkout/buy/2e6466b4-e705-418f-a09b-92e92ddb4bbc
+download: https://nomandoesui.lemonsqueezy.com/buy/2e6466b4-e705-418f-a09b-92e92ddb4bbc?aff=YGGpO5
 demo: https://lilapp.framer.website/
 price: 29
 author: "Noman"

@@ -1,6 +1,6 @@
 ---
 title: Vanta
-download: https://lexingtonthemes.com/info/vanta/
+download: https://lexingtonthemes.lemonsqueezy.com/buy/f0a11cac-e5c4-4cee-9a11-631749fd6647?aff=YGGpO5
 demo: https://vantaa.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"

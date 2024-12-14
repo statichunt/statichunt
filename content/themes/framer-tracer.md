@@ -1,6 +1,6 @@
 ---
 title: Tracer — SaaS Framer Template
-download: https://victorflow.lemonsqueezy.com/buy/36e2b588-6932-49c7-b587-5c1bec9fe5c1
+download: https://victorflow.lemonsqueezy.com/buy/36e2b588-6932-49c7-b587-5c1bec9fe5c1?aff=YGGpO5
 demo: https://tracer.framer.website/
 price: 49
 author: "VictorFlow"

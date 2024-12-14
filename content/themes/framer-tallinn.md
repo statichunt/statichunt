@@ -1,6 +1,6 @@
 ---
 title: Tallinn — Business And Agency Template
-download: https://coastalthemes.lemonsqueezy.com/buy/1b5eca4e-9013-4adc-9e97-d0bb830f17e1
+download: https://coastalthemes.lemonsqueezy.com/buy/1b5eca4e-9013-4adc-9e97-d0bb830f17e1?aff=YGGpO5
 demo: https://tallinn-theme.framer.website/
 price: 49
 author: "Coastal Themes"

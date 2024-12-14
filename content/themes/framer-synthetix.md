@@ -1,6 +1,6 @@
 ---
 title: Synthetix — Ai Landing Page Template
-download: https://nutsdev.lemonsqueezy.com/checkout/buy/50ce6153-81b8-4288-84f2-1ee0288a7cb1?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/50ce6153-81b8-4288-84f2-1ee0288a7cb1?aff=YGGpO5
 demo: https://synthetix.framer.website/
 price: 39
 author: "NutsDev"

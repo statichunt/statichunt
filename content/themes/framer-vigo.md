@@ -1,6 +1,6 @@
 ---
 title: Vigo — Expressive Saas Template
-download: https://coastalthemes.lemonsqueezy.com/buy/181a68b4-67ac-487f-9c51-4812527c7bed
+download: https://coastalthemes.lemonsqueezy.com/buy/181a68b4-67ac-487f-9c51-4812527c7bed?aff=YGGpO5
 demo: https://vigo-theme.framer.website/
 price: 49
 author: "Coastal Themes"

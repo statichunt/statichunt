@@ -1,6 +1,6 @@
 ---
 title: Slidefolio — Framer CV & Portfolio template
-download: https://astranity.lemonsqueezy.com/buy/41b81039-68ad-4e0d-a924-d4374920a177
+download: https://astranity.lemonsqueezy.com/buy/41b81039-68ad-4e0d-a924-d4374920a177?aff=YGGpO5
 demo: https://slidefolio.framer.website/
 price: 39
 author: "Astranity"

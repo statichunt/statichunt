@@ -1,6 +1,6 @@
 ---
 title: MODUS — Building Company Website
-download: https://nutsdev.lemonsqueezy.com/buy/90881ff8-132e-4b75-9cf4-de41c0471e5e
+download: https://nutsdev.lemonsqueezy.com/buy/90881ff8-132e-4b75-9cf4-de41c0471e5e?aff=YGGpO5
 demo: https://modus-build.framer.website/
 price: 54
 author: "NutsDev"

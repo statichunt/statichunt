@@ -1,6 +1,6 @@
 ---
 title: Personalfolio — Portfolio Template
-download: https://alicorak.lemonsqueezy.com/buy/80eff018-604d-4f81-88e9-674d3b4a821f
+download: https://alicorak.lemonsqueezy.com/buy/80eff018-604d-4f81-88e9-674d3b4a821f?aff=YGGpO5
 demo: https://personalify.framer.website/?via=aliicorak
 price: 59
 author: "Ali Çorak"

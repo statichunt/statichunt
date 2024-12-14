@@ -1,6 +1,6 @@
 ---
 title: Spazio Bianco
-download: https://lexingtonthemes.com/info/spaziobianco/
+download: https://lexingtonthemes.lemonsqueezy.com/buy/99afe682-cc70-4d85-b19a-debb968441b1?aff=YGGpO5
 demo: https://spaziobianco.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"

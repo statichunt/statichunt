@@ -1,6 +1,6 @@
 ---
 title: Arrival — Startup Template
-download: https://layoutgallery.lemonsqueezy.com/checkout/buy/901bae8a-d588-4528-ac59-e4d4a50ef360
+download: https://layoutgallery.lemonsqueezy.com/buy/901bae8a-d588-4528-ac59-e4d4a50ef360?aff=YGGpO5
 demo: https://arrival.framer.website/
 price: 29
 author: "Layout Gallery"
