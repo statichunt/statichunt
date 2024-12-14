@@ -1,6 +1,6 @@
 ---
 title: KOKORO — An Elegant Architecture Website
-download: https://kota.lemonsqueezy.com/buy/66fe55e3-1da5-4a3e-9bf0-330cfb8fadb3
+download: https://madebykota.com/buy/66fe55e3-1da5-4a3e-9bf0-330cfb8fadb3?aff=YGGpO5
 demo: https://kokoro.framer.website/
 price: 69
 author: "Kota"

@@ -1,6 +1,6 @@
 ---
 title: Maverick — Design Portfolio
-download: https://fogshiftframer.lemonsqueezy.com/checkout/buy/3edc43fe-f3f8-4584-b0ba-5e1abf0665ab
+download: https://fogshiftframer.lemonsqueezy.com/checkout/buy/3edc43fe-f3f8-4584-b0ba-5e1abf0665ab?aff=YGGpO5
 demo: https://maverick.framer.ai/
 price: 29
 author: "FogShift"

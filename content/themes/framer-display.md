@@ -1,6 +1,6 @@
 ---
 title: Display — Premium Portfolio Website
-download: https://shop.marckuiper.com/buy/4475fe5f-dc68-4950-b0b2-cf057db5c90e
+download: https://www.marckuiper.com/framer-templates/display?aff=YGGpO5
 demo: https://display.framer.website/?via=kuipermarc
 price: 29
 author: "Marc Kuiper"

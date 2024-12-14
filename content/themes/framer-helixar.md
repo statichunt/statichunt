@@ -1,6 +1,6 @@
 ---
 title: Helixar — Creative Venture Capital Template
-download: https://flowitstudio.lemonsqueezy.com/buy/7bd5336b-ac33-4a91-950b-cc9fe66f70b9
+download: https://flowitstudio.lemonsqueezy.com/buy/7bd5336b-ac33-4a91-950b-cc9fe66f70b9?aff=YGGpO5
 demo: https://helixar.framer.website/
 price: 49
 author: "Flowit Studio"

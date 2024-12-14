@@ -1,6 +1,6 @@
 ---
 title: Mylene — Sleek Agency Studio Template
-download: https://cocobasic.lemonsqueezy.com/buy/1d04dd27-dee7-4b62-994c-ab932701d7a0
+download: https://cocobasic.lemonsqueezy.com/buy/1445ac1d-7c76-4eb8-b768-b20d73a7a0e1?aff=YGGpO5
 demo: https://mylene.framer.website/
 price: 49
 author: "CocoBasic"

@@ -1,6 +1,6 @@
 ---
 title: LikeaBoss — Saas & Startup Template
-download: https://fogshiftframer.lemonsqueezy.com/checkout/buy/c57b7f1c-9a69-49f2-9084-d0e4a30e6783
+download: https://fogshiftframer.lemonsqueezy.com/checkout/buy/c57b7f1c-9a69-49f2-9084-d0e4a30e6783?aff=YGGpO5
 demo: https://likeaboss.framer.website/
 price: 49
 author: "FogShift"

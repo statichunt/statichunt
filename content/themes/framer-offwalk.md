@@ -1,6 +1,6 @@
 ---
 title: OffWalk — Modern Porfolio Template
-download: https://fogshiftframer.lemonsqueezy.com/checkout/buy/4cdd7c96-da60-4985-ac01-9c3d5e0a917b
+download: https://fogshiftframer.lemonsqueezy.com/checkout/buy/4cdd7c96-da60-4985-ac01-9c3d5e0a917b?aff=YGGpO5
 demo: https://offwalk.framer.website/
 price: 49
 author: "FogShift"

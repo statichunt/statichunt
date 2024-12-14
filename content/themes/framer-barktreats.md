@@ -1,6 +1,6 @@
 ---
 title: Barktreats — Pet Care & Food Template
-download: https://responsivepixel.lemonsqueezy.com/buy/82119db9-0853-43f9-a7f9-5c469d2be6be
+download: https://responsivepixel.lemonsqueezy.com/buy/82119db9-0853-43f9-a7f9-5c469d2be6be?aff=YGGpO5
 demo: https://barktreats.framer.website/?via=framerify
 price: 69
 author: "Framerify"

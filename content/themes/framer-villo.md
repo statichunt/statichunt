@@ -1,6 +1,6 @@
 ---
 title: Villo — Free Personal Framer Template
-download: https://framer.com/projects/new?duplicate=FZaZFM27nizULtTk39V2&via=cocobasic&duplicateType=siteTemplate
+download: https://cocobasic.lemonsqueezy.com/buy/4ac33a29-fed8-453f-b936-555009b97f2f?aff=YGGpO5
 demo: https://villo.framer.website/
 author: "CocoBasic"
 date: 2024-11-30T08:27:23.841Z

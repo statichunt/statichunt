@@ -1,6 +1,6 @@
 ---
 title: Bedeesk — Architecture & Interior Design
-download: https://marcframe.lemonsqueezy.com/buy/6aef5753-b7e9-437b-b667-10b36218bdec
+download: https://marcframe.lemonsqueezy.com/buy/6aef5753-b7e9-437b-b667-10b36218bdec?aff=YGGpO5
 demo: https://bedeesk.framer.website/
 price: 49
 author: "Marcframe"

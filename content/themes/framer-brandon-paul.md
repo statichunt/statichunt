@@ -1,6 +1,6 @@
 ---
 title: Brandon Paul — Photographer Portfolio
-download: https://kota.lemonsqueezy.com/buy/d4cb31f9-9947-4cd3-bade-1bed5eceac23
+download: https://madebykota.com/buy/469f2720-f0dd-485c-b085-e8f43f0fe070?aff=YGGpO5
 demo: https://brandon-paul.framer.website/?via=kota
 price: 49
 author: "Kota"

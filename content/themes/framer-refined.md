@@ -1,6 +1,6 @@
 ---
 title: Refined — Premium Personal Website
-download: https://shop.marckuiper.com/buy/c690a374-e4ec-4923-bc0f-18a141efb66e
+download: https://www.marckuiper.com/framer-templates/refined?aff=YGGpO5
 demo: https://refined.framer.website/?via=kuipermarc
 price: 20
 author: "Marc Kuiper"

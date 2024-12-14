@@ -1,6 +1,6 @@
 ---
 title: Rowan — Minimal Creative Portfolio
-download: https://flowitstudio.lemonsqueezy.com/buy/593c5f3d-57e1-438a-81fb-f4e246c091d1
+download: https://flowitstudio.lemonsqueezy.com/buy/593c5f3d-57e1-438a-81fb-f4e246c091d1?aff=YGGpO5
 demo: https://rowan-template.framer.website/
 price: 49
 author: "Flowit Studio"

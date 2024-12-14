@@ -1,6 +1,6 @@
 ---
 title: Osamu — Agency Framer Template
-download: https://kota.lemonsqueezy.com/buy/57be21cb-2048-4e98-82ee-b4092fe1ab12
+download: https://madebykota.com/buy/57be21cb-2048-4e98-82ee-b4092fe1ab12?aff=YGGpO5
 demo: https://osamu.framer.website/?via=kota
 price: 79
 author: "Kota"

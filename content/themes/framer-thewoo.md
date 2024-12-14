@@ -1,6 +1,6 @@
 ---
 title: TheWoo — Creative Portfolios
-download: https://fogshiftframer.lemonsqueezy.com/checkout/buy/a685e7bb-a3e8-4983-aeda-b0a2745bb16e
+download: https://fogshiftframer.lemonsqueezy.com/buy/a685e7bb-a3e8-4983-aeda-b0a2745bb16e?aff=YGGpO5
 demo: https://thewoo.framer.website/
 price: 49
 author: "FogShift"

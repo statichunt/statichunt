@@ -1,6 +1,6 @@
 ---
 title: Selenne — Professional Portfolio Template
-download: https://cocobasic.lemonsqueezy.com/checkout/buy/ad22edca-fa3a-4e26-bf51-f5dcb786b660
+download: https://cocobasic.lemonsqueezy.com/buy/ed9fb210-a770-43bf-9b02-8c7dcece9d9d?aff=YGGpO5
 demo: https://selenne.framer.website/
 price: 29
 author: "CocoBasic"

@@ -1,6 +1,6 @@
 ---
 title: ShiftSaaS — Saas Template
-download: https://framer.com/projects/new?duplicate=xJiPrj600UN729jgs9LK&via=fogshift&duplicateType=siteTemplate
+download: https://fogshiftframer.lemonsqueezy.com/buy/8d8c6648-74bc-4718-b4ab-09363777a951?aff=YGGpO5
 demo: https://shiftsaas.framer.website/
 author: "FogShift"
 date: 2024-11-30T08:31:32.629Z

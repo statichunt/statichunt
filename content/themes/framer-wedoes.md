@@ -1,6 +1,6 @@
 ---
 title: WeDoes — Digital Creative Agency
-download: https://marcframe.lemonsqueezy.com/buy/cca46668-437d-419a-8f1e-dd3e1b42eaa1
+download: https://marcframe.lemonsqueezy.com/buy/cca46668-437d-419a-8f1e-dd3e1b42eaa1?aff=YGGpO5
 demo: https://wedoes.framer.website/
 price: 59
 author: "Marcframe"

@@ -1,6 +1,6 @@
 ---
 title: Lumbung — Blog & Magazine Template
-download: https://marcframe.lemonsqueezy.com/buy/c8eed25b-a45b-4c80-bc3c-058b4a9e9e20
+download: https://marcframe.lemonsqueezy.com/buy/c8eed25b-a45b-4c80-bc3c-058b4a9e9e20?aff=YGGpO5
 demo: https://lumbung.framer.website/
 price: 39
 author: "Marcframe"

@@ -1,6 +1,6 @@
 ---
 title: Jolle — Modern Resume
-download: https://cocobasic.lemonsqueezy.com/checkout/buy/69883145-07ba-4446-85a7-7632412965db
+download: https://cocobasic.lemonsqueezy.com/buy/25d12e34-cbb0-407f-9ca5-ca6a66f30ba1?aff=YGGpO5
 demo: https://jolle.framer.website/
 price: 39
 author: "CocoBasic"

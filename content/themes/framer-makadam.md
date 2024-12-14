@@ -1,6 +1,6 @@
 ---
 title: Makadam — Creative Portfolio Template
-download: https://marcframe.lemonsqueezy.com/buy/635d03ad-2630-476d-a025-5b9fb59fc707
+download: https://marcframe.lemonsqueezy.com/buy/635d03ad-2630-476d-a025-5b9fb59fc707?aff=YGGpO5
 demo: https://makadam.framer.website/
 price: 49
 author: "Marcframe"

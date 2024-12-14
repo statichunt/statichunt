@@ -1,6 +1,6 @@
 ---
 title: FrameFlex — Ultimate Saas Showcase Template
-download: https://exponetly.lemonsqueezy.com/buy/82c1795d-f606-4058-943c-fc3b4df94e60
+download: https://exponetly.lemonsqueezy.com/buy/82c1795d-f606-4058-943c-fc3b4df94e60?aff=YGGpO5
 demo: https://frameflex.framer.website/
 price: 49
 author: "Exponetly"

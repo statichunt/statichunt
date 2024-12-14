@@ -1,6 +1,6 @@
 ---
 title: Gallereee — Curation & Directory Template
-download: https://shop.marckuiper.com/buy/c30d1f4a-76f6-40f8-8d23-faf4f4793851
+download: https://www.marckuiper.com/framer-templates/gallereee?aff=YGGpO5
 demo: https://gallereee.framer.website/
 price: 29
 author: "Marc Kuiper"

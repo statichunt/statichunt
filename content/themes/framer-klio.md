@@ -1,6 +1,6 @@
 ---
 title: Klio — Minimal Portfolio Page
-download: https://cocobasic.lemonsqueezy.com/checkout/buy/7565704b-dfc5-41fe-b0cd-9fd27e532cab
+download: https://cocobasic.lemonsqueezy.com/buy/b8dd622b-1ffa-41d2-bbc6-dc7941972203?aff=YGGpO5
 demo: https://klio.framer.website/
 price: 29
 author: "CocoBasic"

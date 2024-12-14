@@ -1,6 +1,6 @@
 ---
 title: Gerro — Free Minimal Portfolio Template
-download: https://framer.com/projects/new?duplicate=RpHKVS8gGMGiffkZiXiR&via=cocobasic&duplicateType=siteTemplate
+download: https://cocobasic.lemonsqueezy.com/buy/93cb590d-7f61-4697-9a68-99a925e40870?aff=YGGpO5
 demo: https://gerro.framer.website/
 author: "CocoBasic"
 date: 2024-11-30T08:05:56.621Z

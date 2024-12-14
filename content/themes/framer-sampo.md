@@ -1,6 +1,6 @@
 ---
 title: Sampo — Portfolio Framer Template
-download: https://cocobasic.lemonsqueezy.com/checkout/buy/305b4c93-d250-45fb-be18-9e58db56a8dc
+download: https://cocobasic.lemonsqueezy.com/buy/305b4c93-d250-45fb-be18-9e58db56a8dc?aff=YGGpO5
 demo: https://sampo.framer.website/
 price: 39
 author: "CocoBasic"

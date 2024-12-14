@@ -1,6 +1,6 @@
 ---
 title: AllSaaS — Saas Website
-download: https://fogshiftframer.lemonsqueezy.com/buy/c2e3ef8d-bb46-4aa2-a1d0-d21964d2df9b
+download: https://fogshiftframer.lemonsqueezy.com/buy/c2e3ef8d-bb46-4aa2-a1d0-d21964d2df9b?aff=YGGpO5
 demo: https://allsaas.framer.website/
 price: 29
 author: "FogShift"

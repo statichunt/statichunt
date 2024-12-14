@@ -1,6 +1,6 @@
 ---
 title: Griddie — Portfolio & Product Template
-download: https://kota.lemonsqueezy.com/checkout/buy/2d1636ad-f5cf-496f-906f-ceb53e15bd3d
+download: https://madebykota.com/buy/2d1636ad-f5cf-496f-906f-ceb53e15bd3d?aff=YGGpO5
 demo: https://griddie.framer.website/?via=kota
 price: 49
 author: "Kota"

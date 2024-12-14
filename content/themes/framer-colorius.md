@@ -1,6 +1,6 @@
 ---
 title: Colorius — Free Portfolio Template
-download: https://framer.com/projects/new?duplicate=AdmbvbUfnuxgQHHEA9qV&via=cocobasic&duplicateType=siteTemplate
+download: https://cocobasic.lemonsqueezy.com/buy/744887ce-f7da-4efe-989c-4cd3a67407ae?aff=YGGpO5
 demo: https://colorius.framer.website/
 author: "CocoBasic"
 date: 2024-11-30T08:21:34.023Z

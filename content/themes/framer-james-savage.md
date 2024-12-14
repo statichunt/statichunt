@@ -1,6 +1,6 @@
 ---
 title: James Savage — Creative Portfolio Template
-download: https://fogshiftframer.lemonsqueezy.com/buy/525eee0e-f653-43cf-ac5b-7d7f3a54e458
+download: https://fogshiftframer.lemonsqueezy.com/buy/525eee0e-f653-43cf-ac5b-7d7f3a54e458?aff=YGGpO5
 demo: https://james-savage.framer.website/
 price: 49
 author: "FogShift"
