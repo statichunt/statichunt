@@ -1,6 +1,6 @@
 ---
 title: DMorrison — HR Resume Template
-download: https://nutsdev.lemonsqueezy.com/buy/6595c692-f33a-42cb-afa9-a2e803a622ba
+download: https://nutsdev.lemonsqueezy.com/buy/6595c692-f33a-42cb-afa9-a2e803a622ba?aff=YGGpO5
 demo: https://daniel-morrison.framer.website/
 price: 34
 author: "NutsDev"

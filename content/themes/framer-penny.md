@@ -1,6 +1,6 @@
 ---
 title: Penny — SaaS Landing Page
-download: https://nutsdev.lemonsqueezy.com/buy/862d39a3-a1e6-4277-8d84-29663dfc5a05
+download: https://nutsdev.lemonsqueezy.com/buy/862d39a3-a1e6-4277-8d84-29663dfc5a05?aff=YGGpO5
 demo: https://penny-chat.framer.website/
 price: 44
 author: "NutsDev"

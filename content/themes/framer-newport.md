@@ -1,6 +1,6 @@
 ---
 title: Newport — Modern Bold Agency Template
-download: https://coastalthemes.lemonsqueezy.com/buy/ae139dbf-fd52-4cda-a082-19e17662b5d3
+download: https://coastalthemes.lemonsqueezy.com/buy/ae139dbf-fd52-4cda-a082-19e17662b5d3?aff=YGGpO5
 demo: https://newport-theme.framer.website/
 price: 49
 author: "Coastal Themes"

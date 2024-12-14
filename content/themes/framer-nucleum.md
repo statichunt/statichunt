@@ -1,6 +1,6 @@
 ---
 title: Nucleum — SaaS focused template
-download: https://store.mertkahveci.com/checkout/buy/981d9155-1c43-4b97-9233-943c0cc482d8
+download: https://store.mertkahveci.com/buy/981d9155-1c43-4b97-9233-943c0cc482d8?aff=YGGpO5
 demo: https://nucleum.framer.website/
 price: 79
 author: "Mert Kahveci"

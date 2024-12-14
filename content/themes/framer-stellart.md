@@ -1,6 +1,6 @@
 ---
 title: Stellart — Dynamic Personal Website
-download: https://orbitx.lemonsqueezy.com/buy/f236bb56-68ff-4545-a1a2-ac52662f81c0
+download: https://orbitx.lemonsqueezy.com/buy/f236bb56-68ff-4545-a1a2-ac52662f81c0?aff=YGGpO5
 demo: https://stellart.framer.website/
 price: 149
 author: "orbitx"

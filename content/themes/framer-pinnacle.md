@@ -1,6 +1,6 @@
 ---
 title: Pinnacle — Saas Product Website
-download: https://kearameehan.lemonsqueezy.com/buy/a5fc15ad-047a-4b4c-aac1-1efdf4d5f4f0
+download: https://kearameehan.lemonsqueezy.com/buy/a5fc15ad-047a-4b4c-aac1-1efdf4d5f4f0?aff=YGGpO5
 demo: https://pinnacle-insights.framer.website/
 price: 59
 author: "Keara Meehan"

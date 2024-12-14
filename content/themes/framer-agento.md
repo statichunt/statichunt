@@ -1,6 +1,6 @@
 ---
 title: Agento — Agency Template
-download: https://victorflow.lemonsqueezy.com/buy/5af12546-b0a6-4137-8981-7e089b262657
+download: https://victorflow.lemonsqueezy.com/buy/5af12546-b0a6-4137-8981-7e089b262657?aff=YGGpO5
 demo: https://agento.framer.website/
 price: 49
 author: "VictorFlow"

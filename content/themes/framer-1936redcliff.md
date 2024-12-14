@@ -1,6 +1,6 @@
 ---
 title: 1936Redcliff — Real Estate Property Listing
-download: https://nutsdev.lemonsqueezy.com/buy/c82b24a7-5a96-4fed-9822-06b2fb69cf0e?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/c82b24a7-5a96-4fed-9822-06b2fb69cf0e?aff=YGGpO5
 demo: https://redcliff.framer.website/
 price: 34
 author: "NutsDev"

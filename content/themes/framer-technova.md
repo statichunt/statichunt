@@ -1,6 +1,6 @@
 ---
 title: TechNova — Digital Agency Template
-download: https://onmix.lemonsqueezy.com/buy/4627f4dc-3d59-4790-86cc-08efad78b96c
+download: https://onmix.lemonsqueezy.com/buy/4627f4dc-3d59-4790-86cc-08efad78b96c?aff=YGGpO5
 demo: https://technova-template.framer.website/?via=onmix
 price: 79
 author: "Onmix"

@@ -1,6 +1,6 @@
 ---
 title: Barkly — Pet Caregiver Template
-download: https://kearameehan.lemonsqueezy.com/buy/2a7a76db-9ff7-4fd6-8b6e-4de3b0caec46
+download: https://kearameehan.lemonsqueezy.com/buy/2a7a76db-9ff7-4fd6-8b6e-4de3b0caec46?aff=YGGpO5
 demo: https://barkly.framer.website/
 price: 59
 author: "Keara Meehan"

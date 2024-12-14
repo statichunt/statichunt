@@ -1,6 +1,6 @@
 ---
 title: AIQ — Ai Template
-download: https://nutsdev.lemonsqueezy.com/buy/447d8b29-8168-498d-b9f8-421d7be94a13?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/447d8b29-8168-498d-b9f8-421d7be94a13?aff=YGGpO5
 demo: https://aiq.framer.website/
 price: 39
 author: "NutsDev"

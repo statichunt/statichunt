@@ -1,6 +1,6 @@
 ---
 title: Alfred
-download: https://lexingtonthemes.com/info/alfred/
+download: https://lexingtonthemes.lemonsqueezy.com/buy/59105270-55f2-42b0-9728-3094f40f86f4?aff=YGGpO5
 demo: https://alfred.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"

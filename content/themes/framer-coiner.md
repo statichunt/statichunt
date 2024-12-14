@@ -1,6 +1,6 @@
 ---
 title: Coiner — Digital Assets Web3 Template
-download: https://victorflow.lemonsqueezy.com/checkout/buy/44b24c3c-f4b0-460f-bd96-9f85531b8fa0
+download: https://victorflow.lemonsqueezy.com/buy/44b24c3c-f4b0-460f-bd96-9f85531b8fa0?aff=YGGpO5
 demo: https://coiner.framer.website/
 price: 49
 author: "VictorFlow"

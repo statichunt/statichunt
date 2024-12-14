@@ -1,6 +1,6 @@
 ---
 title: Malmo — Business SaaS Template
-download: https://coastalthemes.lemonsqueezy.com/buy/4d5eecbe-7204-4a6d-9b0a-2c5292897e5d
+download: https://coastalthemes.lemonsqueezy.com/buy/4d5eecbe-7204-4a6d-9b0a-2c5292897e5d?aff=YGGpO5
 demo: https://malmo-theme.framer.website/
 price: 49
 author: "Coastal Themes"

@@ -1,6 +1,6 @@
 ---
 title: NIMB — Fashion Brand Website
-download: https://nutsdev.lemonsqueezy.com/buy/aefb60b9-cc9e-4b6e-a38e-7f645f900ea6
+download: https://nutsdev.lemonsqueezy.com/buy/aefb60b9-cc9e-4b6e-a38e-7f645f900ea6?aff=YGGpO5
 demo: https://nimb.framer.website/
 price: 49
 author: "NutsDev"

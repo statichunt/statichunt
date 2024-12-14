@@ -1,6 +1,6 @@
 ---
 title: Rick Brown — Portfolio Template
-download: https://nutsdev.lemonsqueezy.com/buy/cd2e38f5-0702-4aa4-b707-37ababa42a62?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/cd2e38f5-0702-4aa4-b707-37ababa42a62?aff=YGGpO5
 demo: https://rick-brown.framer.website/
 price: 49
 author: "NutsDev"

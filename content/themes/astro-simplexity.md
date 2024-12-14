@@ -1,6 +1,6 @@
 ---
 title: Simplexity
-download: https://lexingtonthemes.com/info/simplexity/
+download: https://lexingtonthemes.lemonsqueezy.com/buy/efff7e1e-e8fe-4efc-afcb-c51907eae41c?aff=YGGpO5
 demo: https://simplexity.lexingtonthemes.com/
 price: 99
 author: "Lexington Themes"

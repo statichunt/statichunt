@@ -1,6 +1,6 @@
 ---
 title: Emerald — Real Estate Agency Template
-download: https://kayodesasona.lemonsqueezy.com/checkout/buy/28525be0-8cc2-4f2f-8293-d3104bd0d4d5?discount=0
+download: https://kablackstudio.lemonsqueezy.com/buy/28525be0-8cc2-4f2f-8293-d3104bd0d4d5?aff=YGGpO5
 demo: https://emeraldagency.framer.website/
 price: 79
 author: "Kablack Studio"

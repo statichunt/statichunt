@@ -1,6 +1,6 @@
 ---
 title: Crypture — Business Template
-download: https://nutsdev.lemonsqueezy.com/buy/ed2b13b2-e332-41d9-9577-533b560846e8?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/ed2b13b2-e332-41d9-9577-533b560846e8?aff=YGGpO5
 demo: https://crypture.framer.website/
 price: 39
 author: "NutsDev"

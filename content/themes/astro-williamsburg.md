@@ -1,6 +1,6 @@
 ---
 title: Williamsburg
-download: https://lexingtonthemes.com/info/williamsburg/
+download: https://lexingtonthemes.lemonsqueezy.com/buy/0618db8c-ffa9-43da-a152-eb4b744716d6?aff=YGGpO5
 demo: https://williamsburg.lexingtonthemes.com
 price: 99
 author: "Lexington Themes"

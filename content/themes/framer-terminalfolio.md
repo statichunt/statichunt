@@ -1,6 +1,6 @@
 ---
 title: Terminalfolio — Terminal Themed Portfolio
-download: https://nomandoesui.lemonsqueezy.com/checkout/buy/ac10af67-6280-467d-804d-5c1610e57f0c
+download: https://nomandoesui.lemonsqueezy.com/buy/ac10af67-6280-467d-804d-5c1610e57f0c?aff=YGGpO5
 demo: https://terminalfolio.framer.website/
 price: 59
 author: "Noman"

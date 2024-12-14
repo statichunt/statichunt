@@ -1,6 +1,6 @@
 ---
 title: SoloStore — Minimalist Ecommerce Template
-download: https://laurilllll.lemonsqueezy.com/checkout/buy/1890c166-df6a-4932-9d0f-ab849f3207fe
+download: https://laurilllll.lemonsqueezy.com/buy/1890c166-df6a-4932-9d0f-ab849f3207fe?aff=YGGpO5
 demo: https://solostore.framer.website/
 price: 39
 author: "Lauri Lännenmäki"

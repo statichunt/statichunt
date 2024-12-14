@@ -1,6 +1,6 @@
 ---
 title: Rescuify — Animal Rescue
-download: https://kearameehan.lemonsqueezy.com/buy/11d91df9-80a1-4fee-b981-7d8c1c24b993
+download: https://kearameehan.lemonsqueezy.com/buy/11d91df9-80a1-4fee-b981-7d8c1c24b993?aff=YGGpO5
 demo: https://rescuify.framer.website/
 price: 59
 author: "Keara Meehan"

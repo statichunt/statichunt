@@ -1,6 +1,6 @@
 ---
 title: IT/CONF — Conference Template
-download: https://nutsdev.lemonsqueezy.com/buy/bac5b009-a97c-4910-8d64-db5e534cc95c?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/bac5b009-a97c-4910-8d64-db5e534cc95c?aff=YGGpO5
 demo: https://itconf.framer.website/
 price: 59
 author: "NutsDev"

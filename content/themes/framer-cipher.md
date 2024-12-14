@@ -1,6 +1,6 @@
 ---
 title: CIPHER — Cybersecurity Company
-download: https://nutsdev.lemonsqueezy.com/buy/8fb843e0-a1f5-4ce0-8189-36dcdf2c29d9
+download: https://nutsdev.lemonsqueezy.com/buy/8fb843e0-a1f5-4ce0-8189-36dcdf2c29d9?aff=YGGpO5
 demo: https://cipher-security.framer.website/
 price: 44
 author: "NutsDev"

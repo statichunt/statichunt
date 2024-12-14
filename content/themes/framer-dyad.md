@@ -1,6 +1,6 @@
 ---
 title: Dyad — Portfolio Template
-download: https://nomandoesui.lemonsqueezy.com/checkout/buy/2f971367-d213-4146-9b27-8529a6d775bd
+download: https://nomandoesui.lemonsqueezy.com/buy/2f971367-d213-4146-9b27-8529a6d775bd?aff=YGGpO5
 demo: https://dyad.framer.website/
 price: 30
 author: "Noman"

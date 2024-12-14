@@ -1,6 +1,6 @@
 ---
 title: Cipherly — Sleek Brand Guideline Template
-download: https://nutsdev.lemonsqueezy.com/buy/09662465-0b2c-4c79-9102-106fbc2f72e2?desc=0
+download: https://nutsdev.lemonsqueezy.com/buy/09662465-0b2c-4c79-9102-106fbc2f72e2?aff=YGGpO5
 demo: https://cipherly.framer.website/
 price: 44
 author: "NutsDev"

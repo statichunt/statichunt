@@ -1,6 +1,6 @@
 ---
 title: Miki's Art — Photography Portfolio Website
-download: https://arini.lemonsqueezy.com/buy/0c02a4dc-1b85-487d-851e-c9bf6fd3a06f
+download: https://arini.lemonsqueezy.com/buy/0c02a4dc-1b85-487d-851e-c9bf6fd3a06f?aff=YGGpO5
 demo: https://photography.framer.photos/?via=arini
 price: 59
 author: "Arini"
