@@ -9,7 +9,6 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { FaStar } from "react-icons/fa6";
 import { FiSearch } from "react-icons/fi";
 const SearchWrapper = dynamic(
   () => import("@/components/search/SearchWrapper"),
@@ -78,7 +77,7 @@ const Header = () => {
               height={32}
               width={164}
             />
-            <a
+            {/* <a
               className="ml-3 mt-1 hidden rounded-full bg-[#21262e] px-3 py-1 text-center text-xs text-white transition dark:bg-[#f5f7f9] dark:text-dark sm:ml-5 md:inline lg:hidden xl:inline"
               href="https://github.com/statichunt/statichunt"
               target="_blank"
@@ -90,7 +89,7 @@ const Header = () => {
                 </span>
                 Give a Star
               </span>
-            </a>
+            </a> */}
           </div>
 
           <ul className="navbar-nav hidden lg:flex">
