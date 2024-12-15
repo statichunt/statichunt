@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-import ToolsIcon from "@/components/ToolsIcon";
 import { dateFormat } from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
 import Link from "next/link";
@@ -179,9 +177,9 @@ const Themes = ({ themes, authors, className }) => {
                 </span>
               </div>
               <div className="theme-card-footer">
-                <div className="flex-wrap">
+                {/* <div className="flex-wrap">
                   <ToolsIcon item={theme} category={false} />
-                </div>
+                </div> */}
                 <div className="ml-auto flex items-center whitespace-nowrap">
                   <Link
                     href={`/demo/${theme.slug}`}

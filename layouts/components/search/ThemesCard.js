@@ -1,24 +1,19 @@
-/* eslint-disable @next/next/no-img-element */
-import config from "@/config/config.json";
-import useTooltip from "@/hooks/useTooltip";
-import { slugify } from "@/lib/utils/textConverter";
 import { useSearchContext } from "context/searchContext";
-import Image from "next/image";
 import Link from "next/link";
 
 const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
   const { isBlog, Tool } = useSearchContext();
-  const { dark_icon_list } = config;
+  // const { dark_icon_list } = config;
 
-  const toolsIcon = (theme) => {
-    const ssgIcon = theme.frontmatter?.ssg?.map((item) => item) || [];
-    const cssIcon = theme.frontmatter?.css?.map((item) => item) || [];
-    const cmsIcon = theme.frontmatter?.cms?.map((item) => item) || [];
-    const categoryIcon = theme.frontmatter?.category?.map((item) => item) || [];
-    return [...ssgIcon, ...cssIcon, ...cmsIcon, ...categoryIcon];
-  };
+  // const toolsIcon = (theme) => {
+  //   const ssgIcon = theme.frontmatter?.ssg?.map((item) => item) || [];
+  //   const cssIcon = theme.frontmatter?.css?.map((item) => item) || [];
+  //   const cmsIcon = theme.frontmatter?.cms?.map((item) => item) || [];
+  //   const categoryIcon = theme.frontmatter?.category?.map((item) => item) || [];
+  //   return [...ssgIcon, ...cssIcon, ...cmsIcon, ...categoryIcon];
+  // };
 
-  useTooltip();
+  // useTooltip();
 
   return (
     <div
@@ -40,7 +35,7 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
             />
 
             <div className="px-4">
-              <h3 className="h6 pb-1">
+              <h3 className="h6 pb-4">
                 <Link
                   className="stretched-link line-clamp-1 hover:underline"
                   href={`/themes/${theme.slug}`}
@@ -49,7 +44,7 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
                   {theme.frontmatter.title}
                 </Link>
               </h3>
-              <div className="space-x-3 pb-2">
+              {/* <div className="space-x-3 pb-2">
                 {toolsIcon(theme).map(
                   (icon) =>
                     icon !== null && (
@@ -69,7 +64,7 @@ const ThemesCard = ({ themes, tools, blogs, setSearchModal }) => {
                       </span>
                     ),
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
