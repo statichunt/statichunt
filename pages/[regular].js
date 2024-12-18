@@ -80,16 +80,13 @@ const RegularPages = ({
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
   category.splice(category.length, 0, element);
+  const themeCount =
+    sortedThemes.length > 50
+      ? Math.floor(sortedThemes.length / 50) * 50
+      : sortedThemes.length - 1;
 
   let metaTitle = isExamples ? examples_meta_title : meta_title;
-  metaTitle = metaTitle.replace(
-    "<themes>",
-    `${
-      sortedThemes.length > 50
-        ? Math.floor(sortedThemes.length / 50) * 50
-        : sortedThemes.length - 1
-    }+`,
-  );
+  metaTitle = metaTitle.replace("<themes>", `${themeCount}+`);
 
   return (
     <Base
@@ -131,6 +128,7 @@ const RegularPages = ({
           <ThemeTaxonomy
             currentPage={currentPage}
             data={sortOrder(filteredThemes, sortAsc)}
+            themeCount={themeCount}
             showIntro={showIntro}
             authors={authors}
           />

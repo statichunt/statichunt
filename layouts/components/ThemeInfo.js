@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { dateFormat } from "@/lib/utils/dateFormat";
 import Link from "next/link";
 import "react-discord-invite/dist/style.css";

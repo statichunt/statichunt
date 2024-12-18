@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import useWindow from "@/hooks/useWindow";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useState } from "react";

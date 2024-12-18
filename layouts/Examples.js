@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import ToolsIcon from "@/components/ToolsIcon";
 import { simplifyURL } from "@/lib/utils/textConverter";
 import Link from "next/link";

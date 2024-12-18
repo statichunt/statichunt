@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import ToolsIcon from "@/components/ToolsIcon";
 import MobileSidebar from "@/partials/MobileSidebar";
 import shortcodes from "@/shortcodes/all";

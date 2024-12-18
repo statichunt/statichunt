@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
 
 const ThemePreview = ({ theme, slug }) => {

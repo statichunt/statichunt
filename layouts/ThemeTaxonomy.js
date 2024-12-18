@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
 import Themes from "@/layouts/Themes";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
@@ -12,7 +11,13 @@ import {
 
 const { dark_icon_list } = config;
 
-const ThemeTaxonomy = ({ data, currentPage, showIntro, authors }) => {
+const ThemeTaxonomy = ({
+  data,
+  currentPage,
+  themeCount,
+  showIntro,
+  authors,
+}) => {
   const { frontmatter, content } = currentPage[0];
   const {
     title,
@@ -47,7 +52,11 @@ const ThemeTaxonomy = ({ data, currentPage, showIntro, authors }) => {
                 height="40"
                 width="40"
               />
-              {markdownify(page_title || title, "h1", "self-end")}
+              {markdownify(
+                (page_title || title).replace("<themes>", `${themeCount}+`),
+                "h1",
+                "self-end",
+              )}
             </div>
             {markdownify(content, "p", "mb-5")}
             <ul className="meta-list">

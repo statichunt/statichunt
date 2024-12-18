@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import ExpertContact from "@/components/ExpertContact";
 import ToolsIcon from "@/components/ToolsIcon";
 import MobileSidebar from "@/partials/MobileSidebar";
@@ -121,46 +120,46 @@ const ExpertSingle = ({ post, mdxContent, successMessage }) => {
       </section>
 
       {projects?.length > 0 && (
-      <section className="section pt-0">
-        <div className="container">
-          <h2 className="mb-6">Some Projects By {title}</h2>
-          <div className="row mt-4">
-            {projects?.map((project, i) => (
-              <div
-                key={`${project.title}-${i}`}
-                className="md:col-6 lg:col-4 mb-6"
-              >
-                <div className="rounded-md shadow dark:bg-darkmode-theme-dark h-full">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    height="276"
-                    width="424"
-                    className="w-full rounded-t-md"
-                  />
+        <section className="section pt-0">
+          <div className="container">
+            <h2 className="mb-6">Some Projects By {title}</h2>
+            <div className="row mt-4">
+              {projects?.map((project, i) => (
+                <div
+                  key={`${project.title}-${i}`}
+                  className="md:col-6 lg:col-4 mb-6"
+                >
+                  <div className="rounded-md shadow dark:bg-darkmode-theme-dark h-full">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      height="276"
+                      width="424"
+                      className="w-full rounded-t-md"
+                    />
 
-                  <div className="p-3 lg:p-6">
-                    <div className="flex justify-between items-center">
-                      <div>
-                        <h4>{project.title}</h4>
-                        <small>{project.category}</small>
+                    <div className="p-3 lg:p-6">
+                      <div className="flex justify-between items-center">
+                        <div>
+                          <h4>{project.title}</h4>
+                          <small>{project.category}</small>
+                        </div>
+                        <Link
+                          className="btn btn-outline-primary whitespace-nowrap mt-1"
+                          href={`${project.link}?ref=statichunt.com`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          View Project
+                        </Link>
                       </div>
-                      <Link
-                        className="btn btn-outline-primary whitespace-nowrap mt-1"
-                        href={`${project.link}?ref=statichunt.com`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        View Project
-                      </Link>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       )}
 
       <ExpertContact

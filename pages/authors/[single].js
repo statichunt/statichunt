@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Base from "@/layouts/Baseof";
 import Themes from "@/layouts/Themes";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";

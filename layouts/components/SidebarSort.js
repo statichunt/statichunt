@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import usePricingFilter from "@/hooks/usePricingFilter";
 import useWindow from "@/hooks/useWindow";
 import { humanize } from "@/lib/utils/textConverter";

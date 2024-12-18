@@ -1,6 +1,6 @@
 ---
 title: Framer
-page_title: 1230+ Framer Templates
+page_title: <themes> Framer Templates
 meta_title: <themes> Framer Themes & Templates (Free & Premium) | Statichunt
 weight: "3"
 description: Discover free and premium Framer templates to jumpstart your next project.Design beautiful responsive sites with an intuitive interface.

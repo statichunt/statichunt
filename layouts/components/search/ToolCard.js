@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { humanize } from "@/lib/utils/textConverter";
 import { useSearchContext } from "context/searchContext";
 

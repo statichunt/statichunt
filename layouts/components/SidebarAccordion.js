@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import config from "@/config/config.json";
 import useTaxonomyHandler from "@/hooks/useAccordionHandler";
 import { slugify } from "@/lib/utils/textConverter";
