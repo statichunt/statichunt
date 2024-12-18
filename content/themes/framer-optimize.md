@@ -10,6 +10,7 @@ ssg: ["Framer"]
 css: []
 ui: []
 cms: []
-category: [Business,SaaS]
+category: [Business, SaaS]
 draft: false
+weight: 2
 ---
