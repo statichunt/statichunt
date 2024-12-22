@@ -22,9 +22,10 @@ category:
   - Dashboard
   - Saas
 draft: false
-weight: 2
-home_weight: 4
+weight:
+home_weight:
 ---
+
 ## Key Features
 
 - Interactive charts and stats
