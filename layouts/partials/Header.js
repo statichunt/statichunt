@@ -67,7 +67,7 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             <Logo
-              className="h-8"
+              className="h-8 hidden lg:inline-block"
               src={
                 mounted && (theme === "dark" || resolvedTheme === "dark")
                   ? logo_light
@@ -76,6 +76,13 @@ const Header = () => {
               alt={title}
               height={32}
               width={164}
+            />
+            <Logo
+              className="h-8 inline-block lg:hidden"
+              src={"/images/favicon.png"}
+              alt={title}
+              height={35}
+              width={35}
             />
             {/* <a
               className="ml-3 mt-1 hidden rounded-full bg-[#21262e] px-3 py-1 text-center text-xs text-white transition dark:bg-[#f5f7f9] dark:text-dark sm:ml-5 md:inline lg:hidden xl:inline"
