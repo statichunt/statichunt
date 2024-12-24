@@ -5,17 +5,17 @@
       "url": "/"
     },
     {
+      "name": "Made by Statichunt",
+      "url": "/authors/statichunt"
+    },
+    {
       "name": "Tools",
       "url": "/tools"
     },
     {
-      "name": "Examples",
-      "url": "/examples"
-    },
-    {
       "name": "Bundles",
       "url": "/bundles",
-      "badge": "offer"
+      "badge": "new"
     },
     {
       "name": "Blog",

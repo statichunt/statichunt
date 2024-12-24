@@ -513,7 +513,7 @@ select:required:invalid {
   @apply prose-code:px-1 prose-code:text-primary prose-code:before:hidden prose-code:after:hidden dark:prose-code:text-darkmode-primary;
   @apply prose-pre:rounded-none;
   @apply prose-strong:text-dark prose-strong:dark:text-darkmode-dark;
-  @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline dark:prose-a:text-darkmode-primary;
+  @apply prose-a:text-primary prose-a:underline prose-a:underline-offset-2 hover:prose-a:underline dark:prose-a:text-darkmode-primary;
   @apply prose-li:text-text prose-li:dark:text-light;
   @apply prose-table:overflow-hidden prose-table:border prose-table:border-border prose-table:dark:border-darkmode-border;
   @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:px-4 prose-th:py-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;

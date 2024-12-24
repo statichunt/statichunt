@@ -21,8 +21,8 @@
   "announcement": {
     "enable": true,
     "name": "BlazeX Astro Announcement",
-    "link": "https://statichunt.com/themes/astro-blazex?utm_source=themes_page&utm_medium=announcement_banner&utm_campaign=newtheme_announcement",
-    "content": "👉 Checkout **BlazeX Astro** - Newly added Astro dark SaaS theme built with Astro & TailwindCSS 🔥"
+    "link": "/blog/introducing-framer-and-webflow-templates-on-statichunt",
+    "content": "👉 Exciting news! We've introduced Framer and Webflow templates on Statichunt."
   },
 
   "params": {
