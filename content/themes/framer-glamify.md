@@ -1,4 +1,4 @@
----
+--
 title: Glamify — Beauty Salon Website
 download: https://webatelier.lemonsqueezy.com/checkout/buy/8ed6a893-ad4d-41f5-a62c-0f9d6796f40e
 demo: https://glamify.framer.website/
@@ -12,4 +12,5 @@ ui: []
 cms: []
 category: [Business,Portfolio]
 draft: false
+
 ---
