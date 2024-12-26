@@ -82,13 +82,29 @@ const Base = ({
         {/* og-image */}
         <meta
           property="og:image"
-          content={`${base_url}${image ? image : meta_image}`}
+          content={
+            image
+              ? image.startsWith("http")
+                ? image
+                : `${base_url}${image}`
+              : meta_image.startsWith("http")
+                ? meta_image
+                : `${base_url}${meta_image}`
+          }
         />
 
         {/* twitter-image */}
         <meta
           name="twitter:image"
-          content={`${base_url}${image ? image : meta_image}`}
+          content={
+            image
+              ? image.startsWith("http")
+                ? image
+                : `${base_url}${image}`
+              : meta_image.startsWith("http")
+                ? meta_image
+                : `${base_url}${meta_image}`
+          }
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
