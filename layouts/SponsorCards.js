@@ -15,6 +15,7 @@ const SponsorCards = ({ sponsors, className }) => {
               height={290}
               width={400}
               className="w-full rounded-t object-cover"
+              priority
             />
             <div className="p-4">
               <h4 className="h6 mb-3">
