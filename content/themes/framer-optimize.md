@@ -5,7 +5,7 @@ demo: https://optimize.framer.website/
 price: 79
 author: "Framerbite"
 date: 2024-11-30T10:09:23.946Z
-description: "Introducing Optimize – a modern & trendy multi-layout Framer template crafted for SaaS and startup businesses."
+description: "Introducing Optimize – this Framer template is a modern & trendy multi-layout crafted for SaaS and startup businesses."
 ssg: ["Framer"]
 css: []
 ui: []
