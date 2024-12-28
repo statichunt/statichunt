@@ -1,7 +1,7 @@
 ---
 title: Handyman — Renovation & Construction Template
 download: https://puretemplates.link/get-handyman
-demo: https://handyman-template.framer.website/
+demo: https://handyman-template.framer.website/home-1
 price: 39
 author: "Pure Templates"
 date: 2024-11-30T10:10:50.514Z
