@@ -7,10 +7,10 @@ description: ""
 date: 2024-02-14
 price: $177
 regular_price: $497
-purchase_link: "https://gethugothemes.com/bundle"
+purchase_link: "https://gethugothemes.com/bundle?aff=statichunt"
 features:
-- "60+ Themes"
-- "Premium Support"
-- "Unlimited Projects"
-- "Upcoming Themes"
+  - "60+ Themes"
+  - "Premium Support"
+  - "Unlimited Projects"
+  - "Upcoming Themes"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Fortify Hugo
-download: https://gethugothemes.com/products/fortify
+download: https://gethugothemes.com/products/fortify?aff=statichunt
 github: null
 price: 77
 demo: https://demo.gethugothemes.com/fortify/site/
@@ -26,6 +26,7 @@ draft: false
 weight: 6
 home_weight: null
 ---
+
 ## Key Features
 
 - 100/100 Google PageSpeed Score on Desktop
