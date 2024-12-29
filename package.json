@@ -13,6 +13,7 @@
     "json": "node scripts/jsonGenerator.mjs",
     "update": "node scripts/jsonGenerator.mjs && node scripts/parseNewThemesData.mjs",
     "update-themes": "yarn json && node scripts/updateThemes.mjs && yarn json",
+    "theme-sync": "node scripts/themeSync.mjs",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs",
     "format": "prettier -w ."
   },
