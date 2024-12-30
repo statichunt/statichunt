@@ -27,11 +27,18 @@ const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
     (theme) => slugify(theme.frontmatter.author) === slug,
   );
 
+  const themeCount =
+    filterThemeByAuthor.length > 50
+      ? Math.floor(filterThemeByAuthor.length / 50) * 50
+      : filterThemeByAuthor.length - 1;
+
+  const metaTitle = meta_title.replace("<themes>", `${themeCount}+`);
+
   return (
     <Base
       title={title}
       description={description ? description : content.slice(0, 120)}
-      meta_title={meta_title}
+      meta_title={metaTitle}
       image={image}
       noindex={noindex}
       canonical={canonical}
