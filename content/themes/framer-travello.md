@@ -1,11 +1,11 @@
 ---
 title: Travello
-download:
+download: https://framerbite.com/product/travello
 demo: https://travello.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:46:39.840Z
+date: 2024-12-30T07:18:34.803Z
 description: "Travel Agency Framer Template"
 ssg: [Framer]
 css: []

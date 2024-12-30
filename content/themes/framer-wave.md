@@ -1,11 +1,11 @@
 ---
 title: Wave
-download:
+download: https://framerbite.com/product/wave
 demo: https://wave.framer.wiki/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:47:42.169Z
+date: 2024-12-30T07:19:51.431Z
 description: "Marketing Framer Template"
 ssg: [Framer]
 css: []

@@ -1,11 +1,11 @@
 ---
 title: Sartor
-download:
+download: https://framerbite.com/product/sartor
 demo: https://sartor.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:52:14.771Z
+date: 2024-12-30T07:24:26.773Z
 description: "Fashion eCommerce Framer Template"
 ssg: [Framer]
 css: []

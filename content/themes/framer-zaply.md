@@ -1,11 +1,11 @@
 ---
 title: Zaply
-download:
+download: https://framerbite.com/product/zaply
 demo: https://zaply.framer.website/
 price: 49
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:53:47.953Z
+date: 2024-12-30T07:25:50.896Z
 description: "Multi-Layout SaaS Framer Template"
 ssg: [Framer]
 css: []

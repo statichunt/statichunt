@@ -1,11 +1,11 @@
 ---
 title: Gardeny
-download:
+download: https://framerbite.com/product/gardeny
 demo: https://gardenny.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:50:19.965Z
+date: 2024-12-30T07:22:29.638Z
 description: "Landscape & Gardening Service Framer Template"
 ssg: [Framer]
 css: []

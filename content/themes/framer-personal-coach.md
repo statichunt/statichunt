@@ -1,11 +1,11 @@
 ---
 title: Personal Coach
-download:
+download: https://framerbite.com/product/personal-coach
 demo: https://personalcoach.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:51:17.967Z
+date: 2024-12-30T07:23:31.391Z
 description: "One Page Life Coach Framer Template"
 ssg: [Framer]
 css: []

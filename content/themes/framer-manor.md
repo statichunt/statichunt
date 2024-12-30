@@ -1,11 +1,11 @@
 ---
 title: Manor
-download:
+download: https://framerbite.com/product/manor
 demo: https://manoor.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:48:42.896Z
+date: 2024-12-30T07:20:56.216Z
 description: "Architecture & Interior Template"
 ssg: [Framer]
 css: []

@@ -1,11 +1,11 @@
 ---
 title: Mortex
-download:
+download: https://framerbite.com/product/mortex
 demo: https://mortox.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:50:04.086Z
+date: 2024-12-30T07:22:13.415Z
 description: "Loan & Mortgage Framer Template"
 ssg: [Framer]
 css: []

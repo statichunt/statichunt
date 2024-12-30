@@ -1,11 +1,11 @@
 ---
 title: Constra
-download:
+download: https://framerbite.com/product/constra
 demo: https://constra.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:49:06.628Z
+date: 2024-12-30T07:21:18.444Z
 description: "Construction Framer Template"
 ssg: [Framer]
 css: []

@@ -1,11 +1,11 @@
 ---
 title: SnapDesign
-download:
+download: https://framerbite.com/product/snapdesign
 demo: https://snapdesign.framer.website/
 price: 49
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:46:27.772Z
+date: 2024-12-30T07:18:23.408Z
 description: "Productized Design Agency Template"
 ssg: [Framer]
 css: []

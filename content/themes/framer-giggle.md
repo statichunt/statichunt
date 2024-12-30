@@ -1,11 +1,11 @@
 ---
 title: Giggle
-download:
+download: https://framerbite.com/product/giggle
 demo: https://giggle.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:49:39.903Z
+date: 2024-12-30T07:21:51.951Z
 description: "Kindergarten & Child Care Framer Template"
 ssg: [Framer]
 css: []

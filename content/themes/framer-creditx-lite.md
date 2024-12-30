@@ -1,11 +1,11 @@
 ---
 title: CreditX Lite
-download:
+download: https://framerbite.com/product/creditx-lite
 demo: https://creditx.framer.website/home-2
 price: 49
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:52:20.693Z
+date: 2024-12-30T07:24:30.281Z
 description: "Free Framer Template for Finance"
 ssg: [Framer]
 css: []

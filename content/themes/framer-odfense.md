@@ -1,11 +1,11 @@
 ---
 title: Odfense
-download:
+download: https://framerbite.com/product/odfense
 demo: https://odfense.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:50:37.766Z
+date: 2024-12-30T07:22:48.064Z
 description: "IT & Software Framer Template"
 ssg: [Framer]
 css: []

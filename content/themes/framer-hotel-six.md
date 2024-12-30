@@ -1,11 +1,11 @@
 ---
 title: Hotel Six
-download:
+download: https://framerbite.com/product/hotel-six
 demo: https://hotelsix.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:53:08.932Z
+date: 2024-12-30T07:25:10.250Z
 description: "Luxury Resort & Hotel Framer Template"
 ssg: [Framer]
 css: []

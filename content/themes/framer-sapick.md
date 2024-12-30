@@ -1,11 +1,11 @@
 ---
 title: Sapick
-download:
+download: https://framerbite.com/product/sapick
 demo: https://sapick.framer.website/
 price: 79
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:45:59.138Z
+date: 2024-12-30T07:17:53.312Z
 description: "Multi-Layout SaaS & Startup Template"
 ssg: [Framer]
 css: []

@@ -1,11 +1,11 @@
 ---
 title: Keylux
-download:
+download: https://framerbite.com/product/keylux
 demo: https://keylux.framer.website/
-price: 
+price: 0
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:50:44.582Z
+date: 2024-12-30T07:22:55.228Z
 description: "Luxury Resort & Hotel Framer Template"
 ssg: [Framer]
 css: []

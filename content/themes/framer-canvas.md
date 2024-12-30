@@ -1,11 +1,11 @@
 ---
 title: Canvas
-download:
+download: https://framerbite.com/product/canvas
 demo: https://canvus.framer.media/
 price: 49
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:48:20.520Z
+date: 2024-12-30T07:20:29.598Z
 description: "Productized Design Agency Framer Template"
 ssg: [Framer]
 css: []

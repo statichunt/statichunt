@@ -1,11 +1,11 @@
 ---
 title: BuildHub
-download:
+download: https://framerbite.com/product/buildhub
 demo: https://buildhub.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:50:31.201Z
+date: 2024-12-30T07:22:40.676Z
 description: "Small Business Framer Template"
 ssg: [Framer]
 css: []
