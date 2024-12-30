@@ -1,11 +1,11 @@
 ---
 title: Squar
-download:
+download: https://framerbite.com/product/squar
 demo: https://squar.framer.website/
-price: 
+price: 0
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:52:49.352Z
+date: 2024-12-30T07:24:55.483Z
 description: "Free Framer Template for Real Estate"
 ssg: [Framer]
 css: []

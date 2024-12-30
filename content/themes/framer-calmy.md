@@ -1,11 +1,11 @@
 ---
 title: Calmy
-download:
+download: https://framerbite.com/product/calmy
 demo: https://calmy.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:50:16.652Z
+date: 2024-12-30T07:22:24.707Z
 description: "Psychology & Therapy Center Framer Template"
 ssg: [Framer]
 css: []

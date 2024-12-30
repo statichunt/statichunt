@@ -1,11 +1,11 @@
 ---
 title: Mortloan
-download:
+download: https://framerbite.com/product/mortloan
 demo: https://mortloan.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:49:48.728Z
+date: 2024-12-30T07:21:59.113Z
 description: "Loan & Mortgage Broker Framer Template"
 ssg: [Framer]
 css: []

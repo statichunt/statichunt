@@ -1,11 +1,11 @@
 ---
 title: Balanced
-download:
+download: https://framerbite.com/product/balanced
 demo: https://balanced.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:49:59.493Z
+date: 2024-12-30T07:22:09.845Z
 description: "Fitness Therapy Center Framer Template"
 ssg: [Framer]
 css: []

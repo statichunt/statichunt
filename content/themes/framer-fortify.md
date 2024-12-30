@@ -1,11 +1,11 @@
 ---
 title: Fortify
-download:
+download: https://framerbite.com/product/fortify
 demo: https://fortify.framer.wiki/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:48:58.299Z
+date: 2024-12-30T07:21:11.149Z
 description: "Security SaaS & Startup Framer Template "
 ssg: [Framer]
 css: []

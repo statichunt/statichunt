@@ -1,11 +1,11 @@
 ---
 title: Glaze
-download:
+download: https://framerbite.com/product/glaze
 demo: https://glaaze.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:47:22.136Z
+date: 2024-12-30T07:19:25.078Z
 description: "SaaS & Startup Framer Template"
 ssg: [Framer]
 css: []

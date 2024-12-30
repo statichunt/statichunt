@@ -1,11 +1,11 @@
 ---
 title: HairStyle
-download:
+download: https://framerbite.com/product/hairstyle
 demo: https://hairstyle.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:51:21.483Z
+date: 2024-12-30T07:23:34.912Z
 description: "Small Business Framer Template"
 ssg: [Framer]
 css: []

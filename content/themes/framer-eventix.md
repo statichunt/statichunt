@@ -1,11 +1,11 @@
 ---
 title: Eventix
-download:
+download: https://framerbite.com/product/eventix
 demo: https://eventix.framer.website/
 price: 49
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:46:14.201Z
+date: 2024-12-30T07:18:08.506Z
 description: "Event & Conference Framer Template"
 ssg: [Framer]
 css: []

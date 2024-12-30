@@ -1,11 +1,11 @@
 ---
 title: Lexicon
-download:
+download: https://framerbite.com/product/lexicon
 demo: https://lexicon.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:48:31.450Z
+date: 2024-12-30T07:20:41.240Z
 description: "Law Firm, Lawyer & Attorney Framer Template"
 ssg: [Framer]
 css: []

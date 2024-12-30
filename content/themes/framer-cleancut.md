@@ -1,11 +1,11 @@
 ---
 title: CleanCut
-download:
+download: https://framerbite.com/product/cleancut
 demo: https://cleancut.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:47:28.731Z
+date: 2024-12-30T07:19:32.613Z
 description: "Laundry Cleaning Service Template"
 ssg: [Framer]
 css: []

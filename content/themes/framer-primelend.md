@@ -1,11 +1,11 @@
 ---
 title: PrimeLend
-download:
+download: https://framerbite.com/product/primelend
 demo: https://primelend.framer.website/
 price: 39
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:49:36.159Z
+date: 2024-12-30T07:21:48.212Z
 description: "Finance, Loan & Mortgage Framer Template"
 ssg: [Framer]
 css: []

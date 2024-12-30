@@ -1,11 +1,11 @@
 ---
 title: Secury
-download:
+download: https://framerbite.com/product/secury
 demo: https://secury.framer.website/
 price: 49
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:47:50.272Z
+date: 2024-12-30T07:19:58.937Z
 description: "Blockchain & Web3 Framer Template"
 ssg: [Framer]
 css: []

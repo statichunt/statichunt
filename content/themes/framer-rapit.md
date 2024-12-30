@@ -1,11 +1,11 @@
 ---
 title: Rapit
-download:
+download: https://framerbite.com/product/rapit
 demo: https://rapit.framer.website/
-price: 
+price: 0
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:53:41.448Z
+date: 2024-12-30T07:25:43.668Z
 description: "Free SaaS Framer Template"
 ssg: [Framer]
 css: []

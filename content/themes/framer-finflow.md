@@ -1,11 +1,11 @@
 ---
 title: FinFlow
-download:
+download: https://framerbite.com/product/finflow
 demo: https://finflow.framer.ai/
 price: 49
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:46:46.392Z
+date: 2024-12-30T07:18:43.804Z
 description: "Multi-Layout SaaS Marketing Template"
 ssg: [Framer]
 css: []

@@ -1,11 +1,11 @@
 ---
 title: Loveline
-download:
+download: https://framerbite.com/product/loveline
 demo: https://loveline.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:51:39.509Z
+date: 2024-12-30T07:23:52.809Z
 description: "Event Management Framer Template"
 ssg: [Framer]
 css: []

@@ -1,11 +1,11 @@
 ---
 title: Electra
-download:
+download: https://framerbite.com/product/electra
 demo: https://electra.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:49:55.534Z
+date: 2024-12-30T07:22:06.159Z
 description: "Electrical Service Framer Template"
 ssg: [Framer]
 css: []

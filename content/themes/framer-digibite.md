@@ -1,11 +1,11 @@
 ---
 title: DigiBite
-download:
+download: https://framerbite.com/product/digibite
 demo: https://digibite.framer.website/
-price: 
+price: 0
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:54:23.595Z
+date: 2024-12-30T07:26:30.928Z
 description: "Modern Digital Agency Framer Template"
 ssg: [Framer]
 css: []

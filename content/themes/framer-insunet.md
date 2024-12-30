@@ -1,11 +1,11 @@
 ---
 title: Insunet
-download:
+download: https://framerbite.com/product/insunet
 demo: https://insunet.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:45:49.219Z
+date: 2024-12-30T07:17:41.726Z
 description: "Insurance Website"
 ssg: [Framer]
 css: []

@@ -1,11 +1,11 @@
 ---
 title: Insurancy
-download:
+download: https://framerbite.com/product/insurancy
 demo: https://insurancy.framer.website/
 price: 29
 author: "Framerbite"
 author_link: https://framerbite.com
-date: 2024-12-30T03:53:22.622Z
+date: 2024-12-30T07:25:25.106Z
 description: "Insurance Framer Template"
 ssg: [Framer]
 css: []
