@@ -7,7 +7,8 @@ import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
 const SidebarSort = ({ sortValue, handleSortThemes }) => {
   // call filterContext
-  const { sortAsc, setSortAsc, arrayFree, arrayPremium } = useFilterContext();
+  const { sortAsc, setSortAsc, arrayOpenSource, arrayFree, arrayPremium } =
+    useFilterContext();
 
   const [open, setOpen] = useState(true);
   const windowSize = useWindow(1023);
@@ -20,7 +21,11 @@ const SidebarSort = ({ sortValue, handleSortThemes }) => {
   }, [windowSize]);
 
   //  button for sorting
-  const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
+  const { sortMenu } = usePricingFilter(
+    arrayOpenSource,
+    arrayFree,
+    arrayPremium,
+  );
   return (
     <div className="order-2 mb-4 lg:mb-8">
       <h3

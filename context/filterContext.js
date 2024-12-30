@@ -9,6 +9,7 @@ export const JsonContext = ({ children }) => {
   const [arrayCSS, setArrayCSS] = useState([]);
   const [arrayUI, setArrayUI] = useState([]);
   const [arrayCategory, setArrayCategory] = useState([]);
+  const [arrayOpenSource, setArrayOpenSource] = useState([]);
   const [arrayFree, setArrayFree] = useState([]);
   const [arrayPremium, setArrayPremium] = useState([]);
   const [arrayToolsCategory, setArrayToolsCategory] = useState([]);
@@ -26,6 +27,7 @@ export const JsonContext = ({ children }) => {
     setArrayCategory([]);
     setArrayPremium([]);
     setArrayFree([]);
+    setArrayOpenSource([]);
     setAllReset(!allReset);
     setSortAsc(false);
   };
@@ -38,6 +40,7 @@ export const JsonContext = ({ children }) => {
     setArrayCategory([]);
     setArrayPremium([]);
     setArrayFree([]);
+    setArrayOpenSource([]);
     setTaxonomyArray([]);
   }, [router.asPath]);
 
@@ -54,6 +57,8 @@ export const JsonContext = ({ children }) => {
     arraySSG,
     arrayCategory,
     setArrayCategory,
+    arrayOpenSource,
+    setArrayOpenSource,
     arrayFree,
     setArrayFree,
     arrayPremium,

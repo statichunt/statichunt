@@ -42,6 +42,7 @@ const Home = ({
     arrayCSS,
     arrayUI,
     arrayCategory,
+    arrayOpenSource,
     arrayFree,
     arrayPremium,
     sortAsc,
@@ -67,18 +68,25 @@ const Home = ({
   const filterCategory = filterFunction(filterUI, arrayCategory, "category");
 
   //  button for sorting
-  const { sortMenu } = usePricingFilter(arrayFree, arrayPremium);
-  const { filteredThemes, filterFree, filterPremium } = useFilterData(
-    sortedThemes,
-    filterCategory,
-    arrayCategory,
+  const { sortMenu } = usePricingFilter(
+    arrayOpenSource,
     arrayFree,
     arrayPremium,
   );
 
+  const { filteredThemes, filterOpenSource, filterFree, filterPremium } =
+    useFilterData(
+      sortedThemes,
+      filterCategory,
+      arrayCategory,
+      arrayOpenSource,
+      arrayFree,
+      arrayPremium,
+    );
+
   // final themes filtering
   const finalThemes =
-    arrayPremium.length && arrayFree.length
+    arrayPremium.length && arrayFree.length && arrayOpenSource.length
       ? sortedThemes
       : arrayFree.length
         ? parameter
@@ -88,7 +96,11 @@ const Home = ({
           ? parameter
             ? filterPremium
             : arrayPremium
-          : sortedThemes;
+          : arrayOpenSource.length
+            ? parameter
+              ? filterOpenSource
+              : arrayOpenSource
+            : sortedThemes;
 
   const title = config.site.title.replace(
     "<themes>",
@@ -105,16 +117,19 @@ const Home = ({
           css={css}
           ui={ui}
           themes={
-            arrayPremium.length && arrayFree.length
+            arrayPremium.length && arrayFree.length && arrayOpenSource.length
               ? finalThemes
               : arrayFree.length
                 ? filterFree
                 : arrayPremium.length
                   ? filterPremium
-                  : finalThemes
+                  : arrayOpenSource.length
+                    ? filterOpenSource
+                    : finalThemes
           }
         >
           <PricingFilter
+            filterOpenSource={filterOpenSource}
             filterFree={filterFree}
             filterPremium={filterPremium}
           />
@@ -127,26 +142,6 @@ const Home = ({
               themeCount={themes.length}
               className={showIntro ? "block" : "hidden"}
             />
-
-            {/* themes by authors */}
-            {/* <div className="pt-2 z-20 px-2 mb-8 flex">
-              <strong>Themes By Some Best Authors:</strong>
-              <ul className="ml-2">
-                {authors.map((author) => (
-                  <li
-                    className="inline-block mx-2"
-                    key={author.frontmatter.title}
-                  >
-                    <Link
-                      className="rounded border border-primary dark:border-darkmode-primary px-2 py-1 text-primary dark:text-darkmode-dark"
-                      href={`/authors/${author.slug}`}
-                    >
-                      {author.frontmatter.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div> */}
 
             <div className="mb-8 block justify-between md:flex lg:sticky top-[74px] bg-body dark:bg-darkmode-body pt-2 z-20 px-2">
               <HomeCategory

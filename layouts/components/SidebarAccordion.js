@@ -20,6 +20,7 @@ const SidebarAccordion = ({
     arrayCSS,
     arrayUI,
     arrayCategory,
+    arrayOpenSource,
     arrayFree,
     arrayPremium,
     allReset,
@@ -35,7 +36,6 @@ const SidebarAccordion = ({
       selected: false,
     }));
     setTaxonomy(filterAddition);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug, allReset]);
 
   // call custom hook
@@ -96,6 +96,7 @@ const SidebarAccordion = ({
         arrayCSS?.length > 0 ||
         arrayUI?.length > 0 ||
         arrayCategory?.length > 0 ||
+        arrayOpenSource?.length > 0 ||
         arrayFree?.length > 0 ||
         arrayPremium?.length > 0
       ) {
@@ -104,13 +105,13 @@ const SidebarAccordion = ({
         SetShowIntro(true);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     arraySSG?.length,
     arrayCategory?.length,
     arrayCMS?.length,
     arrayCSS?.length,
     arrayUI?.length,
+    arrayOpenSource?.length,
     arrayFree?.length,
     arrayPremium?.length,
   ]);

@@ -57,7 +57,7 @@ const RegularPages = ({
     slug: slug,
   });
 
-  const { arrayCategory, sortAsc, arrayFree, arrayPremium } =
+  const { arrayCategory, sortAsc, arrayOpenSource, arrayFree, arrayPremium } =
     useFilterContext();
 
   const filterCategory = sortedThemes.filter((theme) =>
@@ -69,13 +69,15 @@ const RegularPages = ({
         )
       : sortedThemes,
   );
-  const { filteredThemes, filterFree, filterPremium } = useFilterData(
-    sortedThemes,
-    filterCategory,
-    arrayCategory,
-    arrayFree,
-    arrayPremium,
-  );
+  const { filteredThemes, filterOpenSource, filterFree, filterPremium } =
+    useFilterData(
+      sortedThemes,
+      filterCategory,
+      arrayCategory,
+      arrayOpenSource,
+      arrayFree,
+      arrayPremium,
+    );
 
   const indexOfOthers = category.map((data) => data.slug).indexOf("others");
   const element = category.splice(indexOfOthers, 1)[0];
@@ -103,13 +105,15 @@ const RegularPages = ({
         <div className="flex">
           <Sidebar
             themes={
-              arrayPremium.length && arrayFree.length
+              arrayPremium.length && arrayFree.length && arrayOpenSource.length
                 ? sortedThemes
                 : arrayFree.length
                   ? filterFree
                   : arrayPremium.length
                     ? filterPremium
-                    : sortedThemes
+                    : arrayOpenSource.length
+                      ? filterOpenSource
+                      : sortedThemes
             }
             slug={slug}
             category={category}
@@ -117,6 +121,7 @@ const RegularPages = ({
             showIntro={showIntro}
           >
             <PricingFilter
+              filterOpenSource={filterOpenSource}
               filterFree={filterFree}
               filterPremium={filterPremium}
             />

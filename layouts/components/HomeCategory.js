@@ -3,16 +3,12 @@ import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useEffect, useState } from "react";
 
-const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
+const HomeCategory = ({ themes, category }) => {
   const [taxonomy, setTaxonomy] = useState(category);
 
   const {
     arrayCategory,
     setArrayCategory,
-    arrayFree,
-    setArrayFree,
-    arrayPremium,
-    setArrayPremium,
     allReset,
     setParameter,
     taxonomyArray,
@@ -42,7 +38,6 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
       selected: false,
     }));
     setTaxonomy(filterAddition);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allReset]);
 
   const handleTaxonomy = (label) => {
@@ -67,9 +62,8 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
   // add data inside taxonomy array
   useEffect(() => {
     handleTaxonomyArray(arrayCategory);
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [arrayCategory]);
+
   // filter content by taxonomy
   useEffect(() => {
     filteringTaxonomy(
@@ -94,28 +88,6 @@ const HomeCategory = ({ themes, category, filterFree, filterPremium }) => {
 
   return (
     <ul className="category-list flex flex-wrap">
-      {/* <li
-        onClick={() =>
-          setArrayPremium(arrayPremium.length === 0 ? filterPremium : [])
-        }
-        className={`filter-premium ${arrayPremium.length > 0 ? "active" : ""} ${
-          filterPremium.length < 1 ? "disabled" : ""
-        }`}
-      >
-        Premium
-        <span>{filterPremium.length}</span>
-      </li>
-      <li
-        onClick={() => setArrayFree(arrayFree.length === 0 ? filterFree : [])}
-        className={`filter-free ${arrayFree.length > 0 ? "active" : ""} ${
-          filterFree.length < 1 ? "disabled" : ""
-        }`}
-      >
-        Free
-        <span>{filterFree.length}</span>
-      </li> 
-      <li className="!mb-0 mt-1 h-6 !cursor-default !rounded-none !border-y-0 !border-r-0 !p-0 align-middle" /> */}
-
       {taxonomy.map((item, i) => (
         <li
           onClick={() => handleTaxonomy(slugify(item.frontmatter.title))}

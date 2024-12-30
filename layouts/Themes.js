@@ -105,45 +105,26 @@ const Themes = ({ themes, authors, className }) => {
                   <span
                     className="tooltip ml-2 mt-1 flex shrink-0 items-center whitespace-nowrap text-sm text-dark dark:text-white"
                     data-tooltip={humanize(
-                      theme.frontmatter.price > 0 && theme.type != "update"
+                      theme.frontmatter.price > 0 && theme.type !== "update"
                         ? "Price"
-                        : theme.type
-                          ? theme.type
-                          : "Star",
+                        : theme.type || "Star",
                     )}
                   >
-                    {theme.type === "price" ? (
-                      githubDataChange(theme) !== 0 && (
-                        <img
-                          className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
-                          src={`/images/icons/${
-                            theme.frontmatter.price > 0 &&
-                            theme.type != "update"
-                              ? "price"
-                              : theme.type
-                                ? theme.type
-                                : "star"
-                          }.svg`}
-                          alt="github icon"
-                          height="14"
-                          width="14"
-                        />
-                      )
-                    ) : (
+                    {githubDataChange(theme) !== 0 || theme.type !== "price" ? (
                       <img
                         className="mr-1 inline max-h-[14px] align-text-bottom dark:invert"
                         src={`/images/icons/${
-                          theme.frontmatter.price > 0 && theme.type != "update"
+                          theme.frontmatter.price > 0 && theme.type !== "update"
                             ? "price"
-                            : theme.type
-                              ? theme.type
-                              : "star"
+                            : !theme.frontmatter.github
+                              ? "price"
+                              : theme.type || "star"
                         }.svg`}
                         alt="github icon"
                         height="14"
                         width="14"
                       />
-                    )}
+                    ) : null}
                     {theme.type === "price"
                       ? githubDataChange(theme) !== 0
                         ? githubDataChange(theme)

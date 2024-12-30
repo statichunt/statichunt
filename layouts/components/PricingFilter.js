@@ -3,9 +3,16 @@ import { useFilterContext } from "context/filterContext";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
 
-const PricingFilter = ({ filterFree, filterPremium }) => {
-  const { arrayFree, setArrayFree, arrayPremium, setArrayPremium } =
-    useFilterContext();
+const PricingFilter = ({ filterOpenSource, filterFree, filterPremium }) => {
+  const {
+    arrayOpenSource,
+    setArrayOpenSource,
+    arrayFree,
+    setArrayFree,
+    arrayPremium,
+    setArrayPremium,
+  } = useFilterContext();
+
   const [open, setOpen] = useState(true);
   const windowSize = useWindow(1023);
   useEffect(() => {
@@ -33,9 +40,29 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
             <>
               <button
                 onClick={() =>
+                  setArrayOpenSource(
+                    arrayOpenSource.length === 0 ? filterOpenSource : [],
+                  )
+                }
+                className={`sidebar-checkbox ${
+                  arrayOpenSource.length > 0 ? "active" : undefined
+                }`}
+              >
+                <img
+                  src="/images/icons/open-source.svg"
+                  alt="open-source"
+                  height="18"
+                  width="18"
+                  className="ml-2 max-h-[18px] dark:brightness-0 dark:invert"
+                />
+                <span className="ml-2 block">Open Source</span>
+                <span className="ml-auto">{filterOpenSource.length}</span>
+              </button>
+
+              <button
+                onClick={() =>
                   setArrayFree(arrayFree.length === 0 ? filterFree : [])
                 }
-                // className={arrayFree.length > 0 ? "active" : undefined}
                 className={`sidebar-checkbox ${
                   arrayFree.length > 0 ? "active" : undefined
                 }`}
