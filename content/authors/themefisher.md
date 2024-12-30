@@ -2,7 +2,7 @@
 title: Themefisher
 email: themefisher@gmail.com
 website: https://themefisher.com/
-twitter: https://twitter.com/themefisher
+twitter: https://x.com/themefisher
 github: https://github.com/themefisher
 description: ""
 ---

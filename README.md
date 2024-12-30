@@ -61,7 +61,7 @@ If you love this project don’t forget to click the “Star” button.
 Stay up to date with all static site generator resources and engage with the community.
 <br>
 
-Follow us on Twitter: [Statichunt](https://twitter.com/heyStatichunt)<br> Join Discord Community: [Statichunt Discord Server](https://discord.gg/ph9z267TBZ)
+Follow us on X: [Statichunt](https://x.com/heyStatichunt)<br> Join Discord Community: [Statichunt Discord Server](https://discord.gg/ph9z267TBZ)
 
 ## Acknowledgments
 

@@ -1,3 +1,4 @@
+import { FaSquareXTwitter } from "react-icons/fa6";
 import {
   IoCall,
   IoGlobeOutline,
@@ -22,7 +23,6 @@ import {
   IoLogoSoundcloud,
   IoLogoTiktok,
   IoLogoTumblr,
-  IoLogoTwitter,
   IoLogoVimeo,
   IoLogoVk,
   IoLogoWhatsapp,
@@ -84,7 +84,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoTwitter />
+            <FaSquareXTwitter />
           </a>
         </li>
       )}

@@ -1,13 +1,13 @@
 import config from "@/config/config.json";
 import { useRouter } from "next/router";
 import { useState } from "react";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import {
   IoClipboardOutline,
   IoLinkOutline,
   IoLogoFacebook,
   IoLogoLinkedin,
   IoLogoPinterest,
-  IoLogoTwitter,
 } from "react-icons/io5";
 
 const Share = ({ title, description, className }) => {
@@ -48,7 +48,7 @@ const Share = ({ title, description, className }) => {
       <li className="inline-block">
         <a
           aria-label="twitter share button"
-          href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${
+          href={`https://x.com/intent/tweet/?text=${title}&amp;url=${
             base_url + router.asPath
           }`}
           target="_blank"
@@ -56,7 +56,7 @@ const Share = ({ title, description, className }) => {
           button="true"
           className="inline-flex h-[35px] w-[35px] items-center justify-center rounded-[4px] bg-black/5 text-center text-dark transition-all duration-200 hover:bg-primary hover:text-white dark:bg-white/5 dark:text-white dark:hover:bg-primary"
         >
-          <IoLogoTwitter />
+          <FaSquareXTwitter />
         </a>
       </li>
       <li className="inline-block">

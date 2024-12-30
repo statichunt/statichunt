@@ -2,7 +2,7 @@
 title: Statichunt
 email: hey.statichunt@gmail.com
 website: https://statichunt.com
-twitter: https://twitter.com/heyStatichunt
+twitter: https://x.com/heyStatichunt
 github: https://github.com/statichunt
 description: ""
 ---

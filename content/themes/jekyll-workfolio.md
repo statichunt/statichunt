@@ -1,7 +1,7 @@
 ---
 title: Workfolio
 github: https://github.com/ndarville/workfolio
-demo: https://twitter.com/pessimism/status/649590801471770624
+demo: https://x.com/pessimism/status/649590801471770624
 author: ndarville
 author_link: https://github.com/ndarville
 date: 2024-11-28T11:20:44.982Z

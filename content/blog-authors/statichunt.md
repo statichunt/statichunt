@@ -3,6 +3,6 @@ title: Statichunt
 email: hey.statichunt@gmail.com
 description: ""
 social:
-  twitter: https://twitter.com/heyStatichunt
+  twitter: https://x.com/heyStatichunt
   github: https://github.com/statichunt/
 ---

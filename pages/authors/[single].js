@@ -6,7 +6,7 @@ import { parseMDX } from "@/lib/utils/mdxParser";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
 import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
-import { FaGithub, FaTwitter } from "react-icons/fa6";
+import { FaGithub, FaSquareXTwitter } from "react-icons/fa6";
 
 // for all regular pages
 const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
@@ -63,8 +63,8 @@ const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
                 {twitter && (
                   <li>
                     <a href={twitter} target="_blank" rel="noreferrer noopener">
-                      <FaTwitter size={20} className="mr-1" />
-                      {twitter.replace("https://twitter.com/", "")}
+                      <FaSquareXTwitter size={20} className="mr-1" />
+                      {twitter.replace("https://x.com/", "")}
                     </a>
                   </li>
                 )}

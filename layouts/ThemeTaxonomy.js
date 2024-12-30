@@ -1,13 +1,8 @@
 import config from "@/config/config.json";
 import Themes from "@/layouts/Themes";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
-import {
-  TbBrandGithub,
-  TbBrandTwitter,
-  TbCode,
-  TbHome,
-  TbLicense,
-} from "react-icons/tb";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { TbBrandGithub, TbCode, TbHome, TbLicense } from "react-icons/tb";
 
 const { dark_icon_list } = config;
 
@@ -84,11 +79,11 @@ const ThemeTaxonomy = ({
 
               {twitter_username && (
                 <li title="Twitter Profile">
-                  <TbBrandTwitter />
+                  <FaSquareXTwitter />
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={`https://twitter.com/${twitter_username}`}
+                    href={`https://x.com/${twitter_username}`}
                   >
                     @{twitter_username}
                   </a>

@@ -2,7 +2,7 @@
 title: Gethugothemes
 email: ""
 website: https://gethugothemes.com
-twitter: https://twitter.com/gethugothemes
+twitter: https://x.com/gethugothemes
 github: https://github.com/gethugothemes
 description: ""
 ---
