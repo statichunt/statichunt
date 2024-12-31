@@ -5,12 +5,12 @@ author: Themefisher
 author_link: "https://themefisher.com/"
 description: ""
 date: 2024-12-31
-price: $437
-regular_price: $797
+price: $337
+regular_price: $597
 purchase_link: "https://themefisher.com/all-access-pass"
 features:
   - "156+ Themes"
   - "Premium Support"
-  - "Unlimited Projects"
+  - "Multiple Projects"
   - "Upcoming Themes"
 ---

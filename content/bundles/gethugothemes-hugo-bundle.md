@@ -5,12 +5,12 @@ author: Gethugothemes
 author_link: "https://gethugothemes.com/"
 description: ""
 date: 2024-02-14
-price: $177
-regular_price: $497
+price: $137
+regular_price: $297
 purchase_link: "https://gethugothemes.com/bundle?aff=statichunt"
 features:
-  - "60+ Themes"
+  - "62+ Themes"
   - "Premium Support"
-  - "Unlimited Projects"
+  - "Multiple Projects"
   - "Upcoming Themes"
 ---

@@ -5,12 +5,12 @@ author: Themefisher
 author_link: "https://themefisher.com/"
 description: ""
 date: 2024-08-28
-price: $147
-regular_price: $297
+price: $127
+regular_price: $197
 purchase_link: "https://themefisher.com/bundles/astro-bundle/"
 features:
-- "21+ Themes"
-- "Premium Support"
-- "Unlimited Projects"
-- "Upcoming Themes"
+  - "26+ Themes"
+  - "Premium Support"
+  - "Multiple Projects"
+  - "Upcoming Themes"
 ---
