@@ -3,6 +3,7 @@ title: Framer
 page_title: <themes> Framer Templates
 meta_title: <themes> Framer Themes & Templates (Free & Premium) | Statichunt
 weight: "3"
+image: "/images/framer-og-image.png"
 description: Discover free and premium Framer templates to jumpstart your next project.Design beautiful responsive sites with an intuitive interface.
 icon: "/images/icons/framer.svg"
 website: https://framer.com/
