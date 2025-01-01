@@ -12,5 +12,5 @@ ui: []
 cms: []
 category: [Business]
 draft: false
-weight: 10
+weight: 8
 ---
