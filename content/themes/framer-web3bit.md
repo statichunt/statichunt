@@ -12,5 +12,5 @@ ui: []
 cms: []
 category: []
 draft: false
-weight: 7
+weight:
 ---

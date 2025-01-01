@@ -12,5 +12,5 @@ ui: []
 cms: []
 category: [SaaS]
 draft: false
-weight: 4
+weight:
 ---
