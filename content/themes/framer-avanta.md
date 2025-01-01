@@ -1,6 +1,6 @@
 ---
 title: Avanta — Multi-layout SaaS Startup Template
-download: 
+download:
 demo: https://framerbite.com/product/avanta?aff=YGGpO5
 price: 39
 author: "Framerbite"
@@ -10,6 +10,7 @@ ssg: ["Framer"]
 css: []
 ui: []
 cms: []
-category: [Business,SaaS]
+category: [Business, SaaS]
 draft: false
+weight: 505
 ---
