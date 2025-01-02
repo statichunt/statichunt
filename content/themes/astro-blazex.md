@@ -22,7 +22,7 @@ category:
   - Business
   - Saas
 draft: false
-Home_weight: 35
+home_weight: 35
 weight: 3
 ---
 ## Key Features

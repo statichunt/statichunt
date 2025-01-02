@@ -3,8 +3,8 @@ title: ThemeSelection
 meta_title: <themes> Themes by ThemeSelection
 email:
 website: https://themeselection.com/
-twitter: "https://x.com/Theme_Selection"
-github: "https://github.com/themeselection"
+twitter: https://x.com/Theme_Selection
+github: https://github.com/themeselection
 description: ""
 ---
 
