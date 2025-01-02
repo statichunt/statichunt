@@ -20,9 +20,9 @@
 
   "announcement": {
     "enable": true,
-    "name": "BlazeX Astro Announcement",
-    "link": "/blog/introducing-framer-and-webflow-templates-on-statichunt",
-    "content": "👉 Exciting news! We've introduced Framer and Webflow templates on Statichunt."
+    "name": " New Sponsor Announcement",
+    "link": "/authors/themeselection",
+    "content": "🎉 New Sponsor: Themeselection! Boost productivity with their premium dashboard templates and UI kits. 🚀"
   },
 
   "params": {
