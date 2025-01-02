@@ -21,7 +21,7 @@ draft: false
 home_weight: null
 weight: 1
 publish_date: '2021-10-25T11:47:38Z'
-update_date: '2024-12-09T03:36:20Z'
-github_star: 8571
-github_fork: 722
+update_date: '2025-01-02T04:04:25Z'
+github_star: 8649
+github_fork: 728
 ---

@@ -17,9 +17,9 @@ category:
   - Blog
 draft: false
 publish_date: '2023-10-15T17:05:06Z'
-update_date: '2024-10-29T13:19:03Z'
-github_star: 89
-github_fork: 23
+update_date: '2024-12-23T11:23:00Z'
+github_star: 90
+github_fork: 25
 ---
 # 🚀 Ovidius - Astro.js & Tailwind CSS Theme
 

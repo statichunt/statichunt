@@ -19,9 +19,9 @@ category:
   - Blog
   - Portfolio
 publish_date: '2024-01-11T15:23:14Z'
-update_date: '2024-12-04T14:28:16Z'
-github_star: 296
-github_fork: 133
+update_date: '2024-12-23T11:32:34Z'
+github_star: 309
+github_fork: 145
 ---
 # 🚀 Dante - Astro.js & Tailwind CSS Theme
 

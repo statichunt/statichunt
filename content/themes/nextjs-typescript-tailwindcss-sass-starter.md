@@ -17,7 +17,7 @@ cms: []
 category: []
 draft: false
 publish_date: '2021-12-02T19:53:04Z'
-update_date: '2024-12-06T09:38:51Z'
+update_date: '2025-01-01T09:10:53Z'
 github_star: 36
 github_fork: 6
 ---

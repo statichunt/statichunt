@@ -15,8 +15,8 @@ cms:
   - Prisma
 category: []
 draft: false
-publish_date: '2024-05-16T02:28:57Z'
-update_date: '2024-12-05T13:24:41Z'
-github_star: 1656
-github_fork: 640
+publish_date: '2024-11-24T12:31:00Z'
+update_date: '2024-12-15T07:24:11Z'
+github_star: 117
+github_fork: 61
 ---
