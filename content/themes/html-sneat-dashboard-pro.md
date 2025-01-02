@@ -9,12 +9,12 @@ date: 2025-01-02T00:00:00.000Z
 description: >-
   Sneat is a premium Bootstrap 5 HTML admin template with a clean and minimal design.
 ssg:
-  -
+  - Html
 css:
   - Bootstrap
 ui: []
-cms:
-  -
+cms: []
+
 category:
   - Business
   - Ecommerce
