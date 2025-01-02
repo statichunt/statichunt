@@ -1,22 +1,28 @@
 {
   "themes": [
     {
-      "name": "Themefisher",
-      "image": "/sponsors/themefisher-card.webp",
-      "link": "https://themefisher.com/",
-      "description": "Themefisher offers over 120 premium and free website templates built with modern technologies like Astro, NextJs, Hugo, Tailwind, and Bootstrap."
+      "name": "Themeselection",
+      "image": "/sponsors/themeselection-sponsor.webp",
+      "link": "https://themeselection.com/",
+      "description": "We help people bring their creative ideas to life We provide fully coded dashboard template and UI kit to streamline your development process and enhance productivity."
     },
     {
       "name": "WrapPixel",
       "image": "/sponsors/wrappixel-card.webp",
       "link": "https://www.wrappixel.com/templates/category/admin-dashboard-templates/?ref=317",
-      "description": "80+ premium and free admin dashboard templates built with modern technologies like React, Vue, Angular, and Bootstrap."
+      "description": "80+ premium and free adcmin dashboard templates built with modern technologies like React, Vue, Angular, and Bootstrap."
     },
     {
       "name": "Zeon Studio",
       "image": "/sponsors/zeonstudio-card.webp",
       "link": "https://zeon.studio/",
       "description": "Zeon Studio is a composable web agency offering modern web development, UI/UX design, and website migration services."
+    },
+    {
+      "name": "Themefisher",
+      "image": "/sponsors/themefisher-card.webp",
+      "link": "https://themefisher.com/",
+      "description": "Themefisher offers over 120 premium and free website templates built with modern technologies like Astro, NextJs, Hugo, Tailwind, and Bootstrap."
     },
     {
       "name": "Gethugothemes",
