@@ -19,7 +19,7 @@ cms:
 category:
   - Boilerplate
 draft: false
-home_weight: 20
+home_weight: 21
 weight: null
 publish_date: '2023-04-17T06:50:06Z'
 update_date: '2024-11-18T03:55:18Z'

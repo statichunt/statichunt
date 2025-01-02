@@ -20,8 +20,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-weight:
-home_weight:
+weight: 1
+home_weight: 15
 ---
 
 ## Key Features
