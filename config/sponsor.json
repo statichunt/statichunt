@@ -3,7 +3,7 @@
     {
       "name": "ThemeSelection",
       "image": "/sponsors/themeselection-sponsor.webp",
-      "link": "https://themeselection.com/",
+      "link": "https://themeselection.com/?ref=133",
       "description": "ThemeSelection provides fully coded dashboard templates and UI kits to streamline your development process and enhance productivity."
     },
     {
@@ -42,6 +42,11 @@
       "author": "WrapPixel",
       "image": "/sponsors/wrappixel-promotion.webp",
       "link": "https://www.wrappixel.com/templates/big-bundle/?ref=317"
+    },
+    {
+      "author": "ThemeSelection",
+      "image": "/sponsors/themeselections-bundle-banner.webp",
+      "link": "https://themeselection.com/item/celebration-big-bundle-sale/?ref=133"
     }
   ],
   "tools": []

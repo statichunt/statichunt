@@ -1,13 +1,12 @@
 ---
 title: Sneat Dashboard PRO – Bootstrap
-download: https://themeselection.com/item/sneat-dashboard-pro-bootstrap/
-price: $59
+download: https://themeselection.com/item/sneat-dashboard-pro-bootstrap/?ref=133
+price: 59
 demo: https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/
 author: ThemeSelection
 author_link: https://themeselection.com/
 date: 2025-01-02T00:00:00.000Z
-description: >-
-  Sneat is a premium Bootstrap 5 HTML admin template with a clean and minimal design.
+description: "Sneat is a premium Bootstrap 5 HTML admin template with a clean and minimal design."
 ssg:
   - Html
 css:
