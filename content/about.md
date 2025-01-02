@@ -43,6 +43,10 @@ Statichunt is an open-source Composable directory that enlists hundreds of theme
 
 <Event date="" title=" 🚀 Over 7,500 Themes Listed - 9th December 2024 "> We are excited to share we have over 7,500 themes! Statichunt is now a top spot for web development resources. Our growing collection helps you find the perfect match for any project.</Event>
 
+<Event date="" title=" 🤝 Onboarded Our Third Sponsor - 1st January 2025 "> 
+We are delighted to announce that we have onboarded our third sponsor, <a href="https://themeselection.com/" target="_blank">ThemeSelection</a>. ThemeSelection provides fully coded dashboard templates and UI kits that streamline the development process and enhance productivity. This partnership further strengthens our commitment to providing high-quality resources to our community. 
+</Event>
+
 <Event date="" title=" 🎯 10,000 Monthly Users Milestone (Loading....)  ">We're currently working towards the goal of reaching 10,000 monthly active users. It's an ambitious target, but we're excited about the challenge and the opportunities that it will bring. Stay tuned for updates!</Event>
 
 </Timeline>
