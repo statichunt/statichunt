@@ -1,10 +1,10 @@
 {
   "themes": [
     {
-      "name": "Themeselection",
+      "name": "ThemeSelection",
       "image": "/sponsors/themeselection-sponsor.webp",
       "link": "https://themeselection.com/",
-      "description": "We help people bring their creative ideas to life We provide fully coded dashboard template and UI kit to streamline your development process and enhance productivity."
+      "description": "ThemeSelection provides fully coded dashboard templates and UI kits to streamline your development process and enhance productivity."
     },
     {
       "name": "WrapPixel",
