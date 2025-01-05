@@ -21,8 +21,9 @@ category:
   - Business
 draft: false
 weight: 7
-home_weight: 18
+home_weight:
 ---
+
 ## Key Features
 
 - Page Speed (90/100)
