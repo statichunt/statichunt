@@ -4,6 +4,7 @@ import { markdownify } from "@/lib/utils/textConverter";
 import MobileSidebar from "@/partials/MobileSidebar";
 import shortcodes from "@/shortcodes/all";
 import { parseMDX } from "lib/utils/mdxParser";
+import { sortByWeight } from "lib/utils/sortFunctions";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Link from "next/link";
@@ -37,7 +38,13 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
                 key={bundle.frontmatter.title}
                 className="col-12 md:col-6 mb-6"
               >
-                <div className="rounded-md shadow dark:bg-darkmode-theme-dark h-full">
+                <div className="rounded-md shadow dark:bg-darkmode-theme-dark h-full relative">
+                  <Link
+                    className="after:absolute after:inset-0"
+                    href={`${bundle.frontmatter.purchase_link}${bundle.frontmatter.purchase_link?.includes("?") ? "" : "?ref=statichunt.com"}`}
+                    target="_blank"
+                    rel="noopener"
+                  />
                   <Image
                     src={bundle.frontmatter.image}
                     alt={bundle.frontmatter.title}
@@ -46,7 +53,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
                     className="w-full rounded-t-md"
                   />
 
-                  <div className="p-4 lg:p-8">
+                  <div className="p-4 lg:p-8 relative z-10">
                     <div className="flex justify-between mb-6">
                       <h3>{bundle.frontmatter.title}</h3>
 
@@ -81,6 +88,7 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
                             {bundle.frontmatter.regular_price}
                           </s>
                         </p>
+
                         <Link
                           className="btn btn-outline-primary whitespace-nowrap"
                           href={`${bundle.frontmatter.purchase_link}${bundle.frontmatter.purchase_link?.includes("?") ? "" : "?ref=statichunt.com"}`}
@@ -111,7 +119,7 @@ export const getStaticProps = async () => {
     props: {
       indexPage: bundleIndex,
       mdxContent: mdxContent,
-      bundles: bundles,
+      bundles: sortByWeight(bundles),
     },
   };
 };

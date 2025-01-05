@@ -6,6 +6,7 @@ author_link: "https://themeselection.com/"
 description: ""
 date: 2025-01-02
 price: $149
+weight: 1
 regular_price: $1329
 purchase_link: "https://themeselection.com/item/celebration-big-bundle-sale/"
 features:

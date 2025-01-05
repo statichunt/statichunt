@@ -23,7 +23,7 @@ const SponsorCards = ({ sponsors, className }) => {
                   <Link
                     href={`${sponsor.link}${sponsor.link?.includes("?") ? "" : "?ref=statichunt.com"}`}
                     target="_blank"
-                    rel="noopener sponsor"
+                    rel="sponsor"
                     className="stretched-link"
                   >
                     {sponsor.name}
