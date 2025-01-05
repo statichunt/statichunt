@@ -1,13 +1,15 @@
 ---
 title: Sneat Dashboard FREE – Bootstrap
-github: 
+github:
 demo: https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/html/
 author: ThemeSelection
 author_link: https://themeselection.com/
 date: 2025-01-05T00:00:00.000Z
 description: Sneat Dashboard FREE is a modern and feature-rich Bootstrap 5 admin template designed to revolutionize your app development.
-ssg: - Html
-css: - Bootstrap
+ssg:
+  - Html
+css:
+  - Bootstrap
 ui: []
 cms: []
 category:

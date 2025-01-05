@@ -5,9 +5,13 @@ demo: https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/de
 author: ThemeSelection
 author_link: https://themeselection.com/
 date: 2025-01-05T00:00:00.000Z
-description: Materio is a highly customizable and easy-to-use free MUI NextJS admin template, offering a sleek and dynamic dashboard for your projects.
-ssg: - Nextjs
-css: - SCSS
+description: >-
+  Materio is a highly customizable and easy-to-use free MUI NextJS admin
+  template, offering a sleek and dynamic dashboard for your projects.
+ssg:
+  - Nextjs
+css:
+  - SCSS
 ui: []
 cms: []
 category:
@@ -15,7 +19,8 @@ category:
   - Ecommerce
   - SaaS
   - Dashboard
-draft: false
+draft: true
+disabled_reason: Github repo not found
 ---
 
 ## Key Features
