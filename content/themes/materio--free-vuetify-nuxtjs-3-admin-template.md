@@ -1,6 +1,7 @@
 ---
 title: Materio – Free Vuetify NuxtJS 3 Admin Template
-github: https://github.com/themeselection/materio-vuetify-nuxtjs-admin-template-free
+download: https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/?ref=133
+Price: 0
 demo: >-
   https://demos.themeselection.com/materio-vuetify-nuxtjs-admin-template-free/demo/dashboard
 author: ThemeSelection
@@ -22,10 +23,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2024-01-08T07:15:42Z'
-update_date: '2025-01-01T12:45:55Z'
-github_star: 58
-github_fork: 16
+publish_date: "2024-01-08T07:15:42Z"
+update_date: "2025-01-01T12:45:55Z"
 ---
 
 ## Key Features

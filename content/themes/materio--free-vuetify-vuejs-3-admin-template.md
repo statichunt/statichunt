@@ -1,6 +1,7 @@
 ---
 title: Materio – Free Vuetify VueJS 3 Admin Template
-github: https://github.com/themeselection/materio-vuetify-vuejs-admin-template-free
+download: https://themeselection.com/item/materio-free-vuetify-vuejs-admin-template/?ref=133
+Price: 0
 demo: >-
   https://demos.themeselection.com/materio-vuetify-vuejs-admin-template-free/demo/dashboard
 author: ThemeSelection
@@ -21,10 +22,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2021-08-13T06:48:19Z'
-update_date: '2025-01-01T12:32:06Z'
-github_star: 819
-github_fork: 250
+publish_date: "2021-08-13T06:48:19Z"
+update_date: "2025-01-01T12:32:06Z"
 ---
 
 ## Key Features

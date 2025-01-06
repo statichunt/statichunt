@@ -1,7 +1,8 @@
 ---
 title: Materio – Free Vuetify VueJS Laravel Admin Template
-github: >-
-  https://github.com/themeselection/materio-vuetify-vuejs-laravel-admin-template-free/
+download: >-
+  https://themeselection.com/item/materio-free-vuetify-vuejs-laravel-admin-template/?ref=133
+Price: 0
 demo: >-
   https://demos.themeselection.com/materio-vuetify-vuejs-laravel-admin-template-free/demo/dashboard
 author: ThemeSelection
@@ -23,10 +24,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2021-09-22T07:44:54Z'
-update_date: '2025-01-01T12:43:01Z'
-github_star: 191
-github_fork: 61
+publish_date: "2021-09-22T07:44:54Z"
+update_date: "2025-01-01T12:43:01Z"
 ---
 
 ## Key Features

@@ -1,7 +1,8 @@
 ---
 title: Sneat Dashboard FREE – Laravel
-github: >-
-  https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free
+download: >-
+  https://themeselection.com/item/sneat-dashboard-free-laravel/?ref=133
+Price: 0
 demo: >-
   https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo-1/
 author: ThemeSelection
@@ -22,10 +23,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2022-04-25T13:35:25Z'
-update_date: '2024-08-06T13:29:19Z'
-github_star: 427
-github_fork: 175
+publish_date: "2022-04-25T13:35:25Z"
+update_date: "2024-08-06T13:29:19Z"
 ---
 
 ## Key Features
