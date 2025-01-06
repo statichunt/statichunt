@@ -11,6 +11,7 @@ ssg: [Framer]
 css: []
 ui: []
 cms: []
-category: [Business,Blog]
+category: [Business, Blog]
 draft: false
+weight: 29
 ---
