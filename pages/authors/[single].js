@@ -55,7 +55,7 @@ const ThemeAuthor = ({ author, mdxContent, themes, slug, authors }) => {
               <ul className="*:m-2 *:inline-block *:bg-white *:px-3 *:py-1 *:rounded *:text-dark dark:*:bg-darkmode-body dark:*:text-darkmode-dark">
                 {website && (
                   <li>
-                    <a href={website} target="_blank" rel="noreferrer noopener">
+                    <a href={website} target="_blank" rel="noopener">
                       <img
                         height={20}
                         width={20}
