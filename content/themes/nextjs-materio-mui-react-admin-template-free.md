@@ -3,7 +3,7 @@ title: Materio Mui React Nextjs Admin Template Free
 download: https://themeselection.com/item/materio-free-mui-nextjs-admin-template/?ref=133
 price: 0
 demo: https://demos.themeselection.com/materio-mui-react-nextjs-admin-template-free/
-author: themeselection
+author: ThemeSelection
 author_link: https://github.com/themeselection
 date: 2025-01-07T12:59:09.674Z
 description: >-

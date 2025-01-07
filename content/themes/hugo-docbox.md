@@ -1,6 +1,6 @@
 ---
 title: Docbox Hugo
-download: https://gethugothemes.com/products/docbox
+download: https://gethugothemes.com/products/docbox?aff=statichunt
 price: 77
 demo: https://demo.gethugothemes.com/docbox/site/
 author: Gethugothemes
@@ -22,6 +22,7 @@ draft: false
 weight: 3
 home_weight: 22
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 95+ (Desktop)

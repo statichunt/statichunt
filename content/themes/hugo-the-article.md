@@ -1,6 +1,6 @@
 ---
 title: The Article Hugo
-download: https://gethugothemes.com/products/the-article
+download: https://gethugothemes.com/products/the-article?aff=statichunt
 price: 77
 demo: https://demo.gethugothemes.com/the-article/site/
 author: Gethugothemes
@@ -21,6 +21,7 @@ category:
 draft: false
 weight: 26
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 94/100 (Desktop)
