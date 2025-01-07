@@ -1,7 +1,7 @@
 ---
 title: Sneat – MUI NextJS Admin Template
 download: https://themeselection.com/item/sneat-mui-nextjs-admin-template/?ref=133
-price: $79
+price: 79
 demo: https://demos.themeselection.com/sneat-mui-nextjs-admin-template/demo-1/en/dashboards/crm
 author: ThemeSelection
 author_link: https://themeselection.com/

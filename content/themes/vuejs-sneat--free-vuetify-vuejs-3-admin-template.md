@@ -1,6 +1,7 @@
 ---
 title: Sneat – Free Vuetify VueJS 3 Admin Template
-github: https://github.com/themeselection/sneat-vuetify-vuejs-admin-template-free
+download: https://themeselection.com/item/sneat-free-vuetify-vuejs-admin-template/?ref=133
+price: 0
 demo: >-
   https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template-free/demo/dashboard
 author: ThemeSelection
@@ -22,10 +23,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2023-05-29T13:01:24Z'
-update_date: '2025-01-01T12:37:55Z'
-github_star: 100
-github_fork: 37
+publish_date: "2023-05-29T13:01:24Z"
+update_date: "2025-01-01T12:37:55Z"
 ---
 
 ## Key Features

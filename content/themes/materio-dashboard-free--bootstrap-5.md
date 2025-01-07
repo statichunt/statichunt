@@ -1,6 +1,7 @@
 ---
 title: Materio Dashboard FREE – Bootstrap 5
-github: https://github.com/themeselection/materio-bootstrap-html-admin-template-free
+download: https://themeselection.com/item/materio-dashboard-free-bootstrap/?ref=133
+price: 0
 demo: >-
   https://demos.themeselection.com/materio-bootstrap-html-admin-template-free/html/
 author: ThemeSelection
@@ -21,10 +22,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2023-09-19T08:21:40Z'
-update_date: '2024-08-14T10:51:05Z'
-github_star: 62
-github_fork: 17
+publish_date: "2023-09-19T08:21:40Z"
+update_date: "2024-08-14T10:51:05Z"
 ---
 
 ## Key Features

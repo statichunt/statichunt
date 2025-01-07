@@ -1,6 +1,7 @@
 ---
 title: Sneat Dashboard FREE – Bootstrap
-github:
+download: https://themeselection.com/item/sneat-dashboard-free-bootstrap/?ref=133
+price: 0
 demo: https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/html/
 author: ThemeSelection
 author_link: https://themeselection.com/

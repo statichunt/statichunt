@@ -1,6 +1,6 @@
 ---
 title: Sneat – Free Vuetify NuxtJS 3 Admin Template
-github: https://github.com/themeselection/sneat-vuetify-nuxtjs-admin-template-free
+download: https://themeselection.com/item/sneat-free-vuetify-nuxtjs-admin-template/?ref=133
 demo: >-
   https://demos.themeselection.com/sneat-vuetify-nuxtjs-admin-template-free/demo/dashboard/
 author: ThemeSelection
@@ -22,10 +22,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2024-07-08T09:40:19Z'
-update_date: '2025-01-01T12:42:45Z'
-github_star: 16
-github_fork: 7
+publish_date: "2024-07-08T09:40:19Z"
+update_date: "2025-01-01T12:42:45Z"
 ---
 
 ## Key Features

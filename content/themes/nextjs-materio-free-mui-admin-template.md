@@ -1,6 +1,7 @@
 ---
 title: Materio – Free MUI NextJS Admin Template
-github: https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo
+download: https://themeselection.com/item/materio-free-mui-nextjs-admin-template/?ref=133
+price: 0
 demo: https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo
 author: ThemeSelection
 author_link: https://themeselection.com/

@@ -1,7 +1,7 @@
 ---
 title: Materio Dashboard FREE – Laravel 11
-github: >-
-  https://github.com/themeselection/materio-bootstrap-html-laravel-admin-template-free
+download: >-
+  https://themeselection.com/item/materio-dashboard-free-laravel/?ref=133
 demo: >-
   https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template-free/demo/
 author: ThemeSelection
@@ -22,10 +22,8 @@ category:
   - SaaS
   - Dashboard
 draft: false
-publish_date: '2023-10-31T08:19:45Z'
-update_date: '2024-08-23T08:37:06Z'
-github_star: 37
-github_fork: 17
+publish_date: "2023-10-31T08:19:45Z"
+update_date: "2024-08-23T08:37:06Z"
 ---
 
 ## Key Features
