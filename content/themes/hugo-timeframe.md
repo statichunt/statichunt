@@ -1,6 +1,6 @@
 ---
 title: Timeframe Hugo
-download: https://gethugothemes.com/products/timeframe
+download: https://gethugothemes.com/products/timeframe?aff=statichunt
 price: 77
 demo: https://demo.gethugothemes.com/timeframe/site/
 author: Gethugothemes
@@ -21,6 +21,7 @@ category:
 draft: false
 weight: 29
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 91/100 (Desktop)

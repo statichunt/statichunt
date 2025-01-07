@@ -1,16 +1,16 @@
 ---
-title: Themefisher NextJs Bundle
-image: "/bundles/themefisher-nextjs-bundle.png"
+title: Themefisher Tailwind Bundle
+image: "/bundles/themefisher-tailwind-bundle.png"
 author: Themefisher
 author_link: "https://themefisher.com/"
 description: ""
 date: 2024-02-14
-price: $107
+price: $97
 regular_price: $147
-weight: 7
-purchase_link: "https://themefisher.com/bundles/nextjs-bundle/"
+weight: 8
+purchase_link: "https://themefisher.com/bundles/tailwind-bundle"
 features:
-  - "5+ Themes"
+  - "10+ Themes"
   - "Premium Support"
   - "Multiple Projects"
   - "Upcoming Themes"

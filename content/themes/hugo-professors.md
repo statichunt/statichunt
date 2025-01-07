@@ -1,6 +1,6 @@
 ---
 title: Professors Hugo
-download: https://gethugothemes.com/products/professors
+download: https://gethugothemes.com/products/professors?aff=statichunt
 github: null
 price: 77
 demo: https://demo.gethugothemes.com/professors/site/
@@ -24,6 +24,7 @@ category:
 draft: false
 weight: 20
 ---
+
 ## Key Features
 
 - Google Analytics support

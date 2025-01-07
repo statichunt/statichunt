@@ -1,6 +1,6 @@
 ---
 title: Wallet Hugo
-download: https://gethugothemes.com/products/wallet
+download: https://gethugothemes.com/products/wallet?aff=statichunt
 price: 77
 demo: https://demo.gethugothemes.com/wallet/site/
 author: Gethugothemes
@@ -20,6 +20,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features
 
 - Page Speed (96/100)

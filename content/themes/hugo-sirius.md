@@ -1,6 +1,6 @@
 ---
 title: Sirius
-download: https://gethugothemes.com/products/sirius
+download: https://gethugothemes.com/products/sirius?aff=statichunt
 price: 77
 demo: https://demo.gethugothemes.com/sirius/site/
 author: Gethugothemes
@@ -24,6 +24,7 @@ draft: false
 home_weight: null
 weight: 23
 ---
+
 ## Key Features
 
 - 15 Premium Pages

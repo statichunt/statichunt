@@ -1,6 +1,6 @@
 ---
 title: Nebula Hugo
-download: https://gethugothemes.com/products/nebula
+download: https://gethugothemes.com/products/nebula?aff=statichunt
 price: 77
 demo: https://demo.gethugothemes.com/nebula/site/
 author: Gethugothemes
@@ -21,6 +21,7 @@ category:
 draft: false
 weight: 32
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 97/100 (Desktop)

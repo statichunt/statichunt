@@ -1,6 +1,6 @@
 ---
 title: Delta Hugo
-download: https://gethugothemes.com/products/delta
+download: https://gethugothemes.com/products/delta?aff=statichunt
 github: null
 price: 77
 demo: https://demo.gethugothemes.com/delta/site/
@@ -23,6 +23,7 @@ category:
 draft: false
 weight: 19
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 96/100 (Desktop)

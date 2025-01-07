@@ -6,6 +6,7 @@ author_link: "https://themefisher.com/"
 description: ""
 date: 2024-12-31
 price: $337
+weight: 4
 regular_price: $597
 purchase_link: "https://themefisher.com/all-access-pass"
 features:
