@@ -1,10 +1,10 @@
 ---
 title: Fortify Astro
-download: https://themefisher.com/products/fortify-astro
+download: https://themefisher.com/products/fortify-astro/?aff=statichunt
 price: 97
 demo: https://fortify-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-07-31T00:00:00.000Z
 description: >-
   This cutting-edge website template is perfect for SaaS companies, startups,

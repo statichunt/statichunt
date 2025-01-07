@@ -1,10 +1,10 @@
 ---
 title: AutomatePro Astro
-download: https://themefisher.com/products/automatepro-astro
+download: https://themefisher.com/products/automatepro-astro/?aff=statichunt
 price: 97
 demo: https://automatepro-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-10-12T00:00:00.000Z
 description: >-
   AutomatePro Astro is tailored for SaaS and startup businesses. Developed with

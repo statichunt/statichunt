@@ -1,9 +1,10 @@
 ---
 title: Astrofront
-github: https://github.com/themefisher/astrofront
+download: https://themefisher.com/products/astrofront-astro/?aff=statichunt
+price: 0
 demo: https://astrofront.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-11-24T00:00:00.000Z
 description: >-
   A free, ready-to-use Astro template built with Tailwind CSS and TypeScript.
@@ -20,10 +21,6 @@ cms:
 category:
   - Ecommerce
 draft: false
-publish_date: '2024-11-06T06:26:30Z'
-update_date: '2024-12-02T04:07:58Z'
-github_star: 31
-github_fork: 10
 weight: 24
 home_weight: 33
 ---

@@ -3,7 +3,7 @@ title: Restaurant
 github: https://github.com/gethugothemes/restaurant-hugo/
 demo: https://demo.gethugothemes.com/restaurant/site/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 ssg:
   - Hugo
 cms:

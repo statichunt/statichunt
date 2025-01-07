@@ -3,7 +3,7 @@ title: Airspace Hugo
 github: https://github.com/themefisher/airspace-hugo
 demo: https://demo.gethugothemes.com/airspace/site/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 ssg:
   - Hugo
 cms:

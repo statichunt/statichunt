@@ -1,10 +1,10 @@
 ---
 title: Bigspring NextJs
-download: https://themefisher.com/products/bigspring-nextjs
+download: https://themefisher.com/products/bigspring-nextjs/?aff=statichunt
 demo: https://bigspring-nextjs.vercel.app/
 price: 77
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 date: 2023-07-11T00:00:00.000Z
 description: >-
   Bigspring is a modern, responsive business template built with Nextjs. It

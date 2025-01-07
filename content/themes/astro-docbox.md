@@ -1,10 +1,10 @@
 ---
 title: Docbox Astro
-download: https://themefisher.com/products/docbox-astro
+download: https://themefisher.com/products/docbox-astro/?aff=statichunt
 price: 77
 demo: https://docbox-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-11-22T00:00:00.000Z
 description: >-
   Docbox is a modern documentation theme built with Astro, a blazing-fast and

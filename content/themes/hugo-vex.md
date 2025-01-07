@@ -3,7 +3,7 @@ title: Vex
 github: https://github.com/themefisher/vex-hugo/
 demo: https://demo.gethugothemes.com/vex/site/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 ssg:
   - Hugo
 cms:

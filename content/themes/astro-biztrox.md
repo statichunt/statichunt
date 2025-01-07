@@ -1,10 +1,10 @@
 ---
 title: Biztrox Astro
-download: https://themefisher.com/products/biztrox-astro
+download: https://themefisher.com/products/biztrox-astro/?aff=statichunt
 price: 77
 demo: https://biztrox-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-03-30T00:00:00.000Z
 description: >-
   Biztrox Astro is multipurpose business theme designed for SaaS, startups, and

@@ -1,10 +1,10 @@
 ---
 title: Andromeda NextJs
-download: https://themefisher.com/products/andromeda-nextjs
+download: https://themefisher.com/products/andromeda-nextjs/?aff=statichunt
 demo: https://andromeda-nextjs.vercel.app/
 price: 77
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 date: 2023-07-11T00:00:00.000Z
 description: >-
   Andromeda Nextjs is a multipurpose SaaS landing page theme designed to

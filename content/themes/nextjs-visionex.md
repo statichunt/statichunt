@@ -1,10 +1,10 @@
 ---
 title: Visionex Nextjs
-download: https://themefisher.com/products/visionex-nextjs
+download: https://themefisher.com/products/visionex-nextjs/?aff=statichunt
 price: 77
 demo: https://visionex-nextjs.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-12-04T00:00:00.000Z
 description: >-
   Visionex Nextjs is multipurpose SaaS theme designed to showcase any SaaS

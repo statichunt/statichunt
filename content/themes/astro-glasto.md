@@ -1,10 +1,10 @@
 ---
 title: Glasto Astro
-download: https://themefisher.com/products/glasto-astro
+download: https://themefisher.com/products/glasto-astro/?aff=statichunt
 price: 97
 demo: https://glasto-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-09-16T00:00:00.000Z
 description: >-
   Glasto Astro theme is crafted specifically for SaaS and startup businesses.

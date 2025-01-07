@@ -1,10 +1,10 @@
 ---
 title: Darkrise Astro
-download: https://themefisher.com/products/darkrise-astro
+download: https://themefisher.com/products/darkrise-astro/?aff=statichunt
 price: 97
 demo: https://darkrise-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-08-21T00:00:00.000Z
 description: >-
   DarkRise is a fast, stylish Astro theme for SaaS and startups. It offers

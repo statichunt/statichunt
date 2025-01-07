@@ -8,4 +8,4 @@ github: https://github.com/gethugothemes
 description: ""
 ---
 
-Largest premium Hugo themes provider. It has a collection of 58+ high-quality themes for users to choose from.
+Largest premium Hugo themes provider. It has a collection of 60+ high-quality themes for users to choose from.

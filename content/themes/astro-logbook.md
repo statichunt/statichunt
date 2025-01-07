@@ -1,10 +1,10 @@
 ---
 title: Logbook Astro
-download: https://themefisher.com/products/logbook-astro
+download: https://themefisher.com/products/logbook-astro/?aff=statichunt
 price: 77
 demo: https://logbook-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-03-30T00:00:00.000Z
 description: >-
   Logbook Astro is a sleek, minimal template for bloggers and writers. It has

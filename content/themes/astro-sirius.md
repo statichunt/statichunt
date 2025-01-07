@@ -1,10 +1,10 @@
 ---
 title: Sirius Astro
-download: https://themefisher.com/products/sirius-astro
+download: https://themefisher.com/products/sirius-astro/?aff=statichunt
 price: 77
 demo: https://sirius-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-03-30T00:00:00.000Z
 description: >-
   Sirius Astro is a modern, customizable Astro & Tailwind CSS theme with 17+

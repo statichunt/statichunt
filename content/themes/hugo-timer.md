@@ -3,7 +3,7 @@ title: Timer Hugo
 github: https://github.com/themefisher/timer-hugo/
 demo: https://demo.gethugothemes.com/timer/site/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 ssg:
   - Hugo
 cms:

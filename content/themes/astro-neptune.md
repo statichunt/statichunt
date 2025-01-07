@@ -1,10 +1,10 @@
 ---
 title: Neptune Astro
-download: https://themefisher.com/products/neptune-astro
+download: https://themefisher.com/products/neptune-astro/?aff=statichunt
 price: 77
 demo: https://neptune-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-07-08T00:00:00.000Z
 description: >-
   Neptune is a flexible Astro template suitable for businesses of all sizes. Its

@@ -1,10 +1,10 @@
 ---
 title: Secury Astro
-download: https://themefisher.com/products/secury-astro
+download: https://themefisher.com/products/secury-astro/?aff=statichunt
 price: 97
 demo: https://secury-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-09-09T00:00:00.000Z
 description: >-
   Secury is a versatile Astro template for SaaS, startups, and agencies. It has

@@ -1,9 +1,10 @@
 ---
 title: Northendlab Light Astro
-github: https://github.com/themefisher/northendlab-light-astro
+download: https://themefisher.com/products/northendlab-light-astro/?aff=statichunt
+price: 0
 demo: https://northendlab-light-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-03-18T00:00:00.000Z
 description: Northendlab Light is a minimal free astro personal blog theme.
 ssg:
@@ -16,10 +17,6 @@ cms:
 category:
   - Blog
 draft: false
-publish_date: '2023-03-18T05:16:34Z'
-update_date: '2024-11-05T07:03:51Z'
-github_star: 29
-github_fork: 7
 weight: null
 ---
 ## Key Features

@@ -1,10 +1,10 @@
 ---
 title: SafeShield Astro
-download: https://themefisher.com/products/safeshield-astro
+download: https://themefisher.com/products/safeshield-astro/?aff=statichunt
 price: 97
 demo: https://safeshield-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-11-23T00:00:00.000Z
 description: >-
   SafeShield Astro is designed specifically for IT and Software businesses.

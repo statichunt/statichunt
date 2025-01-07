@@ -1,9 +1,10 @@
 ---
 title: Bookworm Light Nextjs
-github: https://github.com/themefisher/bookworm-light-nextjs
+download: https://themefisher.com/products/bookworm-light-nextjs/?aff=statichunt
+price: 0
 demo: https://bookworm-light-nextjs.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 date: 2022-08-28T00:00:00.000Z
 description: >-
   Bookworm is a minimal NextJs Tailwind blog starter template. Highly
@@ -18,10 +19,6 @@ cms:
 category:
   - Blog
 draft: false
-publish_date: '2022-07-28T04:24:37Z'
-update_date: '2024-09-01T10:26:22Z'
-github_star: 202
-github_fork: 95
 weight: 9
 ---
 ## Key Features
