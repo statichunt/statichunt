@@ -19,6 +19,7 @@
     "format": "prettier -w ."
   },
   "dependencies": {
+    "country-list": "^2.3.0",
     "date-fns": "^4.1.0",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
