@@ -13,7 +13,7 @@ ssg:
   - Nuxtjs
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Saas
   - Dashboard

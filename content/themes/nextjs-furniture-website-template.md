@@ -17,7 +17,7 @@ ssg:
 css:
   - Tailwind
 ui: []
-cms: null
+cms: []
 category:
   - Business
   - Ecommerce

@@ -15,7 +15,7 @@ css:
   - Bootstrap
   - SCSS
 ui: []
-cms: null
+cms: []
 category:
   - Business
   - Blog

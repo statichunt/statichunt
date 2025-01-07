@@ -12,7 +12,7 @@ ssg:
 css:
   - Tailwind
 ui: []
-cms: null
+cms: []
 category:
   - Business
 draft: false

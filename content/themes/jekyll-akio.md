@@ -11,7 +11,7 @@ ssg:
   - Jekyll
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Portfolio
 draft: false

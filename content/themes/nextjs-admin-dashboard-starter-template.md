@@ -16,7 +16,7 @@ ssg:
 css:
   - Bootstrap
 ui: []
-cms: null
+cms: []
 category:
   - Saas
   - Dashboard

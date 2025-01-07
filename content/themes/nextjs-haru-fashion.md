@@ -11,7 +11,7 @@ ssg:
 css:
   - Tailwind
 ui: []
-cms: null
+cms: []
 category:
   - Ecommerce
 publish_date: '2021-04-26T15:20:01Z'

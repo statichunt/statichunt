@@ -12,7 +12,7 @@ ssg:
   - Nextjs
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Boilerplate
 draft: false

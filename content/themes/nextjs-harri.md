@@ -15,7 +15,7 @@ ssg:
 css:
   - Tailwind
 ui: []
-cms: null
+cms: []
 category:
   - Ecommerce
 draft: false

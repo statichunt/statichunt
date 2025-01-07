@@ -11,7 +11,7 @@ ssg:
 css:
   - SCSS
 ui: []
-cms: null
+cms: []
 category:
   - Ecommerce
 draft: false

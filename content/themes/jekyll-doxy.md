@@ -12,7 +12,7 @@ ssg:
 css:
   - Bootstrap
 ui: []
-cms: null
+cms: []
 category:
   - Documentation
 draft: false

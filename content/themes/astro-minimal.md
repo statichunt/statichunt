@@ -14,7 +14,7 @@ ssg:
 css:
   - Bulma
 ui: []
-cms: null
+cms: []
 category:
   - Business
 draft: false

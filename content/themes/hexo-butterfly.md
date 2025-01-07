@@ -9,10 +9,10 @@ author_twitter: ''
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo
-cms: null
+cms: []
 css: []
 ui: []
-category: null
+category: []
 description: '🦋 A Hexo Theme: Butterfly.'
 draft: false
 publish_date: '2019-06-04T13:38:41Z'

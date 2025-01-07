@@ -14,7 +14,7 @@ ssg:
 css:
   - Bootstrap
 ui: []
-cms: null
+cms: []
 category:
   - Bussiness
 draft: false

@@ -13,7 +13,7 @@ ssg:
 css:
   - Tailwind
 ui: []
-cms: null
+cms: []
 category:
   - Portofilo
 draft: false

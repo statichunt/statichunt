@@ -12,7 +12,7 @@ css:
   - Tailwind
 ui:
   - Shadcn
-cms: null
+cms: []
 category:
   - others
 draft: false

@@ -11,7 +11,7 @@ ssg:
 css: []
 ui:
   - Chakra
-cms: null
+cms: []
 category:
   - Saas
 draft: false

@@ -13,7 +13,7 @@ ssg:
   - Gatsby
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Business
 draft: false

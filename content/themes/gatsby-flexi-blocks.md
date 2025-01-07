@@ -14,7 +14,7 @@ ssg:
   - Gatsby
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Bussiness
 draft: false

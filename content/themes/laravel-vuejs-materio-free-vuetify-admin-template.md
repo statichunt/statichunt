@@ -16,7 +16,7 @@ ssg:
   - Vue
 css:
   - SCSS
-ui: null
+ui: []
 cms: []
 category:
   - Business

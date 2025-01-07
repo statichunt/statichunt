@@ -6,7 +6,7 @@ author: hugo-toha
 author_link: https://github.com/hugo-toha
 ssg:
   - Hugo
-cms: null
+cms: []
 css: []
 ui: []
 category:

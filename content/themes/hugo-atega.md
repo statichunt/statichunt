@@ -12,7 +12,7 @@ ssg:
 css:
   - SCSS
 ui: []
-cms: null
+cms: []
 category:
   - Blog
 draft: false

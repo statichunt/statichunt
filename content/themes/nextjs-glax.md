@@ -13,7 +13,7 @@ ssg:
   - Nextjs
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Business
 draft: false

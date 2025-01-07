@@ -7,7 +7,7 @@ author_link: https://github.com/auroral-ui
 date: 2023-10-21T00:00:00.000Z
 ssg:
   - Hexo
-cms: null
+cms: []
 css:
   - Tailwind
 ui: []

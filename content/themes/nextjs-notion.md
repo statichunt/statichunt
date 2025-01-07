@@ -10,7 +10,7 @@ ssg:
   - Nextjs
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Blog
 draft: false

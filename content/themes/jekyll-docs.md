@@ -13,7 +13,7 @@ ssg:
   - Jekyll
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Documentation
 draft: false

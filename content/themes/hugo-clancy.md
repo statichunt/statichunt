@@ -14,7 +14,7 @@ ssg:
 css:
   - SCSS
 ui: []
-cms: null
+cms: []
 category:
   - Portfolio
 draft: false

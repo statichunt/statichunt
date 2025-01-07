@@ -14,7 +14,7 @@ ssg:
   - Nextjs
 css: []
 ui: []
-cms: null
+cms: []
 category:
   - Ecommerce
 draft: false
