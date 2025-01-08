@@ -1,6 +1,6 @@
 ---
 title: Laravel
-page_title: Laravel Themes
+page_title: <themes> Laravel Themes
 weight: ""
 meta_title: <themes> Laravel Themes (Free & Premium) | Statichunt
 description: Check out our collection of hand-picked Laravel themes and templates that will give your website a professional and polished appearance.

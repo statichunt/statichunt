@@ -1,6 +1,6 @@
 ---
 title: "Docusaurus"
-page_title:
+page_title: <themes> Docusaurus Themes
 meta_title: "Best Hand-picked Docusaurus Themes"
 description: "A curated directory of best free Docusaurus Themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: /images/icons/docusaurus.svg
@@ -22,4 +22,5 @@ themes_draft: true
 examples_draft: true
 draft: true
 ---
+
 Build optimized websites quickly, focus on your content. Simply write docs and blog posts with Markdown/MDX and Docusaurus will publish a set of static HTML files ready to serve.

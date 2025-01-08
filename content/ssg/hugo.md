@@ -1,6 +1,6 @@
 ---
 title: Hugo
-page_title: Hugo Themes
+page_title: <themes> Hugo Themes
 weight: "3"
 meta_title: <themes> Hugo Themes (Free & Premium) | Statichunt
 description: Check out our collection of hand-picked Hugo themes and templates that will give your website a professional and polished appearance.
@@ -23,4 +23,5 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
-Hugo is a popular static site generator written in Go. It's simple to use and easy to learn, making it a popular choice for developers who want to build a website without having to learn complex coding languages. Hugo is open source and free to use.
+
+Hugo is a popular static site generator written in Go. It's simple to use and easy to learn, making it a popular choice for developers who want to build a website without having to learn complex coding languages. Hugo isHugo is a popular static site generator written in Go. It's simple to use and easy to learn, making it a popular choice for developers who want to build a website without having to learn complex coding languages. Explore Hugo templates to get started quickly. Hugo is open source and free to use.
