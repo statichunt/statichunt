@@ -142,10 +142,10 @@ const Sponsors = ({ data }) => {
                   </ul>
                   <Link
                     className={`btn absolute left-8 bottom-6 w-[calc(100%-4rem)] ${item.featured ? "btn-primary" : "btn-outline-primary"}`}
-                    href="/contact"
+                    href={item.button_link}
                     target="_blank"
                   >
-                    Get Started
+                    {item.button_label}
                   </Link>
                 </div>
               </div>
