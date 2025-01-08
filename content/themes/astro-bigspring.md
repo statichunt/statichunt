@@ -1,10 +1,10 @@
 ---
 title: Bigspring Astro
-download: https://themefisher.com/products/bigspring-astro
+download: https://themefisher.com/products/bigspring-astro/?aff=statichunt
 price: 77
 demo: https://bigspring-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-07-28T00:00:00.000Z
 description: >-
   Bigspring is a simple, modern website template for SaaS and marketing

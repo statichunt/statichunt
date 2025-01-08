@@ -1,10 +1,10 @@
 ---
 title: Spydea Astro
-download: https://themefisher.com/products/spydea-astro
+download: https://themefisher.com/products/spydea-astro/?aff=statichunt
 price: 77
 demo: https://spydea-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-06-05T00:00:00.000Z
 description: >-
   Spydea is a beautiful Astro theme that is perfect for a wide variety of

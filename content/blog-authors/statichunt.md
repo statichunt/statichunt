@@ -4,5 +4,5 @@ email: hey.statichunt@gmail.com
 description: ""
 social:
   twitter: https://x.com/heyStatichunt
-  github: https://github.com/statichunt/
+  github: https://github.com/statichunt
 ---

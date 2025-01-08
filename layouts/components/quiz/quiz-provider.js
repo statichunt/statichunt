@@ -22,7 +22,7 @@ function quizReducer(state, action) {
         ...state,
         value: {
           ...state.value,
-          ...action.payload,
+          ...action.payload, // Ensure that payload merges with existing state
         },
       };
     case NEXT_STEP:
@@ -43,7 +43,7 @@ function quizReducer(state, action) {
 export function useQuiz() {
   const store = useContext(QuizContext);
   if (!store) {
-    throw new Error("useProvider must be used within a filter context");
+    throw new Error("useQuiz must be used within a QuizProvider");
   }
   return store;
 }
@@ -52,15 +52,15 @@ export function useQuiz() {
 export default function QuizProvider({ children }) {
   const initialState = {
     activeQuiz: 1,
-    value: {},
+    value: {}, // Empty initial value
   };
 
   // Initialize useReducer with the reducer function and initial state
   const [state, dispatch] = useReducer(quizReducer, initialState);
 
   // Action creators
-  const setActiveQuiz = () => {
-    dispatch({ type: SET_ACTIVE_QUIZ, payload: initialState.activeQuiz + 1 });
+  const setActiveQuiz = (quizNumber) => {
+    dispatch({ type: SET_ACTIVE_QUIZ, payload: quizNumber });
   };
 
   const setValue = (newValue) => {
@@ -70,6 +70,7 @@ export default function QuizProvider({ children }) {
   const nextStep = () => {
     dispatch({ type: NEXT_STEP });
   };
+
   const previousStep = () => {
     dispatch({ type: PREVIOUS_STEP });
   };

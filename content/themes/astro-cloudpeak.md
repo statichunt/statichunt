@@ -1,10 +1,10 @@
 ---
 title: Cloudpeak Astro
-download: https://themefisher.com/products/cloudpeak-astro
+download: https://themefisher.com/products/cloudpeak-astro/?aff=statichunt
 price: 97
 demo: https://cloudpeak-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-09-02T00:00:00.000Z
 description: >-
   Cloudpeak is a customizable SaaS template designed to help businesses of all

@@ -1,10 +1,10 @@
 ---
 title: Andromeda Astro
-download: https://themefisher.com/products/andromeda-astro
+download: https://themefisher.com/products/andromeda-astro/?aff=statichunt
 price: 77
 demo: https://andromeda-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-03-30T00:00:00.000Z
 description: >-
   Andromeda Astro is multipurpose SaaS theme designed to showcase any SaaS

@@ -1,10 +1,10 @@
 ---
 title: Dexler Astro
-download: https://themefisher.com/products/dexler-astro
+download: https://themefisher.com/products/dexler-astro/?aff=statichunt
 price: 77
 demo: https://dexler-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-07-29T00:00:00.000Z
 description: >-
   Dexler is a modern SaaS template built with Astro and Tailwind CSS. It offers

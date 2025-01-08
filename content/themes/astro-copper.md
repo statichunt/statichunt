@@ -1,10 +1,10 @@
 ---
 title: Copper Astro
-download: https://themefisher.com/products/copper-astro
+download: https://themefisher.com/products/copper-astro/?aff=statichunt
 price: 77
 demo: https://copper-astro.netlify.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-10-25T00:00:00.000Z
 description: >-
   Copper is a modern, fully customizable SaaS theme built with Astro and

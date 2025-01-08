@@ -1,9 +1,10 @@
 ---
 title: Bigspring Light Nextjs
-github: https://github.com/themefisher/bigspring-light-nextjs
+download: https://themefisher.com/products/bigspring-light-nextjs/?aff=statichunt
+price: 0
 demo: https://bigspring-light-nextjs.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 date: 2022-12-12T00:00:00.000Z
 description: >-
   Bigspring is a web development company Nextjs template with Tailwind CSS. It
@@ -19,10 +20,6 @@ category:
   - Business
   - Saas
 draft: false
-publish_date: '2022-12-09T10:30:16Z'
-update_date: '2024-09-01T10:18:15Z'
-github_star: 234
-github_fork: 159
 ---
 ## Key Features
 

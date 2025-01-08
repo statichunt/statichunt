@@ -1,10 +1,10 @@
 ---
 title: Atemp Astro
-download: https://themefisher.com/products/atemp-astro
+download: https://themefisher.com/products/atemp-astro/?aff=statichunt
 price: 77
 demo: https://atemp-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-07-03T00:00:00.000Z
 description: >-
   This cutting-edge website template is perfect for SaaS companies, startups,

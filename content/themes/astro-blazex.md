@@ -1,10 +1,10 @@
 ---
 title: BlazeX Astro
-download: https://themefisher.com/products/blazex-astro
+download: https://themefisher.com/products/blazex-astro/?aff=statichunt
 price: 97
 demo: https://blazex-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-10-17T00:00:00.000Z
 description: >-
   BlazeX is a specialized solution for SaaS and startup companies. It features a

@@ -3,7 +3,7 @@ title: Infinity Hugo
 github: https://github.com/gethugothemes/infinity-hugo
 demo: https://demo.gethugothemes.com/infinity/site/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 thumbnail: themes/hugo-infinity.jpg
 ssg:
   - Hugo

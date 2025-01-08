@@ -3,7 +3,7 @@ title: Meghna Hugo
 github: https://github.com/themefisher/meghna-hugo/
 demo: https://demo.gethugothemes.com/meghna/site/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 thumbnail: themes/themefisher-meghna-hugo.jpg
 ssg:
   - Hugo

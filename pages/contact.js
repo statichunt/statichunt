@@ -178,7 +178,7 @@ const Contact = ({ data }) => {
 };
 
 export const getStaticProps = async () => {
-  const data = await getListPage("content/contact/_index.md");
+  const data = await getListPage("content/landing-pages/contact.md");
   return {
     props: {
       data: data,

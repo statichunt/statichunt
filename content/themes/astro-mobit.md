@@ -1,10 +1,10 @@
 ---
 title: Mobit Astro
-download: https://themefisher.com/products/mobit-astro
+download: https://themefisher.com/products/mobit-astro/?aff=statichunt
 price: 97
 demo: https://mobit-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-11-26T00:00:00.000Z
 description: >-
   Mobit Astro is multipurpose SaaS theme designed to showcase any SaaS product

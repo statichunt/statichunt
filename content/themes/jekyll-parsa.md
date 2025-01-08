@@ -1,9 +1,10 @@
 ---
 title: Parsa Jekyll
-github: https://github.com/themefisher/parsa-jekyll/
+download: https://themefisher.com/products/parsa-jekyll/?aff=statichunt
+price: 0
 demo: https://demo.themefisher.com/parsa/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 date: 2022-12-18T00:00:00.000Z
 description: >-
   Parsa is a beautiful Jekyll blog theme that is ideal for representing your
@@ -18,8 +19,4 @@ cms:
 category:
   - Blog
 draft: false
-publish_date: '2019-09-13T16:19:42Z'
-update_date: '2022-10-16T08:34:49Z'
-github_star: 24
-github_fork: 26
 ---

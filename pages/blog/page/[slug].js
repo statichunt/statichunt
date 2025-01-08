@@ -5,6 +5,7 @@ import Posts from "@/layouts/Posts";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
+import { sortByDate } from "lib/utils/sortFunctions";
 
 // blog pagination
 const BlogPagination = ({
@@ -18,6 +19,7 @@ const BlogPagination = ({
   const indexOfFirstPost = indexOfLastPost - pagination;
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+  const sortedPosts = sortByDate(currentPosts);
   const { frontmatter, content } = postIndex;
   const { title, meta_title } = frontmatter;
 
@@ -32,7 +34,7 @@ const BlogPagination = ({
                 {markdownify(title, "h1", "mb-4")}
                 {markdownify(content, "p")}
               </div>
-              <Posts posts={currentPosts} authors={authors} />
+              <Posts posts={sortedPosts} authors={authors} />
               <Pagination
                 section={"blog"}
                 totalPages={totalPages}

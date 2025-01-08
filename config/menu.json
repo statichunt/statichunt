@@ -35,10 +35,6 @@
           "url": "/about"
         },
         {
-          "page": "Contact",
-          "url": "/contact"
-        },
-        {
           "page": "Blog",
           "url": "/blog"
         },
@@ -49,6 +45,10 @@
         {
           "page": "Disclaimer",
           "url": "/disclaimer"
+        },
+        {
+          "page": "Brands",
+          "url": "/brands"
         }
       ]
     },

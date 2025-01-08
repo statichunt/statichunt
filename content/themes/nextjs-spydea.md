@@ -1,10 +1,10 @@
 ---
 title: Spydea NextJs
-download: https://themefisher.com/products/spydea-nextjs
+download: https://themefisher.com/products/spydea-nextjs/?aff=statichunt
 demo: https://spydea-nextjs.vercel.app/
 price: 77
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 date: 2023-07-11T00:00:00.000Z
 description: >-
   Spydea is a beautiful NextJs template that is perfect for a wide variety of

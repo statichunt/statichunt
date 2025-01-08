@@ -7,7 +7,7 @@
   "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "yarn update && next dev",
-    "build": "yarn update && next build",
+    "build": "yarn update && node scripts/themeSync.mjs && next build",
     "lint": "next lint",
     "preview": "next start",
     "json": "node scripts/jsonGenerator.mjs",
@@ -19,6 +19,7 @@
     "format": "prettier -w ."
   },
   "dependencies": {
+    "country-list": "^2.3.0",
     "date-fns": "^4.1.0",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",

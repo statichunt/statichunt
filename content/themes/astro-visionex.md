@@ -1,10 +1,10 @@
 ---
 title: Visionex Astro
-download: https://themefisher.com/products/visionex-astro
+download: https://themefisher.com/products/visionex-astro/?aff=statichunt
 price: 77
 demo: https://visionex-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-12-04T00:00:00.000Z
 description: >-
   Visionex Astro is multipurpose SaaS theme designed to showcase any SaaS

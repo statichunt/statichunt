@@ -3,7 +3,7 @@ title: Educenter Hugo
 github: https://github.com/themefisher/educenter-hugo
 demo: https://demo.gethugothemes.com/educenter/site/
 author: Themefisher
-author_link: https://themefisher.com
+author_link: https://themefisher.com/?aff=statichunt
 ssg:
   - Hugo
 cms:

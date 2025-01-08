@@ -1,7 +1,6 @@
 import QuizProvider from "./quiz-provider";
 
-const withQuizProvider = (WrappedComponent, ...rest) => {
-  console.log(rest);
+const withQuizProvider = (WrappedComponent) => {
   return function WithQuizProvider(props) {
     return (
       <QuizProvider>

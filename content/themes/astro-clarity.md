@@ -1,10 +1,10 @@
 ---
 title: Clarity Astro
-download: https://themefisher.com/products/clarity-astro
+download: https://themefisher.com/products/clarity-astro/?aff=statichunt
 price: 97
 demo: https://clarity-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-09-30T00:00:00.000Z
 description: >-
   Clarity Astro is designed specifically for SaaS and startup companies.

@@ -1,10 +1,10 @@
 ---
 title: Bexer Astro
-download: https://themefisher.com/products/bexer-astro
+download: https://themefisher.com/products/bexer-astro/?aff=statichunt
 price: 77
 demo: https://bexer-astro.vercel.app/
 author: Themefisher
-author_link: https://themefisher.com/
+author_link: https://themefisher.com/?aff=statichunt/
 date: 2024-07-08T00:00:00.000Z
 description: >-
   Bexer Astro - Elevate your online presence with our cutting-edge, versatile
