@@ -76,8 +76,8 @@ pricing:
     featured: true
     price: "$300"
     price_per: "/month"
-    billing: "Price Based on Discussion"
-    button_label: "Contact Us"
+    billing: "Billed Annually"
+    button_label: "Book Now"
     button_link: "/contact"
     features:
     - "All Standard Sponsorship benefits."
@@ -87,12 +87,12 @@ pricing:
     - "Promotional banner space on single product pages."
     - "Bundle promotion on the Bundle page."
 
-  - name: "Standard Sponsorship"
+  - name: "Custom Sponsorship"
     featured: false
     price: "Custom"
     price_per: ""
-    billing: "Billed Annually"
-    button_label: "Book Now"
+    billing: "Price Based on Discussion"
+    button_label: "Contact Us"
     button_link: "/contact"
     features:
     - "Looking for something specific?"
