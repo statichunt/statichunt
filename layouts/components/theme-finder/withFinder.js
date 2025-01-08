@@ -1,4 +1,4 @@
-import QuizProvider from "./quiz-provider";
+import QuizProvider from "./themeFinderProvider";
 
 const withQuizProvider = (WrappedComponent) => {
   return function WithQuizProvider(props) {

@@ -10,7 +10,7 @@ const NEXT_STEP = "NEXT_STEP";
 const PREVIOUS_STEP = "PREVIOUS_STEP";
 
 // Reducer function to handle state changes
-function quizReducer(state, action) {
+function findReducer(state, action) {
   switch (action.type) {
     case SET_ACTIVE_QUIZ:
       return {
@@ -40,10 +40,10 @@ function quizReducer(state, action) {
   }
 }
 
-export function useQuiz() {
+export function useThemeFinder() {
   const store = useContext(QuizContext);
   if (!store) {
-    throw new Error("useQuiz must be used within a QuizProvider");
+    throw new Error("useThemeFinder must be used within a QuizProvider");
   }
   return store;
 }
@@ -56,7 +56,7 @@ export default function QuizProvider({ children }) {
   };
 
   // Initialize useReducer with the reducer function and initial state
-  const [state, dispatch] = useReducer(quizReducer, initialState);
+  const [state, dispatch] = useReducer(findReducer, initialState);
 
   // Action creators
   const setActiveQuiz = (quizNumber) => {

@@ -1,17 +1,18 @@
-import { useQuiz } from "@/components/quiz/quiz-provider";
-import { createStepper } from "@/components/quiz/stepper";
-import withQuizProvider from "@/components/quiz/with-quiz";
+import { createStepper } from "@/components/theme-finder/Stepper";
+import { useThemeFinder } from "@/components/theme-finder/themeFinderProvider";
+import withQuizProvider from "@/components/theme-finder/withFinder";
 import themes from "@/json/theme-finder.json";
 import Base from "@/layouts/Baseof";
 import axios from "axios";
+import { sortByWeight } from "lib/utils/sortFunctions";
 import Image from "next/image";
 import { startTransition, useEffect, useState, useTransition } from "react";
 import { FiLoader } from "react-icons/fi";
 
 function Quiz() {
-  const quiz = useQuiz();
+  const finder = useThemeFinder();
   const steppers = createStepper();
-  const ActiveStepper = steppers.find((step) => step.id === quiz.activeQuiz);
+  const ActiveStepper = steppers.find((step) => step.id === finder.activeQuiz);
   const [isPending, startLoading] = useTransition();
   const [matchThemes, setMatchTheme] = useState(themes);
 
@@ -23,7 +24,7 @@ function Quiz() {
           category,
           features = [],
           cms = [],
-        } = quiz.value || {};
+        } = finder.value || {};
 
         // Check for ssg match
         const ssgMatch = ssg.filter((ssg) => ssg).length
@@ -51,9 +52,9 @@ function Quiz() {
         return ssgMatch && categoryMatch && featuresMatch && cmsMatch;
       });
 
-      setMatchTheme(newMatchThemes);
+      setMatchTheme(matchThemes);
     });
-  }, [JSON.stringify(quiz.value)]);
+  }, [JSON.stringify(finder.value)]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -61,9 +62,9 @@ function Quiz() {
       try {
         await axios.post(
           `${process.env.NEXT_PUBLIC_BACKEND_URL}/user-lead`,
-
           {
-            ...quiz.value,
+            ...finder.value,
+            themes: sortByWeight(matchThemes, "weight").slice(0, 10),
           },
           {
             headers: {
@@ -71,8 +72,7 @@ function Quiz() {
             },
           },
         );
-
-        quiz.nextStep();
+        finder.nextStep();
       } catch (error) {}
     });
   };
@@ -86,28 +86,29 @@ function Quiz() {
         >
           <ActiveStepper.component />
           <div className="text-right mt-5 sm:mt-8 flex sm:justify-between flex-wrap gap-4 items-center justify-center">
-            {quiz.activeQuiz !== 1 && quiz.activeQuiz < steppers.length - 1 && (
-              <button
-                type="button"
-                onClick={quiz.previousStep}
-                className="btn btn-outline-primary font-bold max-sm:w-full group"
-              >
-                <span className="gradient-text">Previous Question</span>
-              </button>
-            )}
+            {finder.activeQuiz !== 1 &&
+              finder.activeQuiz < steppers.length - 1 && (
+                <button
+                  type="button"
+                  onClick={finder.previousStep}
+                  className="btn btn-outline-primary font-bold max-sm:w-full group"
+                >
+                  <span className="gradient-text">Previous Question</span>
+                </button>
+              )}
 
-            {quiz.activeQuiz < steppers.length - 1 && (
+            {finder.activeQuiz < steppers.length - 1 && (
               <button
                 type="button"
-                disabled={!(ActiveStepper.name in quiz.value)}
-                onClick={quiz.nextStep}
+                disabled={!(ActiveStepper.name in finder.value)}
+                onClick={finder.nextStep}
                 className="btn btn-outline-primary font-bold sm:ml-auto max-sm:w-full disabled:text-white group"
               >
                 <span className="gradient-text">Next Question</span>
               </button>
             )}
 
-            {quiz.activeQuiz === steppers.length - 1 && (
+            {finder.activeQuiz === steppers.length - 1 && (
               <button
                 className="btn btn-outline-primary ml-auto"
                 type="submit"
@@ -119,7 +120,7 @@ function Quiz() {
             )}
           </div>
 
-          {quiz.activeQuiz !== 1 && quiz.activeQuiz !== steppers.length && (
+          {finder.activeQuiz !== 1 && finder.activeQuiz !== steppers.length && (
             <div className="rounded border-primary/20 dark:border-darkmode-border border bg-theme-light dark:bg-darkmode-body flex items-center p-3 mt-5 sm:mt-8 sm:space-x-5 space-x-3">
               <div className="bg-primary/5 dark:bg-darkmode-primary/30 rounded p-1 size-10 flex items-center justify-center">
                 <Image

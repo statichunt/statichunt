@@ -5,13 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useMemo } from "react";
 import Select from "react-select";
-import { useQuiz } from "./quiz-provider";
+import { useThemeFinder } from "./themeFinderProvider";
 
 const { dark_icon_list } = config;
 
 function ImageSelectionQuiz({ name, options, view, type }) {
-  const quiz = useQuiz();
-  let currentQuizValue = quiz.value[name] ?? [];
+  const finder = useThemeFinder();
+  let currentQuizValue = finder.value[name] ?? [];
 
   if (!Array.isArray(currentQuizValue)) {
     currentQuizValue = [currentQuizValue];
@@ -27,21 +27,21 @@ function ImageSelectionQuiz({ name, options, view, type }) {
             key={index}
             onClick={() => {
               if (type === "single") {
-                quiz.setValue({
-                  ...quiz,
+                finder.setValue({
+                  ...finder.value,
                   [name]: image.value,
                 });
                 return;
               } else if (!image.value) {
-                quiz.setValue({
-                  ...quiz.value,
+                finder.setValue({
+                  ...finder.value,
                   [name]: [""],
                 });
                 return;
               }
 
-              quiz.setValue({
-                ...quiz.value,
+              finder.setValue({
+                ...finder.value,
                 [name]: (currentQuizValue?.some(
                   (value) => value === image.value,
                 )
@@ -78,8 +78,8 @@ function ImageSelectionQuiz({ name, options, view, type }) {
 }
 
 function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
-  const quiz = useQuiz();
-  const currentQuizValue = quiz.value[name] ?? "";
+  const finder = useThemeFinder();
+  const currentQuizValue = finder.value[name] ?? "";
   const { theme } = useTheme();
 
   const customStyles = (darkMode) => ({
@@ -178,8 +178,8 @@ function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
     <div className="mt-8">
       <Select
         onChange={({ value }) => {
-          quiz.setValue({
-            ...quiz.value,
+          finder.setValue({
+            ...finder.value,
             [name]: value,
           });
         }}
@@ -284,42 +284,42 @@ export const createStepper = () => {
       component: () => {
         const features = [
           {
-            icon: "/images/quiz/search.svg",
+            icon: "/images/theme-finder/search.svg",
             label: "Search",
             value: "search",
           },
           {
-            icon: "/images/quiz/seo-optimization.svg",
+            icon: "/images/theme-finder/seo-optimization.svg",
             label: "SEO optimization",
             value: "seo",
           },
           {
-            icon: "/images/quiz/speed-optimization.svg",
+            icon: "/images/theme-finder/speed-optimization.svg",
             label: "Speed performance",
             value: "speed",
           },
           {
-            icon: "/images/quiz/ecomerce.svg",
+            icon: "/images/theme-finder/ecomerce.svg",
             label: "E-commerce functionality",
             value: "ecommerce",
           },
           {
-            icon: "/images/quiz/blog.svg",
+            icon: "/images/theme-finder/blog.svg",
             label: "Blog",
             value: "blog",
           },
           {
-            icon: "/images/quiz/contact.svg",
+            icon: "/images/theme-finder/contact.svg",
             label: "Contact form",
             value: "contact",
           },
           {
-            icon: "/images/quiz/multilingual.svg",
+            icon: "/images/theme-finder/multilingual.svg",
             label: "Multilingual support",
             value: "multilingual",
           },
           {
-            icon: "/images/quiz/dark-mode.svg",
+            icon: "/images/theme-finder/dark-mode.svg",
             label: "Dark mode compatibility",
             value: "darkmode",
           },
@@ -395,17 +395,17 @@ export const createStepper = () => {
           {
             label: "Beginner",
             value: "beginner",
-            icon: "/images/quiz/beginner.svg",
+            icon: "/images/theme-finder/beginner.svg",
           },
           {
             label: "Intermediate",
             value: "intermediate",
-            icon: "/images/quiz/intermediate.svg",
+            icon: "/images/theme-finder/intermediate.svg",
           },
           {
             label: "Advanced",
             value: "advanced",
-            icon: "/images/quiz/advanced.svg",
+            icon: "/images/theme-finder/advanced.svg",
           },
         ];
         return (
@@ -459,27 +459,27 @@ export const createStepper = () => {
       component: () => {
         const options = [
           {
-            icon: "/images/quiz/create.svg",
+            icon: "/images/theme-finder/create.svg",
             label: "I will create it myself.",
             value: "myself",
           },
           {
-            icon: "/images/quiz/web-developer.svg",
+            icon: "/images/theme-finder/web-developer.svg",
             label: "I'll hire a professional web developer.",
             value: "web developer",
           },
           {
-            icon: "/images/quiz/agency.svg",
+            icon: "/images/theme-finder/agency.svg",
             label: "I'll use an agency or design firm.",
             value: "agency",
           },
           {
-            icon: "/images/quiz/colleague.svg",
+            icon: "/images/theme-finder/colleague.svg",
             label: "A friend or colleague will help me.",
             value: "friend",
           },
           {
-            icon: "/images/quiz/not-sure.svg",
+            icon: "/images/theme-finder/not-sure.svg",
             label: "Not sure yet",
             value: "not sure",
           },
@@ -506,16 +506,16 @@ export const createStepper = () => {
       step: 8,
       name: "from",
       component: () => {
-        const quiz = useQuiz();
+        const finder = useThemeFinder();
         const handleChange = (e) => {
           const { name, value } = e.target;
-          quiz.setValue({
-            ...quiz.value,
+          finder.setValue({
+            ...finder.value,
             [name]: value,
           });
         };
 
-        const value = quiz.value;
+        const value = finder.value;
 
         return (
           <div>
@@ -571,7 +571,7 @@ export const createStepper = () => {
               <Image
                 width={46}
                 height={46}
-                src={"/images/quiz/check.svg"}
+                src={"/images/theme-finder/check.svg"}
                 alt="check"
               />
               <h1 className="text-dark mb-2.5">Thank You!</h1>
