@@ -1,6 +1,6 @@
 ---
 title: Eleventy
-page_title: Eleventy Themes
+page_title: <themes> 11ty Themes
 weight: "6"
 meta_title: Eleventy Themes & Templates (Free & Premium) | Statichunt
 description: "Looking for the best Eleventy themes for your next project? These handpicked eleventy themes are ideal for any type of eleventy website"
@@ -23,4 +23,5 @@ themes_draft: false
 examples_draft: true
 draft: false
 ---
+
 Eleventy is a fast web site builder. Initially marketed as a JavaScript alternative to Jekyll, it has now become a widely used modern web generator. Creating a website, with a predefined design and structure that can be easily customized to suit the needs of the user.

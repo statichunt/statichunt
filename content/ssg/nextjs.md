@@ -1,6 +1,6 @@
 ---
 title: Nextjs
-page_title: Nextjs Templates
+page_title: <themes> Nextjs Templates
 meta_title: <themes> Nextjs Themes & Templates (Free & Premium) | Statichunt
 weight: "1"
 description: Discover 140+ free and premium Nextjs theme and templates to jumpstart your next project.
@@ -23,4 +23,5 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
+
 Nextjs is one of the most popular static site generators right now. It offers a simple interface with powerful features, making it the perfect tool for creating high-performance static sites. Nextjs offers built-in features such as asset management, routing, and server-side rendering.

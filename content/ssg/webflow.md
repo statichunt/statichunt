@@ -1,6 +1,6 @@
 ---
 title: Webflow
-page_title: Webflow Templates
+page_title: <themes> Webflow Templates
 meta_title: <themes> Webflow Themes & Templates (Free & Premium) | Statichunt
 weight: "3"
 description: Discover free and premium Webflow templates to jumpstart your next project.Pick a template and then customize it in Webflow without code.

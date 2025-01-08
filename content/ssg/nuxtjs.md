@@ -1,6 +1,6 @@
 ---
 title: NuxtJs
-page_title:
+page_title: <themes> NuxtJs Templates
 meta_title: <themes> NuxtJs Themes & Templates (Free & Premium)| Statichunt
 description: "Explore a wide range of Nuxt.js themes and templates for your next web development project"
 weight: "5"
@@ -23,4 +23,5 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
+
 Nuxtjs is a static site generator built on top of Vue.js that allows you to create static websites and applications using Vue.js. Static sites are faster and more secure than dynamic websites, and with Nuxt, you can create them without anyomplicated setup process.

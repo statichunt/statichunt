@@ -1,6 +1,6 @@
 ---
 title: Gatsby
-page_title: Gatsby Themes
+page_title: <themes> Gatsby Themes
 weight: "5"
 meta_title: <themes> Gatsby Themes (Free & Premium) | Statichunt
 description: "Are you looking for the best Gatsby themes and templates a to get started with your next project? Here we've listed awesome themes and templates"
@@ -23,4 +23,5 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
+
 Gatsby is a static site generator that lets you build websites and apps with speed. It offers the control of dynamically rendered sites with scalability - all in a free open source framework!
