@@ -224,7 +224,7 @@ export const getStaticProps = async ({ params }) => {
         : page.slug === regular,
     );
 
-  // toolsCategory page
+  // tools category page
   const toolsCategoryPage =
     toolsCategory.length &&
     toolsCategory.filter((page) =>

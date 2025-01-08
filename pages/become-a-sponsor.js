@@ -27,7 +27,7 @@ const Sponsors = ({ data }) => {
 };
 
 export const getStaticProps = async () => {
-  const data = await getListPage("content/sponsors/become-a-sponsor.md");
+  const data = await getListPage("content/landing-pages/become-a-sponsor.md");
   return {
     props: {
       data: data,

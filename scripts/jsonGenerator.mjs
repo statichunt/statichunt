@@ -105,7 +105,6 @@ const css = getSinglePageData("content/css", true, false);
 const ui = getSinglePageData("content/ui", true, false);
 const cms = getSinglePageData("content/cms", true, false);
 const category = getSinglePageData("content/category", true, false);
-const sponsors = getListPageData("content/sponsors", "index.md", false);
 const themeTools = [...ssg, ...css, ...ui, ...cms, ...category];
 
 const themesWithContent = getSinglePageData("content/themes", false, true);
@@ -124,7 +123,6 @@ try {
   fs.writeFileSync(`${jsonDir}/authors.json`, JSON.stringify(authors));
   fs.writeFileSync(`${jsonDir}/theme-tools.json`, JSON.stringify(themeTools));
   fs.writeFileSync(`${jsonDir}/blog.json`, JSON.stringify(blog));
-  fs.writeFileSync(`${jsonDir}/sponsors.json`, JSON.stringify(sponsors));
   fs.writeFileSync(
     `${jsonDir}/theme-finder.json`,
     JSON.stringify(themesFeatures),

@@ -122,7 +122,7 @@ const brands = ({ data }) => {
 };
 
 export const getStaticProps = async () => {
-  const data = await getListPage("content/brands/_index.md");
+  const data = await getListPage("content/landing-pages/brands.md");
   return {
     props: {
       data: data,
