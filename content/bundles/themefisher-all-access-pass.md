@@ -1,6 +1,6 @@
 ---
 title: Themefisher All Access Pass
-image: "/bundles/all-access-pass.png"
+image: "/bundles/themefisher-all-access-pass.png"
 author: Themefisher
 author_link: "https://themefisher.com/?aff=statichunt"
 description: ""

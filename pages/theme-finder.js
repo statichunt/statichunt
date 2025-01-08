@@ -93,7 +93,9 @@ function Quiz() {
                   onClick={finder.previousStep}
                   className="btn btn-outline-primary font-bold max-sm:w-full group"
                 >
-                  <span className="gradient-text">Previous Question</span>
+                  <span className="text-gradient-primary">
+                    Previous Question
+                  </span>
                 </button>
               )}
 
@@ -104,7 +106,7 @@ function Quiz() {
                 onClick={finder.nextStep}
                 className="btn btn-outline-primary font-bold sm:ml-auto max-sm:w-full disabled:text-white group"
               >
-                <span className="gradient-text">Next Question</span>
+                <span className="text-gradient-primary">Next Question</span>
               </button>
             )}
 

@@ -1,6 +1,6 @@
 ---
 title: Jekyll
-page_title: Jekyll Themes
+page_title: <themes> Jekyll Themes
 weight: "6"
 meta_title: <themes> Jekyll Themes (Free & Premium) | Statichunt
 description: "Checkout this collection of free and premium Jekyll themes to jumpstart your next Jekyll project."
@@ -23,4 +23,5 @@ themes_draft: false
 examples_draft: false
 draft: false
 ---
+
 Jekyll is a simple and easy-to-use blog-aware static site generator for personal, project, or organization websites.

@@ -2,37 +2,37 @@
   "themes": [
     {
       "name": "ThemeSelection",
-      "image": "/sponsors/themeselection-sponsor.webp",
+      "image": "/sponsors/cards/themeselection-card.webp",
       "link": "https://themeselection.com/?ref=133",
       "description": "ThemeSelection provides fully coded dashboard templates and UI kits to streamline your development process and enhance productivity."
     },
     {
       "name": "WrapPixel",
-      "image": "/sponsors/wrappixel-card.webp",
+      "image": "/sponsors/cards/wrappixel-card.webp",
       "link": "https://www.wrappixel.com/templates/category/admin-dashboard-templates/?ref=317",
       "description": "80+ premium and free adcmin dashboard templates built with modern technologies like React, Vue, Angular, and Bootstrap."
     },
     {
       "name": "Zeon Studio",
-      "image": "/sponsors/zeonstudio-card.webp",
+      "image": "/sponsors/cards/zeonstudio-card.webp",
       "link": "https://zeon.studio/",
       "description": "Zeon Studio is a composable web agency offering modern web development, UI/UX design, and website migration services."
     },
     {
       "name": "Themefisher",
-      "image": "/sponsors/themefisher-card.webp",
+      "image": "/sponsors/cards/themefisher-card.webp",
       "link": "https://themefisher.com/?aff=statichunt",
       "description": "Themefisher offers over 150 premium and free website templates built with modern technologies like Astro, NextJs, Hugo, Tailwind, and Bootstrap."
     },
     {
       "name": "Gethugothemes",
-      "image": "/sponsors/gethugothemes-card.webp",
+      "image": "/sponsors/cards/gethugothemes-card.webp",
       "link": "https://gethugothemes.com/?aff=statichunt",
       "description": "Largest premium Hugo themes provider. It has a collection of 60+ high-quality themes for users to choose from."
     },
     {
       "name": "Sponsor Slot",
-      "image": "/sponsors/sponsor-card.webp",
+      "image": "/sponsors/cards/sponsor-card.webp",
       "link": "/contact",
       "description": "Showcase your products in front of 6000+ users every month. Limited sponsorship slots available!"
     }
@@ -40,12 +40,12 @@
   "theme_single": [
     {
       "author": "WrapPixel",
-      "image": "/sponsors/wrappixel-promotion.webp",
+      "image": "/sponsors/widgets/wrappixel-widget.webp",
       "link": "https://www.wrappixel.com/templates/big-bundle/?ref=317"
     },
     {
       "author": "ThemeSelection",
-      "image": "/sponsors/themeselections-bundle-banner.webp",
+      "image": "/sponsors/widgets/themeselections-widget.webp",
       "link": "https://themeselection.com/item/celebration-big-bundle-sale/?ref=133"
     }
   ],
