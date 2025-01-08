@@ -34,6 +34,7 @@
     "react-gtm-module": "^2.0.11",
     "react-icons": "^5.4.0",
     "react-infinite-scroll-component": "^6.1.0",
+    "react-select": "^5.9.0",
     "react-use-cookie": "^1.6.1",
     "rehype-slug": "^6.0.0",
     "remark-gfm": "4.0.0",

@@ -13,6 +13,8 @@ const features = [
   "i18n",
   "syntax",
   "analytics",
+  "blog",
+  "e-commerce",
 ];
 
 // get list page data (ex: about.md)
