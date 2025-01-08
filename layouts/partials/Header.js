@@ -40,8 +40,6 @@ const Header = () => {
         setSearchModal(!searchModal);
       }
     });
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchModal, macOs]);
 
   return (

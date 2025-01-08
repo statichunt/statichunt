@@ -500,6 +500,17 @@ select:required:invalid {
   }
 }
 
+// dot list
+.dot-list {
+  @apply list-disc pl-4;
+  li {
+    @apply mb-2;
+  }
+  li::marker {
+    @apply text-primary;
+  }
+}
+
 // content style
 .content {
   @apply prose max-w-none;
@@ -519,21 +530,4 @@ select:required:invalid {
   @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:px-4 prose-th:py-4 prose-th:text-dark prose-thead:dark:border-darkmode-border prose-thead:dark:bg-theme-dark prose-th:dark:text-light;
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:px-3 prose-td:py-4 prose-td:dark:text-light;
-}
-
-.text-gradient-primary {
-  background: linear-gradient(91deg, #059669 0.53%, #25b1c8 56.58%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 300%;
-  animation: gradient 20s ease infinite;
-}
-
-.hook-line {
-  opacity: 0.7;
-  background: linear-gradient(90deg, #059669, #57cbdd 100%, #57cbdd 72.4%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
