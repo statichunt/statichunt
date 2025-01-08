@@ -11,7 +11,7 @@
     "lint": "next lint",
     "preview": "next start",
     "json": "node scripts/jsonGenerator.mjs",
-    "update": "node scripts/jsonGenerator.mjs && node scripts/parseNewThemesData.mjs",
+    "update": "node scripts/jsonGenerator.mjs && node scripts/parseNewThemesData.mjs && node scripts/themeSync.mjs",
     "update-themes": "yarn json && node scripts/updateThemes.mjs && yarn json",
     "theme-sync": "node scripts/themeSync.mjs",
     "author-sync": "node scripts/authorSync.mjs",

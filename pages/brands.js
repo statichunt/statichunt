@@ -11,12 +11,12 @@ const brands = ({ data }) => {
           <div className="row justify-center">
             <div className="col-10 text-center">
               {markdownify(
-                `${frontmatter.page_header.title}`,
+                `${frontmatter.title}`,
                 "h1",
                 "mb-4 [&>span]:text-primary",
               )}
               <div className="content">
-                {markdownify(`${frontmatter.page_header.description}`, "p")}
+                {markdownify(`${frontmatter.description}`, "p")}
               </div>
             </div>
           </div>
@@ -25,10 +25,6 @@ const brands = ({ data }) => {
 
       <section className="py-20">
         <div className="container">
-          <div className="text-center pb-10">
-            {markdownify(`${frontmatter.title}`, "h2")}
-          </div>
-
           <div className="row g-4">
             {frontmatter?.assets.map((asset, index) => (
               <div className="sm:col-6 md:col-4 lg:col-3" key={index}>
