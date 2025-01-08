@@ -72,7 +72,7 @@ pricing:
     - "Featured listing in 2 selected categories."
     - "Social media promotion of your products."
 
-  - name: "Custom Sponsorship"
+  - name: "Premium Sponsorship"
     featured: true
     price: "$300"
     price_per: "/month"
