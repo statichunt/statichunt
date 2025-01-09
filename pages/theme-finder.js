@@ -28,29 +28,40 @@ function Quiz() {
     const ssgAndCategoryFilterTheme = themes.filter((theme) => {
       // Check for ssg match
       const ssgMatch = ssg.filter((ssg) => ssg).length
-        ? theme.ssg?.some((themeSsg) => ssg.includes(themeSsg))
+        ? theme.ssg?.some((themeSsg) =>
+            ssg.some(
+              (s) => s.toLowerCase().indexOf(themeSsg.toLowerCase()) !== -1,
+            ),
+          )
         : true;
       // Check for category match
       const categoryMatch = category
-        ? theme.category?.some((c) => c.toLowerCase().indexOf(category))
+        ? theme.category?.some((c) => c.toLowerCase().indexOf(category) !== -1)
         : true;
 
       return ssgMatch && categoryMatch;
     });
 
-    console.log({ ssgAndCategoryFilterTheme });
-
     const newMatchThemes = ssgAndCategoryFilterTheme.filter((theme) => {
       // Check for features match
       const featuresMatch =
         Array.isArray(features) && features.filter((feature) => feature).length
-          ? theme.features?.some((feature) => features.includes(feature))
+          ? theme.features?.some((feature) =>
+              features.some(
+                (f) => f.toLowerCase().indexOf(feature.toLowerCase()) !== -1,
+              ),
+            )
           : true;
 
       // Check for cms match
       const cmsMatch =
         Array.isArray(cms) && cms.filter((cms) => cms).length
-          ? theme.cms?.some((cmsItem) => cms.includes(cmsItem))
+          ? theme.cms?.some((cmsItem) =>
+              cms.some(
+                (cms) =>
+                  cms.toLowerCase().indexOf(cmsItem.toLowerCase()) !== -1,
+              ),
+            )
           : true;
 
       // Return theme if all conditions are matched
