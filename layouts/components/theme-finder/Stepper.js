@@ -562,7 +562,10 @@ export const createStepper = () => {
                   onChange={handleChange}
                   required
                 />
-                <label className="form-label left-3" htmlFor="email">
+                <label
+                  className="form-label left-3 dark:bg-darkmode-body"
+                  htmlFor="email"
+                >
                   First Name *
                 </label>
               </div>
@@ -575,7 +578,10 @@ export const createStepper = () => {
                   onChange={handleChange}
                   value={value.last_name ?? ""}
                 />
-                <label className="form-label left-3" htmlFor="email">
+                <label
+                  className="form-label left-3 dark:bg-darkmode-body"
+                  htmlFor="email"
+                >
                   Last Name
                 </label>
               </div>
@@ -589,7 +595,10 @@ export const createStepper = () => {
                   onChange={handleChange}
                   required
                 />
-                <label className="form-label left-3" htmlFor="email">
+                <label
+                  className="form-label left-3 dark:bg-darkmode-body"
+                  htmlFor="email"
+                >
                   Email address *
                 </label>
               </div>
