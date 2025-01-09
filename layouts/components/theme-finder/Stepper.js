@@ -4,6 +4,7 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
 import { useMemo } from "react";
+import { FaCheck } from "react-icons/fa6";
 import Select from "react-select";
 import { useThemeFinder } from "./themeFinderProvider";
 
@@ -22,8 +23,10 @@ function ImageSelectionQuiz({ name, options, view, type }) {
       className={`${view === "list" ? "flex flex-col space-y-5" : "grid grid-cols-2 md:grid-cols-3 gap-3"} mt-5 sm:mt-8`}
     >
       {options?.map((image, index) => {
+        const isSelected = currentQuizValue?.some((a) => a === image.value);
         return (
           <button
+            type="button"
             key={index}
             onClick={() => {
               if (type === "single") {
@@ -50,8 +53,24 @@ function ImageSelectionQuiz({ name, options, view, type }) {
                 ).filter((value) => value),
               });
             }}
-            className={`flex  border rounded   ${currentQuizValue?.some((a) => a === image.value) ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center space-x-3 p-4" : "flex-col justify-center items-center p-8 space-y-2"}`}
+            className={`relative flex overflow-hidden  border rounded   ${isSelected ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center space-x-3 p-4" : "flex-col justify-center items-center p-8 space-y-2"}`}
           >
+            <div
+              className={`btn-primary text-white p-3 absolute right-0 top-0 w-full rotate-45 ${isSelected ? "block" : "hidden"}`}
+              style={{
+                transform:
+                  type === "single"
+                    ? "translate(50%, -19px) rotate(45deg)"
+                    : "translate(108px, -11px) rotate(45deg)",
+              }}
+            >
+              <span>
+                <FaCheck
+                  className={`-rotate-45 size-4 ${type === "single" ? "translate-y-2.5" : "translate-y-1"}`}
+                />
+              </span>
+            </div>
+
             <div
               className={`${name === "developer" ? "bg-theme-light rounded dark:bg-darkmode-theme-light" : ""}`}
             >
@@ -170,13 +189,14 @@ function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
 
   const selectedValue = useMemo(() => {
     return options.find((option) => option.value === currentQuizValue);
-  }, []);
+  }, [currentQuizValue]);
 
   const isDark = theme === "dark";
 
   return (
     <div className="mt-8">
       <Select
+        classNamePrefix="select"
         onChange={({ value }) => {
           finder.setValue({
             ...finder.value,
@@ -256,7 +276,7 @@ export const createStepper = () => {
           { value: "portfolio", label: "Portfolio" },
           { value: "personal", label: "Personal" },
           { value: "documentation", label: "Documentation" },
-          { value: "saas-marketing", label: "SaaS Marketing Website" },
+          { value: "sass", label: "SaaS Marketing Website" },
           { value: "ecommerce", label: "E-commerce store" },
           { value: "charity", label: "Charity site" },
           { value: "corporate", label: "Corporate site" },
@@ -301,7 +321,7 @@ export const createStepper = () => {
           {
             icon: "/images/theme-finder/ecomerce.svg",
             label: "E-commerce functionality",
-            value: "ecommerce",
+            value: "e-commerce",
           },
           {
             icon: "/images/theme-finder/blog.svg",
@@ -316,14 +336,20 @@ export const createStepper = () => {
           {
             icon: "/images/theme-finder/multilingual.svg",
             label: "Multilingual support",
-            value: "multilingual",
+            value: "i18n",
           },
           {
             icon: "/images/theme-finder/dark-mode.svg",
             label: "Dark mode compatibility",
-            value: "darkmode",
+            value: "dark",
+          },
+          {
+            icon: "/images/icons/no-preference.svg",
+            label: "No preference",
+            value: "",
           },
         ];
+
         return (
           <>
             <div>
@@ -526,35 +552,47 @@ export const createStepper = () => {
             </p>
 
             <div className="grid grid-cols-2 gap-4 mt-8">
-              <input
-                placeholder="Fast name*"
-                className="form-input w-full"
-                type="text"
-                id="name"
-                name="first_name"
-                value={value.first_name}
-                onChange={handleChange}
-                required
-              />
-              <input
-                className="form-input w-full"
-                type="text"
-                id="name"
-                name="last_name"
-                onChange={handleChange}
-                value={value.last_name}
-                placeholder="Last Name"
-              />
-              <input
-                className="form-input w-full col-span-2"
-                type="email"
-                id="name"
-                name="email"
-                onChange={handleChange}
-                value={value.email}
-                placeholder="Working email*"
-                required
-              />
+              <div className="relative sm:col-span-1 col-span-2">
+                <input
+                  className={`form-input w-full ${value.first_name ? "has-value" : ""}`}
+                  type="text"
+                  id="name"
+                  name="first_name"
+                  value={value.first_name ?? ""}
+                  onChange={handleChange}
+                  required
+                />
+                <label className="form-label left-3" htmlFor="email">
+                  First Name *
+                </label>
+              </div>
+              <div className="relative sm:col-span-1 col-span-2">
+                <input
+                  className={`form-input w-full ${value.last_name ? "has-value" : ""}`}
+                  type="text"
+                  id="name"
+                  name="last_name"
+                  onChange={handleChange}
+                  value={value.last_name ?? ""}
+                />
+                <label className="form-label left-3" htmlFor="email">
+                  Last Name
+                </label>
+              </div>
+              <div className="relative col-span-2">
+                <input
+                  className={`form-input w-full ${value.email ? "has-value" : ""} `}
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={value.email ?? ""}
+                  onChange={handleChange}
+                  required
+                />
+                <label className="form-label left-3" htmlFor="email">
+                  Email address *
+                </label>
+              </div>
             </div>
           </div>
         );

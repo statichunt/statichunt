@@ -539,5 +539,5 @@ select:required:invalid {
 
 .text-gradient-primary {
   @extend .clip-gradient;
-  @apply bg-gradient-to-r group-hover:from-light group-hover:to-light from-primary to-secondary group-disabled:from-light group-disabled:to-light;
+  @apply bg-gradient-to-r group-hover:from-white group-hover:to-white from-primary to-secondary group-disabled:from-white group-disabled:to-white;
 }

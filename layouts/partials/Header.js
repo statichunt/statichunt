@@ -12,6 +12,9 @@ import { useEffect, useState } from "react";
 import { FiSearch } from "react-icons/fi";
 const SearchWrapper = dynamic(
   () => import("@/components/search/SearchWrapper"),
+  {
+    ssr: false,
+  },
 );
 
 const Header = () => {

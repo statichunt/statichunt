@@ -4,67 +4,89 @@ import withQuizProvider from "@/components/theme-finder/withFinder";
 import themes from "@/json/theme-finder.json";
 import Base from "@/layouts/Baseof";
 import axios from "axios";
+import useOs from "hooks/useOs";
+import countryDetector from "lib/utils/countryDetector";
 import { sortByWeight } from "lib/utils/sortFunctions";
 import Image from "next/image";
-import { startTransition, useEffect, useState, useTransition } from "react";
+import { useMemo, useTransition } from "react";
 import { FiLoader } from "react-icons/fi";
+import { getCookie } from "react-use-cookie";
 
 function Quiz() {
+  const country = countryDetector();
   const finder = useThemeFinder();
   const steppers = createStepper();
-  const ActiveStepper = steppers.find((step) => step.id === finder.activeQuiz);
+  const ActiveStepper = useMemo(() => {
+    return steppers.find((step) => step.id === finder.activeQuiz);
+  }, [finder.activeQuiz]);
   const [isPending, startLoading] = useTransition();
-  const [matchThemes, setMatchTheme] = useState(themes);
+  const { platForm: device } = useOs();
 
-  useEffect(() => {
-    startTransition(() => {
-      const newMatchThemes = themes.filter((theme) => {
-        const {
-          ssg = [],
-          category,
-          features = [],
-          cms = [],
-        } = finder.value || {};
+  const { matchThemes, ssgAndCategoryFilterTheme } = useMemo(() => {
+    const { ssg = [], category, features = [], cms = [] } = finder.value || {};
 
-        // Check for ssg match
-        const ssgMatch = ssg.filter((ssg) => ssg).length
-          ? theme.ssg?.some((themeSsg) => ssg.includes(themeSsg))
-          : true;
+    const ssgAndCategoryFilterTheme = themes.filter((theme) => {
+      // Check for ssg match
+      const ssgMatch = ssg.filter((ssg) => ssg).length
+        ? theme.ssg?.some((themeSsg) => ssg.includes(themeSsg))
+        : true;
+      // Check for category match
+      const categoryMatch = category
+        ? theme.category?.some((c) => c.toLowerCase().indexOf(category))
+        : true;
 
-        // Check for category match
-        const categoryMatch = category
-          ? theme.category?.includes(category) || theme?.category?.length === 0
-          : true;
-
-        // Check for features match
-        const featuresMatch =
-          Array.isArray(features) && features.length
-            ? theme.features?.some((feature) => features.includes(feature))
-            : true;
-
-        // Check for cms match
-        const cmsMatch =
-          Array.isArray(cms) && cms.filter((cms) => cms).length
-            ? theme.cms?.some((cmsItem) => cms.includes(cmsItem))
-            : true;
-
-        // Return theme if all conditions are matched
-        return ssgMatch && categoryMatch && featuresMatch && cmsMatch;
-      });
-
-      setMatchTheme(matchThemes);
+      return ssgMatch && categoryMatch;
     });
+
+    console.log({ ssgAndCategoryFilterTheme });
+
+    const newMatchThemes = ssgAndCategoryFilterTheme.filter((theme) => {
+      // Check for features match
+      const featuresMatch =
+        Array.isArray(features) && features.filter((feature) => feature).length
+          ? theme.features?.some((feature) => features.includes(feature))
+          : true;
+
+      // Check for cms match
+      const cmsMatch =
+        Array.isArray(cms) && cms.filter((cms) => cms).length
+          ? theme.cms?.some((cmsItem) => cms.includes(cmsItem))
+          : true;
+
+      // Return theme if all conditions are matched
+      return featuresMatch && cmsMatch;
+    });
+
+    return { matchThemes: newMatchThemes, ssgAndCategoryFilterTheme };
   }, [JSON.stringify(finder.value)]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const first_visit = getCookie("welcomeDate");
+    const landing_page = getCookie("welcomeLandingPage");
+    const referrer = getCookie("welcomeReferrer");
+
     startLoading(async () => {
       try {
         await axios.post(
           `${process.env.NEXT_PUBLIC_BACKEND_URL}/user-lead`,
           {
             ...finder.value,
-            themes: sortByWeight(matchThemes, "weight").slice(0, 10),
+            ssg: finder.value.ssg.filter((ssg) => ssg),
+            cms: finder.value.cms.filter((cms) => cms),
+            features: finder.value.features.filter((feature) => feature),
+            country,
+            first_visit,
+            landing_page,
+            referrer,
+            device,
+            themes: sortByWeight(
+              matchThemes.length > 0 ? matchThemes : ssgAndCategoryFilterTheme,
+              "weight",
+            )
+              .slice(0, 10)
+              .map((theme) => theme.slug),
           },
           {
             headers: {
@@ -76,6 +98,13 @@ function Quiz() {
       } catch (error) {}
     });
   };
+
+  const isValidate = useMemo(() => {
+    const currentValue = finder.value[ActiveStepper.name];
+    return Array.isArray(currentValue)
+      ? currentValue.length <= 0
+      : !finder.value[ActiveStepper.name];
+  }, [JSON.stringify(finder.value), ActiveStepper.name]);
 
   return (
     <Base>
@@ -102,7 +131,7 @@ function Quiz() {
             {finder.activeQuiz < steppers.length - 1 && (
               <button
                 type="button"
-                disabled={!(ActiveStepper.name in finder.value)}
+                disabled={isValidate}
                 onClick={finder.nextStep}
                 className="btn btn-outline-primary font-bold sm:ml-auto max-sm:w-full disabled:text-white group"
               >
