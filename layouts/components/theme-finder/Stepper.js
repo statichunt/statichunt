@@ -53,7 +53,7 @@ function ImageSelectionQuiz({ name, options, view, type }) {
                 ).filter((value) => value),
               });
             }}
-            className={`relative flex overflow-hidden  border rounded   ${isSelected ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center space-x-3 p-4" : "flex-col justify-center items-center p-8 space-y-2"}`}
+            className={`relative flex overflow-hidden  border rounded   ${isSelected ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center gap-x-3 p-4" : "flex-col justify-center items-center p-8 space-y-2"}`}
           >
             <div
               className={`btn-primary text-white p-3 absolute right-0 top-0 w-full rotate-45 ${isSelected ? "block" : "hidden"}`}
@@ -61,7 +61,7 @@ function ImageSelectionQuiz({ name, options, view, type }) {
                 transform:
                   type === "single"
                     ? "translate(50%, -19px) rotate(45deg)"
-                    : "translate(108px, -11px) rotate(45deg)",
+                    : "translate(46%, -11px) rotate(45deg)",
               }}
             >
               <span>
@@ -72,7 +72,7 @@ function ImageSelectionQuiz({ name, options, view, type }) {
             </div>
 
             <div
-              className={`${name === "developer" ? "bg-theme-light rounded dark:bg-darkmode-theme-light" : ""}`}
+              className={`${name === "developer" ? "bg-theme-light rounded dark:bg-darkmode-theme-light" : ""} size-[45px] flex-none`}
             >
               <Image
                 src={image.icon}
@@ -86,7 +86,9 @@ function ImageSelectionQuiz({ name, options, view, type }) {
                 }`}
               />
             </div>
-            <p className="text-dark dark:text-darkmode-dark text-sm font-medium text-center">
+            <p
+              className={`text-dark dark:text-darkmode-dark text-sm font-medium ${type === "single" ? "text-left" : "text-center"}`}
+            >
               {image.label}
             </p>
           </button>

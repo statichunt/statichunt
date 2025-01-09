@@ -3,6 +3,7 @@ import { useThemeFinder } from "@/components/theme-finder/themeFinderProvider";
 import withQuizProvider from "@/components/theme-finder/withFinder";
 import themes from "@/json/theme-finder.json";
 import Base from "@/layouts/Baseof";
+import MobileSidebar from "@/partials/MobileSidebar";
 import axios from "axios";
 import useOs from "hooks/useOs";
 import countryDetector from "lib/utils/countryDetector";
@@ -121,13 +122,14 @@ function Quiz() {
 
   return (
     <Base>
-      <section className="bg-theme-light dark:bg-darkmode-theme-light section">
+      <MobileSidebar />
+      <section className="bg-theme-light dark:bg-darkmode-theme-light max-[1045px]:py-0 section">
         <form
           onSubmit={handleSubmit}
-          className="max-w-[872px] w-full bg-body mx-auto rounded sm:p-16 p-8 dark:bg-darkmode-body"
+          className="min-[1045px]:max-w-[872px] w-full bg-body mx-auto rounded sm:p-16 p-8 dark:bg-darkmode-body"
         >
           <ActiveStepper.component />
-          <div className="text-right mt-5 sm:mt-8 flex sm:justify-between flex-wrap gap-4 items-center justify-center">
+          <div className="text-right mt-5 sm:mt-8 flex sm:justify-between gap-4 items-center justify-center">
             {finder.activeQuiz !== 1 &&
               finder.activeQuiz < steppers.length - 1 && (
                 <button
@@ -136,7 +138,8 @@ function Quiz() {
                   className="btn btn-outline-primary font-bold max-sm:w-full group"
                 >
                   <span className="text-gradient-primary">
-                    Previous Question
+                    Previous
+                    <span className="hidden sm:inline"> Question</span>
                   </span>
                 </button>
               )}
@@ -148,7 +151,9 @@ function Quiz() {
                 onClick={finder.nextStep}
                 className="btn btn-outline-primary font-bold sm:ml-auto max-sm:w-full disabled:text-white group"
               >
-                <span className="text-gradient-primary">Next Question</span>
+                <span className="text-gradient-primary">
+                  Next <span className="hidden sm:inline"> Question</span>
+                </span>
               </button>
             )}
 
