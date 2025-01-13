@@ -13,6 +13,7 @@ import { similarThemes } from "lib/utils/similarItems";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
+import { useEffect, useState } from "react";
 
 const SingleTheme = ({ slug, theme }) => {
   const { frontmatter, content } = theme;
@@ -26,12 +27,28 @@ const SingleTheme = ({ slug, theme }) => {
     ssg,
     price,
     author,
+    demo,
   } = frontmatter;
   const similarProducts = similarThemes(theme, themes, slug);
 
   const promotion_widget = sponsor.theme_single.filter((d) =>
     d.author.includes(author),
   )[0];
+
+  // check for csp
+  const [hasCSP, setHasCSP] = useState(false);
+
+  // check for csp
+  useEffect(() => {
+    fetch("/api/csp-detector", {
+      method: "POST",
+      body: JSON.stringify({ url: demo }),
+    }).then((response) => {
+      response.json().then((data) => {
+        setHasCSP(data.hasFrameAncestorsCSP);
+      });
+    });
+  }, []);
 
   return (
     <Base
@@ -49,7 +66,7 @@ const SingleTheme = ({ slug, theme }) => {
         <div className="container">
           <div className="row justify-center">
             <div className="relative lg:col-8">
-              <ThemePreview theme={theme} slug={slug} />
+              <ThemePreview theme={theme} slug={slug} hasCSP={hasCSP} />
               {markdownify(content, "div", "content")}
               <div className="mt-8 hidden border-y border-gray-300 py-5 dark:border-darkmode-border lg:block">
                 <div className="flex flex-wrap items-center">
@@ -64,10 +81,19 @@ const SingleTheme = ({ slug, theme }) => {
             </div>
 
             <div className="mt-lg-0 mt-4 lg:col-4 lg:mt-0">
-              <ThemeInfo theme={theme} slug={slug} />
+              <ThemeInfo
+                theme={theme}
+                slug={slug}
+                hasCSP={hasCSP}
+                demo={demo}
+              />
               {promotion_widget && (
                 <div className="widget">
-                  <Link rel="noopener noreferrer nofollow" href={promotion_widget.link} className="block" >
+                  <Link
+                    rel="noopener noreferrer nofollow"
+                    href={promotion_widget.link}
+                    className="block"
+                  >
                     <Image
                       src={promotion_widget.image}
                       width={300}

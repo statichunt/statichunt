@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 
-const ThemePreview = ({ theme, slug }) => {
+const ThemePreview = ({ theme, slug, hasCSP }) => {
   const { demo } = theme.frontmatter;
+
+  // device toggle
+  const [mobilePreview, setMobilePreview] = useState(false);
 
   useEffect(() => {
     let previewHeader = document.querySelector(".browser-preview-header");
@@ -12,30 +15,28 @@ const ThemePreview = ({ theme, slug }) => {
     let previewHeaderButtons = document.querySelector(
       ".browser-preview-header-buttons",
     );
+    if (!hasCSP) {
+      document.getElementById(slug).onload = () => {
+        if (previewHeader) {
+          previewHeader.classList.add(`browser-preview-loaded`);
+          previewHeaderContent.innerHTML = "Live Preview is Loaded";
 
-    document.getElementById(slug).onload = () => {
-      if (previewHeader) {
-        previewHeader.classList.add(`browser-preview-loaded`);
-        previewHeaderContent.innerHTML = "Live Preview is Loaded";
-
-        setTimeout(() => {
-          previewHeader.classList.remove(`browser-preview-loaded`);
-          previewThumbnail.classList.add(`hidden`);
-          previewHeader.classList.add(`browser-preview-after-loaded`);
-          previewHeaderButtons.classList.add(
-            `browser-preview-header-buttons-show`,
-          );
-          previewHeaderContent.classList.add(
-            `browser-preview-header-content-hide`,
-          );
-        }, 750);
-      }
-    };
+          setTimeout(() => {
+            previewHeader.classList.remove(`browser-preview-loaded`);
+            previewThumbnail.classList.add(`hidden`);
+            previewHeader.classList.add(`browser-preview-after-loaded`);
+            previewHeaderButtons.classList.add(
+              `browser-preview-header-buttons-show`,
+            );
+            previewHeaderContent.classList.add(
+              `browser-preview-header-content-hide`,
+            );
+          }, 750);
+        }
+      };
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
-
-  // device toggle
-  const [mobilePreview, setMobilePreview] = useState(false);
+  }, [slug, hasCSP]);
 
   return (
     <>
@@ -92,15 +93,17 @@ const ThemePreview = ({ theme, slug }) => {
           </div>
           {/* preview body */}
           <div className="browser-preview-body">
-            <iframe
-              id={slug}
-              sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
-              loading="lazy"
-              src={demo}
-              key={demo}
-              className="browser-preview-frame"
-            />
-            <span className="browser-preview-thumbnail">
+            {!hasCSP && (
+              <iframe
+                id={slug}
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                loading="lazy"
+                src={demo}
+                key={demo}
+                className="browser-preview-frame"
+              />
+            )}
+            <span className={`browser-preview-thumbnail ${hasCSP && "!block"}`}>
               <img
                 src={`https://statichunt-images.netlify.app/themes/${slug}.png`}
                 alt={`Screenshot of ${theme.frontmatter.title}`}
@@ -124,55 +127,57 @@ const ThemePreview = ({ theme, slug }) => {
       </div>
 
       {/* preview mobile/desktop toggler */}
-      <div className="browser-preview-toggler hidden text-center md:block">
-        <button
-          type="button"
-          aria-label="Toggle Desktop"
-          onClick={() => setMobilePreview(false)}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="inline"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+      {!hasCSP && (
+        <div className="browser-preview-toggler hidden text-center md:block">
+          <button
+            type="button"
+            aria-label="Toggle Desktop"
+            onClick={() => setMobilePreview(false)}
           >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <rect x="3" y="4" width="18" height="12" rx="1"></rect>
-            <line x1="7" y1="20" x2="17" y2="20"></line>
-            <line x1="9" y1="16" x2="9" y2="20"></line>
-            <line x1="15" y1="16" x2="15" y2="20"></line>
-          </svg>
-        </button>
-        <button
-          type="button"
-          aria-label="Toggle Mobile"
-          onClick={() => setMobilePreview(true)}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="inline"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="inline"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="currentColor"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <rect x="3" y="4" width="18" height="12" rx="1"></rect>
+              <line x1="7" y1="20" x2="17" y2="20"></line>
+              <line x1="9" y1="16" x2="9" y2="20"></line>
+              <line x1="15" y1="16" x2="15" y2="20"></line>
+            </svg>
+          </button>
+          <button
+            type="button"
+            aria-label="Toggle Mobile"
+            onClick={() => setMobilePreview(true)}
           >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <rect x="7" y="4" width="10" height="16" rx="1"></rect>
-            <line x1="11" y1="5" x2="13" y2="5"></line>
-            <line x1="12" y1="17" x2="12" y2="17.01"></line>
-          </svg>
-        </button>
-      </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="inline"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="currentColor"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <rect x="7" y="4" width="10" height="16" rx="1"></rect>
+              <line x1="11" y1="5" x2="13" y2="5"></line>
+              <line x1="12" y1="17" x2="12" y2="17.01"></line>
+            </svg>
+          </button>
+        </div>
+      )}
     </>
   );
 };

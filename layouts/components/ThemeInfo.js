@@ -4,7 +4,7 @@ import "react-discord-invite/dist/style.css";
 import { TbGitFork } from "react-icons/tb";
 import ToolsIcon from "./ToolsIcon";
 
-const ThemeInfo = ({ theme, slug }) => {
+const ThemeInfo = ({ theme, slug, hasCSP, demo }) => {
   const {
     title,
     author,
@@ -30,7 +30,7 @@ const ThemeInfo = ({ theme, slug }) => {
               className="btn btn-demo mr-4 w-1/2 sm:px-10 lg:px-7 xl:px-10"
               target="_blank"
               rel="noopener nofollow"
-              href={`/demo/${slug}`}
+              href={hasCSP ? demo : `/demo/${slug}`}
             >
               Live Demo
             </a>
