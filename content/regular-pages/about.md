@@ -4,6 +4,7 @@ meta_title: About - Statichunt
 description:
 draft: false
 ---
+
 Statichunt is an open-source Composable directory that enlists hundreds of themes, starters, and tools for static site generators submitted by the community.
 
 <br/>
@@ -43,6 +44,8 @@ Statichunt is an open-source Composable directory that enlists hundreds of theme
 <Event date="" title=" 🚀 Over 7,500 Themes Listed - 9th December 2024 "> We are excited to share we have over 7,500 themes! Statichunt is now a top spot for web development resources. Our growing collection helps you find the perfect match for any project.</Event>
 
 <Event date="" title=" 🤝 Onboarded Our Third Sponsor - 1st January 2025 "> We are delighted to announce that we have onboarded our third sponsor, <a href="https://themeselection.com/" target="_blank">ThemeSelection</a>. ThemeSelection provides fully coded dashboard templates and UI kits that streamline the development process and enhance productivity. This partnership further strengthens our commitment to providing high-quality resources to our community. </Event>
+
+<Event date="" title=" 🤝 Onboarded Our Forth Sponsor - 8th January 2025 "> We’re excited to announce our fourth sponsor, <a href="https://www.shadcnblocks.com/" target="_blank">Shadcnblocks</a>. Shadcnblocks offer's a premium collection of prebuilt components for Shadcn UI, React, and Tailwind CSS, empowering developers with high-quality, responsive resources for modern applications. </Event>
 
 <Event date="" title=" 🎯 10,000 Monthly Users Milestone (Loading....)  "> We're currently working towards the goal of reaching 10,000 monthly active users. It's an ambitious target, but we're excited about the challenge and the opportunities that it will bring. Stay tuned for updates! </Event>
 

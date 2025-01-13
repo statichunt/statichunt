@@ -35,6 +35,10 @@
           "url": "/about"
         },
         {
+          "page": "Become a sponsor",
+          "url": "/become-a-sponsor"
+        },
+        {
           "page": "Blog",
           "url": "/blog"
         },
