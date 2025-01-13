@@ -1,4 +1,5 @@
 export default async function detectFrameAncestorsCSP(req, res) {
+  let hasFrameAncestorsCSP = false;
   try {
     const response = await fetch(JSON.parse(req.body).url, {
       method: "HEAD",
@@ -7,9 +8,9 @@ export default async function detectFrameAncestorsCSP(req, res) {
 
     // Get all response headers
     const cspHeader = response.headers.get("content-security-policy");
-    const hasFrameAncestorsCSP = cspHeader
-      ? cspHeader.includes("frame-ancestors")
-      : false;
+    if (cspHeader) {
+      hasFrameAncestorsCSP = cspHeader.includes("frame-ancestors");
+    }
 
     // Check for CSP-Report-Only header as well
     if (!hasFrameAncestorsCSP) {
