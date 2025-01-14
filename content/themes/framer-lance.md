@@ -5,7 +5,7 @@ demo: https://lance-space-mission.framer.website/
 price: 49
 author: "Alexander Michaelis"
 date: 2024-11-30T10:04:58.071Z
-description: "Lance Space Mission is your new Framer template for showcasing highlighted work in the stratosphere. Made for freelancers, designers, agencies, and personal portfolios to adjust and publish a professional website in minutes."
+description: "Lance Space Mission is your new Framer portfolio template for showcasing highlighted work in the stratosphere. Made for freelancers, designers, agencies, and personal portfolios to adjust and publish a professional website in minutes."
 ssg: ["Framer"]
 css: []
 ui: []

@@ -5,11 +5,11 @@ demo: https://hagee.framer.website/
 price: 45
 author: "Asril"
 date: 2024-11-30T10:13:59.748Z
-description: "HAGE, crafted by passionate designers & developers, empowers design pros with innovative tools. Whether architect, interior designer, or enthusiast, HAGE ensures impactful, memorable design experiences."
+description: "HAGE - framer portifolio template, crafted by passionate designers & developers, empowers design pros with innovative tools. Whether architect, interior designer, or enthusiast, HAGE ensures impactful, memorable design experiences."
 ssg: ["Framer"]
 css: []
 ui: []
 cms: []
-category: [Business,Portfolio]
+category: [Business, Portfolio]
 draft: false
 ---
