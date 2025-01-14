@@ -1,6 +1,6 @@
 ---
 title: BeClean
-download: https://framerbite.com/product/beclean
+download: https://framerbite.com/product/beclean?aff=YGGpO5
 demo: https://beclean.framer.website/
 price: 29
 author: "Framerbite"

@@ -1,7 +1,7 @@
 ---
 title: Web3Bit — For Multi-layout Web3 & Blockchain
 download: https://framerbite.com/product/web3bit?aff=YGGpO5
-demo: https://web3bit.framer.website/?via=framerbite
+demo: https://web3bit.framer.website/
 price: 59
 author: "Framerbite"
 date: 2024-11-30T08:15:55.655Z

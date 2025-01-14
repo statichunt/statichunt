@@ -1,6 +1,6 @@
 ---
 title: Canvas
-download: https://framerbite.com/product/canvas
+download: https://framerbite.com/product/canvas?aff=YGGpO5
 demo: https://canvus.framer.media/
 price: 49
 author: "Framerbite"

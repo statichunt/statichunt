@@ -1,7 +1,7 @@
 ---
 title: Consult — Finance & Consultation Website
 download: https://framerbite.com/product/consult?aff=YGGpO5
-demo: https://consult.framer.website/?via=framerbite
+demo: https://consult.framer.website/
 price: 39
 author: "Framerbite"
 date: 2024-11-30T09:44:00.189Z

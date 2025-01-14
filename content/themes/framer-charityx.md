@@ -1,7 +1,7 @@
 ---
 title: CharityX — Charity Website
 download: https://framerbite.com/product/charityx?aff=YGGpO5
-demo: https://charityx.framer.website/?via=framerbite
+demo: https://charityx.framer.website/
 price: 29
 author: "Framerbite"
 date: 2024-11-30T08:27:08.808Z

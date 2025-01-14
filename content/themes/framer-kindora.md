@@ -1,6 +1,6 @@
 ---
 title: Kindora
-download: https://framerbite.com/product/kindora
+download: https://framerbite.com/product/kindora?aff=YGGpO5
 demo: https://kindora.framer.website/
 price: 49
 author: "Framerbite"

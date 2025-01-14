@@ -1,7 +1,7 @@
 ---
 title: Mover — Moving & Storage Service Website
 download: https://framerbite.com/product/mover?aff=YGGpO5
-demo: https://mover.framer.website/?via=framerbite
+demo: https://mover.framer.website/
 price: 29
 author: "Framerbite"
 date: 2024-11-30T08:25:22.503Z

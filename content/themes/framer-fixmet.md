@@ -1,6 +1,6 @@
 ---
 title: Fixmet
-download: https://framerbite.com/product/fixmet
+download: https://framerbite.com/product/fixmet?aff=YGGpO5
 demo: https://fixmet.framer.website/
 price: 29
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: VidGraph
-download: https://framerbite.com/product/vidgraph
+download: https://framerbite.com/product/vidgraph?aff=YGGpO5
 demo: https://vidgraph.framer.website/
 price: 49
 author: "Framerbite"

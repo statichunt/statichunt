@@ -1,6 +1,6 @@
 ---
 title: Vinzo
-download: https://framerbite.com/product/vinzo
+download: https://framerbite.com/product/vinzo?aff=YGGpO5
 demo: https://vinzo.framer.website/
 price: 49
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: FixPlumb
-download: https://framerbite.com/product/fixplumb
+download: https://framerbite.com/product/fixplumb?aff=YGGpO5
 demo: https://fixplumb.framer.website/
 price: 29
 author: "Framerbite"

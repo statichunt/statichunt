@@ -1,6 +1,6 @@
 ---
 title: Insurancy
-download: https://framerbite.com/product/insurancy
+download: https://framerbite.com/product/insurancy?aff=YGGpO5
 demo: https://insurancy.framer.website/
 price: 29
 author: "Framerbite"

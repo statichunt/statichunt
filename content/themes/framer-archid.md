@@ -1,6 +1,6 @@
 ---
 title: Archid
-download: https://framerbite.com/product/archid
+download: https://framerbite.com/product/archid?aff=YGGpO5
 demo: https://archid.framer.website/
 price: 29
 author: "Framerbite"

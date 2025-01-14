@@ -1,6 +1,6 @@
 ---
 title: TellDesk
-download: https://framerbite.com/product/telldesk
+download: https://framerbite.com/product/telldesk?aff=YGGpO5
 demo: https://telldesk.framer.website/
 price: 29
 author: "Framerbite"

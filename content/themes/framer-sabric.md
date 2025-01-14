@@ -1,7 +1,7 @@
 ---
 title: Sabric — Saas Website
 download: https://framerbite.com/product/sabric?aff=YGGpO5
-demo: https://sabric.framer.website/?via=framerbite
+demo: https://sabric.framer.website/
 price: 29
 author: "Framerbite"
 date: 2024-11-30T08:14:57.804Z

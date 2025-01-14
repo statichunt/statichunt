@@ -1,6 +1,6 @@
 ---
 title: Travello
-download: https://framerbite.com/product/travello
+download: https://framerbite.com/product/travello?aff=YGGpO5
 demo: https://travello.framer.website/
 price: 29
 author: "Framerbite"

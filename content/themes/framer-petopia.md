@@ -1,6 +1,6 @@
 ---
 title: Petopia
-download: https://framerbite.com/product/petopia
+download: https://framerbite.com/product/petopia?aff=YGGpO5
 demo: https://petopia.framer.website/
 price: 29
 author: "Framerbite"

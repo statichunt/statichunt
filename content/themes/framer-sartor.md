@@ -1,6 +1,6 @@
 ---
 title: Sartor
-download: https://framerbite.com/product/sartor
+download: https://framerbite.com/product/sartor?aff=YGGpO5
 demo: https://sartor.framer.website/
 price: 29
 author: "Framerbite"

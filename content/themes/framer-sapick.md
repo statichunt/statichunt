@@ -1,6 +1,6 @@
 ---
 title: Sapick
-download: https://framerbite.com/product/sapick
+download: https://framerbite.com/product/sapick?aff=YGGpO5
 demo: https://sapick.framer.website/
 price: 79
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Rapit
-download: https://framerbite.com/product/rapit
+download: https://framerbite.com/product/rapit?aff=YGGpO5
 demo: https://rapit.framer.website/
 price: 0
 author: "Framerbite"

@@ -1,7 +1,7 @@
 ---
 title: Texpart — It & Technology Website
 download: https://framerbite.com/product/texpart?aff=YGGpO5
-demo: https://texpart.framer.website/?via=framerbite
+demo: https://texpart.framer.website/
 price: 29
 author: "Framerbite"
 date: 2024-11-30T08:39:48.290Z

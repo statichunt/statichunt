@@ -1,6 +1,6 @@
 ---
 title: BrightX
-download: https://framerbite.com/product/brightx
+download: https://framerbite.com/product/brightx?aff=YGGpO5
 demo: https://brightx.framer.website/
 price: 29
 author: "Framerbite"

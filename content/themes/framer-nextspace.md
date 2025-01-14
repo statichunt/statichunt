@@ -1,7 +1,7 @@
 ---
 title: NextSpace — Interior Design Agency
 download: https://framerbite.com/product/nextspace?aff=YGGpO5
-demo: https://nextspace.framer.website/?via=framerbite
+demo: https://nextspace.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T09:56:48.220Z

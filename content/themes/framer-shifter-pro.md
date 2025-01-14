@@ -1,6 +1,6 @@
 ---
 title: Shifter Pro
-download: https://framerbite.com/product/shifter-pro
+download: https://framerbite.com/product/shifter-pro?aff=YGGpO5
 demo: https://shifterpro.framer.website/
 price: 49
 author: "Framerbite"

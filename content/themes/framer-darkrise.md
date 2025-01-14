@@ -1,7 +1,7 @@
 ---
 title: Darkrise — For Multi-layout SaaS, Startup
 download: https://framerbite.com/product/darkrise?aff=YGGpO5
-demo: https://darkrise.framer.website/?via=framerbite
+demo: https://darkrise.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T08:16:04.993Z

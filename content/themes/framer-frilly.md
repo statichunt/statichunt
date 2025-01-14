@@ -1,6 +1,6 @@
 ---
 title: Frilly
-download: https://framerbite.com/product/frilly
+download: https://framerbite.com/product/frilly?aff=YGGpO5
 demo: https://frilly.framer.website/
 price: 29
 author: "Framerbite"

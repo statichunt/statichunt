@@ -1,6 +1,6 @@
 ---
 title: SnapDesign
-download: https://framerbite.com/product/snapdesign
+download: https://framerbite.com/product/snapdesign?aff=YGGpO5
 demo: https://snapdesign.framer.website/
 price: 49
 author: "Framerbite"

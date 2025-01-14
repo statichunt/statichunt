@@ -1,6 +1,6 @@
 ---
 title: Mintro
-download: https://framerbite.com/product/mintro
+download: https://framerbite.com/product/mintro?aff=YGGpO5
 demo: https://mintro.framer.website/
 price: 49
 author: "Framerbite"

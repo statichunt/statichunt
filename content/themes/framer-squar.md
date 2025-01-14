@@ -1,6 +1,6 @@
 ---
 title: Squar
-download: https://framerbite.com/product/squar
+download: https://framerbite.com/product/squar?aff=YGGpO5
 demo: https://squar.framer.website/
 price: 0
 author: "Framerbite"

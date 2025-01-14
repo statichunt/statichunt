@@ -1,7 +1,7 @@
 ---
 title: AutomatePro — SaaS & Startup Template
 download: https://framerbite.com/product/automatepro?aff=YGGpO5
-demo: https://automatepro.framer.website/?via=framerbite
+demo: https://automatepro.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T08:18:38.683Z

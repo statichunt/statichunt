@@ -1,6 +1,6 @@
 ---
 title: Cleean
-download: https://framerbite.com/product/cleean
+download: https://framerbite.com/product/cleean?aff=YGGpO5
 demo: https://cleean.framer.website/
 price: 29
 author: "Framerbite"

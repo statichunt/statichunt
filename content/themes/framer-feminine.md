@@ -1,7 +1,7 @@
 ---
 title: Feminine — Influencers And Life Coaches Template
 download: https://framerbite.com/product/feminine?aff=YGGpO5
-demo: https://feminine.framer.website/?via=framerbite
+demo: https://feminine.framer.website/
 price: 39
 author: "Framerbite"
 date: 2024-11-30T10:11:50.801Z

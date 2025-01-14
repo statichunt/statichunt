@@ -1,6 +1,6 @@
 ---
 title: CleanCut
-download: https://framerbite.com/product/cleancut
+download: https://framerbite.com/product/cleancut?aff=YGGpO5
 demo: https://cleancut.framer.website/
 price: 29
 author: "Framerbite"

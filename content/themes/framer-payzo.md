@@ -1,7 +1,7 @@
 ---
 title: Payzo — Multi-Layout Fintech Template
 download: https://framerbite.com/product/payzo?aff=YGGpO5
-demo: https://payzo.framer.website/?via=framerbite
+demo: https://payzo.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T10:10:19.704Z

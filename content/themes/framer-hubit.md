@@ -1,7 +1,7 @@
 ---
 title: Hubit — For SaaS & Startup Website
 download: https://framerbite.com/product/hubit?aff=YGGpO5
-demo: https://hubit.framer.website/?via=framerbite
+demo: https://hubit.framer.website/
 price: 29
 author: "Framerbite"
 date: 2024-11-30T08:16:32.438Z

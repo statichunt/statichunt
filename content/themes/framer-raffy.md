@@ -1,6 +1,6 @@
 ---
 title: Raffy
-download: https://framerbite.com/product/raffy
+download: https://framerbite.com/product/raffy?aff=YGGpO5
 demo: https://raffy.framer.website/
 price: 29
 author: "Framerbite"

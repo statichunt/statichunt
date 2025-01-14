@@ -1,6 +1,6 @@
 ---
 title: Cloudo
-download: https://framerbite.com/product/cloudo
+download: https://framerbite.com/product/cloudo?aff=YGGpO5
 demo: https://clouudo.framer.website/
 price: 49
 author: "Framerbite"

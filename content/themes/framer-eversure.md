@@ -1,6 +1,6 @@
 ---
 title: Eversure
-download: https://framerbite.com/product/eversure
+download: https://framerbite.com/product/eversure?aff=YGGpO5
 demo: https://eversure.framer.website/
 price: 29
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: Glaze
-download: https://framerbite.com/product/glaze
+download: https://framerbite.com/product/glaze?aff=YGGpO5
 demo: https://glaaze.framer.website/
 price: 29
 author: "Framerbite"

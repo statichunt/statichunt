@@ -1,6 +1,6 @@
 ---
 title: Hotel Six
-download: https://framerbite.com/product/hotel-six
+download: https://framerbite.com/product/hotel-six?aff=YGGpO5
 demo: https://hotelsix.framer.website/
 price: 29
 author: "Framerbite"

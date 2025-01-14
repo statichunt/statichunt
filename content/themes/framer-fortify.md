@@ -1,6 +1,6 @@
 ---
 title: Fortify
-download: https://framerbite.com/product/fortify
+download: https://framerbite.com/product/fortify?aff=YGGpO5
 demo: https://fortify.framer.wiki/
 price: 29
 author: "Framerbite"

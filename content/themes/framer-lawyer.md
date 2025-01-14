@@ -1,7 +1,7 @@
 ---
 title: Lawyer — Law Firm Website
 download: https://framerbite.com/product/lawyer?aff=YGGpO5
-demo: https://lawyer.framer.website/?via=framerbite
+demo: https://lawyer.framer.website/
 price: 29
 author: "Framerbite"
 date: 2024-11-30T10:08:42.835Z

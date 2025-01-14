@@ -1,6 +1,6 @@
 ---
 title: Manor
-download: https://framerbite.com/product/manor
+download: https://framerbite.com/product/manor?aff=YGGpO5
 demo: https://manoor.framer.website/
 price: 29
 author: "Framerbite"

@@ -15,11 +15,12 @@
     {
       "name": "Bundles",
       "url": "/bundles",
-      "badge": "new"
+      "badge": "offer"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Sponsors",
+      "url": "/become-a-sponsor",
+      "badge": "new"
     },
     {
       "name": "Contact",

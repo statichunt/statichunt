@@ -1,6 +1,6 @@
 ---
 title: CloudPeak Lite
-download: https://framerbite.com/product/cloudpeak-lite
+download: https://framerbite.com/product/cloudpeak-lite?aff=YGGpO5
 demo: https://cloudpeaklite.framer.website/
 price: 0
 author: "Framerbite"

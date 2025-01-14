@@ -1,6 +1,6 @@
 ---
 title: FinFlow
-download: https://framerbite.com/product/finflow
+download: https://framerbite.com/product/finflow?aff=YGGpO5
 demo: https://finflow.framer.ai/
 price: 49
 author: "Framerbite"

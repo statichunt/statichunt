@@ -1,6 +1,6 @@
 ---
 title: Zaply
-download: https://framerbite.com/product/zaply
+download: https://framerbite.com/product/zaply?aff=YGGpO5
 demo: https://zaply.framer.website/
 price: 49
 author: "Framerbite"

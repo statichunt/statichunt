@@ -1,6 +1,6 @@
 ---
 title: Personal Coach
-download: https://framerbite.com/product/personal-coach
+download: https://framerbite.com/product/personal-coach?aff=YGGpO5
 demo: https://personalcoach.framer.website/
 price: 29
 author: "Framerbite"

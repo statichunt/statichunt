@@ -1,6 +1,6 @@
 ---
 title: Secury
-download: https://framerbite.com/product/secury
+download: https://framerbite.com/product/secury?aff=YGGpO5
 demo: https://secury.framer.website/
 price: 49
 author: "Framerbite"

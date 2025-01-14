@@ -1,6 +1,6 @@
 ---
 title: Denty
-download: https://framerbite.com/product/denty
+download: https://framerbite.com/product/denty?aff=YGGpO5
 demo: https://denty.framer.website/
 price: 39
 author: "Framerbite"

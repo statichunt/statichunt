@@ -1,6 +1,6 @@
 ---
 title: Smily
-download: https://framerbite.com/product/smily
+download: https://framerbite.com/product/smily?aff=YGGpO5
 demo: https://smily.framer.website/
 price: 29
 author: "Framerbite"

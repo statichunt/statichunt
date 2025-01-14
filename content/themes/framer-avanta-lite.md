@@ -1,6 +1,6 @@
 ---
 title: Avanta Lite
-download: https://framerbite.com/product/avanta-lite
+download: https://framerbite.com/product/avanta-lite?aff=YGGpO5
 demo: https://avanta.framer.website/home-2
 price: 39
 author: "Framerbite"

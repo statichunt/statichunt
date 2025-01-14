@@ -1,6 +1,6 @@
 ---
 title: FitSpark
-download: https://framerbite.com/product/fitspark
+download: https://framerbite.com/product/fitspark?aff=YGGpO5
 demo: https://fitspark.framer.website/
 price: 29
 author: "Framerbite"

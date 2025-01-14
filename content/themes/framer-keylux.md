@@ -1,6 +1,6 @@
 ---
 title: Keylux
-download: https://framerbite.com/product/keylux
+download: https://framerbite.com/product/keylux?aff=YGGpO5
 demo: https://keylux.framer.website/
 price: 0
 author: "Framerbite"

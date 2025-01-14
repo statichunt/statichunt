@@ -1,6 +1,6 @@
 ---
 title: EduVerse
-download: https://framerbite.com/product/eduverse
+download: https://framerbite.com/product/eduverse?aff=YGGpO5
 demo: https://eduverse.framer.website/
 price: 29
 author: "Framerbite"

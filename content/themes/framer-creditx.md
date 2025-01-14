@@ -1,7 +1,7 @@
 ---
 title: CreditX — Finance And Consultation Website
 download: https://framerbite.com/product/creditx?aff=YGGpO5
-demo: https://creditx.framer.website/?via=framerbite
+demo: https://creditx.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T10:12:51.314Z

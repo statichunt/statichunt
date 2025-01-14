@@ -1,6 +1,6 @@
 ---
 title: Politica
-download: https://framerbite.com/product/politica
+download: https://framerbite.com/product/politica?aff=YGGpO5
 demo: https://politica.framer.website/
 price: 49
 author: "Framerbite"

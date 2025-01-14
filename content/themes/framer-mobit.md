@@ -1,7 +1,7 @@
 ---
 title: Mobit — Software & Mobile App Template
 download: https://framerbite.com/product/mobit?aff=YGGpO5
-demo: https://mobit.framer.website/?via=framerbite
+demo: https://mobit.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T08:11:55.227Z

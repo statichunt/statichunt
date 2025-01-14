@@ -1,7 +1,7 @@
 ---
 title: Dopler — Multi-layout Startup Template
 download: https://framerbite.com/product/dopler?aff=YGGpO5
-demo: https://dopler.framer.website/?via=framerbite
+demo: https://dopler.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T08:20:37.366Z

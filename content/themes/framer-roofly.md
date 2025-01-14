@@ -1,6 +1,6 @@
 ---
 title: Roofly
-download: https://framerbite.com/product/roofly
+download: https://framerbite.com/product/roofly?aff=YGGpO5
 demo: https://roofly.framer.website/
 price: 29
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: PrimeLend
-download: https://framerbite.com/product/primelend
+download: https://framerbite.com/product/primelend?aff=YGGpO5
 demo: https://primelend.framer.website/
 price: 39
 author: "Framerbite"

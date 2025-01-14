@@ -1,6 +1,6 @@
 ---
 title: BuildHub
-download: https://framerbite.com/product/buildhub
+download: https://framerbite.com/product/buildhub?aff=YGGpO5
 demo: https://buildhub.framer.website/
 price: 29
 author: "Framerbite"

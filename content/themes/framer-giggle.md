@@ -1,6 +1,6 @@
 ---
 title: Giggle
-download: https://framerbite.com/product/giggle
+download: https://framerbite.com/product/giggle?aff=YGGpO5
 demo: https://giggle.framer.website/
 price: 29
 author: "Framerbite"

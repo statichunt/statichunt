@@ -1,6 +1,6 @@
 ---
 title: SafeNet
-download: https://framerbite.com/product/safenet
+download: https://framerbite.com/product/safenet?aff=YGGpO5
 demo: https://safenet.framer.website/
 price: 29
 author: "Framerbite"

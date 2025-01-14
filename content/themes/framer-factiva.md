@@ -1,7 +1,7 @@
 ---
 title: Factiva — Factory & Solar Service Website
 download: https://framerbite.com/product/factiva?aff=YGGpO5
-demo: https://factiva.framer.website/?via=framerbite
+demo: https://factiva.framer.website/
 price: 29
 author: "Framerbite"
 date: 2024-11-30T08:26:59.971Z

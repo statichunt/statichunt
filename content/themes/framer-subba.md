@@ -1,6 +1,6 @@
 ---
 title: Subba
-download: https://framerbite.com/product/subba
+download: https://framerbite.com/product/subba?aff=YGGpO5
 demo: https://subba.framer.website/
 price: 29
 author: "Framerbite"

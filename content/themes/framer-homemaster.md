@@ -1,7 +1,7 @@
 ---
 title: HomeMaster — Multi-layout Business Template
 download: https://framerbite.com/product/homemaster?aff=YGGpO5
-demo: https://homemaster.framer.website/?via=framerbite
+demo: https://homemaster.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T09:42:18.630Z

@@ -1,7 +1,7 @@
 ---
 title: BlazeX — SaaS & Startup Template
 download: https://framerbite.com/product/blazex?aff=YGGpO5
-demo: https://blazex.framer.website/?via=framerbite
+demo: https://blazex.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T08:07:36.440Z

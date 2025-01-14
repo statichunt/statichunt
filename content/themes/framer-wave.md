@@ -1,6 +1,6 @@
 ---
 title: Wave
-download: https://framerbite.com/product/wave
+download: https://framerbite.com/product/wave?aff=YGGpO5
 demo: https://wave.framer.wiki/
 price: 29
 author: "Framerbite"

@@ -1,6 +1,6 @@
 ---
 title: NextGen
-download: https://framerbite.com/product/nextgen
+download: https://framerbite.com/product/nextgen?aff=YGGpO5
 demo: https://nextgen.framer.wiki/
 price: 29
 author: "Framerbite"

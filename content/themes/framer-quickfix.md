@@ -1,6 +1,6 @@
 ---
 title: QuickFix
-download: https://framerbite.com/product/quickfix
+download: https://framerbite.com/product/quickfix?aff=YGGpO5
 demo: https://quickfix.framer.website/
 price: 29
 author: "Framerbite"

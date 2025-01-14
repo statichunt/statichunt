@@ -1,6 +1,6 @@
 ---
 title: GravityX
-download: https://framerbite.com/product/gravityx
+download: https://framerbite.com/product/gravityx?aff=YGGpO5
 demo: https://gravityx.framer.website/
 price: 49
 author: "Framerbite"

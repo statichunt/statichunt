@@ -1,6 +1,6 @@
 ---
 title: Eventix
-download: https://framerbite.com/product/eventix
+download: https://framerbite.com/product/eventix?aff=YGGpO5
 demo: https://eventix.framer.website/
 price: 49
 author: "Framerbite"

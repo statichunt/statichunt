@@ -1,6 +1,6 @@
 ---
 title: Mortex
-download: https://framerbite.com/product/mortex
+download: https://framerbite.com/product/mortex?aff=YGGpO5
 demo: https://mortox.framer.website/
 price: 29
 author: "Framerbite"

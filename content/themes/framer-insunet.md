@@ -1,6 +1,6 @@
 ---
 title: Insunet
-download: https://framerbite.com/product/insunet
+download: https://framerbite.com/product/insunet?aff=YGGpO5
 demo: https://insunet.framer.website/
 price: 29
 author: "Framerbite"

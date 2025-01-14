@@ -55,7 +55,7 @@ statistics:
 
 pricing:
   title: "Sponsorship Options"
-  subtitle: "Tailored Opportunities to Connect with Developers"
+  subtitle: "Tailored opportunities to connect with our engaged audience."
   note: "Sponsorship benefits last for your package duration. For quality, sponsored products per category may be limited."
   annual_plan:
   - name: "Standard Sponsorship"

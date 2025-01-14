@@ -1,6 +1,6 @@
 ---
 title: Verlix
-download: https://framerbite.com/product/verlix
+download: https://framerbite.com/product/verlix?aff=YGGpO5
 demo: https://verlix.framer.website/
 price: 49
 author: "Framerbite"

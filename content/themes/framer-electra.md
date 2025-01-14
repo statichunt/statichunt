@@ -1,6 +1,6 @@
 ---
 title: Electra
-download: https://framerbite.com/product/electra
+download: https://framerbite.com/product/electra?aff=YGGpO5
 demo: https://electra.framer.website/
 price: 29
 author: "Framerbite"

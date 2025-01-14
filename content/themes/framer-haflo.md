@@ -1,7 +1,7 @@
 ---
 title: Haflo — Real Estate & Directory Template
 download: https://framerbite.com/product/haflo?aff=YGGpO5
-demo: https://haflo.framer.website/?via=framerbite
+demo: https://haflo.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T10:09:53.114Z

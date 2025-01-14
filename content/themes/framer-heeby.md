@@ -1,6 +1,6 @@
 ---
 title: Heeby
-download: https://framerbite.com/product/heeby
+download: https://framerbite.com/product/heeby?aff=YGGpO5
 demo: https://heeby.framer.website/
 price: 29
 author: "Framerbite"

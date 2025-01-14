@@ -1,6 +1,6 @@
 ---
 title: Roofy
-download: https://framerbite.com/product/roofy
+download: https://framerbite.com/product/roofy?aff=YGGpO5
 demo: https://roofy.framer.website/
 price: 29
 author: "Framerbite"

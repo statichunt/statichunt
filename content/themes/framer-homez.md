@@ -1,6 +1,6 @@
 ---
 title: Homez
-download: https://framerbite.com/product/homez
+download: https://framerbite.com/product/homez?aff=YGGpO5
 demo: https://homez.framer.website/
 price: 29
 author: "Framerbite"

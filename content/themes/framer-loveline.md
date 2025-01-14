@@ -1,6 +1,6 @@
 ---
 title: Loveline
-download: https://framerbite.com/product/loveline
+download: https://framerbite.com/product/loveline?aff=YGGpO5
 demo: https://loveline.framer.website/
 price: 29
 author: "Framerbite"

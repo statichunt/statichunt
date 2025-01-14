@@ -1,6 +1,6 @@
 ---
 title: Gardeny
-download: https://framerbite.com/product/gardeny
+download: https://framerbite.com/product/gardeny?aff=YGGpO5
 demo: https://gardenny.framer.website/
 price: 29
 author: "Framerbite"

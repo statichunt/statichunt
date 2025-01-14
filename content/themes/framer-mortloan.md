@@ -1,6 +1,6 @@
 ---
 title: Mortloan
-download: https://framerbite.com/product/mortloan
+download: https://framerbite.com/product/mortloan?aff=YGGpO5
 demo: https://mortloan.framer.website/
 price: 29
 author: "Framerbite"

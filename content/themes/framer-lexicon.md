@@ -1,6 +1,6 @@
 ---
 title: Lexicon
-download: https://framerbite.com/product/lexicon
+download: https://framerbite.com/product/lexicon?aff=YGGpO5
 demo: https://lexicon.framer.website/
 price: 29
 author: "Framerbite"

@@ -1,7 +1,7 @@
 ---
 title: Gratask — Saas & Startup Website
 download: https://framerbite.com/product/gratask?aff=YGGpO5
-demo: https://gratask.framer.website/?via=framerbite
+demo: https://gratask.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T08:23:43.339Z

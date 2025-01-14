@@ -1,6 +1,6 @@
 ---
 title: SwiftHire
-download: https://framerbite.com/product/swifthire
+download: https://framerbite.com/product/swifthire?aff=YGGpO5
 demo: https://swifthire.framer.website/
 price: 29
 author: "Framerbite"

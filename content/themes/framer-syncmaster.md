@@ -1,6 +1,6 @@
 ---
 title: SyncMaster
-download: https://framerbite.com/product/syncmaster
+download: https://framerbite.com/product/syncmaster?aff=YGGpO5
 demo: https://syncmaster.framer.website/
 price: 49
 author: "Framerbite"

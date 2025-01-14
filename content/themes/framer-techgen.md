@@ -1,6 +1,6 @@
 ---
 title: Techgen
-download: https://framerbite.com/product/techgen
+download: https://framerbite.com/product/techgen?aff=YGGpO5
 demo: https://techgen.framer.website/
 price: 49
 author: "Framerbite"

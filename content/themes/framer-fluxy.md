@@ -1,7 +1,7 @@
 ---
 title: Fluxy — Multi-layout SaaS Template
 download: https://framerbite.com/product/fluxy?aff=YGGpO5
-demo: https://fluxy.framer.website/?via=framerbite
+demo: https://fluxy.framer.website/
 price: 49
 author: "Framerbite"
 date: 2024-11-30T08:04:06.131Z

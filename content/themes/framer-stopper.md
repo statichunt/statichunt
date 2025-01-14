@@ -1,6 +1,6 @@
 ---
 title: Stopper
-download: https://framerbite.com/product/stopper
+download: https://framerbite.com/product/stopper?aff=YGGpO5
 demo: https://stopper.framer.website/
 price: 49
 author: "Framerbite"

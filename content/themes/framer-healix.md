@@ -1,6 +1,6 @@
 ---
 title: Healix
-download: https://framerbite.com/product/healix
+download: https://framerbite.com/product/healix?aff=YGGpO5
 demo: https://healix.framer.website/
 price: 49
 author: "Framerbite"

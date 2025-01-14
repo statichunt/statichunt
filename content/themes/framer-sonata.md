@@ -1,6 +1,6 @@
 ---
 title: Sonata
-download: https://framerbite.com/product/sonata
+download: https://framerbite.com/product/sonata?aff=YGGpO5
 demo: https://sonata.framer.website/
 price: 49
 author: "Framerbite"

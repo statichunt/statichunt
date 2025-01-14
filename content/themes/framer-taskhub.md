@@ -1,6 +1,6 @@
 ---
 title: Taskhub
-download: https://framerbite.com/product/taskhub
+download: https://framerbite.com/product/taskhub?aff=YGGpO5
 demo: https://taskhuub.framer.website/
 price: 79
 author: "Framerbite"

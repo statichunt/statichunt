@@ -1,6 +1,6 @@
 ---
 title: DigiBite
-download: https://framerbite.com/product/digibite
+download: https://framerbite.com/product/digibite?aff=YGGpO5
 demo: https://digibite.framer.website/
 price: 0
 author: "Framerbite"

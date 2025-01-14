@@ -1,6 +1,6 @@
 ---
 title: HairStyle
-download: https://framerbite.com/product/hairstyle
+download: https://framerbite.com/product/hairstyle?aff=YGGpO5
 demo: https://hairstyle.framer.website/
 price: 29
 author: "Framerbite"

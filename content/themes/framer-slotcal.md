@@ -1,6 +1,6 @@
 ---
 title: SlotCal
-download: https://framerbite.com/product/slotcal
+download: https://framerbite.com/product/slotcal?aff=YGGpO5
 demo: https://slotcal.framer.website/
 price: 49
 author: "Framerbite"

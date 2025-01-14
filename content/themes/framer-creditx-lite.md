@@ -1,6 +1,6 @@
 ---
 title: CreditX Lite
-download: https://framerbite.com/product/creditx-lite
+download: https://framerbite.com/product/creditx-lite?aff=YGGpO5
 demo: https://creditx.framer.website/home-2
 price: 49
 author: "Framerbite"

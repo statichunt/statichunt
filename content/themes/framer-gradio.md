@@ -1,6 +1,6 @@
 ---
 title: Gradio
-download: https://framerbite.com/product/gradio
+download: https://framerbite.com/product/gradio?aff=YGGpO5
 demo: https://gradio.framer.website/
 price: 29
 author: "Framerbite"
