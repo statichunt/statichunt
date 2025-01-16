@@ -6,14 +6,16 @@ import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/partials/MobileSidebar";
 import axios from "axios";
 import useOs from "hooks/useOs";
+import { getListPage } from "lib/contentParser";
 import countryDetector from "lib/utils/countryDetector";
-import { sortByWeight } from "lib/utils/sortFunctions";
+import { sortByHandpicked } from "lib/utils/sortFunctions";
 import Image from "next/image";
 import { useMemo, useTransition } from "react";
 import { FiLoader } from "react-icons/fi";
 import { getCookie } from "react-use-cookie";
 
-function Quiz() {
+function Quiz({ frontmatter }) {
+  const { handpicked_themes } = frontmatter;
   const country = countryDetector();
   const finder = useThemeFinder();
   const steppers = createStepper();
@@ -92,9 +94,9 @@ function Quiz() {
             landing_page,
             referrer,
             device,
-            themes: sortByWeight(
+            themes: sortByHandpicked(
               matchThemes.length > 0 ? matchThemes : ssgAndCategoryFilterTheme,
-              "weight",
+              handpicked_themes,
             )
               .slice(0, 10)
               .map((theme) => theme.slug),
@@ -184,5 +186,12 @@ function Quiz() {
     </Base>
   );
 }
+
+export const getServerSideProps = async () => {
+  const data = await getListPage("content/landing-pages/theme-finder.md");
+  return {
+    props: data,
+  };
+};
 
 export default withQuizProvider(Quiz);
