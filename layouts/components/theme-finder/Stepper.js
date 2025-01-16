@@ -53,7 +53,7 @@ function ImageSelectionQuiz({ name, options, view, type }) {
                 ).filter((value) => value),
               });
             }}
-            className={`relative flex overflow-hidden  border rounded   ${isSelected ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center gap-x-3 p-4" : "flex-col justify-center items-center p-8 space-y-2"}`}
+            className={`relative flex overflow-hidden  border rounded   ${isSelected ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center gap-x-3 p-4" : "flex-col justify-center items-center px-8 space-y-2 py-6"}`}
           >
             <div
               className={`btn-primary text-white p-3 absolute right-0 top-0 w-full rotate-45 ${isSelected ? "block" : "hidden"}`}

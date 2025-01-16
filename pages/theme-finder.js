@@ -120,12 +120,12 @@ function Quiz() {
   }, [JSON.stringify(finder.value), ActiveStepper.name]);
 
   return (
-    <Base>
+    <Base meta_title="theme finder">
       <MobileSidebar />
-      <section className="bg-theme-light dark:bg-darkmode-theme-light max-[1045px]:py-0 section">
+      <section className="bg-theme-light dark:bg-darkmode-theme-light py-6">
         <form
           onSubmit={handleSubmit}
-          className="min-[1045px]:max-w-[872px] w-full bg-body mx-auto rounded sm:p-16 p-8 dark:bg-darkmode-body"
+          className="min-[1045px]:max-w-[850px] w-full bg-body mx-auto rounded sm:p-10 p-8 dark:bg-darkmode-body"
         >
           <ActiveStepper.component />
           <div className="text-right mt-5 sm:mt-8 flex sm:justify-between gap-4 items-center justify-center">
@@ -133,13 +133,10 @@ function Quiz() {
               finder.activeQuiz < steppers.length - 1 && (
                 <button
                   type="button"
-                  onClick={finder.previousStep}
+                  onClick={() => finder.previousStep(ActiveStepper.name)}
                   className="btn btn-outline-primary font-bold max-sm:w-full group"
                 >
-                  <span className="text-gradient-primary">
-                    Previous
-                    <span className="hidden sm:inline"> Question</span>
-                  </span>
+                  <span className="text-gradient-primary">Previous</span>
                 </button>
               )}
 
@@ -150,9 +147,7 @@ function Quiz() {
                 onClick={finder.nextStep}
                 className="btn btn-outline-primary font-bold sm:ml-auto max-sm:w-full disabled:text-white group"
               >
-                <span className="text-gradient-primary">
-                  Next <span className="hidden sm:inline"> Question</span>
-                </span>
+                <span className="text-gradient-primary">Next</span>
               </button>
             )}
 
@@ -179,7 +174,8 @@ function Quiz() {
                 />
               </div>
               <p className="font-bold max-sm:text-sm text-base text-dark dark:text-darkmode-dark">
-                We found {matchThemes.length} themes
+                We found {matchThemes.length} themes that best match your
+                selections.
               </p>
             </div>
           )}

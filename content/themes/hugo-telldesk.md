@@ -19,8 +19,6 @@ category:
   - Business
   - Saas
 draft: false
-weight:
-hugo_weight:
 ---
 
 ## Key Features

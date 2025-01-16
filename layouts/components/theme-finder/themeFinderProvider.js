@@ -30,11 +30,24 @@ function findReducer(state, action) {
         ...state,
         activeQuiz: state.activeQuiz + 1,
       };
-    case PREVIOUS_STEP:
+    case PREVIOUS_STEP: {
+      const values = state.value;
+      const keys = Object.keys(values);
+      const currentKey = action.payload;
+
+      const currentValues = keys.reduce((acc, curr) => {
+        if (curr === currentKey) {
+          return acc;
+        }
+        return { ...acc, [curr]: values[curr] };
+      }, {});
+
       return {
         ...state,
+        value: currentValues,
         activeQuiz: state.activeQuiz - 1,
       };
+    }
     default:
       return state;
   }
@@ -71,8 +84,8 @@ export default function QuizProvider({ children }) {
     dispatch({ type: NEXT_STEP });
   };
 
-  const previousStep = () => {
-    dispatch({ type: PREVIOUS_STEP });
+  const previousStep = (currentKey) => {
+    dispatch({ type: PREVIOUS_STEP, payload: currentKey });
   };
 
   return (
