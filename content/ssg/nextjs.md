@@ -97,6 +97,22 @@ handpicked_themes:
   - "nextjs-webappboost"
   - "nextjs-gbay"
   - "nextjs-transp"
+  - "nextjs-interior-design-website"
+  - "nextjs-gossip"
+  - "nextjs-himalaya-ui"
+  - "nextjs-themes"
+  - "nextjs-prototypr-frontend"
+  - "nextjs-project-hoobank"
+  - "nextjs-octoclairvoyant-webapp"
+  - "nextjs-play"
+  - "nextjs-turbocharger"
+  - "nextjs-hacktoberfest-projects"
+  - "nextjs-codebaseup-core"
+  - "nextjs-chakra-ui-and-nextjs-landing-page"
+  - "nextjs-powervet"
+  - "nextjs-t3-app-template"
+  - "nextjs-echo-web-frontend"
+  - "nextjs-mantine-analytics-dashboard"
 ---
 
 Nextjs is one of the most popular static site generators right now. It offers a simple interface with powerful features, making it the perfect tool for creating high-performance static sites. Nextjs offers built-in features such as asset management, routing, and server-side rendering.
