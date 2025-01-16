@@ -110,29 +110,27 @@ function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
       borderRadius: "0.375rem",
       borderColor: state.isFocused
         ? darkMode
-          ? "rgba(255, 255, 255, 0.6)" // Light border for dark mode
-          : "rgba(0, 168, 191, 1)"
+          ? "#394852"
+          : "#e9e9e9"
         : darkMode
-          ? "rgba(255, 255, 255, 0.3)"
-          : "rgb(209, 213, 219)",
+          ? "#394852"
+          : "#e9e9e9",
       boxShadow: "none",
       "&:hover": {
-        borderColor: darkMode
-          ? "rgba(255, 255, 255, 0.6)"
-          : "rgba(0, 168, 191, 1)",
+        borderColor: darkMode ? "#394852" : "#e9e9e9",
       },
-      backgroundColor: darkMode ? "rgba(31, 41, 55, 1)" : "white",
+      backgroundColor: darkMode ? "#20262e" : "white",
       color: darkMode ? "rgba(255, 255, 255, 0.9)" : "rgba(75, 85, 101, 1)",
     }),
     menu: (provided) => ({
       ...provided,
-      backgroundColor: darkMode ? "rgba(17, 24, 39, 1)" : "white",
+      backgroundColor: darkMode ? "#20262e" : "white",
       borderRadius: "0.375rem",
       marginTop: "0.25rem",
       zIndex: "50",
       padding: "16px",
       border: darkMode
-        ? "1px solid rgba(255, 255, 255, 0.3)"
+        ? "1px solid #394852"
         : "1px solid rgba(221, 221, 221, 1)",
     }),
     option: (provided, state) => ({
@@ -143,15 +141,15 @@ function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
       borderRadius: "4px",
       backgroundColor: state.isFocused
         ? darkMode
-          ? "rgba(255, 255, 255, 0.1)"
+          ? "#272e37"
           : "rgba(5, 150, 105, 0.03)"
         : darkMode
-          ? "rgba(17, 24, 39, 1)"
+          ? "#20262e"
           : "#fff",
       color: darkMode
         ? state.isFocused || state.isSelected
-          ? "rgba(255, 255, 255, 1)"
-          : "rgba(156, 163, 175, 1)"
+          ? "#fff"
+          : "#cbcbcb"
         : state.isFocused || state.isSelected
           ? "rgba(75, 85, 101, 1)"
           : "rgba(75, 85, 101, 1)",
@@ -553,7 +551,7 @@ export const createStepper = () => {
               provide a better experience.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 mt-8">
+            <div className="grid grid-cols-2 gap-x-4 gap-y-8 mt-8">
               <div className="relative sm:col-span-1 col-span-2">
                 <input
                   className={`form-input w-full ${value.first_name ? "has-value" : ""}`}

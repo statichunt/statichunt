@@ -143,6 +143,11 @@ const Home = ({
               className={showIntro ? "block" : "hidden"}
             />
 
+            <SponsorCards
+              sponsors={sponsors.themes}
+              className={showIntro ? "" : "hidden"}
+            />
+
             <div className="mb-8 block justify-between md:flex lg:sticky top-[74px] bg-body dark:bg-darkmode-body pt-2 z-20 px-2">
               <HomeCategory
                 themes={finalThemes}
@@ -156,10 +161,7 @@ const Home = ({
                 handleSortThemes={handleSortThemes}
               />
             </div>
-            <SponsorCards
-              sponsors={sponsors.themes}
-              className={showIntro ? "" : "hidden"}
-            />
+
             <Themes
               themes={sortOrder(filteredThemes, sortAsc)}
               authors={authors}

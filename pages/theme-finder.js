@@ -49,8 +49,8 @@ function Quiz({ frontmatter }) {
       // Check for features match
       const featuresMatch =
         Array.isArray(features) && features.filter((feature) => feature).length
-          ? theme.features?.some((feature) =>
-              features.some(
+          ? theme.features?.every((feature) =>
+              features.every(
                 (f) => f.toLowerCase().indexOf(feature.toLowerCase()) !== -1,
               ),
             )
@@ -131,16 +131,15 @@ function Quiz({ frontmatter }) {
         >
           <ActiveStepper.component />
           <div className="text-right mt-5 sm:mt-8 flex sm:justify-between gap-4 items-center justify-center">
-            {finder.activeQuiz !== 1 &&
-              finder.activeQuiz < steppers.length - 1 && (
-                <button
-                  type="button"
-                  onClick={() => finder.previousStep(ActiveStepper.name)}
-                  className="btn btn-outline-primary font-bold max-sm:w-full group"
-                >
-                  <span className="text-gradient-primary">Previous</span>
-                </button>
-              )}
+            {finder.activeQuiz !== 1 && (
+              <button
+                type="button"
+                onClick={() => finder.previousStep(ActiveStepper.name)}
+                className="btn btn-outline-primary font-bold max-sm:w-full group"
+              >
+                <span className="text-gradient-primary">Previous</span>
+              </button>
+            )}
 
             {finder.activeQuiz < steppers.length - 1 && (
               <button

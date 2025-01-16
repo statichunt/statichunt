@@ -35,10 +35,20 @@ function findReducer(state, action) {
       const keys = Object.keys(values);
       const currentKey = action.payload;
 
+      const formsData = ["first_name", "last_name", "email"];
+
+      // if (currentKey === "form") {
+      //   keys.filter((key) => formsData.some((form) => form !== key));
+      //   return {
+
+      //   };
+      // }
+
       const currentValues = keys.reduce((acc, curr) => {
         if (curr === currentKey) {
           return acc;
         }
+
         return { ...acc, [curr]: values[curr] };
       }, {});
 
