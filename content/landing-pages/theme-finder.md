@@ -1,46 +1,85 @@
 ---
 title: quiz
-questions:
-  - id: 1
-    name: ssg
-    question: Do you have a preference for any specific
-      platform or technology?
-    remarks: (Select all that apply)
-    options:
-      - id: 1
-        src: /images/icons/astro.svg
-        alt: Astro
-        text: Astro
-      - id: 2
-        src: /images/icons/framer.svg
-        alt: Framer
-        text: Framer
-      - id: 3
-        src: /images/icons/webflow.svg
-        alt: Webflow
-        text: Webflow
-      - id: 4
-        src: /images/icons/nextjs.svg
-        alt: NextJs
-        text: NextJs
-      - id: 5
-        src: /images/icons/hugo.svg
-        alt: Hugo
-        text: Hugo
-      - id: 6
-        src: /images/icons/jekyll.svg
-        alt: Jekyll
-        text: Jekyll
-      - id: 7
-        src: /images/icons/11ty.svg
-        alt: 11ty
-        text: 11ty
-      - id: 8
-        src: /images/icons/nextis.svg
-        alt: Nuxtis
-        text: Nuxtis
-      - id: 9
-        src: /images/icons/no-preference.svg
-        alt: No preference
-        text: No preference
+handpicked_themes:
+  - "html-sneat-dashboard-pro"
+  - "nextjs-modernize-premium"
+  - "astro-nextjs-shadcnblocks"
+  - "nuxtjs-materio-vuetify-3-admin-template"
+  - "astro-fortify"
+  - "nextjs-sneat-mui-nextjs-admin-template"
+  - "nextjs-matdash-tailwind-admin-template"
+  - "nextjs-matdash-free-tailwind-admin-template"
+  - "laravel-sneat-dashboard-pro"
+  - "nextjs-bigspring"
+  - "laravel-jetship-starter-kit"
+  - "vuejs-sneat-vuetify-3-admin-template"
+  - "vuejs-materio-vuetify-3-admin-template"
+  - "html-materio-dashboard-pro"
+  - "astro-optimize"
+  - "laravel-materio-dashboard-pro"
+  - "astro-astroplate"
+  - "hugo-docbox"
+  - "astro-copper"
+  - "astro-sapick"
+  - "astro-pinwheel"
+  - "hugo-hugoplate"
+  - "astro-glasto"
+  - "astro-spydea"
+  - "nextjs-flexy-dashboard"
+  - "nextjs-spike"
+  - "astro-clarity"
+  - "nextjs-flexy-admin-nextjs-free"
+  - "hugo-meghna"
+  - "astro-astrofront"
+  - "astro-portfolio"
+  - "astro-blazex"
+  - "nextjs-supastarter"
+  - "nextjs-materio-mui-react-admin-template-free"
+  - "bootstrap-sneat-dashboard-free"
+  - "html-sneat-dashboard-free-bootstrap"
+  - "laravel-materio-dashboard-free"
+  - "laravel-sneat-dashboard-free"
+  - "laravel-vuejs-materio-free-vuetify-admin-template"
+  - "materio-free-vuetify-nuxtjs-3-admin-template"
+  - "materio-dashboard-free-bootstrap-5"
+  - "framer-digibite"
+  - "framer-subba"
+  - "framer-zaply"
+  - "framer-rapit"
+  - "framer-insurancy"
+  - "framer-denty"
+  - "framer-hotel-six"
+  - "framer-smily"
+  - "framer-squar"
+  - "framer-cleean"
+  - "framer-web3go"
+  - "framer-nextgen"
+  - "framer-secury"
+  - "framer-wave"
+  - "framer-avanta-lite"
+  - "framer-creditx-lite"
+  - "framer-sartor"
+  - "framer-frilly"
+  - "framer-petopia"
+  - "framer-loveline"
+  - "framer-hairstyle"
+  - "framer-personal-coach"
+  - "framer-homez"
+  - "framer-roofy"
+  - "framer-gradio"
+  - "framer-webchain"
+  - "framer-odfense"
+  - "framer-fixplumb"
+  - "framer-buildhub"
+  - "framer-gardeny"
+  - "framer-eduverse"
+  - "framer-archid"
+  - "framer-mortex"
+  - "framer-electra"
+  - "framer-mortloan"
+  - "framer-giggle"
+  - "framer-primelend"
+  - "framer-fixmet"
+  - "framer-fitspark"
+  - "framer-lexicon"
 ---

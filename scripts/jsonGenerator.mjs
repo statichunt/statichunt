@@ -69,7 +69,6 @@ function getThemeFeatures(data, features) {
     category: data.frontmatter.category,
     cms: data.frontmatter.cms,
     features: matchedFeatures,
-    weight: data.frontmatter.weight,
   };
 }
 

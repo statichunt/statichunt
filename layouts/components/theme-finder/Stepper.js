@@ -53,7 +53,7 @@ function ImageSelectionQuiz({ name, options, view, type }) {
                 ).filter((value) => value),
               });
             }}
-            className={`relative flex overflow-hidden  border rounded   ${isSelected ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center gap-x-3 p-4" : "flex-col justify-center items-center p-8 space-y-2"}`}
+            className={`relative flex overflow-hidden  border rounded   ${isSelected ? "border-primary" : "border-border dark:border-darkmode-border"} ${view === "list" ? "flex-row items-center gap-x-3 p-4" : "flex-col justify-center items-center px-8 space-y-2 py-6"}`}
           >
             <div
               className={`btn-primary text-white p-3 absolute right-0 top-0 w-full rotate-45 ${isSelected ? "block" : "hidden"}`}
@@ -79,7 +79,7 @@ function ImageSelectionQuiz({ name, options, view, type }) {
                 width={45}
                 height={45}
                 alt={image.label}
-                className={`${
+                className={`w-full h-full ${
                   dark_icon_list.includes(slugify(image.label))
                     ? "dark:brightness-0 dark:invert"
                     : ""
@@ -565,7 +565,7 @@ export const createStepper = () => {
                   required
                 />
                 <label
-                  className="form-label left-3 dark:bg-darkmode-body"
+                  className="form-label -left-0 dark:bg-darkmode-body"
                   htmlFor="email"
                 >
                   First Name *
@@ -581,7 +581,7 @@ export const createStepper = () => {
                   value={value.last_name ?? ""}
                 />
                 <label
-                  className="form-label left-3 dark:bg-darkmode-body"
+                  className="form-label -left-0 dark:bg-darkmode-body"
                   htmlFor="email"
                 >
                   Last Name
@@ -598,7 +598,7 @@ export const createStepper = () => {
                   required
                 />
                 <label
-                  className="form-label left-3 dark:bg-darkmode-body"
+                  className="form-label -left-0 dark:bg-darkmode-body"
                   htmlFor="email"
                 >
                   Email address *
