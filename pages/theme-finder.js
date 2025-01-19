@@ -124,7 +124,7 @@ function Quiz({ frontmatter }) {
   return (
     <Base meta_title="theme finder">
       <MobileSidebar />
-      <section className="bg-theme-light dark:bg-darkmode-theme-light py-6">
+      <section className="bg-theme-light dark:bg-darkmode-theme-light min-[1045px]:py-6">
         <form
           onSubmit={handleSubmit}
           className="min-[1045px]:max-w-[850px] w-full bg-body mx-auto rounded sm:p-10 p-8 dark:bg-darkmode-body"

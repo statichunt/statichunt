@@ -22,7 +22,7 @@ function findReducer(state, action) {
         ...state,
         value: {
           ...state.value,
-          ...action.payload, // Ensure that payload merges with existing state
+          ...action.payload,
         },
       };
     case NEXT_STEP:
@@ -34,15 +34,21 @@ function findReducer(state, action) {
       const values = state.value;
       const keys = Object.keys(values);
       const currentKey = action.payload;
-
       const formsData = ["first_name", "last_name", "email"];
 
-      // if (currentKey === "form") {
-      //   keys.filter((key) => formsData.some((form) => form !== key));
-      //   return {
+      if (currentKey === "from") {
+        const newKeys = keys.filter((key) => !formsData.includes(key));
+        const newValues = newKeys.reduce((acc, key) => {
+          acc[key] = values[key];
+          return acc;
+        }, {});
 
-      //   };
-      // }
+        return {
+          ...state,
+          activeQuiz: state.activeQuiz - 1,
+          value: newValues,
+        };
+      }
 
       const currentValues = keys.reduce((acc, curr) => {
         if (curr === currentKey) {
