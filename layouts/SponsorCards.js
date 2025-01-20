@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const SponsorCards = ({ sponsors, className }) => {
   return (
-    <div className="mb-9">
-      <h2 className="text-xl mb-2.5 pl-0.5">
+    <div className={`mb-9 ${className}`}>
+      <h2 className="text-xl mb-2.5 pl-1">
         Our <span className="text-gradient">Sponsors</span>
       </h2>
       <div
-        className={`row !overflow-hidden px-2 py-4 md:row-cols-2 xl:row-cols-3 2xl:row-cols-4 g-3 ${className}`}
+        className={`row !overflow-hidden px-2 py-4 md:row-cols-2 xl:row-cols-3 2xl:row-cols-4 g-3`}
       >
         {sponsors?.map((sponsor, index) => (
           <div key={`sponsor-${index}`}>
