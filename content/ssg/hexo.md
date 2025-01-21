@@ -2,7 +2,7 @@
 title: Hexo
 page_title: <themes> Hexo Themes
 weight: "7"
-meta_title: Best Hexo Themes (Hand-picked) | Statichunt
+meta_title: <themes> Best Hexo Themes (Hand-picked) | Statichunt
 description: "Are you looking for the best Hexo themes? Checkout this comprehensive collection of Hexo themes"
 icon: /images/icons/hexo.svg
 website: https://hexo.io/

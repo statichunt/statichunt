@@ -1,6 +1,7 @@
 ---
 title: supastarter
 demo: https://demo.supastarter.dev
+download: https://supastarter.dev/?via=statichunt
 author: Jonathan Wilke
 author_link: https://x.com/jonathan_wilke
 date: 2025-01-07T18:01:00Z
@@ -17,6 +18,6 @@ cms:
 category:
   - Boilerplate
 draft: false
-publish_date: '2025-01-07T18:01:00Z'
-update_date: '2025-01-07T18:01:00Z'
+publish_date: "2025-01-07T18:01:00Z"
+update_date: "2025-01-07T18:01:00Z"
 ---

@@ -44,7 +44,7 @@ handpicked_themes:
   - "html-sneat-dashboard-free-bootstrap"
   - "laravel-materio-dashboard-free"
   - "laravel-sneat-dashboard-free"
-  - "laravel-vuejs-materio-free-vuetify-admin-template"
+  - "laravel-vuejs-materio-free-vuetify-admin-templat"
   - "materio-free-vuetify-nuxtjs-3-admin-template"
   - "materio-dashboard-free-bootstrap-5"
   - "framer-digibite"

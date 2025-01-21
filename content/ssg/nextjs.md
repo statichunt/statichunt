@@ -3,7 +3,7 @@ title: Nextjs
 page_title: <themes> Nextjs Templates
 meta_title: <themes> Nextjs Themes & Templates (Free & Premium) | Statichunt
 weight: "1"
-description: Discover 140+ free and premium Nextjs theme and templates to jumpstart your next project.
+description: Discover <themes> free and premium Nextjs theme and templates to jumpstart your next project.
 icon: "/images/icons/nextjs.svg"
 website: https://nextjs.org/
 github_path: vercel/next.js

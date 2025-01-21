@@ -39,7 +39,7 @@ const ThemeInfo = ({ theme, slug, hasCSP, demo }) => {
               className="btn btn-primary w-1/2 sm:px-10 lg:px-7 xl:px-10"
               href={`${github ? github : download}${download?.includes("?") ? "" : "?ref=statichunt.com"}`}
               target="_blank"
-              rel={`noopener ${price ? "sponsor" : "nofollow"}`}
+              rel={`noopener nofollow`}
             >
               More Info
             </a>
