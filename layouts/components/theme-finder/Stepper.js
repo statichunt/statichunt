@@ -101,8 +101,7 @@ function ImageSelectionQuiz({ name, options, view, type }) {
 function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
   const finder = useThemeFinder();
   const currentQuizValue = finder.value[name] ?? "";
-  const { theme } = useTheme();
-
+  const { resolvedTheme } = useTheme();
   const customStyles = (darkMode) => ({
     control: (provided, state) => ({
       ...provided,
@@ -190,8 +189,7 @@ function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
   const selectedValue = useMemo(() => {
     return options.find((option) => option.value === currentQuizValue);
   }, [currentQuizValue]);
-
-  const isDark = theme === "dark";
+  const isDark = resolvedTheme === "dark";
 
   return (
     <div className="mt-8">
@@ -547,8 +545,8 @@ export const createStepper = () => {
           <div>
             <h1 className="text-dark mb-2.5">Contact Information</h1>
             <p>
-              Please fill in your details to proceed. Your information helps us
-              provide a better experience.
+              Simply enter your email, and we’ll send the best templates
+              tailored to your business directly to your inbox.
             </p>
 
             <div className="grid grid-cols-2 gap-x-4 gap-y-8 mt-8">
