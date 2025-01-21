@@ -122,7 +122,7 @@ function Quiz({ frontmatter }) {
   }, [JSON.stringify(finder.value), ActiveStepper.name]);
 
   return (
-    <Base meta_title="theme finder">
+    <Base meta_title="Theme Finder - Find the perfect theme for your website">
       <MobileSidebar />
       <section className="bg-theme-light dark:bg-darkmode-theme-light min-[1045px]:py-6">
         <form

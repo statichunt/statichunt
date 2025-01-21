@@ -5,8 +5,9 @@
       "url": "/"
     },
     {
-      "name": "Made by Statichunt",
-      "url": "/authors/statichunt"
+      "name": "Theme Finder",
+      "url": "/theme-finder",
+         "badge": "new"
     },
     {
       "name": "Tools",
@@ -14,13 +15,12 @@
     },
     {
       "name": "Bundles",
-      "url": "/bundles",
-      "badge": "offer"
+      "url": "/bundles"
+   
     },
     {
       "name": "Sponsors",
-      "url": "/become-a-sponsor",
-      "badge": "new"
+      "url": "/become-a-sponsor"
     },
     {
       "name": "Contact",
