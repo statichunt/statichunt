@@ -2,7 +2,7 @@
 title: Eleventy
 page_title: <themes> 11ty Themes
 weight: "6"
-meta_title: Eleventy Themes & Templates (Free & Premium) | Statichunt
+meta_title: <themes> Eleventy Themes & Templates (Free & Premium) | Statichunt
 description: "Looking for the best Eleventy themes for your next project? These handpicked eleventy themes are ideal for any type of eleventy website"
 icon: /images/icons/eleventy.svg
 website: https://www.11ty.dev/
