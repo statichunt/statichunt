@@ -7,10 +7,7 @@ author: Themefisher
 author_link: https://themefisher.com/?aff=statichunt
 date: 2023-07-11T00:00:00.000Z
 description: >-
-  Bigspring is a modern, responsive business template built with Nextjs. It
-  features a clean, minimal design and includes pre-designed pages such as a
-  homepage, pricing, blog, blog single, contact and FAQs. This theme is ideal
-  for SaaS and marketing websites.
+  Bigspring is a modern, responsive Nextjs template for business. It features a clean, minimal design and includes pre-designed pages such as a homepage, pricing, blog, blog single, contact and FAQs. This theme is ideal for SaaS and marketing websites.
 ssg:
   - Nextjs
 css:
@@ -23,6 +20,7 @@ category:
   - Saas
 draft: false
 ---
+
 ## Key Features
 
 - Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)

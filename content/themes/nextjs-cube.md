@@ -7,8 +7,7 @@ author: Cruip
 author_link: https://cruip.com/
 date: 2023-05-14T00:00:00.000Z
 description: >-
-  A fabulous landing page template for quickly iterating on ideas, startups and
-  software.
+  A well crafted Nextjs landing page template for quickly iterating on ideas, startups and software.
 ssg:
   - Nextjs
 css:

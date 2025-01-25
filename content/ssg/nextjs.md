@@ -115,4 +115,4 @@ handpicked_themes:
   - "nextjs-mantine-analytics-dashboard"
 ---
 
-Nextjs is one of the most popular static site generators right now. It offers a simple interface with powerful features, making it the perfect tool for creating high-performance static sites. Nextjs offers built-in features such as asset management, routing, and server-side rendering.
+Nextjs is one of the most popular static site generators right now. It offers a simple interface with powerful features, making it the perfect tool for creating high-performance static sites. Nextjs offers built-in features such as asset management, routing, and server-side rendering. If you're looking for professionally designed Nextjs templates, you’ll find many options available that can help you kickstart your project and save time during development. These templates provide pre-built layouts, components, and styles optimized for speed and usability, ensuring your website performs at its best.
