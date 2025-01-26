@@ -6,14 +6,11 @@ intro:
   description: Statichunt is the largest directory of **<themes>** themes, starters, UI kits, and tools for Static Site Generators. Find the perfect starting point for your next project and save hours.
 
 handpicked_themes:
+  - "astro-fortify"
   - "html-sneat-dashboard-pro"
-  - "nextjs-modernize-premium"
   - "astro-nextjs-shadcnblocks"
   - "nuxtjs-materio-vuetify-3-admin-template"
-  - "astro-fortify"
   - "nextjs-sneat-mui-nextjs-admin-template"
-  - "nextjs-matdash-tailwind-admin-template"
-  - "nextjs-matdash-free-tailwind-admin-template"
   - "laravel-sneat-dashboard-pro"
   - "nextjs-bigspring"
   - "laravel-jetship-starter-kit"
