@@ -2,3 +2,12 @@ User-agent: *
 Allow: /
 
 Disallow: /api/*
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SimilarWebBot
+Disallow: /
