@@ -6,7 +6,7 @@ author: Statichunt
 author_link: https://statichunt.com
 date: 2022-12-19T00:00:00.000Z
 description: >-
-  Hydrogen is a minimal NextJs Tailwind blog starter template. Highly
+  Hydrogen is a minimal Next.Js Tailwind blog starter template. Highly
   customizable and ideal for creating personal blog website.
 ssg:
   - Nextjs
@@ -18,11 +18,12 @@ cms:
 category:
   - Blog
 draft: false
-publish_date: '2022-12-18T04:52:22Z'
-update_date: '2023-02-09T05:08:12Z'
+publish_date: "2022-12-18T04:52:22Z"
+update_date: "2023-02-09T05:08:12Z"
 github_star: 84
 github_fork: 90
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 100 (Desktop)

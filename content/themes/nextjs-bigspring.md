@@ -1,5 +1,5 @@
 ---
-title: Bigspring NextJs
+title: Bigspring Next.js
 download: https://themefisher.com/products/bigspring-nextjs/?aff=statichunt
 demo: https://bigspring-nextjs.vercel.app/
 price: 77

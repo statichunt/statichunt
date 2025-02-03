@@ -1,9 +1,9 @@
 ---
-title: Nextjs
-page_title: <themes> Nextjs Templates
-meta_title: <themes> Nextjs Themes & Templates (Free & Premium) | Statichunt
+title: Next.js
+page_title: <themes> Next.js Templates
+meta_title: <themes> Next.js Themes & Templates (Free & Premium) | Statichunt
 weight: "1"
-description: Discover <themes> free and premium Nextjs theme and templates to jumpstart your next project.
+description: Discover <themes> free and premium Next.js theme and templates to jumpstart your next project.
 icon: "/images/icons/nextjs.svg"
 website: https://nextjs.org/
 github_path: vercel/next.js
@@ -13,10 +13,10 @@ license_url: https://github.com/vercel/next.js/blob/canary/license.md
 language: JavaScript
 url: "/nextjs-templates"
 
-examples_page_title: Nextjs Examples
-examples_meta_title: Nextjs Website Examples - Statichunt
+examples_page_title: Next.js Examples
+examples_meta_title: Next.js Website Examples - Statichunt
 examples_description: Are you looking for inspiration for creating Next.js website? Check out our collection of stunning Next.js website examples, featuring beautiful designs.
-examples_content: "Check out the showcase of a variety of Nextjs website examples. Get inspired about building your next web project on the Nextjs static site generator"
+examples_content: "Check out the showcase of a variety of Next.js website examples. Get inspired about building your next web project on the Nextjs static site generator"
 examples_url: "/nextjs-examples"
 
 themes_draft: false
@@ -115,4 +115,4 @@ handpicked_themes:
   - "nextjs-mantine-analytics-dashboard"
 ---
 
-Nextjs is one of the most popular static site generators right now. It offers a simple interface with powerful features, making it the perfect tool for creating high-performance static sites. Nextjs offers built-in features such as asset management, routing, and server-side rendering. If you're looking for professionally designed Nextjs templates, you’ll find many options available that can help you kickstart your project and save time during development. These templates provide pre-built layouts, components, and styles optimized for speed and usability, ensuring your website performs at its best.
+Next.js is one of the most popular static site generators right now. It offers a simple interface with powerful features, making it the perfect tool for creating high-performance static sites. Next.js offers built-in features such as asset management, routing, and server-side rendering. If you're looking for professionally designed Nextjs templates, you’ll find many options available that can help you kickstart your project and save time during development. These templates provide pre-built layouts, components, and styles optimized for speed and usability, ensuring your website performs at its best.

@@ -1,5 +1,5 @@
 ---
-title: Andromeda Light Nextjs
+title: Andromeda Light Next.js
 download: https://themefisher.com/products/andromeda-light-nextjs/?aff=statichunt
 price: 0
 demo: https://andromeda-light-nextjs.vercel.app/
@@ -7,7 +7,7 @@ author: Themefisher
 author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-02-11T00:00:00.000Z
 description: >-
-  Andromeda Light Nextjs is multipurpose SaaS theme designed to showcase any
+  Andromeda Light Next.js is multipurpose SaaS theme designed to showcase any
   SaaS product or solution.
 ssg:
   - Nextjs
@@ -21,6 +21,7 @@ category:
   - Business
 draft: false
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 100 (Desktop)

@@ -20,6 +20,7 @@ category:
   - Dashboard
 draft: false
 ---
+
 ## Key Features
 
 - Material UI with NextJs

@@ -1,12 +1,12 @@
 ---
-title: Sneat – MUI NextJS Admin Template
+title: Sneat – MUI Next.JS Admin Template
 download: https://themeselection.com/item/sneat-mui-nextjs-admin-template/?ref=133
 price: 79
 demo: https://demos.themeselection.com/sneat-mui-nextjs-admin-template/demo-1/en/dashboards/crm
 author: ThemeSelection
 author_link: https://themeselection.com/
 date: 2025-01-02T00:00:00.000Z
-description: "Sneat is a premium MUI NextJS admin template with a modern and responsive design."
+description: "Sneat is a premium MUI Next.js admin template with a modern and responsive design."
 
 ssg:
   - Nextjs
