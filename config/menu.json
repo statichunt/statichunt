@@ -14,8 +14,9 @@
       "url": "/tools"
     },
     {
-      "name": "Bundles",
-      "url": "/bundles"
+      "name": "Deals",
+      "url": "/bundles",
+      "badge": "offer"
     },
     {
       "name": "Sponsors",

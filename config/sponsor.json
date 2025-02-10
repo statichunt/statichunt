@@ -1,6 +1,12 @@
 {
   "themes": [
     {
+      "name": "Themefisher",
+      "image": "/sponsors/cards/themefisher-card.webp",
+      "link": "https://themefisher.com/?aff=statichunt",
+      "description": "150+ Themes Built with Modern Tech Stacks."
+    },
+    {
       "name": "ThemeSelection",
       "image": "/sponsors/cards/themeselection-card.webp",
       "link": "https://themeselection.com/?ref=133",
@@ -17,12 +23,6 @@
       "image": "/sponsors/cards/zeonstudio-card.webp",
       "link": "https://zeon.studio/",
       "description": "Composable Web Development Agency."
-    },
-    {
-      "name": "Themefisher",
-      "image": "/sponsors/cards/themefisher-card.webp",
-      "link": "https://themefisher.com/?aff=statichunt",
-      "description": "150+ Themes Built with Modern Tech Stacks."
     },
     {
       "name": "Gethugothemes",
