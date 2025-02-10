@@ -6,9 +6,7 @@ author: onWidget
 author_link: https://github.com/onwidget
 date: 2022-08-31T11:44:50.000Z
 description: >-
-  AstroWind is a free and open-source template to make your website using Astro
-  + Tailwind CSS. Ready to start a new project and designed taking into account
-  best practices.
+  AstroWind is a free and open-source blog template to make your website using Astro + Tailwind CSS. Ready to start a new project and designed taking into account best practices.
 ssg:
   - Astro
 css:
@@ -18,8 +16,8 @@ cms: []
 category:
   - Blog
 draft: false
-publish_date: '2022-06-24T03:13:29Z'
-update_date: '2024-12-11T21:03:15Z'
+publish_date: "2022-06-24T03:13:29Z"
+update_date: "2024-12-11T21:03:15Z"
 github_star: 3736
 github_fork: 1136
 ---

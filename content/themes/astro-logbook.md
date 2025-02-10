@@ -7,8 +7,7 @@ author: Themefisher
 author_link: https://themefisher.com/?aff=statichunt/
 date: 2023-03-30T00:00:00.000Z
 description: >-
-  Logbook Astro is a sleek, minimal template for bloggers and writers. It has
-  16+ pre-designed pages and uses Tailwind CSS for easy customization.
+  Logbook Astro is a sleek, minimal template for bloggers and writers. It has 16+ pre-designed pages and uses Tailwind CSS for easy customization.
 ssg:
   - Astro
 css:
@@ -22,6 +21,7 @@ category:
   - Portfolio
 draft: false
 ---
+
 ## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)

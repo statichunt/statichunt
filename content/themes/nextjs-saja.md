@@ -1,5 +1,5 @@
 ---
-title: Saja
+title: Saja - Nextjs portfolio template
 download: https://1.envato.market/2rPvza
 price: 22
 demo: https://saja-react.vercel.app/
@@ -7,9 +7,7 @@ author: BDevs
 author_link: https://themeforest.net/user/bdevs
 date: 2023-01-03T00:00:00.000Z
 description: >-
-  Saja – Agency & Portfolio Template is fully-featured React Next JS template
-  for Digital Services, We just released the fully coded version in latest React
-  Next JS.
+  Saja – Business, Agency & Portfolio Template is fully-featured React Next JS template for Digital Services, We just released the fully coded version in latest React Next JS.
 ssg:
   - Nextjs
 css:
@@ -21,6 +19,7 @@ category:
   - Portfolio
 draft: false
 ---
+
 ## Key Features
 
 - Based on Bootstrap 5.x

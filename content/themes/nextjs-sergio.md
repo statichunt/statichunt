@@ -1,5 +1,5 @@
 ---
-title: Sergio
+title: Sergio - next.js portfolio template
 download: https://1.envato.market/jWELB0
 price: 5
 demo: https://sergio-react.vercel.app/
@@ -7,8 +7,7 @@ author: CodeeFly
 author_link: https://themeforest.net/user/codeefly
 date: 2023-01-01T00:00:00.000Z
 description: >-
-  Sergio – Personal Portfolio Template is a highly creative, modern, visually
-  stunning and Bootstrap 4 React NextJS responsive portfolio template
+  Sergio – Nextjs Personal Portfolio  is a highly creative, modern, visually stunning responsive template.
 ssg:
   - Nextjs
 css:
@@ -19,6 +18,7 @@ category:
   - Portfolio
 draft: false
 ---
+
 ## Key Features
 
 - Clean And Modern Design

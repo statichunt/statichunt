@@ -1,5 +1,5 @@
 ---
-title: Astro Micro
+title: Astro Micro - Blog template
 github: https://github.com/trevortylerlee/astro-micro
 demo: https://astro-micro.vercel.app
 author: trevortylerlee
@@ -17,8 +17,8 @@ category:
   - Blog
   - Portfolio
 draft: false
-publish_date: '2024-05-24T05:58:06Z'
-update_date: '2024-12-20T21:42:36Z'
+publish_date: "2024-05-24T05:58:06Z"
+update_date: "2024-12-20T21:42:36Z"
 github_star: 228
 github_fork: 50
 ---
