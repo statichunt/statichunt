@@ -1,8 +1,8 @@
 ---
-title: Composable Themes Bundles
-meta_title: "Composable Themes Bundles"
-description: "Get the best deal on premium themes. Save up to 70% on bundles"
+title: Exclusive Deals 
+meta_title: "Exclusive Deals - Statichunt"
+description: "Discover exclusive deals on premium themes tailored for Statichunt enthusiasts."
 ---
-Supercharge your web development workflow with handpicked Jamstack theme bundles! Get your favorite one and build stunning websites faster.
+Handpicked deals crafted exclusively for the Statichunt community! 
 
-Limited-time offer: Enjoy an exclusive `10% discount` on **Gethugothemes** and **Themefisher's** bundles using the promo code <CopyButton text="STATICHUNT"/>
+Enjoy an exclusive `10% discount` on **Gethugothemes** and **Themefisher's** bundles <br/> using the promo code <CopyButton text="STATICHUNT"/>
