@@ -25,6 +25,7 @@ examples_draft: true
 draft: false
 
 handpicked_themes:
+  - "framer-clarity"
   - "framer-mobit"
   - "framer-sharpy"
   - "framer-subba"

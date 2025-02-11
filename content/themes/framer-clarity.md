@@ -1,6 +1,6 @@
 ---
 title: Clarity Framer
-download: https://themefisher.com/products/clarity-framer
+download: https://themefisher.com/products/clarity-framer?aff=statichunt
 demo: https://themefisher.com/demo?theme=clarity-framer
 price: 47
 author: "Themefisher"
