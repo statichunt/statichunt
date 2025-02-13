@@ -5,5 +5,6 @@ description: "Top headless CMS solutions for managing and delivering content acr
 page_title: "Best Headless CMS"
 icon: /images/icons/cms.svg
 url: "/headless-cms"
+canonical: true
 draft: false
 ---
