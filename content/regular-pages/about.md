@@ -47,6 +47,8 @@ Statichunt is an open-source Composable directory that enlists hundreds of theme
 
 <Event date="" title=" 🤝 Onboarded Our Forth Sponsor - 8th January 2025 "> We’re excited to announce our fourth sponsor, <a href="https://www.shadcnblocks.com/" target="_blank">Shadcnblocks</a>. Shadcnblocks offer's a premium collection of prebuilt components for Shadcn UI, React, and Tailwind CSS, empowering developers with high-quality, responsive resources for modern applications. </Event>
 
+<Event date="" title=" 🏆 7,000 Monthly Users Milestone - 13th February 2025 "> Another big milestone! Statichunt has now reached 7,000 monthly active users. Thank you to our amazing community for your continuous support. Exciting things are ahead!</Event>
+
 <Event date="" title=" 🎯 10,000 Monthly Users Milestone (Loading....)  "> We're currently working towards the goal of reaching 10,000 monthly active users. It's an ambitious target, but we're excited about the challenge and the opportunities that it will bring. Stay tuned for updates! </Event>
 
 </Timeline>
