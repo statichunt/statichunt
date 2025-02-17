@@ -11,6 +11,10 @@ page_draft: false
 
 handpicked_themes:
   - "astro-nextjs-shadcnblocks"
+  - "nextjs-charter"
+  - "nextjs-mainline"
+  - "nextjs-relative"
+  - "nextjs-streamline"
   - "webflow-saasfly"
   - "nuxtjs-shadcn-docs-nuxt"
   - "nextjs-shush"
