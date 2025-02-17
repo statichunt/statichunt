@@ -136,6 +136,11 @@ current_sponsors:
     logo_darkmode: "/sponsors/logos/gethugothemes-darkmode.png"
     url: "https://gethugothemes.com/?aff=statichunt"
 
+  - name: "QuickDirs"
+    logo: "/sponsors/logos/quickdirs.png"
+    logo_darkmode: "/sponsors/logos/quickdirs-darkmode.png"
+    url: "https://quickdirs.com"
+
 
 previous_sponsors:
   title: "Previous Sponsors"

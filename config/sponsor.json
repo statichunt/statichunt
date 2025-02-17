@@ -43,10 +43,10 @@
       "description": "Get 26,000+ Design Resources"
     },
     {
-      "name": "Sponsor Slot",
-      "image": "/sponsors/cards/sponsor-card.webp",
-      "link": "/contact",
-      "description": "Showcase your products to 6,000+ monthly users."
+      "name": "QuickDirs",
+      "image": "/sponsors/cards/quickdirs-sponsor-card.webp",
+      "link": "https://quickdirs.com/",
+      "description": "Launch Digital Product Directory Faster"
     }
   ],
   "theme_single": [

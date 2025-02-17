@@ -15,7 +15,7 @@ handpicked_themes:
   - "nextjs-matdash-free-tailwind-admin-template"
   - "laravel-sneat-dashboard-pro"
   - "astro-fortify"
-  - "nextjs-bigspring"
+  - "nextjs-quickdirs"
   - "laravel-jetship-starter-kit"
   - "vuejs-sneat-vuetify-3-admin-template"
   - "vuejs-materio-vuetify-3-admin-template"
