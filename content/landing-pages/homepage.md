@@ -17,6 +17,8 @@ handpicked_themes:
   - "astro-fortify"
   - "nextjs-quickdirs"
   - "laravel-jetship-starter-kit"
+  - "astro-telldesk"
+  - "astro-syncmaster"
   - "vuejs-sneat-vuetify-3-admin-template"
   - "vuejs-materio-vuetify-3-admin-template"
   - "html-materio-dashboard-pro"
