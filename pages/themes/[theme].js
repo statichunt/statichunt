@@ -7,6 +7,7 @@ import themes from "@/json/themes.json";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
+import CarbonAd from "@/partials/CarbonAd";
 import Themes from "layouts/Themes";
 import { getSinglePageServer } from "lib/contentParser";
 import { similarThemes } from "lib/utils/similarItems";
@@ -64,7 +65,7 @@ const SingleTheme = ({ slug, theme }) => {
       <MobileSidebar />
       <section className="section mx-auto max-w-[1366px]">
         <div className="container">
-          <div className="row justify-center">
+          <div className="row justify-center gx-5">
             <div className="relative lg:col-8">
               <ThemePreview theme={theme} slug={slug} hasCSP={hasCSP} />
               {markdownify(content, "div", "content")}
@@ -87,7 +88,7 @@ const SingleTheme = ({ slug, theme }) => {
                 hasCSP={hasCSP}
                 demo={demo}
               />
-              {promotion_widget && (
+              {promotion_widget ? (
                 <div className="widget">
                   <Link
                     rel="noopener noreferrer nofollow"
@@ -103,6 +104,8 @@ const SingleTheme = ({ slug, theme }) => {
                     />
                   </Link>
                 </div>
+              ) : (
+                <CarbonAd />
               )}
             </div>
           </div>

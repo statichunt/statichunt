@@ -210,10 +210,7 @@ select:required:invalid {
 
 // theme single page widgets
 .widget {
-  @apply mb-10 rounded pl-8;
-  @media (max-width: 1023px) {
-    @apply p-0;
-  }
+  @apply mb-10 rounded;
 }
 
 // sidebar checkbox button

@@ -21,11 +21,11 @@ const ThemeInfo = ({ theme, slug, hasCSP, demo }) => {
 
   return (
     <>
-      <div className="widget mb-4">
+      <div className="widget mb-6">
         <h1 className="h2 mb-5">{title}</h1>
-        <p className="mb-2">{description}</p>
-        <div className="intro-description">
-          <div className="mt-6 flex">
+        <p className="mb-0">{description}</p>
+        <div className="intro-description mt-3">
+          <div className="flex">
             <a
               className="btn btn-demo mr-4 w-1/2 sm:px-10 lg:px-7 xl:px-10"
               target="_blank"
@@ -57,7 +57,7 @@ const ThemeInfo = ({ theme, slug, hasCSP, demo }) => {
         </div>
       </div>
 
-      <div className="widget widget-info mb-3 mt-12">
+      <div className="widget widget-info mb-6">
         <h3 className="h4 mb-3 font-light">Theme Information:</h3>
         {github_star > 0 && (
           <div className="flex items-center py-[6px]">
@@ -126,7 +126,7 @@ const ThemeInfo = ({ theme, slug, hasCSP, demo }) => {
         </span>
       </div>
 
-      <div className="widget mt-10">
+      <div className="widget mb-4">
         <div className="flex items-center">
           <img
             src={

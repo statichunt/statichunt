@@ -68,3 +68,9 @@ object {
 article > p:first-child {
   margin-top: 0 !important;
 }
+
+#carbon-responsive {
+  & > div {
+    @apply rounded w-full;
+  }
+}

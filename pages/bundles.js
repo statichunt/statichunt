@@ -33,11 +33,8 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
             </div>
           </div>
           <div className="row">
-            {bundles.map((bundle) => (
-              <div
-                key={bundle.frontmatter.title}
-                className="col-12 md:col-6 mb-6"
-              >
+            {bundles.map((bundle, index) => (
+              <div key={`bundle-${index}`} className="col-12 md:col-6 mb-6">
                 <div className="rounded-md shadow dark:bg-darkmode-theme-dark h-full relative">
                   <Link
                     className="after:absolute after:inset-0"
@@ -67,10 +64,10 @@ const Bundles = ({ indexPage, mdxContent, bundles }) => {
 
                     <div className="xl:flex justify-between">
                       <ul className="columns-2">
-                        {bundle.frontmatter.features.map((feature) => (
+                        {bundle.frontmatter.features.map((feature, index) => (
                           <li
                             className="text-sm flex mb-4"
-                            key={bundle.frontmatter.title + feature}
+                            key={`bundle-feature-${index}`}
                           >
                             <FaRegCircleCheck
                               size={16}

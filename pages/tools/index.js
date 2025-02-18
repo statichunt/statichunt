@@ -30,7 +30,7 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
       image={image}
     >
       <div className="flex">
-        <Sidebar toolsCategory={toolsCategory} themes={tools} />
+        <Sidebar slug={"tools"} toolsCategory={toolsCategory} themes={tools} />
         <main className="main">
           <div className="container">
             <div className="row mb-8 justify-center">
