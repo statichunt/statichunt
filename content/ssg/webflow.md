@@ -61,4 +61,4 @@ handpicked_themes:
   - "webflow-sliver"
 ---
 
-Explore Webflow free and premium templates to supercharge your website design process. Webflow is a powerful platform that combines the flexibility of custom coding with the simplicity of a visual editor. Ideal for creating dynamic, responsive websites, Webflow offers tools for designing, building, and launching without needing complex code.
+Explore our 1450+ premium and unique Webflow templates, from Portfolio, Agency, SaaS, Business, and other categories. High-performing & easy to customize. Webflow is a powerful platform that combines the flexibility of custom coding with the simplicity of a visual editor. Ideal for creating dynamic, responsive websites, Webflow offers tools for designing, building, and launching without needing complex code.
