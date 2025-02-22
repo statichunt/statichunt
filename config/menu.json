@@ -1,10 +1,6 @@
 {
   "main": [
     {
-      "name": "Themes",
-      "url": "/"
-    },
-    {
       "name": "Theme Finder",
       "url": "/theme-finder",
       "badge": "new"
@@ -21,6 +17,11 @@
     {
       "name": "Sponsors",
       "url": "/become-a-sponsor"
+    },
+    {
+      "name": "Newsletter",
+      "url": "https://statichunt-weekly.beehiiv.com/ ",
+      "badge": "new"
     },
     {
       "name": "Contact",
