@@ -3,6 +3,7 @@ import Themes from "@/layouts/Themes";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { TbBrandGithub, TbCode, TbHome, TbLicense } from "react-icons/tb";
+import CollapseContent from "./components/CollapseContent";
 import CarbonAd from "./partials/CarbonAd";
 
 const { dark_icon_list } = config;
@@ -55,7 +56,7 @@ const ThemeTaxonomy = ({
                   "self-end",
                 )}
               </div>
-              {markdownify(content, "p", "mb-5")}
+              <CollapseContent className="mb-5" content={content} />
               <ul className="meta-list">
                 {website && (
                   <li title="Official Website">
