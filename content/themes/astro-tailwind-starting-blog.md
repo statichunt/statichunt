@@ -7,7 +7,7 @@ author_link: https://github.com/wanoo21
 date: 2024-11-28T22:19:29.230Z
 description: A started template with Tailwind and Astro
 ssg:
-  - Nextjs
+  - Astro
 css:
   - Tailwind
 ui: []
