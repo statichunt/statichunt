@@ -1,0 +1,27 @@
+---
+title: Portfolio Tokyo
+github: https://github.com/matthewyingtao/portfolio-tokyo
+demo: https://www.matthewtao.com/
+author: matthewyingtao
+author_link: https://github.com/matthewyingtao
+date: 2024-02-18T13:58:46.948Z
+description: >-
+  Home to Matthew Tao's portfolio website. Built with Astro, Tailwind and Tina
+  CMS!
+ssg:
+  - Astro
+css:
+  - Tailwind
+ui: []
+cms:
+  - Tina
+  - Markdown
+category:
+  - Blog
+  - Portfolio
+draft: false
+publish_date: '2023-07-13T01:45:00Z'
+update_date: '2024-11-28T19:48:33Z'
+github_star: 16
+github_fork: 2
+---

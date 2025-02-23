@@ -1,0 +1,65 @@
+{
+  "themes": [
+    {
+      "name": "Themefisher",
+      "image": "/sponsors/cards/themefisher-card.webp",
+      "link": "https://themefisher.com/?aff=statichunt",
+      "description": "150+ Themes Built with Modern Tech Stacks."
+    },
+    {
+      "name": "ThemeSelection",
+      "image": "/sponsors/cards/themeselection-card.webp",
+      "link": "https://themeselection.com/?ref=133",
+      "description": "48+ Dashboard Templates and UI Kits."
+    },
+    {
+      "name": "WrapPixel",
+      "image": "/sponsors/cards/wrappixel-card.webp",
+      "link": "https://www.wrappixel.com/templates/category/admin-dashboard-templates/?ref=317",
+      "description": "80+ Premium & Free Admin Dashboard Templates."
+    },
+    {
+      "name": "Zeon Studio",
+      "image": "/sponsors/cards/zeonstudio-card.webp",
+      "link": "https://zeon.studio/",
+      "description": "Composable Web Development Agency."
+    },
+    {
+      "name": "Gethugothemes",
+      "image": "/sponsors/cards/gethugothemes-card.webp",
+      "link": "https://gethugothemes.com/?aff=statichunt",
+      "description": "60+ Premium Hugo Themes Collection."
+    },
+    {
+      "name": "Shadcnblocks",
+      "image": "/sponsors/cards/shadcnblocks-card.webp",
+      "link": "https://www.shadcnblocks.com/?via=statichunt",
+      "description": "350+ Blocks for Shadcn/ui Ready to Copy & Paste."
+    },
+    {
+      "name": "UIHut",
+      "image": "/sponsors/cards/uihut-sponsor-slot.webp",
+      "link": "https://uihut.com/",
+      "description": "Get 26,000+ Design Resources"
+    },
+    {
+      "name": "QuickDirs",
+      "image": "/sponsors/cards/quickdirs-sponsor-card.webp",
+      "link": "https://quickdirs.com/",
+      "description": "Launch Digital Product Directory Faster"
+    }
+  ],
+  "theme_single": [
+    {
+      "author": "WrapPixel",
+      "image": "/sponsors/widgets/wrappixel-widget.webp",
+      "link": "https://www.wrappixel.com/templates/big-bundle/?ref=317"
+    },
+    {
+      "author": "ThemeSelection",
+      "image": "/sponsors/widgets/themeselections-widget.webp",
+      "link": "https://themeselection.com/item/celebration-big-bundle-sale/?ref=133"
+    }
+  ],
+  "tools": []
+}

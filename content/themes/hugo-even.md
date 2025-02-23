@@ -1,0 +1,20 @@
+---
+title: Hugo Theme Even
+github: https://github.com/olOwOlo/hugo-theme-even
+demo: https://blog.olowolo.com/example-site/
+author: olOwOlo
+author_link: https://github.com/olOwOlo
+date: 2023-11-30T02:57:14.660Z
+description: A super concise theme for Hugo https://hugo-theme-even.netlify.app
+ssg:
+  - Hugo
+css: []
+ui: []
+cms: []
+category: []
+draft: false
+publish_date: '2017-08-28T09:20:45Z'
+update_date: '2024-12-02T13:37:53Z'
+github_star: 2055
+github_fork: 733
+---

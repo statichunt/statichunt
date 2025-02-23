@@ -1,0 +1,144 @@
+{
+  "main": [
+    {
+      "name": "Theme Finder",
+      "url": "/theme-finder",
+      "badge": "new"
+    },
+    {
+      "name": "Tools",
+      "url": "/tools"
+    },
+    {
+      "name": "Deals",
+      "url": "/bundles",
+      "badge": "offer"
+    },
+    {
+      "name": "Sponsors",
+      "url": "/become-a-sponsor"
+    },
+    {
+      "name": "Newsletter",
+      "url": "https://statichunt-weekly.beehiiv.com/ ",
+      "badge": "new"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Statichunt",
+      "pages": [
+        {
+          "page": "About",
+          "url": "/about"
+        },
+        {
+          "page": "Become a sponsor",
+          "url": "/become-a-sponsor"
+        },
+        {
+          "page": "Blog",
+          "url": "/blog"
+        },
+        {
+          "page": "Write for us",
+          "url": "/write-for-us"
+        },
+        {
+          "page": "Disclaimer",
+          "url": "/disclaimer"
+        },
+        {
+          "page": "Brands",
+          "url": "/brands"
+        }
+      ]
+    },
+    {
+      "name": "Themes",
+      "pages": [
+        {
+          "page": "Astro Themes",
+          "url": "/astro-themes"
+        },
+        {
+          "page": "Framer Templates",
+          "url": "/framer-templates"
+        },
+        {
+          "page": "Webflow Templates",
+          "url": "/webflow-templates"
+        },
+        {
+          "page": "Hugo Themes",
+          "url": "/hugo-themes"
+        },
+        {
+          "page": "Nextjs Templates",
+          "url": "/nextjs-templates"
+        },
+        {
+          "page": "Gatsby Themes",
+          "url": "/gatsby-themes"
+        },
+        {
+          "page": "Jekyll Themes",
+          "url": "/jekyll-themes"
+        },
+        {
+          "page": "Hexo Themes",
+          "url": "/hexo-themes"
+        },
+        {
+          "page": "Nuxtjs Themes",
+          "url": "/nuxtjs-themes"
+        },
+        {
+          "page": "Eleventy Themes",
+          "url": "/eleventy-themes"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "pages": [
+        {
+          "page": "Chat",
+          "url": "/jamstack-chat"
+        },
+        {
+          "page": "E-commerce",
+          "url": "/jamstack-ecommerce"
+        },
+        {
+          "page": "CMS",
+          "url": "/headless-cms"
+        },
+        {
+          "page": "Feedback",
+          "url": "/jamstack-feedback"
+        },
+        {
+          "page": "form",
+          "url": "/jamstack-forms"
+        },
+        {
+          "page": "helper",
+          "url": "/jamstack-helper"
+        },
+        {
+          "page": "hosting",
+          "url": "/static-website-hosting"
+        },
+        {
+          "page": "search",
+          "url": "/jamstack-search"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "site": {
+    "title": "Statichunt - <themes> Composable Themes, Templates & Tools Directory",
+    "base_url": "https://statichunt.com",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.svg",
+    "logo_light": "/images/logo-light.svg",
+    "logo_width": "164",
+    "logo_height": "32",
+    "logo_text": "Statichunt",
+    "footer_logo": "/images/logo-light.svg"
+  },
+
+  "settings": {
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 4,
+    "summary_length": 200
+  },
+
+  "announcement": {
+    "enable": true,
+    "name": " QuickDirs announcement",
+    "link": "https://quickdirs.com",
+    "content": "🎉 Introducing **QuickDirs** - Launch Digital Product Directory Website In Minutes 🚀"
+  },
+
+  "params": {
+    "tag_manager_id": "GTM-PWJBVR2",
+    "copyright": "MAINTAINER [@ZEON STUDIO](https://zeon.studio/?ref=statichunt.com) TEAM"
+  },
+
+  "metadata": {
+    "meta_author": "Statichunt",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Statichunt is a directory of themes, templates, and tools exclusively designed for Composable sites. Browse through hundreds of options and find the perfect fit for your Composable project!"
+  },
+
+  "sidebar": [
+    { "type": "ssg", "title": "Technology" },
+    { "type": "css", "title": "CSS Framework" },
+    { "type": "ui", "title": "UI Library" },
+    { "type": "cms", "title": "Jamstack CMS" },
+    { "type": "category", "title": "Category" },
+    { "type": "tools-category", "title": "Category" }
+  ],
+
+  "dark_icon_list": [
+    "astro",
+    "nextjs",
+    "markdown",
+    "eleventy",
+    "graphcms",
+    "notion",
+    "prismic",
+    "wordpress",
+    "stylus",
+    "cloudcannon",
+    "ghost",
+    "wix",
+    "buttercms",
+    "shadcn",
+    "framer"
+  ]
+}

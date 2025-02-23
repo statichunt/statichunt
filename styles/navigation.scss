@@ -1,0 +1,59 @@
+// navbar toggler
+input#nav-toggle:checked ~ label#show-button {
+  @apply hidden;
+}
+
+input#nav-toggle:checked ~ label#hide-button {
+  @apply flex md:hidden;
+}
+
+input#nav-toggle:checked ~ #nav-menu {
+  @apply block md:flex;
+}
+
+// header
+.header {
+  @apply sticky top-0 z-40 w-full border-b border-border bg-white dark:border-darkmode-border dark:bg-darkmode-body;
+}
+
+// navbar items
+.navbar {
+  @apply relative flex flex-wrap items-center px-3 py-3 sm:px-8 lg:justify-between;
+}
+
+.navbar-brand {
+  @apply text-xl font-semibold text-dark;
+  image {
+    @apply max-h-full max-w-full;
+  }
+}
+
+.navbar-nav {
+  @apply text-center md:text-left;
+}
+
+.nav-link {
+  @apply relative px-[18px] py-3 text-dark/80 transition hover:text-primary dark:text-white dark:hover:text-darkmode-primary;
+  // &::after {
+  //   @apply absolute left-[18px] bottom-4 h-[1px] w-[calc(100%_-_36px)] scale-x-0 bg-primary transition content-[""];
+  // }
+  // &:hover::after {
+  //   @apply scale-x-100;
+  // }
+}
+
+.nav-dropdown {
+  @apply mr-0;
+}
+
+.nav-dropdown-list {
+  @apply z-10 rounded-lg bg-white p-4 shadow transition;
+}
+
+.nav-dropdown-item {
+  @apply mb-1;
+}
+
+.nav-dropdown-link {
+  @apply min-w-[150px] py-1 text-lg font-semibold text-dark transition hover:text-primary dark:hover:text-darkmode-primary;
+}

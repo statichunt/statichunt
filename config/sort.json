@@ -1,0 +1,39 @@
+{
+  "button": [
+    {
+      "type": "DEFAULT",
+      "value": "default",
+      "icon": "/images/icons/sort.svg",
+      "free": true,
+      "premium": true
+    },
+    {
+      "type": "STAR",
+      "value": "star",
+      "icon": "/images/icons/star.svg",
+      "free": true,
+      "premium": false
+    },
+    {
+      "type": "FORK",
+      "value": "fork",
+      "icon": "/images/icons/fork.svg",
+      "free": true,
+      "premium": false
+    },
+    {
+      "type": "UPDATE",
+      "value": "update",
+      "icon": "/images/icons/update.svg",
+      "free": true,
+      "premium": true
+    },
+    {
+      "type": "PRICE",
+      "value": "price",
+      "icon": "/images/icons/price.svg",
+      "free": false,
+      "premium": true
+    }
+  ]
+}

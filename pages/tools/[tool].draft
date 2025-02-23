@@ -1,0 +1,81 @@
+import Base from "@/layouts/Baseof";
+import { getSinglePage, getSinglePageSlug } from "@/lib/contents";
+import Image from "next/image";
+
+const Tools = ({ tool, slug }) => {
+  const { frontmatter, content } = tool[0];
+  const { title, description, image, noindex, canonical, website } =
+    frontmatter;
+
+  return (
+    <Base
+      title={title}
+      description={description ? description : content.slice(0, 120)}
+      image={image}
+      noindex={noindex}
+      canonical={canonical}
+    >
+      <section className="section">
+        <div className="container max-w-[1200px]">
+          <div className="row justify-center">
+            <div className="mb-8 md:col-8 md:mb-0">
+              <Image
+                src={`https://statichunt-images.netlify.app/tools/${slug}.png`}
+                alt={title}
+                height={550}
+                width={825}
+                className="w-full rounded shadow-lg"
+              />
+            </div>
+            <div className="md:col-4 lg:pl-12">
+              <h1 className="mb-[10px] font-primary text-h2">{title}</h1>
+              <p className="mb-2 text-lg">{description}</p>
+              <div className="mt-5">
+                <a
+                  className="btn btn-demo w-full border border-primary"
+                  href={`${website}?ref=statichunt.com`}
+                  target="_blank"
+                  rel="nofollow noreferrer"
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Base>
+  );
+};
+
+export default Tools;
+
+export const getStaticPaths = () => {
+  const slugs = getSinglePageSlug("content/tools");
+  const paths = slugs.map((tool) => ({
+    params: {
+      tool: tool,
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps = ({ params }) => {
+  const { tool } = params;
+  const allTools = getSinglePage("content/tools");
+  const toolsCategory = getSinglePage("content/tools-category");
+  const singleTools = allTools.filter((data) => data.slug == tool);
+
+  return {
+    props: {
+      tool: singleTools,
+      slug: tool,
+      toolsCategory: toolsCategory,
+      allTools: allTools,
+    },
+  };
+};

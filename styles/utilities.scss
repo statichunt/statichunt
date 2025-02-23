@@ -1,0 +1,76 @@
+b,
+strong {
+  @apply font-semibold;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  @apply inline;
+}
+
+.shadow {
+  box-shadow: 0 2px 15px -4px #e9e9e9;
+}
+
+.shadow-lg {
+  box-shadow: 4px 4px 20px 6px rgb(0 0 0 / 10%);
+}
+
+.dark {
+  .shadow {
+    box-shadow: 0 2px 15px -4px #222;
+  }
+  .shadow-lg {
+    box-shadow: 4px 4px 20px 6px rgb(0 0 0 / 90%);
+  }
+}
+
+.svg-align-bottom svg {
+  @apply align-bottom;
+}
+
+.svg-block svg {
+  @apply block;
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-primary to-secondary;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-primary to-secondary;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.disabled {
+  @apply bg-theme-light/5 opacity-60 dark:bg-darkmode-dark/5;
+}
+
+.flex-fill {
+  @apply flex-[1_1_auto];
+}
+
+.Typewriter {
+  @apply inline-block;
+}
+
+.stretched-link {
+  @apply after:absolute after:inset-0;
+}
+
+article > p:first-child {
+  margin-top: 0 !important;
+}
+
+#carbon-responsive {
+  & > div {
+    @apply rounded w-full;
+  }
+}
