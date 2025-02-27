@@ -49,9 +49,11 @@ function Quiz({ frontmatter }) {
       // Check for features match
       const featuresMatch =
         Array.isArray(features) && features.filter((feature) => feature).length
-          ? theme.features?.every((feature) =>
-              features.every(
-                (f) => f.toLowerCase().indexOf(feature.toLowerCase()) !== -1,
+          ? features.every((feature) =>
+              theme.features?.some(
+                (themeFeature) =>
+                  themeFeature.toLowerCase().indexOf(feature.toLowerCase()) !==
+                  -1,
               ),
             )
           : true;
