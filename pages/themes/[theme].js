@@ -7,7 +7,6 @@ import themes from "@/json/themes.json";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
-import CarbonAd from "@/partials/CarbonAd";
 import Themes from "layouts/Themes";
 import { getSinglePageServer } from "lib/contentParser";
 import { similarThemes } from "lib/utils/similarItems";
@@ -51,6 +50,23 @@ const SingleTheme = ({ slug, theme }) => {
     });
   }, []);
 
+  // sponsored authors and similar products
+  const sponsoredAuthors = sponsor.themes.map((d) => d.name);
+  const sponsoredSimilarProducts = similarProducts.filter((d) =>
+    sponsoredAuthors.includes(d.frontmatter.author),
+  );
+
+  const [
+    randomizedSponsoredSimilarProducts,
+    setRandomizedSponsoredSimilarProducts,
+  ] = useState([]);
+
+  useEffect(() => {
+    setRandomizedSponsoredSimilarProducts(
+      sponsoredSimilarProducts.sort(() => Math.random() - 0.5),
+    );
+  }, [JSON.stringify(sponsoredSimilarProducts)]);
+
   return (
     <Base
       title={plainify(title)}
@@ -88,25 +104,63 @@ const SingleTheme = ({ slug, theme }) => {
                 hasCSP={hasCSP}
                 demo={demo}
               />
-              {promotion_widget ? (
-                <div className="widget">
-                  <Link
-                    rel="noopener noreferrer nofollow"
-                    href={promotion_widget.link}
-                    className="block"
-                  >
-                    <Image
-                      src={promotion_widget.image}
-                      width={300}
-                      height={300}
-                      alt="sponsor promotion"
-                      className="rounded shadow"
-                    />
-                  </Link>
-                </div>
-              ) : (
-                <CarbonAd />
-              )}
+              {/* promotion widget */}
+              <div className="mt-8">
+                {promotion_widget ? (
+                  <div className="widget">
+                    <Link
+                      rel="noopener noreferrer nofollow"
+                      href={promotion_widget.link}
+                      className="block"
+                    >
+                      <Image
+                        src={promotion_widget.image}
+                        width={300}
+                        height={300}
+                        alt="sponsor promotion"
+                        className="rounded shadow"
+                      />
+                    </Link>
+                  </div>
+                ) : (
+                  randomizedSponsoredSimilarProducts.length > 0 && (
+                    <div className="widget">
+                      <h3 className="h4 mb-5 font-light">Featured Themes</h3>
+                      <div className="space-y-6">
+                        {randomizedSponsoredSimilarProducts
+                          .slice(0, 3)
+                          .map((d) => (
+                            <div
+                              className="flex relative items-center"
+                              key={d.slug}
+                            >
+                              <div className="mr-3">
+                                <Image
+                                  src={`https://statichunt-images.netlify.app/themes/${d.slug}.png`}
+                                  width={110}
+                                  height={75}
+                                  alt={d.frontmatter.title}
+                                  className="rounded shadow min-w-[100px] max-w-[100px]"
+                                />
+                              </div>
+                              <div>
+                                <h3 className="font-medium text-sm mb-2">
+                                  <Link
+                                    rel="noopener noreferrer nofollow"
+                                    href={`/themes/${d.slug}`}
+                                    className="stretched-link hover:underline"
+                                  >
+                                    {d.frontmatter.title}
+                                  </Link>
+                                </h3>
+                              </div>
+                            </div>
+                          ))}
+                      </div>
+                    </div>
+                  )
+                )}
+              </div>
             </div>
           </div>
           {similarProducts.length > 0 && (

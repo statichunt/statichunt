@@ -1,5 +1,4 @@
 import { markdownify } from "@/lib/utils/textConverter";
-import CarbonAd from "@/partials/CarbonAd";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
@@ -38,8 +37,6 @@ const Intro = ({ data, themeCount, className }) => {
           Submit Yours
         </Link>
       </div>
-      {/* carbon ads */}
-      <CarbonAd />
     </div>
   );
 };

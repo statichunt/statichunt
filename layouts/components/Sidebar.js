@@ -3,7 +3,6 @@ import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import useWindow from "@/hooks/useWindow";
 import { slugify } from "@/lib/utils/textConverter";
-import CarbonAd from "@/partials/CarbonAd";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IoChevronDownOutline, IoChevronForwardOutline } from "react-icons/io5";
@@ -147,12 +146,6 @@ const Sidebar = ({
         </div>
 
         {children && children}
-
-        {slug === "tools" && (
-          <div className="hidden lg:block order-10">
-            <CarbonAd />
-          </div>
-        )}
 
         <ul className="sidebar-main-menu order-3 block border-t-2 py-4 dark:border-t-darkmode-theme-light lg:hidden">
           {main.map((menu, i) => (

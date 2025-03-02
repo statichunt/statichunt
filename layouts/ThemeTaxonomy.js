@@ -4,7 +4,6 @@ import { markdownify, slugify } from "@/lib/utils/textConverter";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { TbBrandGithub, TbCode, TbHome, TbLicense } from "react-icons/tb";
 import CollapseContent from "./components/CollapseContent";
-import CarbonAd from "./partials/CarbonAd";
 
 const { dark_icon_list } = config;
 
@@ -114,7 +113,6 @@ const ThemeTaxonomy = ({
                 )}
               </ul>
             </div>
-            <CarbonAd />
           </div>
 
           <Themes themes={data} authors={authors} />
