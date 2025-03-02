@@ -86,7 +86,7 @@ const Sponsors = ({ data }) => {
             <h2 className="mb-4 mx-auto max-w-md">{statistics.title}</h2>
             <p className="mx-auto max-w-xl">{statistics.subtitle}</p>
           </div>
-          <div className="row row-cols-2 md:row-cols-3 xl:row-cols-5 justify-center">
+          <div className="row row-cols-2 md:row-cols-3 xl:row-cols-4 justify-center">
             {statistics.items.map((item, index) => (
               <div key={index} className="mb-6 xl:mb-0">
                 <div className="h-full text-center rounded-md p-6 border border-primary/30">
