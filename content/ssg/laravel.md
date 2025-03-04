@@ -13,13 +13,13 @@ license_url: https://github.com/laravel/framework/blob/11.x/LICENSE.md
 language: laravel
 url: "/laravel-themes"
 
+draft: false
+themes_draft: true
+examples_draft: true
+
 examples_page_title: Laravel Examples
 examples_meta_title: Laravel Website Examples - Statichunt
 examples_description: A collection of Laravel Website examples to inspire the creation of your next web Project
 examples_content: "Check out the showcase of a variety of Laravel website examples. Get inspired about building your next web project on the Laravel static site generator"
 examples_url: "/laravel-examples"
-
-themes_draft: true
-examples_draft: true
-draft: false
 ---

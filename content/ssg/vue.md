@@ -13,13 +13,13 @@ license_url: https://github.com/vuejs/core/blob/main/LICENSE
 language: vue
 url: "/vue-themes"
 
+draft: false
+themes_draft: true
+examples_draft: true
+
 examples_page_title: Vue Examples
 examples_meta_title: Vue Website Examples - Statichunt
 examples_description: A collection of Vue Website examples to inspire the creation of your next web Project
 examples_content: "Check out the showcase of a variety of Vue website examples. Get inspired about building your next web project on the Vue static site generator"
 examples_url: "/vue-examples"
-
-themes_draft: true
-examples_draft: true
-draft: false
 ---

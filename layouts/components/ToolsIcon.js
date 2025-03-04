@@ -11,6 +11,7 @@ const ToolsIcon = ({
   ui = true,
   cms = true,
   category = true,
+  supports = true,
 }) => {
   const { dark_icon_list } = config;
 
@@ -19,6 +20,7 @@ const ToolsIcon = ({
   let uiArray = [];
   let cmsArray = [];
   let categoryArray = [];
+  let supportsArray = [];
 
   if (ssg && item?.frontmatter?.ssg) {
     ssgArray = item?.frontmatter?.ssg;
@@ -35,6 +37,9 @@ const ToolsIcon = ({
   if (category && item?.frontmatter?.category) {
     categoryArray = item?.frontmatter?.category;
   }
+  if (supports && item?.frontmatter?.supports) {
+    supportsArray = item?.frontmatter?.supports;
+  }
 
   const allTools = [
     ...ssgArray,
@@ -42,6 +47,7 @@ const ToolsIcon = ({
     ...uiArray,
     ...cmsArray,
     ...categoryArray,
+    ...supportsArray,
   ];
 
   const filteredTools = tools.filter((data) =>

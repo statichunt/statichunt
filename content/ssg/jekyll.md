@@ -13,15 +13,15 @@ license_url: https://github.com/jekyll/jekyll/blob/master/LICENSE
 language: Ruby
 url: "/jekyll-themes"
 
+draft: false
+themes_draft: false
+examples_draft: false
+
 examples_page_title: Jekyll Examples
 examples_meta_title: Jekyll Website Examples - Statichunt
 examples_description: A collection of Jekyll Website examples to inspire the creation of your next web Project.
 examples_content: "Check out the showcase of a variety of jekyll website examples. Get inspired about building your next web project on the Jekyll static site generator"
 examples_url: "/jekyll-examples"
-
-themes_draft: false
-examples_draft: false
-draft: false
 
 handpicked_themes:
   - "jekyll-blog.zold.io"

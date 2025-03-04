@@ -13,15 +13,15 @@ license_url: https://github.com/gohugoio/hugo/blob/master/LICENSE
 language: Go
 url: "/hugo-themes"
 
+draft: false
+themes_draft: false
+examples_draft: false
+
 examples_page_title: Hugo Examples
 examples_meta_title: Hugo Website Examples - Statichunt
 examples_description: A collection of Hugo Website examples to inspire the creation of your next web Project
 examples_content: "Check out the showcase of a variety of Hugo website examples. Get inspired about building your next web project on the Hugo static site generator"
 examples_url: "/hugo-examples"
-
-themes_draft: false
-examples_draft: false
-draft: false
 
 handpicked_themes:
   - "hugo-spydea"

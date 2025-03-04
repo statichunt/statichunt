@@ -13,15 +13,17 @@ license_url: https://github.com/withastro/astro/blob/main/LICENSE
 language: JavaScript
 url: "/astro-themes"
 
+draft: false
+themes_draft: false
+examples_draft: false
+
 examples_page_title: Astro Examples
 examples_meta_title: Astro Website Examples - Statichunt
 examples_description: "Top collection of Astro Website examples to inspire the creation of your business or personal website."
 examples_content: "Check out the showcase of a variety of Astro website examples. Get inspired about building your next web project on the Astro static site generator."
 examples_url: "/astro-examples"
 
-themes_draft: false
-examples_draft: false
-draft: false
+
 handpicked_themes:
   - "astro-fortify"
   - "astro-darkrise"

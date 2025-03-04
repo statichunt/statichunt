@@ -13,13 +13,13 @@ license_url:
 language: html
 url: "/html-themes"
 
+draft: false
+themes_draft: false
+examples_draft: true
+
 examples_page_title: Html Examples
 examples_meta_title: Html Website Examples - Statichunt
 examples_description: A collection of Html Website examples to inspire the creation of your next web Project
 examples_content: "Check out the showcase of a variety of Html website examples. Get inspired about building your next web project on the Html static site generator"
 examples_url: "/html-examples"
-
-themes_draft: false
-examples_draft: true
-draft: false
 ---

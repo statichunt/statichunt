@@ -13,15 +13,15 @@ license_url: https://github.com/vercel/next.js/blob/canary/license.md
 language: JavaScript
 url: "/nextjs-templates"
 
+draft: false
+themes_draft: false
+examples_draft: false
+
 examples_page_title: Next.js Examples
 examples_meta_title: Next.js Website Examples - Statichunt
 examples_description: Are you looking for inspiration for creating Next.js website? Check out our collection of stunning Next.js website examples, featuring beautiful designs.
 examples_content: "Check out the showcase of a variety of Next.js website examples. Get inspired about building your next web project on the Nextjs static site generator"
 examples_url: "/nextjs-examples"
-
-themes_draft: false
-examples_draft: false
-draft: false
 
 handpicked_themes:
   - "nextjs-modernize-premium"

@@ -5,12 +5,13 @@ import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
+import Link from "next/link";
+import { FaGithub } from "react-icons/fa6";
 
 const ToolsList = ({ toolsCategory, tools, indexPage }) => {
   const toolsSortedByDate = sortByDate(tools);
   const toolsSortedByWeight = sortByWeight(toolsSortedByDate);
-  const { title, meta_title, page_title, image, description } =
-    indexPage.frontmatter;
+  const { title, meta_title, image, description } = indexPage.frontmatter;
   const { arrayToolsCategory } = useFilterContext();
   const filterTool = toolsSortedByWeight.filter((tool) =>
     arrayToolsCategory.length
@@ -33,9 +34,21 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
         <Sidebar slug={"tools"} toolsCategory={toolsCategory} themes={tools} />
         <main className="main">
           <div className="container">
-            <div className="row mb-8 justify-center">
-              <div className="xl:col-10">
-                {markdownify(page_title || title, "h1")}
+            <div
+              className={`mt-4 shadow rounded-md p-4 lg:p-6 flex flex-wrap md:flex-nowrap mb-10 md:mb-16`}
+            >
+              <div className="lg:mr-3 mb-4 lg:mb-0">
+                <h1 className="mb-3">{title}</h1>
+                {markdownify(description, "p")}
+                <Link
+                  className="btn btn-github mt-4"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="https://github.com/statichunt/statichunt"
+                >
+                  <FaGithub className="inline-block mr-2 text-lg -mt-1" />
+                  Submit Yours
+                </Link>
               </div>
             </div>
             <Tools tools={filterTool} />

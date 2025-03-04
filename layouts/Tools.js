@@ -1,69 +1,77 @@
 import { humanize } from "@/lib/utils/textConverter";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 const Tools = ({ tools }) => {
+  const [item, setItem] = useState(8);
+  const [page, setPage] = useState(tools.slice(0, item));
+
+  const fetchData = () => {
+    setItem(item + 20);
+  };
+
+  useEffect(() => {
+    setPage(tools.slice(0, item));
+  }, [item, tools]);
+
   return (
-    <div className="row justify-center">
-      {tools.map((tool) => (
-        <div className="mb-10 xl:col-10" key={tool.slug}>
-          <div className="group relative rounded-[4px] bg-gradient-to-r from-white to-[#ffffff00] transition duration-200 hover:bg-[#0596690f] dark:from-darkmode-body sm:flex">
-            <img
-              className="mr-8 max-w-[160px] rounded-[4px]"
-              src={`https://statichunt-images.netlify.app/tools/thumbnails/${tool.slug}.webp`}
-              alt={`${tool.frontmatter.title} Icon`}
-              width={160}
-              height={100}
-              loading="lazy"
-              onError={({ currentTarget }) => {
-                currentTarget.onerror = null;
-                currentTarget.src = "/images/theme-placeholder.png";
-              }}
-            />
-            <div className="mt-4 bg-transparent sm:mt-0">
-              <h3 className="h5 mb-[4px] flex items-center pt-2 font-medium">
-                {tool.frontmatter.title}
-                <a
-                  className="stretched-link"
-                  href={`${tool.frontmatter.website}${tool.frontmatter.website?.includes("?") ? "" : "?ref=statichunt.com"}`}
-                  rel="noopener noreferrer nofollow"
-                  target="_blank"
-                >
-                  <svg
-                    className="ml-3 hidden text-primary group-hover:inline"
-                    width="15"
-                    height="16"
-                    viewBox="0 0 13 14"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      fill="none"
-                      fillRule="evenodd"
-                    >
-                      <path d="M9.6 4H4.2a2.4 2.4 0 00-2.4 2.4V10"></path>
-                      <path d="M6.6 7l3-3-3-3m5.4 9v3H0"></path>
-                    </g>
-                  </svg>
-                </a>
-              </h3>
-              <p className="mb-3 text-sm text-text dark:text-light">
-                {tool.frontmatter.description}
-              </p>
-              <div className="flex space-x-2">
-                {tool.frontmatter.category?.map((item, i) => (
-                  <span
-                    className="rounded border border-border px-2 py-[2px] text-xs"
-                    key={`category-${i}`}
-                  >
-                    {humanize(item)}
-                  </span>
-                ))}
+    <InfiniteScroll
+      dataLength={page.length}
+      next={fetchData}
+      hasMore={true}
+      className="row"
+    >
+      {page.map((tool) => (
+        <div
+          className="xl:col-4 2xl:col-3 md:col-6 col-12 mb-6"
+          key={tool.slug}
+        >
+          <div className="shadow overflow-hidden rounded-md h-full relative">
+            <div className="flex p-4 items-center bg-theme-light dark:bg-theme-dark">
+              <div className="size-[80px] shrink-0 bg-white dark:bg-darkmode-theme-dark flex items-center justify-center rounded">
+                <img
+                  src={`https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${tool.frontmatter.website}&size=64`}
+                  alt={`${tool.frontmatter.title} Icon`}
+                  width={55}
+                  height={55}
+                  loading="lazy"
+                  onError={({ currentTarget }) => {
+                    currentTarget.onerror = null;
+                    currentTarget.src = "/images/theme-placeholder.png";
+                  }}
+                />
               </div>
+              <div className="ml-4">
+                <h3 className="text-h4 mb-1">
+                  <Link className="stretched-link" href={`/tools/${tool.slug}`}>
+                    {tool.frontmatter.title}
+                  </Link>
+                </h3>
+                <p className="mb-3 text-sm text-text dark:text-light">
+                  {tool.frontmatter.type?.join(", ")}
+                </p>
+              </div>
+            </div>
+            <div className="p-4">
+              <p className="text-text dark:text-light">
+                {humanize(tool.frontmatter.description)}
+              </p>
+              <ul className="mt-4 mb-0">
+                {tool.frontmatter.type?.map((tag) => (
+                  <li
+                    className="inline-block mr-2 mb-2 px-2 py-1 rounded-md text-primary bg-theme-light dark:bg-darkmode-theme-dark text-sm"
+                    key={tag}
+                  >
+                    {tag}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
       ))}
-    </div>
+    </InfiniteScroll>
   );
 };
 

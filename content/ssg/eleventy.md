@@ -13,15 +13,15 @@ license_url: https://github.com/11ty/eleventy/blob/master/LICENSE
 language: JavaScript
 url: "/eleventy-themes"
 
+draft: false
+themes_draft: false
+examples_draft: true
+
 examples_page_title: Eleventy Examples
 examples_meta_title: Eleventy Website Examples - Statichunt
 examples_description: "Top collection of Eleventy Website examples to inspire the creation of your business or personal website."
 examples_content: "Check out the showcase of a variety of Eleventy website examples. Get inspired about building your next web project on the Eleventy static site generator."
 examples_url: "/eleventy-examples"
-
-themes_draft: false
-examples_draft: true
-draft: false
 
 handpicked_themes:
   - "eleventy-zachleat.com"

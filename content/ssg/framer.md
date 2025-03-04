@@ -14,15 +14,15 @@ license_url:
 language:
 url: "/framer-templates"
 
+draft: false
+themes_draft: false
+examples_draft: true
+
 examples_page_title: Framer Examples
 examples_meta_title: Framer Website Examples - Statichunt
 examples_description: Are you looking for inspiration for creating Next.js website? Check out our collection of stunning Next.js website examples, featuring beautiful designs.
 examples_content: "Check out the showcase of a variety of Framer website examples. Get inspired about building your next web project on the Framer static site generator"
 examples_url: "/framer-examples"
-
-themes_draft: false
-examples_draft: true
-draft: false
 
 handpicked_themes:
   - "framer-clarity"
