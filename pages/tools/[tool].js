@@ -69,12 +69,14 @@ const Tools = ({ slug, tool }) => {
                 </div>
 
                 {/* type */}
-                <div className="flex items-center py-[6px]">
-                  <span className="min-w-[120px]">Type : </span>
-                  <span className="text-dark dark:text-white capitalize">
-                    {type.join(", ")}
-                  </span>
-                </div>
+                {type && type.length > 0 && (
+                  <div className="flex items-center py-[6px]">
+                    <span className="min-w-[120px]">Type : </span>
+                    <span className="text-dark dark:text-white capitalize">
+                      {type.join(", ")}
+                    </span>
+                  </div>
+                )}
 
                 {/* license */}
                 {license && (
