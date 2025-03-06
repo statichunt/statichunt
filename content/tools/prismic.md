@@ -6,8 +6,7 @@ description: Prismic is the headless website builder that lets developers and ma
 category:
   - cms
 license: "MIT"
-supports:
-  [
+supports: [
     "Astro",
     "Nextjs",
     "Hugo",

@@ -6,8 +6,7 @@ description: Blazing fast API and marketing dashboard Stop wasting dev time and 
 category:
   - cms
 license: "MIT"
-supports:
-  [
+supports: [
     "Astro",
     "Nextjs",
     "Hugo",
@@ -20,6 +19,5 @@ supports:
   ]
 plans: ["Free", "Premium"]
 type: ["Headless"]
-draft: false
 draft: false
 ---
