@@ -4,7 +4,7 @@ website: https://ghost.org/docs/jamstack/
 date: 2023-04-04T00:00:00.000Z
 description: Using Ghost as a headless CMS with JAMstack
 category:
-  - cms
+  - CMS
 license: "MIT"
 supports:
   [
@@ -19,6 +19,6 @@ supports:
     "Hexo",
   ]
 plans: ["Free", "Premium"]
-type: ["Headless", "Self-Hosted", "Open Source"]
+type: ["Self-Hosted", "API-based"]
 draft: false
 ---

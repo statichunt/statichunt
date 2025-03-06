@@ -19,6 +19,6 @@ supports:
     "Hexo",
   ]
 plans: ["Free", "Premium"]
-type: ["Headless", "Self-Hosted", "Open Source"]
+type: ["Self-Hosted", "Git-based", "API-based"]
 draft: false
 ---

@@ -4,7 +4,7 @@ website: https://www.datocms.com/
 date: 2023-01-31T00:00:00.000Z
 description: Simply put, the most complete, user-friendly and performant Headless CMS
 category:
-  - cms
+  - CMS
 license: "MIT"
 supports:
   [
@@ -19,6 +19,6 @@ supports:
     "Hexo",
   ]
 plans: ["Free", "Premium"]
-type: ["Headless", "Cloud"]
+type: ["Cloud-based"]
 draft: false
 ---

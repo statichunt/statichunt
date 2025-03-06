@@ -4,7 +4,7 @@ website: https://strapi.io/
 date: 2023-01-31T00:00:00.000Z
 description: Strapi is the leading open-source headless CMS. It’s 100% JavaScript and fully customizable.
 category:
-  - cms
+  - CMS
 license: "MIT"
 supports:
   [
@@ -19,6 +19,6 @@ supports:
     "Hexo",
   ]
 plans: ["Free", "Premium"]
-type: ["Headless", "Cloud", "Open Source", "Self-Hosted", "Open Source"]
+type: ["Cloud-based", "Self-Hosted", "API-based"]
 draft: false
 ---

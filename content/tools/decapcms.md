@@ -4,7 +4,7 @@ website: https://decapcms.org/
 date: 2023-01-31T00:00:00.000Z
 description: Open source content management for your Git workflow
 category:
-  - cms
+  - CMS
 license: "MIT"
 supports:
   [
@@ -19,6 +19,6 @@ supports:
     "Hexo",
   ]
 plans: ["Free", "Premium"]
-type: ["Headless", "Cloud", "Self-Hosted", "Open Source"]
+type: ["Cloud-based", "Self-Hosted", "Git-based"]
 draft: false
 ---

@@ -4,7 +4,7 @@ website: https://www.contentful.com/
 date: 2023-02-02T00:00:00.000Z
 description: Build experiences that drive your business forward with the composable content platform
 category:
-  - cms
+  - CMS
 license: "MIT"
 supports:
   [
@@ -19,6 +19,6 @@ supports:
     "Hexo",
   ]
 plans: ["Free", "Premium"]
-type: ["Headless", "Open Source", "Cloud"]
+type: ["Cloud-based", "API-based"]
 draft: false
 ---

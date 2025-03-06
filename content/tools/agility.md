@@ -4,7 +4,7 @@ website: https://agilitycms.com/
 date: 2023-02-05T00:00:00.000Z
 description: Fast and Flexible CMS for Developers and Marketers
 category:
-  - cms
+  - CMS
 license: "MIT"
 supports:
   [
@@ -22,6 +22,6 @@ supports:
     "Hexo",
   ]
 plans: ["Free", "Premium"]
-type: ["Headless", "cloud"]
+type: ["Cloud-based"]
 draft: false
 ---
