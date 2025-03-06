@@ -6,5 +6,20 @@ description: Build remarkable experiences at scale. Sanity is a customizable sol
 
 category:
   - cms
+license: "MIT"
+supports:
+  [
+    "Astro",
+    "Nextjs",
+    "Hugo",
+    "Gatsby",
+    "Jekyll",
+    "Eleventy",
+    "Vue",
+    "Nuxtjs",
+    "Hexo",
+  ]
+plans: ["Free", "Premium"]
+type: ["Headless", "Cloud", "Open Source", "Self-Hosted", "Open Source"]
 draft: false
 ---

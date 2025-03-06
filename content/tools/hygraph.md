@@ -5,5 +5,20 @@ date: 2023-02-05T00:00:00.000Z
 description: As the first GraphQL native Headless CMS, our mission is to remove traditional content management pain points by using the power of GraphQL, and take the idea of a Headless CMS to the next level.
 category:
   - cms
+license: "MIT"
+supports:
+  [
+    "Astro",
+    "Nextjs",
+    "Hugo",
+    "Gatsby",
+    "Jekyll",
+    "Eleventy",
+    "Vue",
+    "Nuxtjs",
+    "Hexo",
+  ]
+plans: ["Free", "Premium"]
+type: ["Headless", "Cloud", "Open Source"]
 draft: false
 ---

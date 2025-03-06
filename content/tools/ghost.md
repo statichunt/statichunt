@@ -5,5 +5,20 @@ date: 2023-04-04T00:00:00.000Z
 description: Using Ghost as a headless CMS with JAMstack
 category:
   - cms
+license: "MIT"
+supports:
+  [
+    "Astro",
+    "Nextjs",
+    "Hugo",
+    "Gatsby",
+    "Jekyll",
+    "Eleventy",
+    "Vue",
+    "Nuxtjs",
+    "Hexo",
+  ]
+plans: ["Free", "Premium"]
+type: ["Headless", "Self-Hosted", "Open Source"]
 draft: false
 ---

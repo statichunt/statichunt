@@ -5,5 +5,20 @@ date: 2023-04-13T00:00:00.000Z
 description: The drag & drop headless CMS
 category:
   - cms
+license: "MIT"
+supports:
+  [
+    "Astro",
+    "Nextjs",
+    "Hugo",
+    "Gatsby",
+    "Jekyll",
+    "Eleventy",
+    "Vue",
+    "Nuxtjs",
+    "Hexo",
+  ]
+plans: ["Free", "Premium"]
+type: ["Headless", "Self-Hosted", "Open Source"]
 draft: false
 ---
