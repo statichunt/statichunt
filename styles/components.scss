@@ -73,7 +73,7 @@ html {
 .form-input,
 .form-select,
 .form-textarea {
-  @apply rounded border border-border bg-transparent transition duration-200 focus:border-primary focus:ring-transparent dark:border-darkmode-border;
+  @apply rounded border border-border bg-transparent transition duration-200 focus:border-primary dark:focus:border-darkmode-primary focus:ring-transparent dark:border-darkmode-border;
 }
 select:required:invalid {
   @apply text-text;

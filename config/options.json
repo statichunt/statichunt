@@ -1,0 +1,80 @@
+{
+  "ssg": [
+    { "label": "Hugo", "value": "Hugo" },
+    { "label": "Nextjs", "value": "Nextjs" },
+    { "label": "Astro", "value": "Astro" },
+    { "label": "Jekyll", "value": "Jekyll" },
+    { "label": "Eleventy", "value": "Eleventy" },
+    { "label": "Nuxtjs", "value": "Nuxtjs" },
+    { "label": "Hexo", "value": "Hexo" },
+    { "label": "Gatsby", "value": "Gatsby" },
+    { "label": "Framer", "value": "Framer" },
+    { "label": "Webflow", "value": "Webflow" },
+    { "label": "HTML", "value": "Html" },
+    { "label": "Laravel", "value": "Laravel" }
+  ],
+  "css": [
+    { "label": "Tailwind", "value": "Tailwind" },
+    { "label": "Bootstrap", "value": "Bootstrap" },
+    { "label": "Bulma", "value": "Bulma" },
+    { "label": "SCSS", "value": "SCSS" },
+    { "label": "PostCSS", "value": "PostCSS" },
+    { "label": "Stylus", "value": "Stylus" }
+  ],
+  "ui": [
+    { "label": "Material", "value": "Material" },
+    { "label": "Chakra", "value": "Chakra" },
+    { "label": "Headless", "value": "Headless" },
+    { "label": "Shadcn", "value": "Shadcn" },
+    { "label": "Ant", "value": "Ant" },
+    { "label": "Vuetify", "value": "Vuetify" },
+    { "label": "Radix", "value": "Radix" },
+    { "label": "Flowbite", "value": "Flowbite" },
+    { "label": "Mantine", "value": "Mantine" },
+    { "label": "Semantic", "value": "Semantic" },
+    { "label": "Next", "value": "Next" },
+    { "label": "Daisy", "value": "Daisy" }
+  ],
+  "cms": [
+    { "label": "Tina", "value": "Tina" },
+    { "label": "Cloudcannon", "value": "Cloudcannon" },
+    { "label": "Datocms", "value": "Datocms" },
+    { "label": "Sanity", "value": "Sanity" },
+    { "label": "Contentful", "value": "Contentful" },
+    { "label": "Ghost", "value": "Ghost" },
+    { "label": "Graphcms", "value": "Graphcms" },
+    { "label": "Decap", "value": "Decap" },
+    { "label": "Spinal", "value": "Spinal" },
+    { "label": "Markdown", "value": "Markdown" }
+  ],
+  "category": [
+    { "label": "Business", "value": "Business" },
+    { "label": "Blog", "value": "Blog" },
+    { "label": "Portfolio", "value": "Portfolio" },
+    { "label": "Boilerplate", "value": "Boilerplate" },
+    { "label": "Documentation", "value": "Documentation" },
+    { "label": "Ecommerce", "value": "Ecommerce" },
+    { "label": "Saas", "value": "Saas" },
+    { "label": "Dashboard", "value": "Dashboard" }
+  ],
+  "tool_category": [
+    { "label": "Hosting", "value": "Hosting" },
+    { "label": "CMS", "value": "CMS" },
+    { "label": "E-Commerce", "value": "Commerce" },
+    { "label": "Chat", "value": "Chat" },
+    { "label": "Feedback", "value": "Feedback" },
+    { "label": "Form", "value": "Form" },
+    { "label": "Analytics", "value": "Analytics" },
+    { "label": "Helper", "value": "Helper" }
+  ],
+  "tool_plan": [
+    { "label": "Free", "value": "Free" },
+    { "label": "Premium", "value": "Premium" }
+  ],
+  "tool_type": [
+    { "label": "API Based", "value": "Api-Based" },
+    { "label": "Git Based", "value": "Git-Based" },
+    { "label": "Static", "value": "Static" },
+    { "label": "Dynamic", "value": "Dynamic" }
+  ]
+}

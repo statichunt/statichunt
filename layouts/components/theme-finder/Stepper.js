@@ -1,11 +1,10 @@
 import config from "@/config/config.json";
 import { slugify } from "lib/utils/textConverter";
-import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
 import { useMemo } from "react";
 import { FaCheck } from "react-icons/fa6";
-import Select from "react-select";
+import MultiSelect from "../MultiSelect";
 import { useThemeFinder } from "./themeFinderProvider";
 
 const { dark_icon_list } = config;
@@ -101,110 +100,24 @@ function ImageSelectionQuiz({ name, options, view, type }) {
 function ImageSelectionQuizWithSelect({ name, options, placeholder }) {
   const finder = useThemeFinder();
   const currentQuizValue = finder.value[name] ?? "";
-  const { resolvedTheme } = useTheme();
-  const customStyles = (darkMode) => ({
-    control: (provided, state) => ({
-      ...provided,
-      borderWidth: "1px",
-      borderRadius: "0.375rem",
-      borderColor: state.isFocused
-        ? darkMode
-          ? "#394852"
-          : "#e9e9e9"
-        : darkMode
-          ? "#394852"
-          : "#e9e9e9",
-      boxShadow: "none",
-      "&:hover": {
-        borderColor: darkMode ? "#394852" : "#e9e9e9",
-      },
-      backgroundColor: darkMode ? "#20262e" : "white",
-      color: darkMode ? "rgba(255, 255, 255, 0.9)" : "rgba(75, 85, 101, 1)",
-    }),
-    menu: (provided) => ({
-      ...provided,
-      backgroundColor: darkMode ? "#20262e" : "white",
-      borderRadius: "0.375rem",
-      marginTop: "0.25rem",
-      zIndex: "50",
-      padding: "16px",
-      border: darkMode
-        ? "1px solid #394852"
-        : "1px solid rgba(221, 221, 221, 1)",
-    }),
-    option: (provided, state) => ({
-      ...provided,
-      cursor: "pointer",
-      padding: "10px",
-      fontSize: "14px",
-      borderRadius: "4px",
-      backgroundColor: state.isFocused
-        ? darkMode
-          ? "#272e37"
-          : "rgba(5, 150, 105, 0.03)"
-        : darkMode
-          ? "#20262e"
-          : "#fff",
-      color: darkMode
-        ? state.isFocused || state.isSelected
-          ? "#fff"
-          : "#cbcbcb"
-        : state.isFocused || state.isSelected
-          ? "rgba(75, 85, 101, 1)"
-          : "rgba(75, 85, 101, 1)",
-      fontWeight: state.isSelected ? "600" : "400",
-      "&:hover": {
-        backgroundColor: darkMode
-          ? "rgba(255, 255, 255, 0.1)"
-          : "rgba(5, 150, 105, 0.03)",
-        color: darkMode ? "rgba(255, 255, 255, 1)" : "rgba(75, 85, 101, 1)",
-      },
-    }),
-    placeholder: (provided) => ({
-      ...provided,
-      color: darkMode ? "rgba(156, 163, 175, 1)" : "rgba(156, 163, 175, 1)",
-    }),
-    singleValue: (provided, state) => ({
-      ...provided,
-      color: darkMode
-        ? "rgba(255, 255, 255, 1)" // Selected value color for dark mode
-        : "rgba(75, 85, 101, 1)", // Selected value color for light mode
-      fontWeight: "600", // You can adjust the font weight if needed
-    }),
-    dropdownIndicator: (provided, state) => ({
-      ...provided,
-      color: darkMode
-        ? state.isFocused
-          ? "rgba(255, 255, 255, 0.6)"
-          : "rgba(156, 163, 175, 1)"
-        : state.isFocused
-          ? "rgba(0, 168, 191, 1)"
-          : "rgba(156, 163, 175, 1)",
-      "&:hover": {
-        color: darkMode ? "rgba(255, 255, 255, 0.6)" : "rgba(0, 168, 191, 1)",
-      },
-    }),
-  });
 
   const selectedValue = useMemo(() => {
     return options.find((option) => option.value === currentQuizValue);
   }, [currentQuizValue]);
-  const isDark = resolvedTheme === "dark";
 
   return (
     <div className="mt-8">
-      <Select
-        classNamePrefix="select"
+      <MultiSelect
+        name={name}
+        options={options}
+        value={selectedValue}
+        placeholder={placeholder}
         onChange={({ value }) => {
           finder.setValue({
             ...finder.value,
             [name]: value,
           });
         }}
-        value={selectedValue}
-        placeholder={placeholder}
-        styles={customStyles(isDark)}
-        options={options}
       />
     </div>
   );

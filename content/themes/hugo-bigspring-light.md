@@ -1,8 +1,7 @@
 ---
 title: Bigspring Light Hugo
 github: https://github.com/gethugothemes/bigspring-light-hugo
-demo: >-
-  https://gethugothemes.com/products/bigspring/?utm_source=bigspring_github&utm_medium=referral&utm_campaign=github_theme_about
+demo: https://gethugothemes.com/products/bigspring/
 author: gethugothemes
 author_link: https://github.com/gethugothemes
 date: 2023-11-28T03:47:10.461Z

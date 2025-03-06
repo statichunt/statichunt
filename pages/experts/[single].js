@@ -178,7 +178,7 @@ export const getServerSideProps = async ({ params }) => {
   const post = await getSinglePageServer("content/experts", single);
   const mdxContent = await parseMDX(post.content);
 
-  const data = await getListPage("content/contact/_index.md");
+  const data = await getListPage("content/landing-pages/contact.md");
   const { success_message } = data.frontmatter;
 
   // handle 404
