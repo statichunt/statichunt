@@ -1,7 +1,7 @@
 ---
 title: WrapPixel
 meta_title: <themes> Themes by WrapPixel - Statichunt
-email: ""
+email: 
 website: https://wrappixel.com
 twitter: https://x.com/wrappixel
 github: https://github.com/wrappixel

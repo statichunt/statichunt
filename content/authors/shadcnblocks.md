@@ -1,7 +1,7 @@
 ---
 title: Shadcnblocks
 meta_title: Shadcnblocks - Statichunt
-email: shadcnblocks@gmail.com
+email: 
 website: https://www.shadcnblocks.com/
 twitter: "https://x.com/shadcnblocks"
 description: ""

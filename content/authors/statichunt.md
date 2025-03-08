@@ -1,7 +1,7 @@
 ---
 title: Statichunt
 meta_title: <themes> Themes by Statichunt - Statichunt
-email: hey.statichunt@gmail.com
+email: 
 website: https://statichunt.com
 twitter: https://x.com/heyStatichunt
 github: https://github.com/statichunt

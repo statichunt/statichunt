@@ -1,7 +1,7 @@
 ---
 title: Zeon Studio
 meta_title: <themes> Themes by Zeon Studio - Statichunt
-email: hey@zeon.studio
+email: 
 website: https://zeon.studio
 twitter: ""
 github: https://github.com/zeon-studio

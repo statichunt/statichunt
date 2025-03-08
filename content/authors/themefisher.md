@@ -1,7 +1,7 @@
 ---
 title: Themefisher
 meta_title: <themes> Themes by Themefisher - Statichunt
-email: themefisher@gmail.com
+email: 
 website: https://themefisher.com
 twitter: https://x.com/themefisher
 github: https://github.com/themefisher

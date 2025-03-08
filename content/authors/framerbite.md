@@ -1,7 +1,7 @@
 ---
 title: Framerbite
 meta_title: <themes> Themes by Framerbite - Statichunt
-email: hello@framerbite.com
+email: 
 website: https://framerbite.com
 twitter: "https://x.com/framerbite"
 github: 

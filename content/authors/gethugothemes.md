@@ -1,7 +1,7 @@
 ---
 title: Gethugothemes
 meta_title: <themes> Themes by Gethugothemes - Statichunt
-email: "mehedi@gethugothemes.com"
+email: 
 website: https://gethugothemes.com
 twitter: https://x.com/gethugothemes
 github: https://github.com/gethugothemes
