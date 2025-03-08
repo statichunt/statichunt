@@ -190,7 +190,7 @@ const SubmitProduct = ({ data }) => {
                         )}
                       </div>
                       {openFaq === index && (
-                        <div className="faq-answer">
+                        <div className="content">
                           {markdownify(faq.answer, "p")}
                         </div>
                       )}

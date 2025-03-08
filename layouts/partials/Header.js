@@ -110,6 +110,8 @@ const Header = () => {
                     router.asPath === menu.url &&
                     "pointer-events-none text-primary dark:text-darkmode-primary"
                   }`}
+                  target={menu.url.startsWith("http") ? "_blank" : "_self"}
+                  rel={menu.url.startsWith("http") ? "nofollow noopener" : ""}
                 >
                   {menu.name}
                   {menu.badge && (
@@ -132,13 +134,12 @@ const Header = () => {
               <FiSearch className="-mt-1 text-xl" />
             </button>
             <ThemeSwitcher />
-            <a
+            <Link
               className="btn btn-primary nav-hire-expert origin-right scale-90 md:scale-100 lg:ml-0"
-              href="https://zeon.studio/?ref=statichunt.com"
-              target="_blank"
+              href="/submit"
             >
-              Hire Experts
-            </a>
+              Submit
+            </Link>
           </div>
         </nav>
       </header>

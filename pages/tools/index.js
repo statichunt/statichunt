@@ -5,8 +5,6 @@ import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
-import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
 
 const ToolsList = ({ toolsCategory, tools, indexPage }) => {
   const toolsSortedByDate = sortByDate(tools);
@@ -40,7 +38,7 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
               <div className="lg:mr-3 mb-4 lg:mb-0">
                 <h1 className="mb-3">{title}</h1>
                 {markdownify(description, "p")}
-                <Link
+                {/* <Link
                   className="btn btn-github mt-4"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
@@ -48,7 +46,7 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
                 >
                   <FaGithub className="inline-block mr-2 text-lg -mt-1" />
                   Submit Yours
-                </Link>
+                </Link> */}
               </div>
             </div>
             <Tools tools={filterTool} />

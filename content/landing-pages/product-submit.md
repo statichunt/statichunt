@@ -13,9 +13,9 @@ products:
     identifier: "tool"
     description: "Submit your tool to be listed in our collection."
 
-  - name: "Submit Site"
+  - name: "Submit Website"
     identifier: "example"
-    description: "Submit your example to be listed in our collection."
+    description: "Submit your site to be listed in our collection."
 
 faqs:
   enable: true
@@ -26,7 +26,7 @@ faqs:
       answer: "No! Submission is free. However, we offer premium placement options for better visibility."
 
     - question: "How long does it take for my submission to be reviewed?"
-      answer: "We typically review submissions within 3-5 business days. You will be notified via email once it’s approved."
+      answer: "We typically review submissions within 3-5 business days."
 
     - question: "How can my product get featured?"
       answer: "To increase visibility and get your product featured at the top of our listings, consider becoming a sponsor. Check out our [become a sponsor](/become-a-sponsor) page for more details on premium placements."

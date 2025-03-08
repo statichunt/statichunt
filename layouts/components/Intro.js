@@ -1,6 +1,4 @@
 import { markdownify } from "@/lib/utils/textConverter";
-import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
 const Intro = ({ data, themeCount, className }) => {
@@ -27,7 +25,7 @@ const Intro = ({ data, themeCount, className }) => {
           {data.title_end}
         </h1>
         {markdownify(description, "p")}
-        <Link
+        {/* <Link
           className="btn btn-github mt-4"
           target="_blank"
           rel="noopener noreferrer nofollow"
@@ -35,7 +33,7 @@ const Intro = ({ data, themeCount, className }) => {
         >
           <FaGithub className="inline-block mr-2 text-lg -mt-1" />
           Submit Yours
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

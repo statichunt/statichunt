@@ -80,7 +80,7 @@ const Home = ({ frontmatter, content, examples }) => {
                 </span>
               </li>
             ))}
-            <li className="border-none p-0">
+            {/* <li className="border-none p-0">
               <a
                 className="btn btn-border border-border px-4 py-1 transition duration-300 hover:border-dark dark:border-darkmode-border hover:dark:border-white/60"
                 href="https://github.com/statichunt/statichunt#submit-a-jamstack-example-site"
@@ -89,7 +89,7 @@ const Home = ({ frontmatter, content, examples }) => {
               >
                 Submit Yours
               </a>
-            </li>
+            </li> */}
           </ul>
           <Examples examples={filteredExamples} />
         </div>
