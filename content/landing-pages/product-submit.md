@@ -1,35 +1,35 @@
 ---
 title: "Product Submission"
 meta_title: "Product Submission - Statichunt"
-description: ""
+description: "Submit your themes, starters, and tools to Statichunt, the open-source directory for static site generators. Get featured and expand your reach today!"
 success_message: "We've received your message and will be in touch soon"
 
 products:
-- name: "Submit Theme"
-  identifier: "theme"
-  description: "Submit your theme to be featured in our collection."
+  - name: "Submit Theme"
+    identifier: "theme"
+    description: "Submit your theme to be listed in our collection."
 
-- name: "Submit Tool"
-  identifier: "tool"
-  description: "Submit your tool to be featured in our collection."
+  - name: "Submit Tool"
+    identifier: "tool"
+    description: "Submit your tool to be listed in our collection."
 
-- name: "Submit Example Site"
-  identifier: "example"
-  description: "Submit your example to be featured in our collection."
+  - name: "Submit Site"
+    identifier: "example"
+    description: "Submit your example to be listed in our collection."
 
 faqs:
   enable: true
   title: "Frequently Asked Questions"
   subtitle: "If you have any questions, please don't hesitate to reach out to us."
   items:
-  - question: "I am question 1"
-    answer: "Answer to question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+    - question: " Does submission require any fees?"
+      answer: "No! Submission is free. However, we offer premium placement options for better visibility."
 
-  - question: "I am question 2"
-    answer: "Answer to question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "
+    - question: "How long does it take for my submission to be reviewed?"
+      answer: "We typically review submissions within 3-5 business days. You will be notified via email once it’s approved."
 
-  - question: "I am question 3"
-    answer: "Answer to question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+    - question: "How can my product get featured?"
+      answer: "To increase visibility and get your product featured at the top of our listings, consider becoming a sponsor. Check out our [become a sponsor](/become-a-sponsor) page for more details on premium placements."
 ---
 
-Statichunt is an open-source directory that enlists hundreds of themes, starters, and resources for static site generators submitted by the community.
+Statichunt is a leading open-source directory that curates hundreds of themes, starters, and tools for static site generators. We welcome submissions from developers, designers, and creators who want to showcase their work and reach a wider audience. Submit your product today and become part of our growing community!
