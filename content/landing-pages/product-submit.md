@@ -15,11 +15,7 @@ products:
 
   - name: "Submit Website"
     identifier: "example"
-<<<<<<< HEAD
-    description: "Submit your site to be listed in our collection."
-=======
     description: "List your example site in our showcase."
->>>>>>> 2d8085e5 (best headless cms and submission page content updated)
 
 faqs:
   enable: true
