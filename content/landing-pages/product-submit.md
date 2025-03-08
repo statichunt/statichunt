@@ -7,15 +7,19 @@ success_message: "We've received your message and will be in touch soon"
 products:
   - name: "Submit Theme"
     identifier: "theme"
-    description: "Submit your theme to be listed in our collection."
+    description: "List your theme in our collection."
 
   - name: "Submit Tool"
     identifier: "tool"
-    description: "Submit your tool to be listed in our collection."
+    description: "Add your tool and reach more users."
 
   - name: "Submit Website"
     identifier: "example"
+<<<<<<< HEAD
     description: "Submit your site to be listed in our collection."
+=======
+    description: "List your example site in our showcase."
+>>>>>>> 2d8085e5 (best headless cms and submission page content updated)
 
 faqs:
   enable: true
@@ -32,4 +36,4 @@ faqs:
       answer: "To increase visibility and get your product featured at the top of our listings, consider becoming a sponsor. Check out our [become a sponsor](/become-a-sponsor) page for more details on premium placements."
 ---
 
-Statichunt is a leading open-source directory that curates hundreds of themes, starters, and tools for static site generators. We welcome submissions from developers, designers, and creators who want to showcase their work and reach a wider audience. Submit your product today and become part of our growing community!
+Statichunt is an open-source directory for themes, starters, and tools. Submit your product today and showcase it to a wider audience!
