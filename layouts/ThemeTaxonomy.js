@@ -1,7 +1,7 @@
 import config from "@/config/config.json";
 import Themes from "@/layouts/Themes";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 import { TbBrandGithub, TbCode, TbHome, TbLicense } from "react-icons/tb";
 import CollapseContent from "./components/CollapseContent";
 
@@ -81,7 +81,7 @@ const ThemeTaxonomy = ({
 
                 {twitter_username && (
                   <li title="Twitter Profile">
-                    <FaSquareXTwitter />
+                    <FaXTwitter />
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
