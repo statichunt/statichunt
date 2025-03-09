@@ -2,7 +2,7 @@
 title: Dato CMS
 website: https://www.datocms.com/
 date: 2023-01-31T00:00:00.000Z
-description: Simply put, the most complete, user-friendly and performant Headless CMS
+description: A user-friendly and high-performing headless CMS that offers simplicity and power. DatoCMS streamlines content management, enabling teams to build compelling digital experiences with ease. It also improves ease of use.
 category:
   - CMS
 license: "MIT"

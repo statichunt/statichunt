@@ -2,7 +2,7 @@
 title: Sanity CMS
 website: https://www.sanity.io/
 date: 2023-02-02T00:00:00.000Z
-description: Build remarkable experiences at scale. Sanity is a customizable solution that treats content as data to power your digital business.
+description: Sanity provides customizable solutions to treat content as data, thus empowering your digital business. Build remarkable experiences at scale. Sanity allows developers to power your business.
 
 category:
   - CMS

@@ -2,7 +2,7 @@
 title: Decap CMS
 website: https://decapcms.org/
 date: 2023-01-31T00:00:00.000Z
-description: Open source content management for your Git workflow
+description: An open-source content management solution tailored for Git workflows. Decap CMS allows users to manage and deploy content directly from their Git repositories, and improves developer experience.
 category:
   - CMS
 license: "MIT"

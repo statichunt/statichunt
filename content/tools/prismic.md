@@ -2,7 +2,7 @@
 title: Prismic CMS
 website: https://prismic.io/
 date: 2023-02-02T00:00:00.000Z
-description: Prismic is the headless website builder that lets developers and marketers ship and iterate faster, and build sites that just keep getting better.
+description: Prismic empowers developers and marketers to quickly build and iterate websites. Prismic's website builder helps teams to ship faster and build better sites. Prismic allows developers to build quickly.
 category:
   - CMS
 license: "MIT"
