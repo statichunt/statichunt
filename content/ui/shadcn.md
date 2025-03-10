@@ -32,4 +32,8 @@ handpicked_themes:
   - "nextjs-saas-starter"
 ---
 
-A collection of carefully selected Shadcn UI Themes & Templates for crafting stunning and user-friendly websites. These templates cater to diverse website needs, encompassing blogs, portfolios, businesses, and admin dashboards. All templates are handpicked to ensure quality and ease of use. Explore these Shadcn UI templates and discover the perfect foundation for your upcoming website!
+A collection of carefully selected Shadcn UI Themes & Templates for crafting stunning and user-friendly websites. These templates cater to diverse website needs, encompassing blogs, portfolios, businesses, and admin dashboards. All templates are handpicked to ensure quality and ease of use. Explore these Shadcn UI templates and discover the perfect foundation for your upcoming website!</br>
+
+What are **Shadcn Templates**?</br>
+
+Shadcn templates are built on top of the Shadcn UI framework, which offers a unique approach to building user interfaces. Unlike traditional component libraries, Shadcn UI provides open-source, accessible components that allow developers to customize and extend them freely. These templates leverage the strengths of frameworks like Tailwind CSS and Radix UI to ensure high accessibility and customization capabilities.
