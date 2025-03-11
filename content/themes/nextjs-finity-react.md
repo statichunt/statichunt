@@ -15,6 +15,6 @@ ui: []
 cms: []
 category:
   - SaaS
-  - Landing
+
 draft: false
 ---
