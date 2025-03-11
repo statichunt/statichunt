@@ -7,8 +7,7 @@ author: Cruip
 author_link: https://cruip.com/
 date: 2023-05-14T00:00:00.000Z
 description: >-
-  Stellar is a lovely landing page template crafted with the modern digital
-  landscape in mind
+  Stellar is a lovely Nextjs landing page template crafted with the modern digital landscape in mind
 ssg:
   - Nextjs
 css:
@@ -16,6 +15,7 @@ css:
 ui: []
 cms: []
 category:
-  - Business
+  - SaaS
+
 draft: false
 ---
