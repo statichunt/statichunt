@@ -124,13 +124,14 @@ export default async function handler(req) {
     : "I couldn't find a matching theme. Could you provide more details?";
 
   const systemPrompt =
-    "You are a theme-finding assistant. Only respond with theme recommendations based on the user's input.";
+    "You are a theme-finding assistant. Only respond with theme recommendations based on the user's input. Do not include any other text or explanations.";
 
   const result = streamText({
     maxTokens: 2048,
     system: systemPrompt,
     messages: [...messages, { role: "assistant", content: responseText }],
     model: openai(model),
+    temperature: 0.4,
   });
 
   return result.toDataStreamResponse();

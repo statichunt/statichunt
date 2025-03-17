@@ -1,29 +1,10 @@
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { useChat } from "@ai-sdk/react";
-import React from "react";
 
 export default function Ai() {
   const { messages, input, handleInputChange, handleSubmit, status } =
     useChat();
-
-  const themeMessages = messages.find(
-    (m) =>
-      m.role === "assistant" &&
-      m.parts.some((p) => p.type === "text" && p.text.startsWith("{")),
-  );
-
-  let themes = [];
-  if (themeMessages) {
-    try {
-      const jsonPart = themeMessages.parts.find((p) => p.type === "text").text;
-      themes = JSON.parse(jsonPart).themes || [];
-    } catch (error) {
-      console.error("Failed to parse theme response", error);
-    }
-  }
-
-  console.log(themes);
 
   return (
     <Base>
@@ -54,22 +35,7 @@ export default function Ai() {
                             : "ml-4 bg-theme-light dark:bg-darkmode-theme-light"
                         } rounded-lg p-4 max-w-[80%]`}
                       >
-                        {message.parts.map((part, i) => {
-                          switch (part.type) {
-                            case "text":
-                              return (
-                                <React.Fragment key={`${message.id}-${i}`}>
-                                  {part.text}
-                                </React.Fragment>
-                              );
-                            case "tool-invocation":
-                              return (
-                                <React.Fragment>
-                                  {part.toolInvocation.result}
-                                </React.Fragment>
-                              );
-                          }
-                        })}
+                        {message.content}
                       </div>
                       {message.role === "user" && (
                         <div className="w-10 h-10 rounded-full bg-theme-light dark:bg-darkmode-theme-light flex-shrink-0 flex items-center justify-center text-dark dark:text-darkmode-dark">
@@ -79,29 +45,6 @@ export default function Ai() {
                     </div>
                   ))}
                 </div>
-
-                {/* Theme Cards */}
-                {themes.length > 0 && (
-                  <div className="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {themes.map((theme) => (
-                      <div
-                        key={theme.slug}
-                        className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
-                      >
-                        <img
-                          src={`/${theme.img}`}
-                          alt={theme.slug}
-                          className="w-full h-40 object-cover"
-                        />
-                        <div className="p-4">
-                          <h3 className="text-lg font-semibold">
-                            {theme.slug.replace(/-/g, " ")}
-                          </h3>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
 
                 {/* Message Input */}
                 <div className="border-t p-4 bg-theme-light">
