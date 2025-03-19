@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { FiLoader } from "react-icons/fi";
 
-export default function ContactForm() {
+export default function ContactForm({ isPending }) {
   const [value, setValue] = useState({});
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -68,6 +69,16 @@ export default function ContactForm() {
           >
             Email address *
           </label>
+        </div>
+        <div className="col-span-2 text-end">
+          <button
+            className="btn btn-outline-primary ml-auto"
+            type="submit"
+            disabled={isPending}
+          >
+            {isPending && <FiLoader className="animate-spin mr-2 size-4" />}
+            Submit
+          </button>
         </div>
       </div>
     </div>

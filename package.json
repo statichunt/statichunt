@@ -22,9 +22,6 @@
     "format": "prettier -w ."
   },
   "dependencies": {
-    "@ai-sdk/openai": "^1.2.5",
-    "@ai-sdk/react": "^1.1.23",
-    "ai": "^4.1.61",
     "country-list": "^2.3.0",
     "date-fns": "^4.1.0",
     "github-slugger": "^2.0.0",

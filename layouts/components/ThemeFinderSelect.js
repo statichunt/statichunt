@@ -97,20 +97,25 @@ function OnboardingSelect({
         {type === "checkbox" ? (
           <div className="relative">
             <div className="max-h-[200px] overflow-y-auto">
-              {options.map((option, index) => (
-                <div
-                  key={index}
-                  className="custom-select-option flex items-center space-x-2"
-                >
-                  <input
-                    type="checkbox"
-                    checked={selectedValues.includes(option.value)}
-                    onChange={() => handleCheckboxChange(option)}
-                    className={`size-4 border border-primary checked:bg-primary rounded focus:bg-primary focus:ring-2 focus:checked:bg-primary focus:ring-primary focus:ring-offset-2 focus:ring-offset-white dark:checked:bg-primary dark:focus:ring-primary dark:focus:ring-offset-darkmode-body`}
-                  />
-                  <label>{option.label}</label>
-                </div>
-              ))}
+              {options.map((option, index) => {
+                const uniqueId = `checkbox-${crypto.randomUUID()}`; // Generate a unique ID
+
+                return (
+                  <div
+                    key={index}
+                    className="custom-select-option flex items-center space-x-2"
+                  >
+                    <input
+                      id={uniqueId} // Assign unique ID
+                      type="checkbox"
+                      checked={selectedValues.includes(option.value)}
+                      onChange={() => handleCheckboxChange(option)}
+                      className="size-4 border border-primary checked:bg-primary rounded focus:bg-primary focus:ring-2 focus:checked:bg-primary focus:ring-primary focus:ring-offset-2 focus:ring-offset-white dark:checked:bg-primary dark:focus:ring-primary dark:focus:ring-offset-darkmode-body"
+                    />
+                    <label htmlFor={uniqueId}>{option.label}</label>
+                  </div>
+                );
+              })}
             </div>
             <div className="sticky bottom-0 px-3.5 bg-white dark:bg-darkmode-body mt-4 flex justify-between py-2 border-t dark:border-darkmode-border">
               <button

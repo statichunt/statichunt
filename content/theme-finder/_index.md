@@ -55,7 +55,7 @@ questions:
         label: "No preference"
         value: ""
   - id: 3
-    name: "website_type"
+    name: "ssg"
     question: "Do you have a preference for any specific platform or technology?"
     type: "checkbox"
     options:

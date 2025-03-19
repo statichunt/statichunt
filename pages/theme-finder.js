@@ -1,21 +1,29 @@
 import ContactForm from "@/components/contactForm";
-import OnboardingSelect from "@/components/OnboardingSelect";
+import OnboardingSelect from "@/components/ThemeFinderSelect";
 import themes from "@/json/theme-finder.json";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/partials/MobileSidebar";
-import Axios from "axios";
-import { getSinglePageServer } from "lib/contentParser";
-import { useRouter } from "next/router";
+import axios from "axios";
+import useOs from "hooks/useOs";
+import { getListPage, getSinglePageServer } from "lib/contentParser";
+import countryDetector from "lib/utils/countryDetector";
+import { sortByHandpicked } from "lib/utils/sortFunctions";
+import Image from "next/image";
+import Link from "next/link";
 import { useMemo, useState } from "react";
+import { getCookie } from "react-use-cookie";
 
-const OnboardingPage = ({ questions }) => {
-  const router = useRouter();
-  const [loading, setLoading] = useState(false);
+export default function ThemeFinder({ questions, frontmatter }) {
+  const { handpicked_themes } = frontmatter;
+  const country = countryDetector();
+  const { platForm: device } = useOs();
+  const [isloading, setLoading] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState({});
   const [currentQuestionId, setCurrentQuestionId] = useState(
     questions[0]?.id || 1,
   );
 
+  const [isComplete, setIsComplete] = useState(false);
   const finder = useMemo(() => {
     return Object.keys(selectedOptions).reduce((acc, key) => {
       const name = questions.find((q) => q.id === +key).name;
@@ -89,7 +97,7 @@ const OnboardingPage = ({ questions }) => {
     return nextQuestion ? nextQuestion.id : -1;
   }
 
-  const handleOptionChange = ({ selectedValue, questionId, isCheckbox }) => {
+  const handleOptionChange = ({ selectedValue, questionId }) => {
     setSelectedOptions((prev) => {
       let updatedOptions;
       updatedOptions = {
@@ -108,43 +116,52 @@ const OnboardingPage = ({ questions }) => {
 
     const values = Object.values(selectedOptions);
     const nextId = navigateNextQuestion({ values, questionId });
+
     setCurrentQuestionId(nextId);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const submissionData = {};
+    const first_visit = getCookie("welcomeDate");
+    const landing_page = getCookie("welcomeLandingPage");
+    const referrer = getCookie("welcomeReferrer");
 
-    Object.entries(selectedOptions).forEach(([questionId, selectedValue]) => {
-      const question = questions.find((q) => q.id === parseInt(questionId));
-      if (question) {
-        submissionData[question.name] = Array.isArray(selectedValue)
-          ? selectedValue
-          : [selectedValue];
-      }
-    });
-
-    const reqBody = { ...submissionData, user_id: userState?.users?.id };
+    const formData = new FormData(e.target);
+    const formDataObj = Object.fromEntries(formData.entries());
 
     try {
-      const res = await Axios.post(`user-persona`, reqBody, {
-        headers: {
-          authorization: `Bearer ${session?.user?.accessToken}`,
+      await axios.post(
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/user-lead`,
+        {
+          ...finder,
+          ssg: finder.ssg.filter((ssg) => ssg),
+          cms: finder.cms.filter((cms) => cms),
+          features: finder.features.filter((feature) => feature),
+          country,
+          first_visit,
+          landing_page,
+          referrer,
+          device,
+          ...formDataObj,
+          themes: sortByHandpicked(
+            matchThemes.length > 0 ? matchThemes : ssgAndCategoryFilterTheme,
+            handpicked_themes,
+          )
+            .slice(0, 10)
+            .map((theme) => theme.slug),
         },
-      });
-      if (res.status === 200) {
-        router.push("/dashboard/downloads");
-        setLoading(false);
-      }
+        {
+          headers: {
+            authorization_token: `Barrier ${process.env.NEXT_PUBLIC_TOKEN}`,
+          },
+        },
+      );
+      setIsComplete(true);
     } catch (error) {
       console.log(error);
+    } finally {
       setLoading(false);
-      if (
-        error?.response?.status === 401 ||
-        error?.response?.data?.message === "jwt expired"
-      ) {
-      }
     }
   };
 
@@ -223,21 +240,42 @@ const OnboardingPage = ({ questions }) => {
   };
 
   const isEndOfQuestions =
-    currentQuestionId === -1 || currentQuestionId === questions.length - 1;
+    currentQuestionId === -1 || currentQuestionId === questions.length;
 
   return (
-    <Base>
+    <Base
+      title={frontmatter.title}
+      description={frontmatter.description}
+      meta_title={frontmatter.meta_title}
+      image={frontmatter.image}
+    >
       <MobileSidebar />
       <section className="bg-theme-light dark:bg-darkmode-theme-light min-[1045px]:py-6">
-        <div className="min-[1045px]:max-w-[850px] w-full bg-body mx-auto rounded sm:p-10 p-8 dark:bg-darkmode-body min-h-[450px]">
-          <div className="container">
-            <div className="mx-auto">
-              <p className="font-bold max-sm:text-sm text-base text-dark dark:text-darkmode-dark">
-                {Object.keys(selectedOptions).length
-                  ? `We found ${matchThemes.length} themes that best match your
+        <div
+          className={`min-[1045px]:max-w-[850px] w-full bg-body mx-auto rounded sm:p-10 p-8 dark:bg-darkmode-body ${!isComplete ? "min-h-[450px]" : ""}`}
+        >
+          {isComplete ? (
+            <CompeleteForm />
+          ) : (
+            <>
+              <div className="rounded border-primary/20 dark:border-darkmode-border border bg-theme-light dark:bg-darkmode-body flex items-center p-3 mt-5 sm:mt-8 sm:space-x-5 space-x-3">
+                <div className="bg-primary/5 dark:bg-darkmode-primary/30 rounded p-1 size-10 flex items-center justify-center">
+                  <Image
+                    width={24}
+                    height={24}
+                    src={"/images/icons/search-magnify.svg"}
+                    alt="search"
+                  />
+                </div>
+
+                <p className="font-bold max-sm:text-sm text-base text-dark dark:text-darkmode-dark">
+                  {Object.keys(selectedOptions).length
+                    ? `We found ${matchThemes.length} themes that best match your
                 selections.`
-                  : "Select your preferences"}
-              </p>
+                    : "Select your preferences"}
+                </p>
+              </div>
+
               <div className="space-x-2 flex *:flex-1 mt-8">
                 {!isEndOfQuestions &&
                   [...Array(questions.length)].map((_, index) => (
@@ -252,25 +290,57 @@ const OnboardingPage = ({ questions }) => {
 
               <form className="space-y-4 mt-5" onSubmit={handleSubmit}>
                 {isEndOfQuestions ? (
-                  <ContactForm />
+                  <ContactForm
+                    isPending={isloading}
+                    finder={finder}
+                    matchThemes={
+                      matchThemes.length > 0
+                        ? matchThemes
+                        : ssgAndCategoryFilterTheme
+                    }
+                  />
                 ) : (
                   questions?.map((question) => renderQuestion(question.id))
                 )}
               </form>
-            </div>
-          </div>
+            </>
+          )}
         </div>
       </section>
     </Base>
   );
-};
-
-export default OnboardingPage;
+}
 
 export const getServerSideProps = async (context) => {
+  const data = await getListPage("content/landing-pages/theme-finder.md");
   const getQuestions = await getSinglePageServer(
     "content/theme-finder",
     "_index",
   );
-  return { props: { questions: getQuestions?.frontmatter.questions } };
+  return {
+    props: {
+      questions: getQuestions?.frontmatter.questions,
+      ...data,
+    },
+  };
 };
+
+function CompeleteForm() {
+  return (
+    <div className="text-center">
+      <div className="space-y-4">
+        <Image
+          width={46}
+          height={46}
+          src={"/images/theme-finder/check.svg"}
+          alt="check"
+        />
+        <h1 className="text-dark mb-2.5">Thank You!</h1>
+        <p>We emailed you the theme list. please check your email. </p>
+      </div>
+      <Link href="/" class="btn btn-primary mt-6 btn-lg">
+        Close
+      </Link>
+    </div>
+  );
+}
