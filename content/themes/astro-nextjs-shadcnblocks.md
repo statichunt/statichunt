@@ -26,7 +26,7 @@ draft: false
 
 ## Key Features
 
-- 400+ beautifully designed blocks and components for shadcn/ui
+- 450+ beautifully designed blocks and components for shadcn/ui
 - Shadcn/ui
 - Tailwind 4
 - React 19

@@ -1,8 +1,10 @@
 ---
 title: "Documentation"
-page_title: Documentation Themes
+page_title: <themes> Documentation Themes
 meta_title: <themes> Documentation Themes | Statichunt
-description: Create a documentation website with Documentation Themes. Choose from a wide range of templates and themes.
+description: Browse top static documentation templates to create clear, structured, and easy-to-navigate docs for your projects.
 url: "/documentation-themes"
 icon: /images/icons/documentation.svg
 ---
+
+Make your product documentation stand out with these static templates. Designed for clarity, responsiveness, and effortless navigation, they help users find what they need quickly.
