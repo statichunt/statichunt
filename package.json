@@ -6,7 +6,7 @@
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
   "scripts": {
-    "dev": "yarn update && next dev",
+    "dev": "yarn add-data && yarn update && next dev",
     "build": "yarn update; node scripts/themeSync.mjs; next build",
     "lint": "next lint",
     "preview": "next start",
@@ -16,6 +16,7 @@
     "add-themes": "node scripts/addNewThemes.mjs",
     "add-tools": "node scripts/addNewTools.mjs",
     "add-examples": "node scripts/addNewExamples.mjs",
+    "add-data": "yarn add-themes && yarn add-tools && yarn add-examples",
     "theme-sync": "node scripts/themeSync.mjs",
     "author-sync": "node scripts/authorSync.mjs",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs",

@@ -112,7 +112,8 @@ const Sidebar = ({
         <div className="order-1">
           {sidebarData.map(
             (data, i) =>
-              data.taxonomy && (
+              data.taxonomy &&
+              data.taxonomy.length > 0 && (
                 <div key={`sidebar-accordion-${i}`} className="mb-4 lg:mb-8">
                   <h3
                     className="mb-2 flex cursor-pointer items-center justify-between py-1 pl-0 font-primary text-h6 font-medium lg:pl-3"

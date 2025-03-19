@@ -1,8 +1,8 @@
 ---
-title: 6 Best Git-Based Headless CMS for Static Sites in 2024
+title: 6 Best Git-Based Headless CMS for Static Sites in 2025
 date: 2024-04-25T05:00:00.000Z
 meta_title: Best Git-Based Headless CMS for Static Sites - Statichunt
-description: Struggling to manage content for your static site? Discover the top Git-based headless CMS options that empower developers with code-based control and give editors a user-friendly interface. 
+description: Struggling to manage content for your static site? Discover the top Git-based headless CMS options that empower developers with code-based control and give editors a user-friendly interface.
 image: /blog/headless-cms.png
 authors:
   - Statichunt
@@ -12,6 +12,7 @@ categories:
 sponsored: false
 draft: false
 ---
+
 <a href="/blog/static-site-generators" target="_blank"> Static site generators </a> are getting more popular, but there's a catch: they don't have a built-in system for managing content. This makes it tricky for editors to update the website easily.
 
 But what if there was a way to combine the speed and security of static sites with a user-friendly editing experience? That's where Git-based headless CMS comes in. It's a new system that lets developers manage content with code, while editors can use a simple interface to update the website.
@@ -40,11 +41,11 @@ TinaCMS is a free and open-source headless CMS focused on providing the best dev
 
 **Pricing :** Free Plan available.Premium plans starts from $29/month <br/>
 **Type:**
- Git + API <br/>
+Git + API <br/>
 **License:**
- Open Source <br/>
+Open Source <br/>
 **Supported Site Generators:**
- All <br/>
+All <br/>
 
 #### Key Features
 
@@ -89,7 +90,7 @@ CloudCannon is a powerful, Git-based Headless CMS designed for static site gener
 <Mockup src="/blog/cloudcannon-cms.png" alt="Cloudcannon headless cms" />
 
 **Pricing :** Start from $45/month (14 days Free trial available)<br/>
-**License:**  Closed Source <br/>
+**License:** Closed Source <br/>
 **Supported Site Generators:** Jekyll,<a href="https://gethugothemes.com/benefits-of-hugo" target="_blank"> Hugo </a>, 11ty, SvelteKit, Next.js, Gatsby, Nuxt, Astro, MkDocs
 
 #### Key Features
@@ -118,7 +119,7 @@ Contentrain is a technical-debt-free, scalable content management platform that 
 #### Key Features
 
 - Serverless Collections for dynamic content management needs
-No-code Content Modeling tool.
+  No-code Content Modeling tool.
 - Open source Community Content Models and model repurposing across projects.
 - JSON, Markdown and MDX file support.
 - Managing the internal or external members with custom roles & permissions.
@@ -165,6 +166,7 @@ Spinal boasts a sleek and minimalist interface that puts your content front and 
 **Type:** Git-based <br/>
 **License:** Closed Source <br/>
 **Supported Site Generators:** Astro, 11ty, Hugo, Jekyll, Middleman, Bridgetown, Next.js, Gatsby, VuePress, VitePress, Nuxt, Hexo, Zola
+
 ### Key Features
 
 - Platform-agnostic
