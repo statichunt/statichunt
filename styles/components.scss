@@ -538,3 +538,37 @@ select:required:invalid {
   @extend .clip-gradient;
   @apply bg-gradient-to-r group-hover:from-white group-hover:to-white from-primary to-secondary group-disabled:from-white group-disabled:to-white;
 }
+
+// custom select
+.custom-select {
+  @apply relative inline-block mx-2 dark:bg-darkmode-body;
+
+  &-trigger {
+    @apply border border-border dark:border-darkmode-border px-4 py-2 rounded text-text/60  dark:text-darkmode-light flex items-center;
+  }
+  &-content {
+    @apply bg-white dark:bg-darkmode-body shadow absolute rounded transition-transform duration-150 overflow-x-hidden overflow-y-auto max-h-64 min-w-full transform origin-top top-[110%];
+  }
+  &-option {
+    &:not(:last-child) {
+      @apply border-b border-border/40 dark:border-darkmode-border/80;
+    }
+    @apply px-5 py-2 hover:bg-primary/10 hover:text-primary transition cursor-pointer text-nowrap;
+    &.active {
+      @apply bg-primary text-white;
+    }
+  }
+
+  &.active {
+    .custom-select-trigger {
+      @apply border border-primary/70;
+    }
+    .custom-select-content {
+      @apply scale-y-100 z-50;
+    }
+  }
+
+  .custom-select-content {
+    @apply scale-y-0;
+  }
+}

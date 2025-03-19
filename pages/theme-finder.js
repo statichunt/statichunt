@@ -1,32 +1,33 @@
-import { createStepper } from "@/components/theme-finder/Stepper";
-import { useThemeFinder } from "@/components/theme-finder/themeFinderProvider";
-import withQuizProvider from "@/components/theme-finder/withFinder";
+import ContactForm from "@/components/contactForm";
+import OnboardingSelect from "@/components/OnboardingSelect";
 import themes from "@/json/theme-finder.json";
 import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/partials/MobileSidebar";
-import axios from "axios";
-import useOs from "hooks/useOs";
-import { getListPage } from "lib/contentParser";
-import countryDetector from "lib/utils/countryDetector";
-import { sortByHandpicked } from "lib/utils/sortFunctions";
-import Image from "next/image";
-import { useMemo, useTransition } from "react";
-import { FiLoader } from "react-icons/fi";
-import { getCookie } from "react-use-cookie";
+import Axios from "axios";
+import { getSinglePageServer } from "lib/contentParser";
+import { useRouter } from "next/router";
+import { useMemo, useState } from "react";
 
-function Quiz({ frontmatter }) {
-  const { handpicked_themes } = frontmatter;
-  const country = countryDetector();
-  const finder = useThemeFinder();
-  const steppers = createStepper();
-  const ActiveStepper = useMemo(() => {
-    return steppers.find((step) => step.id === finder.activeQuiz);
-  }, [finder.activeQuiz]);
-  const [isPending, startLoading] = useTransition();
-  const { platForm: device } = useOs();
+const OnboardingPage = ({ questions }) => {
+  const router = useRouter();
+  const [loading, setLoading] = useState(false);
+  const [selectedOptions, setSelectedOptions] = useState({});
+  const [currentQuestionId, setCurrentQuestionId] = useState(
+    questions[0]?.id || 1,
+  );
+
+  const finder = useMemo(() => {
+    return Object.keys(selectedOptions).reduce((acc, key) => {
+      const name = questions.find((q) => q.id === +key).name;
+      if (name) {
+        acc[name] = selectedOptions[key];
+      }
+      return acc;
+    }, {});
+  }, [JSON.stringify(selectedOptions)]);
 
   const { matchThemes, ssgAndCategoryFilterTheme } = useMemo(() => {
-    const { ssg = [], category, features = [], cms = [] } = finder.value || {};
+    const { ssg = [], category, features = [], cms = [] } = finder || {};
 
     const ssgAndCategoryFilterTheme = themes.filter((theme) => {
       // Check for ssg match
@@ -38,7 +39,7 @@ function Quiz({ frontmatter }) {
       // Check for category match
       const categoryMatch = category
         ? theme.category?.some(
-            (c) => c.toLowerCase() === category.toLowerCase(),
+            (c) => c.toLowerCase() === category?.toLowerCase(),
           )
         : true;
 
@@ -74,131 +75,202 @@ function Quiz({ frontmatter }) {
     });
 
     return { matchThemes: newMatchThemes, ssgAndCategoryFilterTheme };
-  }, [JSON.stringify(finder.value), ActiveStepper.name]);
+  }, [JSON.stringify(finder)]);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const first_visit = getCookie("welcomeDate");
-    const landing_page = getCookie("welcomeLandingPage");
-    const referrer = getCookie("welcomeReferrer");
+  const [openDropdownId, setOpenDropdownId] = useState(questions[0]?.id || 1);
 
-    startLoading(async () => {
-      try {
-        await axios.post(
-          `${process.env.NEXT_PUBLIC_BACKEND_URL}/user-lead`,
-          {
-            ...finder.value,
-            ssg: finder.value.ssg.filter((ssg) => ssg),
-            cms: finder.value.cms.filter((cms) => cms),
-            features: finder.value.features.filter((feature) => feature),
-            country,
-            first_visit,
-            landing_page,
-            referrer,
-            device,
-            themes: sortByHandpicked(
-              matchThemes.length > 0 ? matchThemes : ssgAndCategoryFilterTheme,
-              handpicked_themes,
-            )
-              .slice(0, 10)
-              .map((theme) => theme.slug),
-          },
-          {
-            headers: {
-              authorization_token: `Barrier ${process.env.NEXT_PUBLIC_TOKEN}`,
-            },
-          },
-        );
-        finder.nextStep();
-      } catch (error) {
-        console.log(error);
-      }
+  function navigateNextQuestion({ values, questionId }) {
+    const nextQuestion = questions.find(
+      (question) =>
+        question.id > questionId &&
+        !(question.exclude && question.exclude.some((v) => values.includes(v))),
+    );
+
+    return nextQuestion ? nextQuestion.id : -1;
+  }
+
+  const handleOptionChange = ({ selectedValue, questionId, isCheckbox }) => {
+    setSelectedOptions((prev) => {
+      let updatedOptions;
+      updatedOptions = {
+        ...prev,
+        [questionId]: selectedValue,
+      };
+
+      Object.keys(updatedOptions).forEach((key) => {
+        if (parseInt(key) > questionId) {
+          delete updatedOptions[key];
+        }
+      });
+
+      return updatedOptions;
     });
+
+    const values = Object.values(selectedOptions);
+    const nextId = navigateNextQuestion({ values, questionId });
+    setCurrentQuestionId(nextId);
   };
 
-  const isValidate = useMemo(() => {
-    const currentValue = finder.value[ActiveStepper.name];
-    return Array.isArray(currentValue)
-      ? currentValue.length <= 0
-      : !finder.value[ActiveStepper.name];
-  }, [JSON.stringify(finder.value), ActiveStepper.name]);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    const submissionData = {};
+
+    Object.entries(selectedOptions).forEach(([questionId, selectedValue]) => {
+      const question = questions.find((q) => q.id === parseInt(questionId));
+      if (question) {
+        submissionData[question.name] = Array.isArray(selectedValue)
+          ? selectedValue
+          : [selectedValue];
+      }
+    });
+
+    const reqBody = { ...submissionData, user_id: userState?.users?.id };
+
+    try {
+      const res = await Axios.post(`user-persona`, reqBody, {
+        headers: {
+          authorization: `Bearer ${session?.user?.accessToken}`,
+        },
+      });
+      if (res.status === 200) {
+        router.push("/dashboard/downloads");
+        setLoading(false);
+      }
+    } catch (error) {
+      console.log(error);
+      setLoading(false);
+      if (
+        error?.response?.status === 401 ||
+        error?.response?.data?.message === "jwt expired"
+      ) {
+      }
+    }
+  };
+
+  const renderQuestion = (questionId) => {
+    const question = questions.find((q) => q.id === questionId);
+    if (!question) return null;
+
+    const options = question?.options;
+    const isVisible =
+      currentQuestionId === questionId ||
+      selectedOptions[questionId] !== undefined;
+    const isDropdownOpen = openDropdownId === questionId;
+
+    const handleToggleDropdown = (option) => {
+      const nextId = navigateNextQuestion({
+        values: Object.values(selectedOptions),
+        questionId,
+      });
+      setOpenDropdownId(isDropdownOpen ? (option ? nextId : null) : questionId);
+    };
+
+    const questionParts = question.question.split("<COMPONENT>");
+    const selectComponent =
+      question.field === "input" ? (
+        <input
+          type={question.type}
+          className="form-input w-auto"
+          name={question.name}
+          placeholder="https://example.com"
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              handleOptionChange({
+                questionId,
+                selectedValue: e.target.value,
+                isCheckbox: false,
+              });
+              handleToggleDropdown(e.target.value);
+            }
+          }}
+        />
+      ) : (
+        <OnboardingSelect
+          className={question.className}
+          options={options}
+          type={question.type || "select"}
+          onSelect={(option) =>
+            handleOptionChange({
+              questionId,
+              selectedValue: option,
+              isCheckbox: question.type === "checkbox",
+            })
+          }
+          isDropdownOpen={isDropdownOpen}
+          onToggle={handleToggleDropdown}
+        />
+      );
+
+    return (
+      isVisible && (
+        <div key={questionId} className="items-center space-x-5">
+          <div className="flex items-center space-x-5">
+            <div>
+              <span className="text-lg font-medium text-dark dark:text-darkmode-light inline-block">
+                {questionParts[0]}
+              </span>{" "}
+              {selectComponent}{" "}
+              <span className="text-lg font-medium text-dark dark:text-darkmode-light">
+                {questionParts[1]}
+              </span>
+            </div>
+          </div>
+        </div>
+      )
+    );
+  };
+
+  const isEndOfQuestions =
+    currentQuestionId === -1 || currentQuestionId === questions.length - 1;
 
   return (
-    <Base
-      title={frontmatter.title}
-      description={frontmatter.description}
-      meta_title={frontmatter.meta_title}
-      image={frontmatter.image}
-    >
+    <Base>
       <MobileSidebar />
       <section className="bg-theme-light dark:bg-darkmode-theme-light min-[1045px]:py-6">
-        <form
-          onSubmit={handleSubmit}
-          className="min-[1045px]:max-w-[850px] w-full bg-body mx-auto rounded sm:p-10 p-8 dark:bg-darkmode-body"
-        >
-          <ActiveStepper.component />
-          <div className="text-right mt-5 sm:mt-8 flex sm:justify-between gap-4 items-center justify-center">
-            {finder.activeQuiz !== 1 &&
-              steppers.length !== finder.activeQuiz && (
-                <button
-                  type="button"
-                  onClick={() => finder.previousStep(ActiveStepper.name)}
-                  className="btn btn-outline-primary font-bold max-sm:w-full group"
-                >
-                  <span className="text-gradient-primary">Previous</span>
-                </button>
-              )}
-
-            {finder.activeQuiz < steppers.length - 1 && (
-              <button
-                type="button"
-                disabled={isValidate}
-                onClick={finder.nextStep}
-                className="btn btn-outline-primary font-bold sm:ml-auto max-sm:w-full disabled:text-white group"
-              >
-                <span className="text-gradient-primary">Next</span>
-              </button>
-            )}
-
-            {finder.activeQuiz === steppers.length - 1 && (
-              <button
-                className="btn btn-outline-primary ml-auto"
-                type="submit"
-                disabled={isPending}
-              >
-                {isPending && <FiLoader className="animate-spin mr-2 size-4" />}
-                Submit
-              </button>
-            )}
-          </div>
-
-          {finder.activeQuiz !== 1 && finder.activeQuiz !== steppers.length && (
-            <div className="rounded border-primary/20 dark:border-darkmode-border border bg-theme-light dark:bg-darkmode-body flex items-center p-3 mt-5 sm:mt-8 sm:space-x-5 space-x-3">
-              <div className="bg-primary/5 dark:bg-darkmode-primary/30 rounded p-1 size-10 flex items-center justify-center">
-                <Image
-                  width={24}
-                  height={24}
-                  src={"/images/icons/search-magnify.svg"}
-                  alt="search"
-                />
-              </div>
+        <div className="min-[1045px]:max-w-[850px] w-full bg-body mx-auto rounded sm:p-10 p-8 dark:bg-darkmode-body min-h-[450px]">
+          <div className="container">
+            <div className="mx-auto">
               <p className="font-bold max-sm:text-sm text-base text-dark dark:text-darkmode-dark">
-                We found {matchThemes.length} themes that best match your
-                selections.
+                {Object.keys(selectedOptions).length
+                  ? `We found ${matchThemes.length} themes that best match your
+                selections.`
+                  : "Select your preferences"}
               </p>
+              <div className="space-x-2 flex *:flex-1 mt-8">
+                {!isEndOfQuestions &&
+                  [...Array(questions.length)].map((_, index) => (
+                    <span
+                      key={index}
+                      className={`${
+                        index < currentQuestionId ? "bg-primary" : "bg-gray-300"
+                      } h-1.5 rounded inline-block`}
+                    />
+                  ))}
+              </div>
+
+              <form className="space-y-4 mt-5" onSubmit={handleSubmit}>
+                {isEndOfQuestions ? (
+                  <ContactForm />
+                ) : (
+                  questions?.map((question) => renderQuestion(question.id))
+                )}
+              </form>
             </div>
-          )}
-        </form>
+          </div>
+        </div>
       </section>
     </Base>
   );
-}
-
-export const getServerSideProps = async () => {
-  const data = await getListPage("content/landing-pages/theme-finder.md");
-  return {
-    props: data,
-  };
 };
 
-export default withQuizProvider(Quiz);
+export default OnboardingPage;
+
+export const getServerSideProps = async (context) => {
+  const getQuestions = await getSinglePageServer(
+    "content/theme-finder",
+    "_index",
+  );
+  return { props: { questions: getQuestions?.frontmatter.questions } };
+};
