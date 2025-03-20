@@ -547,7 +547,7 @@ select:required:invalid {
     @apply border border-border dark:border-darkmode-border px-4 py-2 rounded text-text/60  dark:text-darkmode-light flex items-center;
   }
   &-content {
-    @apply bg-white dark:bg-darkmode-body shadow absolute rounded transition-transform duration-150 overflow-x-hidden overflow-y-auto max-h-64 min-w-full transform origin-top top-[110%];
+    @apply bg-white dark:bg-darkmode-body shadow absolute rounded transition-transform duration-150 overflow-x-hidden overflow-y-auto max-h-64 min-w-full w-max transform origin-top top-[110%];
   }
   &-option {
     &:not(:last-child) {

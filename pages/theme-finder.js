@@ -5,7 +5,7 @@ import Base from "@/layouts/Baseof";
 import MobileSidebar from "@/partials/MobileSidebar";
 import axios from "axios";
 import useOs from "hooks/useOs";
-import { getListPage, getSinglePageServer } from "lib/contentParser";
+import { getListPage } from "lib/contentParser";
 import countryDetector from "lib/utils/countryDetector";
 import { sortByHandpicked } from "lib/utils/sortFunctions";
 import Image from "next/image";
@@ -13,8 +13,8 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { getCookie } from "react-use-cookie";
 
-export default function ThemeFinder({ questions, frontmatter }) {
-  const { handpicked_themes } = frontmatter;
+export default function ThemeFinder({ frontmatter }) {
+  const { handpicked_themes, questions } = frontmatter;
   const country = countryDetector();
   const { platForm: device } = useOs();
   const [isloading, setLoading] = useState(false);
@@ -239,8 +239,7 @@ export default function ThemeFinder({ questions, frontmatter }) {
     );
   };
 
-  const isEndOfQuestions =
-    currentQuestionId === -1 || currentQuestionId === questions.length;
+  const isEndOfQuestions = currentQuestionId === -1;
 
   return (
     <Base
@@ -313,13 +312,8 @@ export default function ThemeFinder({ questions, frontmatter }) {
 
 export const getServerSideProps = async (context) => {
   const data = await getListPage("content/landing-pages/theme-finder.md");
-  const getQuestions = await getSinglePageServer(
-    "content/theme-finder",
-    "_index",
-  );
   return {
     props: {
-      questions: getQuestions?.frontmatter.questions,
       ...data,
     },
   };

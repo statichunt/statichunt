@@ -168,14 +168,14 @@ function OnboardingSelect({
               }}
               className={`custom-select-option ${selectedValues.includes(option.value) ? "active" : ""}`}
             >
-              <button type="button" className="text-sm">
+              <button type="button" className="text-sm flex items-center">
                 {option.icon && (
                   <Image
                     src={option.icon}
                     alt="option"
-                    width={20}
-                    height={20}
-                    className="mr-2"
+                    width={40}
+                    height={40}
+                    className="mr-2 size-6"
                   />
                 )}
                 <span>{option.label}</span>
