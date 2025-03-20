@@ -8,4 +8,4 @@ icon: /images/icons/blog.svg
 weight: 2
 ---
 
-Browse a curated collection of static blog templates designed for speed, SEO, and easy customization. Whether you're using Astro, Hugo, Next.js, or other SSG's, find the perfect theme to start your blogging journey.
+Browse a huge collection of 1100+ static blog templates designed for speed, SEO, and easy customization. Whether you're using Astro, Hugo, Next.js, or other SSG's, find the perfect theme to start your blogging journey.

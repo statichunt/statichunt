@@ -9,4 +9,4 @@ draft: false
 weight: 4
 ---
 
-Discover a curated collection of free and premium dashboard templates. Build stunning admin panels and analytics dashboards with these static templates. Featuring clean design, responsive layouts, and smooth user experience for seamless management.
+Discover a curated collection of 150+ free and premium dashboard templates. Build stunning admin panels and analytics dashboards with these static templates. Featuring clean design, responsive layouts, and smooth user experience for seamless management.
