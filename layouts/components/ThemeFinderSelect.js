@@ -59,7 +59,6 @@ function OnboardingSelect({
   }, [isDropdownOpen]);
 
   const handleCheckboxChange = (option) => {
-    console.log(option);
     if (option.value === "") {
       // If "No preference" is selected, clear all other selections
       if (!selectedValues.includes("")) {
