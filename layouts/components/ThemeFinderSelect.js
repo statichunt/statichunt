@@ -128,7 +128,7 @@ function OnboardingSelect({
                       type="checkbox"
                       checked={selectedValues.includes(option.value)}
                       onChange={() => handleCheckboxChange(option)}
-                      className="size-4 border border-primary checked:bg-primary rounded focus:bg-primary focus:ring-2 focus:checked:bg-primary focus:ring-primary focus:ring-offset-2 focus:ring-offset-white dark:checked:bg-primary dark:focus:ring-primary dark:focus:ring-offset-darkmode-body"
+                      className="size-4 border border-primary checked:bg-primary rounded focus:bg-white focus:ring-2 focus:checked:bg-primary focus:ring-primary focus:ring-offset-2 focus:ring-offset-white dark:checked:bg-primary dark:focus:ring-primary dark:focus:ring-offset-darkmode-body"
                     />
                     <span>{option.label}</span>
                   </label>
