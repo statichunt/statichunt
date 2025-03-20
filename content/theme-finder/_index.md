@@ -22,6 +22,7 @@ questions:
         value: "documentation"
       - label: "Others"
         value: "others"
+
   - id: 2
     type: "checkbox"
     name: "features"
@@ -54,6 +55,7 @@ questions:
       - icon: "/images/icons/no-preference.svg"
         label: "No preference"
         value: ""
+
   - id: 3
     name: "ssg"
     question: "Do you have a preference for any specific platform or technology?"
@@ -86,6 +88,7 @@ questions:
       - icon: "/images/icons/no-preference.svg"
         label: "No preference"
         value: ""
+
   - id: 4
     type: "checkbox"
     name: "cms"
@@ -109,8 +112,9 @@ questions:
       - icon: "/images/icons/no-preference.svg"
         label: "No preference"
         value: ""
+
   - id: 5
-    name: "expertise"
+    name: expertise
     question: "How comfortable are you with customizing a website theme?"
     options:
       - icon: "/images/theme-finder/beginner.svg"
@@ -122,9 +126,10 @@ questions:
       - icon: "/images/theme-finder/advanced.svg"
         label: "Advanced"
         value: "advanced"
+
   - id: 6
-    name: "profession"
-    question: "Which of these describes you best?"
+    name: profession
+    question: Which of these describes you best?
     options:
       - label: "Business Owner"
         value: "business_owner"
@@ -142,4 +147,25 @@ questions:
         value: "freelancer"
       - label: "Other"
         value: "other"
+
+  - id: 7
+    name: developer
+    question: Who will create the site for you using the theme?
+    options:
+        - icon: "/images/theme-finder/create.svg"
+          label: "I will create it myself."
+          value: "myself"
+        - icon: "/images/theme-finder/web-developer.svg"
+          label: "I'll hire a professional web developer."
+          value: "web developer"
+        - icon: "/images/theme-finder/agency.svg"
+          label: "I'll use an agency or design firm."
+          value: "agency"
+        - icon: "/images/theme-finder/colleague.svg"
+          label: "A friend or colleague will help me."
+          value: "friend"
+        - icon: "/images/theme-finder/not-sure.svg"
+          label: "Not sure yet"
+          value: "not sure"
+  
 ---

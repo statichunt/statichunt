@@ -6,7 +6,7 @@
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
   "scripts": {
-    "dev": "yarn add-data && yarn update && next dev",
+    "dev": "yarn update && next dev",
     "build": "yarn update; node scripts/themeSync.mjs; next build",
     "lint": "next lint",
     "preview": "next start",

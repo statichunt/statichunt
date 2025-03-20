@@ -59,12 +59,30 @@ function OnboardingSelect({
   }, [isDropdownOpen]);
 
   const handleCheckboxChange = (option) => {
+    console.log(option);
+    if (option.value === "") {
+      // If "No preference" is selected, clear all other selections
+      if (!selectedValues.includes("")) {
+        setSelectedValues([""]);
+      } else {
+        // If "No preference" is already selected, deselect it
+        setSelectedValues([]);
+      }
+      return;
+    }
+
     setSelectedValues((prev) => {
-      const isSelected = prev.includes(option.value);
-      const updatedSelection = isSelected
-        ? prev.filter((val) => val !== option.value)
-        : [...prev, option.value];
-      return updatedSelection;
+      // Remove "No preference" if selecting another option
+      const withoutEmpty = prev.filter((val) => val !== "");
+
+      const isSelected = withoutEmpty.includes(option.value);
+      if (isSelected) {
+        // If deselecting an option, just remove it
+        return withoutEmpty.filter((val) => val !== option.value);
+      } else {
+        // If selecting a new option, add it (without empty string)
+        return [...withoutEmpty, option.value];
+      }
     });
   };
 
@@ -101,9 +119,10 @@ function OnboardingSelect({
                 const uniqueId = `checkbox-${crypto.randomUUID()}`; // Generate a unique ID
 
                 return (
-                  <div
+                  <label
                     key={index}
                     className="custom-select-option flex items-center space-x-2"
+                    htmlFor={uniqueId}
                   >
                     <input
                       id={uniqueId} // Assign unique ID
@@ -112,8 +131,8 @@ function OnboardingSelect({
                       onChange={() => handleCheckboxChange(option)}
                       className="size-4 border border-primary checked:bg-primary rounded focus:bg-primary focus:ring-2 focus:checked:bg-primary focus:ring-primary focus:ring-offset-2 focus:ring-offset-white dark:checked:bg-primary dark:focus:ring-primary dark:focus:ring-offset-darkmode-body"
                     />
-                    <label htmlFor={uniqueId}>{option.label}</label>
-                  </div>
+                    <span>{option.label}</span>
+                  </label>
                 );
               })}
             </div>
@@ -122,7 +141,6 @@ function OnboardingSelect({
                 type="button"
                 onClick={() => {
                   setSelectedValues([]);
-                  onSelect([]);
                 }}
               >
                 Reset
