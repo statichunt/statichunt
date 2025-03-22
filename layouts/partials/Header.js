@@ -127,7 +127,7 @@ const Header = () => {
           {/* header action buttons */}
           <div className="ml-auto flex items-center lg:ml-0">
             <button
-              className="mr-4 hidden sm:block"
+              className="mr-4"
               title="Search"
               onClick={() => setSearchModal(!searchModal)}
             >

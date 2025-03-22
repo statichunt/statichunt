@@ -14,7 +14,7 @@ const ThemeSwitcher = () => {
         <button
           aria-label="Toggle Theme"
           type="button"
-          className={`theme-switcher hidden sm:inline-flex md:mr-3 ${
+          className={`theme-switcher inline-flex md:mr-3 ${
             mounted && (theme === "dark" || resolvedTheme === "dark")
               ? "after:left-[29px]"
               : "after:left-[5px]"

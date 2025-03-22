@@ -103,7 +103,10 @@ const SubmitProduct = ({ data }) => {
               <div className="xl:col-10">
                 <div className="row">
                   {products.map((item) => (
-                    <div className="col-4" key={item.identifier}>
+                    <div
+                      className="md:col-4 mb-6 md:mb-0"
+                      key={item.identifier}
+                    >
                       <div className="rounded text-center bg-white p-4 shadow dark:bg-darkmode-theme-dark">
                         <Image
                           src={`/images/submit/${item.identifier}-submit.png`}

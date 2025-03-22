@@ -33,13 +33,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .nav-link {
-  @apply relative px-[18px] py-3 text-dark/80 transition hover:text-primary dark:text-white dark:hover:text-darkmode-primary;
-  // &::after {
-  //   @apply absolute left-[18px] bottom-4 h-[1px] w-[calc(100%_-_36px)] scale-x-0 bg-primary transition content-[""];
-  // }
-  // &:hover::after {
-  //   @apply scale-x-100;
-  // }
+  @apply relative xl:px-[18px] lg:px-[10px] py-3 text-dark/80 transition hover:text-primary dark:text-white dark:hover:text-darkmode-primary;
 }
 
 .nav-dropdown {
