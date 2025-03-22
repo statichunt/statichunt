@@ -80,6 +80,7 @@ const Examples = ({ examples, className }) => {
                     item={example}
                     css={false}
                     cms={false}
+                    ui={false}
                     category={false}
                   />
                 </h2>
