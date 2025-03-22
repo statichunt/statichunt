@@ -50,6 +50,10 @@ const Examples = ({ examples, className }) => {
                 width={360}
                 alt={example.frontmatter?.title}
                 className="w-full rounded-t"
+                onError={({ currentTarget }) => {
+                  currentTarget.onerror = null;
+                  currentTarget.src = "/images/theme-placeholder.png";
+                }}
               />
               <div className="theme-card-body">
                 <h2 className="h6 mb-0 flex justify-between text-lg font-medium">
