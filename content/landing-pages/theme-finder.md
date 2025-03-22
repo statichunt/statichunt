@@ -6,7 +6,7 @@ description: Find the perfect theme for your website with our theme finder. Brow
 questions:
   - id: 1
     name: "category"
-    question: "What kind of website are you planning to create?"
+    question: "What type of website are you building?"
     options:
       - label: "Business"
         value: "business"
@@ -30,7 +30,7 @@ questions:
   - id: 2
     type: "checkbox"
     name: "features"
-    question: "What must-have features are you looking for on the theme?"
+    question: "What features do you need?"
     options:
       - icon: "/images/theme-finder/search.svg"
         label: "Search"
@@ -62,7 +62,7 @@ questions:
 
   - id: 3
     name: "ssg"
-    question: "Do you have a preference for any specific platform or technology?"
+    question: "Any preferred platform/technology?"
     type: "checkbox"
     options:
       - icon: "/images/icons/astro.svg"
@@ -96,7 +96,7 @@ questions:
   - id: 4
     type: "checkbox"
     name: "cms"
-    question: "Do you need a Headless CMS to manage your website content?"
+    question: "Need a Headless CMS?"
     options:
       - icon: "/images/icons/sanity.svg"
         label: "Sanity"
@@ -119,7 +119,7 @@ questions:
 
   - id: 5
     name: expertise
-    question: "How comfortable are you with customizing a website theme?"
+    question: "Your skill level in theme customization?"
     options:
       - icon: "/images/theme-finder/beginner.svg"
         label: "Beginner"
@@ -133,7 +133,7 @@ questions:
 
   - id: 6
     name: profession
-    question: Which of these describes you best?
+    question: "Which of these describes you best?"
     options:
       - label: "Business Owner"
         value: "business_owner"
@@ -154,7 +154,7 @@ questions:
 
   - id: 7
     name: developer
-    question: Who will create the site for you using the theme?
+    question: "Who will build your site using the theme?"
     options:
         - icon: "/images/theme-finder/create.svg"
           label: "I will create it myself."
@@ -166,7 +166,7 @@ questions:
           label: "I'll use an agency or design firm."
           value: "agency"
         - icon: "/images/theme-finder/colleague.svg"
-          label: "A friend or colleague will help me."
+          label: "A teammate or friend will help me."
           value: "friend"
         - icon: "/images/theme-finder/not-sure.svg"
           label: "Not sure yet"

@@ -13,10 +13,9 @@ export default function ContactForm({ isPending }) {
 
   return (
     <div>
-      <h1 className="text-dark mb-2.5">Contact Information</h1>
+      <h1 className="text-dark mb-2.5">Where should we send your themes?</h1>
       <p>
-        Simply enter your email, and we’ll send the best templates tailored to
-        your business directly to your inbox.
+      Enter your email and we’ll send the best themes straight to your inbox.
       </p>
 
       <div className="grid grid-cols-2 gap-x-4 gap-y-8 mt-8">
