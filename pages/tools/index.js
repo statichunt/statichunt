@@ -1,10 +1,12 @@
 import Sidebar from "@/components/Sidebar";
 import Base from "@/layouts/Baseof";
+import PlanFilter from "@/layouts/components/PlanFilter";
 import Tools from "@/layouts/Tools";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
+import { useState } from "react";
 
 const ToolsList = ({ toolsCategory, tools, indexPage }) => {
   const toolsSortedByDate = sortByDate(tools);
@@ -21,6 +23,29 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
       : toolsSortedByWeight,
   );
 
+  // get all plans from tools
+  const allPlans = tools
+    .map((tool) => tool.frontmatter.plans)
+    .flat()
+    .filter(Boolean);
+
+  const uniquePlans = [...new Set(allPlans)];
+
+  const [selectedPlans, setSelectedPlans] = useState([]);
+
+  const togglePlan = (plan) => {
+    setSelectedPlans((prev) =>
+      prev.includes(plan) ? prev.filter((p) => p !== plan) : [...prev, plan],
+    );
+  };
+
+  const filterToolsByPlan =
+    selectedPlans.length > 0
+      ? filterTool.filter((tool) =>
+          selectedPlans.every((plan) => tool.frontmatter.plans?.includes(plan)),
+        )
+      : filterTool;
+
   return (
     <Base
       title={title}
@@ -29,7 +54,17 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
       image={image}
     >
       <div className="flex">
-        <Sidebar slug={"tools"} toolsCategory={toolsCategory} themes={tools} />
+        <Sidebar
+          slug={"tools"}
+          toolsCategory={toolsCategory}
+          themes={filterToolsByPlan}
+        >
+          <PlanFilter
+            plans={uniquePlans}
+            themes={filterTool}
+            onPlanToggle={togglePlan}
+          />
+        </Sidebar>
         <main className="main">
           <div className="container">
             <div
@@ -49,7 +84,7 @@ const ToolsList = ({ toolsCategory, tools, indexPage }) => {
                 </Link> */}
               </div>
             </div>
-            <Tools tools={filterTool} />
+            <Tools tools={filterToolsByPlan} />
           </div>
         </main>
       </div>

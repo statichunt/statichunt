@@ -57,7 +57,7 @@ const Tools = ({ tools }) => {
               <p className="text-text dark:text-light">
                 {humanize(tool.frontmatter.description)}
               </p>
-              <ul className="mt-4 mb-0">
+              {/* <ul className="mt-4 mb-0">
                 {tool.frontmatter.type?.map((tag) => (
                   <li
                     className="inline-block mr-2 mb-2 px-2 py-1 rounded-md text-primary bg-theme-light dark:bg-darkmode-theme-dark text-sm"
@@ -66,7 +66,7 @@ const Tools = ({ tools }) => {
                     {tag}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
