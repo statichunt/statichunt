@@ -24,7 +24,7 @@ const Tools = ({ slug, tool }) => {
     <Base
       title={title}
       description={description ? description : content.slice(0, 120)}
-      image={image}
+      image={`https://statichunt-images.netlify.app/tools/${slug}.png`}
     >
       <MobileSidebar />
       <section className="section">
