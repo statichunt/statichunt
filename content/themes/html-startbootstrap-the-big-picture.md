@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap The Big Picture
 github: https://github.com/StartBootstrap/startbootstrap-the-big-picture
-demo: https://startbootstrap.com/template/the-big-picture/
+demo: https://startbootstrap.github.io/startbootstrap-the-big-picture/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:32:20.094Z

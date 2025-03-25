@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Shop Item
 github: https://github.com/StartBootstrap/startbootstrap-shop-item
-demo: https://startbootstrap.com/template/shop-item/
+demo: https://startbootstrap.github.io/startbootstrap-shop-item/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:32:09.992Z

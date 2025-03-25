@@ -1,8 +1,7 @@
 ---
 title: Developer Theme
 github: https://github.com/xriley/Developer-Theme
-demo: >-
-  https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/
+demo: https://themes.3rdwavemedia.com/demo/bs5/developer/
 author: xriley
 author_link: https://github.com/xriley
 date: 2024-11-28T23:18:26.943Z

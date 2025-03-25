@@ -1,8 +1,7 @@
 ---
 title: TourNest
 github: https://github.com/themesine/TourNest
-demo: >-
-  https://www.themesine.com/downloads/tournest-tours-travel-agency-html5-template/
+demo: http://demo.themesine.com
 author: themesine
 author_link: https://github.com/themesine
 date: 2024-11-28T20:05:44.320Z

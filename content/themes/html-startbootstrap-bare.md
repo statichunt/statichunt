@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Bare
 github: https://github.com/StartBootstrap/startbootstrap-bare
-demo: https://startbootstrap.com/template/bare/
+demo: https://startbootstrap.github.io/startbootstrap-bare/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:30:52.467Z

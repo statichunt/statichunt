@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Small Business
 github: https://github.com/StartBootstrap/startbootstrap-small-business
-demo: https://startbootstrap.com/template/small-business/
+demo: https://startbootstrap.github.io/startbootstrap-small-business/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:32:15.151Z

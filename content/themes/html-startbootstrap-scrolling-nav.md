@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Scrolling Nav
 github: https://github.com/StartBootstrap/startbootstrap-scrolling-nav
-demo: https://startbootstrap.com/template/scrolling-nav/
+demo: https://startbootstrap.github.io/startbootstrap-scrolling-nav/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:32:05.131Z

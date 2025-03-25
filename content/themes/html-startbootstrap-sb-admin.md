@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Sb Admin
 github: https://github.com/StartBootstrap/startbootstrap-sb-admin
-demo: https://startbootstrap.com/template/sb-admin/
+demo: https://startbootstrap.github.io/startbootstrap-sb-admin/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:32:02.537Z

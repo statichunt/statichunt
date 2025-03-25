@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Business Frontpage
 github: https://github.com/StartBootstrap/startbootstrap-business-frontpage
-demo: https://startbootstrap.com/template/business-frontpage/
+demo: https://startbootstrap.github.io/startbootstrap-business-frontpage/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:31:03.495Z

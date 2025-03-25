@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Full Width Pics
 github: https://github.com/StartBootstrap/startbootstrap-full-width-pics
-demo: https://startbootstrap.com/template/full-width-pics/
+demo: https://startbootstrap.github.io/startbootstrap-full-width-pics/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:31:23.686Z

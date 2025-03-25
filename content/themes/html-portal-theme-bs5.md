@@ -1,8 +1,7 @@
 ---
 title: Portal Theme Bs5
 github: https://github.com/xriley/portal-theme-bs5
-demo: >-
-  https://themes.3rdwavemedia.com/bootstrap-templates/admin-dashboard/portal-free-bootstrap-admin-dashboard-template-for-developers/
+demo: https://themes.3rdwavemedia.com/demo/portal/
 author: xriley
 author_link: https://github.com/xriley
 date: 2024-11-28T23:18:39.342Z

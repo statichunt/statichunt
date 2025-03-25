@@ -1,8 +1,7 @@
 ---
 title: Pillar Theme
 github: https://github.com/xriley/pillar-theme
-demo: >-
-  https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/
+demo: https://themes.3rdwavemedia.com/demo/bs5/pillar/
 author: xriley
 author_link: https://github.com/xriley
 date: 2024-11-28T23:18:36.963Z

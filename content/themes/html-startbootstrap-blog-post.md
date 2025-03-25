@@ -1,7 +1,7 @@
 ---
 title: Startbootstrap Blog Post
 github: https://github.com/StartBootstrap/startbootstrap-blog-post
-demo: https://startbootstrap.com/template/blog-post/
+demo: https://startbootstrap.github.io/startbootstrap-blog-post/
 author: StartBootstrap
 author_link: https://github.com/StartBootstrap
 date: 2024-11-28T18:30:57.227Z

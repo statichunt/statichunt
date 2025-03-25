@@ -1,8 +1,7 @@
 ---
 title: Orbit Theme
 github: https://github.com/xriley/Orbit-Theme
-demo: >-
-  https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/
+demo: https://themes.3rdwavemedia.com/demo/bs5/orbit/
 author: xriley
 author_link: https://github.com/xriley
 date: 2024-11-28T23:18:34.471Z
