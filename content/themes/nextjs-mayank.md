@@ -6,8 +6,8 @@ author: mayank1513
 author_link: https://github.com/mayank1513
 date: 2023-11-29T06:16:25.689Z
 description: >-
-  Theme with confidence and [Unleash the Power of React Server
-  Components](https://medium.com/javascript-in-plain-english/unleash-the-power-of-react-server-components-eb3fe7201231)
+  Theme with confidence and Unleash the Power of React Server
+  Components
 ssg:
   - Nextjs
 css: []

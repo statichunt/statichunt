@@ -6,8 +6,8 @@ author: react18-tools
 author_link: https://github.com/react18-tools
 date: 2024-02-19T05:28:22.985Z
 description: >-
-  Theme with confidence and [Unleash the Power of React Server
-  Components](https://medium.com/javascript-in-plain-english/unleash-the-power-of-react-server-components-eb3fe7201231)
+  Theme with confidence and Unleash the Power of React Server
+  Components
 ssg:
   - Nextjs
 css: []
