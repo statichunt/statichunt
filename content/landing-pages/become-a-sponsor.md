@@ -48,7 +48,7 @@ statistics:
       icon: "/images/become-sponsor/creators.svg"
 
     - name: "Product Listings"
-      value: "7500"
+      value: "8000"
       extension: "+"
       icon: "/images/become-sponsor/product-listing.svg"
 

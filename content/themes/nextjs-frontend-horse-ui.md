@@ -5,9 +5,7 @@ demo: https://frontend-horse-ui.vercel.app/
 author: nikolovlazar
 author_link: https://github.com/nikolovlazar
 date: 2024-02-19T03:49:57.377Z
-description: >-
-  The UI I built on Frontend.horse live stream. Watch it here:
-  https://www.youtube.com/watch?v=fiqdtIQzIVo
+description: A React UI library for building beautiful and responsive user interfaces.
 ssg:
   - Nextjs
 css: []

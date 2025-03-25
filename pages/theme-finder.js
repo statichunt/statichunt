@@ -17,7 +17,7 @@ export default function ThemeFinder({ frontmatter }) {
   const { handpicked_themes, questions } = frontmatter;
   const country = countryDetector();
   const { platForm: device } = useOs();
-  const [isloading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState({});
   const [currentQuestionId, setCurrentQuestionId] = useState(
     questions[0]?.id || 1,
@@ -254,7 +254,7 @@ export default function ThemeFinder({ frontmatter }) {
           className={`min-[1045px]:max-w-[850px] w-full bg-body mx-auto rounded sm:p-10 p-8 dark:bg-darkmode-body ${!isComplete ? "min-h-[450px]" : ""}`}
         >
           {isComplete ? (
-            <CompeleteForm />
+            <CompleteForm />
           ) : (
             <>
               <div className="rounded border-primary/20 dark:border-darkmode-border border bg-theme-light dark:bg-darkmode-body flex items-center p-3 mt-5 sm:mt-8 sm:space-x-5 space-x-3">
@@ -290,7 +290,7 @@ export default function ThemeFinder({ frontmatter }) {
               <form className="space-y-4 mt-5" onSubmit={handleSubmit}>
                 {isEndOfQuestions ? (
                   <ContactForm
-                    isPending={isloading}
+                    isPending={loading}
                     finder={finder}
                     matchThemes={
                       matchThemes.length > 0
@@ -319,7 +319,7 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-function CompeleteForm() {
+function CompleteForm() {
   return (
     <div className="text-center">
       <div className="space-y-4">
