@@ -22,4 +22,9 @@ examples_meta_title: Html Website Examples - Statichunt
 examples_description: A collection of Html Website examples to inspire the creation of your next web Project
 examples_content: "Check out the showcase of a variety of Html website examples. Get inspired about building your next web project on the Html static site generator"
 examples_url: "/html-examples"
+
+handpicked_themes:
+  - "html-sneat-dashboard-pro"
+  - "html-materio-dashboard-pro"
+  - "html-sneat-dashboard-free-bootstrap"
 ---
