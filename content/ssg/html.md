@@ -6,7 +6,7 @@ meta_title: <themes> Html Themes (Free & Premium) | Statichunt
 description: Check out our collection of hand-picked Html themes and templates that will give your website a professional and polished appearance.
 icon: "/images/icons/html.svg"
 website: https://html.spec.whatwg.org/multipage/
-github_path: https://github.com/whatwg/html
+github_path: whatwg/html
 twitter_username:
 license:
 license_url:
