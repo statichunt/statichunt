@@ -8,7 +8,7 @@ category:
 license: "MIT"
 supports:
   ["Astro", "Nextjs", "Hugo", "Gatsby", "Jekyll", "Eleventy", "Nuxtjs", "Hexo"]
-plans: ["Free", "Premium"]
+plans: ["Premium"]
 type: ["Self-Hosted", "Git-based"]
 draft: false
 ---

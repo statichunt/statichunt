@@ -28,3 +28,5 @@ handpicked_themes:
   - "html-materio-dashboard-pro"
   - "html-sneat-dashboard-free-bootstrap"
 ---
+
+Discover a curated collection of 650+ HTML themes, featuring a diverse range of open-source, free, and premium templates. Whether you're looking for a business website, blog, portfolio, dashboard, SaaS project, or eCommerce solution, you'll find high-quality themes tailored to your needs.
