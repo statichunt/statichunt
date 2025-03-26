@@ -1,7 +1,7 @@
 ---
 title: Hexo Personal Site
 github: https://github.com/connor11528/hexo-personal-site
-demo: http://connorleech.info/
+demo: https://connorleech.info/
 author: connor11528
 author_link: https://github.com/connor11528
 date: 2024-11-27T15:34:45.872Z

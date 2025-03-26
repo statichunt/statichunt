@@ -1,7 +1,7 @@
 ---
 title: HTML StarterKit
 github: https://github.com/zitrusfrisch/HTML-StarterKit
-demo: http://zitrusfrisch.de/html-starterkit/
+demo: https://zitrusfrisch.de/html-starterkit/
 author: zitrusfrisch
 author_link: https://github.com/zitrusfrisch
 date: 2024-11-29T00:09:24.615Z

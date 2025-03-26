@@ -1,7 +1,7 @@
 ---
 title: Portfolio Kami
 github: https://github.com/Bloc/portfolio-kami
-demo: http://madebymunsters.github.io/portfolio-kami
+demo: https://madebymunsters.github.io/portfolio-kami
 author: Bloc
 author_link: https://github.com/Bloc
 date: 2024-02-18T06:49:22.620Z

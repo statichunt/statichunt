@@ -1,7 +1,7 @@
 ---
 title: Hugo Rapid Theme
 github: https://github.com/coderzh/hugo-rapid-theme
-demo: http://blog.coderzh.com
+demo: https://blog.coderzh.com
 author: coderzh
 author_link: https://github.com/coderzh
 date: 2024-02-18T07:47:42.495Z

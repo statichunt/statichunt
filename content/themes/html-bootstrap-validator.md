@@ -1,7 +1,7 @@
 ---
 title: Bootstrap Validator
 github: https://github.com/1000hz/bootstrap-validator
-demo: http://1000hz.github.io/bootstrap-validator
+demo: https://1000hz.github.io/bootstrap-validator
 author: 1000hz
 author_link: https://github.com/1000hz
 date: 2024-11-27T09:41:14.427Z

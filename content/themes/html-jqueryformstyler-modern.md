@@ -1,7 +1,7 @@
 ---
 title: JQueryFormStyler Modern
 github: https://github.com/ange007/JQueryFormStyler-Modern
-demo: http://ange007.github.io/JQueryFormStyler-Modern/
+demo: https://ange007.github.io/JQueryFormStyler-Modern/
 author: ange007
 author_link: https://github.com/ange007
 date: 2024-11-27T11:27:36.606Z

@@ -1,7 +1,7 @@
 ---
 title: JavaTMP
 github: https://github.com/JavaTMP/JavaTMP
-demo: http://www.javatmp.com
+demo: https://www.javatmp.com
 author: JavaTMP
 author_link: https://github.com/JavaTMP
 date: 2024-11-27T23:49:47.324Z

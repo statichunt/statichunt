@@ -1,7 +1,7 @@
 ---
 title: TKL REVISION
 github: https://github.com/yangzj1992/TKL-REVISION
-demo: http://www.qcyoung.com
+demo: https://www.qcyoung.com
 author: yangzj1992
 author_link: https://github.com/yangzj1992
 date: 2024-11-28T23:27:07.947Z

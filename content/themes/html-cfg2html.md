@@ -1,7 +1,7 @@
 ---
 title: Cfg2html
 github: https://github.com/cfg2html/cfg2html
-demo: http://www.cfg2html.com
+demo: https://www.cfg2html.com
 author: cfg2html
 author_link: https://github.com/cfg2html
 date: 2024-11-27T14:33:04.514Z

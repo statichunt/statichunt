@@ -1,7 +1,7 @@
 ---
 title: Docket
 github: https://github.com/iwillspeak/docket
-demo: http://willspeak.me/docket/
+demo: https://willspeak.me/docket/
 author: iwillspeak
 author_link: https://github.com/iwillspeak
 date: 2024-11-27T23:25:56.649Z

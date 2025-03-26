@@ -1,7 +1,7 @@
 ---
 title: Cms.js
 github: https://github.com/chrisdiana/cms.js
-demo: http://chrisdiana.github.io/cms.js
+demo: https://chrisdiana.github.io/cms.js
 author: chrisdiana
 author_link: https://github.com/chrisdiana
 date: 2024-02-18T07:31:21.896Z

@@ -1,7 +1,7 @@
 ---
 title: Deck.js
 github: https://github.com/imakewebthings/deck.js
-demo: http://imakewebthings.com/deck.js
+demo: https://imakewebthings.com/deck.js
 author: imakewebthings
 author_link: https://github.com/imakewebthings
 date: 2024-11-27T22:54:17.393Z

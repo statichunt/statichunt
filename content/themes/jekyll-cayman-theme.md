@@ -7,7 +7,7 @@ author_link: https://github.com/pietromenna
 date: 2023-11-30T05:19:31.621Z
 description: >-
   A Jekyll theme for the responsive theme for GitHub Pages
-  http://jasonlong.github.io/cayman-theme/
+  https://jasonlong.github.io/cayman-theme/
 ssg:
   - Jekyll
 css: []

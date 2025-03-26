@@ -1,7 +1,7 @@
 ---
 title: Pure
 github: https://github.com/pure/pure
-demo: http://beebole.com/pure
+demo: https://beebole.com/pure
 author: pure
 author_link: https://github.com/pure
 date: 2024-11-28T14:22:47.294Z

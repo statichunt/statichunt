@@ -1,7 +1,7 @@
 ---
 title: Html Minifier
 github: https://github.com/deanhume/html-minifier
-demo: http://deanhume.github.io/html-minifier/
+demo: https://deanhume.github.io/html-minifier/
 author: deanhume
 author_link: https://github.com/deanhume
 date: 2024-11-27T16:51:33.917Z

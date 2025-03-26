@@ -1,7 +1,7 @@
 ---
 title: Cv Boilerplate
 github: https://github.com/mrzool/cv-boilerplate
-demo: http://mrzool.cc/tex-boilerplates/
+demo: https://mrzool.cc/tex-boilerplates/
 author: mrzool
 author_link: https://github.com/mrzool
 date: 2024-11-28T06:06:29.474Z

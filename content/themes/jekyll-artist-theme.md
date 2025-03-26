@@ -1,7 +1,7 @@
 ---
 title: Artist Theme
 github: https://github.com/ninapetrop/Artist-Theme
-demo: http://ninapetrop.github.io/Artist-Theme
+demo: https://ninapetrop.github.io/Artist-Theme
 author: ninapetrop
 author_link: https://github.com/ninapetrop
 date: 2024-11-28T11:51:13.852Z

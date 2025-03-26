@@ -1,7 +1,7 @@
 ---
 title: Jekyll Theme Simple Blog
 github: https://github.com/lorepirri/jekyll-theme-simple-blog
-demo: http://lorepirri.github.io/jekyll-theme-simple-blog
+demo: https://lorepirri.github.io/jekyll-theme-simple-blog
 author: lorepirri
 author_link: https://github.com/lorepirri
 date: 2024-11-28T03:15:41.327Z

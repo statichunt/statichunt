@@ -1,7 +1,7 @@
 ---
 title: Uni
 github: https://github.com/brianmaierjr/uni
-demo: http://brianmaierjr.com/uni
+demo: https://brianmaierjr.com/uni
 author: brianmaierjr
 author_link: https://github.com/brianmaierjr
 date: 2024-11-27T13:51:23.215Z

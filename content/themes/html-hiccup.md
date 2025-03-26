@@ -1,7 +1,7 @@
 ---
 title: Hiccup
 github: https://github.com/weavejester/hiccup
-demo: http://weavejester.github.io/hiccup
+demo: https://weavejester.github.io/hiccup
 author: weavejester
 author_link: https://github.com/weavejester
 date: 2024-11-28T22:24:46.723Z

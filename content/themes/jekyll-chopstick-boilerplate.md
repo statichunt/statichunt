@@ -1,7 +1,7 @@
 ---
 title: Chopstick Boilerplate
 github: https://github.com/getchopstick/chopstick-boilerplate
-demo: http://getchopstick.com
+demo: https://getchopstick.com
 author: getchopstick
 author_link: https://github.com/getchopstick
 date: 2024-02-18T10:21:39.688Z

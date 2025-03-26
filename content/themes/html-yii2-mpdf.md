@@ -1,7 +1,7 @@
 ---
 title: Yii2 Mpdf
 github: https://github.com/kartik-v/yii2-mpdf
-demo: http://demos.krajee.com/mpdf
+demo: https://demos.krajee.com/mpdf
 author: kartik-v
 author_link: https://github.com/kartik-v
 date: 2024-11-28T01:23:06.207Z

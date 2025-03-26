@@ -1,7 +1,7 @@
 ---
 title: Nanoc Template
 github: https://github.com/avdgaag/nanoc-template
-demo: http://github.com/avdgaag/nanoc-template
+demo: https://github.com/avdgaag/nanoc-template
 author: avdgaag
 author_link: https://github.com/avdgaag
 date: 2024-11-27T12:28:28.100Z

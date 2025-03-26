@@ -1,7 +1,7 @@
 ---
 title: Jekyll Db
 github: https://github.com/rypan/jekyll-db
-demo: http://rypan.github.io/jekyll-db
+demo: https://rypan.github.io/jekyll-db
 author: rypan
 author_link: https://github.com/rypan
 date: 2024-02-19T06:27:07.862Z

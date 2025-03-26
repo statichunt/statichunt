@@ -1,7 +1,7 @@
 ---
 title: Gridster Jekyll Theme
 github: https://github.com/DigitalMindCH/gridster-jekyll-theme
-demo: http://digitalmind.ch/themes/gridster-jekyll-theme/demo/
+demo: https://digitalmind.ch/themes/gridster-jekyll-theme/demo/
 author: DigitalMindCH
 author_link: https://github.com/DigitalMindCH
 date: 2024-11-27T17:18:57.686Z

@@ -1,7 +1,7 @@
 ---
 title: Brackets
 github: https://github.com/adobe/brackets
-demo: http://brackets.io
+demo: https://brackets.io
 author: adobe
 author_link: https://github.com/adobe
 date: 2024-11-27T10:17:20.458Z

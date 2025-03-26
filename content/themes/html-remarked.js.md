@@ -1,7 +1,7 @@
 ---
 title: ReMarked.js
 github: https://github.com/leeoniya/reMarked.js
-demo: http://leeoniya.github.io/reMarked.js/
+demo: https://leeoniya.github.io/reMarked.js/
 author: leeoniya
 author_link: https://github.com/leeoniya
 date: 2024-11-28T02:37:59.197Z

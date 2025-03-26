@@ -1,7 +1,7 @@
 ---
 title: Dactl
 github: https://github.com/melangue/dactl
-demo: http://melangue.github.io/dactl
+demo: https://melangue.github.io/dactl
 author: melangue
 author_link: https://github.com/melangue
 date: 2024-11-28T04:49:00.726Z

@@ -1,7 +1,7 @@
 ---
 title: Html5 Hearts
 github: https://github.com/yyjhao/html5-hearts
-demo: http://hearts.yjyao.com
+demo: https://hearts.yjyao.com
 author: yyjhao
 author_link: https://github.com/yyjhao
 date: 2024-11-28T23:50:48.639Z

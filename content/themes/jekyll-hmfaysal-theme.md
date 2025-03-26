@@ -1,7 +1,7 @@
 ---
 title: Jekyll HMFAYSAL Theme
 github: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme
-demo: http://hmfaysal.github.io/Jekyll-HMFAYSAL-Theme/
+demo: https://hmfaysal.github.io/Jekyll-HMFAYSAL-Theme/
 author: hmfaysal
 author_link: https://github.com/hmfaysal
 date: 2024-11-27T22:08:27.466Z

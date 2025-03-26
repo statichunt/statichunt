@@ -1,7 +1,7 @@
 ---
 title: Comical Jekyll Theme
 github: https://github.com/chrisanthropic/comical-jekyll-theme
-demo: http://chrisanthropic.github.io/comical-jekyll-theme/
+demo: https://chrisanthropic.github.io/comical-jekyll-theme/
 author: chrisanthropic
 author_link: https://github.com/chrisanthropic
 date: 2024-11-27T14:48:38.537Z

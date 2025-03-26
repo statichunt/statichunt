@@ -1,7 +1,7 @@
 ---
 title: Maupassant Jekyll
 github: https://github.com/imkarl/maupassant-jekyll
-demo: http://blog.im4j.com
+demo: https://blog.im4j.com
 author: imkarl
 author_link: https://github.com/imkarl
 date: 2024-02-18T11:25:04.811Z

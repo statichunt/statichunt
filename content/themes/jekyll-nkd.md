@@ -1,7 +1,7 @@
 ---
 title: Nkd
 github: https://github.com/mrmrs/nkd
-demo: http://mrmrs.io/nkd
+demo: https://mrmrs.io/nkd
 author: mrmrs
 author_link: https://github.com/mrmrs
 date: 2024-02-19T03:22:46.813Z

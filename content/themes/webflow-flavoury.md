@@ -1,6 +1,6 @@
 ---
 title: FLAVOURY
-download: http://preview.webflow.com/preview/ego-flavoury-tmpl?preview=b6c21cf63b362182d1f7a9b657f3cf8a
+download: https://preview.webflow.com/preview/ego-flavoury-tmpl?preview=b6c21cf63b362182d1f7a9b657f3cf8a
 demo: https://ego-flavoury-tmpl.webflow.io/
 price: 79
 author: "EGO Creative Innovations"

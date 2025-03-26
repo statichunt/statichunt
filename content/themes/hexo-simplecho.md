@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Simplecho
 github: https://github.com/Garwih/hexo-theme-simplecho
-demo: http://garwih.github.io/hexo-theme-simplecho/
+demo: https://garwih.github.io/hexo-theme-simplecho/
 author: Garwih
 author_link: https://github.com/Garwih
 date: 2024-02-18T10:14:59.326Z

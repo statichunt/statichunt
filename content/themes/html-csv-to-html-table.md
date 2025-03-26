@@ -1,7 +1,7 @@
 ---
 title: Csv To Html Table
 github: https://github.com/derekeder/csv-to-html-table
-demo: http://derekeder.github.io/csv-to-html-table/
+demo: https://derekeder.github.io/csv-to-html-table/
 author: derekeder
 author_link: https://github.com/derekeder
 date: 2024-11-27T17:00:17.421Z

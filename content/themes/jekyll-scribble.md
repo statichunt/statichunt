@@ -1,7 +1,7 @@
 ---
 title: Scribble
 github: https://github.com/muan/scribble
-demo: http://scribble.muan.co
+demo: https://scribble.muan.co
 author: muan
 author_link: https://github.com/muan
 date: 2024-11-28T06:10:08.745Z

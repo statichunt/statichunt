@@ -1,7 +1,7 @@
 ---
 title: Flex
 github: https://github.com/the-development/flex
-demo: http://the-development.github.io/flex/
+demo: https://the-development.github.io/flex/
 author: the-development
 author_link: https://github.com/the-development
 date: 2024-11-28T19:55:07.044Z

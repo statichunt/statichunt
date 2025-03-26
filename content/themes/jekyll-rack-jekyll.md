@@ -1,7 +1,7 @@
 ---
 title: Rack Jekyll
 github: https://github.com/adaoraul/rack-jekyll
-demo: http://adaoraul.github.io/rack-jekyll
+demo: https://adaoraul.github.io/rack-jekyll
 author: adaoraul
 author_link: https://github.com/adaoraul
 date: 2024-11-27T10:11:54.324Z

@@ -1,7 +1,7 @@
 ---
 title: Marksheet
 github: https://github.com/jgthms/marksheet
-demo: http://marksheet.io
+demo: https://marksheet.io
 author: jgthms
 author_link: https://github.com/jgthms
 date: 2024-11-28T00:12:06.726Z

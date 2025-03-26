@@ -1,7 +1,7 @@
 ---
 title: Sassy Starter
 github: https://github.com/minamarkham/sassy-starter
-demo: http://minamarkham.github.io/sassy-starter/
+demo: https://minamarkham.github.io/sassy-starter/
 author: minamarkham
 author_link: https://github.com/minamarkham
 date: 2024-11-28T05:25:17.324Z

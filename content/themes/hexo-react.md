@@ -5,7 +5,7 @@ demo: https://noahdragon.github.io/hexo-theme-react/
 author: NoahDragon
 author_link: https://github.com/NoahDragon
 date: 2024-02-19T03:53:57.231Z
-description: Hexo migration of React theme. http://react.pimmey.com/
+description: Hexo migration of React theme. https://react.pimmey.com/
 ssg:
   - Hexo
 css: []

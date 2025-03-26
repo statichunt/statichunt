@@ -1,7 +1,7 @@
 ---
 title: Blog In Gatsby
 github: https://github.com/Hina-softwareEngineer/blog-in-gatsby
-demo: http://hina-blogs-2002.netlify.app/
+demo: https://hina-blogs-2002.netlify.app/
 author: Hina-softwareEngineer
 author_link: https://github.com/Hina-softwareEngineer
 date: 2024-02-18T11:01:14.752Z

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Theme The_minimum
 github: https://github.com/studiomohawk/jekyll-theme-the_minimum
-demo: http://www.layouts-the.me/
+demo: https://www.layouts-the.me/
 author: studiomohawk
 author_link: https://github.com/studiomohawk
 date: 2024-02-19T07:48:18.145Z

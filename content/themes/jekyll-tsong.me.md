@@ -1,7 +1,7 @@
 ---
 title: Tsong.me
 github: https://github.com/jiamings/tsong.me
-demo: http://tsong.me
+demo: https://tsong.me
 author: jiamings
 author_link: https://github.com/jiamings
 date: 2024-11-28T00:14:16.691Z

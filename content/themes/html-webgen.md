@@ -1,7 +1,7 @@
 ---
 title: Webgen
 github: https://github.com/gettalong/webgen
-demo: http://webgen.gettalong.org
+demo: https://webgen.gettalong.org
 author: gettalong
 author_link: https://github.com/gettalong
 date: 2024-11-27T20:45:19.653Z

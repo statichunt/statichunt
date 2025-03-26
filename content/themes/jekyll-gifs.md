@@ -1,7 +1,7 @@
 ---
 title: Gifs
 github: https://github.com/jglovier/gifs
-demo: http://gifs.joelglovier.com
+demo: https://gifs.joelglovier.com
 author: jglovier
 author_link: https://github.com/jglovier
 date: 2024-11-28T00:11:22.768Z

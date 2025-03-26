@@ -1,7 +1,7 @@
 ---
 title: Simple Gallery_responsive Template
 github: https://github.com/website-templates/simple-gallery_responsive-template
-demo: http://website-templates.github.io/simple-gallery_responsive-template
+demo: https://website-templates.github.io/simple-gallery_responsive-template
 author: website-templates
 author_link: https://github.com/website-templates
 date: 2024-11-28T22:30:17.575Z

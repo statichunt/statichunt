@@ -1,7 +1,7 @@
 ---
 title: Krishna
 github: https://github.com/sharu725/krishna
-demo: http://krishna.webjeda.com
+demo: https://krishna.webjeda.com
 author: sharu725
 author_link: https://github.com/sharu725
 date: 2024-11-28T17:14:43.126Z

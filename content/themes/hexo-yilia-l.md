@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Yilia L
 github: https://github.com/Kiritor/hexo-theme-yilia-l
-demo: http://kiritor.github.io
+demo: https://kiritor.github.io
 author: Kiritor
 author_link: https://github.com/Kiritor
 date: 2024-11-28T01:47:05.157Z

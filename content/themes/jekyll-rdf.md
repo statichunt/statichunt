@@ -1,7 +1,7 @@
 ---
 title: Jekyll Rdf
 github: https://github.com/AKSW/jekyll-rdf
-demo: http://aksw.org/Projects/JekyllRDF
+demo: https://aksw.org/Projects/JekyllRDF
 author: AKSW
 author_link: https://github.com/AKSW
 date: 2024-02-18T04:59:50.853Z

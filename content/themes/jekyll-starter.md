@@ -1,7 +1,7 @@
 ---
 title: Starter
 github: https://github.com/prose/starter
-demo: http://prose.github.io/starter
+demo: https://prose.github.io/starter
 author: prose
 author_link: https://github.com/prose
 date: 2024-02-19T05:07:32.767Z

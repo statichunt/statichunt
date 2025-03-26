@@ -1,7 +1,7 @@
 ---
 title: Wxbot
 github: https://github.com/beclass/wxbot
-demo: http://94.191.126.174:8081
+demo: https://94.191.126.174:8081
 author: beclass
 author_link: https://github.com/beclass
 date: 2024-11-27T12:56:28.598Z

@@ -1,7 +1,7 @@
 ---
 title: Old_bloggy_blog
 github: https://github.com/juliasilge/old_bloggy_blog
-demo: http://juliasilge.com/
+demo: https://juliasilge.com/
 author: juliasilge
 author_link: https://github.com/juliasilge
 date: 2024-02-18T12:24:52.299Z

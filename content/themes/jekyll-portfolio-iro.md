@@ -1,7 +1,7 @@
 ---
 title: Portfolio Iro
 github: https://github.com/Bloc/portfolio-iro
-demo: http://madebymunsters.github.io/portfolio-iro/
+demo: https://madebymunsters.github.io/portfolio-iro/
 author: Bloc
 author_link: https://github.com/Bloc
 date: 2024-02-18T06:49:20.249Z

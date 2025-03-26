@@ -1,7 +1,7 @@
 ---
 title: Html Now
 github: https://github.com/sanusart/html-now
-demo: http://sanusart.github.io/html-now
+demo: https://sanusart.github.io/html-now
 author: sanusart
 author_link: https://github.com/sanusart
 date: 2024-11-28T16:35:17.070Z

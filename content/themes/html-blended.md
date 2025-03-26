@@ -1,7 +1,7 @@
 ---
 title: Blended
 github: https://github.com/BlendedSiteGenerator/Blended
-demo: http://jmroper.com/blended/
+demo: https://jmroper.com/blended/
 author: BlendedSiteGenerator
 author_link: https://github.com/BlendedSiteGenerator
 date: 2024-11-27T13:24:08.910Z

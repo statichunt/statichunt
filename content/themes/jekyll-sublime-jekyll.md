@@ -1,7 +1,7 @@
 ---
 title: Sublime Jekyll
 github: https://github.com/23maverick23/sublime-jekyll
-demo: http://23maverick23.github.io/sublime-jekyll
+demo: https://23maverick23.github.io/sublime-jekyll
 author: 23maverick23
 author_link: https://github.com/23maverick23
 date: 2024-11-27T09:49:24.210Z

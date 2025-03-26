@@ -1,6 +1,6 @@
 ---
 title: Rosalia
-download: http://preview.webflow.com/preview/rosalia-template?preview=74f14c98a94c480d1e04acc56e05e8ac
+download: https://preview.webflow.com/preview/rosalia-template?preview=74f14c98a94c480d1e04acc56e05e8ac
 demo: https://rosalia-template.webflow.io/
 price: 129
 author: "Temlis"

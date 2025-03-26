@@ -1,7 +1,7 @@
 ---
 title: Monday
 github: https://github.com/artemsheludko/monday
-demo: http://artemsheludko.github.io/monday/
+demo: https://artemsheludko.github.io/monday/
 author: artemsheludko
 author_link: https://github.com/artemsheludko
 date: 2024-11-27T12:08:10.187Z

@@ -1,7 +1,7 @@
 ---
 title: Melon
 github: https://github.com/antoineabbou/melon
-demo: http://melon.antoineabbou.fr
+demo: https://melon.antoineabbou.fr
 author: antoineabbou
 author_link: https://github.com/antoineabbou
 date: 2024-02-18T05:38:04.158Z

@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Zurb Foundation
 github: https://github.com/chrisjlee/hexo-theme-zurb-foundation
-demo: http://chrisjlee.github.io/hexo-theme-zurb-foundation
+demo: https://chrisjlee.github.io/hexo-theme-zurb-foundation
 author: chrisjlee
 author_link: https://github.com/chrisjlee
 date: 2024-02-18T07:31:53.855Z

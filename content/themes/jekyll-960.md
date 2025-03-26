@@ -1,7 +1,7 @@
 ---
 title: Jekyll_960
 github: https://github.com/btbytes/jekyll_960
-demo: http://btbytes.com/code/jekyll_960/
+demo: https://btbytes.com/code/jekyll_960/
 author: btbytes
 author_link: https://github.com/btbytes
 date: 2024-02-18T07:06:05.518Z

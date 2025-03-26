@@ -1,7 +1,7 @@
 ---
 title: Patterns
 github: https://github.com/Patternslib/Patterns
-demo: http://patternslib.com
+demo: https://patternslib.com
 author: Patternslib
 author_link: https://github.com/Patternslib
 date: 2024-11-28T13:16:48.432Z

@@ -1,7 +1,7 @@
 ---
 title: Saigon Jekyll Theme
 github: https://github.com/hoffli/saigon-jekyll-theme
-demo: http://hoffli.github.io/saigon-jekyll-theme/
+demo: https://hoffli.github.io/saigon-jekyll-theme/
 author: hoffli
 author_link: https://github.com/hoffli
 date: 2024-11-27T22:10:08.540Z

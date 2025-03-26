@@ -1,7 +1,7 @@
 ---
 title: Pagedown
 github: https://github.com/ujifgc/pagedown
-demo: http://code.google.com/p/pagedown/
+demo: https://code.google.com/p/pagedown/
 author: ujifgc
 author_link: https://github.com/ujifgc
 date: 2024-11-28T21:13:27.109Z

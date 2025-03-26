@@ -1,7 +1,7 @@
 ---
 title: Sciter Sdk
 github: https://github.com/c-smile/sciter-sdk
-demo: http://sciter.com
+demo: https://sciter.com
 author: c-smile
 author_link: https://github.com/c-smile
 date: 2024-11-27T14:08:52.294Z

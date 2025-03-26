@@ -1,7 +1,7 @@
 ---
 title: RestApiTutorial.com
 github: https://github.com/tfredrich/RestApiTutorial.com
-demo: http://www.RestApiTutorial.com
+demo: https://www.RestApiTutorial.com
 author: tfredrich
 author_link: https://github.com/tfredrich
 date: 2024-11-28T19:51:22.296Z

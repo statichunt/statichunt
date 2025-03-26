@@ -1,7 +1,7 @@
 ---
 title: Documentation Theme Jekyll Next Version
 github: https://github.com/tomjoht/documentation-theme-jekyll-next-version
-demo: http://idratherbewriting.com/documentation-theme-jekyll-next-version
+demo: https://idratherbewriting.com/documentation-theme-jekyll-next-version
 author: tomjoht
 author_link: https://github.com/tomjoht
 date: 2024-11-28T20:38:24.771Z

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Deck
 github: https://github.com/skeeto/jekyll-deck
-demo: http://nullprogram.com/jekyll-deck/
+demo: https://nullprogram.com/jekyll-deck/
 author: skeeto
 author_link: https://github.com/skeeto
 date: 2024-11-28T17:45:13.637Z

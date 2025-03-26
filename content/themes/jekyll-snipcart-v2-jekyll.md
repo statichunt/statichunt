@@ -1,7 +1,7 @@
 ---
 title: Snipcart V2 Jekyll
 github: https://github.com/snipcart/snipcart-v2-jekyll
-demo: http://snipcart.github.io/snipcart-jekyll-integration
+demo: https://snipcart.github.io/snipcart-jekyll-integration
 author: snipcart
 author_link: https://github.com/snipcart
 date: 2024-11-28T17:56:48.588Z

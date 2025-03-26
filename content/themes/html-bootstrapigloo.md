@@ -1,7 +1,7 @@
 ---
 title: Bootstrapigloo
 github: https://github.com/rubenbuijs/bootstrapigloo
-demo: http://www.bootstrapigloo.com
+demo: https://www.bootstrapigloo.com
 author: rubenbuijs
 author_link: https://github.com/rubenbuijs
 date: 2024-11-28T16:01:56.022Z

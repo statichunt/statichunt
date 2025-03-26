@@ -1,7 +1,7 @@
 ---
 title: Octopress
 github: https://github.com/imathis/octopress
-demo: http://github.com/imathis/octopress
+demo: https://github.com/imathis/octopress
 author: imathis
 author_link: https://github.com/imathis
 date: 2024-11-27T22:54:49.869Z

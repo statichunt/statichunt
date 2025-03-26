@@ -1,7 +1,7 @@
 ---
 title: Global
 github: https://github.com/BuckyMaler/global
-demo: http://buckymaler.com/global
+demo: https://buckymaler.com/global
 author: BuckyMaler
 author_link: https://github.com/BuckyMaler
 date: 2024-11-27T14:00:28.385Z

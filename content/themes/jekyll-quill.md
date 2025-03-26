@@ -1,7 +1,7 @@
 ---
 title: Quill
 github: https://github.com/theycallmeswift/quill
-demo: http://justquillin.com/
+demo: https://justquillin.com/
 author: theycallmeswift
 author_link: https://github.com/theycallmeswift
 date: 2024-11-28T20:10:36.281Z

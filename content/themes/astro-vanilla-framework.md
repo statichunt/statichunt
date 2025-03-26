@@ -1,7 +1,7 @@
 ---
 title: Astro Vanilla Framework
 github: https://github.com/getmarkus/astro-vanilla-framework
-demo: http://www.cmsoftdev.com/astro-vanilla-framework/
+demo: https://www.cmsoftdev.com/astro-vanilla-framework/
 author: getmarkus
 author_link: https://github.com/getmarkus
 date: 2024-02-18T10:22:12.548Z

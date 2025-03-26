@@ -1,7 +1,7 @@
 ---
 title: Jekyll Compose
 github: https://github.com/jekyll/jekyll-compose
-demo: http://rubygems.org/gems/jekyll-compose
+demo: https://rubygems.org/gems/jekyll-compose
 author: jekyll
 author_link: https://github.com/jekyll
 date: 2024-11-28T00:02:45.770Z

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Incorporated
 github: https://github.com/kippt/jekyll-incorporated
-demo: http://incorporated.sendtoinc.com
+demo: https://incorporated.sendtoinc.com
 author: kippt
 author_link: https://github.com/kippt
 date: 2024-11-28T01:46:03.611Z

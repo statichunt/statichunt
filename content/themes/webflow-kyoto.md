@@ -1,6 +1,6 @@
 ---
 title: Kyoto
-download: http://preview.webflow.com/preview/az-kyoto?preview=7b25ebf8aba3665e9931b8edf6b549de
+download: https://preview.webflow.com/preview/az-kyoto?preview=7b25ebf8aba3665e9931b8edf6b549de
 demo: https://az-kyoto.webflow.io/
 price: 79
 author: "Azwedo"

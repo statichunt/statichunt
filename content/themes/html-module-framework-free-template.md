@@ -1,7 +1,7 @@
 ---
 title: Module Framework Free Template
 github: https://github.com/greatsimple/module-framework-free-template
-demo: http://moduleframework.com/
+demo: https://moduleframework.com/
 author: greatsimple
 author_link: https://github.com/greatsimple
 date: 2024-11-27T21:12:00.760Z

@@ -1,7 +1,7 @@
 ---
 title: Website_workshop
 github: https://github.com/nganesh197/website_workshop
-demo: http://nirajganesh.org/website_workshop/
+demo: https://nirajganesh.org/website_workshop/
 author: nganesh197
 author_link: https://github.com/nganesh197
 date: 2024-11-28T11:37:32.576Z

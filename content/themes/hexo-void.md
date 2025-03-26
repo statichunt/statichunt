@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Void
 github: https://github.com/hehehai/hexo-theme-void
-demo: http://hehehai.cn
+demo: https://hehehai.cn
 author: hehehai
 author_link: https://github.com/hehehai
 date: 2024-11-27T21:49:52.691Z

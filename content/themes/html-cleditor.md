@@ -1,7 +1,7 @@
 ---
 title: Cleditor
 github: https://github.com/cleditor/cleditor
-demo: http://premiumsoftware.net/cleditor/
+demo: https://premiumsoftware.net/cleditor/
 author: cleditor
 author_link: https://github.com/cleditor
 date: 2024-11-27T15:01:55.962Z

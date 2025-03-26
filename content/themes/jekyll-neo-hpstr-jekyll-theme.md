@@ -1,7 +1,7 @@
 ---
 title: Neo Hpstr Jekyll Theme
 github: https://github.com/aron-bordin/neo-hpstr-jekyll-theme
-demo: http://aronbordin.com/neo-hpstr-jekyll-theme/
+demo: https://aronbordin.com/neo-hpstr-jekyll-theme/
 author: aron-bordin
 author_link: https://github.com/aron-bordin
 date: 2024-11-27T12:05:25.200Z

@@ -1,7 +1,7 @@
 ---
 title: Lipi
 github: https://github.com/SohanChy/Lipi
-demo: http://sohanchy.github.io/Lipi
+demo: https://sohanchy.github.io/Lipi
 author: SohanChy
 author_link: https://github.com/SohanChy
 date: 2024-11-28T18:01:11.069Z

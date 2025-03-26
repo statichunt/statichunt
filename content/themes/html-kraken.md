@@ -1,7 +1,7 @@
 ---
 title: Kraken
 github: https://github.com/cferdinandi/kraken
-demo: http://cferdinandi.github.io/kraken
+demo: https://cferdinandi.github.io/kraken
 author: cferdinandi
 author_link: https://github.com/cferdinandi
 date: 2024-11-27T14:32:59.470Z

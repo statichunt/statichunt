@@ -1,7 +1,7 @@
 ---
 title: Kikofri
 github: https://github.com/kxxvii/Kikofri
-demo: http://kxxvii.github.io/Kikofri/
+demo: https://kxxvii.github.io/Kikofri/
 author: kxxvii
 author_link: https://github.com/kxxvii
 date: 2024-11-28T02:13:01.711Z

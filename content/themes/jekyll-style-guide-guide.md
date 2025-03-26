@@ -1,7 +1,7 @@
 ---
 title: Style Guide Guide
 github: https://github.com/bradfrost/style-guide-guide
-demo: http://bradfrost.github.io/style-guide-guide
+demo: https://bradfrost.github.io/style-guide-guide
 author: bradfrost
 author_link: https://github.com/bradfrost
 date: 2024-02-18T06:57:54.028Z

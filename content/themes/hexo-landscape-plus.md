@@ -1,7 +1,7 @@
 ---
 title: Landscape Plus
 github: https://github.com/xiangming/landscape-plus
-demo: http://xiangming.github.io/landscape-plus/
+demo: https://xiangming.github.io/landscape-plus/
 author: xiangming
 author_link: https://github.com/xiangming
 date: 2024-11-28T23:11:28.176Z

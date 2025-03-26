@@ -1,7 +1,7 @@
 ---
 title: Jekyll Example
 github: https://github.com/mdo/jekyll-example
-demo: http://mdo.github.io/jekyll-example/
+demo: https://mdo.github.io/jekyll-example/
 author: mdo
 author_link: https://github.com/mdo
 date: 2024-02-18T14:07:30.912Z

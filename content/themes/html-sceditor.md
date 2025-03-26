@@ -1,7 +1,7 @@
 ---
 title: SCEditor
 github: https://github.com/samclarke/SCEditor
-demo: http://www.sceditor.com/
+demo: https://www.sceditor.com/
 author: samclarke
 author_link: https://github.com/samclarke
 date: 2024-11-28T16:26:25.439Z

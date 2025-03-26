@@ -1,7 +1,7 @@
 ---
 title: Bootstrap Star Rating
 github: https://github.com/kartik-v/bootstrap-star-rating
-demo: http://plugins.krajee.com/star-rating
+demo: https://plugins.krajee.com/star-rating
 author: kartik-v
 author_link: https://github.com/kartik-v
 date: 2024-11-28T01:23:01.225Z

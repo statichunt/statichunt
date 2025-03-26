@@ -1,7 +1,7 @@
 ---
 title: Astro Tailwind Mambaui Template
 github: https://github.com/getmarkus/astro-tailwind-mambaui-template
-demo: http://www.cmsoftdev.com/astro-tailwind-mambaui-template/
+demo: https://www.cmsoftdev.com/astro-tailwind-mambaui-template/
 author: getmarkus
 author_link: https://github.com/getmarkus
 date: 2024-02-18T10:22:10.027Z

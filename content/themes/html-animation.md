@@ -1,7 +1,7 @@
 ---
 title: Html5 Animation
 github: https://github.com/lamberta/html5-animation
-demo: http://lamberta.github.io/html5-animation/
+demo: https://lamberta.github.io/html5-animation/
 author: lamberta
 author_link: https://github.com/lamberta
 date: 2024-11-28T02:17:54.906Z

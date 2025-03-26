@@ -5,7 +5,7 @@ demo: https://blog.projecthedra.com/
 author: maxilevi
 author_link: https://github.com/maxilevi
 date: 2023-11-29T06:13:17.309Z
-description: code for http://blog.projecthedra.com
+description: code for https://blog.projecthedra.com
 ssg:
   - Jekyll
 css: []

@@ -1,7 +1,7 @@
 ---
 title: Omi
 github: https://github.com/Tencent/omi
-demo: http://omijs.org
+demo: https://omijs.org
 author: Tencent
 author_link: https://github.com/Tencent
 date: 2024-11-28T19:46:21.214Z

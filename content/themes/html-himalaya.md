@@ -1,7 +1,7 @@
 ---
 title: Himalaya
 github: https://github.com/andrejewski/himalaya
-demo: http://andrejewski.github.io/himalaya
+demo: https://andrejewski.github.io/himalaya
 author: andrejewski
 author_link: https://github.com/andrejewski
 date: 2024-11-27T11:21:36.774Z

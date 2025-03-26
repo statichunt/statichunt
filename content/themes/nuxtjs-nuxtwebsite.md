@@ -1,7 +1,7 @@
 ---
 title: Nuxtwebsite
 github: https://github.com/storyblok/nuxtwebsite
-demo: http://quizzical-wing-54a27d.netlify.com/
+demo: https://quizzical-wing-54a27d.netlify.com/
 author: storyblok
 author_link: https://github.com/storyblok
 date: 2024-02-19T07:43:31.128Z

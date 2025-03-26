@@ -1,7 +1,7 @@
 ---
 title: Landing Page Boilerplate
 github: https://github.com/adrienjoly/landing-page-boilerplate
-demo: http://landing.adrienjoly.com/
+demo: https://landing.adrienjoly.com/
 author: adrienjoly
 author_link: https://github.com/adrienjoly
 date: 2024-11-27T10:20:53.045Z

@@ -1,7 +1,7 @@
 ---
 title: Typora Theme Next
 github: https://github.com/billchen2k/typora-theme-next
-demo: http://theme.typora.io/theme/NexT
+demo: https://theme.typora.io/theme/NexT
 author: billchen2k
 author_link: https://github.com/billchen2k
 date: 2024-11-27T13:14:03.250Z

@@ -1,7 +1,7 @@
 ---
 title: Nukeviet
 github: https://github.com/nukeviet/nukeviet
-demo: http://nukeviet.vn
+demo: https://nukeviet.vn
 author: nukeviet
 author_link: https://github.com/nukeviet
 date: 2024-11-28T12:09:35.440Z

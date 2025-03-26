@@ -1,7 +1,7 @@
 ---
 title: Jekyll Cards Boilerplate
 github: https://github.com/burden/jekyll-cards-boilerplate
-demo: http://jekyll-cards-boilerplate.burden.cc/
+demo: https://jekyll-cards-boilerplate.burden.cc/
 author: burden
 author_link: https://github.com/burden
 date: 2024-11-27T14:04:32.020Z

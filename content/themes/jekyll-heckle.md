@@ -1,7 +1,7 @@
 ---
 title: Heckle
 github: https://github.com/2016rshah/heckle
-demo: http://rshah.org/blog/
+demo: https://rshah.org/blog/
 author: 2016rshah
 author_link: https://github.com/2016rshah
 date: 2024-02-18T04:37:52.988Z

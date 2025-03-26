@@ -1,7 +1,7 @@
 ---
 title: Trio
 github: https://github.com/ankur-gupta/trio
-demo: http://www.perfectlyrandom.org/trio/
+demo: https://www.perfectlyrandom.org/trio/
 author: ankur-gupta
 author_link: https://github.com/ankur-gupta
 date: 2024-02-18T05:34:59.510Z

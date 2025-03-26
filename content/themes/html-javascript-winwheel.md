@@ -1,7 +1,7 @@
 ---
 title: Javascript Winwheel
 github: https://github.com/zarocknz/javascript-winwheel
-demo: http://dougtesting.net
+demo: https://dougtesting.net
 author: zarocknz
 author_link: https://github.com/zarocknz
 date: 2024-11-28T23:55:59.403Z

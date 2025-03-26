@@ -1,7 +1,7 @@
 ---
 title: Pagoda
 github: https://github.com/alagu/pagoda
-demo: http://pagoda-demo.herokuapp.com/admin/
+demo: https://pagoda-demo.herokuapp.com/admin/
 author: alagu
 author_link: https://github.com/alagu
 date: 2024-02-18T05:00:21.504Z

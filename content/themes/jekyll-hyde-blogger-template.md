@@ -1,7 +1,7 @@
 ---
 title: Hyde Blogger Template
 github: https://github.com/zaferzent/Hyde-Blogger-Template
-demo: http://hydebloggertemplate.blogspot.com/
+demo: https://hydebloggertemplate.blogspot.com/
 author: zaferzent
 author_link: https://github.com/zaferzent
 date: 2024-11-28T23:53:33.186Z

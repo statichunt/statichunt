@@ -1,7 +1,7 @@
 ---
 title: Notepad
 github: https://github.com/hmfaysal/Notepad
-demo: http://hmfaysal.github.io/Notepad/
+demo: https://hmfaysal.github.io/Notepad/
 author: hmfaysal
 author_link: https://github.com/hmfaysal
 date: 2024-11-27T22:08:32.425Z

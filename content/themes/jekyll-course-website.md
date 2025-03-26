@@ -1,7 +1,7 @@
 ---
 title: Course Website
 github: https://github.com/svmiller/course-website
-demo: http://course-website.svmiller.com/
+demo: https://course-website.svmiller.com/
 author: svmiller
 author_link: https://github.com/svmiller
 date: 2024-11-28T19:14:02.721Z

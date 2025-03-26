@@ -1,7 +1,7 @@
 ---
 title: Material Dashboard Lite
 github: https://github.com/CreativeIT/material-dashboard-lite
-demo: http://creativeit.io/material-dashboard-lite
+demo: https://creativeit.io/material-dashboard-lite
 author: CreativeIT
 author_link: https://github.com/CreativeIT
 date: 2024-11-27T15:52:48.360Z

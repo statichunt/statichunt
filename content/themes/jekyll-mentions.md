@@ -1,7 +1,7 @@
 ---
 title: Jekyll Mentions
 github: https://github.com/jekyll/jekyll-mentions
-demo: http://rubygems.org/gems/jekyll-mentions
+demo: https://rubygems.org/gems/jekyll-mentions
 author: jekyll
 author_link: https://github.com/jekyll
 date: 2024-11-28T00:02:57.968Z

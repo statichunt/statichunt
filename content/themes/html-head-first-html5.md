@@ -1,7 +1,7 @@
 ---
 title: Head First HTML5
 github: https://github.com/bethrobson/Head-First-HTML5
-demo: http://wickedlysmart.com/hfhtml5/
+demo: https://wickedlysmart.com/hfhtml5/
 author: bethrobson
 author_link: https://github.com/bethrobson
 date: 2024-11-27T13:06:36.302Z

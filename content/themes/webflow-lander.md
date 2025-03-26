@@ -1,7 +1,7 @@
 ---
 title: Lander
 download: https://preview.webflow.com/preview/template-lander?preview=71b449ad41f6e74f86708accd1b49482
-demo: http://template-lander.webflow.io/
+demo: https://template-lander.webflow.io/
 price: 24
 author: "Rowan Hartsuiker"
 date: 2024-12-01T08:38:37.451Z

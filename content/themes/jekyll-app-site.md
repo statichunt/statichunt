@@ -1,7 +1,7 @@
 ---
 title: Jekyll_app_site
 github: https://github.com/jpsim/jekyll_app_site
-demo: http://jpsim.com/jekyll_app_site
+demo: https://jpsim.com/jekyll_app_site
 author: jpsim
 author_link: https://github.com/jpsim
 date: 2024-11-28T00:51:55.558Z

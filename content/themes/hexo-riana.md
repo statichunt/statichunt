@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Riana
 github: https://github.com/jellli/hexo-theme-riana
-demo: http://riana.hoon.cc
+demo: https://riana.hoon.cc
 author: jellli
 author_link: https://github.com/jellli
 date: 2024-02-18T11:56:44.830Z

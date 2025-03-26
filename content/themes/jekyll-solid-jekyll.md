@@ -1,7 +1,7 @@
 ---
 title: Solid Jekyll
 github: https://github.com/st4ple/solid-jekyll
-demo: http://st4ple.github.io/solid-jekyll/
+demo: https://st4ple.github.io/solid-jekyll/
 author: st4ple
 author_link: https://github.com/st4ple
 date: 2024-11-28T18:26:58.020Z

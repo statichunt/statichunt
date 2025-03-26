@@ -1,7 +1,7 @@
 ---
 title: Crisp Hexo Theme
 github: https://github.com/guolin/crisp-hexo-theme
-demo: http://guolin.github.io
+demo: https://guolin.github.io
 author: guolin
 author_link: https://github.com/guolin
 date: 2024-02-18T10:41:09.438Z

@@ -1,7 +1,7 @@
 ---
 title: Hooligan
 github: https://github.com/dhulihan/hooligan
-demo: http://themes.jekyllbootstrap.com/preview/hooligan/
+demo: https://themes.jekyllbootstrap.com/preview/hooligan/
 author: dhulihan
 author_link: https://github.com/dhulihan
 date: 2024-11-27T17:14:26.149Z

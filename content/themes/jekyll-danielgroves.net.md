@@ -1,7 +1,7 @@
 ---
 title: Danielgroves.net
 github: https://github.com/danielgroves/danielgroves.net
-demo: http://danielgroves.net/
+demo: https://danielgroves.net/
 author: danielgroves
 author_link: https://github.com/danielgroves
 date: 2024-11-27T16:27:06.524Z

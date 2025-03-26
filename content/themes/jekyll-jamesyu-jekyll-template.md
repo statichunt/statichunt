@@ -1,7 +1,7 @@
 ---
 title: Jamesyu_jekyll_template
 github: https://github.com/jamesyu/jamesyu_jekyll_template
-demo: http://www.jamesyu.org
+demo: https://www.jamesyu.org
 author: jamesyu
 author_link: https://github.com/jamesyu
 date: 2024-02-18T11:45:56.552Z

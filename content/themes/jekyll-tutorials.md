@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 github: https://github.com/codebar/tutorials
-demo: http://tutorials.codebar.io/
+demo: https://tutorials.codebar.io/
 author: codebar
 author_link: https://github.com/codebar
 date: 2024-02-18T07:44:02.047Z

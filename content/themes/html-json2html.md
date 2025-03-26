@@ -1,7 +1,7 @@
 ---
 title: Json2html
 github: https://github.com/bloopletech/json2html
-demo: http://json.bloople.net
+demo: https://json.bloople.net
 author: bloopletech
 author_link: https://github.com/bloopletech
 date: 2024-11-27T13:25:50.161Z

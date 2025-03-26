@@ -5,7 +5,7 @@ demo: https://www.codeblocq.com/assets/projects/hexo-theme-phantom/
 author: klugjo
 author_link: https://github.com/klugjo
 date: 2023-11-28T10:03:27.339Z
-description: Hexo implementation of Phantom (http://html5up.net/phantom)
+description: Hexo implementation of Phantom (https://html5up.net/phantom)
 ssg:
   - Hexo
 css: []

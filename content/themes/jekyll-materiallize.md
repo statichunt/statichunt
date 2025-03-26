@@ -1,7 +1,7 @@
 ---
 title: Jekyll Materiallize
 github: https://github.com/leftstick/jekyll-materiallize
-demo: http://leftstick.github.io/jekyll-materiallize/
+demo: https://leftstick.github.io/jekyll-materiallize/
 author: leftstick
 author_link: https://github.com/leftstick
 date: 2024-02-18T13:11:14.423Z

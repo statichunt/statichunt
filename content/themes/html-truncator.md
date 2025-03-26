@@ -1,7 +1,7 @@
 ---
 title: HTML Truncator
 github: https://github.com/nono/HTML-Truncator
-demo: http://rubygems.org/gems/html_truncator
+demo: https://rubygems.org/gems/html_truncator
 author: nono
 author_link: https://github.com/nono
 date: 2024-11-28T12:01:14.857Z

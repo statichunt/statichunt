@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Dearmsdan
 github: https://github.com/dearmsdan/hexo-theme-dearmsdan
-demo: http://www.dearmsdan.com
+demo: https://www.dearmsdan.com
 author: dearmsdan
 author_link: https://github.com/dearmsdan
 date: 2024-02-18T08:36:15.647Z

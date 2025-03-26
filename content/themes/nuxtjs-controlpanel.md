@@ -1,7 +1,7 @@
 ---
 title: ControlPanel
 github: https://github.com/HamidEidy/ControlPanel
-demo: http://admincontrol.hamideidy.ir/
+demo: https://admincontrol.hamideidy.ir/
 author: HamidEidy
 author_link: https://github.com/HamidEidy
 date: 2024-02-18T10:46:54.858Z

@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Cafe
 github: https://github.com/giscafer/hexo-theme-cafe
-demo: http://blog.giscafer.com/
+demo: https://blog.giscafer.com/
 author: giscafer
 author_link: https://github.com/giscafer
 date: 2024-11-27T20:51:51.128Z

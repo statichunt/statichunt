@@ -1,7 +1,7 @@
 ---
 title: Left
 github: https://github.com/holman/left
-demo: http://zachholman.com/posts/left
+demo: https://zachholman.com/posts/left
 author: holman
 author_link: https://github.com/holman
 date: 2024-11-27T22:10:49.469Z

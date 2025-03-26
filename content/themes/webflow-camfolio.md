@@ -1,6 +1,6 @@
 ---
 title: CamFolio
-download: http://preview.webflow.com/preview/camfolios?preview=65aa068f5275c64b72a5d8a110c45ab5
+download: https://preview.webflow.com/preview/camfolios?preview=65aa068f5275c64b72a5d8a110c45ab5
 demo: https://camfolios.webflow.io/
 price: 49
 author: "Abe"

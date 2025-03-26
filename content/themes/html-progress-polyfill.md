@@ -1,7 +1,7 @@
 ---
 title: HTML5 Progress Polyfill
 github: https://github.com/LeaVerou/HTML5-Progress-polyfill
-demo: http://lea.verou.me/polyfills/progress/
+demo: https://lea.verou.me/polyfills/progress/
 author: LeaVerou
 author_link: https://github.com/LeaVerou
 date: 2024-11-28T02:36:40.982Z

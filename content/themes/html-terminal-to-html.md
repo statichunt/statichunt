@@ -1,7 +1,7 @@
 ---
 title: Terminal To Html
 github: https://github.com/buildkite/terminal-to-html
-demo: http://buildkite.github.io/terminal-to-html
+demo: https://buildkite.github.io/terminal-to-html
 author: buildkite
 author_link: https://github.com/buildkite
 date: 2024-11-27T14:02:48.157Z

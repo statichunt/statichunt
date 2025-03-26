@@ -1,7 +1,7 @@
 ---
 title: Jekyll Json Feeds
 github: https://github.com/georgemandis/jekyll-json-feeds
-demo: http://snaptortoise.com/open-source.html
+demo: https://snaptortoise.com/open-source.html
 author: georgemandis
 author_link: https://github.com/georgemandis
 date: 2024-02-18T10:20:35.804Z

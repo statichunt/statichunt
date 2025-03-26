@@ -1,7 +1,7 @@
 ---
 title: Ashwath
 github: https://github.com/sharu725/ashwath
-demo: http://ashwath.webjeda.com/
+demo: https://ashwath.webjeda.com/
 author: sharu725
 author_link: https://github.com/sharu725
 date: 2024-11-28T17:14:15.885Z

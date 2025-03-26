@@ -1,7 +1,7 @@
 ---
 title: Bootstrap Popover X
 github: https://github.com/kartik-v/bootstrap-popover-x
-demo: http://plugins.krajee.com/popover-x
+demo: https://plugins.krajee.com/popover-x
 author: kartik-v
 author_link: https://github.com/kartik-v
 date: 2024-11-28T01:22:58.667Z

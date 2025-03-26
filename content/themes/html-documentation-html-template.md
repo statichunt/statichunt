@@ -1,7 +1,7 @@
 ---
 title: Documentation Html Template
 github: https://github.com/surjithctly/documentation-html-template
-demo: http://surjithctly.github.io/documentation-html-template/
+demo: https://surjithctly.github.io/documentation-html-template/
 author: surjithctly
 author_link: https://github.com/surjithctly
 date: 2024-11-28T19:06:18.923Z

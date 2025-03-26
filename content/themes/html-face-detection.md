@@ -1,7 +1,7 @@
 ---
 title: HTML5 Face Detection
 github: https://github.com/wesbos/HTML5-Face-Detection
-demo: http://wesbos.com/html5-video-face-detection-canvas-javascript/
+demo: https://wesbos.com/html5-video-face-detection-canvas-javascript/
 author: wesbos
 author_link: https://github.com/wesbos
 date: 2024-11-28T22:36:06.622Z

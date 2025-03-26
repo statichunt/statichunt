@@ -1,7 +1,7 @@
 ---
 title: Dzslides
 github: https://github.com/paulrouget/dzslides
-demo: http://paulrouget.com/dzslides
+demo: https://paulrouget.com/dzslides
 author: paulrouget
 author_link: https://github.com/paulrouget
 date: 2024-11-28T13:19:34.678Z

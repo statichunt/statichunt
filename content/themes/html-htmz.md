@@ -1,7 +1,7 @@
 ---
 title: Htmz
 github: https://github.com/Kalabasa/htmz
-demo: http://leanrada.com/htmz/
+demo: https://leanrada.com/htmz/
 author: Kalabasa
 author_link: https://github.com/Kalabasa
 date: 2024-11-28T01:17:37.826Z

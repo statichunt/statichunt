@@ -1,7 +1,7 @@
 ---
 title: Learnosm
 github: https://github.com/hotosm/learnosm
-demo: http://learnosm.org
+demo: https://learnosm.org
 author: hotosm
 author_link: https://github.com/hotosm
 date: 2024-02-18T11:06:07.621Z

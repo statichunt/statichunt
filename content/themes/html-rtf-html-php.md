@@ -1,7 +1,7 @@
 ---
 title: Rtf Html Php
 github: https://github.com/henck/rtf-html-php
-demo: http://www.independent-software.com
+demo: https://www.independent-software.com
 author: henck
 author_link: https://github.com/henck
 date: 2024-11-27T21:54:03.985Z

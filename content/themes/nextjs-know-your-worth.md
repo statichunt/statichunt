@@ -1,7 +1,7 @@
 ---
 title: Know Your Worth
 github: https://github.com/straightupjac/know-your-worth
-demo: http://knowyourworth.io/
+demo: https://knowyourworth.io/
 author: straightupjac
 author_link: https://github.com/straightupjac
 date: 2024-02-19T07:44:17.282Z

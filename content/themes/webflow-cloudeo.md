@@ -1,6 +1,6 @@
 ---
 title: Cloudeo
-download: http://preview.webflow.com/preview/cloudeo-site?preview=4d9d5103d958191a01b4ef8465bb0508
+download: https://preview.webflow.com/preview/cloudeo-site?preview=4d9d5103d958191a01b4ef8465bb0508
 demo: https://cloudeo-site.webflow.io/
 price: 49
 author: "Azhar Bhagas"

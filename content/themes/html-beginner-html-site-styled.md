@@ -1,7 +1,7 @@
 ---
 title: Beginner Html Site Styled
 github: https://github.com/mdn/beginner-html-site-styled
-demo: http://mdn.github.io/beginner-html-site-styled/
+demo: https://mdn.github.io/beginner-html-site-styled/
 author: mdn
 author_link: https://github.com/mdn
 date: 2024-11-28T04:43:38.913Z

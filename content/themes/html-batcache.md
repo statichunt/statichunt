@@ -1,7 +1,7 @@
 ---
 title: Batcache
 github: https://github.com/Automattic/batcache
-demo: http://wordpress.org/extend/plugins/batcache/
+demo: https://wordpress.org/extend/plugins/batcache/
 author: Automattic
 author_link: https://github.com/Automattic
 date: 2024-11-27T12:27:20.317Z

@@ -1,7 +1,7 @@
 ---
 title: Driftwood
 github: https://github.com/LK64076007A/driftwood
-demo: http://lk64076007a.github.io/driftwood
+demo: https://lk64076007a.github.io/driftwood
 author: LK64076007A
 author_link: https://github.com/LK64076007A
 date: 2024-02-18T13:22:48.632Z

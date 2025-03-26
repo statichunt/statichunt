@@ -1,7 +1,7 @@
 ---
 title: Haml
 github: https://github.com/haml/haml
-demo: http://haml.info
+demo: https://haml.info
 author: haml
 author_link: https://github.com/haml
 date: 2024-11-27T21:34:19.245Z

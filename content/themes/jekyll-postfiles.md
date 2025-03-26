@@ -1,7 +1,7 @@
 ---
 title: Jekyll Postfiles
 github: https://github.com/nhoizey/jekyll-postfiles
-demo: http://nhoizey.github.io/jekyll-postfiles/
+demo: https://nhoizey.github.io/jekyll-postfiles/
 author: nhoizey
 author_link: https://github.com/nhoizey
 date: 2024-02-19T03:45:18.038Z

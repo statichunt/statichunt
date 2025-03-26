@@ -1,7 +1,7 @@
 ---
 title: Hbars
 github: https://github.com/code0100fun/hbars
-demo: http://hbars.io
+demo: https://hbars.io
 author: code0100fun
 author_link: https://github.com/code0100fun
 date: 2024-11-27T15:13:16.274Z

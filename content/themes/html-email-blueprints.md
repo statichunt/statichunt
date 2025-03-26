@@ -1,7 +1,7 @@
 ---
 title: Email Blueprints
 github: https://github.com/mailchimp/email-blueprints
-demo: http://templates.mailchimp.com
+demo: https://templates.mailchimp.com
 author: mailchimp
 author_link: https://github.com/mailchimp
 date: 2024-11-28T03:51:21.635Z

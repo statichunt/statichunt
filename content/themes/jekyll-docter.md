@@ -1,7 +1,7 @@
 ---
 title: DOCter
 github: https://github.com/cfpb/DOCter
-demo: http://cfpb.github.io/DOCter/
+demo: https://cfpb.github.io/DOCter/
 author: cfpb
 author_link: https://github.com/cfpb
 date: 2024-02-18T07:22:52.028Z

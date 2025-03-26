@@ -1,7 +1,7 @@
 ---
 title: Jekyll Static Comments
 github: https://github.com/mpalmer/jekyll-static-comments
-demo: http://theshed.hezmatt.org/jekyll-static-comments/
+demo: https://theshed.hezmatt.org/jekyll-static-comments/
 author: mpalmer
 author_link: https://github.com/mpalmer
 date: 2024-11-28T05:58:53.223Z

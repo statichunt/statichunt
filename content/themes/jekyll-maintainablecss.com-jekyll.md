@@ -1,7 +1,7 @@
 ---
 title: Maintainablecss.com Jekyll
 github: https://github.com/adamsilver/maintainablecss.com-jekyll
-demo: http://maintainablecss.com
+demo: https://maintainablecss.com
 author: adamsilver
 author_link: https://github.com/adamsilver
 date: 2024-02-18T04:41:44.791Z

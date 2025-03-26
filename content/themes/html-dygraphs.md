@@ -1,7 +1,7 @@
 ---
 title: Dygraphs
 github: https://github.com/danvk/dygraphs
-demo: http://dygraphs.com
+demo: https://dygraphs.com
 author: danvk
 author_link: https://github.com/danvk
 date: 2024-11-27T16:32:46.908Z

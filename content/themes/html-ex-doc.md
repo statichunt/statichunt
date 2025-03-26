@@ -1,7 +1,7 @@
 ---
 title: Ex_doc
 github: https://github.com/elixir-lang/ex_doc
-demo: http://elixir-lang.org
+demo: https://elixir-lang.org
 author: elixir-lang
 author_link: https://github.com/elixir-lang
 date: 2024-11-27T18:24:15.101Z

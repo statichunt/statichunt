@@ -1,7 +1,7 @@
 ---
 title: Jemoji
 github: https://github.com/jekyll/jemoji
-demo: http://rubygems.org/gems/jemoji
+demo: https://rubygems.org/gems/jemoji
 author: jekyll
 author_link: https://github.com/jekyll
 date: 2024-11-28T00:03:15.056Z

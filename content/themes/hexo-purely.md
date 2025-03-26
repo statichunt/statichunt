@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Purely
 github: https://github.com/geekrainy/hexo-theme-purely
-demo: http://theme-purely.rainylog.com/
+demo: https://theme-purely.rainylog.com/
 author: geekrainy
 author_link: https://github.com/geekrainy
 date: 2024-11-27T20:32:02.864Z

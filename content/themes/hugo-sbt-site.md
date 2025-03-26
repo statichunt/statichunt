@@ -1,7 +1,7 @@
 ---
 title: Sbt Site
 github: https://github.com/sbt/sbt-site
-demo: http://www.scala-sbt.org/sbt-site/
+demo: https://www.scala-sbt.org/sbt-site/
 author: sbt
 author_link: https://github.com/sbt
 date: 2024-02-19T06:41:31.101Z

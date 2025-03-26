@@ -1,7 +1,7 @@
 ---
 title: Butane Jekyll Theme
 github: https://github.com/alexcarpenter/butane-jekyll-theme
-demo: http://alexcarpenter.github.io/butane-jekyll-theme
+demo: https://alexcarpenter.github.io/butane-jekyll-theme
 author: alexcarpenter
 author_link: https://github.com/alexcarpenter
 date: 2024-11-27T10:51:02.908Z

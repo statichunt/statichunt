@@ -1,7 +1,7 @@
 ---
 title: Tweet To Image
 github: https://github.com/drkPrince/tweet-to-image
-demo: http://twimage.vercel.app
+demo: https://twimage.vercel.app
 author: drkPrince
 author_link: https://github.com/drkPrince
 date: 2024-02-18T09:06:01.958Z

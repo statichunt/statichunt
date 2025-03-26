@@ -1,7 +1,7 @@
 ---
 title: Artists Theme
 github: https://github.com/DevTips/Artists-Theme
-demo: http://devtips.github.io/Artists-Theme
+demo: https://devtips.github.io/Artists-Theme
 author: DevTips
 author_link: https://github.com/DevTips
 date: 2024-02-18T08:46:37.004Z

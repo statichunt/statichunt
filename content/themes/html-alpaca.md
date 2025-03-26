@@ -1,7 +1,7 @@
 ---
 title: Alpaca
 github: https://github.com/gitana/alpaca
-demo: http://www.alpacajs.org
+demo: https://www.alpacajs.org
 author: gitana
 author_link: https://github.com/gitana
 date: 2024-11-27T20:52:25.514Z

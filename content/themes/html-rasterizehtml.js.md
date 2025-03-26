@@ -1,7 +1,7 @@
 ---
 title: RasterizeHTML.js
 github: https://github.com/cburgmer/rasterizeHTML.js
-demo: http://cburgmer.github.io/rasterizeHTML.js
+demo: https://cburgmer.github.io/rasterizeHTML.js
 author: cburgmer
 author_link: https://github.com/cburgmer
 date: 2024-11-27T14:27:13.092Z

@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Formula
 github: https://github.com/bubkoo/hexo-theme-formula
-demo: http://bubkoo.com/
+demo: https://bubkoo.com/
 author: bubkoo
 author_link: https://github.com/bubkoo
 date: 2024-02-18T07:06:14.610Z

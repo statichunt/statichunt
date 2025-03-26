@@ -1,7 +1,7 @@
 ---
 title: Marketing Agency_one Page Template
 github: https://github.com/website-templates/marketing-agency_one-page-template
-demo: http://website-templates.github.io/marketing-agency_one-page-template
+demo: https://website-templates.github.io/marketing-agency_one-page-template
 author: website-templates
 author_link: https://github.com/website-templates
 date: 2024-11-28T22:30:12.667Z

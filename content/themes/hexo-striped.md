@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Striped
 github: https://github.com/adam-stokes/hexo-theme-striped
-demo: http://html5up.net/striped/
+demo: https://html5up.net/striped/
 author: adam-stokes
 author_link: https://github.com/adam-stokes
 date: 2024-02-18T04:41:00.112Z

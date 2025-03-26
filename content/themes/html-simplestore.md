@@ -1,7 +1,7 @@
 ---
 title: Simplestore
 github: https://github.com/chrisdiana/simplestore
-demo: http://chrisdiana.github.io/simplestore
+demo: https://chrisdiana.github.io/simplestore
 author: chrisdiana
 author_link: https://github.com/chrisdiana
 date: 2024-11-27T14:49:24.343Z

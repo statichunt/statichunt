@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Daisy
 github: https://github.com/imbyron/hexo-theme-daisy
-demo: http://googleyixia.com
+demo: https://googleyixia.com
 author: imbyron
 author_link: https://github.com/imbyron
 date: 2024-02-18T11:24:38.765Z

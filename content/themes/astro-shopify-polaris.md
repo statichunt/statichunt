@@ -1,7 +1,7 @@
 ---
 title: Astro Shopify Polaris
 github: https://github.com/getmarkus/astro-shopify-polaris
-demo: http://www.cmsoftdev.com/astro-shopify-polaris/
+demo: https://www.cmsoftdev.com/astro-shopify-polaris/
 author: getmarkus
 author_link: https://github.com/getmarkus
 date: 2024-02-18T10:22:07.608Z

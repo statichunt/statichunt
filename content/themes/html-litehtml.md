@@ -1,7 +1,7 @@
 ---
 title: Litehtml
 github: https://github.com/litehtml/litehtml
-demo: http://www.litehtml.com/
+demo: https://www.litehtml.com/
 author: litehtml
 author_link: https://github.com/litehtml
 date: 2024-11-28T03:02:12.197Z

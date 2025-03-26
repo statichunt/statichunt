@@ -1,7 +1,7 @@
 ---
 title: Html Invoice Generator
 github: https://github.com/Invoicebus/html-invoice-generator
-demo: http://generator.invoicebus.com
+demo: https://generator.invoicebus.com
 author: Invoicebus
 author_link: https://github.com/Invoicebus
 date: 2024-11-27T23:11:58.294Z

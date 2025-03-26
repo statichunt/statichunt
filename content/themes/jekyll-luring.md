@@ -1,7 +1,7 @@
 ---
 title: Luring
 github: https://github.com/kuanghy/luring
-demo: http://blog.konghy.cn
+demo: https://blog.konghy.cn
 author: kuanghy
 author_link: https://github.com/kuanghy
 date: 2024-11-28T02:07:49.136Z

@@ -1,7 +1,7 @@
 ---
 title: Snap2HTML
 github: https://github.com/rlv-dan/Snap2HTML
-demo: http://www.rlvision.com/snap2html
+demo: https://www.rlvision.com/snap2html
 author: rlv-dan
 author_link: https://github.com/rlv-dan
 date: 2024-11-28T15:38:05.912Z

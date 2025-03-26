@@ -1,7 +1,7 @@
 ---
 title: Twister Jekyll Theme
 github: https://github.com/DigitalMindCH/twister-jekyll-theme
-demo: http://digitalmind.ch/themes/twister-jekyll-theme/demo/
+demo: https://digitalmind.ch/themes/twister-jekyll-theme/demo/
 author: DigitalMindCH
 author_link: https://github.com/DigitalMindCH
 date: 2024-11-27T17:19:00.120Z

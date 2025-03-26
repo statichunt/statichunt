@@ -1,7 +1,7 @@
 ---
 title: Transactional Email Templates
 github: https://github.com/mailgun/transactional-email-templates
-demo: http://blog.mailgun.com/transactional-html-email-templates/
+demo: https://blog.mailgun.com/transactional-html-email-templates/
 author: mailgun
 author_link: https://github.com/mailgun
 date: 2024-11-28T03:51:26.849Z

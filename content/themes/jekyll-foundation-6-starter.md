@@ -1,7 +1,7 @@
 ---
 title: Jekyll Foundation 6 Starter
 github: https://github.com/daigofuji/jekyll-foundation-6-starter
-demo: http://daigofuji.github.io/jekyll-foundation-6-starter/
+demo: https://daigofuji.github.io/jekyll-foundation-6-starter/
 author: daigofuji
 author_link: https://github.com/daigofuji
 date: 2024-02-18T08:18:49.463Z

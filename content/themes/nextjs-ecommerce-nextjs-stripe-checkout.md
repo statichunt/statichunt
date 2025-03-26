@@ -1,7 +1,7 @@
 ---
 title: Ecommerce Nextjs Stripe Checkout
 github: https://github.com/AlterClassIO/ecommerce-nextjs-stripe-checkout
-demo: http://myplantshop.vercel.app/
+demo: https://myplantshop.vercel.app/
 author: AlterClassIO
 author_link: https://github.com/AlterClassIO
 date: 2024-11-27T11:07:07.417Z

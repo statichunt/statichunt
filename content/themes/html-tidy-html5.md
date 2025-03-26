@@ -1,7 +1,7 @@
 ---
 title: Tidy Html5
 github: https://github.com/htacg/tidy-html5
-demo: http://www.html-tidy.org
+demo: https://www.html-tidy.org
 author: htacg
 author_link: https://github.com/htacg
 date: 2024-11-27T22:19:02.106Z

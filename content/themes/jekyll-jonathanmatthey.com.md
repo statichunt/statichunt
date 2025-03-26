@@ -1,7 +1,7 @@
 ---
 title: Jonathanmatthey.com
 github: https://github.com/JonathanMatthey/jonathanmatthey.com
-demo: http://www.jonathanmatthey.com
+demo: https://www.jonathanmatthey.com
 author: JonathanMatthey
 author_link: https://github.com/JonathanMatthey
 date: 2024-11-28T00:38:26.739Z

@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Tomotoes
 github: https://github.com/Tomotoes/hexo-theme-tomotoes
-demo: http://tomotoes.com
+demo: https://tomotoes.com
 author: Tomotoes
 author_link: https://github.com/Tomotoes
 date: 2024-11-28T20:39:15.808Z

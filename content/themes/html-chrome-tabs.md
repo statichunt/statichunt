@@ -1,7 +1,7 @@
 ---
 title: Chrome Tabs
 github: https://github.com/adamschwartz/chrome-tabs
-demo: http://adamschwartz.co/chrome-tabs
+demo: https://adamschwartz.co/chrome-tabs
 author: adamschwartz
 author_link: https://github.com/adamschwartz
 date: 2024-11-27T10:11:15.263Z

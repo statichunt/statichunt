@@ -1,7 +1,7 @@
 ---
 title: Dentistsmile
 github: https://github.com/gabrsar/dentistsmile
-demo: http://obaez.com/dentistsmile/
+demo: https://obaez.com/dentistsmile/
 author: gabrsar
 author_link: https://github.com/gabrsar
 date: 2024-02-18T10:12:13.060Z

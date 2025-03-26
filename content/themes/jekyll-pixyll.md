@@ -1,7 +1,7 @@
 ---
 title: Pixyll
 github: https://github.com/johno/pixyll
-demo: http://pixyll.com
+demo: https://pixyll.com
 author: johno
 author_link: https://github.com/johno
 date: 2024-02-18T12:10:39.960Z

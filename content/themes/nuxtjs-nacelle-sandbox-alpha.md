@@ -1,7 +1,7 @@
 ---
 title: Nacelle Sandbox Alpha
 github: https://github.com/getnacelle/nacelle-sandbox-alpha
-demo: http://docs.getnacelle.com
+demo: https://docs.getnacelle.com
 author: getnacelle
 author_link: https://github.com/getnacelle
 date: 2024-11-27T20:42:55.309Z

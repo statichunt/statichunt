@@ -1,7 +1,7 @@
 ---
 title: Sxq Astro
 github: https://github.com/itmowang/sxq-astro
-demo: http://blog2.loli.wang/
+demo: https://blog2.loli.wang/
 author: itmowang
 author_link: https://github.com/itmowang
 date: 2024-11-27T23:20:16.370Z

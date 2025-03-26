@@ -1,7 +1,7 @@
 ---
 title: Acmuuu.github.com
 github: https://github.com/acmuuu/acmuuu.github.com
-demo: http://sichuan.bei.lu
+demo: https://sichuan.bei.lu
 author: acmuuu
 author_link: https://github.com/acmuuu
 date: 2024-11-27T10:08:18.832Z

@@ -1,7 +1,7 @@
 ---
 title: Ratchet
 github: https://github.com/twbs/ratchet
-demo: http://goratchet.com
+demo: https://goratchet.com
 author: twbs
 author_link: https://github.com/twbs
 date: 2024-11-28T21:02:55.455Z

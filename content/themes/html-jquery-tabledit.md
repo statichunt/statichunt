@@ -1,7 +1,7 @@
 ---
 title: Jquery Tabledit
 github: https://github.com/markcell/jquery-tabledit
-demo: http://markcell.github.io/jquery-tabledit/
+demo: https://markcell.github.io/jquery-tabledit/
 author: markcell
 author_link: https://github.com/markcell
 date: 2024-11-28T04:10:01.190Z

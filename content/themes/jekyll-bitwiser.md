@@ -1,7 +1,7 @@
 ---
 title: Bitwiser
 github: https://github.com/brijeshb42/bitwiser
-demo: http://bitwiser.in/bitwiser/
+demo: https://bitwiser.in/bitwiser/
 author: brijeshb42
 author_link: https://github.com/brijeshb42
 date: 2024-11-27T13:52:25.969Z

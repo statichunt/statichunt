@@ -1,7 +1,7 @@
 ---
 title: Pretzel
 github: https://github.com/Code52/pretzel
-demo: http://code52.org/pretzel/
+demo: https://code52.org/pretzel/
 author: Code52
 author_link: https://github.com/Code52
 date: 2024-11-27T15:13:28.909Z

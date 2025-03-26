@@ -1,7 +1,7 @@
 ---
 title: Jalpc A
 github: https://github.com/jarrekk/Jalpc-A
-demo: http://angular.jack003.com
+demo: https://angular.jack003.com
 author: jarrekk
 author_link: https://github.com/jarrekk
 date: 2024-11-27T23:29:15.218Z

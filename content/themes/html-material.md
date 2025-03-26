@@ -1,7 +1,7 @@
 ---
 title: Material
 github: https://github.com/Daemonite/material
-demo: http://daemonite.github.io/material/
+demo: https://daemonite.github.io/material/
 author: Daemonite
 author_link: https://github.com/Daemonite
 date: 2024-11-27T16:17:49.296Z

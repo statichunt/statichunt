@@ -1,7 +1,7 @@
 ---
 title: Autm Rb
 github: https://github.com/kirqe/autm-rb
-demo: http://kirqe.github.io/autm-rb/
+demo: https://kirqe.github.io/autm-rb/
 author: kirqe
 author_link: https://github.com/kirqe
 date: 2024-11-28T01:47:28.093Z

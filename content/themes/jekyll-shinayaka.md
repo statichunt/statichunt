@@ -1,7 +1,7 @@
 ---
 title: Shinayaka
 github: https://github.com/ellekasai/shinayaka
-demo: http://ellekasai.com
+demo: https://ellekasai.com
 author: ellekasai
 author_link: https://github.com/ellekasai
 date: 2024-02-18T09:22:37.596Z

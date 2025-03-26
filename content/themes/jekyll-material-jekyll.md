@@ -1,7 +1,7 @@
 ---
 title: Material Jekyll
 github: https://github.com/raichur/material-jekyll
-demo: http://joshuaraichur.com/material-jekyll
+demo: https://joshuaraichur.com/material-jekyll
 author: raichur
 author_link: https://github.com/raichur
 date: 2024-02-19T05:19:24.262Z

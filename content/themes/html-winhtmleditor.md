@@ -1,7 +1,7 @@
 ---
 title: WinHtmlEditor
 github: https://github.com/tewuapple/WinHtmlEditor
-demo: http://tewuapple.github.io/WinHtmlEditor/
+demo: https://tewuapple.github.io/WinHtmlEditor/
 author: tewuapple
 author_link: https://github.com/tewuapple
 date: 2024-11-28T19:50:12.875Z

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Sass Converter
 github: https://github.com/jekyll/jekyll-sass-converter
-demo: http://rubygems.org/gems/jekyll-sass-converter
+demo: https://rubygems.org/gems/jekyll-sass-converter
 author: jekyll
 author_link: https://github.com/jekyll
 date: 2024-11-28T00:03:04.391Z

@@ -1,7 +1,7 @@
 ---
 title: Hmfaysal Omega Theme
 github: https://github.com/hmfaysal/hmfaysal-omega-theme
-demo: http://hmfaysal.github.io/hmfaysal-omega-theme/
+demo: https://hmfaysal.github.io/hmfaysal-omega-theme/
 author: hmfaysal
 author_link: https://github.com/hmfaysal
 date: 2024-11-27T22:08:24.979Z

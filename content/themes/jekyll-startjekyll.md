@@ -1,7 +1,7 @@
 ---
 title: Startjekyll
 github: https://github.com/taniarascia/startjekyll
-demo: http://taniarascia.github.io/startjekyll
+demo: https://taniarascia.github.io/startjekyll
 author: taniarascia
 author_link: https://github.com/taniarascia
 date: 2024-11-28T19:32:13.700Z

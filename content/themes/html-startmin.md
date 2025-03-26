@@ -1,7 +1,7 @@
 ---
 title: Startmin
 github: https://github.com/secondtruth/startmin
-demo: http://secondtruth.github.io/startmin
+demo: https://secondtruth.github.io/startmin
 author: secondtruth
 author_link: https://github.com/secondtruth
 date: 2024-11-28T16:55:48.165Z

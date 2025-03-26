@@ -1,7 +1,7 @@
 ---
 title: Md Cv
 github: https://github.com/blmoore/md-cv
-demo: http://blm.io/cv
+demo: https://blm.io/cv
 author: blmoore
 author_link: https://github.com/blmoore
 date: 2024-02-18T06:49:17.605Z

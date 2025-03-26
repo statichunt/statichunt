@@ -1,7 +1,7 @@
 ---
 title: Publ
 github: https://github.com/PlaidWeb/Publ
-demo: http://publ.beesbuzz.biz/
+demo: https://publ.beesbuzz.biz/
 author: PlaidWeb
 author_link: https://github.com/PlaidWeb
 date: 2024-11-28T13:50:43.312Z

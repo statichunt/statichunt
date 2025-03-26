@@ -1,7 +1,7 @@
 ---
 title: Mobirise
 github: https://github.com/Mobirise/Mobirise
-demo: http://mobirise.com/
+demo: https://mobirise.com/
 author: Mobirise
 author_link: https://github.com/Mobirise
 date: 2024-11-28T05:42:34.420Z

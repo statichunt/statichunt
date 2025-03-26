@@ -1,7 +1,7 @@
 ---
 title: Jekyll Cv Crafter
 github: https://github.com/streetturtle/jekyll-cv-crafter
-demo: http://pavelmakhov.com/jekyll-cv-crafter/
+demo: https://pavelmakhov.com/jekyll-cv-crafter/
 author: streetturtle
 author_link: https://github.com/streetturtle
 date: 2024-11-28T18:51:06.259Z

@@ -1,7 +1,7 @@
 ---
 title: Limpid
 github: https://github.com/pranavrajs/limpid
-demo: http://pranavrajs.github.io/limpid/
+demo: https://pranavrajs.github.io/limpid/
 author: pranavrajs
 author_link: https://github.com/pranavrajs
 date: 2024-11-28T14:04:34.354Z

@@ -1,7 +1,7 @@
 ---
 title: ImageMapster
 github: https://github.com/jamietre/ImageMapster
-demo: http://jamietre.github.io/ImageMapster/
+demo: https://jamietre.github.io/ImageMapster/
 author: jamietre
 author_link: https://github.com/jamietre
 date: 2024-11-27T23:40:59.906Z

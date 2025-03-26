@@ -1,7 +1,7 @@
 ---
 title: Reveal Jekyll
 github: https://github.com/tasmo/reveal-jekyll
-demo: http://gh.tasmo.de/reveal-jekyll/
+demo: https://gh.tasmo.de/reveal-jekyll/
 author: tasmo
 author_link: https://github.com/tasmo
 date: 2024-11-28T19:36:09.019Z

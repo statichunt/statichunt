@@ -1,7 +1,7 @@
 ---
 title: Jekyll Course Template
 github: https://github.com/p2pu/jekyll-course-template
-demo: http://p2pu.github.io/jekyll-course-template
+demo: https://p2pu.github.io/jekyll-course-template
 author: p2pu
 author_link: https://github.com/p2pu
 date: 2024-02-19T04:31:46.001Z

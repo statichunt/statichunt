@@ -1,7 +1,7 @@
 ---
 title: Crinita
 github: https://github.com/david-salac/crinita
-demo: http://crinita.salispace.com
+demo: https://crinita.salispace.com
 author: david-salac
 author_link: https://github.com/david-salac
 date: 2024-11-27T16:42:05.280Z

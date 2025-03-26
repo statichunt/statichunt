@@ -1,7 +1,7 @@
 ---
 title: Jekyll Ga
 github: https://github.com/developmentseed/jekyll-ga
-demo: http://developmentseed.org/blog/google-analytics-jekyll-plugin/
+demo: https://developmentseed.org/blog/google-analytics-jekyll-plugin/
 author: developmentseed
 author_link: https://github.com/developmentseed
 date: 2024-11-27T17:06:05.285Z

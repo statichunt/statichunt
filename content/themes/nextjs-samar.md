@@ -4,7 +4,7 @@ download: https://1.envato.market/doXz5M
 price: 25
 demo: https://samartheme3.vercel.app/
 author: DexignZone
-author_link: http://www.dexignzone.com/
+author_link: https://www.dexignzone.com/
 date: 2022-12-21T00:00:00.000Z
 description: Creative Agency React NextJs Template
 ssg:

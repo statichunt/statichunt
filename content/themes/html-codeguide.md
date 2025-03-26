@@ -1,7 +1,7 @@
 ---
 title: Codeguide
 github: https://github.com/htmlacademy/codeguide
-demo: http://codeguide.academy
+demo: https://codeguide.academy
 author: htmlacademy
 author_link: https://github.com/htmlacademy
 date: 2024-11-27T22:19:51.171Z

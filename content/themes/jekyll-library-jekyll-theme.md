@@ -1,7 +1,7 @@
 ---
 title: Library Jekyll Theme
 github: https://github.com/alexcarpenter/library-jekyll-theme
-demo: http://alexcarpenter.github.io/library-jekyll-theme/
+demo: https://alexcarpenter.github.io/library-jekyll-theme/
 author: alexcarpenter
 author_link: https://github.com/alexcarpenter
 date: 2024-11-27T10:51:10.963Z

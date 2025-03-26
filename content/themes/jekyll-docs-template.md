@@ -1,7 +1,7 @@
 ---
 title: Jekyll Docs Template
 github: https://github.com/bruth/jekyll-docs-template
-demo: http://bruth.github.io/jekyll-docs-template
+demo: https://bruth.github.io/jekyll-docs-template
 author: bruth
 author_link: https://github.com/bruth
 date: 2024-02-18T07:04:52.098Z

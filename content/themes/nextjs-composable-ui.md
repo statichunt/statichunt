@@ -1,7 +1,7 @@
 ---
 title: Composable Ui
 github: https://github.com/composable-com/composable-ui
-demo: http://composable.com/composable-ui
+demo: https://composable.com/composable-ui
 author: composable-com
 author_link: https://github.com/composable-com
 date: 2024-02-18T07:54:38.783Z

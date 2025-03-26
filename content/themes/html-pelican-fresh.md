@@ -1,7 +1,7 @@
 ---
 title: Pelican Fresh
 github: https://github.com/jsliang/pelican-fresh
-demo: http://jsliang.com/pelican-fresh-demo/blog/
+demo: https://jsliang.com/pelican-fresh-demo/blog/
 author: jsliang
 author_link: https://github.com/jsliang
 date: 2024-11-28T00:56:35.091Z

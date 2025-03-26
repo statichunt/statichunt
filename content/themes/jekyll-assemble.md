@@ -1,7 +1,7 @@
 ---
 title: Assemble
 github: https://github.com/assemble/assemble
-demo: http://assemble.io/
+demo: https://assemble.io/
 author: assemble
 author_link: https://github.com/assemble
 date: 2024-02-18T06:08:06.188Z

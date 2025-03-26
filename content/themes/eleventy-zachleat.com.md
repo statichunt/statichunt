@@ -1,7 +1,7 @@
 ---
 title: Zachleat.com
 github: https://github.com/zachleat/zachleat.com
-demo: http://www.zachleat.com/
+demo: https://www.zachleat.com/
 author: zachleat
 author_link: https://github.com/zachleat
 date: 2024-11-28T23:52:59.914Z

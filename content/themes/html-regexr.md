@@ -1,7 +1,7 @@
 ---
 title: Regexr
 github: https://github.com/gskinner/regexr
-demo: http://regexr.com/
+demo: https://regexr.com/
 author: gskinner
 author_link: https://github.com/gskinner
 date: 2024-11-27T21:18:32.511Z

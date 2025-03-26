@@ -1,7 +1,7 @@
 ---
 title: Taobaokeapi
 github: https://github.com/luzhanbo/taobaokeapi
-demo: http://www.taobaokeapi.com/?from=github
+demo: https://www.taobaokeapi.com/?from=github
 author: luzhanbo
 author_link: https://github.com/luzhanbo
 date: 2024-11-28T03:35:06.057Z

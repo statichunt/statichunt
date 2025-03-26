@@ -1,7 +1,7 @@
 ---
 title: TheCodeShip
 github: https://github.com/aymanfarhat/TheCodeShip
-demo: http://thecodeship.com
+demo: https://thecodeship.com
 author: aymanfarhat
 author_link: https://github.com/aymanfarhat
 date: 2024-11-27T12:35:05.511Z

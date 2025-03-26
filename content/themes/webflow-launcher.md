@@ -1,7 +1,7 @@
 ---
 title: Launcher
 download: https://preview.webflow.com/preview/template-launcher?preview=c45963c193a9f85da82e9c909098d09d
-demo: http://template-launcher.webflow.io/
+demo: https://template-launcher.webflow.io/
 price: 49
 author: "Rowan Hartsuiker"
 date: 2024-12-01T08:39:23.583Z

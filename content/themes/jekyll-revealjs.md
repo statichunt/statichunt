@@ -1,7 +1,7 @@
 ---
 title: Jekyll Revealjs
 github: https://github.com/dploeger/jekyll-revealjs
-demo: http://dploeger.github.io/jekyll-revealjs/
+demo: https://dploeger.github.io/jekyll-revealjs/
 author: dploeger
 author_link: https://github.com/dploeger
 date: 2024-02-18T09:03:50.936Z

@@ -1,7 +1,7 @@
 ---
 title: Foundation Masonry
 github: https://github.com/SteveMcArthur/foundation-masonry
-demo: http://stevemcarthur.github.io/foundation-masonry/
+demo: https://stevemcarthur.github.io/foundation-masonry/
 author: SteveMcArthur
 author_link: https://github.com/SteveMcArthur
 date: 2024-11-28T18:40:51.321Z

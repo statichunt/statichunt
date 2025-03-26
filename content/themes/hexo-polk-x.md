@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Polk X
 github: https://github.com/Leviathan1995/hexo-theme-polk-x
-demo: http://www.leviathan.vip
+demo: https://www.leviathan.vip
 author: Leviathan1995
 author_link: https://github.com/Leviathan1995
 date: 2024-02-18T13:14:51.729Z

@@ -1,7 +1,7 @@
 ---
 title: Emping
 github: https://github.com/rmsubekti/emping
-demo: http://rmsubekti.github.io/emping
+demo: https://rmsubekti.github.io/emping
 author: rmsubekti
 author_link: https://github.com/rmsubekti
 date: 2024-11-28T15:38:41.374Z

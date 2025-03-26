@@ -1,7 +1,7 @@
 ---
 title: Time Nuxt3 Template
 github: https://github.com/time-demon/time-nuxt3-template
-demo: http://souti.timebk.cn/admin
+demo: https://souti.timebk.cn/admin
 author: time-demon
 author_link: https://github.com/time-demon
 date: 2024-11-28T20:22:35.289Z

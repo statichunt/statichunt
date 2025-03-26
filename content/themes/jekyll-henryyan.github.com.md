@@ -1,7 +1,7 @@
 ---
 title: Henryyan.github.com
 github: https://github.com/henryyan/henryyan.github.com
-demo: http://www.kafeitu.me
+demo: https://www.kafeitu.me
 author: henryyan
 author_link: https://github.com/henryyan
 date: 2024-11-27T21:56:02.174Z

@@ -1,7 +1,7 @@
 ---
 title: Lucapette.github.com
 github: https://github.com/lucapette/lucapette.github.com
-demo: http://lucapette.me
+demo: https://lucapette.me
 author: lucapette
 author_link: https://github.com/lucapette
 date: 2024-11-28T03:21:39.306Z

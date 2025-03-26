@@ -1,6 +1,6 @@
 ---
 title: PointX
-download: http://preview.webflow.com/preview/point-saas-multi-layout-template?preview=69a42165f26a8eeb2c4016333aa301fd
+download: https://preview.webflow.com/preview/point-saas-multi-layout-template?preview=69a42165f26a8eeb2c4016333aa301fd
 demo: https://point-saas-multi-layout-template.webflow.io/
 price: 129
 author: "Basecom"

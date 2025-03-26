@@ -1,7 +1,7 @@
 ---
 title: Impress Js Boilerplate
 github: https://github.com/digicademy/impress-js-boilerplate
-demo: http://digicademy.github.io/impress-js-boilerplate/
+demo: https://digicademy.github.io/impress-js-boilerplate/
 author: digicademy
 author_link: https://github.com/digicademy
 date: 2024-11-27T17:17:47.808Z

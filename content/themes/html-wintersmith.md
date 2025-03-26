@@ -1,7 +1,7 @@
 ---
 title: Wintersmith
 github: https://github.com/jnordberg/wintersmith
-demo: http://wintersmith.io/
+demo: https://wintersmith.io/
 author: jnordberg
 author_link: https://github.com/jnordberg
 date: 2024-11-28T00:24:52.170Z

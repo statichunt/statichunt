@@ -1,7 +1,7 @@
 ---
 title: Jekyll Mdl
 github: https://github.com/gdgmanagua/jekyll-mdl
-demo: http://gdgmanagua.github.io/jekyll-mdl
+demo: https://gdgmanagua.github.io/jekyll-mdl
 author: gdgmanagua
 author_link: https://github.com/gdgmanagua
 date: 2024-11-27T20:29:54.737Z

@@ -1,7 +1,7 @@
 ---
 title: Restcookbook
 github: https://github.com/restcookbook/restcookbook
-demo: http://restcookbook.com
+demo: https://restcookbook.com
 author: restcookbook
 author_link: https://github.com/restcookbook
 date: 2024-02-19T05:37:49.979Z

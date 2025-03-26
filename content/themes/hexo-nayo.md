@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Nayo
 github: https://github.com/Lemonreds/hexo-theme-nayo
-demo: http://lemonreds.github.io/
+demo: https://lemonreds.github.io/
 author: Lemonreds
 author_link: https://github.com/Lemonreds
 date: 2024-02-18T13:12:03.410Z

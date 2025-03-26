@@ -2,7 +2,7 @@
 title: Pubcss
 github: https://github.com/thomaspark/pubcss
 demo: >-
-  http://thomaspark.co/2015/01/pubcss-formatting-academic-publications-in-html-css/
+  https://thomaspark.co/2015/01/pubcss-formatting-academic-publications-in-html-css/
 author: thomaspark
 author_link: https://github.com/thomaspark
 date: 2024-11-28T20:14:52.033Z

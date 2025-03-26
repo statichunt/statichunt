@@ -1,7 +1,7 @@
 ---
 title: Modules Template
 github: https://github.com/trallard/Modules-template
-demo: http://bitsandchips.me/Modules-template/
+demo: https://bitsandchips.me/Modules-template/
 author: trallard
 author_link: https://github.com/trallard
 date: 2024-11-28T20:47:22.878Z

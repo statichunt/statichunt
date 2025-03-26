@@ -1,7 +1,7 @@
 ---
 title: PortableJekyll
 github: https://github.com/madhur/PortableJekyll
-demo: http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html
+demo: https://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html
 author: madhur
 author_link: https://github.com/madhur
 date: 2024-02-18T13:39:58.271Z

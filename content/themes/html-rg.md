@@ -1,7 +1,7 @@
 ---
 title: Rg
 github: https://github.com/RiotGear/rg
-demo: http://riotgear.js.org/
+demo: https://riotgear.js.org/
 author: RiotGear
 author_link: https://github.com/RiotGear
 date: 2024-11-28T15:34:05.523Z

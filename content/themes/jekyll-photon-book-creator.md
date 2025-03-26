@@ -1,7 +1,7 @@
 ---
 title: Photon Book Creator
 github: https://github.com/cedricss/photon-book-creator
-demo: http://cedricss.github.io/photon-book-creator/
+demo: https://cedricss.github.io/photon-book-creator/
 author: cedricss
 author_link: https://github.com/cedricss
 date: 2024-02-18T07:21:16.513Z

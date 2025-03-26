@@ -1,7 +1,7 @@
 ---
 title: Clementinejs
 github: https://github.com/johnstonbl01/clementinejs
-demo: http://www.clementinejs.com
+demo: https://www.clementinejs.com
 author: johnstonbl01
 author_link: https://github.com/johnstonbl01
 date: 2024-02-18T12:11:25.968Z

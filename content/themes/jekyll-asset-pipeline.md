@@ -1,7 +1,7 @@
 ---
 title: Jekyll Asset Pipeline
 github: https://github.com/matthodan/jekyll-asset-pipeline
-demo: http://www.matthodan.com/2012/11/22/jekyll-asset-pipeline.html
+demo: https://www.matthodan.com/2012/11/22/jekyll-asset-pipeline.html
 author: matthodan
 author_link: https://github.com/matthodan
 date: 2024-11-28T04:27:06.061Z

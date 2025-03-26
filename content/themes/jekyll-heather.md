@@ -1,7 +1,7 @@
 ---
 title: Heather
 github: https://github.com/jxnblk/Heather
-demo: http://jxnblk.github.io/Heather/
+demo: https://jxnblk.github.io/Heather/
 author: jxnblk
 author_link: https://github.com/jxnblk
 date: 2024-11-28T01:11:30.389Z

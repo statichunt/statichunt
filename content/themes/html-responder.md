@@ -1,7 +1,7 @@
 ---
 title: Responder
 github: https://github.com/kennethreitz/responder
-demo: http://responder.kennethreitz.org/
+demo: https://responder.kennethreitz.org/
 author: kennethreitz
 author_link: https://github.com/kennethreitz
 date: 2024-11-28T01:33:26.877Z

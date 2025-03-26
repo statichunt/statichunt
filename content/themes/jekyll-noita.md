@@ -1,7 +1,7 @@
 ---
 title: Jekyll Noita
 github: https://github.com/doktorbro/jekyll-noita
-demo: http://noita.penibelst.de/
+demo: https://noita.penibelst.de/
 author: doktorbro
 author_link: https://github.com/doktorbro
 date: 2024-11-27T17:39:39.877Z

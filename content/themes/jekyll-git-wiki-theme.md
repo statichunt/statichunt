@@ -1,7 +1,7 @@
 ---
 title: Git Wiki Theme
 github: https://github.com/Drassil/git-wiki-theme
-demo: http://drassil.github.io/git-wiki/
+demo: https://drassil.github.io/git-wiki/
 author: Drassil
 author_link: https://github.com/Drassil
 date: 2024-02-18T09:04:34.112Z

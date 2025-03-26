@@ -1,7 +1,7 @@
 ---
 title: Simple
 github: https://github.com/chuguixin/Simple
-demo: http://jser.it
+demo: https://jser.it
 author: chuguixin
 author_link: https://github.com/chuguixin
 date: 2024-02-18T07:35:08.847Z

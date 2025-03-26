@@ -1,7 +1,7 @@
 ---
 title: Travel_fluid Template
 github: https://github.com/website-templates/travel_fluid-template
-demo: http://website-templates.github.io/travel_fluid-template/
+demo: https://website-templates.github.io/travel_fluid-template/
 author: website-templates
 author_link: https://github.com/website-templates
 date: 2024-11-28T22:30:22.442Z

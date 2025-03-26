@@ -1,7 +1,7 @@
 ---
 title: Arctic Fox Theme
 github: https://github.com/diezcami/arctic-fox-theme
-demo: http://diezcami.github.io/arctic-fox-theme
+demo: https://diezcami.github.io/arctic-fox-theme
 author: diezcami
 author_link: https://github.com/diezcami
 date: 2024-11-27T17:17:18.466Z

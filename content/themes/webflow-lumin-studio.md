@@ -1,6 +1,6 @@
 ---
 title: Lumin Studio
-download: http://preview.webflow.com/preview/lumin-studio-agency?preview=13476ba15fb3b5b439c6ff8b34331388
+download: https://preview.webflow.com/preview/lumin-studio-agency?preview=13476ba15fb3b5b439c6ff8b34331388
 demo: https://lumin-studio-agency.webflow.io/
 price: 49
 author: "WhiteFrame Creative"

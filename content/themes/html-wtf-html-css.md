@@ -1,7 +1,7 @@
 ---
 title: Wtf Html Css
 github: https://github.com/mdo/wtf-html-css
-demo: http://wtfhtmlcss.com
+demo: https://wtfhtmlcss.com
 author: mdo
 author_link: https://github.com/mdo
 date: 2024-11-28T04:44:22.615Z

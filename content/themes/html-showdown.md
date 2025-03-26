@@ -1,7 +1,7 @@
 ---
 title: Showdown
 github: https://github.com/showdownjs/showdown
-demo: http://www.showdownjs.com/
+demo: https://www.showdownjs.com/
 author: showdownjs
 author_link: https://github.com/showdownjs
 date: 2024-11-28T17:25:49.352Z

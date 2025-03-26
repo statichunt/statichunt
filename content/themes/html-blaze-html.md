@@ -1,7 +1,7 @@
 ---
 title: Blaze Html
 github: https://github.com/jaspervdj/blaze-html
-demo: http://jaspervdj.be/blaze
+demo: https://jaspervdj.be/blaze
 author: jaspervdj
 author_link: https://github.com/jaspervdj
 date: 2024-11-27T23:48:55.288Z

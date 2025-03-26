@@ -1,7 +1,7 @@
 ---
 title: Editr.js
 github: https://github.com/Idered/Editr.js
-demo: http://lab.kasper.io/editr/
+demo: https://lab.kasper.io/editr/
 author: Idered
 author_link: https://github.com/Idered
 date: 2024-11-27T22:45:41.199Z

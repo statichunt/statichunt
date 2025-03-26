@@ -1,7 +1,7 @@
 ---
 title: Californiacivicdata.org
 github: https://github.com/palewire/californiacivicdata.org
-demo: http://www.californiacivicdata.org/
+demo: https://www.californiacivicdata.org/
 author: palewire
 author_link: https://github.com/palewire
 date: 2024-11-28T13:05:16.952Z

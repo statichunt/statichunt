@@ -1,7 +1,7 @@
 ---
 title: Json.human.js
 github: https://github.com/marianoguerra/json.human.js
-demo: http://marianoguerra.github.io/json.human.js/
+demo: https://marianoguerra.github.io/json.human.js/
 author: marianoguerra
 author_link: https://github.com/marianoguerra
 date: 2024-11-28T04:08:08.631Z

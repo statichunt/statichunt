@@ -1,7 +1,7 @@
 ---
 title: Templix
 github: https://github.com/redcatphp/templix
-demo: http://redcatphp.com/templix-template-engine
+demo: https://redcatphp.com/templix-template-engine
 author: redcatphp
 author_link: https://github.com/redcatphp
 date: 2024-11-28T15:12:59.874Z

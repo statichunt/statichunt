@@ -1,7 +1,7 @@
 ---
 title: Filterable
 github: https://github.com/lightswitch05/filterable
-demo: http://lightswitch05.github.io/filterable/
+demo: https://lightswitch05.github.io/filterable/
 author: lightswitch05
 author_link: https://github.com/lightswitch05
 date: 2024-11-28T02:55:06.567Z

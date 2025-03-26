@@ -1,7 +1,7 @@
 ---
 title: Guide
 github: https://github.com/screwdriver-cd/guide
-demo: http://docs.screwdriver.cd
+demo: https://docs.screwdriver.cd
 author: screwdriver-cd
 author_link: https://github.com/screwdriver-cd
 date: 2024-11-28T16:49:57.277Z

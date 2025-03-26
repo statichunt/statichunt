@@ -1,7 +1,7 @@
 ---
 title: Chaplin
 github: https://github.com/ankitsultana/Chaplin
-demo: http://ankitsultana.com/Chaplin
+demo: https://ankitsultana.com/Chaplin
 author: ankitsultana
 author_link: https://github.com/ankitsultana
 date: 2024-11-27T11:36:35.153Z

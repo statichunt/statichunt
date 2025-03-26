@@ -1,7 +1,7 @@
 ---
 title: Boilerplate Nuxtjs Ionic4
 github: https://github.com/giordanna/boilerplate-nuxtjs-ionic4
-demo: http://boilerplate-nuxtjs-ionic4.surge.sh/
+demo: https://boilerplate-nuxtjs-ionic4.surge.sh/
 author: giordanna
 author_link: https://github.com/giordanna
 date: 2024-11-27T20:51:06.397Z

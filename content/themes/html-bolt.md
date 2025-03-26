@@ -1,7 +1,7 @@
 ---
 title: Bolt
 github: https://github.com/argyleink/Bolt
-demo: http://argyleink.github.io/Bolt
+demo: https://argyleink.github.io/Bolt
 author: argyleink
 author_link: https://github.com/argyleink
 date: 2024-11-27T12:01:03.109Z

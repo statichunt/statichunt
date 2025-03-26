@@ -1,7 +1,7 @@
 ---
 title: Slime
 github: https://github.com/slime-lang/slime
-demo: http://slime-lang.com
+demo: https://slime-lang.com
 author: slime-lang
 author_link: https://github.com/slime-lang
 date: 2024-11-28T17:50:29.043Z

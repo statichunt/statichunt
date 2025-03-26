@@ -1,7 +1,7 @@
 ---
 title: Beautiful Hexo
 github: https://github.com/twoyao/beautiful-hexo
-demo: http://twoyao.github.io/beautiful-hexo
+demo: https://twoyao.github.io/beautiful-hexo
 author: twoyao
 author_link: https://github.com/twoyao
 date: 2024-11-28T21:04:28.388Z

@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Primer
 github: https://github.com/justpsvm/hexo-theme-primer
-demo: http://yumexupanic.github.io/hexo-theme-primer/
+demo: https://yumexupanic.github.io/hexo-theme-primer/
 author: justpsvm
 author_link: https://github.com/justpsvm
 date: 2024-11-28T01:09:05.936Z

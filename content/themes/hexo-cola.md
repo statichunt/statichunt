@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Cola
 github: https://github.com/Aizener/hexo-theme-cola
-demo: http://yangxiang.cc
+demo: https://yangxiang.cc
 author: Aizener
 author_link: https://github.com/Aizener
 date: 2024-02-18T04:55:46.448Z

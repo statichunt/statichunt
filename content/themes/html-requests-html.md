@@ -1,7 +1,7 @@
 ---
 title: Requests Html
 github: https://github.com/psf/requests-html
-demo: http://html.python-requests.org
+demo: https://html.python-requests.org
 author: psf
 author_link: https://github.com/psf
 date: 2024-11-28T14:18:03.677Z

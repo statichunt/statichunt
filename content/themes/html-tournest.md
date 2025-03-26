@@ -1,7 +1,7 @@
 ---
 title: TourNest
 github: https://github.com/themesine/TourNest
-demo: http://demo.themesine.com
+demo: https://demo.themesine.com
 author: themesine
 author_link: https://github.com/themesine
 date: 2024-11-28T20:05:44.320Z

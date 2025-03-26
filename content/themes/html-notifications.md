@@ -1,7 +1,7 @@
 ---
 title: Html5 Notifications
 github: https://github.com/boyvanamstel/html5-notifications
-demo: http://www.dangercove.com/html5-notifications
+demo: https://www.dangercove.com/html5-notifications
 author: boyvanamstel
 author_link: https://github.com/boyvanamstel
 date: 2024-11-27T13:40:39.424Z

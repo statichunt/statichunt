@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Ylion
 github: https://github.com/GeekaholicLin/hexo-theme-ylion
-demo: http://blog.geekaholic.cn
+demo: https://blog.geekaholic.cn
 author: GeekaholicLin
 author_link: https://github.com/GeekaholicLin
 date: 2024-11-27T20:31:24.105Z

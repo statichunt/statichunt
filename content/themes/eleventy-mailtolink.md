@@ -1,7 +1,7 @@
 ---
 title: Mailtolink
 github: https://github.com/mckeever02/mailtolink
-demo: http://mailtolink.me
+demo: https://mailtolink.me
 author: mckeever02
 author_link: https://github.com/mckeever02
 date: 2024-11-28T04:40:05.205Z

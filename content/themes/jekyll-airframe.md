@@ -5,7 +5,7 @@ demo: https://airframe.vercel.app/
 author: 0wczar
 author_link: https://github.com/0wczar
 date: 2023-11-26T07:30:52.339Z
-description: Free SaaS template for Projects and Tasks http://airframe.vercel.app
+description: Free SaaS template for Projects and Tasks https://airframe.vercel.app
 ssg:
   - Jekyll
 css:

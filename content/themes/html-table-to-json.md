@@ -1,7 +1,7 @@
 ---
 title: Table To Json
 github: https://github.com/lightswitch05/table-to-json
-demo: http://lightswitch05.github.io/table-to-json/
+demo: https://lightswitch05.github.io/table-to-json/
 author: lightswitch05
 author_link: https://github.com/lightswitch05
 date: 2024-11-28T02:55:09.166Z

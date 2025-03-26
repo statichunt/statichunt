@@ -1,7 +1,7 @@
 ---
 title: Jekyll Org
 github: https://github.com/eggcaker/jekyll-org
-demo: http://eggcaker.github.io/jekyll-org
+demo: https://eggcaker.github.io/jekyll-org
 author: eggcaker
 author_link: https://github.com/eggcaker
 date: 2024-02-18T09:17:06.622Z

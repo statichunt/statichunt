@@ -1,7 +1,7 @@
 ---
 title: Wtf Forms
 github: https://github.com/mdo/wtf-forms
-demo: http://wtfforms.com
+demo: https://wtfforms.com
 author: mdo
 author_link: https://github.com/mdo
 date: 2024-11-28T04:44:18.039Z

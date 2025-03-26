@@ -1,7 +1,7 @@
 ---
 title: Ace
 github: https://github.com/aliou/ace
-demo: http://aliou.github.io/ace/
+demo: https://aliou.github.io/ace/
 author: aliou
 author_link: https://github.com/aliou
 date: 2024-11-27T11:01:28.130Z

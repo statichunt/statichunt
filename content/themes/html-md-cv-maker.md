@@ -1,7 +1,7 @@
 ---
 title: Md Cv Maker
 github: https://github.com/Lissy93/md-cv-maker
-demo: http://aliciasykes.com/cv/
+demo: https://aliciasykes.com/cv/
 author: Lissy93
 author_link: https://github.com/Lissy93
 date: 2024-11-28T03:01:56.156Z

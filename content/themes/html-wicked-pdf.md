@@ -1,7 +1,7 @@
 ---
 title: Wicked_pdf
 github: https://github.com/mileszs/wicked_pdf
-demo: http://www.mileszs.com/wicked-pdf-plugin
+demo: https://www.mileszs.com/wicked-pdf-plugin
 author: mileszs
 author_link: https://github.com/mileszs
 date: 2024-11-28T05:24:02.061Z

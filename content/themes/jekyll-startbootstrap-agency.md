@@ -1,7 +1,7 @@
 ---
 title: Jekyll Theme Startbootstrap Agency
 github: https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency
-demo: http://www.vrachas.com/jekyll-theme-startbootstrap-agency/
+demo: https://www.vrachas.com/jekyll-theme-startbootstrap-agency/
 author: SotiriosVrachas
 author_link: https://github.com/SotiriosVrachas
 date: 2024-11-28T18:08:15.085Z

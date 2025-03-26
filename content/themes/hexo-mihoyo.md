@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme MiHoYo
 github: https://github.com/redhat123456/hexo-theme-MiHoYo
-demo: http://mihoyo.tanger.ltd/
+demo: https://mihoyo.tanger.ltd/
 author: redhat123456
 author_link: https://github.com/redhat123456
 date: 2024-11-28T15:13:25.718Z

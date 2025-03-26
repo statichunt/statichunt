@@ -1,7 +1,7 @@
 ---
 title: Jekyll Sitemap
 github: https://github.com/jekyll/jekyll-sitemap
-demo: http://rubygems.org/gems/jekyll-sitemap
+demo: https://rubygems.org/gems/jekyll-sitemap
 author: jekyll
 author_link: https://github.com/jekyll
 date: 2024-11-28T00:03:09.406Z

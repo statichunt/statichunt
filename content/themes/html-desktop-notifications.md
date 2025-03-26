@@ -1,7 +1,7 @@
 ---
 title: HTML5 Desktop Notifications
 github: https://github.com/ttsvetko/HTML5-Desktop-Notifications
-demo: http://ttsvetko.github.io/HTML5-Desktop-Notifications/
+demo: https://ttsvetko.github.io/HTML5-Desktop-Notifications/
 author: ttsvetko
 author_link: https://github.com/ttsvetko
 date: 2024-11-28T20:58:46.778Z

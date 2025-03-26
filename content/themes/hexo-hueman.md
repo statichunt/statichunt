@@ -1,7 +1,7 @@
 ---
 title: Hexo Theme Hueman
 github: https://github.com/ppoffice/hexo-theme-hueman
-demo: http://ppoffice.github.io/hexo-theme-hueman/
+demo: https://ppoffice.github.io/hexo-theme-hueman/
 author: ppoffice
 author_link: https://github.com/ppoffice
 date: 2024-11-28T14:02:27.603Z

@@ -1,7 +1,7 @@
 ---
 title: Initializr
 github: https://github.com/verekia/initializr
-demo: http://initializr.com
+demo: https://initializr.com
 author: verekia
 author_link: https://github.com/verekia
 date: 2024-11-28T21:41:06.114Z

@@ -1,7 +1,7 @@
 ---
 title: Up
 github: https://github.com/caarlos0-graveyard/up
-demo: http://carlosbecker.com/posts/up-a-jekyll-theme/
+demo: https://carlosbecker.com/posts/up-a-jekyll-theme/
 author: caarlos0-graveyard
 author_link: https://github.com/caarlos0-graveyard
 date: 2024-11-27T14:09:34.282Z

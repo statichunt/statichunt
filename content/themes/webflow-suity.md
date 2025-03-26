@@ -1,6 +1,6 @@
 ---
 title: Suity
-download: http://preview.webflow.com/preview/suity-template?preview=d95e4acefa5fc5c93d6f547cf4d49270
+download: https://preview.webflow.com/preview/suity-template?preview=d95e4acefa5fc5c93d6f547cf4d49270
 demo: https://suity-template.webflow.io/
 price: 49
 author: "Eclipse SRL"

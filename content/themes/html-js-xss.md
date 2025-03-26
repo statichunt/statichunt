@@ -1,7 +1,7 @@
 ---
 title: Js Xss
 github: https://github.com/leizongmin/js-xss
-demo: http://jsxss.com
+demo: https://jsxss.com
 author: leizongmin
 author_link: https://github.com/leizongmin
 date: 2024-11-28T02:40:03.876Z
