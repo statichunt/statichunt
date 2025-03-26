@@ -1,6 +1,6 @@
 ---
 title: Folio Html Bootstrap
-github: https://github.com/PixelRocket-Shop/folio-html-bootstrap
+github: https://github.com/PixelRocket-Shop/folio-html-bootstrap/
 demo: https://folio-html-bootstrap.vercel.app/index.html
 author: PixelRocket-Shop
 author_link: https://github.com/PixelRocket-Shop

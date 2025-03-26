@@ -1,6 +1,6 @@
 ---
 title: Oldskool Html Bootstrap
-github: https://github.com/PixelRocket-Shop/oldskool-html-bootstrap
+github: https://github.com/PixelRocket-Shop/oldskool-html-bootstrap/
 demo: https://oldskool-html-bootstrap.vercel.app/
 author: PixelRocket-Shop
 author_link: https://github.com/PixelRocket-Shop

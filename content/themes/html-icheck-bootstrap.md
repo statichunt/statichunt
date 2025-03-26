@@ -1,6 +1,6 @@
 ---
 title: Icheck Bootstrap
-github: https://github.com/bantikyan/icheck-bootstrap
+github: https://github.com/bantikyan/icheck-bootstrap/
 demo: https://bantikyan.github.io/icheck-bootstrap/
 author: bantikyan
 author_link: https://github.com/bantikyan

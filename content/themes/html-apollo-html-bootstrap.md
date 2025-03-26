@@ -1,6 +1,6 @@
 ---
 title: Apollo Html Bootstrap
-github: https://github.com/PixelRocket-Shop/apollo-html-bootstrap
+github: https://github.com/PixelRocket-Shop/apollo-html-bootstrap/
 demo: https://apollo-html-bootstrap.vercel.app
 author: PixelRocket-Shop
 author_link: https://github.com/PixelRocket-Shop

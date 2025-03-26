@@ -1,6 +1,6 @@
 ---
 title: Kavlan Html Bootstrap
-github: https://github.com/PixelRocket-Shop/kavlan-html-bootstrap
+github: https://github.com/PixelRocket-Shop/kavlan-html-bootstrap/
 demo: https://kavlan-html-bootstrap.vercel.app
 author: PixelRocket-Shop
 author_link: https://github.com/PixelRocket-Shop

@@ -1,9 +1,9 @@
 ---
 title: PUG Bootstrap
-github: https://github.com/pug-bootstrap/PUG-Bootstrap
+github: https://github.com/pug-bootstrap/PUG-bootstrap/
 demo: https://pug-bootstrap.github.io/PUG-Bootstrap/
-author: pug-bootstrap
-author_link: https://github.com/pug-bootstrap
+author: pug-bootstrap/
+author_link: https://github.com/pug-bootstrap/
 date: 2024-11-28T14:20:34.364Z
 description: Bootstrap framework written completely using mixins in Pug
 ssg:

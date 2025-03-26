@@ -1,6 +1,6 @@
 ---
 title: Play Bootstrap
-github: https://github.com/adrianhurt/play-bootstrap
+github: https://github.com/adrianhurt/play-bootstrap/
 demo: https://adrianhurt.github.io/play-bootstrap/
 author: adrianhurt
 author_link: https://github.com/adrianhurt

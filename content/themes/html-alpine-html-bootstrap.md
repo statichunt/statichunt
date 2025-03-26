@@ -1,6 +1,6 @@
 ---
 title: Alpine Html Bootstrap
-github: https://github.com/PixelRocket-Shop/alpine-html-bootstrap
+github: https://github.com/PixelRocket-Shop/alpine-html-bootstrap/
 demo: https://alpine-html-bootstrap.vercel.app
 author: PixelRocket-Shop
 author_link: https://github.com/PixelRocket-Shop

@@ -1,6 +1,6 @@
 ---
 title: Document Bootstrap
-github: https://github.com/gfranko/Document-Bootstrap
+github: https://github.com/gfranko/Document-bootstrap/
 demo: https://gregfranko.com/Document-Bootstrap/
 author: gfranko
 author_link: https://github.com/gfranko
