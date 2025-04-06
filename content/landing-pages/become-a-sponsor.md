@@ -110,11 +110,6 @@ current_sponsors:
       logo_darkmode: "/sponsors/logos/themeselection-darkmode.png"
       url: "https://themeselection.com/?ref=133"
 
-    - name: "WrapPixel"
-      logo: "/sponsors/logos/wrappixel.png"
-      logo_darkmode: "/sponsors/logos/wrappixel-darkmode.png"
-      url: "https://www.wrappixel.com/?ref=317"
-
     - name: "Shadcnblocks"
       logo: "/sponsors/logos/shadcnblocks.png"
       logo_darkmode: "/sponsors/logos/shadcnblocks-darkmode.png"
@@ -152,6 +147,11 @@ previous_sponsors:
       logo: "/sponsors/logos/tremor.png"
       logo_darkmode: "/sponsors/logos/tremor-darkmode.png"
       url: "https://tremor.so/"
+
+    - name: "WrapPixel"
+      logo: "/sponsors/logos/wrappixel.png"
+      logo_darkmode: "/sponsors/logos/wrappixel-darkmode.png"
+      url: "https://www.wrappixel.com/?ref=317"
 
 call_to_action:
   enable: true
