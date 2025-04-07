@@ -1,5 +1,5 @@
-import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { markdownify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
 import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 

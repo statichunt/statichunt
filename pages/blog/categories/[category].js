@@ -1,9 +1,9 @@
 import Base from "@/layouts/Baseof";
-import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import Posts from "@/layouts/Posts";
 import { getSinglePage } from "@/lib/contentParser";
 import { getTaxonomy } from "@/lib/taxonomyParser";
 import { humanize, slugify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
 import { sortByDate } from "lib/utils/sortFunctions";
 
 // category page

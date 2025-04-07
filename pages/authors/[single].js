@@ -1,9 +1,9 @@
 import Base from "@/layouts/Baseof";
 import Themes from "@/layouts/Themes";
-import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import { getSinglePage } from "@/lib/contentParser";
 import { parseMDX } from "@/lib/utils/mdxParser";
 import { markdownify, slugify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
 import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import { FaGithub, FaSquareXTwitter } from "react-icons/fa6";

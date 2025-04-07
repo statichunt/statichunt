@@ -6,7 +6,6 @@ import useThemesSort from "@/hooks/useThemesSort";
 import Base from "@/layouts/Baseof";
 import Default from "@/layouts/Default";
 import ExampleTaxonomy from "@/layouts/ExampleTaxonomy";
-import MobileSidebar from "@/layouts/partials/MobileSidebar";
 import ThemeTaxonomy from "@/layouts/ThemeTaxonomy";
 import ToolTaxonomy from "@/layouts/ToolTaxonomy";
 import {
@@ -19,6 +18,7 @@ import setOthersCategory from "@/lib/setOthersCategory";
 import { parseMDX } from "@/lib/utils/mdxParser";
 import { sortOrder } from "@/lib/utils/sortFunctions";
 import { slugify } from "@/lib/utils/textConverter";
+import MobileSidebar from "@/partials/MobileSidebar";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 

@@ -1,4 +1,6 @@
+import Announcement from "@/components/Announcement";
 import HomeCategory from "@/components/HomeCategory";
+import HomeSort from "@/components/HomeSort";
 import Intro from "@/components/Intro";
 import PricingFilter from "@/components/PricingFilter";
 import Sidebar from "@/components/Sidebar";
@@ -9,8 +11,6 @@ import usePricingFilter from "@/hooks/usePricingFilter";
 import useThemesSort from "@/hooks/useThemesSort";
 import Base from "@/layouts/Baseof";
 import Themes from "@/layouts/Themes";
-import Announcement from "@/layouts/components/Announcement";
-import HomeSort from "@/layouts/components/HomeSort";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
 import setOthersCategory from "@/lib/setOthersCategory";
 import { sortOrder } from "@/lib/utils/sortFunctions";

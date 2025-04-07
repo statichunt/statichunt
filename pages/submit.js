@@ -1,7 +1,7 @@
 import ExampleSubmit from "@/components/product-submit/ExampleSubmit";
+import ThemeSubmit from "@/components/product-submit/ThemeSubmit";
 import ToolSubmit from "@/components/product-submit/ToolSubmit";
 import Base from "@/layouts/Baseof";
-import ThemeSubmit from "@/layouts/components/product-submit/ThemeSubmit";
 import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import MobileSidebar from "@/partials/MobileSidebar";

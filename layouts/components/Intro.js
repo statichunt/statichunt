@@ -7,9 +7,7 @@ const Intro = ({ data, themeCount, className }) => {
     `${Math.floor(themeCount / 50) * 50}+`,
   );
   return (
-    <div
-      className={`mt-4 shadow rounded-md p-4 lg:p-6 flex flex-wrap md:flex-nowrap mb-10 md:mb-16 ${className}`}
-    >
+    <div className={`mt-4 mb-10 md:mb-16 ${className}`}>
       <div className="lg:mr-3 mb-4 lg:mb-0">
         <h1 className="mb-3">
           {data.title_start}{" "}

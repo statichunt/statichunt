@@ -1,6 +1,6 @@
+import PlanFilter from "@/components/PlanFilter";
 import Sidebar from "@/components/Sidebar";
 import Base from "@/layouts/Baseof";
-import PlanFilter from "@/layouts/components/PlanFilter";
 import Tools from "@/layouts/Tools";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
